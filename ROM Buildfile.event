@@ -1,0 +1,55 @@
+#ifdef _FE8_
+    #include "EAstdlib.event"
+    #include "Custom Definitions.event"
+
+    ORG FreeSpace
+    PROTECT EndOfFreeSpace // Prevent overflow of data.
+    //Text first for Text ID definitions
+    #include "Text/Install Text Data.event"
+    ALIGN 4
+    MESSAGE Used text space ends at currentOffset
+
+    //Graphics
+    #include "Graphics/Master Graphics Installer.event"
+    ALIGN 4
+    #include "Mugs/Mug Installer.event"
+
+    //CSV tables
+    #include "Tables/Table Installer.event"
+    MESSAGE Used table space ends at currentOffset
+
+    //Engine Hacks
+    #include "Engine Hacks/_MasterHackInstaller.event"
+    MESSAGE Used hax space ends at currentOffset
+
+    //Events
+    #include "Events/Master Events Installer.event"
+    #include "Events/World Map Events Installer.event"
+
+    //Maps
+    #include "Maps/FixedValni.event"
+    #include "Maps/Cave Tileset/Cave Tileset Installer.event"
+    #include "Maps/FE6 Snow Tileset/FE6 Snow Installer.event"
+    #include "Maps/Master Map Installer.event"
+
+    //Palettes
+    #include "Battle Palettes/Palette Setup.event"
+	
+/*
+		PUSH
+	ORG 0x59BA97
+	BYTE -3
+
+	ORG 0x59BAA7
+	BYTE -3
+
+	ORG 0x59BAB7
+	BYTE -3
+	POP
+
+    MESSAGE Used free space ends at currentOffset
+    MESSAGE Proc_Counter
+#else
+    ERROR You are not assembling FE8 events!
+#endif
+*/

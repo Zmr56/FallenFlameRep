@@ -1,0 +1,11 @@
+#ifdef __INLINE_SKILL_ICON_TABLE__
+ALIGN 4
+SkillIcons:
+ORG 16*16/2*0xFF+SkillIcons
+ALIGN 4
+#endif
+
+#define SkillIconOffset(skillID) 16*16/2*skillID+SkillIcons
+
+ORG SkillIconOffset(AxefaithID)
+#incext Png2Dmp "Skill Icons\Axefaith.png"

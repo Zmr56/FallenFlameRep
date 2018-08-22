@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="17" height="12" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="2e002f30" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="2e002f30.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="17" height="12">
+  <properties>
+   <property name="Anims" value="0x5"/>
+   <property name="ChapterID" value="0x7"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0x23"/>
+   <property name="MapID" value="0x22"/>
+   <property name="ObjectType1" value="0x2E"/>
+   <property name="PaletteID" value="0x2F"/>
+   <property name="TileConfig" value="0x30"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxlUqtOQ0EUPHdXIYoggKGO4DBYaDAEwQ80gaQJCfAPNBBMqeQDMNRw6y6f0DYpBkRxODAowGDwzOTMZm+KmMzuntk5j90ymu2ZWQN8U5gdBbMNnV3r7MQcVXAdY31wD1yC18HN4OD6EtwGHoBHxMfwmBTuO0N8gPUq8Iv1heV8dTBXV36nAvOxnndwx9yzZxn0YX2pTmpfQva7ku4A58tA1J6x48KZdXG9JLC/RcVK1ck82yH3nHJOpGP8G7ot7N/AX8CneS1VyD3eBq+xMdf/Pvb35qB+AZpnrJ+AMbCC/UizSHfSG1AfdVbKp6V77I261xpGlt+/rd6Irmrj/aH57M5i9k7+9JiCNxkDPmq9JG3yaKrONeUbqIa7ubejH//NVJ4xZo+hZV36l33lioql/8D1Lvgc2hbwE/NMqvDfg3NN4Fx2avM4DN7/H7NAVZQ=
+  </data>
+ </layer>
+ <layer name="LeftWall" width="17" height="12" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="3"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="10"/>
+   <property name="Y" value="8"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4BykDzQDqATAABc6ABk
+  </data>
+ </layer>
+ <layer name="RightWall" width="17" height="12" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="4"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="13"/>
+   <property name="Y" value="9"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DwgeSBdgAOAAA9+ABk
+  </data>
+ </layer>
+ <layer name="LeftHouse" width="17" height="12" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="0x1"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="3"/>
+   <property name="Y" value="8"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A4wMY80C4YeAAADFEACg==
+  </data>
+ </layer>
+ <layer name="RightHouse" width="17" height="12" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="2"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="16"/>
+   <property name="Y" value="11"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUEAPYmBkYAANRAAo=
+  </data>
+ </layer>
+</map>

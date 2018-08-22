@@ -1,0 +1,205 @@
+#include EAstdlib.event
+EventPointerTable(0x0D, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 WaveFirst[2,0] 0x0
+TURN 0x0 WaveSecond[3,0] 0x0
+TURN 0x0 WaveThird[4,0] 0x0
+TURN 0x0 WaveFourth[5,0] 0x0
+TURN 0x0 WaveFifth[6,0] 0x0
+TURN 0x0 WaveSixth[7,0] 0x0
+TURN 0x0 WaveSeventh[8,0] 0x0
+TURN 0xA EndingScene [10,0] 0x0
+END_MAIN
+
+WaveFirst:
+ReinforcementEvent(Wave1)
+ENDA
+
+WaveSecond:
+ReinforcementEvent(Wave2)
+ENDA
+
+WaveThird:
+ReinforcementEvent(Wave3)
+ENDA
+
+WaveFourth:
+ReinforcementEvent(Wave4)
+ENDA
+
+WaveFifth:
+ReinforcementEvent(Wave5)
+ENDA
+
+WaveSixth:
+ReinforcementEvent(Wave6)
+ENDA
+
+WaveSeventh:
+ReinforcementEvent(Wave7)
+ENDA
+
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+CharacterBasedEvents:
+CharacterEventBothWays(0x7, RecruitTalk, Eirika, Colm)
+END_MAIN
+
+RecruitTalk:
+MUSS 0x30
+Text(PlaceholderText)
+REMA
+CUSA Colm//Cato joins the party!
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
+
+LocationBasedEvents:
+Chest(HandAxe,13,0)
+Chest(AngelicRobe,14,0)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Traps1:
+END_MAIN
+
+Traps2:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [7,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [6,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Gilliam Knight Eirika Level(1, Ally, 0) [8,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Franz Fighter Eirika Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Moulder Archer Eirika Level(1, Ally, 0) [9,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Vanessa Cleric Eirika Level(1, Ally, 0) [8,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Ross Thief Eirika Level(1, Ally, 0) [6,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Neimi Cavalier_F Eirika Level(1, Ally, 0) [6,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+FatNoble:
+UNIT 0x46 Peer 0x00 Level(1, NPC, 0) [7,6] 0x00 0x00 0x0 0x00 [0x00] DoNothing 
+UNIT
+
+Bad:
+UNIT 0x80 Knight Zonta Level(3, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
+UNIT 0x80 Knight Zonta Level(3, Enemy, 1) [3,4] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
+UNIT 0x80 Cavalier Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Archer Zonta Level(3, Enemy, 1) [14,7] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT 0x80 Archer Zonta Level(3, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT 0x80 Pirate Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Colm Shaman Zonta Level(4, Enemy, 0) [7,2] 0x00 0x00 0x0 0x00 [Flux, Nosferatu] PursueWithoutHeedAI 
+UNIT Zonta Fighter 0x00 Level(5, Enemy, 0) [0,8] 0x00 0x00 0x0 0x00 [SteelAxe, HandAxe, Hammer, EnergyRing] PursueWithoutHeedAI 
+UNIT
+
+Wave1:
+UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT
+
+Wave2:
+UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Pirate Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT
+
+Wave3:
+UNIT 0x80 Pirate Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Archer Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x80 Thief Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronSword] LootingThiefAI 
+UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT
+
+Wave4:
+UNIT 0x80 Archer Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [HandAxe] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
+UNIT
+
+Wave5:
+UNIT 0x80 Knight Zonta Level(3, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT 0x80 Knight Zonta Level(3, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT
+
+Wave6:
+UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT
+
+Wave7:
+UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT
+
+BeginningScene:
+LABEL 0x1
+LOAD3 0x1 Units1
+ENUN
+LOAD1 0x1 Bad
+ENUN
+LOAD1 0x1 FatNoble
+ENUN
+NoFade
+ENDA
+
+EndingScene:
+Text(PlaceholderText)
+//TODO
+MNCH 0x03
+NoFade
+ENDA

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="01000203" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../../WeeklyBlitz/Maps/FE8/01000203.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Main" width="15" height="10">
+  <properties>
+   <property name="Anims1" value="5"/>
+   <property name="ChapterID" value="0"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="6"/>
+   <property name="MapID" value="4"/>
+   <property name="ObjectType1" value="1"/>
+   <property name="PaletteID" value="2"/>
+   <property name="TileConfig" value="3"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxNkj0vg1EUx0/vM9R7kRBh6+QlSgSDFWlJJMWgnREPnaRBLaaS2GwYm5AgweobWERS9DsYROpt97s5J2mHX87L/Z9zz3PuE3ciSSiJSCs2Dl8RkfZApB8GYBBeyU2iqdRRJLeIvgV/Gftk8Sj6FMzBPPyQ70WTrattI7+E9hD/CKr4RdE45GwTtqARmiBGvge6YAJ24I2+a9hbasvYBuIovONfwCUkIQ9pSEEG+uAX3Qx2WtSGxIlILS7Tc8TON6zHCnNkIBvofmKB9k/AKtxTc+V0Jj9vB+edsIu/hy3AfqD7GSZ3ArP4advdNyyQi9qsU7arUzRncA6PxM8wBDn0VWh2uvdjqw2h22q9/gHNH+cV+LRv8neWyOecvsO1zePfuYA98PvmvjHicdvNHbq80//kg/gF1tFtw43U3tnf+w8vNkCT
+  </data>
+ </layer>
+ <layer name="VD" width="15" height="10" visible="0">
+  <properties>
+   <property name="Height" value="3"/>
+   <property name="ID" value="0"/>
+   <property name="Width" value="3"/>
+   <property name="X" value="7"/>
+   <property name="Y" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYMANOpgZGDqBuIsZjyIcYAVQz0ogXkWG3hNAPSeB+BQZekfB4AAA1ZoGDQ==
+  </data>
+ </layer>
+ <layer name="VS" width="15" height="10" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="1"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="8"/>
+   <property name="Y" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBicQHGgHTAKKAIAPBgAIg==
+  </data>
+ </layer>
+</map>

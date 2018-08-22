@@ -1,0 +1,147 @@
+
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.0.0.0                              //
+// Game: FE8                                      //
+// File: FE8_clean.gba                            //
+// Offset: $9EC66C                                //
+//                                                //
+////////////////////////////////////////////////////
+
+EventPointerTable(0xa, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 WaveFirst[2,0] 0x0
+TURN 0x0 WaveSecond[5,0] 0x0
+TURN 0x0 WaveThird[9,0] 0x0
+END_MAIN
+
+WaveFirst:
+ReinforcementEvent(Wave1)
+ENDA
+
+WaveSecond:
+ReinforcementEvent(Wave2)
+ENDA
+
+WaveThird:
+ReinforcementEvent(Wave3)
+ENDA
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Chest(Lightning,5,13)
+Chest(Mend,6,13)
+Village(0x7,VillageSlayer,1,7)
+Village(0x8,VillageBow,6,7)
+Armory(ArmoryList, 6, 3)
+END_MAIN
+
+VillageBow:
+VillageEventItem(PlaceholderText, Village, Longbow)
+
+VillageSlayer:
+VillageEventItem(PlaceholderText, Village, Horseslayer)
+
+ArmoryList:
+SHLI IronSword IronLance IronAxe IronBow SteelBow
+
+ALIGN 4
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Traps1:
+END_MAIN
+
+Traps2:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [1,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Gilliam Knight Eirika Level(1, Ally, 0) [1,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Franz Fighter Eirika Level(1, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Moulder Archer Eirika Level(1, Ally, 0) [0,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+NewCrew:
+UNIT Vanessa Cleric Eirika Level(5, Ally, 0) [1,0] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI 
+UNIT Ross Thief Eirika Level(3, Ally, 0) [2,0] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] NoAI 
+UNIT Neimi Cavalier_F Eirika Level(1, Ally, 0) [3,1] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
+UNIT
+
+Bad:
+UNIT Orson_Ch5x Pirate 0x00 Level(4, Enemy, 0) [9,13] 0x00 0x00 0x0 0x00 [SteelAxe, HandAxe] AttackInRangeAI 
+UNIT 0x80 Shaman Orson_Ch5x Level(3, Enemy, 1) [4,12] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 Shaman Orson_Ch5x Level(3, Enemy, 1) [11,12] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 Fighter Orson_Ch5x Level(3, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
+UNIT 0x80 Fighter Orson_Ch5x Level(3, Enemy, 1) [12,12] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
+UNIT 0x80 Shaman Orson_Ch5x Level(2, Enemy, 1) [6,5] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Pirate Orson_Ch5x Level(2, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Mercenary Orson_Ch5x Level(2, Enemy, 1) [3,8] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Archer Orson_Ch5x Level(2, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Archer Orson_Ch5x Level(2, Enemy, 1) [9,9] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Archer Orson_Ch5x Level(2, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Mercenary Orson_Ch5x Level(2, Enemy, 1) [14,7] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Mercenary Orson_Ch5x Level(2, Enemy, 1) [10,2] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Pirate Orson_Ch5x Level(2, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Pirate Orson_Ch5x Level(2, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Mercenary Orson_Ch5x Level(3, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
+UNIT
+
+Wave1:
+UNIT 0x80 Brigand Orson_Ch5x Level(4, Enemy, 1) [12,14] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT
+
+Wave2:
+UNIT 0x80 Brigand Orson_Ch5x Level(4, Enemy, 1) [1,13] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT
+
+Wave3:
+UNIT 0x80 WyvernRider Orson_Ch5x Level(5, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Orson_Ch5x Level(5, Enemy, 1) [13,1] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT
+
+BeginningScene:
+LOAD3 0x1 Units1
+ENUN
+LOAD1 0x1 NewCrew
+ENUN
+LOAD1 0x1 Bad
+ENUN
+NoFade
+ENDA
+
+EndingScene:
+MNCH 0x2
+NoFade
+ENDA

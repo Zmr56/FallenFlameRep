@@ -1,0 +1,5 @@
+#include "Tools/Tool Helpers.txt"
+
+//Null_Mug:
+//#incext PortraitFormatter "Null.png"
+//setMugEntry(0x4, Null_Mug, 3, 5, 3, 3)
