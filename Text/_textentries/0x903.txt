@@ -1,0 +1,2 @@
+#first text ID in the free block
+[OpenMidLeft][LoadFace][WrenPortrait]This is placeholder text![A][X]

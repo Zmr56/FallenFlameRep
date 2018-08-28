@@ -6,14 +6,15 @@
     PROTECT EndOfFreeSpace // Prevent overflow of data.
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
-    ALIGN 4
+	ALIGN 4
     MESSAGE Used text space ends at currentOffset
 
-    //Graphics
+	//Graphics
     #include "Graphics/Master Graphics Installer.event"
+	ALIGN 4
+	#include "Mugs/Mug Installer.event"
     ALIGN 4
-    #include "Mugs/Mug Installer.event"
-
+	
     //CSV tables
     #include "Tables/Table Installer.event"
     MESSAGE Used table space ends at currentOffset
@@ -27,29 +28,13 @@
     #include "Events/World Map Events Installer.event"
 
     //Maps
-    #include "Maps/FixedValni.event"
-    #include "Maps/Cave Tileset/Cave Tileset Installer.event"
-    #include "Maps/FE6 Snow Tileset/FE6 Snow Installer.event"
     #include "Maps/Master Map Installer.event"
-
-    //Palettes
+    
+	//Palettes
     #include "Battle Palettes/Palette Setup.event"
 	
-/*
-		PUSH
-	ORG 0x59BA97
-	BYTE -3
-
-	ORG 0x59BAA7
-	BYTE -3
-
-	ORG 0x59BAB7
-	BYTE -3
-	POP
-
     MESSAGE Used free space ends at currentOffset
     MESSAGE Proc_Counter
 #else
     ERROR You are not assembling FE8 events!
 #endif
-*/

@@ -4,6 +4,9 @@ HP Bars[.][X]
 # 0x00B2
 Set health bar display[X]
 
+# 0x160 PrologueChName
+Boss Rush[X]
+
 #0x3A LearnedSkillText
 #first text ID in the free block
 Learned  [X]
@@ -12,26 +15,30 @@ Learned  [X]
 
 #include "unitmenu_text.txt"
 
-#include "chapter_names.txt"
+## VillageText
+[MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
 
 #0x903 PlaceholderText
 #first text ID in the free block
-[OpenMidLeft][LoadFace][VedgePortrait]This is placeholder text![A][X]
+[OpenMidLeft][LoadFace][WrenPortrait]This is placeholder text![A][X]
+
+## DV1Desc
+Freeze all enemies[N]
+for one turn[X]
 
 ## nameCamus
+#for identity problems
 Camus[X]
-
-## nameZeke
-Zeke[X]
 
 ## nameSirius
 Sirius[X]
 
-## UM_Debug
- Debug[X]
+## nameZeke
+Zeke[X]
+
+#include "skilldesc_text.txt"
 
 #include "character_text.txt"
-#include "item_text.txt"
-#include "skilldesc_text.txt"
-#include "Chapter Text/Chapter_Text.txt"
-#include "class_text.txt"
+
+## UM_Debug
+ Debug[X]

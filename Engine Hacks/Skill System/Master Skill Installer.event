@@ -317,22 +317,15 @@ CriticalIDList:
 BYTE CriticalForceID KillingMachineID
 ALIGN 4
 
-AxefaithHit:
-#incbin "Blade Skills/Axefaith.dmp"
-POIN SkillTester
-WORD AxeFaithID
-
 LethalitySkill:
 #incbin "Other Skills/LethalitySkill.dmp"
 POIN SkillTester
 WORD LethalityID
 
 Armsthrift:
-AxeFaithArmsthrift:
-ArmsthriftAxeFaith:
-#incbin "Other Skills/armsthriftaxefaith.dmp"
+#incbin "Other Skills/Armsthrift.dmp"
 POIN SkillTester|1
-WORD ArmsthriftID AxeFaithID
+WORD ArmsthriftID
 
 CritUpSkill:
 #incbin "Other Skills/CritUpSkill.dmp"
@@ -392,9 +385,9 @@ POIN SkillTester
 WORD TraceID
 POIN Skill_Getter
 
-#inctext lyn "PowerGemCritUp.elf"
-PowerGemLynLink:
-BYTE PowerGem
+#inctext lyn "Stances/Stances.elf"
+StanceSkillList:
+BYTE BracingStanceID DartingStanceID FierceStanceID KestrelStanceID MirrorStanceID ReadyStanceID SteadyStanceID SturdyStanceID SwiftStanceID WardingStanceID SpectrumStanceID
 ALIGN 4
 
 #include "Other Skills/RandomMugs.event"

@@ -11,7 +11,7 @@
 PUSH
   //Include essential fixes and autopatches
   #include "_FE8EssentialFixes.event"
-
+  
   // Debug Startup Screen
   #ifdef __DEBUG__
     ORG 0x000AD8   // this is somewhere in the startup routine
@@ -55,20 +55,11 @@ ORG FreeSpaceBLRange //defined in custom definitions
   #incbin "MSS/rtext_page4.dmp"
   POIN RText_Page4
 
-  #include "Range Fix/Range Fix BL.event"
-
 #undef inBLRange
 POP
 
 ////////////////////////////////FREE SPACE OUT OF BL RANGE
 //start of Free space
-
-  //Check if current character has the specified item: (Written for chapter 5)
-  #inctext lyn "CheckItem.elf"
-  
-  //Weapon/Staff Range Fix
-  #include "Range Fix/Range Fix Install.event"
-
 
   //HP Bars (and effective weapon warning)
   #include "HPbars.txt"
@@ -100,27 +91,14 @@ POP
   //Stat Screens palette by allegiance
   // #include "StatScreenAllegiance.event"
 
-  //Allow Supply to be used in Prologue/Ch6:
+  //Allow Supply to be used in Prologue:
   PUSH
   ORG $23f6e //Access Supply
   SHORT 0
 
   ORG $31646 //send to supply
   SHORT 0
-
-  ORG $31650 //Usable in chapter 6
-  SHORT 0x46C0
-
-  //Change poison damage
-  //Set constant damage to 4
-  ORG 0x25A3E
-  SHORT 0x3304
-  //Set variable damage to 0
-  ORG 0x25A36
-  SHORT 0x2000
-
   POP
-
 
   //Send list of items in Slot 1 to convoy
   SendToConvoy:
@@ -152,18 +130,7 @@ POP
   FreezeAllASMC:
   #incbin "ASM/freezeall.dmp"
 
-  // Chapter 27 ASMC-able functions
   ALIGN 4
-  gChapter27FogLevel:
-    WORD Ch27FogLevel
-  
-  #include "CCBlitzChapter27Asmcs.lyn.event"
-  
-  ALIGN 4
-  //We are installing new descriptions/icons.
-  #define __USE_ICON_MACROS__
-  //But do not inline the table (we have a .csv for that)
-  //#define __INLINE_SKILL_ICON_TABLE__
   #include "Skill System/Master Skill Installer.event"
 
   ALIGN 4
@@ -172,10 +139,10 @@ POP
   ALIGN 4
   #include "MSG/InstallCore.event"
   #include "MSG/InstallHelpers.event"
-
+  
   ALIGN 4
   #include "StatGetters/_InstallStatGetters.event"
-
+  
   ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
   // #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
@@ -194,27 +161,26 @@ POP
   POIN Offscreen_Levelup
 
   // DismountMount hack
-  ALIGN 4
-  DismountRoutine:
-  #incbin "DismountMount Code/Dismount Routine.dmp"
-  POIN ClassTable
-  POIN MountedClassTable
+  //ALIGN 4
+  //DismountRoutine:
+  //#incbin "DismountMount Code/Dismount Routine.dmp"
+  //POIN ClassTable
+  //POIN MountedClassTable
 
-  DismountUsability:
-  #incbin "DismountMount Code/Dismount Usability Routine.dmp"
-  POIN MountedClassTable
+  //DismountUsability:
+  //#incbin "DismountMount Code/Dismount Usability Routine.dmp"
+  //POIN MountedClassTable
 
-  MountRoutine:
-  #incbin "DismountMount Code/Mount Routine.dmp"
-  POIN ClassTable
-  POIN MountedClassTable
+  //MountRoutine:
+  //#incbin "DismountMount Code/Mount Routine.dmp"
+  //POIN ClassTable
+  //POIN MountedClassTable
 
-  MountUsability:
-  #incbin "DismountMount Code/Mount Usability Routine.dmp"
-  POIN MountedClassTable
+  //MountUsability:
+  //#incbin "DismountMount Code/Mount Usability Routine.dmp"
+  //POIN MountedClassTable
 
-
-  //Repoint Unit Menu
+ //Repoint Unit Menu
   PUSH
     ORG $59D1F8
     POIN UnitMenuTable
@@ -289,8 +255,8 @@ POP
   // MenuCommand(UMText_Switch,UMText_SwitchDesc,GreenText,SwitchUsability,SwitchCommand)   //switch
   UM_Drop
 
-  MenuCommand(UMText_Transform, UMText_TransformDesc, BlueText, DismountUsability, DismountRoutine)
-  MenuCommand(UMText_Revert, UMText_RevertDesc, BlueText, MountUsability, MountRoutine)
+ // MenuCommand(UMText_Transform, UMText_TransformDesc, BlueText, DismountUsability, DismountRoutine)
+ //MenuCommand(UMText_Revert, UMText_RevertDesc, BlueText, MountUsability, MountRoutine)
 
   UM_Item
   UM_Trade

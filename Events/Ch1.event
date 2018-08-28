@@ -127,8 +127,8 @@ UNIT 0x80 Brigand Orson_Ch5x Level(4, Enemy, 1) [1,13] 0x00 0x00 0x0 0x00 [Steel
 UNIT
 
 Wave3:
-UNIT 0x80 WyvernRider Orson_Ch5x Level(5, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
-UNIT 0x80 WyvernRider Orson_Ch5x Level(5, Enemy, 1) [13,1] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Orson_Ch5x Level(5, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Orson_Ch5x Level(5, Enemy, 1) [13,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT
 
 BeginningScene:

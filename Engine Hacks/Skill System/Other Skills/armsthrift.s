@@ -6,7 +6,6 @@ _ReturnLocation = 0x0802B828+1
 
 LUnitHasSkill      = EALiterals+0x00
 LArmsthriftSkillID = EALiterals+0x04
-LAxefaithSkillID   = EALiterals+0x08
 
 @ Hook from 0802B7F8
 ArmsthriftHook:
@@ -35,7 +34,7 @@ NonMiss:
 	bl BXR3
 
 	cmp r0, #0        @ compare result
-	beq NonArmsthrift @ goto NonArmsthrift if zero (unit does not have armsthrift)
+	beq NonArmsthrift @ goto NonArmsthrift if zero (unit doesn't have armsthrift)
 
 	@ Getting Armsthrift proc chance (=luck)
 	ldrb r0, [r5, #0x19] @ BattleUnit.luck

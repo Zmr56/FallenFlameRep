@@ -3,11 +3,6 @@ PUSH
   ORG $AC188
   POIN NewDifficultyButtons
 
-  ORG $8AEFE4
-  BYTE 2 //make eirika use anims for axe not swd
-  ORG $8AEFFC
-  BYTE 2 //same for promo
-
   ORG $aac58c //clearing dragon palette to only use 1 colour
   BYTE $90 $42 $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A
 POP
@@ -15,26 +10,7 @@ POP
 NewDifficultyButtons:
 #incext Png2Dmp "difficulty.png" --lz77
 
-PUSH
-ORG 0x5926F4+(0x80*PiercingBowIconID)
-#incext Png2Dmp "PiercingBow.png"
-ORG 0x5926F4+(0x80*HuntersBowIconID)
-#incext Png2Dmp "HuntersBow.png"
-ORG 0x5926F4+(0x80*RunicBowIconID)
-#incext Png2Dmp "RunicBow.png"
-
-ORG 0x5926F4+(0x80*DragonshardIconID)
-#incext Png2Dmp "Dragonshard.png"
-
-ORG 0x5926F4+(0x80*AnimaCaliburIconID)
-#incext Png2Dmp "AnimaCalibur.png"
-ORG 0x5926F4+(0x80*LightCaliburIconID)
-#incext Png2Dmp "LightCalibur.png"
-ORG 0x5926F4+(0x80*SwordCaliburIconID)
-#incext Png2Dmp "SwordCalibur.png"
-ORG 0x5926F4+(0x80*BowCaliburIconID)
-#incext Png2Dmp "BowCalibur.png"
-POP
+#include "Master Animation Installer.event"
 
 //Stat screen
 PUSH

@@ -1,10 +1,32 @@
-EirikaLordSkillList:
-BYTE 10 RightfulKingID
-BYTE 20 SolID
+EphraimLordSkillList:
+// BYTE 1 OddRhythmID
+//BYTE 10 BondID
+BYTE 10 HeroesDeathBlowID
+BYTE 20 AetherID
 BYTE 00 00
 ALIGN 4
 
-VoidPromotionSkillList:
+EirikaLordSkillList:
+BYTE 255 MoonbowID
+// BYTE 10 EvenRhythmID
+BYTE 10 RightfulKingID
+BYTE 20 BondID
+BYTE 00 00
+ALIGN 4
+
+EphraimGreatLordSkillList:
+BYTE 255 BondID
+BYTE 255 AetherID //255 means "automatically given to prepromotes"
+// BYTE 255 SmiteID
+BYTE 5 RallySpectrumID
+BYTE 15 AxebreakerID
+BYTE 00 00
+ALIGN 4
+
+EirikaGreatLordSkillList:
+BYTE 255 BondID
+BYTE 255 AetherID
+// BYTE 255 SmiteID
 BYTE 5 NihilID
 BYTE 15 LancebreakerID
 BYTE 00 00
@@ -14,7 +36,6 @@ CavalierSkillList:
 BYTE 1 DisciplineID
 BYTE 10 ElbowRoomID
 BYTE 00 00
-ALIGN 4
 
 PaladinSkillList:
 BYTE 255 DisciplineID //learned if spawning
@@ -25,13 +46,17 @@ BYTE 00 00
 ALIGN 4
 
 KnightSkillList:
-BYTE 5 StrongRiposteID
+BYTE 1 ProvokeID
+// BYTE 1 SlowBurnID
+BYTE 10 NaturalCoverID
 BYTE 00 00
 ALIGN 4
 
 GeneralSkillList:
-BYTE 255 StrongRiposteID
-BYTE 10 WaryFighterID
+BYTE 255 ProvokeID
+BYTE 255 NaturalCoverID
+BYTE 5 WaryFighterID
+BYTE 15 PaviseID
 BYTE 00 00
 ALIGN 4
 
@@ -42,24 +67,30 @@ BYTE 00 00
 ALIGN 4
 
 MercenarySkillList:
-BYTE 5 QuickDrawID
+BYTE 1 RallyStrID
+BYTE 10 SealSpdID
 BYTE 00 00
 ALIGN 4
 
 HeroSkillList:
-BYTE 255 QuickDrawID
-BYTE 10 SolID
+BYTE 255 RallyStrID
+BYTE 255 SealSpdID
+BYTE 5 SolID
+BYTE 15 AxebreakerID
 BYTE 00 00
 ALIGN 4
 
 MyrmidonSkillList:
-BYTE 5 DesperationID
+BYTE 1 DuelistsBlowID
+BYTE 10 VantageID
 BYTE 00 00
 ALIGN 4
 
 SwordmasterSkillList:
-BYTE 255 DesperationID
-BYTE 10 SwordfaireID
+BYTE 255 DuelistsBlowID
+BYTE 255 VantageID
+BYTE 5 AstraID
+BYTE 15 SwordfaireID
 BYTE 00 00
 ALIGN 4
 
@@ -72,21 +103,24 @@ BYTE 00 00
 ALIGN 4
 
 ArcherSkillList:
-BYTE 5 CertainBlowID
+BYTE 1 CertainBlowID
+BYTE 10 SureShotID
 BYTE 00 00
 ALIGN 4
 
 SniperSkillList:
 BYTE 255 CertainBlowID
-BYTE 10 BowfaireID
+BYTE 255 SureShotID
+BYTE 5 BowfaireID
+BYTE 15 GaleforceID
 BYTE 00 00
 ALIGN 4
 
 RangerSkillList:
 BYTE 255 CertainBlowID
-BYTE 255 QuickDrawID
+BYTE 255 SureShotID
 BYTE 5 CantoPlusID
-BYTE 15 GaleforceID
+BYTE 15 BowbreakerID
 BYTE 00 00
 ALIGN 4
 

@@ -4,3 +4,10 @@ Wren[X]
 ## descWren
 Noblewoman with much skill.[N]
 Fights for justice and truth.[X]
+
+## nameHuginn
+Huginn[X]
+
+## descHuginn
+Gofaullian mercenary hired by Wren.[N]
+Talks little but cares for comrades.[X]

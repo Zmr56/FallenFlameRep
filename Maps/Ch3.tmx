@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="18" height="18" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="18" height="18" tilewidth="16" tileheight="16" nextobjectid="1">
  <tileset firstgid="1" name="FE8 - Fields - 01000203" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="01000203.png" width="512" height="512"/>
  </tileset>
@@ -8,10 +8,10 @@
    <property name="Anims1" value="0x05"/>
    <property name="ChapterID" value="0x03"/>
    <property name="Main" value=""/>
-   <property name="MapChangesId" value="0x13"/>
+   <property name="MapChangesID" value="0x13"/>
    <property name="MapID" value="0x11"/>
    <property name="ObjectType1" value="0x01"/>
-   <property name="PaletteId" value="0x02"/>
+   <property name="PaletteID" value="0x02"/>
    <property name="TileConfig" value="0x03"/>
   </properties>
   <data encoding="base64" compression="zlib">
