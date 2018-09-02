@@ -1,7 +1,7 @@
 #define csvmacro000(arg000) "BYTE arg000 "
 
-#inctext PFinder "C:\Users\lenovo Z70\Desktop\Zaim\FE Hacking 2\SkillSystem_FE8-master\FE8_clean.gba" 0xe47180 ClassSkillTable
-
+PUSH
+POP
 ALIGN 4
 ClassSkillTable:
 csvmacro000(0x0)

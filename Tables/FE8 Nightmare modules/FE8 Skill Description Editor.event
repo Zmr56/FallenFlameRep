@@ -1,7 +1,7 @@
 #define csvmacro004(arg000) "SHORT arg000 "
 
-#inctext PFinder "C:\Users\lenovo Z70\Desktop\Zaim\FE Hacking 2\SkillSystem_FE8-master\FE8_clean.gba" 0xe47180 SkillDescTable
-
+PUSH
+POP
 ALIGN 4
 SkillDescTable:
 csvmacro004(0x0)

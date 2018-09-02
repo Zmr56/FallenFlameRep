@@ -1,7 +1,7 @@
 #define csvmacro001(arg000) "WORD arg000 "
 
-#inctext PFinder "C:\Users\lenovo Z70\Desktop\Zaim\FE Hacking 2\SkillSystem_FE8-master\FE8_clean.gba" 0xe47180 LevelUpSkillTable
-
+PUSH
+POP
 ALIGN 4
 LevelUpSkillTable:
 csvmacro001(0x0)

@@ -1,8 +1,10 @@
-#define csvmacro021(arg000,arg001,arg002,arg003,arg004,arg005,arg006) "BYTE arg000 arg001 arg002 arg003 arg004 ;SHORT arg005 ;WORD arg006 "
+#define csvmacro023(arg000,arg001,arg002,arg003,arg004,arg005,arg006) "BYTE arg000 arg001 arg002 arg003 arg004 ;SHORT arg005 ;WORD arg006 "
 
-#inctext PFinder "C:\Users\lenovo Z70\Desktop\Zaim\FE Hacking 2\SkillSystem_FE8-master\FE8_clean.gba" 0x9ecd4c NewDeathQuoteTable
-
+PUSH
+ORG $8472C
+POIN NewDeathQuoteTable
+POP
 ALIGN 4
 NewDeathQuoteTable:
-csvmacro021(0x46,0x0 0xff,0xff,0x65,0x0,PlaceholderText,0x0)
-csvmacro021(0xff,0xff 0x0,0x0,0x0,0x0,0,0)
+csvmacro023(0x46,0x0 0xff,0xff,0x65,0x0,PlaceholderText,0x0)
+csvmacro023(0xff,0xff 0x0,0x0,0x0,0x0,0,0)

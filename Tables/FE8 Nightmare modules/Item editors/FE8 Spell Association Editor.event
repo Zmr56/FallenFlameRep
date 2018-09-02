@@ -1,7 +1,11 @@
 #define csvmacro016(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009) "SHORT arg000 arg001 ;BYTE arg002 arg003 ;SHORT arg004 ;WORD arg005 ;BYTE arg006 arg007 arg008 arg009 "
 
-#inctext PFinder "C:\Users\lenovo Z70\Desktop\Zaim\FE Hacking 2\SkillSystem_FE8-master\FE8_clean.gba" 0x8afbd8 SpellAssociationTable
-
+PUSH
+ORG $58014
+POIN SpellAssociationTable
+ORG $78240
+POIN SpellAssociationTable
+POP
 ALIGN 4
 SpellAssociationTable:
 csvmacro016(IronSword,2,0xff,0xff,0x0,0x0,0x1,0x0,0x0,0x0)
