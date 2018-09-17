@@ -45,3 +45,5 @@
 #define Sarai 0xA
 #define Rudyard 0xB
 #define Adela 0xC
+
+#define Vicks Entombed_boss

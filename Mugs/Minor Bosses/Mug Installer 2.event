@@ -1,0 +1,5 @@
+#include "Tools/Tool Helpers.txt"
+
+Vicks_Mug:
+#incext PortraitFormatter "Vicks.png"
+setMugEntry(0x9A, Vicks_Mug, 3, 5, 3, 3)

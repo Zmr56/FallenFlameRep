@@ -89,7 +89,7 @@ UNIT 0x80 Ranger Bazba Level(4, Enemy, 1) [4,6] 0x00 0x00 0x0 0x00 [SteelBow] At
 UNIT 0x80 Soldier Bazba Level(4, Enemy, 1) [1,5] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI  
 UNIT 0x80 Shaman Bazba Level(4, Enemy, 1) [7,7] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
 UNIT 0x80 Shaman Bazba Level(4, Enemy, 1) [6,8] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI
-UNIT Bazba Shaman 0x00 Level(8, Enemy, 0) [2,2] 0x00 0x00 0x0 0x00 [HolyDragonStone] GuardTileAI
+UNIT Bazba Shaman 0x00 Level(8, Enemy, 0) [2,2] 0x00 0x00 0x0 0x00 [Flux, HolyDragonStone] GuardTileAI
 UNIT
 
 NorthBad:
@@ -108,7 +108,7 @@ UNIT 0x80 Fighter Bazba Level(4, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [HandAxe] 
 UNIT 0x80 Fighter Bazba Level(4, Enemy, 1) [17,7] 0x00 0x00 0x0 0x00 [HandAxe] AttackInRangeAI 
 UNIT 0x80 Myrmidon Bazba Level(4, Enemy, 1) [11,1] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
 UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [12,6] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT Entombed_boss WyvernRider Bazba Level(6, Enemy, Bazba) [5,0] 0x00 0x00 0x0 0x00 [HandAxe] PursueWithoutHeedAI 
+UNIT Vicks WyvernRider Bazba Level(6, Enemy, 0) [5,0] 0x00 0x00 0x0 0x00 [HandAxe] PursueWithoutHeedAI 
 UNIT
 
 Wave1:

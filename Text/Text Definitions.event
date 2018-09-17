@@ -211,4 +211,6 @@
 #define descWren 0x9ae
 #define nameHuginn 0x9af
 #define descHuginn 0x9b0
-#define UM_Debug 0x9b1
+#define nameVicks 0x9b1
+#define descVicks 0x9b2
+#define UM_Debug 0x9b3

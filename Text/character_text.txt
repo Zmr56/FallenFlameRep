@@ -11,3 +11,10 @@ Huginn[X]
 ## descHuginn
 Gofaullian mercenary hired by Wren.[N]
 Talks little but cares for comrades.[X]
+
+## nameVicks
+Vicks[X]
+
+## descVicks
+An experienced wyvern rider with a[N]
+keen eye. Composed and focused.[X]

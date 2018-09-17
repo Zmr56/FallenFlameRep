@@ -63,16 +63,16 @@ Lyon's Summon,0x0
 -,0x0
 Knoll's Summon,0x0
 Ewan's Summon,0x0
-Lyon (Ch 17),0x0
+Lyon (Ch 17),IntimidateID
 Morva (Ch 20),0x0
-Orson (Ch 5x),0x0
-Valter (Ch 15),0x0
-Selena (Ch 10B & 13B),0x0
+Orson (Ch 5x),PragmaticID
+Valter (Ch 15),ArmoredBlowID
+Selena (Ch 10B & 13B),QuickDrawID
 Valter (Prologue),0x0
 Breguet (Ch 1),0x0
 Bone (Ch 2),0x0
-Bazba (Ch 3),0x0
-Entombed (Ch 4),0x0
+Bazba (Ch 3),FieryBloodID
+Vicks,AnathemaID
 Saar (Ch 5),0x0
 Novala (Ch 6),0x0
 Murray (Ch 7),0x0
@@ -105,7 +105,7 @@ Brigand,0x0
 -,0x0
 O'Neill (Prologue),0x0
 Glen (Cutscene),0x0
-Zonta (Ch 5x),0x0
+Zonta (Ch 5x),SavageBlowID
 Vigarde (Ch 14B),0x0
 Lyon (Ch Final),0x0
 Orson (Ch 16),0x0

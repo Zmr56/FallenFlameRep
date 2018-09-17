@@ -1,0 +1,5 @@
+#include "Tools/Tool Helpers.txt"
+
+Huginn_Mug:
+#incext PortraitFormatter "Huginn.png"
+setMugEntry(0x6, Huginn_Mug, 3, 4, 3, 2)
