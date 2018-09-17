@@ -5,7 +5,7 @@ HP Bars[.][X]
 Set health bar display[X]
 
 # 0x160 PrologueChName
-Boss Rush[X]
+Prologue[X]
 
 #0x3A LearnedSkillText
 #first text ID in the free block

@@ -225,7 +225,7 @@ Charm: Allies within 2[N]
 tiles deal +2 damage.[X]
 
 ## SD_VoiceOfPeace
-Voice of Peace: Enemies within[N]
+Vertguard: Enemies within[N]
 2 tiles deal -2 damage.[X]
 
 ## SD_Amaterasu

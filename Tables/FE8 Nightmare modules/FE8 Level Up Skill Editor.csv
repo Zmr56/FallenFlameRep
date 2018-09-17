@@ -4,10 +4,10 @@ INLINE LevelUpSkillTable,Skill Pointer
 0x02 Eirika Lord,EirikaLordSkillList|IsPointer
 0x03 Ephraim Great Lord,EphraimGreatLordSkillList|IsPointer
 0x04 Eirika Great Lord,EirikaGreatLordSkillList|IsPointer
-0x05 Cavalier,CavalierSkillList|IsPointer
-0x06 Cavalier (F),CavalierSkillList|IsPointer
-0x07 Paladin,PaladinSkillList|IsPointer
-0x08 Paladin (F),PaladinSkillList|IsPointer
+0x05 Cavalier,SwdCavalierSkillList|IsPointer
+0x06 Cavalier (F),LncCavalierSkillList|IsPointer
+0x07 Paladin,MPaladinSkillList|IsPointer
+0x08 Paladin (F),FPaladinSkillList|IsPointer
 0x09 Armour Knight,KnightSkillList|IsPointer
 0x0A Armour Knight (F),KnightSkillList|IsPointer
 0x0B General,GeneralSkillList|IsPointer

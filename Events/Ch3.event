@@ -56,7 +56,7 @@ UNIT 0x80 Shaman Valter_Prologue Level(4, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [No
 UNIT 0x80 Soldier Valter_Prologue Level(4, Enemy, 1) [3,8] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
 UNIT 0x80 Cavalier Valter_Prologue Level(4, Enemy, 1) [4,10] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 Cavalier Valter_Prologue Level(4, Enemy, 1) [3,10] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Valter_Prologue Level(4, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x80 WyvernRider Valter_Prologue Level(4, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
 UNIT 0x80 Myrmidon Valter_Prologue Level(4, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
 UNIT 0x80 Myrmidon Valter_Prologue Level(4, Enemy, 1) [3,0] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
 UNIT 0x80 Myrmidon Valter_Prologue Level(4, Enemy, 1) [11,6] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
@@ -65,8 +65,37 @@ UNIT 0x80 Cavalier_F Valter_Prologue Level(4, Enemy, 1) [9,5] 0x00 0x00 0x0 0x00
 UNIT Valter_Prologue Mercenary 0x00 Level(6, Enemy, 0) [1,15] 0x00 0x00 0x0 0x00 [WindSword] AttackInRangeAI 
 UNIT
 
+Wave1:
+UNIT 0x80 Pirate Valter_Prologue Level(3, Enemy, 1) [17,17] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
+UNIT
+
+Wave2:
+UNIT 0x80 Brigand Valter_Prologue Level(3, Enemy, 1) [7,8] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
+UNIT
+
+Wave3:
+UNIT 0x80 Shaman Valter_Prologue Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Valter_Prologue Level(3, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Valter_Prologue Level(3, Enemy, 1) [4,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT
+
 TurnBasedEvents:
+TURN 0x0 WaveFirst[3,0] 0x0
+TURN 0x0 WaveSecond[4,0] 0x0
+TURN 0x0 WaveThird[6,0] 0x0
 END_MAIN
+
+WaveFirst:
+ReinforcementEvent(Wave1)
+ENDA
+
+WaveSecond:
+ReinforcementEvent(Wave2)
+ENDA
+
+WaveThird:
+ReinforcementEvent(Wave3)
+ENDA
 
 ALIGN 32
 
