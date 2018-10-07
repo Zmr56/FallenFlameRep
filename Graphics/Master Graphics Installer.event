@@ -29,3 +29,8 @@ NewStatScreenPal:
 
 RemoveGlowy:
 #incext Png2Dmp "RemoveGlowy.png" --lz77
+
+PUSH
+ORG 0x5926F4+(0x80*0xCA)
+#incext Png2Dmp "Vampus.png"
+POP

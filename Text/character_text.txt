@@ -5,12 +5,82 @@ Wren[X]
 Noblewoman with much skill.[N]
 Fights for justice and truth.[X]
 
+## nameWigbrand
+Wigbrand[X]
+
+## descWigbrand
+Wren's loyal guardian. An[N]
+excellent swordsman and rider.[X]
+
+## nameShamira
+Shamira[X]
+
+## descShamira
+A ferciously loyal Knight with[N]
+great lance work. Orvar's sister.[X]
+
 ## nameHuginn
 Huginn[X]
 
 ## descHuginn
 Gofaullian mercenary hired by Wren.[N]
 Talks little but cares for comrades.[X]
+
+## nameOrvar
+Orvar[X]
+
+## descOrvar
+A free spirited and carefree archer.[N]
+Shamira's younger brother.[X]
+
+## nameLuz
+Luz[X]
+
+## descLuz
+A clerc with a fiery spirit. Guided[N]
+by her strong sense of justice.[X]
+
+## nameGad
+Gad[X]
+
+## descGad
+A thief wanting to turn a new leaf.[N]
+Has a number of connections.[X]
+
+## nameNanami
+Nanami[X]
+
+## descNanami
+One of Wren's best friends who also[N]
+sees Shamira as an idol.[X]
+
+## nameCato
+Cato[X]
+
+## descCato
+Gofaullian shaman. Has since lost[N]
+his status of village chieftain.[X]
+
+## nameSarai
+Sarai[X]
+
+## descSarai
+One of Wren's best friends. Enjoys[N]
+riding her pegasus that was a gift.[X]
+
+## nameRudyard
+Rudyard[X]
+
+## descRudyard
+A rider who goes wherever the wind[N]
+takes him. Hides a big secret.[X]
+
+## nameAdela
+Adela[X]
+
+## descAdela
+A reserved and introverted noble[N]
+woman. Misses her brother dearly.[X]
 
 ## nameVicks
 Vicks[X]

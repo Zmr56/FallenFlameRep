@@ -112,8 +112,8 @@ UNIT Vicks WyvernRider Bazba Level(6, Enemy, 0) [5,0] 0x00 0x00 0x0 0x00 [HandAx
 UNIT
 
 Wave1:
-UNIT 0x80 Brigand Valter_Prologue Level(3, Enemy, 1) [19,1] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI
-UNIT 0x80 Brigand Valter_Prologue Level(3, Enemy, 1) [21,1] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI  
+UNIT 0x80 Brigand Bazba Level(3, Enemy, 1) [19,1] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI
+UNIT 0x80 Brigand Bazba Level(3, Enemy, 1) [21,1] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI  
 UNIT
 
 BeginningScene:

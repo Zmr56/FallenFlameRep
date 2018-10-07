@@ -29,7 +29,7 @@
 
 #define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
-//Class definitions
+// Class definitions
 #define WrenLord 0x2
 
 // Unit definitions
@@ -47,3 +47,11 @@
 #define Adela 0xC
 
 #define Vicks Entombed_boss
+#define Sawine Orson_Ch5x
+#define Rhud Selena_Ch10B_and_13B
+#define Attab Valter_Prologue
+
+// Item definitions
+#define Vampus 0xC2
+
+#define VampusIconID 0xCA

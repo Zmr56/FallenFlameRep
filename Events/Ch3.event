@@ -35,48 +35,48 @@ UNIT Garcia PegasusKnight Eirika Level(1, Ally, 0) [17,2] 0x00 0x00 0x0 0x00 [Ir
 UNIT
 
 SouthBad:
-UNIT 0x80 Knight Selena_Ch10B_and_13B Level(4, Enemy, 1) [16,10] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Knight Selena_Ch10B_and_13B Level(4, Enemy, 1) [15,10] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Shaman Selena_Ch10B_and_13B Level(4, Enemy, 1) [13,14] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT Innes Cavalier Selena_Ch10B_and_13B Level(4, Enemy, 0) [7,13] 0x00 0x00 0x0 0x00 [SteelSword, Longsword] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier_F Selena_Ch10B_and_13B Level(4, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [IronLance, Javelin] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Selena_Ch10B_and_13B Level(4, Enemy, 1) [11,9] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Fighter Selena_Ch10B_and_13B Level(4, Enemy, 1) [14,15] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Fighter Selena_Ch10B_and_13B Level(4, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Knight Selena_Ch10B_and_13B Level(4, Enemy, 1) [5,15] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Shaman Selena_Ch10B_and_13B Level(4, Enemy, 1) [5,17] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
-UNIT Selena_Ch10B_and_13B Knight 0x00 Level(6, Enemy, 0) [0,16] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI 
+UNIT 0x80 Knight Rhud Level(4, Enemy, 1) [16,10] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
+UNIT 0x80 Knight Rhud Level(4, Enemy, 1) [15,10] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
+UNIT 0x80 Shaman Rhud Level(4, Enemy, 1) [13,14] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT Innes Cavalier Rhud Level(4, Enemy, 0) [7,13] 0x00 0x00 0x0 0x00 [SteelSword, Longsword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Rhud Level(4, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [IronLance, Javelin] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Rhud Level(4, Enemy, 1) [11,9] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Fighter Rhud Level(4, Enemy, 1) [14,15] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Fighter Rhud Level(4, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Knight Rhud Level(4, Enemy, 1) [5,15] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
+UNIT 0x80 Shaman Rhud Level(4, Enemy, 1) [5,17] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT Rhud Knight 0x00 Level(6, Enemy, 0) [0,16] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI 
 UNIT
 
 NorthBad:
-UNIT 0x80 Fighter Valter_Prologue Level(4, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
-UNIT 0x80 Fighter Valter_Prologue Level(4, Enemy, 1) [6,3] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
-UNIT 0x80 Archer Valter_Prologue Level(4, Enemy, 1) [1,11] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
-UNIT 0x80 Shaman Valter_Prologue Level(4, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
-UNIT 0x80 Soldier Valter_Prologue Level(4, Enemy, 1) [3,8] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Cavalier Valter_Prologue Level(4, Enemy, 1) [4,10] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier Valter_Prologue Level(4, Enemy, 1) [3,10] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Valter_Prologue Level(4, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Myrmidon Valter_Prologue Level(4, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Myrmidon Valter_Prologue Level(4, Enemy, 1) [3,0] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Myrmidon Valter_Prologue Level(4, Enemy, 1) [11,6] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Soldier Valter_Prologue Level(4, Enemy, 1) [12,7] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x80 Cavalier_F Valter_Prologue Level(4, Enemy, 1) [9,5] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT Valter_Prologue Mercenary 0x00 Level(6, Enemy, 0) [1,15] 0x00 0x00 0x0 0x00 [WindSword] AttackInRangeAI 
+UNIT 0x80 Fighter Attab Level(4, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
+UNIT 0x80 Fighter Attab Level(4, Enemy, 1) [6,3] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
+UNIT 0x80 Archer Attab Level(4, Enemy, 1) [1,11] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
+UNIT 0x80 Shaman Attab Level(4, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 Soldier Attab Level(4, Enemy, 1) [3,8] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
+UNIT 0x80 Cavalier Attab Level(4, Enemy, 1) [4,10] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Attab Level(4, Enemy, 1) [3,10] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Attab Level(4, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Myrmidon Attab Level(4, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Myrmidon Attab Level(4, Enemy, 1) [3,0] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Myrmidon Attab Level(4, Enemy, 1) [11,6] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Soldier Attab Level(4, Enemy, 1) [12,7] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x80 Cavalier_F Attab Level(4, Enemy, 1) [9,5] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT Attab Mercenary 0x00 Level(6, Enemy, 0) [1,15] 0x00 0x00 0x0 0x00 [WindSword] AttackInRangeAI 
 UNIT
 
 Wave1:
-UNIT 0x80 Pirate Valter_Prologue Level(3, Enemy, 1) [17,17] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
+UNIT 0x80 Pirate Attab Level(3, Enemy, 1) [17,17] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
 UNIT
 
 Wave2:
-UNIT 0x80 Brigand Valter_Prologue Level(3, Enemy, 1) [7,8] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
+UNIT 0x80 Brigand Attab Level(3, Enemy, 1) [7,8] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
 UNIT
 
 Wave3:
-UNIT 0x80 Shaman Valter_Prologue Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Valter_Prologue Level(3, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Valter_Prologue Level(3, Enemy, 1) [4,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Attab Level(3, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Attab Level(3, Enemy, 1) [4,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
 UNIT
 
 TurnBasedEvents:
