@@ -14,7 +14,7 @@
    <property name="TileConfig" value="0x1A"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJyNk79KA0EQh/cuhaQzxiewURu7CJba+RrapBPB+BBGCITE3sYgJhEE7S1E8B+aoIK9WGihxEobv2FnuWXZyBUfM7M7v53Z27mf1JhfeIMHGPzDR2JMpWDMjLHMEz+yfpBkOffeOb7/rtolpUj8zHonh1bOXyxkvKS2rq/9hO+I3wm0VeIFeE2y84uwxV4NtmGW+JD9K+3ZaevcedfY7+C0N/gt9tqwBz3iW7iDI9hXu4lux9h8p73G38CeojuDsiI509hhauNVdBORug3pG57ImVJcjviSN4euH9QVv+RpHG59oHrpuwv9HNqvoO45rOOvee84zFlX7u1w7zvSHJkL34b3bY6ZH9mfhFFqbU/fxd1RbG3M/IT9liOcROrGtDFiMyzzeez11tWZDb9f7D+twjKseFbWLtBfevwBDVGO8w==
+   eJyNkzEvREEQx/feFXIdzifQoNGRKOl8DZrrROJ8CCQSQa9xEXcnkdArRMIR7oJELwoKcioav8nO5k02++SKX2Zmd/47s2/n/WTO/cIbPED3Hz5Kzs2UnRt3niniR9YPS3nOvTnH+u+qnVMqxM+sNwbQyvmz5ZyXzNe12k/4TviNSFsjnobXUn5+BdbYq8M6TBAfsX+tPQftJnfecv47BG0Hf5e9PdiHFvEt3MExHKhdRbfhfH7Q3uCvYM/QnUNVkZwxbC/z8SK6oUTdbekbnsgZVUKO+JI3ia4d1RV/xGgCX7reVb303YT2gFpb9wKW8ZfMO/YKtJ2ortw7EN63rzkyF9bG990pmB/ZH4Z+5m1L3yXcUWy9YH7ifqsJThN1U9oUqRmW+TwxvTV1ZuPvl/pPazAPC8bK2iX6K8MfVQGPGA==
   </data>
  </layer>
  <layer name="Chest1" width="15" height="17" visible="0">
@@ -50,7 +50,7 @@
    <property name="Y" value="8"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFowACXjMyMAgyk6dXGKjvEhN13TMKaAsAfwgB6w==
+   eJxjYBgFwwm8ZiRf72UmBgYhZvL0gvRdYiLf7lFAfwAAU1wCwA==
   </data>
  </layer>
 </map>

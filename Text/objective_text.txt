@@ -1,0 +1,5 @@
+# 0x19e DefendGreen
+Defend green guy.[X]
+
+# 0x1a1 Kill2Bosses
+Kill 2 bosses.[X]

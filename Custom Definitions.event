@@ -51,7 +51,12 @@
 #define Rhud Selena_Ch10B_and_13B
 #define Attab Valter_Prologue
 
+//Class definitions
+#define Nomad 0x53
+
 // Item definitions
 #define Vampus 0xC2
+#define Venenum 0xC3
 
 #define VampusIconID 0xCA
+#define VenenumIconID 0xCB

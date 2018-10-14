@@ -4,7 +4,6 @@
 #endif
 
 
-#define PrologueChName 0x160
 #define LearnedSkillText 0x3A
 #define SS_TalkText 0x3B
 #define SS_SkillsText 0x3c
@@ -36,7 +35,11 @@
 #define UM_SwapDesc 0x56
 #define UMText_Win 0x57
 #define UMDesc_Win 0x58
-#define VillageText 0x59
+#define nameNomad 0x59
+#define descNomad 0x5a
+#define DefendGreen 0x19e
+#define Kill2Bosses 0x1a1
+#define VillageText 0x1a2
 #define PlaceholderText 0x903
 #define DV1Desc 0x904
 #define nameCamus 0x905
@@ -235,3 +238,10 @@
 #define descVicks 0x9c6
 #define UM_Debug 0x9c7
 #define nameVampus 0x9c8
+#define nameVenenum 0x9c9
+#define DefendGreen 0x9ca
+#define PrologueChName 0x160
+#define Ch1ChName 0x161
+#define Ch2ChName 0x162
+#define Ch3ChName 0x163
+#define Ch4ChName 0x164

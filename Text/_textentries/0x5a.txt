@@ -1,2 +1,2 @@
-Acrobat: All traversable[N]
-terrain costs 1 movement.[X]
+Horseback archers who move through.[N]
+rough terrain with ease.[X]

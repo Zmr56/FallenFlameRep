@@ -4,9 +4,6 @@ HP Bars[.][X]
 # 0x00B2
 Set health bar display[X]
 
-# 0x160 PrologueChName
-Prologue[X]
-
 #0x3A LearnedSkillText
 #first text ID in the free block
 Learned  [X]
@@ -14,6 +11,10 @@ Learned  [X]
 #include "statscreen_text.txt"
 
 #include "unitmenu_text.txt"
+
+#include "class_text.txt"
+
+#include "objective_text.txt"
 
 ## VillageText
 [MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
@@ -45,3 +46,24 @@ Zeke[X]
  
 ## nameVampus
 Vampus[X]
+
+## nameVenenum
+Venenum[X]
+
+## DefendGreen
+[OpenMidLeft][LoadFace][WrenPortrait]Defend the green guy for 9 turns![A][X]
+
+# 0x160 PrologueChName
+Prologue[X]
+
+# 0x161 Ch1ChName
+Ch1[X]
+
+# 0x162 Ch2ChName
+Ch2[X]
+
+# 0x163 Ch3ChName
+Ch3[X]
+
+# 0x164 Ch4ChName
+Ch4[X]

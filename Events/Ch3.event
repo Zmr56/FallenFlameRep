@@ -45,7 +45,7 @@ UNIT 0x80 Fighter Rhud Level(4, Enemy, 1) [14,15] 0x00 0x00 0x0 0x00 [IronAxe] A
 UNIT 0x80 Fighter Rhud Level(4, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
 UNIT 0x80 Knight Rhud Level(4, Enemy, 1) [5,15] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
 UNIT 0x80 Shaman Rhud Level(4, Enemy, 1) [5,17] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
-UNIT Rhud Knight 0x00 Level(6, Enemy, 0) [0,16] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI 
+UNIT Rhud Knight 0x00 Level(6, Enemy, 0) [0,16] 0x00 0x00 0x0 0x00 [ShortSpear] AttackInRangeAI 
 UNIT
 
 NorthBad:
@@ -74,8 +74,7 @@ UNIT 0x80 Brigand Attab Level(3, Enemy, 1) [7,8] 0x00 0x00 0x0 0x00 [IronAxe] Br
 UNIT
 
 Wave3:
-UNIT 0x80 Shaman Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Attab Level(3, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Attab Level(3, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
 UNIT 0x80 WyvernRider Attab Level(3, Enemy, 1) [4,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
 UNIT
 

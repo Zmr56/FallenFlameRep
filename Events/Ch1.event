@@ -49,6 +49,7 @@ Chest(Lightning,5,13)
 Chest(Mend,6,13)
 Village(0x7,VillageSlayer,1,7)
 Village(0x8,VillageBow,6,7)
+Village(0x9,VillageStaff,13,6)
 Armory(ArmoryList, 6, 3)
 END_MAIN
 
@@ -57,6 +58,9 @@ VillageEventItem(PlaceholderText, Village, Longbow)
 
 VillageSlayer:
 VillageEventItem(PlaceholderText, Village, Horseslayer)
+
+VillageStaff:
+VillageEventItem(PlaceholderText, Village, Venenum)
 
 ArmoryList:
 SHLI IronSword IronLance IronAxe IronBow SteelBow

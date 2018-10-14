@@ -125,19 +125,19 @@ UNIT
 
 Wave1:
 UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+//UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
 UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+//UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+//UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
 UNIT
 
 Wave2:
-UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+//UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+//UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
 UNIT 0x80 Pirate Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+//UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
 UNIT
 
@@ -145,9 +145,9 @@ Wave3:
 UNIT 0x80 Pirate Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
 UNIT 0x80 Archer Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
 UNIT 0x80 Thief Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronSword] LootingThiefAI 
-UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+//UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
 UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+//UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT
 
 Wave4:
@@ -155,26 +155,26 @@ UNIT 0x80 Archer Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelBow] Pu
 UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
 UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [HandAxe] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
+//UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [HandAxe] PursueWithoutHeedAI 
+//UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
 UNIT
 
 Wave5:
 UNIT 0x80 Knight Zonta Level(3, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
 UNIT 0x80 Knight Zonta Level(3, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+//UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+//UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
 UNIT
 
 Wave6:
-UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+//UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
 UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
 UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
-UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+//UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
 UNIT
 
 Wave7:
@@ -182,8 +182,8 @@ UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronLanc
 UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT 0x80 Cavalier Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 Cavalier Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
 UNIT
 
 BeginningScene:
@@ -194,6 +194,7 @@ LOAD1 0x1 Bad
 ENUN
 LOAD1 0x1 FatNoble
 ENUN
+Text(DefendGreen)
 NoFade
 ENDA
 
