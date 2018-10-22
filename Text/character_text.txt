@@ -88,3 +88,10 @@ Vicks[X]
 ## descVicks
 An experienced wyvern rider with a[N]
 keen eye. Composed and focused.[X]
+
+## nameSawine
+Sawine[X]
+
+## descSawine
+A low ranking pirare captain who's[N]
+well versed in the ways of the axe.[X]

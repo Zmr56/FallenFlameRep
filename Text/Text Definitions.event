@@ -236,10 +236,12 @@
 #define descAdela 0x9c4
 #define nameVicks 0x9c5
 #define descVicks 0x9c6
-#define UM_Debug 0x9c7
-#define nameVampus 0x9c8
-#define nameVenenum 0x9c9
-#define DefendGreen 0x9ca
+#define nameSawine 0x9c7
+#define descSawine 0x9c8
+#define UM_Debug 0x9c9
+#define nameVampus 0x9ca
+#define nameVenenum 0x9cb
+#define DefendGreen 0x9cc
 #define PrologueChName 0x160
 #define Ch1ChName 0x161
 #define Ch2ChName 0x162

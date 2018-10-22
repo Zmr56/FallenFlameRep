@@ -955,6 +955,14 @@ TxtData0x9ca:
 #incext ParseFile "_textentries\0x9ca.txt"
 setText(0x9ca,TxtData0x9ca)
 
+TxtData0x9cb:
+#incext ParseFile "_textentries\0x9cb.txt"
+setText(0x9cb,TxtData0x9cb)
+
+TxtData0x9cc:
+#incext ParseFile "_textentries\0x9cc.txt"
+setText(0x9cc,TxtData0x9cc)
+
 TxtData0x160:
 #incext ParseFile "_textentries\0x160.txt"
 setText(0x160,TxtData0x160)

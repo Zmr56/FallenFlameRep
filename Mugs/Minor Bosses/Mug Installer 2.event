@@ -3,3 +3,7 @@
 Vicks_Mug:
 #incext PortraitFormatter "Vicks.png"
 setMugEntry(0x9A, Vicks_Mug, 3, 5, 3, 3)
+
+Sawine_Mug:
+#incext PortraitFormatter "Sawine.png"
+setMugEntry(0x45, Sawine_Mug, 2, 5, 2, 3)
