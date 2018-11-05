@@ -8,15 +8,15 @@ Map:
 #incbin "Ch5_data.dmp"
 
 MapChanges:
-TileMap(0,17,1,1,1,NChest)
-TileMap(1,4,15,1,1,SChest)
+TileMap(0,8,18,1,1,WChest)
+TileMap(1,9,18,1,1,EChest)
 TileMapEnd
 
-NChest:
+WChest:
 SHORT 0x4 
 ALIGN 4
 
-SChest:
+EChest:
 SHORT 0x4 
 ALIGN 4
 

@@ -55,8 +55,8 @@
 #define Nomad 0x53
 
 // Item definitions
-#define Vampus 0xC2
-#define Venenum 0xC3
+#define Vampus 0xBC
+#define Venenum 0xBD
 
 #define VampusIconID 0xCA
 #define VenenumIconID 0xCB
