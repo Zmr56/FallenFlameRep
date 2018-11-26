@@ -1,0 +1,129 @@
+EventPointerTable(0x21, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x65 GameOverByTurn11 [11,0] 0x0
+END_MAIN
+
+GameOverByTurn11:
+ENDA
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Chest(Axereaver,8,14)
+Chest(KillingEdge,7,14)
+Chest(BlueGem,13,0)
+Chest(SilverLance,11,0)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatAll(EndingScene)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Traps1:
+END_MAIN
+
+Traps2:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Eirika EphraimLord 0x00 Level(1, Ally, 0) [15,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EirikaLord Eirika Level(1, Ally, 0) [14,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EirikaLord Eirika Level(1, Ally, 0) [16,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EirikaLord Eirika Level(1, Ally, 0) [15,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EirikaLord Eirika Level(1, Ally, 0) [16,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EirikaLord Eirika Level(1, Ally, 0) [15,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EirikaLord Eirika Level(1, Ally, 0) [14,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EirikaLord Eirika Level(1, Ally, 0) [16,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EirikaLord Eirika Level(1, Ally, 0) [16,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EirikaLord Eirika Level(1, Ally, 0) [15,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EirikaLord Eirika Level(1, Ally, 0) [16,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EirikaLord Eirika Level(1, Ally, 0) [15,14] 0x00 0x00 0x0 0x00 [0x00] NoAI  
+UNIT
+
+NewUnits:
+UNIT Natasha Priest Eirika Level(2, Ally, 0) [14,12] 0x00 0x00 0x0 0x00 [Lightning] NoAI 
+UNIT Cormag Mage_F Eirika Level(3, Ally, 0) [13,12] 0x00 0x00 0x0 0x00 [Thunder] NoAI  
+UNIT
+
+SouthBad:
+UNIT 0x80 Knight Novala Level(4, Enemy, 1) [3,15] 0x2 0x00 0x0 0x00 [Javelin, ChestKey] GuardTileAI 
+UNIT 0x80 Shaman Novala Level(4, Enemy, 1) [2,15] 0x2 0x00 0x0 0x00 [Flux, ChestKey] GuardTileAI 
+UNIT 0x80 Ranger Novala Level(4, Enemy, 1) [3,20] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Ranger Novala Level(4, Enemy, 1) [7,18] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Fighter Novala Level(4, Enemy, 1) [11,18] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
+UNIT 0x80 Mage Novala Level(4, Enemy, 1) [11,19] 0x00 0x00 0x0 0x00 [Thunder] GuardTileAI 
+UNIT 0x80 Myrmidon Novala Level(4, Enemy, 1) [14,17] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI  
+UNIT 0x80 Pirate Novala Level(4, Enemy, 1) [8,20] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Mercenary Novala Level(4, Enemy, 1) [5,17] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI
+UNIT Novala Pirate 0x00 Level(4, Enemy, 1) [14,20] 0x00 0x00 0x0 0x00 [HandAxe, BraveAxe] AttackInRangeAI
+UNIT
+
+MidBad:
+UNIT 0x80 Mercenary Saar Level(4, Enemy, 1) [7,11] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x80 Brigand Saar Level(4, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x80 Pirate Saar Level(4, Enemy, 1) [4,11] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Archer Saar Level(4, Enemy, 1) [6,8] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Shaman Saar Level(4, Enemy, 1) [3,6] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Myrmidon Saar Level(4, Enemy, 1) [0,10] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Archer Saar Level(4, Enemy, 1) [1,13] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Priest Saar Level(4, Enemy, 1) [1,7] 0x00 0x00 0x0 0x00 [Lightning] AttackInRangeAI 
+UNIT
+
+NorthBad:
+UNIT 0x80 Pirate Saar Level(4, Enemy, 1) [3,3] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
+UNIT 0x80 Mage Saar Level(4, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [Thunder] GuardTileAI 
+UNIT 0x80 Mercenary Saar Level(4, Enemy, 1) [4,0] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x80 Archer Saar Level(4, Enemy, 1) [6,0] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Cavalier Saar Level(4, Enemy, 1) [10,3] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Cavalier Saar Level(4, Enemy, 1) [9,4] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Shaman Saar Level(4, Enemy, 1) [12,3] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
+UNIT 0x80 Mage Saar Level(5, Enemy, 1) [15,0] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI
+UNIT 0x80 Knight 0x00 Level(6, Enemy, 1) [15,5] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT Saar Shaman 0x00 Level(6, Enemy, 0) [16,0] 0x00 0x00 0x0 0x00 [Nosferatu] AttackInRangeAI 
+UNIT
+
+BeginningScene:
+LOAD2 0x1 Units1
+ENUN
+LOAD1 0x1 NewUnits
+ENUN
+LOAD1 0x01 MidBad
+ENUN
+LOAD1 0x01 SouthBad
+ENUN
+LOAD1 0x01 NorthBad
+ENUN
+NoFade
+GotoPrepScreen
+
+EndingScene:
+MNCH 6
+NoFade
+ENDA
