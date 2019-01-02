@@ -1,0 +1,15 @@
+ALIGN 4
+GofaulVillageObjects:
+#incext Png2Dmp "Tileset/FE6 - Frontier Village - 3e003f40.png" --lz77
+
+ALIGN 4
+GofaulVillageTiles:
+#incext compress "Tileset/FE6_64.mapchip_config"
+
+ALIGN 4
+GofaulVillagePalette:
+#incext compress "Tileset/GofaulVillagePalette.dmp"
+
+EventPointerTable(0x8b, GofaulVillageObjects)
+EventPointerTable(0x8c, GofaulVillagePalette)
+EventPointerTable(0x8d, GofaulVillageTiles)

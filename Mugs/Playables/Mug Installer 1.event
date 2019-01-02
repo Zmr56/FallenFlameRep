@@ -3,3 +3,15 @@
 Huginn_Mug:
 #incext PortraitFormatter "Huginn.png"
 setMugEntry(0x6, Huginn_Mug, 3, 4, 3, 2)
+
+Rudyard_Mug:
+#incext PortraitFormatter "Rudyard.png"
+setMugEntry(0xf, Rudyard_Mug, 2, 5, 3, 3)
+
+Iara_Mug:
+#incext PortraitFormatter "Iara.png"
+setMugEntry(0x13, Iara_Mug, 3, 6, 3, 4)
+
+Evander_Mug:
+#incext PortraitFormatter "Evander.png"
+setMugEntry(0x14, Evander_Mug, 3, 5, 2, 3)

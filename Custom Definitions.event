@@ -45,6 +45,9 @@
 #define Sarai 0xA
 #define Rudyard 0xB
 #define Adela 0xC
+#define Iara 0xE
+#define Apollo 0xD
+#define Evander 0xF
 
 #define Vicks Entombed_boss
 #define Sawine Orson_Ch5x
@@ -57,6 +60,8 @@
 // Item definitions
 #define Vampus 0xBC
 #define Venenum 0xBD
+#define Elfrost 0xBE
 
 #define VampusIconID 0xCA
 #define VenenumIconID 0xCB
+#define ElfrostIconID 0xCC

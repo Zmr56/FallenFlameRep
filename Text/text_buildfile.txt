@@ -50,6 +50,12 @@ Vampus[X]
 ## nameVenenum
 Venenum[X]
 
+## nameElfrost
+Elfrost[X]
+
+## descElfrost
+Effective against sword infantry.[X]
+
 ## DefendGreen
 [OpenMidLeft][LoadFace][WrenPortrait]Defend the green guy for 9 turns![A][X]
 
