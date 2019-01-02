@@ -8,7 +8,7 @@ GofaulVillageTiles:
 
 ALIGN 4
 GofaulVillagePalette:
-#incext compress "Tileset/GofaulVillagePalette.dmp"
+#incbin "Tileset/GofaulVillagePalette.dmp"
 
 EventPointerTable(0x8b, GofaulVillageObjects)
 EventPointerTable(0x8c, GofaulVillagePalette)
