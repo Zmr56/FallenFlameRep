@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" nextobjectid="1">
+<map version="1.1" tiledversion="2018.08.22" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="1">
  <tileset firstgid="1" name="1800481a" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../../WeeklyBlitz/Maps/FE8/1800481a.png" width="512" height="512"/>
+  <image source="../../../../FEMapCreator/Tilesets/FE8 - Castle - 1800481a.png" width="512" height="512"/>
  </tileset>
- <layer name="Main" width="15" height="17">
+ <layer id="1" name="Main" width="15" height="17">
   <properties>
    <property name="ChapterID" value="2"/>
    <property name="Main" value=""/>
@@ -14,10 +14,10 @@
    <property name="TileConfig" value="0x1A"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJyNkzEvREEQx/feFXIdzifQoNGRKOl8DZrrROJ8CCQSQa9xEXcnkdArRMIR7oJELwoKcioav8nO5k02++SKX2Zmd/47s2/n/WTO/cIbPED3Hz5Kzs2UnRt3niniR9YPS3nOvTnH+u+qnVMqxM+sNwbQyvmz5ZyXzNe12k/4TviNSFsjnobXUn5+BdbYq8M6TBAfsX+tPQftJnfecv47BG0Hf5e9PdiHFvEt3MExHKhdRbfhfH7Q3uCvYM/QnUNVkZwxbC/z8SK6oUTdbekbnsgZVUKO+JI3ia4d1RV/xGgCX7reVb303YT2gFpb9wKW8ZfMO/YKtJ2ortw7EN63rzkyF9bG990pmB/ZH4Z+5m1L3yXcUWy9YH7ifqsJThN1U9oUqRmW+TwxvTV1ZuPvl/pPazAPC8bK2iX6K8MfVQGPGA==
+   eJyNk7FKA0EQhvfuCkmniU9gozZ2Cim18zW0SSeC8SFUEER9hAQxiSBobyGCRtEEFexDCi2UWGnjN+wstyx7kuJjZnbn35m9nftJjfmFITxB7x8+EmMWM2NmjGWe+Jn1RpLnPHrn+P67aqtKifiV9eYYWjl/Kct5S21dX/sJ3xG/GWhrxAswSPLzS7DFXh22YZb4hP1b7dlpd7nznrHfwWm7+IfsHcExtInv4QFOVS92E92OsflOe4e/gb0g5xIqiuRMZzZH4lV0E5G6+9I3vJBTVlxOWfVz6DpBXfGnPI3jS9d7qpe+W9AZU+vXvYJ1/DXvHfsF2m5Qt5/muPcdaY7MhW/D+x4UzI/sT8Iotbat7+PuKLZeMD9hv5UI55G6MW2M2AzLfJ55vbV0ZsPvF/tPa7AMK56VtWv0Nx5/PfiOrQ==
   </data>
  </layer>
- <layer name="Chest1" width="15" height="17" visible="0">
+ <layer id="2" name="Chest1" width="15" height="17" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0"/>
@@ -29,7 +29,7 @@
    eJxjYCAdMJGhZxSMglEwuAAAC4wAAw==
   </data>
  </layer>
- <layer name="Chest2" width="15" height="17" visible="0">
+ <layer id="3" name="Chest2" width="15" height="17" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
@@ -41,7 +41,7 @@
    eJxjYCAPMJGpbxSMglEwOAAAC4QAAw==
   </data>
  </layer>
- <layer name="DoorOpened" width="15" height="17" visible="0">
+ <layer id="4" name="DoorOpened" width="15" height="17" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="2"/>
@@ -53,7 +53,7 @@
    eJxjYBgFtASmzOTrvcREPXeMglGADgCNtQEN
   </data>
  </layer>
- <layer name="WallDestroyed" width="15" height="17" visible="0">
+ <layer id="5" name="WallDestroyed" width="15" height="17" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="3"/>
