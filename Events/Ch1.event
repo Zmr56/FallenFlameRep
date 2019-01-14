@@ -45,12 +45,12 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Chest(Lightning,5,13)
-Chest(Mend,6,13)
-Village(0x7,VillageSlayer,1,7)
-Village(0x8,VillageBow,6,7)
-Village(0x9,VillageStaff,13,6)
-Armory(ArmoryList, 6, 3)
+Chest(Lightning,5,18)
+Chest(Mend,6,18)
+Village(0x7,VillageSlayer,1,12)
+Village(0x8,VillageBow,6,12)
+Village(0x9,VillageStaff,13,11)
+Armory(ArmoryList, 6, 8)
 END_MAIN
 
 VillageBow:
@@ -91,49 +91,47 @@ Tutorial:
 END_MAIN
 
 Units1:
-UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [1,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Gilliam Knight Eirika Level(1, Ally, 0) [1,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Franz Fighter Eirika Level(1, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Moulder Archer Eirika Level(1, Ally, 0) [0,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [1,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [0,5] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Gilliam Knight Eirika Level(1, Ally, 0) [1,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Franz Fighter Eirika Level(1, Ally, 0) [2,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Moulder Archer Eirika Level(1, Ally, 0) [0,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 NewCrew:
-UNIT Vanessa Cleric Eirika Level(5, Ally, 0) [1,0] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI 
-UNIT Ross Thief Eirika Level(3, Ally, 0) [2,0] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] NoAI 
-UNIT Neimi Cavalier_F Eirika Level(1, Ally, 0) [3,1] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
+UNIT Vanessa Cleric Eirika Level(5, Ally, 0) [1,5] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI 
+UNIT Ross Thief Eirika Level(3, Ally, 0) [2,5] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] NoAI 
+UNIT Neimi Cavalier_F Eirika Level(1, Ally, 0) [3,6] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
 UNIT
 
 Bad:
-UNIT Sawine Pirate 0x00 Level(4, Enemy, 0) [14,13] 0x00 0x00 0x0 0x00 [SteelAxe, HandAxe, 0xB9] AttackInRangeAI 
-UNIT 0x80 Shaman Sawine Level(3, Enemy, 1) [4,12] 0x00 0x00 0x0 0x00 [Vampus] GuardTileAI 
-UNIT 0x80 Shaman Sawine Level(3, Enemy, 1) [11,12] 0x00 0x00 0x0 0x00 [Vampus] GuardTileAI 
-UNIT 0x80 Fighter Sawine Level(3, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
-UNIT 0x80 Fighter Sawine Level(3, Enemy, 1) [12,12] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
-UNIT 0x80 Shaman Sawine Level(2, Enemy, 1) [6,5] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [3,8] 0x00 0x00 0x0 0x00 [SteelSword, 0x9E] AttackInRangeAI 
-UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [IronBow, 0x9E] AttackInRangeAI 
-UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [9,9] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [14,7] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [10,2] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Mercenary Sawine Level(3, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [IronBlade, 0x9E] AttackInRangeAI 
+UNIT Sawine Pirate 0x00 Level(4, Enemy, 0) [14,18] 0x00 0x00 0x0 0x00 [SteelAxe, HandAxe, 0xB9] AttackInRangeAI 
+UNIT 0x80 Shaman Sawine Level(3, Enemy, 1) [4,17] 0x00 0x00 0x0 0x00 [Vampus] GuardTileAI 
+UNIT 0x80 Fighter Sawine Level(3, Enemy, 1) [3,17] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI  
+UNIT 0x80 Shaman Sawine Level(2, Enemy, 1) [6,10] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [4,13] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [3,13] 0x00 0x00 0x0 0x00 [SteelSword, 0x9E] AttackInRangeAI 
+UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronBow, 0x9E] AttackInRangeAI 
+UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [14,14] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [14,12] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [9,8] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [10,12] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Mercenary Sawine Level(3, Enemy, 1) [7,19] 0x00 0x00 0x0 0x00 [IronBlade, 0x9E] AttackInRangeAI 
 UNIT
 
 Wave1:
-UNIT 0x80 Brigand Sawine Level(4, Enemy, 1) [12,14] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT 0x80 Brigand Sawine Level(4, Enemy, 1) [11,19] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
 UNIT
 
 Wave2:
-UNIT 0x80 Brigand Sawine Level(4, Enemy, 1) [1,13] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT 0x80 Brigand Sawine Level(4, Enemy, 1) [2,18] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
 UNIT
 
 Wave3:
-UNIT 0x80 WyvernRider Sawine Level(5, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x80 WyvernRider Sawine Level(5, Enemy, 1) [13,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Sawine Level(5, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Sawine Level(5, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT
 
 BeginningScene:

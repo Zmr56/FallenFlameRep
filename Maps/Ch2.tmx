@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" nextobjectid="1">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
  <tileset firstgid="1" name="1800481a" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="../../WeeklyBlitz/Maps/FE8/1800481a.png" width="512" height="512"/>
  </tileset>
@@ -14,7 +14,7 @@
    <property name="TileConfig" value="0x1A"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJyNkzEvREEQx/feFXIdzifQoNGRKOl8DZrrROJ8CCQSQa9xEXcnkdArRMIR7oJELwoKcioav8nO5k02++SKX2Zmd/47s2/n/WTO/cIbPED3Hz5Kzs2UnRt3niniR9YPS3nOvTnH+u+qnVMqxM+sNwbQyvmz5ZyXzNe12k/4TviNSFsjnobXUn5+BdbYq8M6TBAfsX+tPQftJnfecv47BG0Hf5e9PdiHFvEt3MExHKhdRbfhfH7Q3uCvYM/QnUNVkZwxbC/z8SK6oUTdbekbnsgZVUKO+JI3ia4d1RV/xGgCX7reVb303YT2gFpb9wKW8ZfMO/YKtJ2ortw7EN63rzkyF9bG990pmB/ZH4Z+5m1L3yXcUWy9YH7ifqsJThN1U9oUqRmW+TwxvTV1ZuPvl/pPazAPC8bK2iX6K8MfVQGPGA==
+   eJyNk7FKA0EQhjeXQtKp8Qls1MZOwVI7X0ObdCIYH0IFQdRHMIhJBEH7FCJoFE1QwV4stFBipY3fsLPcsOxJio+Z2Z1/Z/Z27idz7hfe4AF6//BRcm6u7Nyk88wQP7J+VMpz7s051n9X7YJSIX5mvTGEVs6fL+e8ZL6u1X7Cd8JvRNoa8Sy8lvLzK7DBXh02YYr4mP1r7Tlot7nzjvPfIWi7+PvsHcAhtIhv4Q5OoKN2Hd2W8/lBe4O/hj1HdwFVRXImsP3Mx8voRhJ1d6VveCJnXAk54kveNLp2VFf8MaMJfOl6T/XSdxPaQ2pt3Q6s4q+Yd+wXaLtRXbl3ILzvQHNkLqyN77tXMD+yPwqDzNuWvku4o9h6wfzE/VYTnCXqprQpUjMs83lqemvqzMbfL/Wf1mARloyVtUv0V4Y/qIGPOA==
   </data>
  </layer>
  <layer name="Chest1" width="15" height="17" visible="0">
@@ -55,14 +55,14 @@
  </layer>
  <layer name="WallDestroyed" width="15" height="17" visible="0">
   <properties>
-   <property name="Height" value="2"/>
+   <property name="Height" value="3"/>
    <property name="ID" value="3"/>
    <property name="Width" value="2"/>
    <property name="X" value="11"/>
-   <property name="Y" value="8"/>
+   <property name="Y" value="7"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwwm8ZiRf72UmBgYhZvL0gvRdYiLf7lFAfwAAU1wCwA==
+   eJxjYBgFwwm8ZmRguMhEnt7LQH1CzOTpBem7RKa9o2BgAAAacAOT
   </data>
  </layer>
 </map>
