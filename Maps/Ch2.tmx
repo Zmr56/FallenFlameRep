@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
-=======
-<map version="1.1" tiledversion="2018.08.22" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="1">
->>>>>>> 7ca5ca71cc980a88ea46c692c4488a21b117efc9
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" nextobjectid="1">
  <tileset firstgid="1" name="1800481a" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../../../../FEMapCreator/Tilesets/FE8 - Castle - 1800481a.png" width="512" height="512"/>
+  <image source="../../../FE Hacking/Dragon!/Maps/Tilesets/FE8/1800481a.png" width="512" height="512"/>
  </tileset>
- <layer id="1" name="Main" width="15" height="17">
+ <layer name="Main" width="15" height="17">
   <properties>
    <property name="ChapterID" value="2"/>
    <property name="Main" value=""/>
@@ -18,14 +14,10 @@
    <property name="TileConfig" value="0x1A"/>
   </properties>
   <data encoding="base64" compression="zlib">
-<<<<<<< HEAD
-   eJyNk7FKA0EQhjeXQtKp8Qls1MZOwVI7X0ObdCIYH0IFQdRHMIhJBEH7FCJoFE1QwV4stFBipY3fsLPcsOxJio+Z2Z1/Z/Z27idz7hfe4AF6//BRcm6u7Nyk88wQP7J+VMpz7s051n9X7YJSIX5mvTGEVs6fL+e8ZL6u1X7Cd8JvRNoa8Sy8lvLzK7DBXh02YYr4mP1r7Tlot7nzjvPfIWi7+PvsHcAhtIhv4Q5OoKN2Hd2W8/lBe4O/hj1HdwFVRXImsP3Mx8voRhJ1d6VveCJnXAk54kveNLp2VFf8MaMJfOl6T/XSdxPaQ2pt3Q6s4q+Yd+wXaLtRXbl3ILzvQHNkLqyN77tXMD+yPwqDzNuWvku4o9h6wfzE/VYTnCXqprQpUjMs83lqemvqzMbfL/Wf1mARloyVtUv0V4Y/qIGPOA==
-=======
-   eJyNk7FKA0EQhvfuCkmniU9gozZ2Cim18zW0SSeC8SFUEER9hAQxiSBobyGCRtEEFexDCi2UWGnjN+wstyx7kuJjZnbn35m9nftJjfmFITxB7x8+EmMWM2NmjGWe+Jn1RpLnPHrn+P67aqtKifiV9eYYWjl/Kct5S21dX/sJ3xG/GWhrxAswSPLzS7DFXh22YZb4hP1b7dlpd7nznrHfwWm7+IfsHcExtInv4QFOVS92E92OsflOe4e/gb0g5xIqiuRMZzZH4lV0E5G6+9I3vJBTVlxOWfVz6DpBXfGnPI3jS9d7qpe+W9AZU+vXvYJ1/DXvHfsF2m5Qt5/muPcdaY7MhW/D+x4UzI/sT8Iotbat7+PuKLZeMD9hv5UI55G6MW2M2AzLfJ55vbV0ZsPvF/tPa7AMK56VtWv0Nx5/PfiOrQ==
->>>>>>> 7ca5ca71cc980a88ea46c692c4488a21b117efc9
+   eJyNk78uREEUh+feW8h27HoCDRodiZLOa9BsJxLrIZBIBI9gI7tWIqFXiIQl7AaJXhQUZFU0vpM5k5lM5soWX86fOb85M3fO/cmN+YU3eIDeP3xkxswWxkwYyzTxI/nDzNfcB/uE/rtq55UK8TP55hBa2X+u8Lzktm+o/YTvhN+MtHXiGXjN/P4VWGetARswSXzE+rWe2Wm3uPO2sd/Babv4e6ztwwEcE9/CHXRUL7k1dJvG1jvtDf4q9oyac6gpUjNe2BqJl9CNJPruyLnhiZqq4mqqqp9C14n6ij8WaBxfmu+pvkXc1nsMow37XsAK/nLwjv0SbTfq28897n0HWiNzEdr4vrsl8yProzDIrZU3aWX+jmIbJfMTn7eW4DTRN6VNkZphmc+T4Gxtndn4+6X+0zoswGJgJXeJ/irgD0sIjrI=
   </data>
  </layer>
- <layer id="2" name="Chest1" width="15" height="17" visible="0">
+ <layer name="Chest1" width="15" height="17" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0"/>
@@ -37,7 +29,7 @@
    eJxjYCAdMJGhZxSMglEwuAAAC4wAAw==
   </data>
  </layer>
- <layer id="3" name="Chest2" width="15" height="17" visible="0">
+ <layer name="Chest2" width="15" height="17" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
@@ -49,7 +41,7 @@
    eJxjYCAPMJGpbxSMglEwOAAAC4QAAw==
   </data>
  </layer>
- <layer id="4" name="DoorOpened" width="15" height="17" visible="0">
+ <layer name="DoorOpened" width="15" height="17" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="2"/>
@@ -61,16 +53,16 @@
    eJxjYBgFtASmzOTrvcREPXeMglGADgCNtQEN
   </data>
  </layer>
- <layer id="5" name="WallDestroyed" width="15" height="17" visible="0">
+ <layer name="WallDestroyed" width="15" height="17" visible="0">
   <properties>
-   <property name="Height" value="3"/>
+   <property name="Height" value="2"/>
    <property name="ID" value="3"/>
    <property name="Width" value="2"/>
    <property name="X" value="11"/>
-   <property name="Y" value="7"/>
+   <property name="Y" value="8"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwwm8ZmRguMhEnt7LQH1CzOTpBem7RKa9o2BgAAAacAOT
+   eJxjYBgFwwm8ZiRf72UmBgYhZvL0gvRdYiLf7lFAfwAAU1wCwA==
   </data>
  </layer>
 </map>
