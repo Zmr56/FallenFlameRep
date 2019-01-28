@@ -2,7 +2,7 @@
 
 #include eastdlib.event
 
-SetChapterData(0x07,0x8b,0,0x8c,0x8d,0x22,Map,0,0,0x23)
+SetChapterData(0x07,0xe,0,0x72,0x10,0x22,Map,0,0,0x23)
 EventPointerTable(0x23, MapChanges)
 Map:
 #incbin "Ch6_data.dmp"
@@ -15,18 +15,18 @@ TileMap(3,6,18,1,1,SES)
 TileMapEnd
 
 NWS:
-SHORT 0x1f0 
+SHORT 
 ALIGN 4
 
 NES:
-SHORT 0x1f0 
+SHORT 
 ALIGN 4
 
 SWS:
-SHORT 0x1f0 
+SHORT 
 ALIGN 4
 
 SES:
-SHORT 0x1f0 
+SHORT 
 ALIGN 4
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="26" tilewidth="16" tileheight="16" nextobjectid="1">
- <tileset firstgid="1" name="FE6 - Frontier Village - 3e003f40" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../../FEMapCreator/Tilesets/FE6 - Frontier Village - 3e003f40.png" width="512" height="512"/>
+ <tileset firstgid="1" name="0e007210" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../../../FE Hacking/Dragon!/Maps/Tilesets/FE8/0e007210.png" width="512" height="512"/>
  </tileset>
  <layer name="Main" width="16" height="26">
   <properties>
@@ -10,12 +10,12 @@
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0x23"/>
    <property name="MapID" value="0x22"/>
-   <property name="ObjectType" value="0x8b"/>
-   <property name="PaletteID" value="0x8c"/>
-   <property name="TileConfig" value="0x8d"/>
+   <property name="ObjectType" value="0xe"/>
+   <property name="PaletteID" value="0x72"/>
+   <property name="TileConfig" value="0x10"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJylkjlOxEAQRatxTAjDdgYydgIylhCJfEJOgSwZR2RI7CAheeYI7NsJ0OTADbgBEMwv3KVu2+X2CIKn7ur6v7q67N4Q0SUR9bBumWZYt2KcXryyhtD8TR7N78ehPut0F6Tr/stwpO99QvMaxF+m3fAOzoU08QD+kCYhV1+Dcwm5fbl2Rnn9nRpiq5H9E/Yv4NnW5Nq7AOP6nRkTURHOb5oq7Od8h/I7RJ8p9TR/2zjPATgER+AYnNi5iD+lvFffHxt3zxXWa3ADbsEduTz31/W829i/gj1T7TP1eo/snf4s2M+aTzBtijm5R+IuVeuLhmeUen5+qzaDRKnxBt7Bh63TsW/VZsD5fVN80xf4Bj/kvr+srNWQPsvncr+sdX5f65+NIB4FLTAGxsEpOAPnJW1i4wkwCabADM5mwRyYBwvgHjyAx5p+FsESWA70+heymvn4cfn9Mnf5v1e9/Abp+TWwTnm+D/Qm1D4=
+   eJyNk+tKVFEUx/c5g1IZmo+QYESG2iNkn7KY6R0iuhh0ewI/jF1M8hU0xxnLwB5htJmxaIaMoM9FE12J3qDfn7WGszmMEsyPtc5el70ue4bTEMpJCMPIPbgFt3Oyp3dgGmaCyZGCxY54jtF0fy5j/5OL1/ckTP2HnE/svmnPV/L787VK/vV75FPM9SXblcTO7h5Qr+Yx4vKgvuI6X3p9U5Ge70NzimUxqrMXU4r02N5PbhWyvcR1j7ps53ziviTfY1tOs7rz9S7nfPL2FXb5BnlvnzcjG79wx/V4L8pZD5b/A+z1QbaxkOkLScYW8Z+wDcAgrCVG7/tzMLtkGZrQUL34TKQWL99JOAEp5wnMod+M8i3qDnwbiSF93fu+hBzj7Cq1XYPrcAPm4GPB4n8Hi+vCj8Rit73vs37HffQH8BAewaL3O49fCy5y14U06001nSfuTFRnG/00Ph0/20F+R34JtqchKEERNuCX66pFe5hN7R5xOLW4epR/IpqVzs8llk/1qNd+M+jNv5djSTq5K5phmtWjXvvNYCnai+IPEfNKu4AmjHtNg76HYzDuu5LUvBewHU/sDehc++/4u9H8ZxLbo+RPZDdke5L9JDwJtj/x1Wenu9eosQLrUIUarHDvKjz1/8eq96DahjirQg021Av+DWhCC3ahzvk27Pj/o+x77Xp8C3bhtb//tr9p9aY3/jbYnDT3U2n27gZcfxcsT2wXNb6rIXvnj9GP+FvX/Cs+F/l+855mfcaayTN4HkzXDDfhhe9Fsx6Go8HybPr5P0dsvuU=
   </data>
  </layer>
  <layer name="NWS" width="16" height="26" visible="0">
@@ -27,7 +27,7 @@
    <property name="Y" value="14"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDAZQO9AOGAWjgM4AAHezAH4=
+   eJxjYBgFo2AUjIJRMAroDwAGgAAB
   </data>
  </layer>
  <layer name="NES" width="16" height="26" visible="0">
@@ -39,7 +39,7 @@
    <property name="Y" value="14"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDCZQO9AOGAWjgE4AAHPLAH4=
+   eJxjYBgFo2AUjIJRMAroDwAGgAAB
   </data>
  </layer>
  <layer name="SWS" width="16" height="26" visible="0">
@@ -51,7 +51,7 @@
    <property name="Y" value="18"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjILBAWoH2gGjgK4AAPiwAH4=
+   eJxjYBgFo2AUjIJRMAroDwAGgAAB
   </data>
  </layer>
  <layer name="SES" width="16" height="26" visible="0">
@@ -63,7 +63,7 @@
    <property name="Y" value="18"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjILBBWoH2gGjgC4AAPTIAH4=
+   eJxjYBgFo2AUjIJRMAroDwAGgAAB
   </data>
  </layer>
 </map>
