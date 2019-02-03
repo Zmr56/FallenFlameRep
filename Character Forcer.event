@@ -1,0 +1,15 @@
+#define ForceDeployEntry(unit,chapterID) "BYTE unit 0x00; BYTE 0xFF chapterID"
+#define EndForceDeploy "SHORT 0xFFFF 0x00"
+
+ForceDeployList:
+ForceDeployEntry(Wren,0xFF)
+ForceDeployEntry(Adela,0x04)
+ForceDeployEntry(Iara,0x06)
+ForceDeployEntry(Apollo,0x06)
+ForceDeployEntry(Evander,0x07)
+EndForceDeploy
+
+PUSH
+ORG 0x8483C
+POIN ForceDeployList
+POP
