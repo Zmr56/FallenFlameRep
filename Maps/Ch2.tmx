@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" nextobjectid="1">
  <tileset firstgid="1" name="1800481a" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../../WeeklyBlitz/Maps/FE8/1800481a.png" width="512" height="512"/>
+  <image source="../../../FE Hacking/Dragon!/Maps/Tilesets/FE8/1800481a.png" width="512" height="512"/>
  </tileset>
  <layer name="Main" width="15" height="17">
   <properties>
@@ -14,7 +14,7 @@
    <property name="TileConfig" value="0x1A"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJyNkzEvREEQx/feFXIdzifQoNGRKOl8DZrrROJ8CCQSQa9xEXcnkdArRMIR7oJELwoKcioav8nO5k02++SKX2Zmd/47s2/n/WTO/cIbPED3Hz5Kzs2UnRt3niniR9YPS3nOvTnH+u+qnVMqxM+sNwbQyvmz5ZyXzNe12k/4TviNSFsjnobXUn5+BdbYq8M6TBAfsX+tPQftJnfecv47BG0Hf5e9PdiHFvEt3MExHKhdRbfhfH7Q3uCvYM/QnUNVkZwxbC/z8SK6oUTdbekbnsgZVUKO+JI3ia4d1RV/xGgCX7reVb303YT2gFpb9wKW8ZfMO/YKtJ2ortw7EN63rzkyF9bG990pmB/ZH4Z+5m1L3yXcUWy9YH7ifqsJThN1U9oUqRmW+TwxvTV1ZuPvl/pPazAPC8bK2iX6K8MfVQGPGA==
+   eJyNk78uREEUh+feW8h27HoCDRodiZLOa9BsJxLrIZBIBI9gI7tWIqFXiIQl7AaJXhQUZFU0vpM5k5lM5soWX86fOb85M3fO/cmN+YU3eIDeP3xkxswWxkwYyzTxI/nDzNfcB/uE/rtq55UK8TP55hBa2X+u8Lzktm+o/YTvhN+MtHXiGXjN/P4VWGetARswSXzE+rWe2Wm3uPO2sd/Babv4e6ztwwEcE9/CHXRUL7k1dJvG1jvtDf4q9oyac6gpUjNe2BqJl9CNJPruyLnhiZqq4mqqqp9C14n6ij8WaBxfmu+pvkXc1nsMow37XsAK/nLwjv0SbTfq28897n0HWiNzEdr4vrsl8yProzDIrZU3aWX+jmIbJfMTn7eW4DTRN6VNkZphmc+T4Gxtndn4+6X+0zoswGJgJXeJ/irgD0sIjrI=
   </data>
  </layer>
  <layer name="Chest1" width="15" height="17" visible="0">
@@ -41,10 +41,22 @@
    eJxjYCAPMJGpbxSMglEwOAAAC4QAAw==
   </data>
  </layer>
- <layer name="WallDestroyed" width="15" height="17" visible="0">
+ <layer name="DoorOpened" width="15" height="17" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="2"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="13"/>
+   <property name="Y" value="5"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtASmzOTrvcREPXeMglGADgCNtQEN
+  </data>
+ </layer>
+ <layer name="WallDestroyed" width="15" height="17" visible="0">
+  <properties>
+   <property name="Height" value="2"/>
+   <property name="ID" value="3"/>
    <property name="Width" value="2"/>
    <property name="X" value="11"/>
    <property name="Y" value="8"/>

@@ -82,6 +82,27 @@ Adela[X]
 A reserved and introverted noble[N]
 woman. Misses her brother dearly.[X]
 
+## nameApollo
+Apollo[X]
+
+## descApollo
+A loyal member of the clergy.[N]
+Devoted to preserving history.[X]
+
+## nameIara
+Iara[X]
+
+## descIara
+A specialist in Ice magic. Her heart[N]
+is much warmer than her spells.[X]
+
+## nameEvander
+Evander[X]
+
+## descEvander
+Adela's loyal retainer. Holds a[N]
+desire to protect his motherland.[X]
+
 ## nameVicks
 Vicks[X]
 
@@ -93,5 +114,5 @@ keen eye. Composed and focused.[X]
 Sawine[X]
 
 ## descSawine
-A low ranking pirare captain who's[N]
+A low ranking pirate captain who's[N]
 well versed in the ways of the axe.[X]

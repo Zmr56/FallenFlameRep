@@ -6,7 +6,7 @@
     PROTECT EndOfFreeSpace // Prevent overflow of data.
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
-	#include "NewWT.event"
+	//#include "NewWT.event"
 	ALIGN 4
     MESSAGE Used text space ends at currentOffset
 
@@ -30,9 +30,10 @@
 
     //Maps
     #include "Maps/Master Map Installer.event"
+	#include "Maps/Tileset and Anims Installer.event"
     
 	//Palettes
-    #include "Battle Palettes/Palette Setup.event"
+    //#include "Battle Palettes/Palette Setup.event"
 	
     MESSAGE Used free space ends at currentOffset
     MESSAGE Proc_Counter

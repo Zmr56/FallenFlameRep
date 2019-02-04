@@ -45,11 +45,14 @@
 #define Sarai 0xA
 #define Rudyard 0xB
 #define Adela 0xC
+#define Iara 0xE
+#define Apollo 0xD
+#define Evander 0xF
 
 #define Vicks Entombed_boss
 #define Sawine Orson_Ch5x
 #define Rhud Selena_Ch10B_and_13B
-#define Attab Valter_Prologue
+#define Sonta Valter_Prologue
 
 //Class definitions
 #define Nomad 0x53
@@ -57,6 +60,20 @@
 // Item definitions
 #define Vampus 0xBC
 #define Venenum 0xBD
+#define Elfrost 0xBE
+#define Hurlbat 0xBF
+#define Harpoon 0xC0
+#define Lancea 0xC1
+#define Falarica 0xC2
+#define Francisca 0xC3
+#define Nzappa 0xC4
 
 #define VampusIconID 0xCA
 #define VenenumIconID 0xCB
+#define ElfrostIconID 0xCC
+#define HurlbatIconID 0xCD
+#define FranciscaIconID 0xCE
+#define NzappaIconID 0xCF
+#define HarpoonIconID 0xD0
+#define LanceaIconID 0xD1
+#define FalaricaIconID 0xD2

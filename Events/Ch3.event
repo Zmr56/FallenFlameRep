@@ -19,69 +19,66 @@ POIN BeginningScene EndingScene
 //Units
 ALIGN 4
 Units1:
-UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [16,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [15,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Gilliam Knight Eirika Level(1, Ally, 0) [16,4] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Franz Fighter Eirika Level(1, Ally, 0) [15,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Moulder Archer Eirika Level(1, Ally, 0) [15,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Vanessa Cleric Eirika Level(1, Ally, 0) [16,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Ross Thief Eirika Level(1, Ally, 0) [17,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Neimi Cavalier_F Eirika Level(1, Ally, 0) [16,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Colm Shaman Eirika Level(1, Ally, 0) [16,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [2,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [1,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Gilliam Knight Eirika Level(1, Ally, 0) [3,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Franz Fighter Eirika Level(1, Ally, 0) [4,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Moulder Archer Eirika Level(1, Ally, 0) [3,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Vanessa Cleric Eirika Level(1, Ally, 0) [5,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Ross Thief Eirika Level(1, Ally, 0) [4,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Neimi Cavalier_F Eirika Level(1, Ally, 0) [2,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Colm Shaman Eirika Level(1, Ally, 0) [3,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 PegGirl:
-UNIT Garcia PegasusKnight Eirika Level(1, Ally, 0) [17,2] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
+UNIT Garcia PegasusKnight Eirika Level(1, Ally, 0) [2,10] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
 UNIT
 
-SouthBad:
-UNIT 0x80 Knight Rhud Level(4, Enemy, 1) [16,10] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Knight Rhud Level(4, Enemy, 1) [15,10] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Shaman Rhud Level(4, Enemy, 1) [13,14] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT Innes Cavalier Rhud Level(4, Enemy, 0) [7,13] 0x00 0x00 0x0 0x00 [SteelSword, Longsword] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier_F Rhud Level(4, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [IronLance, Javelin] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Rhud Level(4, Enemy, 1) [11,9] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Fighter Rhud Level(4, Enemy, 1) [14,15] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Fighter Rhud Level(4, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Knight Rhud Level(4, Enemy, 1) [5,15] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Shaman Rhud Level(4, Enemy, 1) [5,17] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
-UNIT Rhud Knight 0x00 Level(6, Enemy, 0) [0,16] 0x00 0x00 0x0 0x00 [ShortSpear] AttackInRangeAI 
-UNIT
-
-NorthBad:
-UNIT 0x80 Fighter Attab Level(4, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
-UNIT 0x80 Fighter Attab Level(4, Enemy, 1) [6,3] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
-UNIT 0x80 Archer Attab Level(4, Enemy, 1) [1,11] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
-UNIT 0x80 Shaman Attab Level(4, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
-UNIT 0x80 Soldier Attab Level(4, Enemy, 1) [3,8] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Cavalier Attab Level(4, Enemy, 1) [4,10] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier Attab Level(4, Enemy, 1) [3,10] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Attab Level(4, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Myrmidon Attab Level(4, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Myrmidon Attab Level(4, Enemy, 1) [3,0] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Myrmidon Attab Level(4, Enemy, 1) [11,6] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Soldier Attab Level(4, Enemy, 1) [12,7] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x80 Cavalier_F Attab Level(4, Enemy, 1) [9,5] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT Attab Mercenary 0x00 Level(6, Enemy, 0) [1,15] 0x00 0x00 0x0 0x00 [WindSword] AttackInRangeAI 
+Bad:
+UNIT 0x80 Mercenary Sonta Level(4, Enemy, 1) [8,16] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Sonta Level(4, Enemy, 1) [11,13] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Knight Rhud Level(4, Enemy, 1) [8,13] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Archer Rhud Level(4, Enemy, 1) [8,9] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT 0x80 Knight Rhud Level(5, Enemy, 1) [14,11] 0x00 0x00 0x0 0x00 [Harpoon] GuardTileAI 
+UNIT 0x80 Shaman Sonta Level(5, Enemy, 1) [14,12] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
+UNIT 0x80 Cavalier_F Rhud Level(4, Enemy, 1) [15,6] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x80 Myrmidon Sonta Level(4, Enemy, 1) [16,8] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Archer Sonta Level(4, Enemy, 1) [16,17] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Cavalier Rhud Level(4, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Monk Rhud Level(5, Enemy, 1) [8,3] 0x00 0x00 0x0 0x00 [Lightning] AttackInRangeAI 
+UNIT Innes Cavalier Rhud Level(5, Enemy, 0) [9,0] 0x00 0x00 0x0 0x00 [SteelSword, Zanbato] AttackInRangeAI 
+UNIT 0x80 Cavalier_F Rhud Level(4, Enemy, 1) [8,0] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x80 WyvernRider Rhud Level(4, Enemy, 1) [15,1] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Pirate Sonta Level(4, Enemy, 1) [13,3] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI
+UNIT 0x80 Fighter Sonta Level(5, Enemy, 1) [5,3] 0x00 0x00 0x0 0x00 [Hurlbat] GuardTileAI 
+UNIT 0x80 Fighter Sonta Level(5, Enemy, 1) [12,1] 0x00 0x00 0x0 0x00 [Hurlbat] GuardTileAI 
+UNIT 0x80 Shaman Sonta Level(5, Enemy, 1) [12,2] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
+UNIT 0x80 Soldier Rhud Level(5, Enemy, 1) [5,4] 0x00 0x00 0x0 0x00 [Harpoon] GuardTileAI 
+UNIT 0x80 Brigand Sonta Level(5, Enemy, 1) [10,2] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI 
+UNIT 0x80 Myrmidon Sonta Level(5, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI
+UNIT Rhud Knight 0x00 Level(6, Enemy, 0) [15,3] 0x00 0x00 0x0 0x00 [ShortSpear] AttackInRangeAI 
+UNIT Sonta Mercenary 0x00 Level(6, Enemy, 0) [16,4] 0x00 0x00 0x0 0x00 [WindSword] AttackInRangeAI
 UNIT
 
 Wave1:
-UNIT 0x80 Pirate Attab Level(3, Enemy, 1) [17,17] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
+UNIT 0x80 Pirate Sonta Level(3, Enemy, 1) [16,0] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI
+UNIT 0x80 Pirate Sonta Level(3, Enemy, 1) [17,1] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI  
 UNIT
 
 Wave2:
-UNIT 0x80 Brigand Attab Level(3, Enemy, 1) [7,8] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
+UNIT 0x80 Fighter Sonta Level(6, Enemy, 1) [0,4] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x80 Shaman Sonta Level(6, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
 UNIT
 
 Wave3:
-UNIT 0x80 Shaman Attab Level(3, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Attab Level(3, Enemy, 1) [4,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Rhud Level(6, Enemy, 1) [16,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Rhud Level(6, Enemy, 1) [17,1] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
 UNIT
 
 TurnBasedEvents:
 TURN 0x0 WaveFirst[3,0] 0x0
-TURN 0x0 WaveSecond[4,0] 0x0
-TURN 0x0 WaveThird[6,0] 0x0
+TURN 0x0 WaveSecond[5,0] 0x0
+TURN 0x0 WaveThird[8,0] 0x0
 END_MAIN
 
 WaveFirst:
@@ -113,11 +110,11 @@ NoFade
 ENDA
 
 LocationBasedEvents:
-Village(0x8,VillageBook,13,12)
+Village(0x8,VillageBook,14,15)
 Village(0x9,VillageGem,2,3)
-Village(0x12,VillageHalberd,7,12)
-Armory(Ch3Armoury,6,0)
-Vendor(Ch3Vendor,8,17)
+Village(0x12,VillageHalberd,12,10)
+Armory(Ch3Armoury,11,0)
+Vendor(Ch3Vendor,6,9)
 END_MAIN
 
 VillageHalberd:
@@ -167,9 +164,7 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x01 SouthBad
-ENUN
-LOAD1 0x01 NorthBad
+LOAD1 0x01 Bad
 ENUN
 LOAD1 0x01 PegGirl
 ENUN

@@ -50,6 +50,30 @@ Vampus[X]
 ## nameVenenum
 Venenum[X]
 
+## nameElfrost
+Elfrost[X]
+
+## descElfrost
+Effective against sword infantry.[X]
+
+## nameHurlbat
+Hurlbat[X]
+
+## nameHarpoon
+Harpoon[X]
+
+## nameLancea
+Lancea[X]
+
+## nameFalarica
+Falarica[X]
+
+## nameFrancisca
+Francisca[X]
+
+## nameNzappa
+Nzappa[X]
+
 ## DefendGreen
 [OpenMidLeft][LoadFace][WrenPortrait]Defend the green guy for 9 turns![A][X]
 

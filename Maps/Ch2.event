@@ -10,7 +10,8 @@ Map:
 MapChanges:
 TileMap(0,13,0,1,1,Chest1)
 TileMap(1,14,0,1,1,Chest2)
-TileMap(2,11,8,2,2,WallDestroyed)
+TileMap(2,13,5,1,2,DoorOpened)
+TileMap(3,11,8,2,2,WallDestroyed)
 TileMapEnd
 
 Chest1:
@@ -19,6 +20,10 @@ ALIGN 4
 
 Chest2:
 SHORT 0x4 
+ALIGN 4
+
+DoorOpened:
+SHORT 0xcd0 0xb44 
 ALIGN 4
 
 WallDestroyed:

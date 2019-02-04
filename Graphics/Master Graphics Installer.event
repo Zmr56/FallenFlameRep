@@ -45,3 +45,38 @@ PUSH
 ORG 0x5926F4+(0x80*0xCB)
 #incext Png2Dmp "Venenum.png"
 POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xCC)
+#incext Png2Dmp "Elfrost.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xCD)
+#incext Png2Dmp "Hurlbat.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xCE)
+#incext Png2Dmp "Francisca.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xCF)
+#incext Png2Dmp "Nzappa.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xD0)
+#incext Png2Dmp "Harpoon.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xD1)
+#incext Png2Dmp "Lancea.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xD2)
+#incext Png2Dmp "Falarica.png"
+POP
