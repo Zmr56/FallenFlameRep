@@ -7,7 +7,7 @@
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
 	#include "WTEditor.event"
-	//#include "Character Forcer.event"
+	#include "Character Forcer.event"
 	ALIGN 4
     MESSAGE Used text space ends at currentOffset
 

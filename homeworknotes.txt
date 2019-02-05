@@ -1,15 +1,15 @@
 There's multiple issues that I've ran out of time to resolve on this branch.
 
-charactrer forcer is broken on ch4 and possibly on subseqeunt chapters.
-hurlbat anims and possibly other new ranged weapon anims will not play and just freeze battle anims
+charactrer forcer is broken on ch4 and possibly on subseqeunt chapters. [X]
+hurlbat anims and possibly other new ranged weapon anims will not play and just freeze battle anims 
 I would greatly appreciate it if these issues could be resolved while I'm absent from the project until next Sunday.
 Other changes that aren't as essential that people can feel free to add are:
-Change boss text
-Change green guy's icon from boss to npc thing
-Change the boss stats for ch6
-Add character forcer.
-and standardise weapon costs
-Add Nomad and Axe Wyvern anims
+Change boss text 
+Change green guy's icon from boss to npc thing 
+Change the boss stats for ch6 
+Add character forcer. [X]
+and standardise weapon costs 
+Add Nomad and Axe Wyvern anims 
 
 
 
@@ -18,6 +18,6 @@ Add Nomad and Axe Wyvern anims
 -Corrected __DEBUG__ being defined in custom defs in addition to Debug.event
 -Fixed Gofaul Village palette being included twice
 -Why did your make hack quick output a rom titled SkillsTest reeeee
--Character Forcer is writing wholly incorrect data for some reason, no matter the format in which it is written
+-Character Forcer fixed and actually included reeeeeee
 -Ranged axes need mapped to hand axe animations specifically, you'll need to redo all animation mappings for vanilla axe classes but in the future can just add additional ranged axes to a macro and not have to update the animation mappings at all
 
