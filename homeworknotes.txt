@@ -9,7 +9,7 @@ Change green guy's icon from boss to npc thing [X]
 Change the boss stats for ch6 
 Add character forcer. [X]
 and standardise weapon costs 
-Add Nomad and Axe Wyvern anims 
+Add Nomad and Axe Wyvern anims [X]
 
 
 
@@ -21,7 +21,7 @@ Add Nomad and Axe Wyvern anims
 -Character Forcer fixed and actually included reeeeeee
 -Ranged axes need mapped to hand axe animations specifically, you'll need to redo all animation mappings for vanilla axe classes but in the future can just add additional ranged axes to a macro and not have to update the animation mappings at all
 -gave green guy defend marker, removed boss flag
--added MAKE HACK_qd so can get debug features without having to run every single thing
+-added MAKE HACK_qd so can get debug features without having to run every single thing (necessary due to redefine correction earlier)
 -Redid animation mappings for every class capable of using axes, in the future add new ranged axes to the HandAxeAnim macro to prevent freezing
-
+-Added Nomad animations as well as Wyvern Rider and Wyvern Lord axe animations and mapped them to their respective classes (wasn't sure if you wanted one or both so added both, won't cause any issues if you end up not giving riders access to axes)
 
