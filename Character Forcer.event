@@ -1,6 +1,7 @@
-#define ForceDeployEntry(unit,chapterID) "BYTE unit 0x00; BYTE 0xFF chapterID"
-#define EndForceDeploy "SHORT 0xFFFF 0x00"
+#define ForceDeployEntry(unit,chapterID) "BYTE unit 0x00 0xFF chapterID"
+#define EndForceDeploy "SHORT 0xFFFF 0x0000"
 
+ALIGN 4
 ForceDeployList:
 ForceDeployEntry(Wren,0xFF)
 ForceDeployEntry(Adela,0x04)
@@ -13,3 +14,5 @@ PUSH
 ORG 0x8483C
 POIN ForceDeployList
 POP
+
+
