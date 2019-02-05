@@ -36,6 +36,7 @@ NewStatScreenPal:
 RemoveGlowy:
 #incext Png2Dmp "RemoveGlowy.png" --lz77
 
+//Weapon Icons
 PUSH
 ORG 0x5926F4+(0x80*0xCA)
 #incext Png2Dmp "Vampus.png"
@@ -80,3 +81,19 @@ PUSH
 ORG 0x5926F4+(0x80*0xD2)
 #incext Png2Dmp "Falarica.png"
 POP
+
+//Map Sprites
+Map_WyvernRiderStand:
+#incext Png2Dmp "WyvernRiderStand.png" --lz77
+Map_WyvernRiderMoving:
+#incext Png2Dmp "WyvernRiderMoving.png" --lz77
+Map_NomadStand:
+#incext Png2Dmp "NomadStand.png" --lz77
+Map_NomadMoving:
+#incext Png2Dmp "NomadMoving.png" --lz77
+Map_SwordCavStand:
+#incext Png2Dmp "SwordCavStand.png" --lz77
+Map_SwordCavMoving:
+#incext Png2Dmp "SwordCavMoving.png" --lz77
+
+

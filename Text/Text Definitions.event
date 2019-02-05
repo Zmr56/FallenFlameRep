@@ -255,7 +255,7 @@
 #define nameFalarica 0x9d7
 #define nameFrancisca 0x9d8
 #define nameNzappa 0x9d9
-#define DefendGreen 0x9da
+#define DefendGreenText 0x9da
 #define PrologueChName 0x160
 #define Ch1ChName 0x161
 #define Ch2ChName 0x162

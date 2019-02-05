@@ -6,7 +6,8 @@
     PROTECT EndOfFreeSpace // Prevent overflow of data.
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
-	//#include "NewWT.event"
+	#include "WTEditor.event"
+	#include "Character Forcer.event"
 	ALIGN 4
     MESSAGE Used text space ends at currentOffset
 
