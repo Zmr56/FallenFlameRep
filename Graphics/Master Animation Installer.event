@@ -7,12 +7,18 @@
   #endif
 #endif
 
+//////////////Installed animations go here:
+
+
+
+//////////////
+
 #define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
 
 #define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
-#define SpearAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
+#define LanceAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
 #define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
-#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation ; BYTE 0xBF 0x00 ; SHORT Animation ; BYTE 0xC3 0x00 ; SHORT Animation ; BYTE 0xC4 0x00 ; SHORT Animation"
 #define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
 #define StaffAnim(Animation) "BYTE Staves 0x01 ; SHORT Animation"
 #define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
@@ -21,4 +27,101 @@
 #define UnarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 
-//////////////Installed animations go here:
+//////////////
+
+GeneralAnim:
+SwordAnim(0x44)
+LanceAnim(0x45)
+AxeAnim(0x46)
+HandAxeAnim(0x47)
+UnarmedAnim(0x48)
+WORD 0x0
+
+GeneralFAnim:
+SwordAnim(0x49)
+LanceAnim(0x4A)
+AxeAnim(0x4B)
+HandAxeAnim(0x4C)
+UnarmedAnim(0x4D)
+WORD 0x0
+
+HeroAnim:
+SwordAnim(0xD)
+AxeAnim(0xE)
+HandAxeAnim(0xF)
+UnarmedAnim(0x10)
+WORD 0x0
+
+GreatKnightAnim:
+SwordAnim(0x4E)
+LanceAnim(0x4F)
+AxeAnim(0x50)
+HandAxeAnim(0x51)
+UnarmedAnim(0x52)
+WORD 0x0
+
+GreatKnightFAnim:
+SwordAnim(0x53)
+LanceAnim(0x54)
+AxeAnim(0x55)
+HandAxeAnim(0x56)
+UnarmedAnim(0x57)
+WORD 0x0
+
+JourneymanAnim:
+AxeAnim(0x92)
+HandAxeAnim(0x93)
+UnarmedAnim(0x94)
+WORD 0x0
+
+FighterAnim:
+AxeAnim(0x19)
+HandAxeAnim(0x1A)
+UnarmedAnim(0x1B)
+WORD 0x0
+
+WarriorAnim:
+AxeAnim(0x1C)
+HandAxeAnim(0x1D)
+BowAnim(0x1E)
+UnarmedAnim(0x1F)
+WORD 0x0
+
+BrigandAnim:
+AxeAnim(0x20)
+HandAxeAnim(0x21)
+UnarmedAnim(0x22)
+WORD 0x0
+
+PirateAnim:
+AxeAnim(0x9A)
+HandAxeAnim(0x9B)
+UnarmedAnim(0x9C)
+WORD 0x0
+
+BerserkerAnim:
+AxeAnim(0x23)
+HandAxeAnim(0x24)
+UnarmedAnim(0x25)
+WORD 0x0
+
+CyclopsAnim:
+AxeAnim(0xAE)
+HandAxeAnim(0xAF)
+UnarmedAnim(0xB0)
+WORD 0x0
+
+TarvosAnim:
+AxeAnim(0xB3)
+HandAxeAnim(0xB4)
+UnarmedAnim(0xB5)
+WORD 0x0
+
+MaelduinAnim:
+AxeAnim(0xB6)
+HandAxeAnim(0xB7)
+BowAnim(0xB8)
+UnarmedAnim(0xB9)
+WORD 0x0
+
+
