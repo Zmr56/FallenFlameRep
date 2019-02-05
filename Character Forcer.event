@@ -12,7 +12,7 @@ EndForceDeploy
 
 PUSH
 ORG 0x8483C
-POIN ForceDeployListTEST
+POIN ForceDeployList
 POP
 
 
