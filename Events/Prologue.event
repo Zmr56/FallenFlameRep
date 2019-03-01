@@ -51,7 +51,7 @@ END_MAIN
 Units1:
 UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [11,9] 0x00 0x00 0x0 0x00 [Rapier, IronSword, Vulnerary] NoAI 
 UNIT Seth Paladin Eirika Level(5, Ally, 0) [12,9] 0x00 0x00 0x0 0x00 [BraveSword, IronSword] NoAI 
-UNIT Gilliam Knight_F Eirika Level(4, Ally, 0) [11,8] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] NoAI 
+UNIT Gilliam Knight_F Eirika Level(4, Ally, 0) [11,7] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] NoAI 
 UNIT Franz Fighter Eirika Level(6, Ally, 0) [10,8] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe] NoAI 
 UNIT Orvar Archer Eirika Level(4, Ally, 0) [10,9] 0x00 0x00 0x0 0x00 [IronBow] NoAI
 UNIT

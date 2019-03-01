@@ -498,3 +498,6 @@ ORG SkillIcon(WardingStanceID)
 
 ORG SkillIcon(SpectrumStanceID)
 #incext Png2Dmp "Skill Icons\Spectrum Stance.png"
+
+ORG SkillIcon(BlizzardBloodID)
+#incext Png2Dmp "Skill Icons\BlizzardBlood.png"
