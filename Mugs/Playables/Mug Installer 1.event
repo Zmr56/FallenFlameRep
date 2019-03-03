@@ -1,9 +1,5 @@
 #include "Tools/Tool Helpers.txt"
 
-Shamira_Mug:
-#incext PortraitFormatter "Shamira.png"
-setMugEntry(0x5, Shamira_Mug, 3, 6, 3, 4)
-
 Huginn_Mug:
 #incext PortraitFormatter "Huginn.png"
 setMugEntry(0x6, Huginn_Mug, 3, 4, 3, 2)

@@ -1,0 +1,15 @@
+GofaulVillageObjects:
+#incext Png2Dmp "Tileset/Tileset Palette 0378 - Fire Emblem - Sealed Sword (J)(Eurasia).gba_Frontier Village(3E 3F 40 00 00)2.png" --lz77
+ALIGN 4
+
+GofaulVillageTiles:
+#incext compress "Tileset/FE6_64.mapchip_config"
+ALIGN 4
+
+GofaulVillagePalette:
+#incbin "Tileset/GofaulVillagePalette.dmp"
+ALIGN 4
+
+EventPointerTable(0x8b, GofaulVillageObjects)
+EventPointerTable(0x8c, GofaulVillagePalette)
+EventPointerTable(0x8d, GofaulVillageTiles)
