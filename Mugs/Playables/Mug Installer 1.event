@@ -12,6 +12,10 @@ Orvar_Mug:
 #incext PortraitFormatter "Orvar.png"
 setMugEntry(0x7, Orvar_Mug, 2, 4, 2, 2)
 
+Luz_Mug:
+#incext PortraitFormatter "Luz.png"
+setMugEntry(0x8, Luz_Mug, 3, 6, 3, 4)
+
 Nanami_Mug:
 #incext PortraitFormatter "Nanami.png"
 setMugEntry(0xa, Nanami_Mug, 3, 5, 3, 3)
