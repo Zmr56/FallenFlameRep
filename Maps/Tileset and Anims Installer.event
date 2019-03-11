@@ -1,16 +1,5 @@
-/*
-ALIGN 4
-FieldsObjects:
-#incext Png2Dmp "Tileset/FieldsObjectMap.png" --lz77
-
 ALIGN 4
 FieldsPalette:
-#incbin "Tileset/FieldsPalette.dmp"
+#incbin "Tileset/FieldsPalette.pal.bin"
 
-ALIGN 4
-FieldsTileConfig:
-#incext compress "Tileset/FE8_3.mapchip_config"
-
-EventPointerTable(0x1, FieldsObjects)
 EventPointerTable(0x2, FieldsPalette)
-*/

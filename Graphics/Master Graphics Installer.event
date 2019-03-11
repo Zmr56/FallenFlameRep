@@ -36,6 +36,18 @@ NewStatScreenPal:
 RemoveGlowy:
 #incext Png2Dmp "RemoveGlowy.png" --lz77
 
+/*
+PUSH
+ORG $B12DB4
+POIN PrepBG
+POP
+
+PrepBG:
+#incext Png2Dmp "NewPrepBG.png" --lz77
+*/
+
+#include "Menus/Menu Graphics Installer.event"
+
 //Weapon Icons
 PUSH
 ORG 0x5926F4+(0x80*0xCA)

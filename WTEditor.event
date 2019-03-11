@@ -11,8 +11,11 @@ TwoWayWTEntry(Lances,Light,15,3)
 TwoWayWTEntry(Axes,Lances,15,3)
 TwoWayWTEntry(Axes,Anima,15,3)
 TwoWayWTEntry(Anima,Light,15,3)
+TwoWayWTEntry(Anima,Swords,15,3)
 TwoWayWTEntry(Light,Dark,15,3)
+TwoWayWTEntry(Light,Axes,15,3)
 TwoWayWTEntry(Dark,Anima,15,3)
+TwoWayWTEntry(Dark,Lances,15,3)
 EndWT //Terminator
 
 PUSH
