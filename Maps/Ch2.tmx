@@ -55,11 +55,11 @@
  </layer>
  <layer name="WallDestroyed" width="15" height="17" visible="0">
   <properties>
-   <property name="Height" value="2"/>
+   <property name="Height" value="3"/>
    <property name="ID" value="3"/>
    <property name="Width" value="2"/>
    <property name="X" value="11"/>
-   <property name="Y" value="8"/>
+   <property name="Y" value="7"/>
   </properties>
   <data encoding="base64" compression="zlib">
    eJxjYBgFwwm8ZmRguMhEnt7LQH1CzOTpBem7RKa9o2BgAAAacAOT

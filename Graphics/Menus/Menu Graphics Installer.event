@@ -12,8 +12,8 @@ ORG $8C2F4
 POIN FE8MenuTilesPalette+0x20 //Enemy
 ORG $8C2FC
 POIN FE8MenuTilesPalette+0x40 //Green unit
-/*ORG $8C304
-POIN FE8MenuTilesPalette+0x60 //Other unit*/
+/* ORG $349C8 
+POIN FE8MenuTilesPalette+0x60 //Other unit */
 
 ORG 0x95E38
 POIN FE8MenuTilesPalette //Prep Screen
