@@ -1,0 +1,33 @@
+PUSH
+ORG $4E0D0
+POIN MenuStylePaletteTable
+
+ORG $8C2EC
+POIN FE8MenuTilesPalette
+
+//Minimug box
+ORG $8C2EC
+POIN FE8MenuTilesPalette //Ally
+ORG $8C2F4
+POIN FE8MenuTilesPalette+0x20 //Enemy
+ORG $8C2FC
+POIN FE8MenuTilesPalette+0x40 //Green unit
+/* ORG $349C8 
+POIN FE8MenuTilesPalette+0x60 //Other unit */
+
+ORG 0x95E38
+POIN FE8MenuTilesPalette //Prep Screen
+ORG 0x36D2C
+POIN FE8MenuTilesPalette
+ORG 0x36D34
+POIN FE8MenuTilesPalette+0x20 //Battle Preview
+POP
+
+ALIGN 4
+MenuStylePaletteTable:
+POIN FE8MenuTilesPalette
+
+FE8MenuTilesPalette:
+#incext Png2Dmp "FE8_MenuTiles.png" --palette-only
+
+ALIGN 4
