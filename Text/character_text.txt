@@ -116,3 +116,66 @@ Sawine[X]
 ## descSawine
 A low ranking pirate captain who's[N]
 well versed in the ways of the axe.[X]
+
+## nameDatta
+Datta[X]
+
+## descDatta
+Petty pirate, hired by the[N]
+Wyvemberian Empire.[X]
+
+## nameAttab
+Attab[X]
+
+## descAttab
+Wyvemberian commander, lands[N]
+powerful blows with their axe .[X]
+
+## nameRhud
+Rhud[X]
+
+## descRhud
+Wyvemberian knight, his[N]
+skill with lances is deadly.[X]
+
+## nameSonta
+Sonta[X]
+
+## descSonta
+Gofaullian mercenary, in[N]
+possession of a rare blade.[X]
+
+## nameValanos
+Valanos[X]
+
+## descValanos
+Gofaullian shaman, takes[N]
+delight in looting artifacts.[X]
+
+## nameBigfard
+Bigfard[X]
+
+## descBigfard
+Gofaullian pirate, despite his[N]
+size, he can lands agile hits.[X]
+
+## nameKuhnt
+Kuhnt[X]
+
+## descKuhnt
+A colony ruler rebelling against[N]
+the Blumari kingdom with pirates.[X]
+
+## nameWazzak
+Wazzak[X]
+
+## descWazzak
+A cruel pirate with a gluttonous[N]
+appetite for gold.[X]
+
+## nameNaiburn
+Naiburn[X]
+
+## descNaiburn
+I'm too lazy to insert Manakete[N]
+anims so he's a Shaman instead.[X]

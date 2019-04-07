@@ -6,8 +6,6 @@ PUSH
   ORG $c5830
   POIN NewTitleScroll
   
-  ORG $aac58c //clearing dragon palette to only use 1 colour
-  BYTE $90 $42 $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A $EE $2A
 POP
 
 NewDifficultyButtons:
@@ -17,6 +15,16 @@ NewTitleScroll:
 #incext Png2Dmp "TitleScroll.png" --lz77
 
 #include "Master Animation Installer.event"
+
+/*
+PUSH
+ORG $59EE2
+POIN NewMapSpritePal
+POP
+
+NewMapSpritePal:
+#incext Png2Dmp "MapSpritePaletteDump.png" --palette-only
+*/
 
 //Stat screen
 PUSH
@@ -32,6 +40,23 @@ NewStatScreen:
 #incext Png2Dmp "StatScreen.png" --lz77
 NewStatScreenPal:
 #incext Png2Dmp "StatScreen.png" --palette-only
+
+#include "FE8-Title Screen Background/FE8-Title Screen Background.txt"
+
+/*
+Title Screen Rapier:
+PUSH
+ORG $AAB41
+POIN TitleScreenRapier
+ORG $AAC58
+POIN TitleScreenRapierPal
+POP
+
+TitleScreenRapier:
+#incext Png2Dmp "rapier.png" --lz77
+TitleScreenRapierPal:
+#incext Png2Dmp "rapier.png" --palette-only
+*/
 
 RemoveGlowy:
 #incext Png2Dmp "RemoveGlowy.png" --lz77
@@ -107,5 +132,3 @@ Map_SwordCavStand:
 #incext Png2Dmp "SwordCavStand.png" --lz77
 Map_SwordCavMoving:
 #incext Png2Dmp "SwordCavMoving.png" --lz77
-
-

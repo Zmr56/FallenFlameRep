@@ -8,6 +8,7 @@
     #include "Text/Install Text Data.event"
 	#include "WTEditor.event"
 	#include "Character Forcer.event"
+	#include "Event Assembler/Extensions/AI Assembly.txt"
 	ALIGN 4
     MESSAGE Used text space ends at currentOffset
 

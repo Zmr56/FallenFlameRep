@@ -1,0 +1,5 @@
+#include "Tools/Tool Helpers.txt"
+
+FatNoble_Mug:
+#incext PortraitFormatter "FatNoble.png"
+setMugEntry(0x31, FatNoble_Mug, 2, 6, 2, 4)

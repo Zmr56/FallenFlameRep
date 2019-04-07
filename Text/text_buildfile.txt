@@ -14,7 +14,22 @@ Learned  [X]
 
 #include "class_text.txt"
 
-#include "objective_text.txt"
+#include "skilldesc_text.txt"
+
+#include "character_text.txt"
+
+## DefendFatNobleWindow
+Defend noble[X]
+
+## DefendFatNobleStatus
+Defend noble for 9[N]
+turns or kill boss.[X]
+
+# 0x1a1 Kill2Bosses
+Kill 2 bosses.[X]
+
+## DefendGreenText
+[OpenMidLeft][LoadFace][WrenPortrait]Defend the fat noble for 9 turns![A][X]
 
 ## VillageText
 [MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
@@ -37,12 +52,29 @@ Sirius[X]
 ## nameZeke
 Zeke[X]
 
-#include "skilldesc_text.txt"
-
-#include "character_text.txt"
-
 ## UM_Debug
  Debug[X]
+
+# 0x160 PrologueChName
+Prologue[X]
+
+# 0x161 Ch1ChName
+Ch1[X]
+
+# 0x162 Ch2ChName
+Ch2[X]
+
+# 0x163 Ch3ChName
+Ch3[X]
+
+# 0x164 Ch4ChName
+Ch4[X]
+
+# 0x166 Ch5ChName
+Ch5[X]
+
+# 0x167 Ch6ChName
+Ch6[X]
  
 ## nameVampus
 Vampus[X]
@@ -73,21 +105,3 @@ Francisca[X]
 
 ## nameNzappa
 Nzappa[X]
-
-## DefendGreenText
-[OpenMidLeft][LoadFace][WrenPortrait]Defend the green guy for 9 turns![A][X]
-
-# 0x160 PrologueChName
-Prologue[X]
-
-# 0x161 Ch1ChName
-Ch1[X]
-
-# 0x162 Ch2ChName
-Ch2[X]
-
-# 0x163 Ch3ChName
-Ch3[X]
-
-# 0x164 Ch4ChName
-Ch4[X]

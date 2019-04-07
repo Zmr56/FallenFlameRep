@@ -21,11 +21,31 @@ END_MAIN
 LocationBasedEvents:
 Chest(BodyRing,13,0)
 Chest(Hatchet,13,1)
+Village(0x7,VillageUnlock,6,14)
+Village(0x8,VillageShortSpear,14,18)
+Village(0x9,VillageBow,3,14)
+Armory(Ch6Armoury,4,18)
+Vendor(Ch6Vendor,7,18)
 END_MAIN
+
+VillageUnlock:
+VillageEventItem(PlaceholderText, Village, Unlock)
+
+VillageShortSpear:
+VillageEventItem(PlaceholderText, Village, ShortSpear)
+
+VillageBow:
+VillageEventItem(PlaceholderText, Village, KillerBow)
+
+Ch6Armoury:
+SHLI SteelSword IronBlade SteelLance Lancea SteelAxe Hurlbat SteelBow ShortBow
+
+Ch6Vendor:
+SHLI Fire Thunder Lightning Divine Flux Vampus Heal Mend Vulnerary
+ALIGN 4
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatAll(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -47,56 +67,50 @@ Tutorial:
 END_MAIN
 
 Units1:
-UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [3,24] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [2,23] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [1,23] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [2,24] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [1,24] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [2,25] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [1,25] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [4,25] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [3,25] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [4,23] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [3,23] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [10,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [9,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [8,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [12,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [11,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [10,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [7,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [6,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [11,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [13,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [9,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 NewUnits:
-UNIT Evander Soldier Eirika Level(5, Ally, 0) [6,23] 0x00 0x00 0x0 0x00 [KillerLance, IronLance] NoAI
+UNIT Evander Soldier Eirika Level(5, Ally, 0) [11,19] 0x00 0x00 0x0 0x00 [KillerLance, Javelin, IronLance] NoAI
 UNIT
 
-SouthBad:
-UNIT 0x80 Myrmidon Tirado Level(5, Enemy, 1) [10,19] 0x00 0x00 0x0 0x00 [KillingEdge] AttackInRangeAI 
-UNIT 0x80 Mercenary Tirado Level(5, Enemy, 1) [11,20] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Archer Tirado Level(5, Enemy, 1) [12,19] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x80 Pirate Tirado Level(5, Enemy, 1) [12,14] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Pirate Tirado Level(5, Enemy, 1) [11,15] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Nomad Tirado Level(5, Enemy, 1) [9,12] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x80 Nomad Tirado Level(5, Enemy, 1) [2,16] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x80 Nomad Tirado Level(5, Enemy, 1) [2,12] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x80 Pirate Tirado Level(5, Enemy, 1) [1,19] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Shaman Tirado Level(5, Enemy, 1) [0,16] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Fighter Tirado Level(5, Enemy, 1) [15,24] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Mercenary Tirado Level(5, Enemy, 1) [14,25] 0x00 0x00 0x0 0x00 [SteelBlade] AttackInRangeAI 
-UNIT 0x80 Shaman Tirado Level(5, Enemy, 1) [8,16] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT
-
-NorthBad:
-UNIT Murray Cavalier 0x00 Level(8, Enemy, 0) [0,5] 0x00 0x00 0x0 0x00 [KillingEdge, Lancereaver] AttackInRangeAI 
-UNIT Tirado Pirate 0x00 Level(8, Enemy, 0) [13,7] 0x00 0x00 0x0 0x00 [KillerAxe, Hammer] AttackInRangeAI 
-UNIT 0x80 Mage Murray Level(6, Enemy, 1) [2,4] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Shaman Murray Level(6, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Priest Murray Level(6, Enemy, 1) [0,6] 0x00 0x00 0x0 0x00 [Physic] HealUnits 
-UNIT 0x80 Mercenary Murray Level(6, Enemy, 1) [5,4] 0x00 0x00 0x0 0x00 [IronSword, Longsword] AttackInRangeAI 
-UNIT 0x80 Soldier Murray Level(6, Enemy, 1) [5,7] 0x00 0x00 0x0 0x00 [IronLance, Horseslayer] AttackInRangeAI 
-UNIT 0x80 Archer Murray Level(6, Enemy, 1) [5,1] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
-UNIT 0x80 Archer Murray Level(6, Enemy, 1) [9,1] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
-UNIT 0x80 Mage Murray Level(6, Enemy, 1) [8,5] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Knight Murray Level(6, Enemy, 1) [13,4] 0x00 0x00 0x0 0x00 [Lancea] GuardTileAI 
-UNIT 0x80 Shaman Murray Level(6, Enemy, 1) [11,6] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Archer_F Murray Level(6, Enemy, 1) [15,6] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x80 Knight Murray Level(6, Enemy, 1) [12,11] 0x00 0x00 0x0 0x00 [Lancea] GuardTileAI 
-UNIT 0x80 Knight Murray Level(6, Enemy, 1) [14,11] 0x00 0x00 0x0 0x00 [Lancea] GuardTileAI 
-UNIT 0x80 Shaman Murray Level(6, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+Bad:
+UNIT Tirado Pirate 0x00 Level(11, Enemy, 0) [8,5] 0x00 0x00 0x0 0x00 [KillerAxe, Hammer] PursueWithoutHeedAI 
+UNIT Murray Cavalier 0x00 Level(11, Enemy, 0) [0,5] 0x00 0x00 0x0 0x00 [KillingEdge, Lancereaver] ChaseOnceApproachedAI 
+UNIT 0x80 Archer Murray Level(11, Enemy, 1) [1,4] 0x00 0x00 0x0 0x00 [SteelBow] ChaseOnceApproachedAI 
+UNIT 0x80 Archer Murray Level(11, Enemy, 1) [1,6] 0x00 0x00 0x0 0x00 [SteelBow] ChaseOnceApproachedAI 
+UNIT 0x80 Mage Murray Level(11, Enemy, 1) [2,5] 0x00 0x00 0x0 0x00 [Thunder] ChaseOnceApproachedAI 
+UNIT 0x80 Cleric Murray Level(11, Enemy, 1) [5,7] 0x00 0x00 0x0 0x00 [Physic] ChaseOnceApproachedAI 
+UNIT 0x80 Mage Murray Level(11, Enemy, 1) [7,5] 0x00 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI 
+UNIT 0x80 Myrmidon Tirado Level(11, Enemy, 1) [8,4] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Tirado Level(11, Enemy, 1) [8,6] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Entombed Tirado Level(11, Enemy, 1) [6,1] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT 0x80 Entombed Tirado Level(11, Enemy, 1) [8,1] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT 0x80 Entombed Tirado Level(11, Enemy, 1) [1,12] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT 0x80 Entombed Tirado Level(11, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT 0x80 Knight Murray Level(10, Enemy, 1) [13,9] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
+UNIT 0x80 Shaman Tirado Level(10, Enemy, 1) [12,9] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Fighter Tirado Level(10, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [Hatchet] NeverMoveAI 
+UNIT 0x80 Knight Murray Level(10, Enemy, 1) [13,5] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x80 Mercenary Tirado Level(9, Enemy, 1) [1,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Myrmidon Tirado Level(9, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Tirado Level(9, Enemy, 1) [0,15] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Pirate Tirado Level(9, Enemy, 1) [5,15] 0x00 0x00 0x0 0x00 [IronAxe] ChaseOnceApproachedAI 
+UNIT 0x80 Pirate Tirado Level(9, Enemy, 1) [6,16] 0x00 0x00 0x0 0x00 [IronAxe] ChaseOnceApproachedAI 
+UNIT 0x80 Pirate Tirado Level(9, Enemy, 1) [13,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Myrmidon Tirado Level(9, Enemy, 1) [9,11] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Tirado Level(9, Enemy, 1) [12,13] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x80 Knight Murray Level(9, Enemy, 1) [14,14] 0x00 0x00 0x0 0x00 [ShortSpear] PursueWithoutHeedAI 
 UNIT
 
 BeginningScene:
@@ -104,14 +118,12 @@ LOAD2 0x1 Units1
 ENUN
 LOAD1 0x1 NewUnits
 ENUN
-LOAD1 0x01 SouthBad
-ENUN
-LOAD1 0x01 NorthBad
+LOAD1 0x01 Bad
 ENUN
 NoFade
 GotoPrepScreen
 
 EndingScene:
-MNCH 7
+MNTS 0x1
 NoFade
 ENDA

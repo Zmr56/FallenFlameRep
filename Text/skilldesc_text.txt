@@ -201,8 +201,8 @@ Renewal: Restore 30% of max HP[N]
 at the start of each turn.[X]
 
 ## SD_NiceThighs
-Nice Thighs: No effect, really.[N]
-Just thought I'd point them out.[X]
+Placeholder: No effect.[N]
+More skills to come.[X]
 
 ## SD_Demoiselle
 Demoiselle: Male allies within[N]

@@ -1,1 +1,2 @@
-[MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
+Horseback archers who move through.[N]
+rough terrain with ease.[X]

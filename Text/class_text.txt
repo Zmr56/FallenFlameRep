@@ -1,3 +1,7 @@
+## descWyvernRider
+High flying knights vulnerable only to.[N]
+bows and magic. Equips Axes.[X]
+
 ## nameNomad
 Nomad[X]
 

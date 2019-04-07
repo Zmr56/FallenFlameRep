@@ -8,25 +8,20 @@ Map:
 #incbin "Ch5_data.dmp"
 
 MapChanges:
-TileMap(0,11,0,1,1,TLChest)
-TileMap(1,13,0,1,1,TRChest)
-TileMap(2,7,14,1,1,BLChest)
-TileMap(3,8,14,1,1,BRChest)
+TileMap(0,3,6,1,1,Chest)
+TileMap(1,2,13,2,1,Door1Open)
+TileMap(2,14,13,2,1,Door2Open)
 TileMapEnd
 
-TLChest:
+Chest:
 SHORT 0x104 
 ALIGN 4
 
-TRChest:
-SHORT 0x104 
+Door1Open:
+SHORT 0xcd0 0xcd4 
 ALIGN 4
 
-BLChest:
-SHORT 0x104 
-ALIGN 4
-
-BRChest:
-SHORT 0x104 
+Door2Open:
+SHORT 0xbc0 0xbc4 
 ALIGN 4
 
