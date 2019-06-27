@@ -1,0 +1,13 @@
+#define NumberOfTextEntries 0xFFF //The number of entries, more than 0xD4D cause that is the length of the default table
+/*
+ALIGN 4
+TextTable1:
+    #incbin "OriginalTextTable.bin"
+    ORG (TextTable1 + 4*NumberOfTextEntries)
+*/
+	
+PUSH
+ORG $a2a0 //This is where the pointer to the text table is
+POIN TextTable //The new pointer
+POP
+MESSAGE Text table located at TextTable

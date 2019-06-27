@@ -1,0 +1,4 @@
+ORG $A26C
+POIN TextTable
+ORG $A2A0
+POIN TextTable

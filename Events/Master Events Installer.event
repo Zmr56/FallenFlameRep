@@ -4,6 +4,7 @@ ALIGN 4
 {
   #include "Prologue.event"
 }
+/*
 ALIGN 4
 {
   #include "Ch1.event"
@@ -29,3 +30,4 @@ ALIGN 4
   #include "Ch6.event"
 }
 ALIGN 4
+*/

@@ -1,41 +1,46 @@
+
 #ifdef _FE8_
     #include "EAstdlib.event"
     #include "Custom Definitions.event"
 
     ORG FreeSpace
     PROTECT EndOfFreeSpace // Prevent overflow of data.
-    //Text first for Text ID definitions
-    #include "Text/Install Text Data.event"
 	#include "WTEditor.event"
 	#include "Character Forcer.event"
 	#include "Event Assembler/Extensions/AI Assembly.txt"
+	#include "ModularMinimugBox/MMB Installer Default.event"
+	#include "TextRepoint.event"
 	ALIGN 4
     MESSAGE Used text space ends at currentOffset
 
+	ALIGN 16
+	//Text    
+	TextTable:
+	#incbin "Tables/Vanilla Text Table.dmp"
+	#include "Text/Install Text Data.event"
+	MESSAGE Text data ends at CURRENTOFFSET
+	
+	//CSV tables
+    #include "Tables/Table Installer.event"
+    MESSAGE Used table space ends at currentOffset
+	
 	//Graphics
     #include "Graphics/Master Graphics Installer.event"
 	ALIGN 4
 	#include "Mugs/Mug Installer.event"
     ALIGN 4
-	
-    //CSV tables
-    #include "Tables/Table Installer.event"
-    MESSAGE Used table space ends at currentOffset
 
-    //Engine Hacks
+	//Palettes
+    //#include "Battle Palettes/Palette Setup.event"
+	
+	ALIGN 16
+	//Engine Hacks
     #include "Engine Hacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
-
+	
     //Events
     #include "Events/Master Events Installer.event"
     #include "Events/World Map Events Installer.event"
-
-    //Maps
-    #include "Maps/Master Map Installer.event"
-	#include "Maps/Tileset and Anims Installer.event"
-    
-	//Palettes
-    //#include "Battle Palettes/Palette Setup.event"
 	
     MESSAGE Used free space ends at currentOffset
     MESSAGE Proc_Counter

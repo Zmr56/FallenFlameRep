@@ -217,7 +217,7 @@ NewPageNamePalette:
   TxtData0x0D4B:
   String(Donate to Circles)
   BYTE 0
-  ALIGN 4
+  //ALIGN 4
   setText(0x0D4B,TxtData0x0D4B)
   
   /*stat screen R menu is at 8a00b38
