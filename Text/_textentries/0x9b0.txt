@@ -1,2 +1,2 @@
-Wren's loyal guardian. An[N]
-excellent swordsman and rider.[X]
+Spur Speed: Adjacent allies[N]
+gain +4 Attack Speed.[X]

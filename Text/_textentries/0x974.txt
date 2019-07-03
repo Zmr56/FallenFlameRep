@@ -1,2 +1,2 @@
-Dragon's Blood: Unit is able[N]
-to activate Dragon Veins.[X]
+Adept: Gain a consecutive attack.[N]
+(Speed % activation)[X]

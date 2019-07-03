@@ -1,3 +1,2 @@
-Kestrel Stance: +4 attack[NL]
-and speed when foe[NL]
-initiates battle.[X]
+Renewal: Restore 30% of max HP[N]
+at the start of each turn.[X]

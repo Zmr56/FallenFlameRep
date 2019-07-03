@@ -1,1 +1,2 @@
-Vicks[X]
+Camaraderie: Recover 10% HP each turn[N]
+if there are allies within 2 tiles.[X]

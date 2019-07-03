@@ -1,1 +1,2 @@
-Crit Boost: +15 critical rate.[X]
+Push an adjacent unit two[N]
+tiles away.[X]

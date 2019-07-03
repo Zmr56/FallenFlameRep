@@ -1,2 +1,2 @@
-Bowfaire: +4 damage[N]
-when equipping a bow.[X]
+Gofaullian mercenary, in[N]
+possession of a rare blade.[X]

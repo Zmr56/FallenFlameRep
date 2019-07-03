@@ -1,2 +1,2 @@
-Desperation: If HP < 50%,[N]
-double attacks occur immediately.[X]
+A low ranking pirate captain who's[N]
+well versed in the ways of the axe.[X]

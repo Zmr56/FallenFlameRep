@@ -1,2 +1,1 @@
-Expertise: Reduce bonus damage[N]
-from critical hits by 50%.[X]
+Crit Boost: +15 critical rate.[X]

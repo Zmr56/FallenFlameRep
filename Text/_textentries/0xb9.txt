@@ -1,2 +1,2 @@
-Bond: All allies within 3 tiles[N]
-recover 10% HP each turn.[X]
+Axefaire: +4 damage[N]
+when equipping an axe.[X]

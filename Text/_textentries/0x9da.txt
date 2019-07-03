@@ -1,1 +1,2 @@
-[OpenMidLeft][LoadFace][WrenPortrait]Defend the green guy for 9 turns![A][X]
+Seal Skill: Debuff opponent's Skl[N]
+by 6 after combat. (Recover 1/turn)[X]

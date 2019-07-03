@@ -1,2 +1,2 @@
-Armsthrift: Luck % chance to not[N]
-consume weapon durability.[X]
+Colossus: Triples Strength.[N]
+(Skill % activation)[X]

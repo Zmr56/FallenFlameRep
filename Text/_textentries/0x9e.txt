@@ -1,2 +1,2 @@
-Impale: Deal 4x damage.[N]
+Luna: Negates enemy defenses.[N]
 (Skill % activation)[X]

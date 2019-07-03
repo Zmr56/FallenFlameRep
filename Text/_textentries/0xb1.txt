@@ -1,2 +1,2 @@
-Opportunist: +4 damage[N]
-if the foe cannot counter.[X]
+Vantage: If HP < 50%,[N]
+strike first when attacked.[X]

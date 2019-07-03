@@ -1,2 +1,2 @@
-Wind Disciple: +10 Hit and[N]
-Avoid when HP is not at max.[X]
+Spur Strength: Adjacent allies[N]
+deal +4 physical damage.[X]

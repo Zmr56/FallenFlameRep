@@ -1,2 +1,2 @@
-Rally Spectrum: +2 all stats[N]
-to allies within 2 tiles.[X]
+Tomebreaker: +50 Hit/Avo when[N]
+enemy has a tome equipped.[X]

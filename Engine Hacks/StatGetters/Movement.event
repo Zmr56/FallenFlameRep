@@ -4,7 +4,14 @@
 #include "_Common.event"
 
 pMovModifiers: // Movement
-	POIN prAddUnitBaseMov prAddUnitMovBonus prRallyMov prSkillCelerity prNullifyIfGuardAI prNullifyIfFreeze
+	POIN prAddUnitBaseMov prAddUnitMovBonus prRallyMov prSkillCelerity prNullifyIfGuardAI ArmorMarchCheck 
+	#ifdef ENABLE_STAIRS
+	POIN StairsMoveDebuff-1
+	#endif
+	POIN prNullifyIfFreeze
+	#ifdef DEBUFFS_MIN_ZERO
+	POIN prMinZero
+	#endif
 WORD 0
 
 prAddUnitBaseMov: // byte 0x12 in ROM class data is base class movement

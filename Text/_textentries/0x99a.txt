@@ -1,2 +1,2 @@
-Identity Problems: This unit can't[N]
-decide on a name or face.[X]
+Swordfaire: +4 damage[N]
+when equipping a sword.[X]

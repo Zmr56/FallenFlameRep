@@ -1,2 +1,2 @@
-Armored Blow: +10 Def[N]
-when initiating battle.[X]
+An experienced wyvern rider with a[N]
+keen eye. Composed and focused.[X]

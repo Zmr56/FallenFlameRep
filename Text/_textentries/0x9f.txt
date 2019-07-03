@@ -1,2 +1,2 @@
-Colossus: Triples Strength.[N]
+Sol: Restore damage dealt as HP.[N]
 (Skill % activation)[X]

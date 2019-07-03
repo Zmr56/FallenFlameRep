@@ -1,3 +1,2 @@
-Sturdy Stance: +4 attack[NL]
-and defense when foe[NL]
-initiates battle.[X]
+Malefic Aura: Enemies within 2[N]
+tiles receive +2 magic damage.[X]

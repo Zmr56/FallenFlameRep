@@ -1,2 +1,2 @@
-A specialist in Ice magic. Her heart[N]
-is much warmer than her spells.[X]
+Intimidate: -10 Avoid to[N]
+all enemies within 2 tiles.[X]

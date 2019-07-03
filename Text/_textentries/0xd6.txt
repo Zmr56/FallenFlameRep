@@ -1,2 +1,2 @@
-Shove: Allows unit to push[N]
-other units one tile away.[X]
+Rally Magic: +4 Mag to[N]
+allies within 2 tiles.[X]

@@ -1,2 +1,2 @@
-Death Blow: +6 Attack[N]
-when initiating battle.[X]
+Lily's Poise: Adjacent allies gain[N]
++1/-3 damage dealt/received.[X]

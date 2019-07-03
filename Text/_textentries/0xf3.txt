@@ -1,2 +1,2 @@
-Vantage+: User always attacks first,[N]
-even if attacked. Negates crits.[X]
+Fiery Blood: +4 damage[N]
+when HP is not at max.[X]

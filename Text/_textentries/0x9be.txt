@@ -1,2 +1,2 @@
-Gofaullian shaman. Has since lost[N]
-his status of village chieftain.[X]
+Rally Resistance: +4 Res[N]
+to allies within 2 tiles.[X]

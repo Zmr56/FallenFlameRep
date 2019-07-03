@@ -1,2 +1,2 @@
-Quick Draw: +4 Damage[N]
-when initiating battle.[X]
+Pass: Can move through[N]
+enemy units.[X]

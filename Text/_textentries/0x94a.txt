@@ -1,2 +1,2 @@
-Impale: Deal 4x damage.[N]
-(Skill % activation)[X]
+A clerc with a fiery spirit. Guided[N]
+by her strong sense of justice.[X]

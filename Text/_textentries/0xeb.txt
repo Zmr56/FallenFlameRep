@@ -1,2 +1,2 @@
-Quantum Visage: Face changes[N]
-every time it's looked at.[X]
+Relief: Recover 20% HP each turn if[N]
+there are no allies within 2 tiles.[X]

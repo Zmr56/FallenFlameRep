@@ -1,2 +1,2 @@
-Dazzle: Opponents cannot[N]
-counterattack this unit.[X]
+Vantage: If HP < 50%,[N]
+strike first when attacked.[X]

@@ -1,3 +1,2 @@
-Spectrum Stance: +2 attack,
-speed, defense, and resistance[NL]
-when foe initiates battle.[X]
+Voice of Peace: Enemies within[N]
+2 tiles deal -2 damage.[X]

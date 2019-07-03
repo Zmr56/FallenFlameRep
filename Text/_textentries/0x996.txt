@@ -1,2 +1,2 @@
-Supply: This unit has[N]
-access to the convoy.[X]
+Wrath: If HP < 50%,[N]
++20 critical rate.[X]

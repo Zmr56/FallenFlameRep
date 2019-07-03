@@ -1,2 +1,2 @@
-Counter: Reflect physical damage[N]
-when attacked at 1-2 range.[X]
+Leave opponent with[N]
+at least 1 HP.[X]

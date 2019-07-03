@@ -29,7 +29,13 @@
 	ALIGN 4
 	#include "Mugs/Mug Installer.event"
     ALIGN 4
-
+	
+	//Maps
+	#define TMX2EA
+	#include "Maps/Tileset and Anims Installer.event"
+	#include "Maps/Master Map Installer.event"	
+	MESSAGE Map data ends at CURRENTOFFSET
+	
 	//Palettes
     //#include "Battle Palettes/Palette Setup.event"
 	
@@ -37,7 +43,7 @@
 	//Engine Hacks
     #include "Engine Hacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
-	
+
     //Events
     #include "Events/Master Events Installer.event"
     #include "Events/World Map Events Installer.event"

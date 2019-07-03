@@ -1,2 +1,3 @@
-A reserved and introverted noble[N]
-woman. Misses her brother dearly.[X]
+Ignis: Add Def/2 and Res/2[N]
+to damage dealt.[N]
+(Skill % activation)[X]

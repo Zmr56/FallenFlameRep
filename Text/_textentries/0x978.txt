@@ -1,2 +1,2 @@
-Strong Riposte: When under[N]
-attack, damage +3. [X]
+Wary Fighter: Unit cannot[N]
+double or be doubled.[X]

@@ -1,2 +1,2 @@
-Aegis: Nullify a magic attack.[N]
-(Skill % activation)[X]
+Character with whom this unit[N]
+may talk on the battlefield.[X]

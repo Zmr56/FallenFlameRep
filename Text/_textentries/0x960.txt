@@ -1,2 +1,2 @@
-Foreign Princess: Foreign army units[N]
-take -2/+2 damage dealt/taken.[X]
+A low ranking pirate captain who's[N]
+well versed in the ways of the axe.[X]

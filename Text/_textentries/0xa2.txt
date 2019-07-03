@@ -1,2 +1,2 @@
-Rally Skill: +4 Skill[N]
-to allies within 2 tiles.[X]
+Discipline: Weapon experience[N]
+gains are doubled.[X]

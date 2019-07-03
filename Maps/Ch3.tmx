@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" nextobjectid="1">
  <tileset firstgid="1" name="1800481a" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="../../../FE Hacking/Dragon!/Maps/Tilesets/FE8/1800481a.png" width="512" height="512"/>
  </tileset>
@@ -8,7 +8,7 @@
    <property name="ChapterID" value="2"/>
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0xC"/>
-   <property name="MapID" value="0xB"/>
+   <property name="MapID" value="0x11"/>
    <property name="ObjectType" value="0x18"/>
    <property name="PaletteID" value="0x48"/>
    <property name="TileConfig" value="0x1A"/>

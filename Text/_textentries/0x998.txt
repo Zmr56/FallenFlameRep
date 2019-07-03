@@ -1,2 +1,2 @@
-Trace: During Battle, copies[N]
-the first Skill of the enemy.[X]
+Countermagic: Reflect magic damage[N]
+when attacked at 1-2 range.[X]

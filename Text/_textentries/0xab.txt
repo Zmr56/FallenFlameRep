@@ -1,2 +1,2 @@
-Live to Serve: When healing[N]
-an ally, also heals self.[X]
+Duelist's Blow: +30 Avo[N]
+when initiating battle.[X]

@@ -1,2 +1,2 @@
-Anathema: -10 Avoid/Dodge to all[N]
-enemies within 3 tiles.[X]
+Bowfaire: +4 damage[N]
+when equipping a bow.[X]

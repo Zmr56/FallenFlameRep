@@ -1,1 +1,1 @@
-Lancea[X]
+ Debug[X]

@@ -1,1 +1,2 @@
-Falarica[X]
+Elbow Room: +3 damage dealt[N]
+when on open terrain.[X]

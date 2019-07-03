@@ -1,2 +1,3 @@
-Rally Strength: +4 Str[N]
-to allies within 2 tiles.[X]
+Aether: First strike absorbs HP,[N]
+second strike negates defenses.[N]
+(Skill/2 % activation)[X]

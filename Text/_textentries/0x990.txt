@@ -1,2 +1,2 @@
-Reposition: Allows unit to pull an[N]
-adjacent ally to its opposite side.[X]
+Darting Blow: +5 Attack Speed[N]
+when initiating battle.[X]

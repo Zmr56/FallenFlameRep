@@ -1,2 +1,2 @@
-Life and Death: Grants[N]
-+5 Atk/Mag/Spd, -5 Def/Res.[X]
+Expertise: Reduce bonus damage[N]
+from critical hits by 50%.[X]

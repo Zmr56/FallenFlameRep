@@ -1,2 +1,2 @@
-Patience: When under[N]
-attack, avoid +10. [X]
+Spur Speed: Adjacent allies[N]
+gain +4 Attack Speed.[X]

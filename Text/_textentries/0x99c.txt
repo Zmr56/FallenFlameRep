@@ -1,2 +1,2 @@
-Death Blow: +6 Attack[N]
-when initiating battle.[X]
+Axefaire: +4 damage[N]
+when equipping an axe.[X]

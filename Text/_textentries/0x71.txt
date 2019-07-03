@@ -1,2 +1,2 @@
-Axebreaker: +50 Hit/Avo when[N]
-enemy has an axe equipped.[X]
+A rider who goes wherever the wind[N]
+takes him. Hides a big secret.[X]

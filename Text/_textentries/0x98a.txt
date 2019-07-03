@@ -1,2 +1,2 @@
-Odd Rhythm: +10 Hit and Avoid[N]
-on odd numbered turns.[X]
+Bowbreaker: +50 Hit/Avo when[N]
+enemy has a bow equipped.[X]

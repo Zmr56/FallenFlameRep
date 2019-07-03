@@ -1,2 +1,2 @@
-Pursuit: When under attack,[N]
-attack speed +2. [X]
+Provoke: Enemies are more[N]
+likely to target this unit.[X]

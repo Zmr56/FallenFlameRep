@@ -1,2 +1,2 @@
-Rightful God: +30% to[N]
-Skill activation rate.[X]
+Lancebreaker: +50 Hit/Avo when[N]
+enemy has a lance equipped.[X]

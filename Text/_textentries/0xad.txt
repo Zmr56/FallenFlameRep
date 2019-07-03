@@ -1,2 +1,2 @@
-Life and Death: +10 to[N]
-damage dealt and taken.[X]
+Darting Blow: +5 Attack Speed[N]
+when initiating battle.[X]

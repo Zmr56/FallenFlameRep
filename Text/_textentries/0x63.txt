@@ -1,2 +1,2 @@
-Provoke: Enemies are more[N]
-likely to target this unit.[X]
+Gofaullian mercenary hired by Wren.[N]
+Talks little but cares for comrades.[X]

@@ -30,6 +30,3 @@
 {
 #include "Old\Ch6.event"
 }
-{
-#include "Tileset\GrustMap.event"
-}

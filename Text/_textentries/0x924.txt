@@ -1,2 +1,2 @@
-Darting Blow: +5 Attack Speed[N]
-when initiating battle.[X]
+This unit's personal[N]
+stats and skills.[X]

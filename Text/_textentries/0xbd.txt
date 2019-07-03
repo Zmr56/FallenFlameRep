@@ -1,1 +1,2 @@
-Celerity: Movement +2.[X]
+Slayer: Deal effective damage[N]
+to monster units.[X]

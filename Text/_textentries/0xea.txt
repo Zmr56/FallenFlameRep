@@ -1,2 +1,2 @@
-Supply: This unit has[N]
-access to the convoy.[X]
+Savage Blow: After attacking, enemies[N]
+within 2 tiles take 20% damage.[X]

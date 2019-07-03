@@ -1,2 +1,2 @@
-A low ranking pirate captain who's[N]
-well versed in the ways of the axe.[X]
+Relief: Recover 20% HP each turn if[N]
+there are no allies within 2 tiles.[X]

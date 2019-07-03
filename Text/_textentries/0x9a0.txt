@@ -1,2 +1,2 @@
-Hawkeye: User will[N]
-always hit the enemy.[X]
+Slayer: Deal effective damage[N]
+to monster units.[X]

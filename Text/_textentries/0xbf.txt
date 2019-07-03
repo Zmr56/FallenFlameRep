@@ -1,2 +1,2 @@
-Elbow Room: +3 damage dealt[N]
-when on open terrain.[X]
+Dance: Refresh an ally unit[N]
+to let them act again.[X]

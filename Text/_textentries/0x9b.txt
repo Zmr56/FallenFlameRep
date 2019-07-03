@@ -1,2 +1,2 @@
-Nihil: Cancels the opponent's[N]
-skills in combat.[X]
+Cunning: Can steal items, pick[N]
+locks, and see in darkness.[X]

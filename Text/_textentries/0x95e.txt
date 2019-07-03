@@ -1,2 +1,2 @@
-Trample: +5 damage to[N]
-unmounted units.[X]
+An experienced wyvern rider with a[N]
+keen eye. Composed and focused.[X]

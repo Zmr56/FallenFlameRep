@@ -1,2 +1,2 @@
-Quick Burn: +15 Hit and Avoid.[N]
-This bonus decreases each turn.[X]
+Live to Serve: When healing[N]
+an ally, also heals self.[X]

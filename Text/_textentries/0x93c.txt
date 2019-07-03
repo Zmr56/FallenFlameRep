@@ -1,2 +1,2 @@
-Gentilhomme: Female allies within[N]
-2 tiles receive -2 damage.[X]
+High flying knights vulnerable only to.[N]
+bows and magic. Equips Axes.[X]

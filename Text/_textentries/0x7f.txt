@@ -1,2 +1,2 @@
-Counter: Reflect physical damage[N]
-when attacked at 1-2 range.[X]
+Petty pirate, hired by the[N]
+Wyvemberian Empire.[X]

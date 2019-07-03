@@ -1,2 +1,2 @@
-Seal Resistance: Debuff opponent's Res[N]
-by 6 after combat. (Recover 1/turn)[X]
+Malefic Aura: Enemies within 2[N]
+tiles receive +2 magic damage.[X]

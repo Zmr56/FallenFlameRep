@@ -1,2 +1,2 @@
-Shove: Allows unit to push[N]
-other units one tile away.[X]
+Sol: Restore damage dealt as HP.[N]
+(Skill % activation)[X]

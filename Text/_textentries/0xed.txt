@@ -1,3 +1,2 @@
-1d12: Gain 1 of 12 random proc[N]
-Skills during battle.[N]
-(Proc % based on original skills).[X]
+Focus: +10 Critical if there are[N]
+no allies within 3 tiles.[X]

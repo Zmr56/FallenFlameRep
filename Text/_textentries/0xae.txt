@@ -1,2 +1,2 @@
-Locktouch: Can open locks[N]
-without keys or picks.[X]
+Warding Blow: +20 Res[N]
+when initiating battle.[X]

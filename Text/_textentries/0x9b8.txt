@@ -1,2 +1,2 @@
-A clerc with a fiery spirit. Guided[N]
-by her strong sense of justice.[X]
+Rally Strength: +4 Str[N]
+to allies within 2 tiles.[X]

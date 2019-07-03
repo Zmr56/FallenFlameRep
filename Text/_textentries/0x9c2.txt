@@ -1,2 +1,2 @@
-A rider who goes wherever the wind[N]
-takes him. Hides a big secret.[X]
+Staff Savant: Maximum range[N]
+of staves is increased by 1.[X]

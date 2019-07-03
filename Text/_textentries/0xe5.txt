@@ -1,2 +1,2 @@
-Swap: Allows unit to swap positions[N]
-with an adjacent ally.[X]
+Intimidate: -10 Avoid to[N]
+all enemies within 2 tiles.[X]

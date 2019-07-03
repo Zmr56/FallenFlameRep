@@ -1,2 +1,2 @@
-Catch 'Em All: Grants[N]
-the user every skill.[X]
+Tomefaire: +4 damage[N]
+when equipping a tome.[X]

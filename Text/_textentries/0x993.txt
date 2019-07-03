@@ -1,2 +1,2 @@
-Fury: +2 Atk/Spd/Def/Res. Unit[N]
-takes 6 damage after combat.[X]
+Armored Blow: +10 Def[N]
+when initiating battle.[X]

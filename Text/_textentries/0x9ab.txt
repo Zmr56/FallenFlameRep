@@ -1,2 +1,2 @@
-Warding Stance: +6 resistance[NL]
-when foe initiates battle.[X]
+Charm: Allies within 2[N]
+tiles deal +2 damage.[X]

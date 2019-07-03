@@ -1,2 +1,2 @@
-Moonbow: Enemy Def/Res is[N]
-reduced by 25%. Charge: 2[X]
+Luna: Negates enemy defenses.[N]
+(Skill % activation)[X]

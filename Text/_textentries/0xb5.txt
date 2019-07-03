@@ -1,2 +1,2 @@
-Savage Blow: After attacking, enemies[N]
-within 2 tiles take 20% damage.[X]
+Countermagic: Reflect magic damage[N]
+when attacked at 1-2 range.[X]

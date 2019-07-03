@@ -1,2 +1,2 @@
-Summon: Can conjure a phantom[N]
-soldier to fight alongside you.[X]
+Move to opposite side of[N]
+an adjacent ally.[X]

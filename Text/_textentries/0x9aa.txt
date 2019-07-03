@@ -1,3 +1,2 @@
-Swift Stance: +4 speed[NL]
-and resistance when[NL]
-foe initiates battle.[X]
+Inspiration: Allies within 2 tiles[N]
+deal +2 damage and receive -2 damage.[X]

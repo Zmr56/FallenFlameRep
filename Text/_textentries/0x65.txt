@@ -1,2 +1,2 @@
-Frenzy: For every 4 damage[N]
-taken, +1 to damage dealt.[X]
+A free spirited and carefree archer.[N]
+Shamira's younger brother.[X]

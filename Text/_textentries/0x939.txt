@@ -1,2 +1,2 @@
-Renewal: Restore 30% of max HP[N]
-at the start of each turn.[X]
+Swap positions with adjacent[N]
+ally.[X]

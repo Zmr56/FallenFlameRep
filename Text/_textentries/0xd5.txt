@@ -1,2 +1,2 @@
-Moonbow: Enemy Def/Res is[N]
-reduced by 25%. Charge: 2[X]
+Rally Strength: +4 Str[N]
+to allies within 2 tiles.[X]

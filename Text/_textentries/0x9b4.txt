@@ -1,2 +1,2 @@
-Gofaullian mercenary hired by Wren.[N]
-Talks little but cares for comrades.[X]
+Nullify: Unit is protected[N]
+from all effective attacks.[X]

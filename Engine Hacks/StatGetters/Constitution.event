@@ -5,6 +5,9 @@
 
 pConModifiers: // Consitition
 	POIN prAddUnitBaseCon prAddUnitConBonus
+	#ifdef DEBUFFS_MIN_ZERO
+	POIN prMinZero
+	#endif
 WORD 0
 
 prAddUnitBaseCon:

@@ -1,2 +1,2 @@
-Cunning: Can steal items, pick[N]
-locks, and see in darkness.[X]
+Defend noble for 9[N]
+turns or kill boss.[X]

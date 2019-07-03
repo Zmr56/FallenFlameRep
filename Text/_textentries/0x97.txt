@@ -1,2 +1,2 @@
-Spur Magic: Adjacent allies[N]
-deal +4 magical damage.[X]
+Provoke: Enemies are more[N]
+likely to target this unit.[X]

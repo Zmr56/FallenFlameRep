@@ -1,2 +1,2 @@
-A loyal member of the clergy.[N]
-Devoted to preserving history.[X]
+Locktouch: Can open locks[N]
+without keys or picks.[X]

@@ -1,2 +1,2 @@
-Noblewoman with much skill.[N]
-Fights for justice and truth.[X]
+Spur Strength: Adjacent allies[N]
+deal +4 physical damage.[X]
