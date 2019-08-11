@@ -119,7 +119,7 @@ Death Blow: +20 Crit[N]
 when initiating battle.[X]
 
 ## SD_DartingBlow
-Darting Blow: +5 Attack Speed[N]
+Darting Blow: +2 Attack Speed[N]
 when initiating battle.[X]
 
 ## SD_WardingBlow
@@ -127,7 +127,7 @@ Warding Blow: +20 Res[N]
 when initiating battle.[X]
 
 ## SD_CertainBlow
-Certain Blow: +40 Hit[N]
+Certain Blow: +20 Hit[N]
 when initiating battle.[X]
 
 ## SD_ArmoredBlow
@@ -206,8 +206,8 @@ Renewal: Restore 30% of max HP[N]
 at the start of each turn.[X]
 
 ## SD_NiceThighs
-Nice Thighs: No effect, really.[N]
-Just thought I'd point them out.[X]
+Placeholder skill: No effect.[N]
+Will be replaced in the future.[X]
 
 ## SD_Demoiselle
 Demoiselle: Male allies within[N]
@@ -343,8 +343,8 @@ Lunge: Swap places with the[N]
 opponent after combat.[N]
 (No effect if Move is --)[X]
 
-## SD_Intimidate
-Intimidate: -10 Avoid to[N]
+## SD_BindingAura
+Binding Aura: -10 Avoid to[N]
 all enemies within 2 tiles.[X]
 
 ## SD_Opportunist
@@ -827,7 +827,7 @@ of two or more enemies, gain +3[N]
 damage and +15% hit.[X]
 
 ## SD_Vanity
-Vanity: Gain +2 Damage and +10 Hit[N]
+Propel: Gain +2 Damage and +10 Hit[N]
 when fighting enemy at 2 range.[X]
 
 ## SD_MageSlayer
@@ -857,3 +857,12 @@ another action at end of turn.[X]
 ##SD_Powerstaff
 Powerstaff: Get another action[N]
 after using a staff.[X]
+
+##SD_Shieldcrash
+Shieldcrash: If within 2 spaces[N]
+of two or more enemies, gain +3[N]
+def and +10% crit.[X]
+
+##SD_TempestBlood
+Tempest Blood: +2 Attack[N]
+Speed when HP is not at max.[X]

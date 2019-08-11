@@ -1,2 +1,2 @@
-Holy Aura: Gain +1 damage, +5% hit,[N]
-+5% avoid, +5% crit when using light.[X]
+Hex: -15 avoid to all[NL]
+adjacent enemies.[X]

@@ -1,2 +1,2 @@
-Heavy Strikes: Add weapon[N]
-weight to critical chance.[X]
+Puissance: +3 Damage when the user's[N]
+Strength is higher than the enemy's.[X]

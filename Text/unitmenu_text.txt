@@ -71,3 +71,19 @@ ally.[X]
 ## UM_CaptureDesc
 Strike a fatal blow with reduced[N]
 stats to capture an enemy.[X]
+
+## ArriveName
+ Arrive[X]
+
+## ArriveDesc
+Arrive at a designated point.[X]
+
+## UMText_Win
+ Win[X]
+
+## UMDesc_Win
+This is your win button.[X]
+
+## UM_Debug
+ Debug[X]
+

@@ -119,6 +119,11 @@ ORG 0x5926F4+(0x80*0xD2)
 #incext Png2Dmp "Falarica.png"
 POP
 
+PUSH
+ORG 0x5926F4+(0x80*0xD3)
+#incext Png2Dmp "Calibane.png"
+POP
+
 //Map Sprites
 Map_WyvernRiderStand:
 #incext Png2Dmp "WyvernRiderStand.png" --lz77

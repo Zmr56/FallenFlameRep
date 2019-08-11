@@ -38,7 +38,7 @@ setMugEntry(0xc, Cato_Mug, 2, 6, 2, 4)
 
 Sarai_Mug:
 #incext PortraitFormatter "Sarai.png"
-setMugEntry(0xe, Sarai_Mug, 3, 5, 3, 3)
+setMugEntry(0xe, Sarai_Mug, 3, 6, 3, 4)
 
 Rudyard_Mug:
 #incext PortraitFormatter "Rudyard.png"

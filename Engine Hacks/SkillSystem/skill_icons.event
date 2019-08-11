@@ -151,8 +151,8 @@ ORG SkillIcon(GaleforceID)
 ORG SkillIcon(RenewalID)
 #incext Png2Dmp "Skill Icons\Renewal.png"
 
-ORG SkillIcon(NiceThighsID)
-#incext Png2Dmp "Skill Icons\NiceThighs.png"
+ORG SkillIcon(PlaceholderSkillID)
+#incext Png2Dmp "Skill Icons\PlaceholderSkill.png"
 
 ORG SkillIcon(DemoiselleID)
 #incext Png2Dmp "Skill Icons\Demoiselle.png"
@@ -253,8 +253,8 @@ ORG SkillIcon(LockTouchID)
 ORG SkillIcon(LungeID)
 #incext Png2Dmp "Skill Icons\Lunge.png"
 
-ORG SkillIcon(IntimidateID)
-#incext Png2Dmp "Skill Icons\Intimidate.png"
+ORG SkillIcon(BindingAuraID)
+#incext Png2Dmp "Skill Icons\BindingAura.png"
 
 ORG SkillIcon(OpportunistID)
 #incext Png2Dmp "Skill Icons\Opportunist.png"
@@ -621,3 +621,9 @@ ORG SkillIcon(ReMoveID)
 
 ORG SkillIcon(PowerstaffID)
 #incext Png2Dmp "Skill Icons\Powerstaff.png"
+
+ORG SkillIcon(ShieldcrashID)
+#incext Png2Dmp "Skill Icons\Shieldcrash.png"
+
+ORG SkillIcon(TempestBloodID)
+#incext Png2Dmp "Skill Icons\TempestBlood.png"

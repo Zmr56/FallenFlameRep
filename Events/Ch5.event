@@ -1,4 +1,4 @@
-EventPointerTable(0x21, PointerList)
+EventPointerTable(0x17, PointerList)
 
 PointerList:
 POIN TurnBasedEvents
@@ -13,25 +13,53 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TURN 0x65 GameOverByTurn11 [11,0] 0x0
+TURN 0x0 WaveFirst[3,0] 0x0
+TURN 0x0 WaveFirst[7,0] 0x0
+TURN 0x0 WaveFirst[10,0] 0x0
 END_MAIN
 
-GameOverByTurn11:
+WaveFirst:
+ReinforcementEvent(Wave1)
+ENDA
+
+WaveSecond:
+ReinforcementEvent(Wave2)
+ENDA
+
+WaveThird:
+ReinforcementEvent(Wave3)
 ENDA
 
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Chest(Axereaver,8,14)
-Chest(KillingEdge,7,14)
-Chest(BlueGem,13,0)
-Chest(Harpoon,11,0)
+Chest(Talisman,2,13)
+Village(0x7,VillageIcon,13,9)
+Village(0x8,VillageSilverLance,15,9)
+Village(0x9,VillageBow,1,11)
+Village(0x10,VillageSilverSword,1,7)
+Village(0x11,VillageVampus,13,13)
+Seize(8,0)
 END_MAIN
+
+VillageIcon:
+VillageEventItem(PlaceholderText, Village, GoddessIcon)
+
+VillageSilverLance:
+VillageEventItem(PlaceholderText, Village, SilverLance)
+
+VillageBow:
+VillageEventItem(PlaceholderText, Village, PoisonBow)
+
+VillageSilverSword:
+VillageEventItem(PlaceholderText, Village, SilverSword)
+
+VillageVampus:
+VillageEventItem(PlaceholderText, Village, Vampus)
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatAll(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -53,60 +81,91 @@ Tutorial:
 END_MAIN
 
 Units1:
-UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [9,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [8,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [7,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [9,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [8,4] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [10,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [9,5] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [8,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [7,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [10,0] 0x00 0x00 0x0 0x00 [0x00] NoAI   
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [5,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Lute Troubadour Eirika Level(1, Ally, 0) [6,17] 0x00 0x00 0x0 0x00 [Heal] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [4,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Gilliam EphraimLord Eirika Level(1, Ally, 0) [6,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Franz EphraimLord Eirika Level(1, Ally, 0) [6,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Ross EphraimLord Eirika Level(1, Ally, 0) [5,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Neimi EphraimLord Eirika Level(1, Ally, 0) [4,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Vanessa EphraimLord Eirika Level(1, Ally, 0) [4,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Moulder EphraimLord Eirika Level(1, Ally, 0) [6,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Colm EphraimLord Eirika Level(1, Ally, 0) [7,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Innes EphraimLord Eirika Level(1, Ally, 0) [4,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [3,17] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
-NewUnits:
-UNIT Apollo Monk Eirika Level(2, Ally, 0) [10,3] 0x00 0x00 0x0 0x00 [Lightning, Divine] NoAI 
-UNIT Iara Mage_F Eirika Level(3, Ally, 0) [8,3] 0x00 0x00 0x0 0x00 [Elfrost, Thunder] NoAI  
+TroubGirl:
+UNIT Lute Troubadour Eirika Level(1, Ally, 0) [6,17] 0x00 0x00 0x0 0x00 [Heal] NoAI 
+UNIT
+
+Units1Test:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [5,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Lute Troubadour Eirika Level(1, Ally, 0) [6,17] 0x00 0x00 0x0 0x00 [Heal] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [4,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [6,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [6,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [5,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [4,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [4,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [6,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [7,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [4,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimLord Eirika Level(1, Ally, 0) [3,17] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 Bad:
-UNIT Saar Shaman 0x00 Level(9, Enemy, 0) [2,16] 0x00 0x00 0x0 0x00 [Nosferatu, Flux] AttackInRangeAI 
-UNIT Novala Brigand 0x00 Level(9, Enemy, 0) [15,16] 0x00 0x00 0x0 0x00 [SteelAxe, Hatchet] AttackInRangeAI 
-UNIT 0x80 Shaman Saar Level(9, Enemy, 1) [15,12] 0x00 0x00 0x0 0x00 [Vampus] AttackInRangeAI 
-UNIT 0x80 Knight Saar Level(9, Enemy, 1) [14,12] 0x00 0x00 0x0 0x00 [ShortSpear] NeverMoveAI 
-UNIT 0x80 Knight Saar Level(9, Enemy, 1) [2,12] 0x00 0x00 0x0 0x00 [ShortSpear] NeverMoveAI 
-UNIT 0x80 Fighter Saar Level(9, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [Hurlbat] AttackInRangeAI 
-UNIT 0x80 Archer Saar Level(9, Enemy, 1) [16,17] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x80 Mercenary Saar Level(9, Enemy, 1) [16,15] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Mage Saar Level(9, Enemy, 1) [1,17] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Myrmidon Saar Level(9, Enemy, 1) [3,17] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Myrmidon Saar Level(8, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x80 Mage Saar Level(8, Enemy, 1) [4,6] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Shaman Saar Level(8, Enemy, 1) [1,3] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Cavalier_F Saar Level(7, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Saar Level(7, Enemy, 1) [3,0] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Saar Level(7, Enemy, 1) [2,10] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x80 Soldier Saar Level(7, Enemy, 1) [2,1] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Brigand Saar Level(7, Enemy, 1) [15,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 Soldier Saar Level(7, Enemy, 1) [16,8] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier Saar Level(7, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Saar Level(7, Enemy, 1) [17,1] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Saar Level(7, Enemy, 1) [13,7] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Saar Level(8, Enemy, 1) [9,9] 0x00 0x00 0x0 0x00 [Vampus] NeverMoveAI 
-UNIT 0x80 Knight Saar Level(8, Enemy, 1) [8,9] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
-UNIT 0x80 Mage Saar Level(8, Enemy, 1) [9,15] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Monk Saar Level(8, Enemy, 1) [8,15] 0x00 0x00 0x0 0x00 [Divine] AttackInRangeAI 
-UNIT 0x80 Cavalier Saar Level(8, Enemy, 1) [7,17] 0x00 0x00 0x0 0x00 [IronBlade] PursueWithoutHeedAI 
-UNIT 0x80 Entombed Saar Level(8, Enemy, 1) [10,17] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
-UNIT 0x80 Soldier Saar Level(8, Enemy, 1) [10,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Saar Level(8, Enemy, 1) [8,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Bazba Shaman 0x00 Level(8, Enemy, 0) [8,0] 0x00 0x00 0x0 0x00 [Flux] NeverMoveAI 
+UNIT Vicks WyvernRider Bazba Level(7, Enemy, 0) [16,0] 0x00 0x00 0x0 0x00 [Hatchet, SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Knight Bazba Level(8, Enemy, 1) [4,3] 0x00 0x00 0x0 0x00 [Lancea] NeverMoveAI 
+UNIT 0x80 Fighter Bazba Level(8, Enemy, 1) [3,3] 0x00 0x00 0x0 0x00 [Hatchet] NeverMoveAI 
+UNIT 0x80 Shaman Bazba Level(8, Enemy, 1) [12,3] 0x00 0x00 0x0 0x00 [Flux] NeverMoveAI 
+UNIT 0x80 Soldier Bazba Level(8, Enemy, 1) [13,3] 0x00 0x00 0x0 0x00 [Harpoon] NeverMoveAI 
+UNIT 0x80 Archer Bazba Level(7, Enemy, 1) [8,6] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Archer Bazba Level(6, Enemy, 1) [6,9] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Shaman Bazba Level(6, Enemy, 1) [8,10] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Mage Bazba Level(6, Enemy, 1) [10,8] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Bazba Level(6, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mercenary Bazba Level(7, Enemy, 1) [11,14] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Mercenary Bazba Level(6, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Monk Bazba Level(6, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Lightning] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Bazba Level(6, Enemy, 1) [2,15] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Bazba Level(7, Enemy, 1) [6,13] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Bazba Level(7, Enemy, 1) [0,18] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Bazba Level(6, Enemy, 1) [3,7] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Knight Bazba Level(7, Enemy, 1) [12,6] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x80 Knight Bazba Level(7, Enemy, 1) [15,15] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x80 Knight Bazba Level(6, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x80 Cavalier Bazba Level(6, Enemy, 1) [16,10] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Bazba Level(6, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Bazba Level(6, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Bazba Level(6, Enemy, 1) [16,11] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Bazba Level(8, Enemy, 1) [6,1] 0x00 0x00 0x0 0x00 [Flux] NeverMoveAI 
+UNIT 0x80 Soldier Bazba Level(8, Enemy, 1) [10,1] 0x00 0x00 0x0 0x00 [Harpoon] NeverMoveAI 
+UNIT 0x80 Priest Bazba Level(6, Enemy, 1) [8,3] 0x00 0x00 0x0 0x00 [Physic] HealUnits  
+UNIT
+
+Wave1:
+UNIT 0x80 Brigand Bazba Level(6, Enemy, 1) [5,0] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT 0x80 Brigand Bazba Level(6, Enemy, 1) [5,0] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI    
+UNIT
+
+Wave2:
+UNIT 0x80 Mage Bazba Level(6, Enemy, 1) [4,19] 0x00 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI
+UNIT 0x80 Archer Bazba Level(6, Enemy, 1) [5,19] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI
+UNIT 0x80 Monk Bazba Level(6, Enemy, 1) [6,19] 0x00 0x00 0x0 0x00 [Lightning] PursueWithoutHeedAI    
+UNIT
+
+Wave3:
+UNIT 0x80 WyvernRider Bazba Level(7, Enemy, 1) [4,19] 0x00 0x00 0x0 0x00 [SteelAxe, Hatchet] PursueWithoutHeedAI
+UNIT 0x80 Cavalier Bazba Level(7, Enemy, 1) [5,19] 0x00 0x00 0x0 0x00 [IronBlade, Zanbato] PursueWithoutHeedAI
+UNIT 0x80 Cavalier_F Bazba Level(7, Enemy, 1) [6,19] 0x00 0x00 0x0 0x00 [KillerLance, Harpoon] PursueWithoutHeedAI      
 UNIT
 
 BeginningScene:
-LOAD2 0x1 Units1
+LOAD2 0x1 Units1Test
 ENUN
-LOAD1 0x1 NewUnits
+LOAD1 0x1 TroubGirl
 ENUN
 LOAD1 0x01 Bad
 ENUN
@@ -114,6 +173,6 @@ NoFade
 GotoPrepScreen
 
 EndingScene:
-MNCH 7
+MNCH 6
 NoFade
 ENDA

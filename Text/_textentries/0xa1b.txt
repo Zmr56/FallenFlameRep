@@ -1,2 +1,2 @@
-Capture: Capture an enemy after[N]
-defeating it with reduced stats.[X]
+Steady Stance: +6 defense[N]
+when foe initiates battle.[X]

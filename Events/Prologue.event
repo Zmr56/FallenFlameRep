@@ -13,27 +13,27 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TURN 0x0 WaveFirst[1,0] 0x0
+TURN 0x0 WaveFirst[2,0] 0x0
 END_MAIN
 
 WaveFirst:
 ReinforcementEvent(Wave1)
 ENDA
 
+Wave1:
+UNIT 0x80 Mercenary Datta Level(4, Enemy, 1) [3,0] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT
+
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Seize(1,7)
-#ifdef __DEBUG__
-  Seize(11,9)
-#endif
-Village(0x7,VillageEvent,8,2)
-Vendor(VendorList, 6, 6)
+Village(0x7,VillageEvent,5,5)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -49,28 +49,24 @@ Tutorial:
 END_MAIN
 
 Units1:
-UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [11,9] 0x00 0x00 0x0 0x00 [Rapier, IronSword, Vulnerary] NoAI 
-UNIT Seth Paladin Eirika Level(5, Ally, 0) [12,9] 0x00 0x00 0x0 0x00 [BraveSword, IronSword, SilverBlade] NoAI 
-UNIT Gilliam Knight_F Eirika Level(4, Ally, 0) [11,8] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] NoAI 
-UNIT Franz Fighter Eirika Level(6, Ally, 0) [10,8] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe] NoAI 
-UNIT Orvar Archer Eirika Level(4, Ally, 0) [10,9] 0x00 0x00 0x0 0x00 [IronBow] NoAI
+UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [IronSword, Rapier, Vulnerary] NoAI 
+UNIT Wigbrand Paladin Wren Level(5, Ally, 0) [2,8] 0x00 0x00 0x0 0x00 [IronSword, BraveSword, IronLance] NoAI 
+UNIT Shamira Knight_F Wren Level(4, Ally, 0) [4,7] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] NoAI 
+UNIT Huginn Fighter Wren Level(6, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe] NoAI 
+UNIT Orvar Archer Wren Level(4, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [IronBow, Vulnerary] NoAI 
 UNIT
 
 Bad: 
-UNIT Lyon_Ch17 Fighter 0x00 Level(3, Enemy, 0) [1,7] 0x00 0x00 0x0 0x00 [Hurlbat] NeverMoveAI 
-UNIT 0x80 Mercenary Lyon_Ch17 Level(2, Enemy, 1) [5,5] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Shaman Lyon_Ch17 Level(2, Enemy, 1) [4,7] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Pirate Lyon_Ch17 Level(1, Enemy, 1) [13,3] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Mercenary Lyon_Ch17 Level(1, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x80 Pirate Lyon_Ch17 Level(1, Enemy, 1) [9,4] 0x00 0x00 0x0 0x00 [Hurlbat] NeverMoveAI 
-UNIT 0x80 Fighter Lyon_Ch17 Level(1, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [Hurlbat] NeverMoveAI 
-UNIT 0x80 Fighter Lyon_Ch17 Level(2, Enemy, 1) [3,3] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
-UNIT 0x80 Mercenary Lyon_Ch17 Level(2, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
-UNIT 0x80 Pirate Lyon_Ch17 Level(2, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT
-
-Wave1:
-UNIT 0x80 Brigand Lyon_Ch17 Level(2, Enemy, 1) [2,0] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
+UNIT Datta Brigand 0x00 Level(4, Enemy, 0) [0,2] 0x00 0x00 0x0 0x00 [HandAxe, SteelAxe] AttackInRangeAI 
+UNIT 0x80 Fighter Datta Level(1, Enemy, 1) [7,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Myrmidon Datta Level(1, Enemy, 1) [7,4] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Datta Level(1, Enemy, 1) [11,7] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Shaman Datta Level(2, Enemy, 1) [11,1] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Archer Datta Level(2, Enemy, 1) [12,2] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Fighter Datta Level(1, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Datta Level(2, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
+UNIT 0x80 Brigand Datta Level(2, Enemy, 1) [6,1] 0x00 0x00 0x0 0x00 [Hatchet] GuardTileAI 
+UNIT 0x80 Mercenary Datta Level(3, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
 UNIT
 
 Traps1:
@@ -101,8 +97,3 @@ ENDA
 
 VillageEvent:
 VillageEventItem(PlaceholderText, HouseBG, RedGem)
-
-VendorList:
-SHLI Vulnerary ChestKey
-
-ALIGN 4

@@ -50,6 +50,8 @@
 #define Apollo 0xD
 #define Evander 0xF
 
+#define Datta Lyon_Ch17
+#define Wizvil Morva_Ch20
 #define Attab Zonta
 #define Bigfard Novala
 #define Valanos Saar
@@ -71,6 +73,7 @@
 #define Falarica 0xC2
 #define Francisca 0xC3
 #define Nzappa 0xC4
+#define Calibane 0xC5
 
 #define VampusIconID 0xCA
 #define VenenumIconID 0xCB
@@ -81,6 +84,7 @@
 #define HarpoonIconID 0xD0
 #define LanceaIconID 0xD1
 #define FalaricaIconID 0xD2
+#define CalibaneIconID 0xD3
 
 //AI definitions
 //#define SeekWallsAI 0xE

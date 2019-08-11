@@ -1,2 +1,2 @@
-Liquid Ooze: Attackers trying to gain HP[N]
-from attacking this unit lose it instead.[X]
+Fortress Resistance:[N]
++5 Res, -3 Atk/Mag[X]

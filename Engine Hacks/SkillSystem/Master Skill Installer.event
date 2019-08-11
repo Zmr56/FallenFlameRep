@@ -317,6 +317,11 @@ FieryBlood:
 POIN SkillTester
 WORD FieryBloodID
 
+TempestBlood:
+#incbin "Other Skills/TempestBlood.dmp"
+POIN SkillTester
+WORD TempestBloodID
+
 LifeAndDeath:
 #incbin "Other Skills/LifeAndDeath.dmp"
 POIN SkillTester
@@ -504,6 +509,12 @@ Puissance:
 #incbin "New Skills/Puissance.dmp"
 POIN SkillTester
 WORD PuissanceID
+
+Shieldcrash:
+#incbin "New Skills/Shieldcrash.dmp"
+POIN SkillTester
+POIN AuraSkillCheck
+WORD ShieldcrashID
 
 BattleVeteran:
 #incbin "SoA Skills/BattleVeteran.dmp"

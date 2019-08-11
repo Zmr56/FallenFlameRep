@@ -82,10 +82,10 @@ MaleficAura:
 POIN AuraSkillCheck
 WORD MaleficAuraID
 
-Intimidate:
-#incbin "Intimidate.dmp"
+BindingAura:
+#incbin "BindingAura.dmp"
 POIN AuraSkillCheck
-WORD IntimidateID
+WORD BindingAuraID
 
 Inspiration:
 #incbin "Inspiration.dmp"

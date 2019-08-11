@@ -1,1 +1,2 @@
- Reposition[X]
+Strike a fatal blow with reduced[N]
+stats to capture an enemy.[X]

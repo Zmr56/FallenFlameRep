@@ -1,2 +1,2 @@
-Canto+: Can move again after[N]
-attacking and other actions.[X]
+A cruel pirate with a gluttonous[N]
+appetite for gold.[X]

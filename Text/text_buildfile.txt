@@ -79,6 +79,12 @@ Francisca[X]
 ## nameNzappa
 Nzappa[X]
 
+## nameCalibane
+Calibane[X]
+
+## descCalibane
+Effective against magic users.[X]
+
 #include "statscreen_text.txt"
 
 #include "unitmenu_text.txt"

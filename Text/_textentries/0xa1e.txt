@@ -1,2 +1,2 @@
-Fortress Resistance:[N]
-+5 Res, -3 Atk/Mag[X]
+Warding Stance: +6 resistance[N]
+when foe initiates battle.[X]

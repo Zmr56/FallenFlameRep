@@ -2,7 +2,7 @@
 
 #include eastdlib.event
 
-SetChapterData(2,0x18,0,0x48,0x1A,0x11,Map,0,0,0xC)
+SetChapterData(2,0x3C,0,0x68,0x3E,0x11,Map,0,0,0xC)
 EventPointerTable(0xC, MapChanges)
 Map:
 #incbin "Ch3_data.dmp"
@@ -10,23 +10,18 @@ Map:
 MapChanges:
 TileMap(0,13,0,1,1,Chest1)
 TileMap(1,14,0,1,1,Chest2)
-TileMap(2,13,5,1,2,DoorOpened)
-TileMap(3,11,7,2,3,WallDestroyed)
+TileMap(2,11,7,2,3,WallDestroyed)
 TileMapEnd
 
 Chest1:
-SHORT 0x4 
+SHORT 0x104 
 ALIGN 4
 
 Chest2:
-SHORT 0x4 
-ALIGN 4
-
-DoorOpened:
-SHORT 0xcd0 0xb44 
+SHORT 0x104 
 ALIGN 4
 
 WallDestroyed:
-SHORT 0x7a8 0xb40 0xb48 0xc44 0xc44 0xb44 
+SHORT 0x7a8 0xc40 0xc48 0xc44 0xc44 0xc44 
 ALIGN 4
 

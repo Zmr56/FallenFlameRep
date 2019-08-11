@@ -1,2 +1,2 @@
-Thunderstorm: If weapon weight > enemy[N]
-W. Weight, +2 dmg, +15% hit, +5% crit.[X]
+Point Blank: Minimum range of[N]
+equipped bows is set to 1.[X]

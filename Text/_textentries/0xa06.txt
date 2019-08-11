@@ -1,2 +1,2 @@
-Identity Problems: This unit can't[N]
-decide on a name or face.[X]
+Fury: +2 Atk/Spd/Def/Res. Unit[N]
+takes 6 damage after combat.[X]

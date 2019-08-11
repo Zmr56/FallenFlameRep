@@ -90,7 +90,7 @@ BYTE QuickDrawID//when initiating attack
 BYTE StrongRiposteID PatienceID PursuitID//when under attack
 BYTE CounterID CounterMagicID//counter
 BYTE SureShotID IgnisID ColossusID ImpaleID PaviseID AegisID AstraID SolID LunaID AetherID AdeptID LethalityID//Astra and friends aka Stat(/2)% activation
-BYTE SolidarityID MaleficAuraID VoiceOfPeaceID IntimidateID AnathemaID//auras that affect the one that makes them
+BYTE SolidarityID MaleficAuraID VoiceOfPeaceID BindingAuraID AnathemaID//auras that affect the one that makes them
 BYTE LifetakerID GaleforceID DespoilID//after defeating enemy
 BYTE SavageBlowID//after combat, prevents activating but not effects if it was already activated
 BYTE SealStrID SealSklID SealSpdID SealLukID SealDefID SealResID//seal

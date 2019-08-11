@@ -1,2 +1,3 @@
-Shadowgift: Allows the user to use[N]
-Dark Magic. (Uses highest Magic Rank)[X]
+Foresight: Avoid the damage[N]
+from enemy Critical Hits and[N]
+Skill Activations.[X]

@@ -1,2 +1,2 @@
-Lumina: Allows the user to use[N]
-Light Magic. (Uses highest Magic Rank)[X]
+Axefaith: Axes can't lose durability, and[N]
+grants +Luck*1.5 Hit when wielding axes.[X]

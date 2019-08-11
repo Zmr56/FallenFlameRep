@@ -22,8 +22,8 @@ POIN BlowCheck
 POIN DefendingCheck
 POIN Wrath SpurStr SpurMag SpurSpd SpurDef SpurRes
 POIN LuckySeven OddRhythm EvenRhythm QuickBurn SlowBurn
-POIN Demoiselle Gentilhomme MaleficAura Intimidate Tantivy Focus Inspiration Charm Solidarity VoiceOfPeace Anathema LilysPoise Charisma Hex Loyalty Infiltrator
-POIN ElbowRoom NaturalCover Gamble FieryBlood LifeAndDeath WindDisciple Perfectionist Puissance Hawkeye LightWeight Trample Opportunist BattleVeteran SilentPride Thunderstorm Outrider HeavyStrikes Charge Vanity KnightAspirant
+POIN Demoiselle Gentilhomme MaleficAura BindingAura Tantivy Focus Inspiration Charm Solidarity VoiceOfPeace Anathema LilysPoise Charisma Hex Loyalty Infiltrator Shieldcrash
+POIN ElbowRoom NaturalCover Gamble FieryBlood LifeAndDeath WindDisciple Perfectionist Puissance Hawkeye LightWeight Trample Opportunist BattleVeteran SilentPride Thunderstorm Outrider HeavyStrikes Charge Vanity KnightAspirant TempestBlood
 POIN UpWithArch
 POIN AxefaithHit
 POIN StancesASM

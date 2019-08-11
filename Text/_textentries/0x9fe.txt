@@ -1,2 +1,2 @@
-Breath of Life: After attacking,[N]
-allies in 2 tiles heal of 20% max HP.[X]
+Even Rhythm: +10 Hit and Avoid[N]
+on even numbered turns.[X]

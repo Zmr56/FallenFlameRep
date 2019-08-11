@@ -1,84 +1,33 @@
-#include EAstdlib.event
 
-EventPointerTable(0x14,ThisChapter)
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.0.0.0                              //
+// Game: FE8                                      //
+// File: FE8_clean.gba                            //
+// Offset: $9EC66C                                //
+//                                                //
+////////////////////////////////////////////////////
 
-//ORG 0xE80000
+EventPointerTable(0x0D, PointerList)
 
-ThisChapter:
+PointerList:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
 POIN LocationBasedEvents
 POIN MiscBasedEvents
-POIN Dunno Dunno Dunno
-POIN Tutorial
-POIN TrapData TrapData
-POIN Units1 Units1
-POIN $0 $0 $0 $0 $0 $0
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
-//Units
-ALIGN 4
-Units1:
-UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [2,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [1,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Gilliam Knight Eirika Level(1, Ally, 0) [3,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Franz Fighter Eirika Level(1, Ally, 0) [4,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Moulder Archer Eirika Level(1, Ally, 0) [3,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Vanessa Cleric Eirika Level(1, Ally, 0) [5,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Ross Thief Eirika Level(1, Ally, 0) [4,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Neimi Cavalier_F Eirika Level(1, Ally, 0) [2,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Colm Shaman Eirika Level(1, Ally, 0) [3,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT
-
-PegGirl:
-UNIT Garcia PegasusKnight Eirika Level(1, Ally, 0) [2,10] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
-UNIT
-
-Bad:
-UNIT 0x80 Mercenary Sonta Level(5, Enemy, 1) [8,16] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Sonta Level(5, Enemy, 1) [11,13] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Knight Rhud Level(5, Enemy, 1) [8,13] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 Archer Rhud Level(5, Enemy, 1) [8,9] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
-UNIT 0x80 Knight Rhud Level(7, Enemy, 1) [14,11] 0x00 0x00 0x0 0x00 [Harpoon] NeverMoveAI 
-UNIT 0x80 Shaman Sonta Level(7, Enemy, 1) [14,12] 0x00 0x00 0x0 0x00 [Flux] NeverMoveAI 
-UNIT 0x80 Cavalier_F Rhud Level(5, Enemy, 1) [15,6] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x80 Myrmidon Sonta Level(5, Enemy, 1) [16,8] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Archer Sonta Level(5, Enemy, 1) [16,17] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x80 Cavalier Rhud Level(5, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Monk Rhud Level(6, Enemy, 1) [8,3] 0x00 0x00 0x0 0x00 [Lightning, 0x9E] AttackInRangeAI 
-UNIT Innes Cavalier Rhud Level(6, Enemy, 0) [9,0] 0x00 0x00 0x0 0x00 [SteelSword, Zanbato] AttackInRangeAI 
-UNIT 0x80 Cavalier_F Rhud Level(5, Enemy, 1) [8,0] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x80 WyvernRider Rhud Level(5, Enemy, 1) [15,1] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Pirate Sonta Level(5, Enemy, 1) [13,3] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI
-UNIT 0x80 Fighter Sonta Level(7, Enemy, 1) [5,3] 0x00 0x00 0x0 0x00 [Hurlbat, 0x9E] NeverMoveAI 
-UNIT 0x80 Fighter Sonta Level(7, Enemy, 1) [12,1] 0x00 0x00 0x0 0x00 [Hurlbat] NeverMoveAI 
-UNIT 0x80 Shaman Sonta Level(7, Enemy, 1) [12,2] 0x00 0x00 0x0 0x00 [Flux, 0x9E] NeverMoveAI 
-UNIT 0x80 Soldier Rhud Level(7, Enemy, 1) [5,4] 0x00 0x00 0x0 0x00 [Harpoon] NeverMoveAI
-UNIT 0x80 Brigand Sonta Level(6, Enemy, 1) [10,2] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI 
-UNIT 0x80 Myrmidon Sonta Level(6, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI
-UNIT Rhud Knight 0x00 Level(7, Enemy, 0) [9,2] 0x00 0x00 0x0 0x00 [ShortSpear, 0xB9] AttackInRangeAI 
-UNIT Sonta Mercenary 0x00 Level(7, Enemy, 0) [16,4] 0x00 0x00 0x0 0x00 [WindSword] AttackInRangeAI
-UNIT
-
-Wave1:
-UNIT 0x80 Pirate Sonta Level(5, Enemy, 1) [16,0] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI
-UNIT 0x80 Pirate Sonta Level(5, Enemy, 1) [17,1] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI  
-UNIT
-
-Wave2:
-UNIT 0x80 Fighter Sonta Level(6, Enemy, 1) [0,4] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
-UNIT 0x80 Shaman Sonta Level(6, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT
-
-Wave3:
-UNIT 0x80 WyvernRider Rhud Level(7, Enemy, 1) [16,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Rhud Level(7, Enemy, 1) [17,1] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT
-
 TurnBasedEvents:
-TURN 0x0 WaveFirst[3,0] 0x0
+TURN 0x0 WaveFirst[2,0] 0x0
 TURN 0x0 WaveSecond[5,0] 0x0
-TURN 0x0 WaveThird[8,0] 0x0
+TURN 0x0 WaveThird[7,0] 0x0
+TURN 0x0 WaveFourth[8,0] 0x0
 END_MAIN
 
 WaveFirst:
@@ -93,101 +42,117 @@ WaveThird:
 ReinforcementEvent(Wave3)
 ENDA
 
-ALIGN 32
-
-ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
-CharacterBasedEvents:
-CharacterEventBothWays(0x7, RecruitTalk, Eirika, Innes)
-END_MAIN
-
-RecruitTalk:
-MUSS 0x30
-Text(PlaceholderText)
-REMA
-CUSA Innes//Rudyard joins the party!
-MURE 0x05 //Shifts back to map music
-NoFade
+WaveFourth:
+ReinforcementEvent(Wave4)
 ENDA
 
-LocationBasedEvents:
-Village(0x8,VillageBook,14,15)
-Village(0x9,VillageGem,2,3)
-Village(0x12,VillageHalberd,12,10)
-Armory(Ch3Armoury,4,1)
-Vendor(Ch3Vendor,6,9)
+CharacterBasedEvents:
 END_MAIN
 
-VillageHalberd:
-VillageEventItem(PlaceholderText, Village, Halberd)
+LocationBasedEvents:
+Village(0x7,VillageSlayer,1,12)
+Village(0x8,VillageBow,6,12)
+//Village(0x9,VillageStaff,13,11)
+Armory(ArmoryList, 6, 8)
+END_MAIN
 
-VillageGem:
-VillageEventItem(PlaceholderText, Village, BlueGem)
+VillageBow:
+VillageEventItem(PlaceholderText, Village, Longbow)
 
-VillageBook:
-VillageEventItem(PlaceholderText, Village, SecretBook)
+VillageSlayer:
+VillageEventItem(PlaceholderText, Village, Horseslayer)
+
+/* VillageStaff:
+VillageEventItem(PlaceholderText, Village, Venenum) */
+
+ArmoryList:
+SHLI IronSword IronLance IronAxe IronBow SteelBow
+
+ALIGN 4
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AFEV 0xa Boss1Killed 0x10
-AFEV 0xb Boss2Killed 0x11
+DefeatBoss(EndingScene)
 END_MAIN
 
-Boss1Killed:
-CHECK_EVENTID 0x11
-BEQ 0x0 0xc 0x0
-  //if boss 2 is also dead
-  CALL EndingScene
-LABEL 0x0
-NoFade
-ENDA
+Dunno1:
+END_MAIN
 
-Boss2Killed:
-CHECK_EVENTID 0x10
-BEQ 0x0 0xc 0x0
-  //if boss 1 is also dead
-  CALL EndingScene
-LABEL 0x0
-NoFade
-ENDA
+Dunno2:
+END_MAIN
 
-Dunno:
-//DO NOT TOUCH
-WORD $00
+Dunno3:
+END_MAIN
+
+Traps1:
+END_MAIN
+
+Traps2:
+END_MAIN
 
 Tutorial:
-//DO NOT TOUCH
-WORD $00
-
-TrapData:
 END_MAIN
 
-ALIGN 4
+Units1:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [1,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Gilliam Knight Eirika Level(1, Ally, 0) [1,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Franz Fighter Eirika Level(1, Ally, 0) [2,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Moulder Archer Eirika Level(1, Ally, 0) [0,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+NewCrew:
+UNIT Vanessa Cleric Eirika Level(5, Ally, 0) [1,5] 0x00 0x00 0x0 0x00 [Heal, Mend, Vulnerary] NoAI 
+UNIT Ross Thief Eirika Level(3, Ally, 0) [2,5] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] NoAI 
+UNIT Neimi Cavalier_F Eirika Level(1, Ally, 0) [3,6] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
+UNIT
+
+Bad:
+UNIT Sawine Pirate 0x00 Level(4, Enemy, 0) [11,18] 0x00 0x00 0x0 0x00 [SteelAxe, Hurlbat, 0xB9] AttackInRangeAI 
+UNIT 0x80 Shaman Sawine Level(3, Enemy, 1) [4,17] 0x00 0x00 0x0 0x00 [Vampus] NeverMoveAI 
+UNIT 0x80 Fighter Sawine Level(3, Enemy, 1) [3,17] 0x00 0x00 0x0 0x00 [Hurlbat] NeverMoveAI  
+UNIT 0x80 Shaman Sawine Level(2, Enemy, 1) [6,10] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [4,13] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [3,13] 0x00 0x00 0x0 0x00 [SteelSword, 0x9E] AttackInRangeAI 
+UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronBow, 0x9E] AttackInRangeAI 
+UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [14,14] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [14,12] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [9,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [10,12] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Mercenary Sawine Level(3, Enemy, 1) [7,19] 0x00 0x00 0x0 0x00 [IronBlade, 0x9E] PursueWithoutHeedAI 
+UNIT
+
+Wave1:
+UNIT 0x80 Brigand Sawine Level(3, Enemy, 1) [11,19] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT
+
+Wave2:
+UNIT 0x80 Brigand Sawine Level(3, Enemy, 1) [2,18] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT
+
+Wave3:
+UNIT 0x80 WyvernRider Sawine Level(3, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Sawine Level(4, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT
+
+Wave4:
+UNIT 0x80 Myrmidon Sawine Level(4, Enemy, 1) [1,18] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 Shaman Sawine Level(4, Enemy, 1) [2,18] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
+UNIT
 
 BeginningScene:
-LOAD1 0x01 Bad
+LOAD3 0x1 Units1
 ENUN
-LOAD1 0x01 PegGirl
+LOAD1 0x1 NewCrew
 ENUN
-LOAD2 0x01 Units1
+LOAD1 0x1 Bad
 ENUN
-Text(PlaceholderText)
+NoFade
 ENDA
 
 EndingScene:
-Text(PlaceholderText)
-MNCH 4
+MNCH 3
+NoFade
 ENDA
-
-// Events
-
-// Manual Movement
-
-// Scripted Fights
-
-// Shop Data
-Ch3Armoury:
-SHLI SteelSword SteelLance SteelAxe SteelBow
-
-Ch3Vendor:
-SHLI Lightning Flux Heal Vulnerary
-ALIGN 4

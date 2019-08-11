@@ -1,2 +1,3 @@
-Black Magic: Skill% chance to[N]
-inflict a random status.[X]
+Sturdy Stance: +4 attack[N]
+and defense when foe[N]
+initiates battle.[X]
