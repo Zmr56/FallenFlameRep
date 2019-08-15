@@ -93,7 +93,7 @@ UNIT Orvar Archer Wren Level(1, Ally, 0) [10,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 NewCrew:
-UNIT Colm Cavalier_F Wren Level(1, Ally, 0) [11,9] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
+UNIT Neimi Cavalier_F Wren Level(1, Ally, 0) [11,9] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
 UNIT Sarai PegasusKnight Wren Level(1, Ally, 0) [12,10] 0x00 0x00 0x0 0x00 [IronLance, Calibane] NoAI 
 UNIT
 

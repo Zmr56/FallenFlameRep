@@ -1,15 +1,5 @@
-
-////////////////////////////////////////////////////
-//                                                //
-// Disassembled with Nintenlord's Event Assembler //
-// Version: 11.0.0.0                              //
-// Game: FE8                                      //
-// File: FE8_clean.gba                            //
-// Offset: $9EC66C                                //
-//                                                //
-////////////////////////////////////////////////////
-
-EventPointerTable(0x0D, PointerList)
+#include EAstdlib.event
+EventPointerTable(0x14, PointerList)
 
 PointerList:
 POIN TurnBasedEvents
@@ -25,9 +15,13 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TURN 0x0 WaveFirst[2,0] 0x0
-TURN 0x0 WaveSecond[5,0] 0x0
-TURN 0x0 WaveThird[7,0] 0x0
-TURN 0x0 WaveFourth[8,0] 0x0
+TURN 0x0 WaveSecond[3,0] 0x0
+TURN 0x0 WaveThird[4,0] 0x0
+TURN 0x0 WaveFourth[5,0] 0x0
+TURN 0x0 WaveFifth[6,0] 0x0
+TURN 0x0 WaveSixth[7,0] 0x0
+TURN 0x0 WaveSeventh[8,0] 0x0
+TURN 0xA EndingScene [10,0] 0x0
 END_MAIN
 
 WaveFirst:
@@ -46,33 +40,39 @@ WaveFourth:
 ReinforcementEvent(Wave4)
 ENDA
 
+WaveFifth:
+ReinforcementEvent(Wave5)
+ENDA
+
+WaveSixth:
+ReinforcementEvent(Wave6)
+ENDA
+
+WaveSeventh:
+ReinforcementEvent(Wave7)
+ENDA
+
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 CharacterBasedEvents:
+CharacterEventBothWays(0x7, RecruitTalk, Eirika, Colm)
 END_MAIN
+
+RecruitTalk:
+MUSS 0x30
+Text(PlaceholderText)
+REMA
+CUSA Colm//Cato joins the party!
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
 
 LocationBasedEvents:
-Village(0x7,VillageSlayer,1,12)
-Village(0x8,VillageBow,6,12)
-//Village(0x9,VillageStaff,13,11)
-Armory(ArmoryList, 6, 8)
+Chest(Hurlbat,13,0)
+Chest(AngelicRobe,14,0)
 END_MAIN
-
-VillageBow:
-VillageEventItem(PlaceholderText, Village, Longbow)
-
-VillageSlayer:
-VillageEventItem(PlaceholderText, Village, Horseslayer)
-
-/* VillageStaff:
-VillageEventItem(PlaceholderText, Village, Venenum) */
-
-ArmoryList:
-SHLI IronSword IronLance IronAxe IronBow SteelBow
-
-ALIGN 4
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -94,65 +94,134 @@ Tutorial:
 END_MAIN
 
 Units1:
-UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [1,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Gilliam Knight Eirika Level(1, Ally, 0) [1,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Franz Fighter Eirika Level(1, Ally, 0) [2,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Moulder Archer Eirika Level(1, Ally, 0) [0,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [7,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [6,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Gilliam Knight Eirika Level(1, Ally, 0) [8,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Franz Fighter Eirika Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Moulder Archer Eirika Level(1, Ally, 0) [9,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Vanessa Cleric Eirika Level(1, Ally, 0) [8,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Ross Thief Eirika Level(1, Ally, 0) [6,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Neimi Cavalier_F Eirika Level(1, Ally, 0) [6,7] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Sarai PegasusKnight Eirika Level(1, Ally, 0) [6,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
-NewCrew:
-UNIT Vanessa Cleric Eirika Level(5, Ally, 0) [1,5] 0x00 0x00 0x0 0x00 [Heal, Mend, Vulnerary] NoAI 
-UNIT Ross Thief Eirika Level(3, Ally, 0) [2,5] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] NoAI 
-UNIT Neimi Cavalier_F Eirika Level(1, Ally, 0) [3,6] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
+FatNoble:
+UNIT 0x46 Peer 0x00 Level(1, NPC, 0) [7,6] 0x00 0x00 0x0 0x00 [0x00] DoNothing 
+UNIT
+
+NewUnits:
+UNIT Rudyard Cavalier 0x00 Level(1, Ally, 0) [6,9] 0x00 0x00 0x0 0x00 [SteelSword, Longsword] NoAI 
+UNIT 0x13 Cavalier_F Eirika Level(1, Ally, 0) [10,9] 0x00 0x00 0x0 0x00 [IronAxe] NoAI
 UNIT
 
 Bad:
-UNIT Sawine Pirate 0x00 Level(4, Enemy, 0) [11,18] 0x00 0x00 0x0 0x00 [SteelAxe, Hurlbat, 0xB9] AttackInRangeAI 
-UNIT 0x80 Shaman Sawine Level(3, Enemy, 1) [4,17] 0x00 0x00 0x0 0x00 [Vampus] NeverMoveAI 
-UNIT 0x80 Fighter Sawine Level(3, Enemy, 1) [3,17] 0x00 0x00 0x0 0x00 [Hurlbat] NeverMoveAI  
-UNIT 0x80 Shaman Sawine Level(2, Enemy, 1) [6,10] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [4,13] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [3,13] 0x00 0x00 0x0 0x00 [SteelSword, 0x9E] AttackInRangeAI 
-UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronBow, 0x9E] AttackInRangeAI 
-UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [14,14] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [14,12] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
-UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [9,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [10,12] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Mercenary Sawine Level(3, Enemy, 1) [7,19] 0x00 0x00 0x0 0x00 [IronBlade, 0x9E] PursueWithoutHeedAI 
+UNIT 0x80 Knight Attab Level(5, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [Harpoon] NeverMoveAI 
+UNIT 0x80 Knight Attab Level(5, Enemy, 1) [3,4] 0x00 0x00 0x0 0x00 [Harpoon] NeverMoveAI 
+UNIT 0x80 Cavalier Attab Level(4, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Attab Level(4, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Attab Level(4, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Attab Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Archer Attab Level(3, Enemy, 1) [14,7] 0x00 0x00 0x0 0x00 [IronBow] [0x0,0xE, 0xC, 0x0]
+UNIT 0x80 Archer Attab Level(3, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [IronBow] [0x0,0xE, 0xC, 0x0]
+UNIT 0x80 Pirate Attab Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Attab Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Colm Shaman Attab Level(4, Enemy, 0) [13,8] 0x00 0x00 0x0 0x00 [Flux, Nosferatu] PursueWithoutHeedAI 
+UNIT Attab Fighter 0x00 Level(5, Enemy, 0) [0,8] 0x00 0x00 0x0 0x00 [SteelAxe, Hurlbat, Hammer, EnergyRing] AttackInRangeAI 
 UNIT
 
 Wave1:
-UNIT 0x80 Brigand Sawine Level(3, Enemy, 1) [11,19] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT 0x80 Shaman Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+//UNIT 0x80 Fighter Attab Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Attab Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+//UNIT 0x80 Mercenary Attab Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 Cavalier_F Attab Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+//UNIT 0x80 Cavalier_F Attab Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
 UNIT
 
 Wave2:
-UNIT 0x80 Brigand Sawine Level(3, Enemy, 1) [2,18] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+//UNIT 0x80 Mercenary Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Attab Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+//UNIT 0x80 Shaman Attab Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Pirate Attab Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+//UNIT 0x80 Soldier Attab Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Attab Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
 UNIT
 
 Wave3:
-UNIT 0x80 WyvernRider Sawine Level(3, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x80 WyvernRider Sawine Level(4, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Pirate Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Archer Attab Level(4, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x80 Thief Attab Level(4, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronSword] LootingThiefAI 
+//UNIT 0x80 Soldier Attab Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Attab Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+//UNIT 0x80 Fighter Attab Level(4, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT
 
 Wave4:
-UNIT 0x80 Myrmidon Sawine Level(4, Enemy, 1) [1,18] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 Shaman Sawine Level(4, Enemy, 1) [2,18] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
+UNIT 0x80 Archer Attab Level(4, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Attab Level(5, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 Soldier Attab Level(4, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Attab Level(5, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+//UNIT 0x80 Fighter Attab Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [Hurlbat] PursueWithoutHeedAI 
+//UNIT 0x80 Shaman Attab Level(4, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
 UNIT
 
+Wave5:
+UNIT 0x80 Knight Attab Level(4, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [Harpoon] PursueWithoutHeedAI 
+UNIT 0x80 Knight Attab Level(4, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [Harpoon] PursueWithoutHeedAI 
+//UNIT 0x80 Cavalier_F Attab Level(5, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Attab Level(5, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+//UNIT 0x80 Mercenary Attab Level(5, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Attab Level(5, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT
+
+Wave6:
+UNIT 0x80 WyvernRider Attab Level(5, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+//UNIT 0x80 WyvernRider Attab Level(5, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Attab Level(5, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Attab Level(5, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
+//UNIT 0x80 WyvernRider Attab Level(5, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Attab Level(5, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT
+
+Wave7:
+UNIT 0x80 Cavalier_F Attab Level(5, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier_F Attab Level(5, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Attab Level(5, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Attab Level(5, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Attab Level(5, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Attab Level(5, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT
+
+AI2PointerTable(0xE,SeekWallsAI)
+SeekWallsAI:
+GetEnemyInCoefMovement(OneMove)
+ConditionalGoto(0, LT, 1)
+SeekWalls
+LoopAI
+Label(1)
+ActionInRange
+LoopAI
+
+OneMove:
+defMovementCoefficient(0x1)
+
 BeginningScene:
+LABEL 0x1
 LOAD3 0x1 Units1
 ENUN
-LOAD1 0x1 NewCrew
+LOAD1 0x1 NewUnits
 ENUN
 LOAD1 0x1 Bad
 ENUN
+LOAD1 0x1 FatNoble
+ENUN
+Text(DefendGreenText)
 NoFade
 ENDA
 
 EndingScene:
-MNCH 3
+Text(PlaceholderText)
+//TODO
+MNCH 0x03
 NoFade
 ENDA

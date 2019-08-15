@@ -6,9 +6,9 @@
  <layer name="Main" width="18" height="18">
   <properties>
    <property name="Anims1" value="0x05"/>
-   <property name="ChapterID" value="0x03"/>
+   <property name="ChapterID" value="0x4"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="0x13"/>
+   <property name="MapChangesID" value="0x16"/>
    <property name="MapID" value="0x15"/>
    <property name="ObjectType1" value="0x01"/>
    <property name="PaletteID" value="0x02"/>
