@@ -1,2 +1,3 @@
-Holy Aura: Gain +1 damage, +5% hit,[N]
-+5% avoid, +5% crit when using light.[X]
+Grisly Wound: Deals damage equal[NL]
+to 20% of the enemy's max[NL]
+HP after every battle.[X]

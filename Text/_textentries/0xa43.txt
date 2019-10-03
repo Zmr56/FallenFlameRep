@@ -1,2 +1,2 @@
-Propel: Gain +2 Damage and +10 Hit[N]
-when fighting enemy at 2 range.[X]
+Holy Aura: Gain +1 damage, +5% hit,[N]
++5% avoid, +5% crit when using light.[X]

@@ -1,3 +1,2 @@
-Discipline+: Weapon experience[N]
-gains are doubled. Unit may[N]
-S-Rank multiple weapon types.[X]
+Cunning: Can steal items, pick[N]
+locks, and see in darkness.[X]

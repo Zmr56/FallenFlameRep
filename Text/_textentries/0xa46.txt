@@ -1,2 +1,2 @@
-Watchful: This unit cannot be[N]
-captured or stolen from.[X]
+Thunderstorm: If weapon weight > enemy[N]
+W. Weight, +2 dmg, +15% hit, +5% crit.[X]

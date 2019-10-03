@@ -1,2 +1,2 @@
-Catch 'Em All: Grants[N]
-the user every skill.[X]
+Supply: This unit has[N]
+access to the convoy.[X]

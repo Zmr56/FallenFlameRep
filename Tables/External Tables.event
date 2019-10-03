@@ -27,9 +27,9 @@ BYTE ArmorClasses
 FlyingMagicEffectiveness:
 BYTE FlyingClasses
 //Continues into magic effectiveness
-MagicEffectiveness:
+/*MagicEffectiveness:
 BYTE MagicClasses
-BYTE 0
+BYTE 0*/
 
 MountedArmorEffectiveness:
 BYTE ArmorClasses

@@ -1,2 +1,2 @@
-Quantum Visage: Face changes[N]
-every time it's looked at.[X]
+Pivot: Allows unit to move to the[N]
+opposite side of an adjacent ally.[X]

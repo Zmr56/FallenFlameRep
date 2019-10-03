@@ -1,2 +1,2 @@
-Black Magic: Skill% chance to[N]
-inflict a random status.[X]
+Steady Stance: +6 defense[N]
+when foe initiates battle.[X]

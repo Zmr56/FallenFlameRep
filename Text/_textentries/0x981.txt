@@ -1,2 +1,2 @@
-Provoke: Enemies are more[N]
-likely to target this unit.[X]
+I'm too lazy to insert Manakete[N]
+anims so he's a Shaman instead.[X]

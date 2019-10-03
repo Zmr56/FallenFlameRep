@@ -1,2 +1,2 @@
-Charisma: Grants +10 Hit/Avoid[N]
-to all allies within three tiles.[X]
+Fury: +2 Atk/Spd/Def/Res. Unit[N]
+takes 6 damage after combat.[X]

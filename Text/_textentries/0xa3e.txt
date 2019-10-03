@@ -1,2 +1,3 @@
-Thunderstorm: If weapon weight > enemy[N]
-W. Weight, +2 dmg, +15% hit, +5% crit.[X]
+Barricade+: In combat, damage[NL]
+recieved equals half of the[NL]
+damage when struck last.[X]

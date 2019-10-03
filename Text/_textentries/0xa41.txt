@@ -1,2 +1,2 @@
-Charge: Gain +1 damage for[N]
-every two squares moved.[X]
+Puissance: +3 Damage when the user's[N]
+Strength is higher than the enemy's.[X]

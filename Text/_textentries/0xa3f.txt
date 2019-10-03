@@ -1,2 +1,2 @@
-Outrider: Take -1 damage and[N]
-gain +3% crit per space moved.[X]
+Point Blank: Minimum range of[N]
+equipped bows is set to 1.[X]

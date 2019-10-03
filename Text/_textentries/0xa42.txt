@@ -1,3 +1,2 @@
-Infiltrator: If within 2 spaces[N]
-of two or more enemies, gain +3[N]
-damage and +15% hit.[X]
+Battle Veteran: Gain +1 damage and[N]
++5% Hit per 10 levels unit has.[X]

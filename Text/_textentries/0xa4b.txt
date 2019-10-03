@@ -1,3 +1,2 @@
-Shieldcrash: If within 2 spaces[N]
-of two or more enemies, gain +3[N]
-def and +10% crit.[X]
+Propel: Gain +2 Damage and +10 Hit[N]
+when fighting enemy at 2 range.[X]

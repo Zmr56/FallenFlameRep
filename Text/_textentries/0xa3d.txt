@@ -1,2 +1,2 @@
-Loyalty: When within 2 spaces of[N]
-a Lord, -3 damage taken, +15% hit.[X]
+Barricade: Damage taken is[NL]
+halved after first being struck.[X]

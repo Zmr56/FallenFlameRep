@@ -1,2 +1,2 @@
-Fierce Stance: +6 attack[N]
-when foe initiates battle.[X]
+Death Blow: +6 Attack[N]
+when initiating battle.[X]
