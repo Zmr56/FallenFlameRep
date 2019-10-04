@@ -1,2 +1,2 @@
-Darting Blow: +2 Attack Speed[N]
-when initiating battle.[X]
+Counter: Reflect physical damage[N]
+when attacked at 1-2 range.[X]

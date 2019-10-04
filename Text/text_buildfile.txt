@@ -12,6 +12,8 @@ Set health bar display[X]
 #first text ID in the free block
 Learned  [X]
 
+#include "chapter_names.txt"
+
 #0x1a1 Kill2Bosses
 Kill 2 bosses.[X]
 
@@ -88,8 +90,6 @@ Effective against magic users.[X]
 #include "statscreen_text.txt"
 
 #include "unitmenu_text.txt"
-
-#include "chapter_names.txt"
 
 #include "class_text.txt"
 

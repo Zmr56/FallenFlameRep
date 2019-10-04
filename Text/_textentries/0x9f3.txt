@@ -1,2 +1,2 @@
-Strong Riposte: When under[N]
-attack, damage +3. [X]
+Pragmatic: When foe is not at full HP,[N]
+attack +3 and def/res+1.[X]

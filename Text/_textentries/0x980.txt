@@ -1,1 +1,2 @@
-Naiburn[X]
+Wary Fighter: Unit cannot[N]
+double or be doubled.[X]

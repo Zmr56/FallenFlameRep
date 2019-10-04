@@ -19,6 +19,38 @@ TxtData0x3A:
 #incext ParseFile "_textentries\0x3A.txt"
 setText(0x3A,TxtData0x3A)
 
+TxtData0x160:
+#incext ParseFile "_textentries\0x160.txt"
+setText(0x160,TxtData0x160)
+
+TxtData0x161:
+#incext ParseFile "_textentries\0x161.txt"
+setText(0x161,TxtData0x161)
+
+TxtData0x162:
+#incext ParseFile "_textentries\0x162.txt"
+setText(0x162,TxtData0x162)
+
+TxtData0x163:
+#incext ParseFile "_textentries\0x163.txt"
+setText(0x163,TxtData0x163)
+
+TxtData0x164:
+#incext ParseFile "_textentries\0x164.txt"
+setText(0x164,TxtData0x164)
+
+TxtData0x165:
+#incext ParseFile "_textentries\0x165.txt"
+setText(0x165,TxtData0x165)
+
+TxtData0x166:
+#incext ParseFile "_textentries\0x166.txt"
+setText(0x166,TxtData0x166)
+
+TxtData0x167:
+#incext ParseFile "_textentries\0x167.txt"
+setText(0x167,TxtData0x167)
+
 TxtData0x1a1:
 #incext ParseFile "_textentries\0x1a1.txt"
 setText(0x1a1,TxtData0x1a1)
@@ -1346,32 +1378,4 @@ setText(0xa4c,TxtData0xa4c)
 TxtData0xa4d:
 #incext ParseFile "_textentries\0xa4d.txt"
 setText(0xa4d,TxtData0xa4d)
-
-TxtData0xa4e:
-#incext ParseFile "_textentries\0xa4e.txt"
-setText(0xa4e,TxtData0xa4e)
-
-TxtData0xa4f:
-#incext ParseFile "_textentries\0xa4f.txt"
-setText(0xa4f,TxtData0xa4f)
-
-TxtData0xa50:
-#incext ParseFile "_textentries\0xa50.txt"
-setText(0xa50,TxtData0xa50)
-
-TxtData0xa51:
-#incext ParseFile "_textentries\0xa51.txt"
-setText(0xa51,TxtData0xa51)
-
-TxtData0xa52:
-#incext ParseFile "_textentries\0xa52.txt"
-setText(0xa52,TxtData0xa52)
-
-TxtData0xa53:
-#incext ParseFile "_textentries\0xa53.txt"
-setText(0xa53,TxtData0xa53)
-
-TxtData0xa54:
-#incext ParseFile "_textentries\0xa54.txt"
-setText(0xa54,TxtData0xa54)
 

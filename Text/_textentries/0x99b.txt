@@ -1,2 +1,2 @@
-Aegis: Nullify a magic attack.[N]
-(Skill % activation)[X]
+Armored Blow: +10 Def[N]
+when initiating battle.[X]

@@ -1,2 +1,2 @@
-Lucky Seven: +20 Hit and Avoid[N]
-until the 7th turn.[X]
+Reposition: Allows unit to pull an[N]
+adjacent ally to its opposite side.[X]

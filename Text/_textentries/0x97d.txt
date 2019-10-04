@@ -1,2 +1,2 @@
-A colony ruler rebelling against[N]
-the Blumari kingdom with pirates.[X]
+Acrobat: All traversable[N]
+terrain costs 1 movement.[X]

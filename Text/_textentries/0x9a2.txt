@@ -1,2 +1,2 @@
-Armored Blow: +10 Def[N]
-when initiating battle.[X]
+Swordfaire: +4 damage[N]
+when equipping a sword.[X]

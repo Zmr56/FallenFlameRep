@@ -1,2 +1,2 @@
-Dazzle: Opponents cannot[N]
-counterattack this unit.[X]
+Charisma: Grants +10 Hit/Avoid[N]
+to all allies within three tiles.[X]

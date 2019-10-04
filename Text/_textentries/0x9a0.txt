@@ -1,2 +1,2 @@
-Warding Blow: +20 Res[N]
-when initiating battle.[X]
+Countermagic: Reflect magic damage[N]
+when attacked at 1-2 range.[X]

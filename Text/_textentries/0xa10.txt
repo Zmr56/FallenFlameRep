@@ -1,2 +1,2 @@
-Triangle Adept: Doubles[N]
-weapon triangle effects.[X]
+Death Blow: +6 Attack[N]
+when initiating battle.[X]

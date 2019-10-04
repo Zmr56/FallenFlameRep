@@ -1,2 +1,2 @@
-Armsthrift: Luck % chance to not[N]
-consume weapon durability.[X]
+Rightful King: +10% to[N]
+Skill activation rate.[X]

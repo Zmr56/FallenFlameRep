@@ -1,2 +1,2 @@
-Trace: During Battle, copies[N]
-the first Skill of the enemy.[X]
+Vantage+: User always attacks first,[N]
+even if attacked. Negates crits.[X]

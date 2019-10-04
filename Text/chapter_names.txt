@@ -1,5 +1,5 @@
 
-## PrologueChName
+#0x160 PrologueChName
 Prologue[X]
 
 ## Ch1ChName
@@ -16,6 +16,9 @@ Ch4[X]
 
 ## Ch5ChName
 Ch5[X]
+
+## Ch5xChName
+lolnope[X]
 
 ## Ch6ChName
 Ch6[X]

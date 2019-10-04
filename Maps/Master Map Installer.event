@@ -22,14 +22,5 @@
 #include "Ch4.event"
 }
 {
-#include "Ch5.event"
-}
-{
 #include "Prologue.event"
-}
-{
-#include "Old\Ch5.event"
-}
-{
-#include "Old\Ch6.event"
 }

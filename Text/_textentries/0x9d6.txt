@@ -1,3 +1,2 @@
-Lunge: Swap places with the[N]
-opponent after combat.[N]
-(No effect if Move is --)[X]
+Relief: Recover 20% HP each turn if[N]
+there are no allies within 2 tiles.[X]

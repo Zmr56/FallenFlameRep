@@ -1,2 +1,3 @@
-Frenzy: For every 4 damage[N]
-taken, +1 to damage dealt.[X]
+Aether: First strike absorbs HP,[N]
+second strike negates defenses.[N]
+(Skill/2 % activation)[X]

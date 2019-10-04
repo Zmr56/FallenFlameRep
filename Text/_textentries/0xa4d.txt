@@ -1,2 +1,2 @@
-Knight Aspirant: When above 75%[N]
-health, +2 damage, +15% avoid.[X]
+Tempest Blood: +2 Attack[N]
+Speed when HP is not at max.[X]

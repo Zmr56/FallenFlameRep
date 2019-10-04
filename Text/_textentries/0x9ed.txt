@@ -1,2 +1,2 @@
-Seal Resistance: Debuff opponent's Res[N]
-by 6 after combat. (Recover 1/turn)[X]
+Patience: When under[N]
+attack, avoid +10. [X]
