@@ -47,10 +47,10 @@ Gad[X]
 A thief wanting to turn a new leaf.[N]
 Has a number of connections.[X]
 
-## nameNanami
-Nanami[X]
+## nameDana
+Dana[X]
 
-## descNanami
+## descDana
 One of Wren's best friends who also[N]
 sees Shamira as an idol.[X]
 
@@ -82,6 +82,13 @@ Adela[X]
 A reserved and introverted noble[N]
 woman. Misses her brother dearly.[X]
 
+## nameNuri
+Nuri[X]
+
+## descNuri
+Adela's loyal retainer. Deeply[N]
+devoted to her land and family.[X]
+
 ## nameApollo
 Apollo[X]
 
@@ -101,7 +108,7 @@ Evander[X]
 
 ## descEvander
 Adela's loyal retainer. Holds a[N]
-desire to protect his motherland.[X]
+secret affection for his liege.[X]
 
 ## nameVicks
 Vicks[X]

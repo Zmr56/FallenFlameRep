@@ -28,10 +28,6 @@ Gad_Mug:
 #incext PortraitFormatter "Gad.png"
 setMugEntry(0x9, Gad_Mug, 4, 5, 4, 3)
 
-Nanami_Mug:
-#incext PortraitFormatter "Nanami.png"
-setMugEntry(0xa, Nanami_Mug, 3, 5, 3, 3)
-
 Cato_Mug:
 #incext PortraitFormatter "Cato.png"
 setMugEntry(0xc, Cato_Mug, 2, 6, 2, 4)
@@ -44,14 +40,18 @@ Rudyard_Mug:
 #incext PortraitFormatter "Rudyard.png"
 setMugEntry(0xf, Rudyard_Mug, 2, 5, 3, 3)
 
-Iara_Mug:
-#incext PortraitFormatter "Iara.png"
-setMugEntry(0x13, Iara_Mug, 3, 6, 3, 4)
+Nuri_Mug:
+#incext PortraitFormatter "Nuri.png"
+setMugEntry(0x11, Nuri_Mug, 3, 6, 3, 4)
 
 Apollo_Mug:
 #incext PortraitFormatter "Apollo.png"
-setMugEntry(0x11, Apollo_Mug, 3, 5, 3, 5)
+setMugEntry(0x13, Apollo_Mug, 3, 5, 3, 5)
+
+Iara_Mug:
+#incext PortraitFormatter "Iara.png"
+setMugEntry(0x14, Iara_Mug, 3, 6, 3, 4)
 
 Evander_Mug:
 #incext PortraitFormatter "Evander.png"
-setMugEntry(0x14, Evander_Mug, 3, 5, 2, 3)
+setMugEntry(0x16, Evander_Mug, 3, 5, 2, 3)

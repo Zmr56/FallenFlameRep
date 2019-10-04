@@ -1,2 +1,2 @@
-Black Magic: Skill% chance to[N]
-inflict a random status.[X]
+Capture: Capture an enemy after[N]
+defeating it with reduced stats.[X]

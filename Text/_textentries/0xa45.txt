@@ -1,2 +1,2 @@
-Knight Aspirant: When above 75%[N]
-health, +2 damage, +15% avoid.[X]
+Mage Slayer: Gain +2 damage and +10%[N]
+crit when facing magical enemies.[X]

@@ -1,3 +1,2 @@
-Armor March: At start of turn, if unit[N]
-is adjacent to an armor ally, unit and[N]
-adjacent armor allies gain +2 Mov.[X]
+Axefaith: Axes can't lose durability, and[N]
+grants +Luck*1.5 Hit when wielding axes.[X]

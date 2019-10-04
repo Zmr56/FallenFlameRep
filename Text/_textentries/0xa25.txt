@@ -1,2 +1,2 @@
-Fortress Resistance:[N]
-+5 Res, -3 Atk/Mag[X]
+Fortress Defense:[N]
++5 Def, -3 Atk/Mag[X]

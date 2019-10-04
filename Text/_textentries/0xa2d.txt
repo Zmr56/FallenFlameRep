@@ -1,2 +1,2 @@
-Shadowgift: Allows the user to use[N]
-Dark Magic. (Uses highest Magic Rank)[X]
+Liquid Ooze: Attackers trying to gain HP[N]
+from attacking this unit lose it instead.[X]

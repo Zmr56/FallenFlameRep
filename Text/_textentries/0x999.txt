@@ -1,2 +1,2 @@
-Certain Blow: +20 Hit[N]
+Warding Blow: +20 Res[N]
 when initiating battle.[X]
