@@ -12,7 +12,8 @@
 #define Ch3ChName 0x163
 #define Ch4ChName 0x164
 #define Ch5ChName 0x165
-#define Ch6ChName 0x166
+#define Ch5xChName 0x166
+#define Ch6ChName 0x167
 #define Kill2Bosses 0x1a1
 #define PlaceholderText 0x903
 #define DV1Desc 0x904

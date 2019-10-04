@@ -47,6 +47,10 @@ TxtData0x166:
 #incext ParseFile "_textentries\0x166.txt"
 setText(0x166,TxtData0x166)
 
+TxtData0x167:
+#incext ParseFile "_textentries\0x167.txt"
+setText(0x167,TxtData0x167)
+
 TxtData0x1a1:
 #incext ParseFile "_textentries\0x1a1.txt"
 setText(0x1a1,TxtData0x1a1)
