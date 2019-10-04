@@ -1,2 +1,2 @@
-Strong Riposte: When under[N]
-attack, damage +3. [X]
+Charm: Allies within 2[N]
+tiles deal +2 damage.[X]

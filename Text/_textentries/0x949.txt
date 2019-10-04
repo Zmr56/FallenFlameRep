@@ -1,2 +1,2 @@
-Paragon: Experience gain[N]
-is doubled.[X]
+Mounted knights with swift movement.[NL]
+Equip: Lances.[X]

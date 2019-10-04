@@ -1,2 +1,2 @@
-Life and Death: +10 to[N]
-damage dealt and taken.[X]
+Aegis: Nullify a magic attack.[N]
+(Skill % activation)[X]

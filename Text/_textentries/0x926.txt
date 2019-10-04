@@ -1,2 +1,2 @@
-Certain Blow: +40 Hit[N]
-when initiating battle.[X]
+Leave opponent with[N]
+at least 1 HP.[X]

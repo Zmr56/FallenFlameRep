@@ -1,2 +1,1 @@
-Trample: +5 damage to[N]
-unmounted units.[X]
+Sarai[X]

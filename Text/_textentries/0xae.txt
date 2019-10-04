@@ -1,2 +1,2 @@
-Trample: +5 damage to[N]
-unmounted units.[X]
+Warding Blow: +20 Res[N]
+when initiating battle.[X]

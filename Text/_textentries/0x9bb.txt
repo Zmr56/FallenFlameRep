@@ -1,1 +1,2 @@
-Nanami[X]
+Voice of Peace: Enemies within[N]
+2 tiles deal -2 damage.[X]

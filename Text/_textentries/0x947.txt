@@ -1,2 +1,2 @@
-Nihil: Cancels the opponent's[N]
-skills in combat.[X]
+Mounted knights with swift movement.[NL]
+Equip: Swords.[X]

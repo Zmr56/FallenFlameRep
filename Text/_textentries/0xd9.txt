@@ -1,2 +1,2 @@
-Lucky Seven: +20 Hit and Avoid[N]
-until the 7th turn.[X]
+Rally Luck: +4 Luck to[N]
+allies within 2 tiles.[X]

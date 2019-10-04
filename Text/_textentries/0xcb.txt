@@ -1,2 +1,2 @@
-Light Weight: When holding three[N]
-or less items, attack speed +3.[X]
+Spur Strength: Adjacent allies[N]
+deal +4 physical damage.[X]

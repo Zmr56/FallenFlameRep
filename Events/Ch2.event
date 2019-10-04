@@ -1,5 +1,15 @@
-#include EAstdlib.event
-EventPointerTable(0x0D, PointerList)
+
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.0.0.0                              //
+// Game: FE8                                      //
+// File: FE8_clean.gba                            //
+// Offset: $9EC66C                                //
+//                                                //
+////////////////////////////////////////////////////
+
+EventPointerTable(0xd, PointerList)
 
 PointerList:
 POIN TurnBasedEvents
@@ -15,13 +25,9 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TURN 0x0 WaveFirst[2,0] 0x0
-TURN 0x0 WaveSecond[3,0] 0x0
-TURN 0x0 WaveThird[4,0] 0x0
-TURN 0x0 WaveFourth[5,0] 0x0
-TURN 0x0 WaveFifth[6,0] 0x0
-TURN 0x0 WaveSixth[7,0] 0x0
-TURN 0x0 WaveSeventh[8,0] 0x0
-TURN 0xA EndingScene [10,0] 0x0
+TURN 0x0 WaveSecond[5,0] 0x0
+TURN 0x0 WaveThird[7,0] 0x0
+TURN 0x0 WaveFourth[8,0] 0x0
 END_MAIN
 
 WaveFirst:
@@ -40,39 +46,33 @@ WaveFourth:
 ReinforcementEvent(Wave4)
 ENDA
 
-WaveFifth:
-ReinforcementEvent(Wave5)
-ENDA
-
-WaveSixth:
-ReinforcementEvent(Wave6)
-ENDA
-
-WaveSeventh:
-ReinforcementEvent(Wave7)
-ENDA
-
-ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 CharacterBasedEvents:
-CharacterEventBothWays(0x7, RecruitTalk, Eirika, Colm)
 END_MAIN
-
-RecruitTalk:
-MUSS 0x30
-Text(PlaceholderText)
-REMA
-CUSA Colm//Cato joins the party!
-MURE 0x05 //Shifts back to map music
-NoFade
-ENDA
 
 LocationBasedEvents:
-Chest(Hurlbat,13,0)
-Chest(AngelicRobe,14,0)
+Village(0x7,VillageSlayer,1,12)
+Village(0x8,VillageBow,6,12)
+//Village(0x9,VillageStaff,13,11)
+Armory(ArmoryList, 6, 8)
 END_MAIN
+
+VillageBow:
+VillageEventItem(PlaceholderText, Village, Longbow)
+
+VillageSlayer:
+VillageEventItem(PlaceholderText, Village, Horseslayer)
+
+/* VillageStaff:
+VillageEventItem(PlaceholderText, Village, Venenum) */
+
+ArmoryList:
+SHLI IronSword IronLance IronAxe IronBow SteelBow
+
+ALIGN 4
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -94,113 +94,66 @@ Tutorial:
 END_MAIN
 
 Units1:
-UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [7,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [6,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Gilliam Knight Eirika Level(1, Ally, 0) [8,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Franz Fighter Eirika Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Moulder Archer Eirika Level(1, Ally, 0) [9,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Vanessa Cleric Eirika Level(1, Ally, 0) [8,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Ross Thief Eirika Level(1, Ally, 0) [6,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Neimi Cavalier_F Eirika Level(1, Ally, 0) [6,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [1,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Wren Level(1, Ally, 0) [3,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Gilliam Knight Wren Level(1, Ally, 0) [1,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Franz Fighter Wren Level(1, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Moulder Archer Wren Level(1, Ally, 0) [0,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Neimi Cavalier_F Wren Level(1, Ally, 0) [3,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Sarai PegasusKnight Wren Level(1, Ally, 0) [3,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
-FatNoble:
-UNIT 0x46 Peer 0x00 Level(1, NPC, 0) [7,6] 0x00 0x00 0x0 0x00 [0x00] DoNothing 
+NewCrew:
+UNIT Vanessa Cleric Wren Level(5, Ally, 0) [1,0] 0x00 0x00 0x0 0x00 [Heal, Mend, Vulnerary] NoAI 
+UNIT Ross Thief Wren Level(3, Ally, 0) [2,0] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] NoAI 
 UNIT
 
 Bad:
-UNIT 0x80 Knight Zonta Level(3, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [Harpoon] GuardTileAI 
-UNIT 0x80 Knight Zonta Level(3, Enemy, 1) [3,4] 0x00 0x00 0x0 0x00 [Harpoon] GuardTileAI 
-UNIT 0x80 Cavalier Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Archer Zonta Level(3, Enemy, 1) [14,7] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
-UNIT 0x80 Archer Zonta Level(3, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
-UNIT 0x80 Pirate Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT Colm Shaman Zonta Level(4, Enemy, 0) [7,2] 0x00 0x00 0x0 0x00 [Flux, Nosferatu] PursueWithoutHeedAI 
-UNIT Zonta Fighter 0x00 Level(5, Enemy, 0) [0,8] 0x00 0x00 0x0 0x00 [SteelAxe, Hurlbat, Hammer, EnergyRing] PursueWithoutHeedAI 
+UNIT Sawine Pirate 0x00 Level(4, Enemy, 0) [11,13] 0x00 0x00 0x0 0x00 [SteelAxe, Hurlbat, 0xB9] AttackInRangeAI 
+UNIT 0x80 Shaman Sawine Level(3, Enemy, 1) [4,12] 0x00 0x00 0x0 0x00 [Vampus] NeverMoveAI 
+UNIT 0x80 Fighter Sawine Level(3, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [Hurlbat] NeverMoveAI  
+UNIT 0x80 Shaman Sawine Level(2, Enemy, 1) [6,5] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [3,8] 0x00 0x00 0x0 0x00 [SteelSword, 0x9E] AttackInRangeAI 
+UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [IronBow, 0x9E] AttackInRangeAI 
+UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [9,9] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Archer Sawine Level(2, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [14,7] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x80 Mercenary Sawine Level(2, Enemy, 1) [10,2] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Pirate Sawine Level(2, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x80 Mercenary Sawine Level(3, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [IronBlade, 0x9E] PursueWithoutHeedAI 
 UNIT
 
 Wave1:
-UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-//UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-//UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-//UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 Brigand Sawine Level(3, Enemy, 1) [11,14] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
 UNIT
 
 Wave2:
-//UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-//UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Pirate Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-//UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 Brigand Sawine Level(3, Enemy, 1) [2,13] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
 UNIT
 
 Wave3:
-UNIT 0x80 Pirate Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 Archer Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
-UNIT 0x80 Thief Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronSword] LootingThiefAI 
-//UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
-UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-//UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Sawine Level(3, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Sawine Level(4, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT
 
 Wave4:
-UNIT 0x80 Archer Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Soldier Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-//UNIT 0x80 Fighter Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [Hurlbat] PursueWithoutHeedAI 
-//UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
-UNIT
-
-Wave5:
-UNIT 0x80 Knight Zonta Level(3, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [Harpoon] PursueWithoutHeedAI 
-UNIT 0x80 Knight Zonta Level(3, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [Harpoon] PursueWithoutHeedAI 
-//UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-//UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT
-
-Wave6:
-UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-//UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
-//UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
-UNIT
-
-Wave7:
-UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier_F Zonta Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier Zonta Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier Zonta Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Zonta Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x80 Myrmidon Sawine Level(4, Enemy, 1) [1,13] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 Shaman Sawine Level(4, Enemy, 1) [2,13] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
 UNIT
 
 BeginningScene:
-LABEL 0x1
 LOAD3 0x1 Units1
+ENUN
+LOAD1 0x1 NewCrew
 ENUN
 LOAD1 0x1 Bad
 ENUN
-LOAD1 0x1 FatNoble
-ENUN
-Text(DefendGreenText)
 NoFade
 ENDA
 
 EndingScene:
-Text(PlaceholderText)
-//TODO
-MNCH 0x03
+MNCH 0x2
 NoFade
 ENDA

@@ -2,41 +2,31 @@
 
 #include eastdlib.event
 
-SetChapterData(4,0xe,0,0xf,0x10,0x15,Map,5,0,0x16)
+SetChapterData(0x4,0x01,0,0x02,0x03,0x15,Map,0x05,0,0x16)
 EventPointerTable(0x16, MapChanges)
 Map:
 #incbin "Ch4_data.dmp"
 
 MapChanges:
-TileMap(0,8,6,3,3,NVD)
-TileMap(1,9,8,1,1,NVS)
-TileMap(2,8,0,3,3,SVD)
-TileMap(3,9,2,1,1,SVS)
-TileMap(4,2,12,1,1,Chest1)
-TileMap(5,2,13,1,1,Chest2)
+TileMap(0,4,8,3,3,VD1)
+TileMap(1,5,10,1,1,VS1)
+TileMap(2,14,5,3,3,VD2)
+TileMap(3,15,7,1,1,VD2)
 TileMapEnd
 
-NVD:
-SHORT 
+VD1:
+SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0xea4 0xf1c 0xf20 0xf24 
 ALIGN 4
 
-NVS:
-SHORT 
+VS1:
+SHORT 0x80 
 ALIGN 4
 
-SVD:
-SHORT 
+VD2:
+SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0xea4 0xf1c 0xf20 0xf24 
 ALIGN 4
 
-SVS:
-SHORT 
-ALIGN 4
-
-Chest1:
-SHORT 
-ALIGN 4
-
-Chest2:
-SHORT 
+VD2:
+SHORT 0xe28 0x80 
 ALIGN 4
 

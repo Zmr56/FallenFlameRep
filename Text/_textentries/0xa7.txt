@@ -1,2 +1,2 @@
-Live to Serve: When healing[N]
-an ally, also heals self.[X]
+Bowbreaker: +50 Hit/Avo when[N]
+enemy has a bow equipped.[X]

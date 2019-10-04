@@ -1,2 +1,1 @@
-Vantage: If HP < 50%,[N]
-strike first when attacked.[X]
+2x crit rate, 0.5x hit rate.[X]

@@ -1,2 +1,2 @@
-Elbow Room: +3 damage dealt[N]
-when on open terrain.[X]
+Adela's loyal retainer. Holds a[N]
+secret affection for his liege.[X]

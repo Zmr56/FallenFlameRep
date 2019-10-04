@@ -1,1 +1,2 @@
-Celerity: Movement +2.[X]
+Axefaire: +4 damage[N]
+when equipping an axe.[X]

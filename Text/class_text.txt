@@ -1,6 +1,31 @@
+## descWyvernRider
+High flying knights vulnerable only to.[N]
+bows and magic. Equips Axes.[X]
+
 ## nameNomad
 Nomad[X]
 
 ## descNomad
 Horseback archers who move through.[N]
 rough terrain with ease.[X]
+
+## nameSwordCav
+Sword Cav[X]
+
+## descSwordCav
+Mounted knights with swift movement.[NL]
+Equip: Swords.[X]
+
+## nameLanceCav
+Lance Cav[X]
+
+## descLanceCav
+Mounted knights with swift movement.[NL]
+Equip: Lances.[X]
+
+## nameAxeCav
+Axe Cav[X]
+
+## descAxeCav
+Mounted knights with swift movement.[NL]
+Equip: Axes.[X]

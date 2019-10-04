@@ -1,23 +1,19 @@
-# 0x0094
+
+#0x0002 textWeaponRankIncreasedTo
+ Weapon rank increased to [X]
+
+#0x0094
 HP Bars[.][X]
 
-# 0x00B2
+#0x00B2
 Set health bar display[X]
 
 #0x3A LearnedSkillText
 #first text ID in the free block
 Learned  [X]
 
-#include "statscreen_text.txt"
-
-#include "unitmenu_text.txt"
-
-#include "class_text.txt"
-
-#include "objective_text.txt"
-
-## VillageText
-[MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
+#0x1a1 Kill2Bosses
+Kill 2 bosses.[X]
 
 #0x903 PlaceholderText
 #first text ID in the free block
@@ -37,13 +33,22 @@ Sirius[X]
 ## nameZeke
 Zeke[X]
 
-#include "skilldesc_text.txt"
-
-#include "character_text.txt"
-
 ## UM_Debug
  Debug[X]
- 
+
+## DefendGreenText
+[OpenMidLeft][LoadFace][WrenPortrait]Defend the fat noble for 9 turns![A][X]
+
+## VillageText
+[MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
+
+## DefendFatNobleWindow
+Defend noble[X]
+
+## DefendFatNobleStatus
+Defend noble for 9[N]
+turns or kill boss.[X]
+
 ## nameVampus
 Vampus[X]
 
@@ -74,20 +79,20 @@ Francisca[X]
 ## nameNzappa
 Nzappa[X]
 
-## DefendGreenText
-[OpenMidLeft][LoadFace][WrenPortrait]Defend the green guy for 9 turns![A][X]
+## nameCalibane
+Calibane[X]
 
-# 0x160 PrologueChName
-Prologue[X]
+## descCalibane
+Effective against magic users.[X]
 
-# 0x161 Ch1ChName
-Ch1[X]
+#include "statscreen_text.txt"
 
-# 0x162 Ch2ChName
-Ch2[X]
+#include "unitmenu_text.txt"
 
-# 0x163 Ch3ChName
-Ch3[X]
+#include "chapter_names.txt"
 
-# 0x164 Ch4ChName
-Ch4[X]
+#include "class_text.txt"
+
+#include "character_text.txt"
+
+#include "skilldesc_text.txt"

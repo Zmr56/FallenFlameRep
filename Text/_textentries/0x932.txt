@@ -1,2 +1,2 @@
-Tomefaire: +4 damage[N]
-when equipping a tome.[X]
+Move adjacent ally to this[N]
+unit's opposite side.[X]

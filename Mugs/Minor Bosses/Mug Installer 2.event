@@ -1,5 +1,9 @@
 #include "Tools/Tool Helpers.txt"
 
+Attab_Mug:
+#incext PortraitFormatter "Attab.png"
+setMugEntry(0x35, Attab_Mug, 3, 5, 3, 3)
+
 Vicks_Mug:
 #incext PortraitFormatter "Vicks.png"
 setMugEntry(0x9A, Vicks_Mug, 3, 5, 3, 3)
@@ -31,3 +35,11 @@ setMugEntry(0x34, Valanos_Mug, 3, 6, 3, 4)
 Wazzak_Mug:
 #incext PortraitFormatter "Wazzak.png"
 setMugEntry(0x38, Wazzak_Mug, 2, 5, 2, 3)
+
+Bigfard_Mug:
+#incext PortraitFormatter "Bigfard.png"
+setMugEntry(0x36, Bigfard_Mug, 2, 5, 3, 3)
+
+Naiburn_Mug:
+#incext PortraitFormatter "Naiburn.png"
+setMugEntry(0x33, Naiburn_Mug, 2, 5, 3, 3)

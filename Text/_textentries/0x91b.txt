@@ -1,2 +1,2 @@
-Swordbreaker: +50 Hit/Avo when[N]
-enemy has a sword equipped.[X]
+Character with whom this unit[N]
+may talk on the battlefield.[X]

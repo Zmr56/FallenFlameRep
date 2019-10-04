@@ -1,2 +1,1 @@
-Relief: Recover 20% HP each turn if[N]
-there are no allies within 2 tiles.[X]
+Adela[X]

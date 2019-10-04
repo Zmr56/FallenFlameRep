@@ -1,2 +1,2 @@
-Staff Savant: Maximum range[N]
-of staves is increased by 1.[X]
+Axebreaker: +50 Hit/Avo when[N]
+enemy has an axe equipped.[X]

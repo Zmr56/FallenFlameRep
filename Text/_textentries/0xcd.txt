@@ -1,2 +1,2 @@
-Critical Force: Base critical is[N]
-Skl * 1.5.[X]
+Spur Speed: Adjacent allies[N]
+gain +4 Attack Speed.[X]

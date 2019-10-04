@@ -1,2 +1,1 @@
-Aegis: Nullify a magic attack.[N]
-(Skill % activation)[X]
+donorbox.org/donate-to-circles[X]

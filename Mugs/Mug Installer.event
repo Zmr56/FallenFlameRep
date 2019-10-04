@@ -1,5 +1,7 @@
 #include "Tools/Tool Helpers.txt"
 
+#include "NPCs/Mug Installer 3.event"
+
 #include "Minor Bosses/Mug Installer 2.event"
 
 #include "Playables/Mug Installer 1.event"

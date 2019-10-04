@@ -1,2 +1,2 @@
-Savage Blow: After attacking, enemies[N]
-within 2 tiles take 20% damage.[X]
+A rider who goes wherever the wind[N]
+takes him. Hides a big secret.[X]

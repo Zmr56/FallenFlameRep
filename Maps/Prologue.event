@@ -8,8 +8,8 @@ Map:
 #incbin "Prologue_data.dmp"
 
 MapChanges:
-TileMap(0,7,0,3,3,VD)
-TileMap(1,8,2,1,1,VS)
+TileMap(0,4,3,3,3,VD)
+TileMap(1,5,5,1,1,VS)
 TileMapEnd
 
 VD:

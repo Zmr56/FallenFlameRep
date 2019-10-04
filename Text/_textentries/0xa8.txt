@@ -1,3 +1,2 @@
-Ignis: Add Def/2 and Res/2[N]
-to damage dealt.[N]
-(Skill % activation)[X]
+Tomebreaker: +50 Hit/Avo when[N]
+enemy has a tome equipped.[X]

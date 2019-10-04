@@ -1,2 +1,1 @@
-Counter: Reflect physical damage[N]
-when attacked at 1-2 range.[X]
+ Shove[X]

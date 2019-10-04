@@ -1,2 +1,1 @@
-Anathema: -10 Avoid/Dodge to all[N]
-enemies within 3 tiles.[X]
+Apollo[X]

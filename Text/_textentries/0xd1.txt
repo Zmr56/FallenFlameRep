@@ -1,2 +1,2 @@
-Moonbow: Enemy Def/Res is[N]
-reduced by 25%. Charge: 2[X]
+Nullify: Unit is protected[N]
+from all effective attacks.[X]

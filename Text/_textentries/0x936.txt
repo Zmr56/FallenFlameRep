@@ -1,2 +1,2 @@
-Dance: Refresh an ally unit[N]
-to let them act again.[X]
+Strike a fatal blow with reduced[N]
+stats to capture an enemy.[X]

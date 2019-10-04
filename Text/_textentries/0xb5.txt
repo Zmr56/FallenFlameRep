@@ -1,2 +1,2 @@
-Bond: All allies within 3 tiles[N]
-recover 10% HP each turn.[X]
+Countermagic: Reflect magic damage[N]
+when attacked at 1-2 range.[X]

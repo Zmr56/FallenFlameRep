@@ -1,2 +1,2 @@
-Countermagic: Reflect magic damage[N]
-when attacked at 1-2 range.[X]
+Push an adjacent unit one[N]
+tile away.[X]

@@ -1,2 +1,2 @@
-Seal Speed: Debuff opponent's Spd[N]
-by 6 after combat. (Recover 1/turn)[X]
+Dance: Refresh an ally unit[N]
+to let them act again.[X]

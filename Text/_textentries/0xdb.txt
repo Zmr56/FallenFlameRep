@@ -1,2 +1,2 @@
-Even Rhythm: +10 Hit and Avoid[N]
-on even numbered turns.[X]
+Rally Resistance: +4 Res[N]
+to allies within 2 tiles.[X]

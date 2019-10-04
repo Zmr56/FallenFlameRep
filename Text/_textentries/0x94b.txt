@@ -1,2 +1,2 @@
-Colossus: Triples Strength.[N]
-(Skill % activation)[X]
+Mounted knights with swift movement.[NL]
+Equip: Axes.[X]

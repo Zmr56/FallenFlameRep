@@ -1,2 +1,2 @@
-Patience: When under[N]
-attack, avoid +10. [X]
+Gofaullian shaman, takes[N]
+delight in looting artifacts.[X]

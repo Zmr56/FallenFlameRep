@@ -1,2 +1,2 @@
-Lucky Seven: +20 Hit and Avoid[N]
-until the 7th turn.[X]
+Provoke: Enemies are more[N]
+likely to target this unit.[X]

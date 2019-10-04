@@ -1,2 +1,2 @@
-Vantage+: User always attacks first,[N]
-even if attacked. Negates crits.[X]
+Darting Blow: +2 Attack Speed[N]
+when initiating battle.[X]

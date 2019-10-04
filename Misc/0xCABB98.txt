@@ -1,0 +1,104 @@
+3D000000	//Chapter event start command
+3E00000031880108	//[ASM function:0x8018831 ClearCutsceneUnits]
+32000000A065CC083B000000	//Load units and Move, If Player Unit,Join your party [Units:0x8CC65A0]
+32000000E064CC083B000000	//Load units and Move, If Player Unit,Join your party [Units:0x8CC64E0]
+78004E00	//[MUSIC:0x4E Ships and Homes]
+8E0010009200000005002F008F00100093000000	//Background display [BG:0x2F]
+0D0000002B09000009000000	//Show conversation [Conversation:0x92B What city is this?
+]
+3C000000	//Fit camera to unit that started moving
+02004000	//[frame seconds:64]
+260000001700000004000600	//MOVE[Character:0x17 Kent][New_positionX:4][New_positionY:6]
+02004000	//[frame seconds:64]
+260000002300000000000A003B000000	//Move Setting And Move immediately [Character:0x23 Matthew][Moving place X:0][Moving place Y:10]
+8E0010009200000005002F008F00100093000000	//Background display [BG:0x2F]
+0D0000002C09000009000000	//Show conversation [Conversation:0x92C Milady Lyndis!
+Let ]
+3D000000	//Chapter event start command
+280000000300000052BBCA08	//MOVE[Character:0x3 Lyn][Move_manual_pointer:0x8CABB52]
+280000001800000063BBCA08	//MOVE[Character:0x18 Sain][Move_manual_pointer:0x8CABB63]
+280000000D0000006EBBCA08	//MOVE[Character:0xD Wil][Move_manual_pointer:0x8CABB6E]
+28000000170000005CBBCA08	//MOVE[Character:0x17 Kent][Move_manual_pointer:0x8CABB5C]
+270000001D0000000600080018000000	//MOVE [Character:0x1D Florina][New_positionX:6][New_positionY:8][speed:24]
+28000000CD0000007CBBCA08	//MOVE[Character:0xCD Tactician][Move_manual_pointer:0x8CABB7C]
+3B000000	//Move start instruction
+260000002300000002000A003B000000	//Move Setting And Move immediately [Character:0x23 Matthew][Moving place X:2][Moving place Y:10]
+28000000DB00000087BBCA08	//MOVE[Character:0xDB Citizen][Move_manual_pointer:0x8CABB87]
+3B000000	//Move start instruction
+78003200	//[MUSIC:0x32 An Unexpected Caller]
+0D0000002D09000009000000	//Show conversation [Conversation:0x92D This is terrible!
+]
+2600000023000000030005003B000000	//Move Setting And Move immediately [Character:0x23 Matthew][Moving place X:3][Moving place Y:5]
+230000000000090000000E00	//MOVE[Old_positionX:0][Old_positionY:9][New_positionX:0][New_positionY:14]
+230000000200080000000E00	//MOVE[Old_positionX:2][Old_positionY:8][New_positionX:0][New_positionY:14]
+2300000006000C0006000E00	//MOVE[Old_positionX:6][Old_positionY:12][New_positionX:6][New_positionY:14]
+2300000008000A0008000E00	//MOVE[Old_positionX:8][Old_positionY:10][New_positionX:8][New_positionY:14]
+26000000DB00000007000E003B000000	//Move Setting And Move immediately [Character:0xDB Citizen][Moving place X:7][Moving place Y:14]
+6B000000DA000000	//DISA[Character:0xDA Citizen]
+6B000000DA000000	//DISA[Character:0xDA Citizen]
+6B000000DA000000	//DISA[Character:0xDA Citizen]
+6B000000DA000000	//DISA[Character:0xDA Citizen]
+6B000000DB000000	//DISA[Character:0xDB Citizen]
+1F001109	//[X:17][Y:9]
+02004000	//[frame seconds:64]
+320000000066CC08	//Load Units, If Player Unit,Join your party [Units:0x8CC6600]
+32000000B066CC083B000000	//Load units and Move, If Player Unit,Join your party [Units:0x8CC66B0]
+8E0010009200000005002F008F00100093000000	//Background display [BG:0x2F]
+0D0000002E09000009000000	//Show conversation [Conversation:0x92E Who are you?
+
+You!]
+32000000D067CC083B000000	//Load units and Move, If Player Unit,Join your party [Units:0x8CC67D0]
+260000001C0000000A0009003B000000	//Move Setting And Move immediately [Character:0x1C Rath][Moving place X:10][Moving place Y:9]
+6600000008000900	//[X:8][Y:9]
+970000001C0000009C00000090BBCA0800000000	//Event battle [Attacker:0x1C Rath][counterattack side:0x9C Bandit][Combat content:0x8CABB90]
+73000000	//WORD [BIN:0x73]
+1C000000	//WORD [BIN:0x1C]
+02000000	//[frame seconds:0]
+6C00000008000900	//KILL[X:8][Y:9]
+2300000008000B000B000B00	//MOVE[Old_positionX:8][Old_positionY:11][New_positionX:11][New_positionY:11]
+2300000007000A0007000D00	//MOVE[Old_positionX:7][Old_positionY:10][New_positionX:7][New_positionY:13]
+3B000000	//Move start instruction
+DA00000005000000	//[CG:0x5]
+04000000	//Weight for CG scenes [Frame seconds:0]
+02004000	//[frame seconds:64]
+CF0000002F09000001000000	//[Talk:0x92F Assassin Aaaargg! Aaaaah!!]
+D10000003009000001000000	//MORETEXTCG[Text_ID:0x930 Lyn What? An arrow?][Usually_1:0x1]
+D10000003109000001000000	//MORETEXTCG[Text_ID:0x931 Rider ......][Usually_1:0x1]
+D10000003209000001000000	//MORETEXTCG[Text_ID:0x932 Lyn Who are--][Usually_1:0x1]
+8E00100092000000	//[Speed:16]
+3E0000005DA90708	//Map display command(immediate)
+05002F00	//[BG:0x2F]
+8F00100093000000	//[speed:16]
+0D00000033090000	//[Talk:0x933 Milady Lyndis!
+
+Ar]
+1100000034090000	//[Talk:0x934 You should leave at ]
+09000000	//Conversation end command
+1F000402	//[X:4][Y:2]
+2600000023000000040002003B000000	//Move Setting And Move immediately [Character:0x23 Matthew][Moving place X:4][Moving place Y:2]
+6B00000023000000	//DISA[Character:0x23 Matthew]
+7D0000008E00100092000000050001008F001000930000000D00000035090000090000007E000000	//Lower volume and display conversation event [BG:0x1][conversation TEXT:0x935 You!
+What are you d]
+20001C00	//CAM1[Character:0x1C Rath]
+260000001C000000080009003B000000	//Move Setting And Move immediately [Character:0x1C Rath][Moving place X:8][Moving place Y:9]
+8E00100092000000050036008F00100093000000	//Background display [BG:0x36]
+0D0000003609000009000000	//Show conversation [Conversation:0x936 Once the marquess is]
+5400000032000000	//If it is a tutorial execute below [Conditional_ID:0x32]
+8A00000002000800A700050000000000	//Chapters:_Prologue,_2..[unk1:0x2][unk2:0x8][unk3:0xA7][unk4:0x5]
+37090000	//WORD [BIN:0x937]
+4200000081310808	//Do not shift phase until tutorial is over
+4400000032000000	//LABEL[Conditional_ID:0x32]
+3E00000089880108	//Dead units will not let you appear
+280000000300000038BBCA08	//MOVE[Character:0x3 Lyn][Move_manual_pointer:0x8CABB38]
+28000000CD00000031BBCA08	//MOVE[Character:0xCD Tactician][Move_manual_pointer:0x8CABB31]
+3B000000	//Move start instruction
+6B000000CD000000	//DISA[Character:0xCD Tactician]
+2B0000001700200005000A00FCBACA08	//MOVE [Character:0x17 Kent][speed:32][New_positionX:5][New_positionY:10][Move_manual_pointer:0x8CABAFC]
+2B000000180020000600090002BBCA08	//MOVE [Character:0x18 Sain][speed:32][New_positionX:6][New_positionY:9][Move_manual_pointer:0x8CABB02]
+2C0000001D00000040BBCA0809BBCA08	//_MOVE0x2C[Character_to_move:0x1D Florina][moveManual:0x8CABB40][moveManual:0x8CABB09]
+2B0000000D00200006000A000FBBCA08	//MOVE [Character:0xD Wil][speed:32][New_positionX:6][New_positionY:10][Move_manual_pointer:0x8CABB0F]
+2C0000001C00000048BBCA082BBBCA08	//_MOVE0x2C[Character_to_move:0x1C Rath][moveManual:0x8CABB48][moveManual:0x8CABB2B]
+3B000000	//Move start instruction
+3E000000D9A70708	//[ASM function:0x807A7D9 ]
+330000006065CC083B000000	//Load units and Move[Units:0x8CC6560]
+0A00000000000000	//ENDAEvent end command 

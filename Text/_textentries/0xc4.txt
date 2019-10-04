@@ -1,2 +1,2 @@
-Dragon's Blood: Unit is able[N]
-to activate Dragon Veins.[X]
+Demoiselle: Male allies within[N]
+2 tiles receive -2 damage.[X]

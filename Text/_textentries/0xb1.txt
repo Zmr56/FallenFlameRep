@@ -1,2 +1,2 @@
-Savage Blow: After attacking, enemies[N]
-within 2 tiles take 20% damage.[X]
+Vantage: If HP < 50%,[N]
+strike first when attacked.[X]

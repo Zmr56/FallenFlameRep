@@ -1,2 +1,2 @@
-Slow Burn: +1 Hit and Avoid for[N]
-each passing turn, up to 15.[X]
+Rally Spectrum: +2 all stats[N]
+to allies within 2 tiles.[X]

@@ -10,7 +10,8 @@
   #define ItemTable 0x809B10
 #endif
 #ifndef DebuffTable
-    #define DebuffTable 0x203F100
+  #define DebuffTable     0x0203F100
+  #define DebuffTableSize 0x00000900
 #endif
 #ifndef ClassTable
   #define ClassTable 0x807110
@@ -25,7 +26,7 @@
 #define LunarBrace MoonBracelet
 #define SolarBrace SunBracelet
 
-#include "Engine Hacks/Skill System/skill_definitions.event"
+#include "Engine Hacks/SkillSystem/skill_definitions.event"
 
 //#define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
@@ -40,15 +41,20 @@
 #define Orvar 0x5
 #define Luz 0x6
 #define Gad 0x7
-#define Nanami 0x8
 #define Cato 0x9
 #define Sarai 0xA
 #define Rudyard 0xB
 #define Adela 0xC
-#define Iara 0xE
-#define Apollo 0xD
-#define Evander 0xF
+#define Nuri 0xD
+#define Apollo 0xE
+#define Iara 0xF
+#define Evander 0x10
 
+#define Datta Lyon_Ch17
+#define Wizvil Morva_Ch20
+#define Attab Zonta
+#define Bigfard Novala
+#define Valanos Saar
 #define Vicks Entombed_boss
 #define Sawine Orson_Ch5x
 #define Rhud Selena_Ch10B_and_13B
@@ -56,6 +62,8 @@
 
 //Class definitions
 #define Nomad 0x53
+#define AxeCav 0x54
+#define AxeCavF 0x55
 
 // Item definitions
 #define Vampus 0xBC
@@ -67,6 +75,7 @@
 #define Falarica 0xC2
 #define Francisca 0xC3
 #define Nzappa 0xC4
+#define Calibane 0xC5
 
 #define VampusIconID 0xCA
 #define VenenumIconID 0xCB
@@ -77,3 +86,7 @@
 #define HarpoonIconID 0xD0
 #define LanceaIconID 0xD1
 #define FalaricaIconID 0xD2
+#define CalibaneIconID 0xD3
+
+//AI definitions
+//#define SeekWallsAI 0xE
