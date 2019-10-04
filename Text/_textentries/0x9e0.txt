@@ -1,2 +1,2 @@
-Bond: All allies within 3 tiles[N]
-recover 10% HP each turn.[X]
+Natural Cover: -3 damage taken[N]
+when on terrain with effects.[X]

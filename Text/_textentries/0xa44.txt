@@ -1,2 +1,2 @@
-Silent Pride: Gain 2 damage and take[N]
--2 damage per 25% below max HP.[X]
+Propel: Gain +2 Damage and +10 Hit[N]
+when fighting enemy at 2 range.[X]

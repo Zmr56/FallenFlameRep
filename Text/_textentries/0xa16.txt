@@ -1,2 +1,3 @@
-Charisma: Grants +10 Hit/Avoid[N]
-to all allies within three tiles.[X]
+Bracing Stance: +4 defense[N]
+and resistance when[N]
+foe initiates battle.[X]

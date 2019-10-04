@@ -1,3 +1,2 @@
-Up with Arch: Adjacent ally units gain[N]
-might equal to half this unit's might.[N]
-(Only if name starts with "Arch")[X]
+Quick Burn: +15 Hit and Avoid.[N]
+This bonus decreases each turn.[X]

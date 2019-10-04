@@ -1,2 +1,2 @@
-Lumina: Allows the user to use[N]
-Light Magic. (Uses highest Magic Rank)[X]
+Barricade: Damage taken is[NL]
+halved after first being struck.[X]

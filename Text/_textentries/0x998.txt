@@ -1,2 +1,2 @@
-Axebreaker: +50 Hit/Avo when[N]
-enemy has an axe equipped.[X]
+Darting Blow: +2 Attack Speed[N]
+when initiating battle.[X]

@@ -1,2 +1,2 @@
-Mercy: Enemies are left[N]
-with at least 1 HP.[X]
+Sol: Restore damage dealt as HP.[N]
+(Skill % activation)[X]

@@ -1,2 +1,3 @@
-Hawkeye: User will[N]
-always hit the enemy.[X]
+Ready Stance: +4 speed[N]
+and defense when foe[N]
+initiates battle.[X]

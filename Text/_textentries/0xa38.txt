@@ -1,3 +1,2 @@
-Devil's Pact: Immune to Devil Reversal.[N]
-Curses the enemy with Devil Reversal.[N]
-(31-Luck % chance of Devil Reversal).[X]
+Point Blank: Minimum range of[N]
+equipped bows is set to 1.[X]

@@ -1,2 +1,2 @@
-Black Magic: Skill% chance to[N]
-inflict a random status.[X]
+Forager: Recover 20% HP each turn[N]
+if on a Plain, Forest or Mountain.[X]

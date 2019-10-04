@@ -1,5 +1,5 @@
 
-## PrologueChName
+#0x160 PrologueChName
 Prologue[X]
 
 ## Ch1ChName

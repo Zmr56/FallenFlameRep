@@ -1,2 +1,2 @@
-Swap: Allows unit to swap positions[N]
-with an adjacent ally.[X]
+Trace: During Battle, copies[N]
+the first Skill of the enemy.[X]

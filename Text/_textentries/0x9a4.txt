@@ -1,2 +1,2 @@
-Desperation: If HP < 50%,[N]
-double attacks occur immediately.[X]
+Axefaire: +4 damage[N]
+when equipping an axe.[X]

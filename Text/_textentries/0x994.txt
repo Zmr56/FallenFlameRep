@@ -1,2 +1,2 @@
-Discipline: Weapon experience[N]
-gains are doubled.[X]
+Aegis: Nullify a magic attack.[N]
+(Skill % activation)[X]

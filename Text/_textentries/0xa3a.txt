@@ -1,3 +1,2 @@
-Poison Strike: Deals damage equal to[NL]
-20% of the enemy's max HP after[NL]
-battle this unit initiates.[X]
+Puissance: +3 Damage when the user's[N]
+Strength is higher than the enemy's.[X]

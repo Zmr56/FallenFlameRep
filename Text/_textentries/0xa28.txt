@@ -1,1 +1,2 @@
-Steal: Unit can steal items.[X]
+Axefaith: Axes can't lose durability, and[N]
+grants +Luck*1.5 Hit when wielding axes.[X]

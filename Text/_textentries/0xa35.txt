@@ -1,2 +1,2 @@
-Shadowgift: Allows the user to use[N]
-Dark Magic. (Uses highest Magic Rank)[X]
+Hex: -15 avoid to all[NL]
+adjacent enemies.[X]

@@ -1,2 +1,2 @@
-Impale: Deal 4x damage.[N]
-(Skill % activation)[X]
+Rally Defense: +4 Def to[N]
+allies within 2 tiles.[X]

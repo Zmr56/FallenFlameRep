@@ -1,2 +1,2 @@
-Fortress Defense:[N]
-+5 Def, -3 Atk/Mag[X]
+Full Metal Body: This unit is[N]
+immune to all the Seal skills.[X]
