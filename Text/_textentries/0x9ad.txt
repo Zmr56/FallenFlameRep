@@ -1,2 +1,2 @@
-Placeholder skill: No effect.[N]
-Will be replaced in the future.[X]
+Renewal: Restore 30% of max HP[N]
+at the start of each turn.[X]
