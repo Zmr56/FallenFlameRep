@@ -61,6 +61,7 @@
 #define Sonta Valter_Prologue
 
 //Class definitions
+#define Barbarian 0x42
 #define Nomad 0x53
 #define AxeCav 0x54
 #define AxeCavF 0x55

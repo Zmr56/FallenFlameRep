@@ -1,2 +1,1 @@
-Black Magic: Skill% chance to[N]
-inflict a random status.[X]
+Steal: Unit can steal items.[X]

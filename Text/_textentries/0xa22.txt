@@ -1,2 +1,2 @@
-Steal+: Unit can steal unequipped[N]
-weapons and staffs if con>weight.[X]
+Warding Stance: +6 resistance[N]
+when foe initiates battle.[X]

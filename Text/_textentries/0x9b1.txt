@@ -1,2 +1,2 @@
-Malefic Aura: Enemies within 2[N]
-tiles receive +2 magic damage.[X]
+Placeholder skill: No effect.[N]
+Will be replaced in the future.[X]

@@ -1,2 +1,2 @@
-Re-Move: Luck% chance to get[N]
-another action at end of turn.[X]
+Watchful: This unit cannot be[N]
+captured or stolen from.[X]

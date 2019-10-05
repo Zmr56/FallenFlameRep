@@ -1,2 +1,2 @@
-Forager: Recover 20% HP each turn[N]
-if on a Plain, Forest or Mountain.[X]
+Axefaith: Axes can't lose durability, and[N]
+grants +Luck*1.5 Hit when wielding axes.[X]

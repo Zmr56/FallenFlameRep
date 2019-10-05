@@ -1,2 +1,2 @@
-Liquid Ooze: Attackers trying to gain HP[N]
-from attacking this unit lose it instead.[X]
+Inspiring Tune: Refreshing a unit grants[N]
+them +2 Pow/Def until the next turn.[X]

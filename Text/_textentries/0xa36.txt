@@ -1,2 +1,3 @@
-Barricade: Damage taken is[NL]
-halved after first being struck.[X]
+Poison Strike: Deals damage equal to[NL]
+20% of the enemy's max HP after[NL]
+battle this unit initiates.[X]

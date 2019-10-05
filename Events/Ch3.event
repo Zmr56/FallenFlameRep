@@ -110,19 +110,19 @@ UNIT 0x46 Peer 0x00 Level(1, NPC, 0) [7,6] 0x00 0x00 0x0 0x00 [0x00] DoNothing
 UNIT
 
 NewUnits: 
-UNIT Rudyard Cavalier Wren Level(3, Ally, 0) [10,9] 0x00 0x00 0x0 0x00 [SteelSword, Longsword] NoAI
+UNIT Rudyard Cavalier Wren Level(3, Ally, 0) [8,9] 0x00 0x00 0x0 0x00 [SteelSword, Longsword] NoAI
 UNIT
 
 Bad:
-UNIT 0x80 Knight Attab Level(5, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [Harpoon] NeverMoveAI 
-UNIT 0x80 Knight Attab Level(5, Enemy, 1) [3,4] 0x00 0x00 0x0 0x00 [Harpoon] NeverMoveAI 
+UNIT 0x80 Knight Attab Level(5, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [Lancea] NeverMoveAI 
+UNIT 0x80 Knight Attab Level(5, Enemy, 1) [3,4] 0x00 0x00 0x0 0x00 [Lancea] NeverMoveAI 
 UNIT 0x80 Cavalier Attab Level(4, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 Cavalier Attab Level(4, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 Cavalier_F Attab Level(4, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT 0x80 Cavalier_F Attab Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT 0x80 Archer Attab Level(3, Enemy, 1) [14,7] 0x00 0x00 0x0 0x00 [IronBow] [0x0,0xE, 0xC, 0x0]
 UNIT 0x80 Archer Attab Level(3, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [IronBow] [0x0,0xE, 0xC, 0x0]
-UNIT 0x80 Pirate Attab Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Barbarian Attab Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
 UNIT 0x80 Fighter Attab Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
 UNIT Colm Shaman Attab Level(4, Enemy, 0) [13,8] 0x00 0x00 0x0 0x00 [Flux, Nosferatu] PursueWithoutHeedAI 
 UNIT Attab Fighter 0x00 Level(5, Enemy, 0) [0,8] 0x00 0x00 0x0 0x00 [SteelAxe, Hurlbat, Hammer, EnergyRing] AttackInRangeAI 
@@ -141,13 +141,13 @@ Wave2:
 //UNIT 0x80 Mercenary Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 Mercenary Attab Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 //UNIT 0x80 Shaman Attab Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Pirate Attab Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Barbarian Attab Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 //UNIT 0x80 Soldier Attab Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT 0x80 Soldier Attab Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
 UNIT
 
 Wave3:
-UNIT 0x80 Pirate Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Barbarian Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
 UNIT 0x80 Archer Attab Level(4, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
 UNIT 0x80 Thief Attab Level(4, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronSword] LootingThiefAI 
 //UNIT 0x80 Soldier Attab Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
@@ -165,8 +165,8 @@ UNIT 0x80 Soldier Attab Level(5, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance]
 UNIT
 
 Wave5:
-UNIT 0x80 Knight Attab Level(4, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [Harpoon] PursueWithoutHeedAI 
-UNIT 0x80 Knight Attab Level(4, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [Harpoon] PursueWithoutHeedAI 
+UNIT 0x80 Knight Attab Level(4, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [Lancea] PursueWithoutHeedAI 
+UNIT 0x80 Knight Attab Level(4, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [Lancea] PursueWithoutHeedAI 
 //UNIT 0x80 Cavalier_F Attab Level(5, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT 0x80 Cavalier_F Attab Level(5, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
 //UNIT 0x80 Mercenary Attab Level(5, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 

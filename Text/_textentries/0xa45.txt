@@ -1,2 +1,2 @@
-Mage Slayer: Gain +2 damage and +10%[N]
-crit when facing magical enemies.[X]
+Charge: Gain +1 damage for[N]
+every two squares moved.[X]

@@ -1,3 +1,2 @@
-Devil's Luck: Immune to Devil Reversal.[N]
-Gives unit's Devil Reversal to the enemy.[N]
-(31-Luck % chance of Devil Reversal).[X]
+Liquid Ooze: Attackers trying to gain HP[N]
+from attacking this unit lose it instead.[X]

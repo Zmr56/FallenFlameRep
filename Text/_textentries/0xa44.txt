@@ -1,2 +1,2 @@
-Propel: Gain +2 Damage and +10 Hit[N]
-when fighting enemy at 2 range.[X]
+Heavy Strikes: Add weapon[N]
+weight to critical chance.[X]

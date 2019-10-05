@@ -1,2 +1,2 @@
-Fortress Resistance:[N]
-+5 Res, -3 Atk/Mag[X]
+Capture: Capture an enemy after[N]
+defeating it with reduced stats.[X]

@@ -1,2 +1,3 @@
-Puissance: +3 Damage when the user's[N]
-Strength is higher than the enemy's.[X]
+Barricade+: In combat, damage[NL]
+recieved equals half of the[NL]
+damage when struck last.[X]

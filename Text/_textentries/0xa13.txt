@@ -1,2 +1,2 @@
-Vantage+: User always attacks first,[N]
-even if attacked. Negates crits.[X]
+Death Blow: +6 Attack[N]
+when initiating battle.[X]

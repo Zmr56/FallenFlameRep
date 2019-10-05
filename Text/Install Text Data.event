@@ -1379,3 +1379,15 @@ TxtData0xa4d:
 #incext ParseFile "_textentries\0xa4d.txt"
 setText(0xa4d,TxtData0xa4d)
 
+TxtData0xa4e:
+#incext ParseFile "_textentries\0xa4e.txt"
+setText(0xa4e,TxtData0xa4e)
+
+TxtData0xa4f:
+#incext ParseFile "_textentries\0xa4f.txt"
+setText(0xa4f,TxtData0xa4f)
+
+TxtData0xa50:
+#incext ParseFile "_textentries\0xa50.txt"
+setText(0xa50,TxtData0xa50)
+

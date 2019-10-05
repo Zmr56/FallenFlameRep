@@ -1,2 +1,2 @@
-Outrider: Take -1 damage and[N]
-gain +3% crit per space moved.[X]
+Silent Pride: Gain 2 damage and take[N]
+-2 damage per 25% below max HP.[X]

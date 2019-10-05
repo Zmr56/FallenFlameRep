@@ -1,2 +1,2 @@
-Perfectionist: +15 Hit/Avoid when[N]
-user's HP is at maximum.[X]
+Barricade: Damage taken is[NL]
+halved after first being struck.[X]

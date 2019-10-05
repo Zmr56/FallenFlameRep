@@ -1,2 +1,2 @@
-Placeholder skill: No effect.[N]
-Will be replaced in the future.[X]
+Lifetaker: Restore up to 25% HP after[N]
+attacking and defeating an enemy.[X]

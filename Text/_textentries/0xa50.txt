@@ -1,2 +1,2 @@
-Boon: Cure bad status effects[N]
-at the beginning of each turn.[X]
+Tempest Blood: +2 Attack[N]
+Speed when HP is not at max.[X]

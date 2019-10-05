@@ -57,7 +57,7 @@ UNIT Orvar Archer Wren Level(4, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [IronBow, Vuln
 UNIT
 
 Bad: 
-UNIT Datta Brigand 0x00 Level(4, Enemy, 0) [0,2] 0x00 0x00 0x0 0x00 [HandAxe, SteelAxe] AttackInRangeAI 
+UNIT Datta Barbarian 0x00 Level(4, Enemy, 0) [0,2] 0x00 0x00 0x0 0x00 [HandAxe, SteelAxe] AttackInRangeAI 
 UNIT 0x80 Fighter Datta Level(1, Enemy, 1) [7,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
 UNIT 0x80 Myrmidon Datta Level(1, Enemy, 1) [7,4] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
 UNIT 0x80 Mercenary Datta Level(1, Enemy, 1) [11,7] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
@@ -65,7 +65,7 @@ UNIT 0x80 Shaman Datta Level(2, Enemy, 1) [11,1] 0x00 0x00 0x0 0x00 [Flux] Attac
 UNIT 0x80 Archer Datta Level(2, Enemy, 1) [12,2] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
 UNIT 0x80 Fighter Datta Level(1, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
 UNIT 0x80 Shaman Datta Level(2, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
-UNIT 0x80 Brigand Datta Level(2, Enemy, 1) [6,1] 0x00 0x00 0x0 0x00 [Hatchet] GuardTileAI 
+UNIT 0x80 Barbarian Datta Level(2, Enemy, 1) [6,1] 0x00 0x00 0x0 0x00 [Hurlbat] GuardTileAI 
 UNIT 0x80 Mercenary Datta Level(3, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
 UNIT
 

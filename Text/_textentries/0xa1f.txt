@@ -1,2 +1,2 @@
-Warding Stance: +6 resistance[N]
+Steady Stance: +6 defense[N]
 when foe initiates battle.[X]

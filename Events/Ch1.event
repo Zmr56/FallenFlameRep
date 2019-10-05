@@ -94,7 +94,7 @@ UNIT
 
 NewCrew:
 UNIT Neimi Cavalier_F Wren Level(1, Ally, 0) [11,9] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
-UNIT Sarai PegasusKnight Wren Level(1, Ally, 0) [12,10] 0x00 0x00 0x0 0x00 [IronLance, Calibane] NoAI 
+UNIT Sarai PegasusKnight Wren Level(1, Ally, 0) [12,10] 0x00 0x00 0x0 0x00 [IronLance, SlimLance] NoAI 
 UNIT
 
 Bad:
@@ -106,13 +106,13 @@ UNIT 0x80 Shaman Wizvil Level(2, Enemy, 1) [8,4] 0x00 0x00 0x0 0x00 [Flux] Pursu
 UNIT 0x80 Shaman Wizvil Level(2, Enemy, 1) [3,2] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
 UNIT 0x80 Shaman Wizvil Level(2, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
 UNIT 0x80 Shaman Wizvil Level(3, Enemy, 1) [11,3] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
-UNIT 0x80 Fighter Wizvil Level(3, Enemy, 1) [11,4] 0x00 0x00 0x0 0x00 [Hatchet] GuardTileAI 
+UNIT 0x80 Fighter Wizvil Level(3, Enemy, 1) [11,4] 0x00 0x00 0x0 0x00 [Hurlbat] GuardTileAI 
 UNIT 0x80 Mercenary Wizvil Level(2, Enemy, 1) [14,5] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
 UNIT 0x80 Fighter Wizvil Level(2, Enemy, 1) [12,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI  
 UNIT
 
 Wave1:
-UNIT 0x80 Brigand Wizvil Level(3, Enemy, 1) [2,0] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT 0x80 Barbarian Wizvil Level(3, Enemy, 1) [2,0] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
 UNIT
 
 Wave2:

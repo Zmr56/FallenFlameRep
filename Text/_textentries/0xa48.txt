@@ -1,2 +1,2 @@
-Hero: +30% skill activation[N]
-rate when HP is below 50%.[X]
+Mage Slayer: Gain +2 damage and +10%[N]
+crit when facing magical enemies.[X]

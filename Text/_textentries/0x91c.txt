@@ -1,2 +1,2 @@
-Special abilities that can do[N]
-many different things.[X]
+Character with whom this unit[N]
+may talk on the battlefield.[X]

@@ -1,2 +1,2 @@
-Tempest Blood: +2 Attack[N]
-Speed when HP is not at max.[X]
+Re-Move: Luck% chance to get[N]
+another action at end of turn.[X]

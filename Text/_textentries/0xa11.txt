@@ -1,2 +1,2 @@
-Life and Death: Grants[N]
-+5 Atk/Mag/Spd, -5 Def/Res.[X]
+Identity Problems: This unit can't[N]
+decide on a name or face.[X]
