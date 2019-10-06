@@ -90,6 +90,9 @@ Calibane[X]
 ## descCalibane
 Effective against magic users.[X]
 
+## descRapier
+Eff. vs horse, armour. Reverses WT.[X]
+
 #include "statscreen_text.txt"
 
 #include "unitmenu_text.txt"

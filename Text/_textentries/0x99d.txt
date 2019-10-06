@@ -1,2 +1,2 @@
-Certain Blow: +20 Hit[N]
+Darting Blow: +2 Attack Speed[N]
 when initiating battle.[X]

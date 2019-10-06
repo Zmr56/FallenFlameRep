@@ -1,2 +1,2 @@
-Point Blank: Minimum range of[N]
-equipped bows is set to 1.[X]
+Barricade: Damage taken is[NL]
+halved after first being struck.[X]

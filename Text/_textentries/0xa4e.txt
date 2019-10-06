@@ -1,2 +1,2 @@
-Powerstaff: Get another action[N]
-after using a staff.[X]
+Boon: Cure bad status effects[N]
+at the beginning of each turn.[X]

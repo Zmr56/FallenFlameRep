@@ -1,2 +1,2 @@
-Placeholder skill: No effect.[N]
-Will be replaced in the future.[X]
+Galeforce: Move again after[N]
+attacking and defeating an enemy.[X]

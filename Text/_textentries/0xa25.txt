@@ -1,2 +1,3 @@
-Steal+: Unit can steal unequipped[N]
-weapons and staffs if con>weight.[X]
+Spectrum Stance: +2 attack,[N]
+speed, defense, and resistance[N]
+when foe initiates battle.[X]

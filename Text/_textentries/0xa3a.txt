@@ -1,3 +1,2 @@
-Barricade+: In combat, damage[NL]
-recieved equals half of the[NL]
-damage when struck last.[X]
+Hex: -15 avoid to all[NL]
+adjacent enemies.[X]

@@ -1,3 +1,2 @@
-Bracing Stance: +4 defense[N]
-and resistance when[N]
-foe initiates battle.[X]
+Hawkeye: User will[N]
+always hit the enemy.[X]

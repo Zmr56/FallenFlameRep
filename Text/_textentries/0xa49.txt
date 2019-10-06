@@ -1,2 +1,2 @@
-Knight Aspirant: When above 75%[N]
-health, +2 damage, +15% avoid.[X]
+Propel: Gain +2 Damage and +10 Hit[N]
+when fighting enemy at 2 range.[X]

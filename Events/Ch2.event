@@ -50,10 +50,10 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Village(0x7,VillageSlayer,1,12)
-Village(0x8,VillageBow,6,12)
+Village(0x7,VillageSlayer,1,7)
+Village(0x8,VillageBow,6,7)
 //Village(0x9,VillageStaff,13,11)
-Armory(ArmoryList, 6, 8)
+Armory(ArmoryList, 6, 3)
 END_MAIN
 
 VillageBow:
@@ -126,11 +126,11 @@ UNIT 0x80 Mercenary Sawine Level(3, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [IronBla
 UNIT
 
 Wave1:
-UNIT 0x80 Barbarian Sawine Level(3, Enemy, 1) [11,14] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT 0x80 Barbarian Sawine Level(3, Enemy, 1) [11,14] 0x00 0x00 0x0 0x00 [SteelAxe] [0x0,0x4,0x4,0x0]
 UNIT
 
 Wave2:
-UNIT 0x80 Barbarian Sawine Level(3, Enemy, 1) [2,13] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT 0x80 Barbarian Sawine Level(3, Enemy, 1) [2,13] 0x00 0x00 0x0 0x00 [SteelAxe] [0x0,0x4,0x4,0x0]
 UNIT
 
 Wave3:

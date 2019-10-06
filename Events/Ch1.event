@@ -27,7 +27,6 @@ TurnBasedEvents:
 TURN 0x0 WaveFirst[2,0] 0x0
 TURN 0x0 WaveSecond[5,0] 0x0
 TURN 0x0 WaveThird[7,0] 0x0
-TURN 0x0 WaveFourth[9,0] 0x0
 END_MAIN
 
 WaveFirst:
@@ -42,20 +41,17 @@ WaveThird:
 ReinforcementEvent(Wave3)
 ENDA
 
-WaveFourth:
-ReinforcementEvent(Wave4)
-ENDA
-
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Village(0x7,VillageHarpoon,8,2)
+Village(0x7,VillageSteelSword,8,2)
 Vendor(ShopItems1, 6, 6)
+Seize(1,9)
 END_MAIN
 
-VillageHarpoon:
-VillageEventItem(PlaceholderText, Village, Harpoon)
+VillageSteelSword:
+VillageEventItem(PlaceholderText, Village, SteelSword)
 
 ShopItems1:
 SHLI Vulnerary PureWater ChestKey
@@ -63,7 +59,6 @@ ALIGN 4
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-Seize(1,9)
 END_MAIN
 
 Dunno1:
@@ -93,26 +88,26 @@ UNIT Orvar Archer Wren Level(1, Ally, 0) [10,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 NewCrew:
-UNIT Neimi Cavalier_F Wren Level(1, Ally, 0) [11,9] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI 
+UNIT Dana SwordCavF Wren Level(1, Ally, 0) [11,9] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI 
 UNIT Sarai PegasusKnight Wren Level(1, Ally, 0) [12,10] 0x00 0x00 0x0 0x00 [IronLance, SlimLance] NoAI 
 UNIT
 
 Bad:
-UNIT Wizvil Shaman 0x00 Level(5, Enemy, 0) [1,9] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
+UNIT Wizvil Shaman 0x00 Level(5, Enemy, 0) [1,9] 0x00 0x00 0x0 0x00 [Flux] NeverMoveAI 
 UNIT 0x80 Archer Wizvil Level(4, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
 UNIT 0x80 Archer Wizvil Level(4, Enemy, 1) [3,6] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
 UNIT 0x80 Mercenary Wizvil Level(4, Enemy, 1) [3,10] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
 UNIT 0x80 Shaman Wizvil Level(2, Enemy, 1) [8,4] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
 UNIT 0x80 Shaman Wizvil Level(2, Enemy, 1) [3,2] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Wizvil Level(2, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Wizvil Level(3, Enemy, 1) [11,3] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
-UNIT 0x80 Fighter Wizvil Level(3, Enemy, 1) [11,4] 0x00 0x00 0x0 0x00 [Hurlbat] GuardTileAI 
+UNIT 0x80 Myrmidon Wizvil Level(2, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Wizvil Level(3, Enemy, 1) [11,3] 0x00 0x00 0x0 0x00 [Flux] NeverMoveAI 
+UNIT 0x80 Fighter Wizvil Level(3, Enemy, 1) [11,4] 0x00 0x00 0x0 0x00 [Hurlbat] NeverMoveAI 
 UNIT 0x80 Mercenary Wizvil Level(2, Enemy, 1) [14,5] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
 UNIT 0x80 Fighter Wizvil Level(2, Enemy, 1) [12,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI  
 UNIT
 
 Wave1:
-UNIT 0x80 Barbarian Wizvil Level(3, Enemy, 1) [2,0] 0x00 0x00 0x0 0x00 [SteelAxe] BrigandAI
+UNIT 0x80 Barbarian Wizvil Level(3, Enemy, 1) [2,0] 0x00 0x00 0x0 0x00 [SteelAxe] [0x0,0x4,0x4,0x0]
 UNIT
 
 Wave2:
@@ -121,11 +116,6 @@ UNIT 0x80 Myrmidon Wizvil Level(3, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00 [SteelSwo
 UNIT
 
 Wave3:
-UNIT 0x80 Nomad Wizvil Level(3, Enemy, 1) [10,11] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
-UNIT 0x80 Nomad Wizvil Level(3, Enemy, 1) [10,11] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
-UNIT
-
-Wave4:
 UNIT 0x80 WyvernRider Sawine Level(4, Enemy, 1) [10,11] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT 0x80 WyvernRider Sawine Level(4, Enemy, 1) [10,11] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT 0x80 WyvernRider Sawine Level(4, Enemy, 1) [11,10] 0x00 0x00 0x0 0x00 [SteelAxe, Hurlbat] PursueWithoutHeedAI

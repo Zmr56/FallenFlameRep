@@ -48,6 +48,8 @@ END_MAIN
 LocationBasedEvents:
 Village(0x7,VillageLance,15,7)
 Village(0x8,VillageBook,5,10)
+Vendor(ShopList, 10, 0)
+Armory(ArmoryList, 9, 1)
 END_MAIN
 
 VillageLance:
@@ -55,6 +57,14 @@ VillageEventItem(PlaceholderText, Village, SilverLance)
 
 VillageBook:
 VillageEventItem(PlaceholderText, Village, SecretBook)
+
+ShopList:
+SHLI Vulnerary PureWater Flux Fire Lightning
+ALIGN 4
+
+ArmoryList:
+SHLI IronSword IronBlade IronLance SteelLance IronAxe Hammer IronBow SteelBow
+ALIGN 4
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
@@ -131,15 +141,15 @@ UNIT 0x80 Barbarian Sonta Level(6, Enemy, 1) [13,7] 0x00 0x00 0x0 0x00 [IronAxe]
 UNIT 0x80 Mercenary Sonta Level(6, Enemy, 1) [17,10] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
 UNIT 0x80 Mercenary Sonta Level(6, Enemy, 1) [13,8] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
 UNIT 0x80 Mercenary Sonta Level(6, Enemy, 1) [8,2] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x80 Archer Rhud Level(6, Enemy, 1) [7,2] 0x00 0x00 0x0 0x00 [SteelBow, Elixir] PursueWithoutHeedAI 
-UNIT 0x80 Archer Rhud Level(6, Enemy, 1) [11,11] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI
+UNIT 0x80 Archer Rhud Level(6, Enemy, 1) [7,2] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x80 Archer Rhud Level(6, Enemy, 1) [11,11] 0x00 0x00 0x0 0x00 [SteelBow, Elixir] PursueWithoutHeedAI
 UNIT 0x80 Mercenary Sonta Level(6, Enemy, 1) [7,11] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
 UNIT 0x80 Mercenary Sonta Level(6, Enemy, 1) [10,16] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI
 UNIT 0x80 Knight Rhud Level(7, Enemy, 1) [8,14] 0x00 0x00 0x0 0x00 [Lancea] NeverMoveAI 
 UNIT 0x80 Knight Rhud Level(8, Enemy, 1) [16,13] 0x00 0x00 0x0 0x00 [Lancea] NeverMoveAI 
 UNIT 0x80 Knight Rhud Level(7, Enemy, 1) [7,8] 0x00 0x00 0x0 0x00 [Lancea, 0x9E] NeverMoveAI 
 UNIT 0x80 Shaman Sonta Level(7, Enemy, 1) [8,8] 0x00 0x00 0x0 0x00 [Vampus] NeverMoveAI 
-UNIT 0x80 Shaman Sonta Level(8, Enemy, 1) [15,13] 0x00 0x00 0x0 0x00 [Vampus] NeverMoveAI 
+UNIT 0x80 Shaman Sonta Level(8, Enemy, 1) [15,13] 0x00 0x00 0x0 0x00 [Vampus, BodyRing] NeverMoveAI 
 UNIT 0x80 Shaman Sonta Level(7, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [Vampus, 0x9E] NeverMoveAI 
 UNIT 0x80 Shaman Sonta Level(7, Enemy, 1) [3,11] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
 UNIT 0x80 Monk Rhud Level(7, Enemy, 1) [15,10] 0x00 0x00 0x0 0x00 [Lightning] AttackInRangeAI 
@@ -148,12 +158,12 @@ UNIT 0x80 Monk Rhud Level(7, Enemy, 1) [5,0] 0x00 0x00 0x0 0x00 [Lightning] Atta
 UNIT
 
 Wave1:
-UNIT 0x80 Barbarian Sonta Level(7, Enemy, 1) [1,5] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
-UNIT 0x80 Barbarian Sonta Level(7, Enemy, 1) [3,4] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
+UNIT 0x80 Barbarian Sonta Level(7, Enemy, 1) [1,5] 0x00 0x00 0x0 0x00 [IronAxe] [0x0,0x4,0x4,0x0] 
+UNIT 0x80 Barbarian Sonta Level(7, Enemy, 1) [3,4] 0x00 0x00 0x0 0x00 [IronAxe] [0x0,0x4,0x4,0x0] 
 UNIT
 
 Wave2:
-UNIT 0x80 Barbarian Sonta Level(8, Enemy, 1) [15,1] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
+UNIT 0x80 Barbarian Sonta Level(8, Enemy, 1) [15,1] 0x00 0x00 0x0 0x00 [IronAxe] [0x0,0x4,0x4,0x0] 
 UNIT 0x80 WyvernRider Rhud Level(7, Enemy, 1) [17,3] 0x00 0x00 0x0 0x00 [Hurlbat] PursueWithoutHeedAI 
 UNIT 0x80 WyvernRider Rhud Level(7, Enemy, 1) [3,4] 0x00 0x00 0x0 0x00 [Hurlbat] PursueWithoutHeedAI 
 UNIT
@@ -166,15 +176,15 @@ UNIT 0x80 Nomad Sonta Level(8, Enemy, 1) [1,2] 0x00 0x00 0x0 0x00 [SteelBow] Pur
 UNIT
 
 Wave4:
-UNIT 0x80 Cavalier Rhud Level(8, Enemy, 1) [15,15] 0x00 0x00 0x0 0x00 [Longsword] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier Rhud Level(8, Enemy, 1) [1,2] 0x00 0x00 0x0 0x00 [Armourslayer] PursueWithoutHeedAI 
+UNIT 0x80 SwordCav Rhud Level(8, Enemy, 1) [15,15] 0x00 0x00 0x0 0x00 [Longsword] PursueWithoutHeedAI 
+UNIT 0x80 SwordCav Rhud Level(8, Enemy, 1) [1,2] 0x00 0x00 0x0 0x00 [Armourslayer] PursueWithoutHeedAI 
 UNIT 0x80 Nomad Sonta Level(8, Enemy, 1) [0,15] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
 UNIT 0x80 Nomad Sonta Level(8, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI
 UNIT
 
 Wave5:
-UNIT 0x80 Cavalier Rhud Level(8, Enemy, 1) [15,15] 0x00 0x00 0x0 0x00 [Longsword] PursueWithoutHeedAI 
-UNIT 0x80 Cavalier Rhud Level(8, Enemy, 1) [1,2] 0x00 0x00 0x0 0x00 [Armourslayer] PursueWithoutHeedAI 
+UNIT 0x80 SwordCav Rhud Level(8, Enemy, 1) [15,15] 0x00 0x00 0x0 0x00 [Longsword] PursueWithoutHeedAI 
+UNIT 0x80 SwordCav Rhud Level(8, Enemy, 1) [1,2] 0x00 0x00 0x0 0x00 [Armourslayer] PursueWithoutHeedAI 
 UNIT 0x80 Nomad Sonta Level(8, Enemy, 1) [0,15] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
 UNIT 0x80 Nomad Sonta Level(8, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI
 UNIT 0x80 WyvernRider Rhud Level(8, Enemy, 1) [17,3] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 

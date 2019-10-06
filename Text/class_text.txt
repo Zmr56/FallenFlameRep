@@ -1,3 +1,7 @@
+## descKnight
+Heavily armoured knights with poor[N]
+movement. Equips Lances, Swords.[X]
+
 ## descWyvernRider
 High flying knights vulnerable only to.[N]
 bows and magic. Equips Axes.[X]

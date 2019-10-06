@@ -1,2 +1,2 @@
-Tempest Blood: +2 Attack[N]
-Speed when HP is not at max.[X]
+Powerstaff: Get another action[N]
+after using a staff.[X]
