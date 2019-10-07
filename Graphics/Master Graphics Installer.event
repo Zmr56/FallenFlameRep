@@ -141,3 +141,7 @@ Map_AxeCavFStand:
 #incext Png2Dmp "AxeCavFStand.png" --lz77
 Map_AxeCavFMoving:
 #incext Png2Dmp "AxeCavFMoving.png" --lz77
+Map_BarbarianStand:
+#incext Png2Dmp "BarbarianStand.png" --lz77
+Map_BarbarianMoving:
+#incext Png2Dmp "BarbarianMoving.png" --lz77

@@ -1,2 +1,2 @@
-Leave opponent with[N]
-at least 1 HP.[X]
+Switch places with opponent[N]
+after combat.[X]

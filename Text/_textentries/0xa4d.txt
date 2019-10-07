@@ -1,2 +1,2 @@
-Tempest Blood: +2 Attack[N]
-Speed when HP is not at max.[X]
+Hero: +30% skill activation[N]
+rate when HP is below 50%.[X]

@@ -1,2 +1,2 @@
-Placeholder skill: No effect.[N]
-Will be replaced in the future.[X]
+Summon: Can conjure a phantom[N]
+soldier to fight alongside you.[X]

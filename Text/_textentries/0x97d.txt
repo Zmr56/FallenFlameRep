@@ -1,2 +1,2 @@
-Acrobat: All traversable[N]
-terrain costs 1 movement.[X]
+A cruel pirate with a gluttonous[N]
+appetite for gold.[X]

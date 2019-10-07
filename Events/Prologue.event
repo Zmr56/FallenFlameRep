@@ -51,21 +51,21 @@ END_MAIN
 Units1:
 UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [IronSword, Rapier, Vulnerary] NoAI 
 UNIT Wigbrand Paladin Wren Level(5, Ally, 0) [2,8] 0x00 0x00 0x0 0x00 [IronSword, BraveSword, IronLance] NoAI 
-UNIT Shamira Knight_F Wren Level(4, Ally, 0) [4,7] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] NoAI 
-UNIT Huginn Fighter Wren Level(6, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe] NoAI 
-UNIT Orvar Archer Wren Level(4, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [IronBow, Vulnerary] NoAI 
+UNIT Shamira Knight_F Wren Level(4, Ally, 0) [4,7] 0x00 0x00 0x0 0x00 [SteelLance, Javelin, IronSword] NoAI 
+UNIT Huginn Fighter Wren Level(6, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe, Vulnerary] NoAI 
+UNIT Orvar Archer Wren Level(4, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [IronBow, SteelBow] NoAI 
 UNIT
 
 Bad: 
-UNIT Datta Brigand 0x00 Level(4, Enemy, 0) [0,2] 0x00 0x00 0x0 0x00 [HandAxe, SteelAxe] AttackInRangeAI 
+UNIT Datta Barbarian 0x00 Level(4, Enemy, 0) [0,2] 0x00 0x00 0x0 0x00 [Hurlbat, SteelAxe] AttackInRangeAI 
 UNIT 0x80 Fighter Datta Level(1, Enemy, 1) [7,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
 UNIT 0x80 Myrmidon Datta Level(1, Enemy, 1) [7,4] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
 UNIT 0x80 Mercenary Datta Level(1, Enemy, 1) [11,7] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
 UNIT 0x80 Shaman Datta Level(2, Enemy, 1) [11,1] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
 UNIT 0x80 Archer Datta Level(2, Enemy, 1) [12,2] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
 UNIT 0x80 Fighter Datta Level(1, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Datta Level(2, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
-UNIT 0x80 Brigand Datta Level(2, Enemy, 1) [6,1] 0x00 0x00 0x0 0x00 [Hatchet] GuardTileAI 
+UNIT 0x80 Shaman Datta Level(2, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [Flux] NeverMoveAI 
+UNIT 0x80 Barbarian Datta Level(2, Enemy, 1) [6,1] 0x00 0x00 0x0 0x00 [Hurlbat] NeverMoveAI 
 UNIT 0x80 Mercenary Datta Level(3, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
 UNIT
 

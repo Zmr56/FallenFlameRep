@@ -41,6 +41,7 @@
 #define Orvar 0x5
 #define Luz 0x6
 #define Gad 0x7
+#define Dana 0x8
 #define Cato 0x9
 #define Sarai 0xA
 #define Rudyard 0xB
@@ -61,9 +62,14 @@
 #define Sonta Valter_Prologue
 
 //Class definitions
+#define SwordCav 0x5
+#define LanceCav 0x6
+#define Barbarian 0x42
 #define Nomad 0x53
 #define AxeCav 0x54
 #define AxeCavF 0x55
+#define LanceCavF 0x56
+#define SwordCavF 0x57
 
 // Item definitions
 #define Vampus 0xBC

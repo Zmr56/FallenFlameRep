@@ -1,2 +1,2 @@
-Watchful: This unit cannot be[N]
-captured or stolen from.[X]
+Charge: Gain +1 damage for[N]
+every two squares moved.[X]

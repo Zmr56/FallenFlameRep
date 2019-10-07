@@ -1,0 +1,5 @@
+#define ObjectiveSeize 0x0
+#define ObjectiveRout 0x1
+#define ObjectiveDefend 0x2
+#define ObjectiveKillBoss 0x3
+#define ObjectiveOther 0x4

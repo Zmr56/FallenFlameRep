@@ -44,12 +44,15 @@ Zeke[X]
 ## VillageText
 [MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
 
-## DefendFatNobleWindow
-Defend noble[X]
+## PrologueStatus
+Kill Datta.[X]
 
 ## DefendFatNobleStatus
 Defend noble for 9[N]
 turns or kill boss.[X]
+
+## DefendFatNobleWindow
+Defend noble[X]
 
 ## nameVampus
 Vampus[X]
@@ -86,6 +89,9 @@ Calibane[X]
 
 ## descCalibane
 Effective against magic users.[X]
+
+## descRapier
+Eff. vs horse, armour. Reverses WT.[X]
 
 #include "statscreen_text.txt"
 

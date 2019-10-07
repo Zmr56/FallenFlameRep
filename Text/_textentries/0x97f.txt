@@ -1,2 +1,2 @@
-Canto+: Can move again after[N]
-attacking and other actions.[X]
+I'm too lazy to insert Manakete[N]
+anims so he's a Shaman instead.[X]

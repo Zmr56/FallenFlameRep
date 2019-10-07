@@ -1,1 +1,1 @@
- Reposition[X]
+ Pivot[X]

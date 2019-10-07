@@ -1,2 +1,2 @@
-Horseback archers who move through.[N]
-rough terrain with ease.[X]
+Heavily armoured knights with poor[N]
+movement. Equips Lances, Swords.[X]

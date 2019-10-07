@@ -1,0 +1,126 @@
+#######################################################
+#16 banm_ax1 Brigand Hand axe
+#
+#When importing to FEditorAdv delete # and after each line.
+#######################################################
+/// - Mode 1               #Melee Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- banm_ax1_000.png
+C41                               #EMPTY
+C05                               #Call spell associated with equipped weapon
+4 p- banm_ax1_001.png
+1 p- banm_ax1_002.png
+C13                               #ranged attack - hand axe for Hector
+C42                               #Play long axe swinging SFE
+3 p- banm_ax1_003.png
+1 p- banm_ax1_000.png
+C01                               #NOP
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 3               #Melee Critical Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- banm_ax1_000.png
+C38                               #Play heavy spear spinning SFE
+2 p- banm_ax1_004.png
+2 p- banm_ax1_005.png
+2 p- banm_ax1_006.png
+2 p- banm_ax1_007.png
+15 p- banm_ax1_000.png
+C41                               #EMPTY
+C05                               #Call spell associated with equipped weapon
+4 p- banm_ax1_001.png
+1 p- banm_ax1_002.png
+C13                               #ranged attack - hand axe for Hector
+C42                               #Play long axe swinging SFE
+3 p- banm_ax1_003.png
+1 p- banm_ax1_000.png
+C01                               #NOP
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 5               #Ranged Animation 
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- banm_ax1_000.png
+C05                               #Call spell associated with equipped weapon
+4 p- banm_ax1_001.png
+1 p- banm_ax1_002.png
+C13                               #ranged attack - hand axe for Hector
+3 p- banm_ax1_003.png
+1 p- banm_ax1_000.png
+C01                               #NOP
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 6               #Ranged Critical Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- banm_ax1_000.png
+C38                               #Play heavy spear spinning SFE
+2 p- banm_ax1_004.png
+2 p- banm_ax1_005.png
+2 p- banm_ax1_006.png
+2 p- banm_ax1_007.png
+15 p- banm_ax1_000.png
+C41                               #EMPTY
+C05                               #Call spell associated with equipped weapon
+4 p- banm_ax1_001.png
+1 p- banm_ax1_002.png
+C13                               #ranged attack - hand axe for Hector
+C42                               #Play long axe swinging SFE
+3 p- banm_ax1_003.png
+1 p- banm_ax1_000.png
+C01                               #NOP
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 7               #Dodge Melee Attack
+C02                               #Start of dodge
+1 p- banm_ax1_000.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- banm_ax1_008.png
+1 p- banm_ax1_009.png
+C01                               #NOP
+3 p- banm_ax1_008.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 8               #Dodge Ranged Attack
+C02                               #Start of dodge
+1 p- banm_ax1_000.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- banm_ax1_008.png
+1 p- banm_ax1_009.png
+C01                               #NOP
+3 p- banm_ax1_008.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 9               #Equiped with Melee Weapon
+1 p- banm_ax1_000.png
+C01                               #NOP
+~~~
+/// - Mode 10               #Standing motions
+1 p- banm_ax1_000.png
+C01                               #NOP
+~~~
+/// - Mode 11               #Equiped with Ranged weapon
+1 p- banm_ax1_000.png
+C01                               #NOP
+~~~
+/// - Mode 12               #Attack Missed Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- banm_ax1_000.png
+C05                               #Call spell associated with equipped weapon
+4 p- banm_ax1_001.png
+1 p- banm_ax1_002.png
+C13                               #ranged attack - hand axe for Hector
+3 p- banm_ax1_003.png
+1 p- banm_ax1_000.png
+C01                               #NOP
+C06                               #Begin opponent's turn after hit.next code 0D.
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - End of animation

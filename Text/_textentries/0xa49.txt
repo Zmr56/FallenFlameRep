@@ -1,2 +1,2 @@
-Boon: Cure bad status effects[N]
-at the beginning of each turn.[X]
+Propel: Gain +2 Damage and +10 Hit[N]
+when fighting enemy at 2 range.[X]

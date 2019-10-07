@@ -1,2 +1,2 @@
-Hero: +30% skill activation[N]
-rate when HP is below 50%.[X]
+Re-Move: Luck% chance to get[N]
+another action at end of turn.[X]
