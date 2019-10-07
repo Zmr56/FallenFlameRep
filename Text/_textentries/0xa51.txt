@@ -1,3 +1,2 @@
-Shieldcrash: If within 2 spaces[N]
-of two or more enemies, gain +3[N]
-def and +10% crit.[X]
+Tempest Blood: +2 Attack[N]
+Speed when HP is not at max.[X]

@@ -1,2 +1,2 @@
-Rally Luck: +4 Luck to[N]
+Rally Defense: +4 Def to[N]
 allies within 2 tiles.[X]

@@ -1,2 +1,2 @@
-Boon: Cure bad status effects[N]
-at the beginning of each turn.[X]
+Re-Move: Luck% chance to get[N]
+another action at end of turn.[X]

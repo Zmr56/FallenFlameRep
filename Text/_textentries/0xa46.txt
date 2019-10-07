@@ -1,2 +1,2 @@
-Heavy Strikes: Add weapon[N]
-weight to critical chance.[X]
+Charge: Gain +1 damage for[N]
+every two squares moved.[X]

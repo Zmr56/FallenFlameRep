@@ -67,6 +67,7 @@ UnitMenuTable:
   //Color options: NormalText, GrayText, BlueText, OrangeText, GreenText (flashes), BlackText
   //MenuCommand(DualAtkTxtID,DualAtkDescId,0,DualAtkCheck,DualAtkSelected) 
 
+  UM_Seize
  /* MenuCommand(0x67A, 0x6CC, BlueText, NewSeizeCheck|IsPointer, $8023021)
   MenuCommand(ArriveName, ArriveDesc, BlueText, ArriveCheck|IsPointer, $8023021) */
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)

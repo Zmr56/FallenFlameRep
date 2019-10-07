@@ -1,2 +1,1 @@
-Swap positions with adjacent[N]
-ally.[X]
+ Capture[X]

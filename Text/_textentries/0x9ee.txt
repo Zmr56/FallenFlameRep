@@ -1,3 +1,2 @@
-Nice Personality: This unit has[N]
-a deep and engaging character,[N]
-bursting at the seams with development.[X]
+Quick Draw: +4 Damage[N]
+when initiating battle.[X]

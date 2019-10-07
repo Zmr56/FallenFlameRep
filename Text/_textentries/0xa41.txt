@@ -1,2 +1,2 @@
-Holy Aura: Gain +1 damage, +5% hit,[N]
-+5% avoid, +5% crit when using light.[X]
+Silent Pride: Gain 2 damage and take[N]
+-2 damage per 25% below max HP.[X]

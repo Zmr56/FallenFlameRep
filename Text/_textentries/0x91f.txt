@@ -1,1 +1,2 @@
-No skill description found.[X]
+Press Select to toggle[N]
+between stats and growths.[X]

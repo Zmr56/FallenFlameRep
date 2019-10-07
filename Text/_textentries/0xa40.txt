@@ -1,2 +1,2 @@
-Battle Veteran: Gain +1 damage and[N]
-+5% Hit per 10 levels unit has.[X]
+Holy Aura: Gain +1 damage, +5% hit,[N]
++5% avoid, +5% crit when using light.[X]
