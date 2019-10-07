@@ -1,2 +1,2 @@
-Quantum Visage: Face changes[N]
-every time it's looked at.[X]
+Trace: During Battle, copies[N]
+the first Skill of the enemy.[X]

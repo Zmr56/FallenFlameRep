@@ -1,1 +1,1 @@
-[OpenMidLeft][LoadFace][WrenPortrait]Defend the fat noble for 9 turns![A][X]
+[MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]

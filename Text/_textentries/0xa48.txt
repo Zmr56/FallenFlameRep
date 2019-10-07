@@ -1,3 +1,2 @@
-Infiltrator: If within 2 spaces[N]
-of two or more enemies, gain +3[N]
-damage and +15% hit.[X]
+Propel: Gain +2 Damage and +10 Hit[N]
+when fighting enemy at 2 range.[X]

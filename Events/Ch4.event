@@ -121,7 +121,7 @@ UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [6,16] 0x00 0x00 0x0 0x00 [
 UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [4,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [5,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [3,15] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [6,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [3,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 NewGirls:

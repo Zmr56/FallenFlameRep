@@ -1,2 +1,2 @@
-Steal+: Unit can steal unequipped[N]
-weapons and staffs if con>weight.[X]
+Capture: Capture an enemy after[N]
+defeating it with reduced stats.[X]

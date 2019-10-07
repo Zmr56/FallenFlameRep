@@ -1,1 +1,2 @@
- Debug[X]
+Heavily armoured knights with poor[N]
+movement. Equips Lances, Swords.[X]

@@ -1,2 +1,2 @@
-Wrath: If HP < 50%,[N]
-+20 critical rate.[X]
+Counter: Reflect physical damage[N]
+when attacked at 1-2 range.[X]

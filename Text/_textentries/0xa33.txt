@@ -1,2 +1,2 @@
-Shadowgift: Allows the user to use[N]
-Dark Magic. (Uses highest Magic Rank)[X]
+Lumina: Allows the user to use[N]
+Light Magic. (Uses highest Magic Rank)[X]

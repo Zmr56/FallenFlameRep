@@ -1,2 +1,2 @@
-Luna: Negates enemy defenses.[N]
+Sol: Restore damage dealt as HP.[N]
 (Skill % activation)[X]

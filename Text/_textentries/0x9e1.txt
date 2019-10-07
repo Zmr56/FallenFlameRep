@@ -1,2 +1,1 @@
-Expertise: Reduce bonus damage[N]
-from critical hits by 50%.[X]
+Celerity: Movement +2.[X]

@@ -1,1 +1,2 @@
-Axe Cav[X]
+Mounted knights with swift movement.[NL]
+Equip: Axes.[X]
