@@ -35,9 +35,6 @@ Sirius[X]
 ## nameZeke
 Zeke[X]
 
-## UM_Debug
- Debug[X]
-
 ## DefendGreenText
 [OpenMidLeft][LoadFace][WrenPortrait]Defend the fat noble for 9 turns![A][X]
 

@@ -24,9 +24,3 @@
 {
 #include "Prologue.event"
 }
-{
-#include "Old\Ch5.event"
-}
-{
-#include "Old\Ch6.event"
-}

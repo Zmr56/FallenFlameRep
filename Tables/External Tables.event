@@ -20,6 +20,42 @@ ALIGN 4
 //Vanilla list minus Eirika/Ephraim lord
 
 
+//moved here from Engine Hacks/SkillSystem/Teq Skills/FE8-Nullify/Nullify EA.txt
+#define SetWeaponEffectiveness(type_list, coefficient_times_2) "BYTE 0 coefficient_times_2; SHORT type_list"
+
+LordWeaponEffectiveness:
+	SetWeaponEffectiveness(ArmorType|SwordType, 6)
+	WORD 0 //terminator
+ArmorEffectiveness:
+	SetWeaponEffectiveness(ArmorType, 6)
+	WORD 0
+HorseEffectiveness:
+	SetWeaponEffectiveness(HorseType, 6)
+	WORD 0
+DragonEffectiveness:
+	SetWeaponEffectiveness(DragonType, 6)
+	WORD 0
+FlierEffectiveness:
+	SetWeaponEffectiveness(FlierType, 6)
+	WORD 0
+SwordEffectiveness:
+	SetWeaponEffectiveness(SwordType, 6)
+	WORD 0
+MonsterEffectiveness:
+	SetWeaponEffectiveness(MonsterType, 6)
+	WORD 0
+SacredWeaponEffectiveness:
+	SetWeaponEffectiveness(MonsterType, 4)
+	WORD 0
+FlierAndMonster1: //Beacon bow
+	SetWeaponEffectiveness(FlierType|MonsterType, 6)
+	WORD 0
+FlierAndMonster2: //Nidhogg
+	SetWeaponEffectiveness(FlierType, 6)
+	SetWeaponEffectiveness(MonsterType, 4)
+	WORD 0
+
+
 
 ArmorFlyingMagicEffectiveness:
 BYTE ArmorClasses
@@ -41,7 +77,7 @@ BYTE 0
 FlyingMonsterEffectiveness:
 BYTE FlyingClasses
 //Continues into monster effectiveness.
-MonsterEffectiveness:
+//MonsterEffectiveness:
 BYTE MonsterClasses
 BYTE 0
 
