@@ -47,7 +47,7 @@ SHORT $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E
 SHORT $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E
 SHORT $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E
 SHORT $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E
-SHORT $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E // Row 1 (Top)
+SHORT $61 $62 $03 $03 $03 $03 $03 $03 $03 $03 $04 $05 // Row 1 (Top)
 
 	ALIGN 4
 
