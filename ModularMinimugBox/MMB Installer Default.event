@@ -184,7 +184,7 @@ SHORT $62 $03 $03 $03 $03 $03 $03 $03 $03 $03 $03 $04 // Row 1 (Top)
 	#define MMBDEFNumber
 	//#define MMBDODNumber
 	//#define MMBEXPNumber
-	//#define MMBHITNumber
+	#define MMBHITNumber
 	//#define MMBLevelNumber
 	#define MMBRESNumber
 	//#define MMBRTGNumber
