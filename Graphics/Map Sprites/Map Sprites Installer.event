@@ -1,0 +1,40 @@
+Map_WyvernRiderStand:
+#incext Png2Dmp "WyvernRiderStanding.png" --lz77
+Map_WyvernRiderMoving:
+#incext Png2Dmp "WyvernRiderMoving.png" --lz77
+Map_NomadStand:
+#incext Png2Dmp "NomadStanding.png" --lz77
+Map_NomadMoving:
+#incext Png2Dmp "NomadMoving.png" --lz77
+Map_SwdCavMStand:
+#incext Png2Dmp "SwdCavMStanding.png" --lz77
+Map_SwdCavMMoving:
+#incext Png2Dmp "SwdCavMMoving.png" --lz77
+Map_SwdCavFStand:
+#incext Png2Dmp "SwdCavFStanding.png" --lz77
+Map_SwdCavFMoving:
+#incext Png2Dmp "SwdCavFMoving.png" --lz77
+Map_LncCavMStand:
+#incext Png2Dmp "LncCavMStanding.png" --lz77
+Map_LncCavMMoving:
+#incext Png2Dmp "LncCavMMoving.png" --lz77
+Map_LncCavFStand:
+#incext Png2Dmp "LncCavFStanding.png" --lz77
+Map_LncCavFMoving:
+#incext Png2Dmp "LncCavFMoving.png" --lz77
+Map_AxeCavMStand:
+#incext Png2Dmp "AxeCavMStanding.png" --lz77
+Map_AxeCavMMoving:
+#incext Png2Dmp "AxeCavMMoving.png" --lz77
+Map_AxeCavFStand:
+#incext Png2Dmp "AxeCavFStanding.png" --lz77
+Map_AxeCavFMoving:
+#incext Png2Dmp "AxeCavFMoving.png" --lz77
+Map_BarbarianStand:
+#incext Png2Dmp "BarbarianStanding.png" --lz77
+Map_BarbarianMoving:
+#incext Png2Dmp "BarbarianMoving.png" --lz77
+Map_LncKnightStand:
+#incext Png2Dmp "LncKnightStanding.png" --lz77
+Map_LncKnightMoving:
+#incext Png2Dmp "LncKnightMoving.png" --lz77
