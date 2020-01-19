@@ -253,7 +253,15 @@
   ALIGN 4
   Growth_Color_Table:
     #include "Display Growths Options/Growth Colors Table.txt"
-
+/*
+  ALIGN 4
+  Growth_Color_TableHP:
+    #include "Display Growths Options/Growth Colors Table HP.txt"
+	
+  ALIGN 4
+  Growth_Color_TableDefRes:
+    #include "Display Growths Options/Growth Colors Table DefRes.txt"
+*/
   ALIGN 4
   New_Palettes:
     #include "Display Growths Options/New Palette.txt"

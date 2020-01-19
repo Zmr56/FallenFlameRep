@@ -20,6 +20,7 @@
 #endif
 #endif
 
+
 #ifdef _FE8_
 #ifndef TextTable
     //#define TextTable 0x15D48C

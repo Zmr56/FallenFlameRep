@@ -350,3 +350,9 @@
 #define SD_Powerstaff 0xa4f
 #define SD_Shieldcrash 0xa50
 #define SD_TempestBlood 0xa51
+#define PrologueOpeningText1 0xa52
+#define PrologueOpeningText2 0xa53
+#define PrologueOpeningText3 0xa54
+#define PrologueReinforcementText 0xa55
+#define Ch1OpeningText1 0xa56
+#define Ch1Wave1Text 0xa57

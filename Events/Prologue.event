@@ -13,6 +13,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TURN 0x8 Wave1Text[2,0] 0x0
 TURN 0x0 WaveFirst[2,0] 0x0
 END_MAIN
 
@@ -23,6 +24,11 @@ ENDA
 Wave1:
 UNIT 0x80 Mercenary Datta Level(4, Enemy, 1) [3,0] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
 UNIT
+
+Wave1Text:
+Text(PrologueReinforcementText)
+TEXTEND
+ENDA
 
 CharacterBasedEvents:
 END_MAIN
@@ -50,7 +56,7 @@ END_MAIN
 
 Units1:
 UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [IronSword, Rapier, Vulnerary] NoAI 
-UNIT Wigbrand Paladin Wren Level(5, Ally, 0) [2,8] 0x00 0x00 0x0 0x00 [IronSword, BraveSword, IronLance] NoAI 
+UNIT Wigbrand Paladin Wren Level(5, Ally, 0) [3,8] 0x00 0x00 0x0 0x00 [IronSword, BraveSword, IronLance] NoAI 
 UNIT Shamira Knight_F Wren Level(4, Ally, 0) [4,7] 0x00 0x00 0x0 0x00 [SteelLance, Javelin, IronSword] NoAI 
 UNIT Huginn Fighter Wren Level(6, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe, Vulnerary] NoAI 
 UNIT Orvar Archer Wren Level(4, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [IronBow, SteelBow] NoAI 
@@ -87,6 +93,19 @@ LOAD1 0x1 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep s
 ENUN
 LOAD1 0x1 Bad
 ENUN
+/*
+MUSC 0x0B
+SetBackground(0x21)
+Text(PrologueOpeningText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+MUSC 0x0
+StartBattle
+NormalDamage(0,8)
+CriticalHit(1,15)
+EndAttack
+FIG1 Wigbrand Wren 0x0
+*/
 // GotoPrepScreen
 ENDA
 

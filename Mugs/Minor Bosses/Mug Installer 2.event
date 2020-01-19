@@ -43,3 +43,7 @@ setMugEntry(0x36, Bigfard_Mug, 2, 5, 3, 3)
 Naiburn_Mug:
 #incext PortraitFormatter "Naiburn.png"
 setMugEntry(0x33, Naiburn_Mug, 2, 5, 3, 3)
+
+Wizvil_Mug:
+#incext PortraitFormatter "Wizvil.png"
+setMugEntry(0x41, Wizvil_Mug, 2, 6, 3, 4)

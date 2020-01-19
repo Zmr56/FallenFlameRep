@@ -1,2 +1,12 @@
-Tempest Blood: +2 Attack[N]
-Speed when HP is not at max.[X]
+
+[MidRight][LoadWren]
+[MidLeft][LoadWigbrand]
+
+[MidRight]#Wren
+This spot should be good to spar in, ready[N]
+Wigbrand?[A]
+
+[MidLeft]#Wigbrand
+Poised as ever Lady Wren. Steel your blade and[N]
+strike just as a Blumari Kingdom knight should![A]
+[X]
