@@ -1,2 +1,2 @@
-Watchful: This unit cannot be[N]
-captured or stolen from.[X]
+Hex: -15 avoid to all[N]
+adjacent enemies.[X]

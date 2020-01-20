@@ -1,2 +1,2 @@
-Dragon's Blood: Unit is able[N]
-to activate Dragon Veins.[X]
+Tantivy: +10 Hit/Avoid if there are[N]
+no allies within 3 tiles.[X]

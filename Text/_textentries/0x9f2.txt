@@ -1,2 +1,1 @@
-Pursuit: When under attack,[N]
-attack speed +2. [X]
+Celerity: Movement +2.[X]

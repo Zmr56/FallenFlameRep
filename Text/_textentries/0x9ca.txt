@@ -1,2 +1,2 @@
-Rally Resistance: +4 Res[N]
-to allies within 2 tiles.[X]
+Amaterasu: Allies within 2 tiles[N]
+recover 20% HP each turn.[X]

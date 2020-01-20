@@ -1,2 +1,2 @@
-Silent Pride: Gain 2 damage and take[N]
--2 damage per 25% below max HP.[X]
+Forager: Recover 20% HP each turn[N]
+if on a Plain, Forest or Mountain.[X]

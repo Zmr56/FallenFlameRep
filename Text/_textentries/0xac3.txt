@@ -1,0 +1,14 @@
+
+[MidLeft][LoadWren]
+[MidRight][LoadWigbrand]
+
+[MidLeft]
+Ack! What was that noise?[A]
+
+[MidRight]
+Wyverns. The roar sounds like it came[N]
+from the north-east. It appears the[A][N]
+pirates are working with Wyvember.[N]
+They don't sound too far away, prepare[A][N]
+for an attack by them soon, Wren.[A]
+[X]

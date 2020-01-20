@@ -1,2 +1,2 @@
-Armored Blow: +10 Def[N]
-when initiating battle.[X]
+Sol: Restore damage dealt as HP.[N]
+(Skill % activation)[X]

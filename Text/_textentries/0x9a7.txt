@@ -1,2 +1,2 @@
-Lancefaire: +4 damage[N]
-when equipping a lance.[X]
+Bowbreaker: +50 Hit/Avo when[N]
+enemy has a bow equipped.[X]

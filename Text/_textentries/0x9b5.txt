@@ -1,2 +1,2 @@
-Malefic Aura: Enemies within 2[N]
-tiles receive +2 magic damage.[X]
+Countermagic: Reflect magic damage[N]
+when attacked at 1-2 range.[X]

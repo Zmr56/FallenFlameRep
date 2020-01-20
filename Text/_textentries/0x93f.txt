@@ -1,1 +1,1 @@
-Barbarian[X]
+ Capture[X]

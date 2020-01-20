@@ -1,2 +1,2 @@
-Fiery Blood: +4 damage[N]
-when HP is not at max.[X]
+Life and Death: +10 to[N]
+damage dealt and taken.[X]

@@ -1,2 +1,2 @@
-Warding Blow: +20 Res[N]
-when initiating battle.[X]
+Bane: Leave the opponent at 1 HP.[N]
+(Skill/2 % activation)[X]

@@ -1,2 +1,2 @@
-Wind Disciple: +10 Hit and[N]
-Avoid when HP is not at max.[X]
+Anathema: -10 Avoid/Dodge to all[N]
+enemies within 3 tiles.[X]

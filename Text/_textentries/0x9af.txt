@@ -1,2 +1,2 @@
-Lifetaker: Restore up to 25% HP after[N]
-attacking and defeating an enemy.[X]
+Certain Blow: +40 Hit[N]
+when initiating battle.[X]

@@ -1,2 +1,3 @@
-Liquid Ooze: Attackers trying to gain HP[N]
-from attacking this unit lose it instead.[X]
+Ready Stance: +4 speed[N]
+and defense when foe[N]
+initiates battle.[X]

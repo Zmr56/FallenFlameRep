@@ -2,18 +2,6 @@
 
 #include "Table Definitions.txt"
 
-#include "FE8 Nightmare modules\FE8 Character Level Up Skill Editor.event"
-
-#include "FE8 Nightmare modules\FE8 Class Level Up Skill Editor.event"
-
-#include "FE8 Nightmare modules\FE8 Class Skill Editor.event"
-
-#include "FE8 Nightmare modules\FE8 Personal Skill Editor.event"
-
-#include "FE8 Nightmare modules\FE8 Skill Animation Editor.event"
-
-#include "FE8 Nightmare modules\FE8 Skill Description Editor.event"
-
 #include "FE8 Nightmare modules\Chapter data editor\Chapter Data Editor.event"
 
 #include "FE8 Nightmare modules\Chapter data editor\Pointer table editor.event"
@@ -21,6 +9,8 @@
 #include "FE8 Nightmare modules\Chapter data editor\World Map Cutscene table editor.event"
 
 #include "FE8 Nightmare modules\Chapter data editor\World Map Event table editor.event"
+
+#include "FE8 Nightmare modules\Class & Character editors\Class Level Cap Table.event"
 
 #include "FE8 Nightmare modules\Class & Character editors\FE8 Character Editor.event"
 
@@ -52,9 +42,29 @@
 
 #include "FE8 Nightmare modules\Map sprite editor\Standing map sprite editor.event"
 
+#include "FE8 Nightmare modules\Misc\Escape Quote Editor.event"
+
+#include "FE8 Nightmare modules\Misc\Modular EXP Class Table.event"
+
+#include "FE8 Nightmare modules\Misc\AdvWeaponLocks\WeaponLockArray.event"
+
+#include "FE8 Nightmare modules\Misc\Biorhythm\Biorhythm Editor.event"
+
+#include "FE8 Nightmare modules\Misc\Magic\Mag Char Editor.event"
+
+#include "FE8 Nightmare modules\Misc\Magic\Mag Class Editor.event"
+
 #include "FE8 Nightmare modules\Quote editors\Boss Quote Editor.event"
 
 #include "FE8 Nightmare modules\Quote editors\Death Quote Editor.event"
+
+#include "FE8 Nightmare modules\Skills\FE8 Character Level Up Skill Editor.event"
+
+#include "FE8 Nightmare modules\Skills\FE8 Class Level Up Skill Editor.event"
+
+#include "FE8 Nightmare modules\Skills\FE8 Class Skill Editor.event"
+
+#include "FE8 Nightmare modules\Skills\FE8 Personal Skill Editor.event"
 
 #include "FE8 Nightmare modules\World Map Editors\Path Connections Editor.event"
 

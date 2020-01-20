@@ -1,2 +1,2 @@
-Slow Burn: +1 Hit and Avoid for[N]
-each passing turn, up to 15.[X]
+Light Weight: When holding three[N]
+or less items, attack speed +3.[X]

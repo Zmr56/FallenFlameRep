@@ -1,2 +1,2 @@
-Life and Death: Grants[N]
-+5 Atk/Mag/Spd, -5 Def/Res.[X]
+Even Rhythm: +10 Hit and Avoid[N]
+on even numbered turns.[X]

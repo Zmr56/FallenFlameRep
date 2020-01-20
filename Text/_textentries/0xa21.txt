@@ -1,3 +1,2 @@
-Sturdy Stance: +4 attack[N]
-and defense when foe[N]
-initiates battle.[X]
+Quantum Visage: Face changes[N]
+every time it's looked at.[X]

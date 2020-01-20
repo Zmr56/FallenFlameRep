@@ -1,2 +1,2 @@
-Lily's Poise: Adjacent allies gain[N]
-+1/-3 damage dealt/received.[X]
+Staff Savant: Maximum range[N]
+of staves is increased by 1.[X]

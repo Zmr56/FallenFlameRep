@@ -1,2 +1,2 @@
-Chivalry: When foe is at full HP,[N]
-attack and def/res +2.[X]
+Seal Strength: Debuff opponent's Str[N]
+by 6 after combat. (Recover 1/turn)[X]

@@ -1,3 +1,2 @@
-Discipline+: Weapon experience[N]
-gains are doubled. Unit may[N]
-S-Rank multiple weapon types.[X]
+Acrobat: All traversable[N]
+terrain costs 1 movement.[X]

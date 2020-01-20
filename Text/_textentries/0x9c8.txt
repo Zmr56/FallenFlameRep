@@ -1,2 +1,2 @@
-Rally Luck: +4 Luck to[N]
-allies within 2 tiles.[X]
+Charm: Allies within 2[N]
+tiles deal +2 damage.[X]

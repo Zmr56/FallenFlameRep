@@ -1,2 +1,2 @@
-Nihil: Cancels the opponent's[N]
-skills in combat.[X]
+Dance: Refresh an ally unit[N]
+to let them act again.[X]
