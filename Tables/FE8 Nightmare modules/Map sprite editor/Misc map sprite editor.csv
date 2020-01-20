@@ -3,12 +3,12 @@ Ephraim Lord,0x81c33cc,0x81c3d7c
 Eirika Lord,0x81c3ed4,0x81c46cc
 Void Monster,0x81effc8,0x81f06d8
 Void Master,0x8204a98,0x8205068
-Cavalier,Map_SwordCavMoving|IsPointer,0x81faf40
-Cavalier (F),0x81c5fe4,0x81c692c
+Cavalier,Map_SwdCavMMoving|IsPointer,0x81faf40
+Cavalier (F),Map_LncCavMMoving|IsPointer,0x81c692c
 Paladin,0x81c6a84,0x81c7428
 Paladin (F),0x81c6a84,0x81c7428
-Armour Knight,0x81c7580,0x81c7e74
-Armour Knight (F),0x81c7580,0x81c7e74
+Armour Knight,Map_LncKnightMoving|IsPointer,0x81c7e74
+Armour Knight (F),Map_LncKnightMoving|IsPointer,0x81c7e74
 General,0x81c7fcc,0x81c8a80
 General (F),0x81c7fcc,0x81c8a80
 Thief,0x81c8be0,0x81c945c
@@ -82,11 +82,11 @@ Fleet,0x81ee6b0,0x81eec84
 Phantom,0x81eedec,0x81ef5cc
 Revenant,0x81ef724,0x81efe70
 Nomad,Map_NomadMoving|IsPointer,0x81f06d8
-AxeCav,0x81f0830,0x81f1080
+AxeCav,Map_AxeCavMMoving|IsPointer,0x81f1080
 AxeCavF,Map_AxeCavFMoving|IsPointer,0x81f1a54
-LanceCavF,Map_SwordCavMoving|IsPointer,0x81f249c
-SwordCavF,0x81c5fe4,0x81f2ec4
-Bael,0x81f301c,0x81f3794
+LanceCavF,Map_LncCavFMoving|IsPointer,0x81f249c
+SwordCavF,Map_SwdCavMMoving|IsPointer,0x81f2ec4
+SwordCavF,Map_SwdCavFMoving|IsPointer,0x81f3794
 Elder Bael,0x81f38ec,0x81f3fa0
 Cyclops,0x81f40f8,0x81f49b8
 Mauthe Doog,0x81f4b18,0x81f5468

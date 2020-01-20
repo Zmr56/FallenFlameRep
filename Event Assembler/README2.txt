@@ -104,6 +104,12 @@ V11.1.1
 -Changed some EAStdlib definitions in FE7/FE8 to be compatable with ColorzCore. This is a breaking change.
  - 5000G -> _5000G and other similar edits.
 
+V11.1.2
+- Fixed broken VillageEventMoney in FE8; added GIVEITEMTO2 to Backward Compatibility.
+
+V11.1.3
+- Fixed broken GiveMoney macro in FE8; added _GIVEITEMTOMAIN in Backward Compatibility.
+
 -------------------
 Additional Credits:
 -------------------

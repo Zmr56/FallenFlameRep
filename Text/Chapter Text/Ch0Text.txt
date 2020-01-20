@@ -1,0 +1,107 @@
+## PrologueOpeningText1
+
+[MidRight][LoadWren]
+[MidLeft][LoadWigbrand]
+
+[MidRight]#Wren
+This spot should be good to spar in, ready[N]
+Wigbrand?[A]
+
+[MidLeft]#Wigbrand
+Poised as ever Lady Wren. Steel your blade and[N]
+strike just as a Blumari Kingdom knight should![A]
+[X]
+
+## PrologueOpeningText2
+
+[MidRight]#Wren
+Phew... you took the air out of me there...[N]
+Well... good enough for the frontlines now?[A]
+
+[MidLeft]#Wigbrand
+A distinct improvement from our last session.[N]
+But being ready for the frontlines comes down[A][N]
+to more than just being able to fight toe to toe[N]
+with trained knights, when the enemy is out for[A][N]
+blood and death is abound on the battlefield,[N]
+it's a completely different story. Understood?[A]
+
+[MidRight]#Wren
+Mhmm, but I've bore witness to such things[N]
+whenever you and father have taken me to[A][N]
+battles. I might not have taken a life myself[N]
+yet but I understand what's at stake.[A]
+
+[MidLeft]#Wigbrand
+I suppose so, your father and I have never been[N]
+ones to hide the truth of war from you. Maybe[A][N]
+you're ready after all. I'm confident in your[N]
+knowledge of tactical theory but the only way to 
+test your leadership abilities is to eventually put[N]
+you through the wringer of an actual battle one[A][N]
+day.[A]
+
+[MidRight]#Wren
+Mhmm, but I've bore witness to such things[N]
+whenever you and father have taken me to[A][N]
+battles. I might not have taken a life myself[N]
+yet but I understand what's at stake.[A]
+
+[MidLeft]#Wigbrand
+I wouldn't put too much stock in it, it would take[N]
+a mighty fierce leader to unite such a rabble.[A][N]
+Perhaps your uncle is overestimating the threat,[N]
+he's been thrown into the role of governor for[A][N]
+the Hawkport colony suddenly by your[N]
+grandfather, Duke Falcone in your father's[A][N]
+abscence, he lacks experience. Granted, no one[N]
+else would be a fit to take over from your[A][N]
+father, wherever he is...[A]
+[X]
+
+## PrologueOpeningText3
+
+[MidRight][LoadWren]
+[MidLeft][LoadWigbrand]
+[MidLeft][LoadShamira]
+[Left][LoadOrvar]
+
+[MidLeft]#Shamira
+Lady Wren! While scouting the area with Huginn[N]
+we saw the approach of bandits heading this[A][N]
+way! If Orvar hadn't been out in the woods[N]
+gathering mushrooms perhaps we'd be able to[A][N]
+retrieve my father's gift to Duke Falcone[N]
+before they arrived.[A]
+
+[Left]#Orvar
+I wasn't looking for mushrooms! I was actually[N]
+the only one who thought to scout in the woods[A][N]
+you know, bandits could be anywhere! Although[N]
+these mushrooms I'm holding right now were just[A][N]
+a lucky chance encounter.[A]
+[Clear][MidLeft]
+[MidLeft][LoadHuginn]
+
+[MidLeft]#Huginn
+Save it for later Orvar,[N]
+we've got bandits to bash.[A]
+[Clear][Left]
+
+[MidRight]#Wigbrand
+Aptly put as ever Huginn, seems like you'll be[N]
+getting that valuable learning experience much[A][N]  
+earlier than anticipated, Lady Wren.[A]
+
+[Right]#Wren
+Aye, let's get to it then![A]
+[X]
+
+## PrologueReinforcementText
+
+[MidLeft][LoadDatta]
+Looks like there's a bunch of sword users[N]
+amongst that crowd of knights...[A][N]
+No worry, back-up should be coming soon[N]
+our sellsword will cut them deep![A][N]
+[X]

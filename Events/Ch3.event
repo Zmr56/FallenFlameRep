@@ -215,7 +215,7 @@ LOAD1 0x1 Bad
 ENUN
 LOAD1 0x1 FatNoble
 ENUN
-Text(DefendGreenText)
+Text(Ch3WarningText)
 NoFade
 ENDA
 

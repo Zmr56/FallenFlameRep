@@ -47,7 +47,7 @@ SHORT $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E
 SHORT $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E
 SHORT $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E
 SHORT $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E $0E
-SHORT $61 $62 $03 $03 $03 $03 $03 $03 $03 $03 $04 $05 // Row 1 (Top)
+SHORT $62 $03 $03 $03 $03 $03 $03 $03 $03 $03 $03 $04 // Row 1 (Top)
 
 	ALIGN 4
 
@@ -183,9 +183,9 @@ SHORT $61 $62 $03 $03 $03 $03 $03 $03 $03 $03 $04 $05 // Row 1 (Top)
 	//#define MMBCRTNumber
 	#define MMBDEFNumber
 	//#define MMBDODNumber
-	#define MMBEXPNumber
+	//#define MMBEXPNumber
 	#define MMBHITNumber
-	#define MMBLevelNumber
+	//#define MMBLevelNumber
 	#define MMBRESNumber
 	//#define MMBRTGNumber
 
@@ -251,9 +251,9 @@ SHORT $61 $62 $03 $03 $03 $03 $03 $03 $03 $03 $04 $05 // Row 1 (Top)
 	//#define MMBCRTLabel
 	#define MMBDEFLabel
 	//#define MMBDODLabel
-	#define MMBEXPLabel
+	//#define MMBEXPLabel
 	#define MMBHITLabel
-	#define MMBLevelLabel
+	//#define MMBLevelLabel
 	#define MMBRESLabel
 	//#define MMBRTGLabel
 

@@ -24,6 +24,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TURN 0x8 Wave1Text[2,0] 0x0
 TURN 0x0 WaveFirst[2,0] 0x0
 TURN 0x0 WaveSecond[5,0] 0x0
 TURN 0x0 WaveThird[7,0] 0x0
@@ -31,6 +32,11 @@ END_MAIN
 
 WaveFirst:
 ReinforcementEvent(Wave1)
+ENDA
+
+Wave1Text:
+Text(Ch1Wave1Text)
+TEXTEND
 ENDA
 
 WaveSecond:
@@ -88,7 +94,7 @@ UNIT Orvar Archer Wren Level(1, Ally, 0) [10,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 NewCrew:
-UNIT Dana SwordCavF Wren Level(1, Ally, 0) [11,9] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI 
+UNIT Dana SwordCavF Wren Level(1, Ally, 0) [11,9] 0x00 0x00 0x0 0x00 [IronSword, SteelSword, Vulnerary] NoAI 
 UNIT Sarai PegasusKnight Wren Level(1, Ally, 0) [12,10] 0x00 0x00 0x0 0x00 [IronLance, SlimLance] NoAI 
 UNIT
 

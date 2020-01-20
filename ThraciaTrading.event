@@ -1,0 +1,5 @@
+ //Enable limitless trading
+PUSH
+  ORG $22F50
+  BYTE 0xC0 0x46
+POP

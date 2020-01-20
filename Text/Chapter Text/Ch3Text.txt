@@ -1,0 +1,15 @@
+## ChXOpeningText3
+[X]
+
+## Ch3WarningText
+
+[MidLeft][LoadNoble]
+Ah Wren! You may be unfamiliar with[N]
+the layout of this fortress.[A][N]
+Entrances to outside lead out from[N]
+the carpets on the eastern and south[A][N]
+western openings. The staircases by[N]
+the south also leads to outside.[A][N]
+Beware of all kinds of reinforcements[N]
+emerging from these points![A]
+[X]

@@ -99,3 +99,5 @@ Eff. vs horse, armour. Reverses WT.[X]
 #include "character_text.txt"
 
 #include "skilldesc_text.txt"
+
+#include "Chapter Text/chaptertext_installer.event"

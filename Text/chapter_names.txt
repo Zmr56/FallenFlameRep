@@ -1,18 +1,18 @@
 
 #0x160 PrologueChName
-Prologue[X]
+Prologue: Early Embers[X]
 
 ## Ch1ChName
-Ch1[X]
+Ch1: Homeward Bound[X]
 
 ## Ch2ChName
-Ch2[X]
+Ch2: Port Siege[X]
 
 ## Ch3ChName
-Ch3[X]
+Ch3: Fortified Wills[X]
 
 ## Ch4ChName
-Ch4[X]
+Ch4: Lonely Princess[X]
 
 ## Ch5ChName
 Ch5[X]

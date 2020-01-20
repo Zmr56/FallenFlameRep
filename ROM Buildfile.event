@@ -10,6 +10,7 @@
 	#include "Event Assembler/Extensions/AI Assembly.txt"
 	#include "ModularMinimugBox/MMB Installer Default.event"
 	#include "TextRepoint.event"
+	#include "ThraciaTrading.event"
 	ALIGN 4
     MESSAGE Used text space ends at currentOffset
 
