@@ -26,6 +26,7 @@ POIN BeginningScene EndingScene
 TurnBasedEvents:
 TURN 0x0 WaveFirst[2,0] 0x0
 TURN 0x0 WaveSecond[5,0] 0x0
+TURN 0xA Wave3Text[6,0] 0x0
 TURN 0x0 WaveThird[7,0] 0x0
 TURN 0x0 WaveFourth[8,0] 0x0
 END_MAIN
@@ -40,6 +41,12 @@ ENDA
 
 WaveThird:
 ReinforcementEvent(Wave3)
+ENDA
+
+Wave3Text:
+MUSC 0xE6
+Text(Ch2Wave3Text)
+TEXTEND
 ENDA
 
 WaveFourth:

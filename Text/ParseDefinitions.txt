@@ -60,6 +60,8 @@
 [DattaPortrait] = [0x4a][0x1]
 [WizvilPortrait] = [0x41][0x1]
 
+[NoblePortrait] = [0x31][0x1]
+
 [LoadWren] = [LoadFace][WrenPortrait]
 [LoadWigbrand] = [LoadFace][WigbrandPortrait]
 [LoadShamira] = [LoadFace][ShamiraPortrait]
@@ -70,6 +72,8 @@
 
 [LoadDatta] = [LoadFace][DattaPortrait]
 [LoadWizvil] = [LoadFace][WizvilPortrait]
+
+[LoadNoble] = [LoadFace][NoblePortrait]
 
 [LoadInnes] = [LoadFace][0xf][0x1]
 [LoadCormag] = [LoadFace][0x13][0x1]

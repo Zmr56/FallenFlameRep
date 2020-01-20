@@ -356,3 +356,7 @@
 #define PrologueReinforcementText 0xa55
 #define Ch1OpeningText1 0xa56
 #define Ch1Wave1Text 0xa57
+#define Ch2OpeningText1 0xa58
+#define Ch2Wave3Text 0xa59
+#define ChXOpeningText3 0xa5a
+#define Ch3WarningText 0xa5b

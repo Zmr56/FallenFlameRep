@@ -1,0 +1,8 @@
+## ChXOpeningText1
+[X]
+
+## ChXWaveYText
+
+[MidLeft][LoadBoss]
+This is some text![A]
+[X]

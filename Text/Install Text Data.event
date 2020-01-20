@@ -1419,3 +1419,19 @@ TxtData0xa57:
 #incext ParseFile "_textentries\0xa57.txt"
 setText(0xa57,TxtData0xa57)
 
+TxtData0xa58:
+#incext ParseFile "_textentries\0xa58.txt"
+setText(0xa58,TxtData0xa58)
+
+TxtData0xa59:
+#incext ParseFile "_textentries\0xa59.txt"
+setText(0xa59,TxtData0xa59)
+
+TxtData0xa5a:
+#incext ParseFile "_textentries\0xa5a.txt"
+setText(0xa5a,TxtData0xa5a)
+
+TxtData0xa5b:
+#incext ParseFile "_textentries\0xa5b.txt"
+setText(0xa5b,TxtData0xa5b)
+
