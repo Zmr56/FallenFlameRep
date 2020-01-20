@@ -1,2 +1,2 @@
-Dazzle: Opponents cannot[N]
-counterattack this unit.[X]
+Shove: Allows unit to push[N]
+other units one tile away.[X]

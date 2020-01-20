@@ -1,1 +1,2 @@
-Cato[X]
+Mounted knights with swift movement.[NL]
+Equip: Axes.[X]

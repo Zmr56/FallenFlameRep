@@ -1,2 +1,2 @@
-Steady Stance: +6 defense[N]
-when foe initiates battle.[X]
+Supply: This unit has[N]
+access to the convoy.[X]

@@ -1,2 +1,2 @@
-Life and Death: +10 to[N]
-damage dealt and taken.[X]
+Nullify: Unit is protected[N]
+from all effective attacks.[X]

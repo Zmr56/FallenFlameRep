@@ -12,7 +12,7 @@ echo: | (textprocess_v2 text_buildfile.txt)
 
 cd "%~dp0Event Assembler"
 
-Core A FE8 "-output:%~dp0SkillsTest.gba" "-input:%~dp0ROM Buildfile.event"
+ColorzCore A FE8 "-output:%~dp0SkillsTest.gba" "-input:%~dp0ROM Buildfile.event"
 
 cd "%~dp0ups"
 

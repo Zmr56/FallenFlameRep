@@ -1,2 +1,2 @@
-Summon: Can conjure a phantom[N]
-soldier to fight alongside you.[X]
+Darting Blow: +5 Attack Speed[N]
+when initiating battle.[X]

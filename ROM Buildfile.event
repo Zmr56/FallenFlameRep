@@ -5,14 +5,9 @@
 
     ORG FreeSpace
     PROTECT EndOfFreeSpace // Prevent overflow of data.
-	#include "WTEditor.event"
-	#include "Character Forcer.event"
-	#include "Event Assembler/Extensions/AI Assembly.txt"
-	#include "ModularMinimugBox/MMB Installer Default.event"
-	#include "TextRepoint.event"
-	#include "ThraciaTrading.event"
+	#include "Tables/TextRepoint.event"
 	ALIGN 4
-    MESSAGE Used text space ends at currentOffset
+    MESSAGE Text table ends at currentOffset
 
 	ALIGN 16
 	//Text    

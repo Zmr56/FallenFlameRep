@@ -1,2 +1,2 @@
-Hero: +30% skill activation[N]
-rate when HP is below 50%.[X]
+Barricade: Damage taken is[N]
+halved after first being struck.[X]

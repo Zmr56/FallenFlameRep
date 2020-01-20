@@ -1,2 +1,2 @@
-Rightful Arch: Sets Skill[N]
-activation rate to 100%.[X]
+Dragon's Blood: Unit is able[N]
+to activate Dragon Veins.[X]

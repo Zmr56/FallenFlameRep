@@ -1,2 +1,2 @@
-Locktouch: Can open locks[N]
-without keys or picks.[X]
+Paragon: Experience gain[N]
+is doubled.[X]

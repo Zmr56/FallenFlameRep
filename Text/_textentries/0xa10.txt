@@ -1,2 +1,2 @@
-Trace: During Battle, copies[N]
-the first Skill of the enemy.[X]
+Rightful Arch: Sets Skill[N]
+activation rate to 100%.[X]

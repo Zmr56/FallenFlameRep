@@ -1,2 +1,2 @@
-Fortress Resistance:[N]
-+5 Res, -3 Atk/Mag[X]
+Hawkeye: User will[N]
+always hit the enemy.[X]

@@ -27,6 +27,9 @@
 #define SolarBrace SunBracelet
 
 #include "Engine Hacks/SkillSystem/skill_definitions.event"
+#include "Event Assembler/Extensions/AI Assembly.txt"
+
+#define PlaceholderSkillID 255
 
 //#define __DEBUG__ // Uncomment to get the Debug startup menu :p
 

@@ -1,2 +1,2 @@
-Triangle Adept: Doubles[N]
-weapon triangle effects.[X]
+Smite: Allows unit to push[N]
+other units two tiles away.[X]

@@ -1,2 +1,2 @@
-Fury: +2 Atk/Spd/Def/Res. Unit[N]
-takes 6 damage after combat.[X]
+Moonbow: Enemy Def/Res is[N]
+reduced by 25%. Charge: 2[X]

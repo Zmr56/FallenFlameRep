@@ -1,2 +1,2 @@
-Discipline: Weapon experience[N]
-gains are doubled.[X]
+Adept: Gain a consecutive attack.[N]
+(Speed % activation)[X]

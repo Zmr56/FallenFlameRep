@@ -1,2 +1,3 @@
-Knight Aspirant: When above 75%[N]
-health, +2 damage, +15% avoid.[X]
+Grisly Wound: Deals damage equal[N]
+to 20% of the enemy's max[N]
+HP after every battle.[X]

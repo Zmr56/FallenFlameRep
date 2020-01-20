@@ -1,2 +1,2 @@
-High flying knights vulnerable only to.[N]
-bows and magic. Equips Axes.[X]
+Swap positions with adjacent[N]
+ally.[X]

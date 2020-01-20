@@ -1,2 +1,2 @@
-Slayer: Deal effective damage[N]
-to monster units.[X]
+Death Blow: +20 Crit[N]
+when initiating battle.[X]

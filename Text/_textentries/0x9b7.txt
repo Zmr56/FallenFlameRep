@@ -1,2 +1,2 @@
-Charm: Allies within 2[N]
-tiles deal +2 damage.[X]
+Swordfaire: +4 damage[N]
+when equipping a sword.[X]

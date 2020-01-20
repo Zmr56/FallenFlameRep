@@ -1,2 +1,2 @@
-Paragon: Experience gain[N]
-is doubled.[X]
+Galeforce: Move again after[N]
+attacking and defeating an enemy.[X]
