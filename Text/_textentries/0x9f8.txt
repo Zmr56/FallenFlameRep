@@ -1,2 +1,2 @@
-Armsthrift: Luck % chance to not[N]
-consume weapon durability.[X]
+Seal Speed: Debuff opponent's Spd[N]
+by 6 after combat. (Recover 1/turn)[X]

@@ -1,2 +1,3 @@
-Vantage: If HP < 50%,[N]
-strike first when attacked.[X]
+Aether: First strike absorbs HP,[N]
+second strike negates defenses.[N]
+(Skill/2 % activation)[X]

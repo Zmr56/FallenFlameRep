@@ -1,3 +1,2 @@
-Nice Personality: This unit has[N]
-a deep and engaging character,[N]
-bursting at the seams with development.[X]
+Focus: +10 Critical if there are[N]
+no allies within 3 tiles.[X]

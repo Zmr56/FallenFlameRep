@@ -1,3 +1,2 @@
-Bracing Stance: +4 defense[N]
-and resistance when[N]
-foe initiates battle.[X]
+Reposition: Allows unit to pull an[N]
+adjacent ally to its opposite side.[X]

@@ -1,2 +1,2 @@
-Desperation: If HP < 50%,[N]
-double attacks occur immediately.[X]
+Astra: 5 attacks at half damage.[N]
+(Skill % activation)[X]

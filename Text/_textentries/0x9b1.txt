@@ -1,2 +1,2 @@
-Renewal: Restore 30% of max HP[N]
-at the start of each turn.[X]
+Vantage: If HP < 50%,[N]
+strike first when attacked.[X]

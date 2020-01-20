@@ -1,3 +1,2 @@
-Shieldcrash: If within 2 spaces[N]
-of two or more enemies, gain +3[N]
-def and +10% crit.[X]
+Puissance: +3 Damage when the user's[N]
+Strength is higher than the enemy's.[X]

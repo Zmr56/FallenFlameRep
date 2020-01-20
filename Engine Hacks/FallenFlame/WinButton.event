@@ -1,0 +1,16 @@
+  
+  ALIGN 4
+  Win_Usability:
+  #incbin "winbuttonusability.dmp"
+  
+  ALIGN 4
+  Offscreen_Levelup:
+  #incbin "autolevel.dmp"
+  
+  ALIGN 4
+  Win_Effect:
+  #incbin "winbutton.dmp"
+  POIN Offscreen_Levelup
+  
+  #include "Debug.event"
+  

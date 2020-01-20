@@ -1,2 +1,2 @@
-Shadowgift: Allows the user to use[N]
-Dark Magic. (Uses highest Magic Rank)[X]
+Steady Stance: +6 defense[N]
+when foe initiates battle.[X]

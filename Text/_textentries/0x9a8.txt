@@ -1,2 +1,2 @@
-Axefaire: +4 damage[N]
-when equipping an axe.[X]
+Tomebreaker: +50 Hit/Avo when[N]
+enemy has a tome equipped.[X]

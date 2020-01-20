@@ -1,3 +1,2 @@
-Foresight: Avoid the damage[N]
-from enemy Critical Hits and[N]
-Skill Activations.[X]
+Solidarity: Critical and Critical[N]
+Avoid +10 to adjacent allies.[X]

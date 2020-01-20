@@ -1,1 +1,1 @@
-Arrive at a designated point.[X]
+ Pivot[X]

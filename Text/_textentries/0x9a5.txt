@@ -1,2 +1,2 @@
-Miracle: Survive a lethal[N]
-attack if HP > 50%.[X]
+Lancebreaker: +50 Hit/Avo when[N]
+enemy has a lance equipped.[X]

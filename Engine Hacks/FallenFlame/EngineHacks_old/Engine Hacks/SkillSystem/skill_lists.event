@@ -1,0 +1,293 @@
+EphraimLordSkillList:
+// BYTE 1 OddRhythmID
+//BYTE 10 BondID
+BYTE 10 HeroesDeathBlowID
+BYTE 20 AetherID
+BYTE 00 00
+ALIGN 4
+
+EirikaLordSkillList:
+BYTE 1 BondID
+BYTE 00 00
+ALIGN 4
+
+EphraimGreatLordSkillList:
+BYTE 255 BondID
+BYTE 255 AetherID //255 means "automatically given to prepromotes"
+// BYTE 255 SmiteID
+BYTE 5 RallySpectrumID
+BYTE 15 AxebreakerID
+BYTE 00 00
+ALIGN 4
+
+EirikaGreatLordSkillList:
+BYTE 255 BondID
+BYTE 255 AetherID
+// BYTE 255 SmiteID
+BYTE 5 NihilID
+BYTE 15 LancebreakerID
+BYTE 00 00
+ALIGN 4
+
+CavalierSkillList:
+BYTE 1 SwapID
+BYTE 00 00
+
+PaladinSkillList:
+BYTE 255 SwapID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+KnightSkillList:
+BYTE 1 ShieldcrashID
+BYTE 00 00
+ALIGN 4
+
+GeneralSkillList:
+BYTE 255 ShieldcrashID //learned if spawning
+BYTE 1 BarricadeID
+BYTE 00 00
+ALIGN 4
+
+ThiefSkillList:
+BYTE 1 StealPlusID
+BYTE 00 00
+ALIGN 4
+
+MercenarySkillList:
+BYTE 1 DartingBlowID
+BYTE 00 00
+ALIGN 4
+
+HeroSkillList:
+BYTE 255 DartingBlowID //learned if spawning
+BYTE 1 SolID
+BYTE 00 00
+ALIGN 4
+
+MyrmidonSkillList:
+BYTE 1 DesperationID
+BYTE 00 00
+ALIGN 4
+
+SwordmasterSkillList:
+BYTE 255 DesperationID //learned if spawning
+BYTE 1 AdeptID
+BYTE 00 00
+ALIGN 4
+
+AssassinSkillList:
+BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+ArcherSkillList:
+BYTE 1 CertainBlowID
+BYTE 00 00
+ALIGN 4
+
+SniperSkillList:
+BYTE 255 CertainBlowID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+RangerSkillList:
+BYTE 255 PassID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+WyvernRiderSkillList:
+BYTE 1 LungeID
+BYTE 00 00
+ALIGN 4
+
+WyvernLordSkillList:
+BYTE 255 LungeID //learned if spawning
+BYTE 1 ChargeID
+BYTE 00 00
+ALIGN 4
+
+WyvernKnightSkillList:
+BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+MageSkillList:
+BYTE 1 BindingAuraID
+BYTE 00 00
+ALIGN 4
+
+SageSkillList:
+BYTE 255 BindingAuraID //learned if spawning
+BYTE 1 BreathOfLifeID
+BYTE 00 00
+ALIGN 4
+
+MageKnightSkillList:
+BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+BishopSkillList:
+BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+ShamanSkillList:
+BYTE 1 MaleficAuraID
+BYTE 00 00
+ALIGN 4
+
+DruidSkillList:
+BYTE 255 MaleficAuraID //learned if spawning
+BYTE 1 SavageBlowID
+BYTE 00 00
+ALIGN 4
+
+SummonerSkillList:
+BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+RogueSkillList:
+BYTE 255 StealPlusID //learned if spawning
+BYTE 1 DazzleID
+BYTE 00 00
+ALIGN 4
+
+GreatKnightSkillList:
+BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+ManaketeFSkillList:
+BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+FighterSkillList:
+BYTE 1 FieryBloodID
+BYTE 00 00
+ALIGN 4
+
+WarriorSkillList:
+BYTE 255 FieryBloodID //learned if spawning
+BYTE 1 NaturalCoverID
+BYTE 00 00
+ALIGN 4
+
+BrigandSkillList:
+BYTE 1 TempestBloodID
+BYTE 00 00
+ALIGN 4
+
+PirateSkillList:
+BYTE 1 TempestBloodID
+BYTE 00 00
+ALIGN 4
+
+BerserkerSkillList:
+BYTE 255 TempestBloodID //learned if spawning
+BYTE 1 WrathID
+BYTE 00 00
+ALIGN 4
+
+MonkSkillList:
+BYTE 1 SolidarityID
+BYTE 00 00
+ALIGN 4
+
+PriestSkillList:
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+PegKnightSkillList:
+BYTE 1 WardingBlowID
+BYTE 00 00
+ALIGN 4
+
+FalcoknightSkillList:
+BYTE 255 WardingBlowID //learned if spawning
+BYTE 1 MageSlayerID
+BYTE 00 00
+ALIGN 4
+
+ClericSkillList:
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+TroubadourSkillList:
+BYTE 1 SwapID
+BYTE 00 00
+ALIGN 4
+
+ValkyrieSkillList:
+BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+DancerSkillList:
+BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+SoldierSkillList:
+BYTE 1 VanityID
+BYTE 00 00
+ALIGN 4
+
+NecromancerSkillList:
+BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 1 PlaceholderSkillID
+BYTE 00 00
+ALIGN 4
+
+FleetSkillList:
+BYTE 00 00
+ALIGN 4
+
+PhantomSkillList:
+BYTE 00 00
+ALIGN 4
+
+SuperJourneymanSkillList:
+BYTE 5 ParagonID
+BYTE 00 00
+ALIGN 4
+SuperPupilSkillList:
+BYTE 5 ParagonID
+BYTE 00 00
+ALIGN 4
+SuperRecruitSkillList:
+BYTE 10  ParagonID
+// BYTE 10 AxebreakerID
+BYTE 00 00
+ALIGN 4
+ManaketeMSkillList:
+BYTE 01 MiracleID
+BYTE 05 OddRhythmID
+BYTE 10 SpurDefID
+BYTE 00 00
+ALIGN 4
+
+DemonKingSkillList:
+BYTE 255 BaneID
+BYTE 255 SummonID
+BYTE 255 ReliefID
+BYTE 255 AnathemaID
+BYTE 00 00
+ALIGN 4

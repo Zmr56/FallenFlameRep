@@ -1,3 +1,2 @@
-Devil's Pact: Immune to Devil Reversal.[N]
-Curses the enemy with Devil Reversal.[N]
-(31-Luck % chance of Devil Reversal).[X]
+Warding Stance: +6 resistance[N]
+when foe initiates battle.[X]

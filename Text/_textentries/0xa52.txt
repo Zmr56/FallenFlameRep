@@ -1,12 +1,2 @@
-
-[MidRight][LoadWren]
-[MidLeft][LoadWigbrand]
-
-[MidRight]#Wren
-This spot should be good to spar in, ready[N]
-Wigbrand?[A]
-
-[MidLeft]#Wigbrand
-Poised as ever Lady Wren. Steel your blade and[N]
-strike just as a Blumari Kingdom knight should![A]
-[X]
+Holy Aura: Gain +1 damage, +5% hit,[N]
++5% avoid, +5% crit when using light.[X]

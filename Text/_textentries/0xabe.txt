@@ -1,0 +1,36 @@
+
+[MidRight][LoadWren]
+[MidLeft][LoadWigbrand]
+[MidLeft][LoadShamira]
+[Left][LoadOrvar]
+
+[MidLeft]#Shamira
+Lady Wren! While scouting the area with Huginn[N]
+we saw the approach of bandits heading this[A][N]
+way! If Orvar hadn't been out in the woods[N]
+gathering mushrooms perhaps we'd be able to[A][N]
+retrieve my father's gift to Duke Falcone[N]
+before they arrived.[A]
+
+[Left]#Orvar
+I wasn't looking for mushrooms! I was actually[N]
+the only one who thought to scout in the woods[A][N]
+you know, bandits could be anywhere! Although[N]
+these mushrooms I'm holding right now were just[A][N]
+a lucky chance encounter.[A]
+[Clear][MidLeft]
+[MidLeft][LoadHuginn]
+
+[MidLeft]#Huginn
+Save it for later Orvar,[N]
+we've got bandits to bash.[A]
+[Clear][Left]
+
+[MidRight]#Wigbrand
+Aptly put as ever Huginn, seems like you'll be[N]
+getting that valuable learning experience much[A][N]  
+earlier than anticipated, Lady Wren.[A]
+
+[Right]#Wren
+Aye, let's get to it then![A]
+[X]
