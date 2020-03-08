@@ -1,0 +1,27 @@
+//Longshot: +1 Range, -75 hit - menu command aaaa
+//Sacrifice - the fe10 thing that micaiah has - menu command aaaa
+
+//Mageguard: +8 resistance against magic enemies if within 3 spaces of an ally magic user - aura skills aaaa
+//Crusher - Adjacent lance wielding enemies suffer -3 def.  - aura skills aaaa
+//Spatha - Adjacent axe wielding enemies suffer -2 atk. - aura skills aaaa
+
+//Horsebane - If within 3 spaces of an ally horse rider, deal x2 effective damage vs horse type enemies in combat. - already did this
+//Magebane - If within 3 spaces of an ally magic user, deal x2 effective damage vs magic enemies in combat. - aura skills aaaaaa
+
+//Unorthodox - Reverses Weapon Triangle during combat against magic enemies that would normally have WTA. - WTA loop
+
+//Wind Blessing - Allies healed by this unit gain +2 speed for 1 turn. - is this an SoA skill
+//Earth Blessing - Allies healed by this unit gain +2 defence for 1 turn. - is this an SoA skill
+
+//Bow-Ace - Allows usage of the longbow family of weapons. - weapon usability loop
+//Bow-Ace+ - Allows longbow bows use and grants hit +15. - weapon usability loop
+//Lance-Ace - Grants ability to use exclusive lances. - weapon usability loop
+//Lance-Ace+ - Grants ability to use exclusive lances and gives crit +15. - weapon usability loop
+//Sword-Ace - Grants access to exclusive swords. - weapon usability loop
+//Sword-Ace+ - Grants crit +15 and access to exclusive swords. - weapon usability loop
+//Axe-Ace - Grants access to exclusive axes. - weapon usability loop
+//Axe-Ace+ - Grants +15 crit and access to exclusive axes. - weapon usability loop
+//Hybrid-Ace - Grants access to exclusive axes and longbows. - weapon usability loop
+
+
+#include "AceSkills/AceSkills.event"
