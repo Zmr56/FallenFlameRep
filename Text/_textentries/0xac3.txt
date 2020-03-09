@@ -1,14 +1,7 @@
 
-[MidLeft][LoadWren]
-[MidRight][LoadWigbrand]
-
-[MidLeft]
-Ack! What was that noise?[A]
-
-[MidRight]
-Wyverns. The roar sounds like it came[N]
-from the north-east. It appears the[A][N]
-pirates are working with Wyvember.[N]
-They don't sound too far away, prepare[A][N]
-for an attack by them soon, Wren.[A]
+[MidLeft][LoadDatta]
+Looks like there's a bunch of sword[N]
+sword amongst that crowd of knights...[A][N]
+No worry, back-up should be coming soon[N]
+our sellsword will cut them deep![A][N]
 [X]

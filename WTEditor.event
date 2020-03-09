@@ -1,0 +1,24 @@
+#define WTEntry(Attacker,Defender,Hit,Mt) "BYTE Attacker Defender Hit Mt"
+#define EndWT "BYTE 0xFF 0x00 0x00 0x00"
+#define Negative(Number) "0x100 - Number"
+#define TwoWayWTEntry(Strong,Weak,Hit,Mt) "BYTE Strong Weak Hit Mt Weak Strong Negative(Hit) Negative(Mt)"
+
+WTTable:
+TwoWayWTEntry(Swords,Axes,15,3)
+TwoWayWTEntry(Swords,Dark,15,3)
+TwoWayWTEntry(Lances,Swords,15,3)
+TwoWayWTEntry(Lances,Light,15,3)
+TwoWayWTEntry(Axes,Lances,15,3)
+TwoWayWTEntry(Axes,Anima,15,3)
+TwoWayWTEntry(Anima,Light,15,3)
+TwoWayWTEntry(Anima,Swords,15,3)
+TwoWayWTEntry(Light,Dark,15,3)
+TwoWayWTEntry(Light,Axes,15,3)
+TwoWayWTEntry(Dark,Anima,15,3)
+TwoWayWTEntry(Dark,Lances,15,3)
+EndWT //Terminator
+
+PUSH
+ORG 0x2C7CC
+POIN WTTable
+POP

@@ -1,2 +1,2 @@
-Opportunist: +4 damage[N]
-if the foe cannot counter.[X]
+Trample: +5 damage to[N]
+unmounted units.[X]

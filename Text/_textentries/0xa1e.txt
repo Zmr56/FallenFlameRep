@@ -1,2 +1,2 @@
-Dazzle: Opponents cannot[N]
-counterattack this unit.[X]
+Triangle Adept: Doubles weapon[N]
+triangle effects for this unit.[X]

@@ -1,2 +1,2 @@
-Drive Resistance: Allies within[N]
-2 spaces receive +4 resistance.[X]
+Blossom: 2x growth rates,[N]
+but 1/2 exp gain.[X]

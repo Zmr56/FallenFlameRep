@@ -1,11 +1,67 @@
 
-[MidLeft][LoadNoble]
-Ah Wren! You may be unfamiliar with[N]
-the layout of this fortress.[A][N]
-Entrances to outside lead out from[N]
-the carpets on the eastern and south[A][N]
-western openings. The staircases by[N]
-the south also leads to outside.[A][N]
-Beware of all kinds of reinforcements[N]
-emerging from these points![A]
-[X]
+[Right][LoadWren]
+[MidRight][LoadWigbrand]
+
+[Right]#Wren
+Home at last, but no guards standing by.[N]
+This unsettles me Wigbrand, something[A]
+is amiss.
+
+[MidRight]#Wigbrand
+Perhaps the riders approaching over the[N]
+horizon will provide some clarity.[A]
+
+[LoadOverworldFaces]
+
+[MidLeft][LoadDana]
+[Left][LoadSarai]
+
+[Right]#Wren
+Dana! Sarai! What's going on? Is it the[N]
+bandits and pirates?[A]
+
+[MidLeft]#Dana
+Aye! We were setting off from the shop[N]
+until we were swarmed by bandits, so[A][N]
+we rode out for reinforcements. Seems[N]
+like you've came in good time however,[A][N]
+their assault on the castle has just[N]
+started so we should have enough time[A][N]
+seize the front gate back.[A]
+
+[Left]#Sarai
+These ruffians have no manners, Wren![N]
+We must show them who is really in[A][N]
+control here![A]
+
+[Right]#Wren
+Oh, you're joining into the fray too?[N]
+I didn't know you were eager for combat[A][N]
+Sarai, I'm kind of nervous about you[N]
+joining but I have faith in you![A]
+
+[Left]#Sarai
+Ahaha... uhmm, did I actually say we?[N]
+That may've been a slip of the tongue![A]
+
+[MidRight]#Wigbrand
+You seem ready enough to join in, with[N]
+those lances of yours, let's get to it.[A]
+
+[Left]#Sarai
+I mean these are just for my own[N]
+protection Wiggy, ahaha...[A]
+
+[MidRight]#Wigbrand
+And you're under attack. So use them.[N]
+We can't be next to you all the time,[A][N]
+the enemy will spread us thin.[A]
+
+[Left]#Sarai
+Ughh... fine... How on earth do you put[N]
+up with him Wren?[A]
+
+[Right]#Wren
+Wigbrand means well, it's no issue.[N]
+Let's move out then, I believe in you[A][N]
+two![A][X]

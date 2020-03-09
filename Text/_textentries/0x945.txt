@@ -1,2 +1,2 @@
-Take this staircase to[N]
-the connecting end.[X]
+The staircase is blocked[N]
+from the other side.[X]

@@ -1,2 +1,2 @@
-Vanity: Gain +2 Damage and +10 Hit[N]
-when fighting enemy at 2 range.[X]
+Mage Slayer: Gain +2 damage and +10%[N]
+crit when facing magical enemies.[X]

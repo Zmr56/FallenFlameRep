@@ -1,2 +1,2 @@
-Alert Stance: +15 Avo[N]
+Alert Stance+: +30 Avo[N]
 when defending.[X]

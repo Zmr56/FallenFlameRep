@@ -1,3 +1,2 @@
-Cultured: If attacking next to a unit[N]
-with Nice Thighs, move again.[N]
--50 hit against units with Nice Thighs.[X]
+Lull Str: Negates the effects of[N]
+rallies on opponent's strength.[X]

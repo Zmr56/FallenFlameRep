@@ -1,2 +1,2 @@
-Lull Spd: Negates the effects[N]
-of rallies on opponent's speed.[X]
+Lull Luck: Negates the effects[N]
+of rallies on opponent's luck.[X]

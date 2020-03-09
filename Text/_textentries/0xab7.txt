@@ -1,2 +1,2 @@
-Triangle Adept+: Doubles[N]
-weapon triangle effects.[X]
+Charge+: If unit has used up[N]
+all movement, gain brave effect.[X]

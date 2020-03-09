@@ -1,2 +1,2 @@
-Triangle Adept: Doubles weapon[N]
-triangle effects for this unit.[X]
+Supply: This unit has[N]
+access to the convoy.[X]

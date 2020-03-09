@@ -1,3 +1,3 @@
-Horseguard: +4 defense against[N]
-horseback enemies if within 3[N]
-spaces of an ally horse rider.[X]
+Armorboost: +4 attack and defense[N]
+against armored enemies if within[N]
+3 spaces of an armored ally.[X]

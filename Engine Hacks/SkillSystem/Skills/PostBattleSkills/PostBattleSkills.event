@@ -115,6 +115,27 @@ WORD ACTION_MOVEACTIVE
 WORD ACTION_SWAP
 WORD ACTION_PUSH
 
+Balms:
+#incbin "Balms/Balms.dmp"
+POIN SkillTester
+WORD SolidEarthID
+WORD SwiftWindsID
+WORD StillWaterID
+WORD KindledFireID
+//WORD VelhariBalmID
+//WORD PerfectionID
+POIN DebuffTableThing
+
+DebuffTableThing:
+defWeaponDebuffs(0,0,0,0,0,0) //let 0-index entry be no debuffs.
+defWeaponDebuffs(0,0,0,0,3,0) //SolidEarth
+defWeaponDebuffs(0,0,3,0,0,0) //SwiftWinds
+defWeaponDebuffs(0,0,0,0,0,3) //StillWater
+defWeaponDebuffs(3,0,0,0,0,0) //KindledFire
+//defWeaponDebuffs(2,2,2,2,2,2) //VelhariBalm
+//defWeaponDebuffs(2,2,2,2,2,2) //Perfection
+
+ALIGN 4
 
 PUSH //some changes to vanilla code to make everything work
 ORG $1D24C //check for canto, modified to just check for cantoing bit set

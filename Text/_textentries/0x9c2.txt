@@ -1,2 +1,2 @@
-Renewal: Restore 30% of max HP[N]
-at the start of each turn.[X]
+Placeholder Skill: Does as much as[N]
+you'd expect, nothing. For now...[X]

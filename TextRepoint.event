@@ -1,0 +1,5 @@
+PUSH
+ORG $a2a0 //This is where the pointer to the text table is
+POIN TextTable //The new pointer
+POP
+MESSAGE Text table located at TextTable

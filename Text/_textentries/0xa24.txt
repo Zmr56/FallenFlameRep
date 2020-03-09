@@ -1,2 +1,2 @@
-Identity Problems: This unit can't[N]
-decide on a name or face.[X]
+Charisma: Grants +10 Hit/Avoid[N]
+to all allies within three tiles.[X]

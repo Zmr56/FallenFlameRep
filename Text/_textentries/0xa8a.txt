@@ -1,1 +1,2 @@
-Serenity: Halve biorhythm effects.[X]
+Petrify: Inflict stone status.[N]
+(Skill% activation)[X]

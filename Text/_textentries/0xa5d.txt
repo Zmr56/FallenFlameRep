@@ -1,2 +1,2 @@
-Watchful: This unit cannot be[N]
-captured or stolen from.[X]
+Hero: +30% skill activation[N]
+rate when HP is below 50%.[X]

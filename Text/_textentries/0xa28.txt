@@ -1,2 +1,2 @@
-Catch 'Em All: Grants[N]
-the user every skill.[X]
+Vantage+: User always attacks first,[N]
+even if attacked. Negates crits.[X]

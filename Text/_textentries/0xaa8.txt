@@ -1,2 +1,2 @@
-Shade: Enemies are less[N]
-likely to target this unit.[X]
+Shade+: Enemies won't[N]
+target this unit.[X]

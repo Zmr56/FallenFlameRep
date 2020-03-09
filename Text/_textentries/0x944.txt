@@ -1,1 +1,2 @@
- Stairs[X]
+Take this staircase to[N]
+the connecting end.[X]

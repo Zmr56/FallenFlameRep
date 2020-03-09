@@ -1,3 +1,2 @@
-Ready Stance: +4 speed[N]
-and defense when foe[N]
-initiates battle.[X]
+Steady Stance: +6 defense[N]
+when foe initiates battle.[X]

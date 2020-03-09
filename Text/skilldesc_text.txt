@@ -33,7 +33,7 @@ Provoke: Enemies are more[N]
 likely to target this unit.[X]
 
 ## SD_Mercy
-Mercy: Enemies are left[N]
+Dire Slash: Enemies are left[N]
 with at least 1 HP.[X]
 
 ## SD_Frenzy
@@ -206,8 +206,8 @@ Renewal: Restore 30% of max HP[N]
 at the start of each turn.[X]
 
 ## SD_NiceThighs
-Nice Thighs: No effect, really.[N]
-Just thought I'd point them out.[X]
+Placeholder Skill: Does as much as[N]
+you'd expect, nothing. For now...[X]
 
 ## SD_Demoiselle
 Demoiselle: Male allies within[N]
@@ -344,7 +344,7 @@ opponent after combat.[N]
 (No effect if Move is --)[X]
 
 ## SD_Intimidate
-Intimidate: -10 Avoid to[N]
+Binding Aura: -10 Avoid to[N]
 all enemies within 2 tiles.[X]
 
 ## SD_Opportunist
@@ -1231,3 +1231,22 @@ Vengeance: Add half of damage[N]
 taken to damage dealt.[N]
 (Skill % activation)[X]
 
+## SD_SolidEarth
+Earth Blessing: Allied unit targeted[N]
+by this unit's Staves gain +3 Def.[X]
+
+## SD_SwiftWinds
+Wind Blessing: Allied unit targeted[N]
+by this unit's Staves gain +3 Spd.[X]
+
+## SD_StillWater
+Snow Blessing: Allied unit targeted[N]
+by this unit's Staves gain +3 Res.[X]
+
+## SD_KindledFire
+Blazing Blessing: Allied unit targeted[N]
+by this unit's Staves gain +3 Str/Mag.[X]
+
+## SD_TempestBlood
+Tempest Blood: +2 attack speed[N]
+when HP is not at max.[X]

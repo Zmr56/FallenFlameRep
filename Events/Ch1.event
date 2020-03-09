@@ -135,6 +135,26 @@ ENUN
 LOAD1 0x1 Bad
 ENUN
 NoFade
+/*
+MUSC 0x13
+SetBackground(0x21)
+Text(Ch1OpeningText1)
+TEXTEND
+MUSC 0x35
+SetBackground(0x10)
+Text(Ch1OpeningText2)
+TEXTEND
+MUSC 0x35
+SetBackground(0x10)
+Text(Ch1OpeningText3)
+TEXTEND
+MUSC 0x4C
+SetBackground(0x3)
+Text(Ch1OpeningText3)
+MUSC 0x25
+TEXTCONT
+TEXTEND
+*/
 ENDA
 
 EndingScene:

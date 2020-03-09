@@ -7,7 +7,7 @@
 #define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
 
 #ifndef ItemTable
-  #define ItemTable 0x809B10
+  #define ItemTable ItemEditor
 #endif
 #ifndef DebuffTable
   #define DebuffTable     0x0203F100
@@ -28,8 +28,6 @@
 
 #include "Engine Hacks/SkillSystem/skill_definitions.event"
 #include "Event Assembler/Extensions/AI Assembly.txt"
-
-#define PlaceholderSkillID 255
 
 //#define __DEBUG__ // Uncomment to get the Debug startup menu :p
 

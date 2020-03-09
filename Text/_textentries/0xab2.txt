@@ -1,2 +1,2 @@
-Glacies: Add unit's Resistance[N]
-to damage dealt. (Skill % activation)[X]
+Gridmaster: Movement skills[N]
+do not end your action.[X]

@@ -1,2 +1,2 @@
-Certain Blow: +40 Hit[N]
+Armored Blow: +10 Def[N]
 when initiating battle.[X]

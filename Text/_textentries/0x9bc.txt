@@ -1,1 +1,2 @@
-Crit Boost: +15 critical rate.[X]
+Slayer: Deal effective damage[N]
+to monster units.[X]

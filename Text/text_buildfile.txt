@@ -35,9 +35,6 @@ Sirius[X]
 ## nameZeke
 Zeke[X]
 
-## DefendGreenText
-[OpenMidLeft][LoadFace][WrenPortrait]Defend the fat noble for 9 turns![A][X]
-
 ## VillageText
 [MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
 
@@ -45,11 +42,11 @@ Zeke[X]
 Kill Datta.[X]
 
 ## DefendFatNobleStatus
-Defend noble for 9[N]
-turns or kill boss.[X]
+Defend the noble and passage[N]
+for 9 turns or kill the boss.[X]
 
 ## DefendFatNobleWindow
-Defend noble[X]
+Defend[X]
 
 ## nameVampus
 Vampus[X]

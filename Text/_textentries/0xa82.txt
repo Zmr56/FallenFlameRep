@@ -1,2 +1,2 @@
-Indoor Fighter: +10 Hit and[N]
-Avo when fighting indoors.[X]
+Outdoor Fighter: +10 Hit and[N]
+Avo when fighting outdoors.[X]

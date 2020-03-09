@@ -1,2 +1,2 @@
-Deadeye: Doubles hit rate.[N]
-Skill% chance to inflict sleep.[X]
+Dragon Fang: 1.5x damage.[N]
+(Skill% activation)[X]

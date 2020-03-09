@@ -1,2 +1,2 @@
-Defiant Spd: When HP is 25%[N]
-or lower, gain +4 Speed.[X]
+Defiant Luck: When HP is 25%[N]
+or lower, gain +4 Luck.[X]

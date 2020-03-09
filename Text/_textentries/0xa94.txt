@@ -1,2 +1,2 @@
-Double Lion: All weapons[N]
-are treated as brave.[X]
+Eclipse: Leave opponent with 1 HP.[N]
+(Skill % activation)[X]

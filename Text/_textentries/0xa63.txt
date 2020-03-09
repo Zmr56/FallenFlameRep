@@ -1,2 +1,2 @@
-Drive Magic: Allies within[N]
-2 spaces receive +4 magic.[X]
+Drive Skill: Allies within[N]
+2 spaces receive +4 skill.[X]

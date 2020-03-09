@@ -57,6 +57,7 @@
 [DanaPortrait] = [0xa][0x1]
 [SaraiPortrait] = [0xe][0x1]
 
+[BanditPortrait] = [0x6d][0x1]
 [DattaPortrait] = [0x4a][0x1]
 [WizvilPortrait] = [0x41][0x1]
 
@@ -70,6 +71,7 @@
 [LoadDana] = [LoadFace][DanaPortrait]
 [LoadSarai] = [LoadFace][SaraiPortrait]
 
+[LoadBandit] = [LoadFace][BanditPortrait]
 [LoadDatta] = [LoadFace][DattaPortrait]
 [LoadWizvil] = [LoadFace][WizvilPortrait]
 

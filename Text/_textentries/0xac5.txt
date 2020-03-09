@@ -1,11 +1,15 @@
 
-[MidLeft][LoadNoble]
-Ah Wren! You may be unfamiliar with[N]
-the layout of this fortress.[A][N]
-Entrances to outside lead out from[N]
-the carpets on the eastern and south[A][N]
-western openings. The staircases by[N]
-the south also leads to outside.[A][N]
-Beware of all kinds of reinforcements[N]
-emerging from these points![A]
-[X]
+[MidRight][LoadWizvil]
+[MidLeft][LoadBandit]
+
+[MidRight]#Wizvil
+Hmph, these knights of Blumari were[N]
+easier pickings than I expected. Men![A][N]
+Raid the castle from inside and stop[N]
+the guards from requesting back-up.[A][N]
+We'll kill any hostiles inside and make[N]
+off with our gains. I'll stay on guard[A][N]
+out here however, in case enemies come.[A]
+
+[MidLeft]#Bandit
+Yes sir![A][X]

@@ -57,9 +57,12 @@ END_MAIN
 Units1:
 UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [IronSword, Rapier, Vulnerary] NoAI 
 UNIT Wigbrand Paladin Wren Level(5, Ally, 0) [3,8] 0x00 0x00 0x0 0x00 [IronSword, BraveSword, IronLance] NoAI 
+UNIT
+
+Units2:
 UNIT Shamira Knight_F Wren Level(4, Ally, 0) [4,7] 0x00 0x00 0x0 0x00 [SteelLance, Javelin, IronSword] NoAI 
 UNIT Huginn Fighter Wren Level(6, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [IronAxe, SteelAxe, Vulnerary] NoAI 
-UNIT Orvar Archer Wren Level(4, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [IronBow, SteelBow] NoAI 
+UNIT Orvar Archer Wren Level(4, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [IronBow, SteelBow] NoAI
 UNIT
 
 Bad: 
@@ -91,15 +94,39 @@ LABEL 0x0
 //Text(Ch0IntroTalk)
 LOAD1 0x1 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep screens
 ENUN
-LOAD1 0x1 Bad
-ENUN
-/*
+
 MUSC 0x0B
 SetBackground(0x21)
 Text(PrologueOpeningText1)
 TEXTEND
 CALL $9EE2C4 //BGEnd
 MUSC 0x0
+FADI 16
+SOUN 0xD2
+STAL 24
+SOUN 0xD3
+STAL 24
+SOUN 0xD4
+STAL 24
+SOUN 0xD2
+STAL 24
+FADU 16
+MUSC 0x0B
+SetBackground(0x21)
+Text(PrologueOpeningText2)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+LOAD1 0x1 Bad
+ENUN
+LOAD1 0x1 Units2
+ENUN
+MUSC 0x25
+SetBackground(0x21)
+Text(PrologueOpeningText3)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+/*
+This is how a scripted battle is done.
 StartBattle
 NormalDamage(0,8)
 CriticalHit(1,15)
@@ -110,6 +137,11 @@ FIG1 Wigbrand Wren 0x0
 ENDA
 
 EndingScene:
+MUSC 0x31
+SetBackground(0x21)
+Text(PrologueClosingText)
+TEXTEND
+CALL $9EE2C4 //BGEnd
 MNC2 0x1 //go to ch1
 NoFade
 ENDA

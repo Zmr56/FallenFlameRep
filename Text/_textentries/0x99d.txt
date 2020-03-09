@@ -1,2 +1,2 @@
-Bane: Leave the opponent at 1 HP.[N]
-(Skill/2 % activation)[X]
+Luna: Negates enemy defenses.[N]
+(Skill % activation)[X]

@@ -1,2 +1,2 @@
-Alert Stance+: +30 Avo[N]
-when defending.[X]
+Corona: Negate enemy resistance.[N]
+(Skill% activation)[X]

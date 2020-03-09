@@ -1,2 +1,2 @@
-Enrage: Inflict berserk status.[N]
-(Skill% activation)[X]
+Deadeye: Doubles hit rate.[N]
+Skill% chance to inflict sleep.[X]

@@ -1,2 +1,2 @@
-Short Shield: Gain 6 defense[N]
-against attacks recieved in melee.[X]
+Tower Shield: Gain 6 defense[N]
+against attacks recieved at range.[X]

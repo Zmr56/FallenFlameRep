@@ -1,2 +1,2 @@
-Desperation: If HP < 50%,[N]
-double attacks occur immediately.[X]
+Wrath: If HP < 50%,[N]
++20 critical rate.[X]

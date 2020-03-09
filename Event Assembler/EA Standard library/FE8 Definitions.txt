@@ -481,3 +481,6 @@
 
 #define CurrentUnit ActiveUnit
 #define UnitAtCoords UnitAtCoordsSlotB
+
+#define GiveItem(Item,Character) "CALL $591F40; SMOV 0x3 Item ; GIVEITEMTO Character"
+#define GiveGold(money) "CALL $591F40; SVAL 0x3 money; GIVEITEMTOMAIN 0"

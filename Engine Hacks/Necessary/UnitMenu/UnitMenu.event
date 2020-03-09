@@ -77,6 +77,8 @@ UnitMenuTable:
     MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeGeneralUsability, EscapeGeneralEffect)
   #endif // ESCAPE_ARIVE
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
+  #ifdef __DEBUG__
+  #endif // __DEBUG__
   // UM_Attack
   MenuCommand(0x67b, 0x6c0, NormalText, $249ac, AttackEffect, $22c31, $22c99) //to clear flags
   // UM_Attack_B
@@ -158,6 +160,9 @@ UnitMenuTable:
   
   UM_Supply
   //MenuCommand(0x68F,0x6D5,GreenText,NewSupplyUsability,0x23FB8)
+  
+  // UM_Win
+  MenuCommand(UMText_Win, UMDesc_Win, GreenText, Win_Usability ,Win_Effect)
   
   UM_Wait
 

@@ -1,2 +1,3 @@
-Imbue: Heal HP equal to magic[N]
-at the start of each turn.[X]
+Thighdeology: If a unit within[N]
+3 tiles has Nice Thighs, gain[N]
++2 Attack and +20 Hit.[X]

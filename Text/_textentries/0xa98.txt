@@ -1,2 +1,2 @@
-Push Magic: When HP[N]
-is full, gain +5 magic.[X]
+Push Skill: When HP[N]
+is full, gain +5 skill.[X]

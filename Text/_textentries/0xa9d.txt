@@ -1,2 +1,2 @@
-Skybreaker: Deal effective[N]
-damage to flying units.[X]
+Resourceful: Double bonus[N]
+effectiveness multipliers.[X]

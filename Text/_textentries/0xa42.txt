@@ -1,2 +1,2 @@
-Full Metal Body: This unit is[N]
-immune to all the Seal skills.[X]
+Liquid Ooze: Attackers trying to gain HP[N]
+from attacking this unit lose it instead.[X]

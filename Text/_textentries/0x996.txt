@@ -1,3 +1,2 @@
-Sure Shot: A precision attack that[N]
-always hits and does 1.5x damage.[N]
-(Skill % activation)[X]
+Provoke: Enemies are more[N]
+likely to target this unit.[X]

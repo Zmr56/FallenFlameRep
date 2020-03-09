@@ -1,1 +1,1 @@
-Tempest: Double biorhythm effects.[X]
+Serenity: Halve biorhythm effects.[X]

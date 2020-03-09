@@ -1,2 +1,2 @@
-Push Resistance: When HP is[N]
-full, gain +5 resistance.[X]
+Skybreaker: Deal effective[N]
+damage to flying units.[X]

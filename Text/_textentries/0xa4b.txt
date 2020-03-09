@@ -1,2 +1,2 @@
-Hex: -15 avoid to all[N]
-adjacent enemies.[X]
+Barricade: Damage taken is[N]
+halved after first being struck.[X]

@@ -11,7 +11,7 @@
 
 //Shade: Enemies are less likely to target this unit.
 //By Sme
-#define ShadeID 255
+#define ShadeID 217
 
 //Shade+: Enemies will not target this unit.
 //By Sme
@@ -46,15 +46,15 @@
 
 //Drive Skills: Allies within 2 spaces receive +4 to their respective stat.
 //By Sme
-#define DriveStrID 211
-#define DriveMagID 212
-#define DriveSpdID 213
-#define DriveDefID 214
-#define DriveResID 215
+#define DriveStrID 255
+#define DriveMagID 255
+#define DriveSpdID 255
+#define DriveDefID 255
+#define DriveResID 255
 
 //Focus: +10 Critical if there are no allies within 3 tiles.
 //Author Unknown (Initial Commit)
-#define FocusID 92
+#define FocusID 255
 
 //Gentilhomme: Female allies within 2 tiles receive -2 damage.
 //Author Unknown (Initial Commit)
@@ -173,7 +173,7 @@
 
 //Aptitude: +20% to all growth rates.
 //By Sme
-#define AptitudeID 217
+#define AptitudeID 255
 
 
 //HP Restoration Skills
@@ -613,7 +613,7 @@
 
 //Deadeye: Doubles hit rate. Skill% chance to inflict sleep.
 //By Sme
-#define DeadeyeID 252
+#define DeadeyeID 255
 
 //Devil's Luck: Immune to Devil Reversal. Gives unit's Devil Reversal to the enemy. (31-Luck % chance of Devil Reversal).
 //By Leonarth
@@ -632,11 +632,11 @@
 
 //Dragon Fang: 1.5x damage. (Skill% activation)
 //By Sme
-#define DragonFangID 253
+#define DragonFangID 255
 
 //Enrage: Inflict berserk status. (Skill% activation)
 //By Sme
-#define EnrageID 251
+#define EnrageID 255
 
 //Flare: Halve enemy resistance. (Skill% activation)
 //By Sme
@@ -676,7 +676,7 @@
 
 //Petrify: Inflict stone status. (Skill% activation)
 //By Sme
-#define PetrifyID 250
+#define PetrifyID 255
 
 //Sol: Restore damage dealt as HP. (Skill % activation)
 //Author Unknown (Initial Commit)
@@ -746,10 +746,14 @@
 #define DefiantStrID 229
 #define DefiantMagID 230
 #define DefiantSklID 231
-#define DefiantSpdID 232
+#define DefiantSpdID 255
 #define DefiantLckID 233
 #define DefiantDefID 234
 #define DefiantResID 235
+
+//Tempest Blood, +2 AS when below full health.
+//By Zmr
+#define TempestBloodID 235
 
 //Resolve: When HP < 50%, gain 1.5x Str, Skl, & Spd.
 //By Sme
@@ -863,7 +867,7 @@
 
 //Wary Fighter: Unit cannot double or be doubled.
 //By Tequila
-#define WaryFighterID 4
+#define WaryFighterID 255
 
 //Savior: Can rescue without penalties.
 //Author Unknown (Initial Commit)
@@ -871,15 +875,15 @@
 
 //Discipline: Weapon experience gains are doubled.
 //Author Unknown (Initial Commit)
-#define DisciplineID 18
+#define DisciplineID 255
 
 //Vantage: If HP < 50%, strike first when attacked.
 //Author Unknown (Initial Commit)
-#define VantageID 32
+#define VantageID 255
 
 //Vantage+: User always attacks first, even if attacked. Negates crits.
 //By SD9k
-#define VantagePlusID 152
+#define VantagePlusID 96
 
 //Nihil: Cancels the opponent's skills in combat.
 //Author Unknown (Initial Commit)
@@ -896,7 +900,7 @@
 
 //Expertise: Reduce bonus damage from critical hits by 50%.
 //Author Unknown (Initial Commit)
-#define ExpertiseID 96
+#define ExpertiseID 255
 
 //Celerity: Movement +2.
 //Author Unknown (Initial Commit)
@@ -912,15 +916,15 @@
 
 //Rightful King: +10% to Skill activation rate.
 //Author Unknown (Initial Commit)
-#define RightfulKingID 128
+#define RightfulKingID 255
 
 //Rightful God: +30% to Skill activation rate.
 //Author Unknown (Initial Commit)
-#define RightfulGodID 129
+#define RightfulGodID 255
 
 //Rightful Arch: Sets Skill activation rate to 100%.
 //Author Unknown (Initial Commit)
-#define RightfulArchID 127
+#define RightfulArchID 255
 
 //Triangle Adept: Doubles weapon triangle effects for this unit.
 //By Tequila
@@ -939,19 +943,19 @@
 
 //Liquid Ooze: Attackers trying to gain HP from attacking this unit lose it instead.
 //By Leonarth
-#define LiquidOozeID 178
+#define LiquidOozeID 255
 
 //Shadowgift: Allows the user to use Dark Magic. (Uses highest Magic Rank)
 //By Leonarth
-#define ShadowgiftID 179
+#define ShadowgiftID 255
 
 //Lumina: Allows the user to use Light Magic. (Uses highest Magic Rank)
 //By Leonarth
-#define LuminaID 180
+#define LuminaID 255
 
 //Discipline+: Weapon experience gains are doubled. Unit may S-Rank multiple weapon types.
 //By Zeta
-#define DisciplinePlusID 204
+#define DisciplinePlusID 255
 
 //Watchful: This unit cannot be captured or stolen from.
 //By Sme
@@ -975,16 +979,21 @@
 
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
-#define TempestID 248 //Requires Biorhythm
-#define SerenityID 249 //Requires Biorhythm
+#define TempestID 255 //Requires Biorhythm
+#define SerenityID 255 //Requires Biorhythm
 
+//Balm Skills: Stat buffs on healing.
+//By Dat
+#define SolidEarthID 250
+#define SwiftWindsID 251
+#define StillWaterID 252
+#define KindledFireID 253
 
 //Display-Only Skills
 
 #define CunningID 12
-#define NiceThighsID 50
+#define PlaceholderSkillID 50
 #define PersonalityID 109
-
 
 //Broken Skills
 
@@ -992,7 +1001,6 @@
 #define TraceID 145
 #define CatchEmAllID 151
 #define TriangleAttackID 255
-
 
 ///WIP Skills
 

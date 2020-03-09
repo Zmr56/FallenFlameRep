@@ -12,7 +12,7 @@ Switch places with opponent[N]
 after combat.[X]
 
 ## UM_Mercy
- Mercy[X]
+ Dire Slash[X]
 
 ## UM_MercyDesc
 Leave opponent with[N]

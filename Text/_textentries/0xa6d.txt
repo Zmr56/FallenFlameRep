@@ -1,1 +1,1 @@
-Insight: Hit +20.[X]
+Vigilance: Avoid +20.[X]

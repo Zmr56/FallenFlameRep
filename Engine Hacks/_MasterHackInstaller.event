@@ -193,7 +193,6 @@ POP
   ALIGN 4
   #include "FallenFlame/ThraciaTrading.event"
   
-  
   ALIGN 4
   #include "Necessary/StatGetters/_InstallStatGetters.event"
   

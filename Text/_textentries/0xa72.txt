@@ -1,2 +1,2 @@
-Night Tide: Def and Res +5[N]
-to adjacent allies.[X]
+Prescience: When initiating[N]
+battle, Hit and Avo +15.[X]

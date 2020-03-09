@@ -64,8 +64,8 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x3E Pupil (1),0x0
 0x3F Fighter,FighterSkillList|IsPointer
 0x40 Warrior,WarriorSkillList|IsPointer
-0x41 Brigand,BrigandSkillList|IsPointer
-0x42 Pirate,PirateSkillList|IsPointer
+0x41 Brigand,BarbarianSkillList|IsPointer
+0x42 Pirate,BarbarianSkillList|IsPointer
 0x43 Berserker,BerserkerSkillList|IsPointer
 0x44 Monk,MonkSkillList|IsPointer
 0x45 Priest,PriestSkillList|IsPointer

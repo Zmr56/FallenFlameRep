@@ -1,7 +1,7 @@
 .thumb
 .equ ThotslayerID, SkillTester+4
-.equ NiceThighsID, ThotslayerID+4
-.equ PersonalityID, NiceThighsID+4
+.equ PlaceholderSkillID, ThotslayerID+4
+.equ PersonalityID, PlaceholderSkillID+4
 
 push {r4-r7, lr}
 mov r4, r0 @attacker
@@ -20,7 +20,7 @@ beq GoBack
 ldr r0, SkillTester
 mov lr, r0
 mov r0, r5 @defender data
-ldr r1, NiceThighsID
+ldr r1, PlaceholderSkillID
 .short 0xf800
 cmp r0, #0
 bne ActivateSkill
@@ -51,5 +51,5 @@ pop {r4-r7, r15}
 SkillTester:
 @POIN SkillTester
 @WORD ThotslayerID
-@WORD NiceThighsID
+@WORD PlaceholderSkillID
 @WORD PersonalityID

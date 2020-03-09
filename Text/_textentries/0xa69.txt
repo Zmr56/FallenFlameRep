@@ -1,2 +1,2 @@
-Blossom: 2x growth rates,[N]
-but 1/2 exp gain.[X]
+Aptitude: +20% to[N]
+all growth rates.[X]

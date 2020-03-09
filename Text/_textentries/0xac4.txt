@@ -1,1 +1,47 @@
+
+[MidRight][LoadWren]
+[MidLeft][LoadWigbrand]
+
+[MidRight]#Wren
+The commander has fallen and whatever's[N]
+left has scattered. Do we pursue?[A]
+
+[MidLeft]#Wigbrand
+They've all gone their own ways, a[N]
+lonesome crook is of no concern for us.[A][N]
+Although I couldn't help but notice the[N]
+unusual Gofaullian accent on the leader.[A][N]
+Would you have any idea where they hail[N]
+from Huginn?[A]
+
+[Right][LoadHuginn]
+
+[Right]#Huginn
+Sounded like one from the east coast.[N]
+I'd reckon he's from the confederate,[A][N]
+not a Blumari bandit like the others.[A]
+
+[MidLeft]#Wigbrand
+It may very well be the case then that[N]
+they have swarmed the rest of the[A][N]
+mainland, colluding with bandits from[N]
+Blumari to wreck havoc, prepare[A][N]
+yourselves for more combat everyone.[A]
+
+[MidRight]#Wren
+We'll march home as swiftly as we can[N]
+then. If the pirates and bandits are[A][N]
+working together already then perhaps[N]
+my father's prediction about the[A][N]
+invasion was a good guess.[A]
+
+[MidLeft]#Wigbrand
+Best be ready to fight all manner of[N]
+enemies then, knights and knaves alike.[A][N]
+
+[MidRight]#Wren
+Indeed, it's quite the unusual colation[N]
+isn't it? Let's march on then and see[A][N]
+for ourselves what their combined[N]
+strength can do compared to our own.[A]
 [X]

@@ -1,2 +1,3 @@
-Moonlight: Cannot double but[N]
-opponent cannot counterattack.[X]
+Vengeance: Add half of damage[N]
+taken to damage dealt.[N]
+(Skill % activation)[X]

@@ -12,7 +12,7 @@ Horseguard:
 POIN SkillTester
 POIN AuraSkillCheck
 WORD HorseguardID
-WORD Horseguard
+WORD HorseType
 
 ALIGN 4
 Skyguard:
@@ -21,3 +21,12 @@ POIN SkillTester
 POIN AuraSkillCheck
 WORD SkyguardID
 WORD FlierType
+/*
+ALIGN 4
+Mageguard:
+#incbin "Mageguard.dmp"
+POIN SkillTester
+POIN AuraSkillCheck
+WORD MageguardID
+WORD MagicType
+*/

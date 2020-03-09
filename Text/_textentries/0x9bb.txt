@@ -1,2 +1,1 @@
-Tomefaire: +4 damage[N]
-when equipping a tome.[X]
+Crit Boost: +15 critical rate.[X]

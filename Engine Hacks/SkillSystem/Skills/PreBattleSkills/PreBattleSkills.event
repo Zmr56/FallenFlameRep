@@ -79,6 +79,12 @@ POIN SkillTester
 WORD FieryBloodID
 
 ALIGN 4
+TempestBlood:
+#incbin "TempestBlood/TempestBlood.dmp"
+POIN SkillTester
+WORD TempestBloodID
+
+ALIGN 4
 Fortune:
 #incbin "Fortune/Fortune.dmp"
 POIN SkillTester
@@ -323,14 +329,14 @@ Thighdeology:
 POIN SkillTester
 WORD ThighdeologyID
 POIN AuraSkillCheck
-WORD NiceThighsID
+WORD PlaceholderSkillID
 
 ALIGN 4
 Thotslayer:
 #incbin "Thotslayer/Thotslayer.dmp"
 POIN SkillTester
 WORD ThotslayerID
-WORD NiceThighsID
+WORD PlaceholderSkillID
 WORD PersonalityID
 
 ALIGN 4
