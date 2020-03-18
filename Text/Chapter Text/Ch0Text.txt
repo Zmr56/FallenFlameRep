@@ -103,7 +103,7 @@ just a lucky chance encounter.[A]
 [MidLeft]#Huginn
 Save it for later Orvar,[N]
 we've got bandits to bash.[A]
-[Left][Clear]
+[Left][ClearFace]
 
 [MidRight][LoadWigbrand]
 

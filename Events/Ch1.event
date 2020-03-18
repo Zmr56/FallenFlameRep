@@ -128,6 +128,12 @@ UNIT 0x80 WyvernRider Sawine Level(4, Enemy, 1) [11,10] 0x00 0x00 0x0 0x00 [Stee
 UNIT
 
 BeginningScene:
+MUSC 0x25
+SetBackground(0x03)
+Text(Ch1OpeningText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
 LOAD3 0x1 Units1
 ENUN
 LOAD1 0x1 NewCrew
@@ -135,29 +141,18 @@ ENUN
 LOAD1 0x1 Bad
 ENUN
 NoFade
-/*
-MUSC 0x13
-SetBackground(0x21)
-Text(Ch1OpeningText1)
-TEXTEND
-MUSC 0x35
-SetBackground(0x10)
-Text(Ch1OpeningText2)
-TEXTEND
-MUSC 0x35
-SetBackground(0x10)
-Text(Ch1OpeningText3)
-TEXTEND
-MUSC 0x4C
-SetBackground(0x3)
-Text(Ch1OpeningText3)
-MUSC 0x25
-TEXTCONT
-TEXTEND
-*/
 ENDA
 
 EndingScene:
+MUSC 0x31
+SetBackground(0x15)
+Text(Ch1ClosingText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+SetBackground(0x0A)
+Text(Ch1ClosingText2)
+TEXTEND
+CALL $9EE2C4 //BGEnd
 MNCH 0x2
 NoFade
 ENDA

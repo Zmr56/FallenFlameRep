@@ -1,67 +1,113 @@
 
-[Right][LoadWren]
-[MidRight][LoadWigbrand]
+[MidRight][LoadWren]
+[Right][LoadWigbrand]
 
-[Right]#Wren
-Home at last, but no guards standing by.[N]
-This unsettles me Wigbrand, something[A]
-is amiss.
+[MidRight]#Wren
+No bandits inside, looks like you were[N]
+right, Wigbrand. Although... there's[A][N]
+plenty of blood everywhere... That's[N]
+going to stain the tiles for a while.[A]
 
-[MidRight]#Wigbrand
-Perhaps the riders approaching over the[N]
-horizon will provide some clarity.[A]
+[Right]#Wigbrand
+I believe Duke Falcone is approaching[N]
+us, Wren. He looks untouched.[A]
 
-[LoadOverworldFaces]
+[MidLeft][LoadFalcone]
 
-[MidLeft][LoadDana]
-[Left][LoadSarai]
+[MidRight]#Wren
+Grandpapa![A]
 
-[Right]#Wren
-Dana! Sarai! What's going on? Is it the[N]
-bandits and pirates?[A]
+[MidLeft]#Falcone
+Wren! Oh I am relieved to see you! I[N]
+can't believe you're on the battlefield[A][N]
+already... You've started sooner than I[N]
+did... How are you finding it all?[A]
 
-[MidLeft]#Dana
-Aye! We were setting off from the shop[N]
-until we were swarmed by bandits, so[A][N]
-we rode out for reinforcements. Seems[N]
-like you've came in good time however,[A][N]
-their assault on the castle has just[N]
-started so we should have enough time[A][N]
-seize the front gate back.[A]
+[MidRight]#Wren
+It's fine and so am I, grandpapa. Well,[N]
+it's not fine but you know what I mean,[A][N]
+right?[A]
 
-[Left]#Sarai
-These ruffians have no manners, Wren![N]
-We must show them who is really in[A][N]
-control here![A]
+[MidLeft]#Falcone
+No, don't worry, I fully understand.[N]
+As long as you, your father and your[A][N]
+uncle are fine, I'm fine![A]
 
-[Right]#Wren
-Oh, you're joining into the fray too?[N]
-I didn't know you were eager for combat[A][N]
-Sarai, I'm kind of nervous about you[N]
-joining but I have faith in you![A]
+[Right]#Wigbrand
+Speaking of Sir Kestral, have you heard[N]
+any word from him, Duke Falcone?[A]
 
-[Left]#Sarai
-Ahaha... uhmm, did I actually say we?[N]
-That may've been a slip of the tongue![A]
+[MidLeft]#Falcone
+Only today did I learn of his status.[N]
+A messenger came to me so I could[A][N]
+relay a message unto you. Kestral has[N]
+departed from the Eastern Viripurian[A][N]
+Empire with the princess of its Western[N]
+half in his care. Princess Adela is[A][N]
+expected to be kept safe within our[N]
+capital. However, you're expected to[A][N]
+rendezvous with your father at[N]
+Aquanpool Port.[A]
 
-[MidRight]#Wigbrand
-You seem ready enough to join in, with[N]
-those lances of yours, let's get to it.[A]
+[MidRight]#Wren
+Why there? Wouldn't it have been easier[N]
+for him to head straight for the[A][N]
+capital?[A]
 
-[Left]#Sarai
-I mean these are just for my own[N]
-protection Wiggy, ahaha...[A]
+[MidLeft]#Falcone
+He tried. But they were ambushed at sea[N]
+by a particuarly powerful foe so they[A][N]
+had to change course.[A]
 
-[MidRight]#Wigbrand
-And you're under attack. So use them.[N]
-We can't be next to you all the time,[A][N]
-the enemy will spread us thin.[A]
+[MidRight]#Wren
+Hmmm, very well. I hope father is safe.[N]
+We'll travel by boat to the port from[A][N]
+here. Thank you, grandpapa, for the[N]
+update. I've been worried sick having[A][N]
+no word from father... It'd be nice to[N]
+stick around but with these pirates[A][N]
+invading I have no time to spare.[N]
+Goodbye, grandpapa! I love you![A]
 
-[Left]#Sarai
-Ughh... fine... How on earth do you put[N]
-up with him Wren?[A]
+[MidLeft]#Falcone
+I love you too Wren![N][A]
 
-[Right]#Wren
-Wigbrand means well, it's no issue.[N]
-Let's move out then, I believe in you[A][N]
-two![A][X]
+[MidRight][ClearFace]
+
+[MidLeft]#Falcone
+Tell me, Wigbrand, how does she truly[N]
+fare? I cannoy imagine that girl has[A][N]
+the fortitude to take a life, I barely[N]
+could myself.[A]
+
+[Right]#Wigbrand
+She is stronger than you think. Things[N]
+normally deemed the domain of men like[A][N]
+us such as politics and war are no[N]
+stranger to her. They are her lifelong[A][N]
+passions.[A]
+
+[MidLeft]#Falcone
+Hmph, it is not a state of affairs many[N]
+here or in the capital are happy with.[A][N]
+But with the situation so dire around[N]
+the world, I cannot afford to choose[A][N]
+the gender of our commanders freely.[N]
+We must take talent regardless of[A][N]
+who possesses it. Man or not.[A]
+
+[Right]#Wigbrand
+I can vouch for her talent. I have no[N]
+doubt that she will prove her worth in[A][N]
+battle. Once the inevitable campaign in[N]
+Gofaul starts, she will be the best[A][N]
+candidate to lead a coalition there.[N]
+Gofaul is her second home so to say, I[A][N]
+think she's better equipped than others[N]
+to gather the allies we need there.[A]
+
+[MidLeft]#Falcone
+I suppose there might be a silver[N]
+lining in Kestral marrying that wild[A][N]
+woman from Gofaul after all...[A]
+[X]

@@ -73,7 +73,7 @@ VillageEventItem(PlaceholderText, Village, Horseslayer)
 VillageEventItem(PlaceholderText, Village, Venenum) */
 
 ArmoryList:
-SHLI IronSword IronLance IronAxe IronBow SteelBow
+SHLI IronSword IronBlade IronLance HeavySpear IronAxe Hammer IronBow SteelBow
 
 ALIGN 4
 
@@ -151,6 +151,12 @@ UNIT 0x80 Shaman Sawine Level(4, Enemy, 1) [2,13] 0x00 0x00 0x0 0x00 [Flux] Purs
 UNIT
 
 BeginningScene:
+MUSC 0x40
+SetBackground(0x07)
+Text(Ch2OpeningText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
 LOAD3 0x1 Units1
 ENUN
 LOAD1 0x1 NewCrew

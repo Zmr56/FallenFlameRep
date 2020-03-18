@@ -3,3 +3,7 @@
 FatNoble_Mug:
 #incext PortraitFormatter "FatNoble.png"
 setMugEntry(0x31, FatNoble_Mug, 2, 6, 2, 4)
+
+Falcone_Mug:
+#incext PortraitFormatter "Falcone.png"
+setMugEntry(0x52, Falcone_Mug, 3, 6, 3, 4)

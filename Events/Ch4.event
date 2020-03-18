@@ -63,7 +63,7 @@ SHLI Vulnerary PureWater Flux Fire Lightning
 ALIGN 4
 
 ArmoryList:
-SHLI IronSword IronBlade IronLance SteelLance IronAxe Hammer IronBow SteelBow
+SHLI SteelBlade SteelLance SteelAxe SteelBow
 ALIGN 4
 
 MiscBasedEvents:

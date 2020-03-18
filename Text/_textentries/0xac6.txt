@@ -1,43 +1,15 @@
 
-[MidRight][LoadSarai]
-[MidLeft][LoadDana]
+[MidLeft][LoadWren]
+[MidRight][LoadWigbrand]
 
-[MidRight]#Sarai
-Ok so, do you think I look cuter with[N]
-the red gem bracelet or the blue gem[A][N]
-one? The red gem I think suits my[N]
-aesthetic more but the blue is a bit[A][N]
-more noble, y'know?[A]
+[MidLeft]#Wren
+That's that, the gate is seized so we[N]
+can safely press on inside. Looks like[A][N]
+the rest of the bandits fled. I hope[N]
+granfather is safe...[A]
 
-[MidLeft]#Dana
-Milady, we're due to meet Duke Falcone[N]
-in less than five minutes. We seriously[A][N]
-need to get a move on. I think our[N]
-detour has gone on long enough now...[A]
-
-[MidRight]#Sarai
-Fine... We'll make it in five anyway,[N]
-it's just a short ride away from here![A][N]
-What could possibly delay us further?[A]
-
-[MidLeft]#Dana
-Well I think that's your question[N]
-answered...[A]
-
-[MidRight]#Sarai
-Eek! Dana, slay these impudent fools![N]
-How dare they raise their blade against[A][N]
-us![A]
-
-[MidLeft]#Dana
-Yeah, no. Not on my own. We have to get[N]
-reinforcements! Let's go![A]
-
-[MidRight][Clear]
-[MidLeft][Clear]
-
-[LoadBandit][MidLeft]
-
-[MidLeft]#Bandit
-Hey! Some soldiers just got past, after[N]
-them lads! Don't let any escape![A][X]
+[MidRight]#Wigbrand
+His castle guards are formidable, I[N]
+would not be surprised if we'll enter[A][N]
+only to find the enemy routed.[A]
+[X]
