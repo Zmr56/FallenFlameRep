@@ -13,14 +13,14 @@ I'm... here... Wren... bleugh...[N][A]
 
 [MidLeft]#Wren
 Oh my! You look awfully pale! I didn't[N]
-know that seasickness could get to you.[AN][CloseSpeechSlow]
+know that seasickness could get to you.[AN]
 
 [MidRight]#Wigbrand
 The sea is...[N]
 not something I am[A][N]
 accustomed to...[N]
 Where's Sarai...?[A][N]
-Is it safe up ahead?[A]
+Is it safe up ahead?[AN][CloseSpeechSlow]
 
 [MidRight][MoveLeft]
 [MidRight][LoadSarai]
@@ -30,7 +30,7 @@ Here! And I'm afraid not...  Pirates[N]
 have swarmed the port up ahead, but[A][N]
 we've got some support. My father[N]
 anticipated our arrival so he's sent[A][N]
-two of my retainers over, Luz and Gad![A]
+two of my retainers over, Luz and Gad![A][N][CloseSpeechSlow]
 
 [Left][ClearFace]
 [MidRight][MoveLeft]

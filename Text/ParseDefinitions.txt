@@ -17,6 +17,7 @@
 [Beat] = [ToggleMouthMove]...[.4][ToggleMouthMove]
 [Event] = [LoadOverworldFaces]
 [Clear] = [2NL]
+[CloseSpeechSlow] = [CS]
 
 [FarFarLeft] = [OpenFarFarLeft]
 [FarLeft] = [OpenFarLeft]
