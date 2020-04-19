@@ -1,11 +1,90 @@
 
-[MidLeft][LoadNoble]
-Ah Wren! You may be unfamiliar with[N]
-the layout of this fortress.[A][N]
-Entrances to outside lead out from[N]
-the carpets on the eastern and south[A][N]
-western openings. The staircases by[N]
-the south also leads to outside.[A][N]
-Beware of all kinds of reinforcements[N]
-emerging from these points![A]
+[MidRight][LoadWren]
+[MidLeft][LoadWigbrand]
+[FarLeft][LoadSarai]
+
+[MidRight]#Wren
+Port looks safe now, no pirates in[N]
+sight. I think we can press onto the[A][N]
+Aquanpool Citadel safely now?[A]
+
+[MidLeft]#Wigbrand
+Should do, unless the enemy learnt of[N]
+our next steps during their ambush on[A][N]
+Sir Kestral at sea. An attack en route[N]
+to the citadel or at the citadel itself[A][N]
+are entirely possible in that instance.[A]
+
+[FarLeft]#Sarai
+Wiggy, you should try being an optimist[N]
+more often. It's nothing to worry about[A][N]
+Wren! Worst case scenario? My father,[N]
+the renowed Shield of Blumari, Duke[A][N]
+Wystan will simply eliminate them once[N]
+they get there. He's strong you know![A][N]
+Plus, it's his citadel, he knows it[N]
+better than the enemy does.[A]
+
+[MidRight]#Wren
+Well, I suppose at a glance that sort[N]
+of attack on a Blumari citadel seems[A][N]
+unlikely to work, even if auxillary[N]
+pirate cannon fodder is spreading our[A][N]
+resources thin across the island.[N]
+I'm struggling to see their rationale[A][N]
+behind this reckless attack however.[A]
+
+[MidLeft]#Wigbrand
+As you know Western Viripuria is split[N]
+in two by a bloody civil war. On one[A][N]
+hand you have the Imperialists, on the[N]
+other, the Wyvember backed forces,[A][N]
+the Golden Revolutionaries. Right now[N]
+Princess Adela and Emperor Ivan are the[A][N]
+only members of the imperial dynasty[N]
+that we know to be alive. Prince[A][N]
+Vladmir's whereabouts are unknown.[A]
+
+[MidRight]#Wren
+I'm aware... It's been 6 months since[N]
+he last replied to my letters...[A]
+
+[FarLeft]#Sarai
+It's alright Wren... I'm sure he's out[N]
+there somewhere...[A]
+
+[MidLeft]#Wigbrand
+Ahem. Anyhow, if Wyvember were to kill[N]
+Adela now, this would be a huge blow to[A][N]
+the morale of the Imperialists while[N]
+they're already in dire straits. Then[A][N]
+they can focus their efforts on purging[N]
+that dynasty and destroying the very[A][N]
+thing the Imperialists fight for. Then[N]
+it will only be a matter of time for[A][N]
+the victory of the rebels to be sealed.[A]
+
+[MidRight]#Wren
+Even so, why do they need to already[N]
+undertake a risky operation during this[A][N]
+stage in the war?[A]
+
+[MidLeft]#Wigbrand
+Time is against the Manaketes. If they[N]
+don't act fast, they'll continue to[A][N]
+succumb to their degenerating mental[N]
+state unless they expand into foreign[A][N]
+lands where magic is more plentiful to[N]
+sustain their dragon forms. The sooner[A][N]
+they act, the better. Once they've[N]
+strengthened their coalition of[A][N]
+pirates, revolutionaries and dragons,[N]
+they can take the Eastern Viripurian[A][N]
+Empire where magic is in abundance.[A]
+
+[MidRight]#Wren
+Then I guess they're unlikely to hold[N]
+back on this chance. We ought be[A][N]
+prepared for such an outcome... Let's[N]
+press on then.[A]
 [X]

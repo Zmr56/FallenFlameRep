@@ -43,7 +43,21 @@ ENDA
 
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 CharacterBasedEvents:
+CharacterEventBothWays(0xE, RudyardNuriTalk, Rudyard, Nuri)
+CharacterEventBothWays(0xF, RudyardAdelaTalk, Rudyard, Adela)
 END_MAIN
+
+RudyardNuriTalk:
+Text(Ch4RudyardNuriTalk)
+REMA
+NoFade
+ENDA
+
+RudyardAdelaTalk:
+Text(Ch4RudyardAdelaTalk)
+REMA
+NoFade
+ENDA
 
 LocationBasedEvents:
 Village(0x7,VillageLance,15,7)
@@ -194,6 +208,12 @@ UNIT 0x80 WyvernRider Rhud Level(8, Enemy, 1) [3,4] 0x00 0x00 0x0 0x00 [SteelAxe
 UNIT
 
 BeginningScene:
+MUSC 0x24
+SetBackground(0x1D)
+Text(Ch4OpeningText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
 LABEL 0x1
 LOAD1 0x1 NewGirls
 ENUN
@@ -204,7 +224,12 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-Text(PlaceholderText)
+MUSC 0x43
+SetBackground(0x35)
+Text(Ch4ClosingText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
 //TODO
 //MNCH 5
 MNTS 0x1

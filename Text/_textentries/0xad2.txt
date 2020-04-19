@@ -1,0 +1,132 @@
+
+[Left][LoadWren]
+[Right][LoadKestral]
+
+[Left]#Wren
+Father! I heard you were injured by a[N]
+Manakete, are you recovering well?[A]
+
+[Right]#Kestral
+The lizard merely scratched me. Agh...![N]
+Well, maybe a little more than that...[A][N]
+But I'm fine, it's nothing to worry[N]
+about. How fare you, my daughter? I can[A][N]
+see your blade is worn... I thought I[N]
+told you to keep her out of this,[A][N]
+Wigbrand.[A]
+
+[FarLeft][LoadWigbrand]
+
+[FarLeft]#Wigbrand
+I did my best to keep Lady Wren safe,[N]
+Sir Kestral, but the invasion has been[A][N]
+intense and any help I could muster on[N]
+the battlefield was necessary to see us[A][N]
+through, even with my skills.
+
+[Right]#Kestral
+Hmph, fair enough.[A]
+
+[FarLeft][ClearFace]
+
+[Left]#Wren
+You're not displeased by me taking up[N]
+arms for real now, are you father?[A]
+
+[Right]#Kestral
+No... Of course not, Wren. You're free[N]
+to live your own life. I care not for[A][N]
+what noblemen may utter about you.
+
+[Left]#Wren
+Thank you, father![A]
+
+[Right]#Kestral
+Well... I should head to the citadel's[N]
+infirmary now. Once I'm healed up,[A][N]
+we'll meet again in the capital.[N]
+Goodbye, Wren. I'll give you some time[A][N]
+with princess Adela now.[A]
+
+[Left]#Wren
+I love you too father, goodbye.[A]
+
+[Right][ClearFace]
+[Right][LoadAdela]
+[FarLeft][LoadSarai]
+
+[Right]#Adela
+Wren! Sarai! Oh I am glad to see you[N]
+two![A]
+
+[Left]#Wren
+Us too, Adela. We've been keeping up to[N]
+date with the changing situation with[A][N]
+the civil war.[A]
+
+[FarLeft]#Sarai
+Are you feeling fine right now, Adela?[N]
+I heard about the death of your parents[A][N]
+and what happened to prince Vladmir...[A]
+
+[Right]#Adela
+I'm... coping. It has not been easy but[N]
+now that I am in the safety of loyal[A][N]
+friends, my emotional recovery can only[N]
+get easier from here on out.[A]
+
+[Left]#Wren
+We'll make sure to protect you with all[N]
+our strength Adela. Has there been any[A][N]
+word on Vladmir's status?[A]
+
+[Right]#Adela
+Unfortunately no. Last I saw of my[N]
+brother was when he was defending the[A][N]
+palace from one of the commander's of[N]
+the rebels. He was locked into a battle[A][N]
+with a dark rider... Both of them[N]
+disappeared behind a cloud of smoke[A][N]
+while the palace went up in flames...[N]
+The dark rider still lives, but no word[A][N]
+on my brother. Our spies were unable to[N]
+confirm that the rebels had him killed.[A]
+
+[Left]#Wren
+Whoever this dark rider is... I'll make[N]
+sure to avenge Vladmir by my own hand.[A]
+
+[FarLeft]#Sarai
+Revenge is a dangerous and slippery[N]
+road to walk down, Wren.[A]
+
+[Right]#Adela
+I agree with Sarai, it's how we got[N]
+into this situation in the first place.[A][N]
+It's a never ending cycle...[A]
+
+[Left]#Wren
+I know... Sorry. It's just, Vladmir was[N]
+my fiance...[A]
+
+[Right]#Adela
+I understand Wren. I'm sure we'll gain[N]
+clarity in due time. For now, let's[A][N]
+just focus on getting to safety in the[N]
+capital.[A]
+
+[Left]#Wren
+Yes, you're right. I can't shake off[N]
+the feeling however that we may still[A][N]
+need to be prepared for enemies on the[N]
+way however.[A]
+
+[Right]#Adela
+If such a situation arises Wren, I can[N]
+aid you with my light magic and[A][N]
+healing.[A]
+
+[Left]#Wren
+Thank you, Adela. Let's move out for[N]
+the capital then.[A]
+[X]

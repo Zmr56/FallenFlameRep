@@ -1,4 +1,3 @@
-#include "Tools/Tool Helpers.txt"
 
 Wren_Mug:
 #incext PortraitFormatter "Wren.png"
@@ -42,7 +41,7 @@ setMugEntry(0xe, Sarai_Mug, 3, 6, 3, 4)
 
 Rudyard_Mug:
 #incext PortraitFormatter "Rudyard.png"
-setMugEntry(0xf, Rudyard_Mug, 2, 5, 3, 3)
+setMugEntry(0xf, Rudyard_Mug, 3, 5, 3, 3)
 
 Nuri_Mug:
 #incext PortraitFormatter "Nuri.png"
@@ -63,3 +62,11 @@ setMugEntry(0x14, Iara_Mug, 3, 6, 3, 4)
 Evander_Mug:
 #incext PortraitFormatter "Evander.png"
 setMugEntry(0x16, Evander_Mug, 3, 5, 2, 3)
+
+Dunstan_Mug:
+#incext PortraitFormatter "Dunstan.png"
+setMugEntry(0x53, Dunstan_Mug, 3, 5, 3, 3)
+
+Kestral_Mug:
+#incext PortraitFormatter "Kestral.png"
+setMugEntry(0x51, Kestral_Mug, 3, 5, 3, 3)

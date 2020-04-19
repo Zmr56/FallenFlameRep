@@ -1,1 +1,94 @@
+
+[MidLeft][LoadWren]
+
+[MidLeft]#Wren
+We're here Wigbrand, I've sent Sarai to[N]
+scout the port just in case however.[A][N]
+Uhh... Wigbrand? Where are you...?[A]
+
+[MidRight][LoadWigbrand]
+
+[MidRight]#Wigbrand
+I'm... here... Wren... bleugh...[N][A]
+
+[MidLeft]#Wren
+Oh my! You look awfully pale! I didn't[N]
+know that seasickness could get to you.[AN]
+
+[MidRight]#Wigbrand
+The sea is...[N]
+not something I am[A][N]
+accustomed to...[N]
+Where's Sarai...?[A][N]
+Is it safe up ahead?[AN][CloseSpeechSlow]
+
+[MidRight][ClearFace]
+[FarLeft][LoadWigbrand]
+[MidRight][LoadSarai]
+
+[MidRight]#Sarai
+Here! And I'm afraid not... Pirates[N]
+have swarmed the port up ahead, but[A][N]
+we've got some support. My father[N]
+anticipated our arrival so he's sent[A][N]
+two of my retainers over, Luz and Gad![A][N][CloseSpeechSlow]
+
+[Left][ClearFace]
+[MidRight][ClearFace]
+[FarLeft][LoadSarai]
+
+[MidRight][LoadLuz]
+[Right][LoadGad]
+
+[MidRight]#Luz
+Hello Lady Wren, If you need a heal in[N]
+a pinch I'm more than happy to help and[A][N]
+wish the Goddess' blessings upon you.[A]
+
+[FarLeft]#Sarai
+Oho, you're so polite, Luz. I'm quite[N]
+envious of your grace. Now, introduce[A][N]
+yourself, Gad![A]
+
+[Right]#Gad
+Hey Wren, I'm Gad. I open locks, steal[N]
+treasure and look good doing it. If you[A][N]
+need to know the best gambling dens on[N]
+the Blumari coast I'm your guy![A]
+
+[MidLeft]#Wren
+I'd uhh... rather not. I value my[N]
+relationship with the Goddess. Sorry.[A]
+
+[FarLeft]#Sarai
+Gad! Not like that![N][A]
+
+[MidRight]#Luz
+I tell myself to expect nothing decent[N]
+from his behaviour yet he has the power[A][N]
+to still disappoint. It's astonishing,[N]
+really, Lady Wren.[A]
+
+[Right]#Gad
+Whatever, you nobles aren't any fun...[N][A]
+
+[MidRight][ClearFace]
+[Right][ClearFace]
+[Left][ClearFace]
+[MidRight][LoadSarai]
+[FarRight][LoadWigbrand]
+
+[MidLeft]#Wren
+Anyway... back with the task at hand,[N]
+I believe taking out their commander[A][N]
+should disperse the pirates from here.[N]
+Once they've gone, we can press on.[A][N]
+Sound good?[A]
+
+[MidRight]#Sarai
+Agreed, Wren. Let's head to it![N][A]
+
+[FarRight]#Wigbrand
+As long as we're not sailing off again,[N]
+I really don't care what we do...[A]
 [X]

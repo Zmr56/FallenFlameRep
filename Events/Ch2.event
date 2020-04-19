@@ -54,7 +54,14 @@ ReinforcementEvent(Wave4)
 ENDA
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x9, LuzWigbrandTalk, Luz, Wigbrand)
 END_MAIN
+
+LuzWigbrandTalk:
+Text(Ch2LuzWigbrandTalk)
+REMA
+NoFade
+ENDA
 
 LocationBasedEvents:
 Village(0x7,VillageSlayer,1,7)
@@ -167,6 +174,12 @@ NoFade
 ENDA
 
 EndingScene:
-MNCH 0x2
+MUSC 0x32
+SetBackground(0x07)
+Text(Ch2ClosingText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
+MNCH 0x3
 NoFade
 ENDA

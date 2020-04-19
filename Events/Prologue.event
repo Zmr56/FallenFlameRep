@@ -31,7 +31,14 @@ TEXTEND
 ENDA
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x8, WrenHuginnTalk, Wren, Huginn)
 END_MAIN
+
+WrenHuginnTalk:
+Text(PrologueHuginnWrenTalk)
+REMA
+NoFade
+ENDA
 
 LocationBasedEvents:
 Village(0x7,VillageEvent,5,5)

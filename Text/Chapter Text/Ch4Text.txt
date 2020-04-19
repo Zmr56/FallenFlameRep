@@ -1,8 +1,155 @@
-## ChXOpeningText1
+## Ch4OpeningText1
+
+[Left][LoadWren]
+[Right][LoadSarai]
+[FarRight][LoadAdela]
+[FarLeft][LoadWigbrand]
+
+[Right]#Sarai
+Hey, Wren. Why can't we be travelling[N]
+with the rest of the Blumari army?[A][N]
+I just want to be sailing on a boat.[N]
+All this riding is leaving me tired...[A]
+
+[Left]#Wren
+Sir Kestral still wants the escort[N]
+mission to the capital to be on the[A][N]
+down low. So a small force like ours is[N]
+preferred to accompny Adela.[A]
+
+[FarLeft]#Wigbrand
+Sir Kestral does not want to risk a[N]
+repeat of the last incident on seas.[A][N]
+If we travel in a small group like ours[N]
+we can reduce the risk of attracting[A][N]
+enemy attention.[A]
+
+[Left]#Wren
+Speaking of enemies, has your scout[N]
+returned yet, Adela?[A]
+
+[FarRight]#Adela
+Not yet, although I think I can see[N]
+Nuri over the horizon there.[A]
+
+[Right][ClearFace]
+[Right][LoadNuri]
+
+[Right]#Nuri
+Ready to report, princess Adela![A]
+
+[FarRight]#Adela
+How does the situation look up ahead,[N]
+Nuri? You seem a bit tense.[A]
+
+[Right]#Nuri
+A band of enemies was spotted up ahead.[N]
+I believe this is the last remnant of[A][N]
+enemies that was left behind after the[N]
+failed citadel attack. I suppose they[A][N]
+wanted to leave some troops behind to[N]
+attack us when we were more vulnerable.[A]
+
+[Left]#Wren
+It's nothing to worry about, Adela. I'm[N]
+pretty confident by this point that we[A][N]
+can push through this final batch of[N]
+enemies unscathed. Once we're done with[A][N]
+this lot, the invasion ought be over[N]
+practically speaking.[A]
+
+[FarRight]#Adela
+I believe in you Wren. What's the[N]
+objective then?[A]
+
+[Left]#Wren
+If we take out their commanders I think[N]
+that will be enough for them to realise[A][N]
+the invasion is lost. They'll disperse[N]
+and we can press on ahead.[A]
+
+[Right]#Nuri
+You may want to be careful of the caves[N]
+up ahead, Lady Wren. I could see[A][N]
+Wyvern Riders lurking within. They may[N]
+appear as reinforcements.[A]
+
+[Left]#Wren
+I'll keep that in mind, Nuri. Let's[N]
+head out then.[A]
 [X]
 
-## ChXWaveYText
+## Ch4ClosingText1
 
-[MidLeft][LoadBoss]
-This is some text![A]
+[Left][LoadWren]
+
+[Left]#Wren
+Woah! You just reached the end of[N]
+Fire Emblem: Fallen Flame's first[A][N]
+public release! There's no more content[N]
+beyond here yet, sadly. In the meantime[A][N]
+you can leave feedback on the Fire[N]
+Emblem Universe thread! We hope you had[A][N]
+fun playing![A]
 [X]
+
+## Ch4RudyardNuriTalk
+
+[Right][LoadRudyard]
+[Left][LoadNuri]
+
+[Left]#Nuri
+Erasyl...? Is that you?[A]
+
+[Right]#Rudyard
+Hmm, that name sounds familiar. Your[N]
+boyfriend? Sounds like the name of a[A][N]
+good looking guy, for sure! But I've[N]
+gotta dash, see ya![A]
+
+[Left]#Nuri
+Hey! Wait up! Grr... I'm sure that's[N]
+him! Irresponsible lout...[A]
+[X]
+
+## Ch4RudyardAdelaTalk
+
+[Right][LoadRudyard]
+[Left][LoadAdela]
+
+[Left]#Adela
+You... You look familiar.[A]
+
+[Right]#Rudyard
+Princess Adela! I don't believe we've[N]
+ever met. I am a simple retainer of[A][N]
+Duke Wystan after all, from a common[N]
+background.[A]
+
+[Left]#Adela
+Is that so?[A]
+
+[Right]#Rudyard
+You can ask the Duke himself, he'll be[N]
+more than happy to tell you of my[A][N]
+background. There's no secrecy, I can[N]
+assure you.[A]
+
+[Left]#Adela
+Fair enough. I just thought you looked[N]
+like Erasyl Hasib, the heir to the[A][N]
+Marqlans Sultanate. He was someone I[N]
+knew of from Eastern Viripuria.[A]
+
+[Right]#Rudyard
+You flatter me. But I can assure you[N]
+I'm no prince, sadly. I get that a lot,[A][N]
+but you're mistaken. Farewell.[A]
+
+[ClearFace][Right]
+
+[Left]#Adela
+Maybe I am... It's been a while since I[N]
+saw Erasyl last anyway.[A]
+[X]
+

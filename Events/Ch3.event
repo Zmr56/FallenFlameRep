@@ -59,7 +59,7 @@ END_MAIN
 
 RecruitTalk:
 MUSS 0x30
-Text(PlaceholderText)
+Text(Ch3RecruitConvo)
 REMA
 CUSA Cato//Cato joins the party!
 MURE 0x05 //Shifts back to map music
@@ -134,7 +134,7 @@ UNIT 0x80 Archer Attab Level(3, Enemy, 1) [14,7] 0x00 0x00 0x0 0x00 [IronBow] [0
 UNIT 0x80 Archer Attab Level(3, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [IronBow] [0x0,0xE, 0xC, 0x0]
 UNIT 0x80 Barbarian Attab Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
 UNIT 0x80 Fighter Attab Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT Cato Shaman Attab Level(4, Enemy, 0) [13,8] 0x00 0x00 0x0 0x00 [Flux, Nosferatu] PursueWithoutHeedAI 
+UNIT Cato Shaman Attab Level(4, Enemy, 0) [13,8] 0x00 0x00 0x0 0x00 [Flux, Nosferatu] NoAI
 UNIT Attab Fighter 0x00 Level(5, Enemy, 0) [0,8] 0x00 0x00 0x0 0x00 [SteelAxe, Hurlbat, Hammer, EnergyRing] AttackInRangeAI 
 UNIT
 
@@ -239,6 +239,18 @@ NoFade
 ENDA
 
 BeginningScene:
+MUSC 0x4
+SetBackground(0x25)
+Text(Ch3OpeningText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
+MUSC 0x34
+SetBackground(0x12)
+Text(Ch3OpeningText2)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
 LABEL 0x1
 LOAD3 0x1 Units1
 ENUN
@@ -255,9 +267,18 @@ NoFade
 ENDA
 
 EndingScene:
-
-Text(PlaceholderText)
-//TODO
-MNCH 0x03
+MUSC 0x32
+SetBackground(0x12)
+Text(Ch3ClosingText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
+MUSC 0x32
+SetBackground(0x0E)
+Text(Ch3ClosingText2)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
+MNCH 0x4
 NoFade
 ENDA

@@ -59,13 +59,20 @@
 [SaraiPortrait] = [0xe][0x1]
 [LuzPortrait] = [0x8][0x1]
 [GadPortrait] = [0x9][0x1]
+[RudyardPortrait] = [0xf][0x1]
+[CatoPortrait] = [0xc][0x1]
+[DunstanPortrait] = [0x53][0x1]
+[AdelaPortrait] = [0x10][0x1]
+[KestralPortrait] = [0x51][0x1]
+[NuriPortrait] = [0x11][0x1]
 
 [BanditPortrait] = [0x6d][0x1]
 [DattaPortrait] = [0x4a][0x1]
 [WizvilPortrait] = [0x41][0x1]
 
 [FalconePortrait] = [0x52][0x1]
-[NoblePortrait] = [0x31][0x1]
+[DunstanCivPortrait] = [0x31][0x1]
+[WystanSoldierPortrait] = [0xAD][0x1]
 
 [LoadWren] = [LoadFace][WrenPortrait]
 [LoadWigbrand] = [LoadFace][WigbrandPortrait]
@@ -76,13 +83,20 @@
 [LoadSarai] = [LoadFace][SaraiPortrait]
 [LoadLuz] = [LoadFace][LuzPortrait]
 [LoadGad] = [LoadFace][GadPortrait]
+[LoadRudyard] = [LoadFace][RudyardPortrait]
+[LoadCato] = [LoadFace][CatoPortrait]
+[LoadDunstan] = [LoadFace][DunstanPortrait]
+[LoadAdela] = [LoadFace][AdelaPortrait]
+[LoadKestral] = [LoadFace][KestralPortrait]
+[LoadNuri] = [LoadFace][NuriPortrait]
 
 [LoadBandit] = [LoadFace][BanditPortrait]
 [LoadDatta] = [LoadFace][DattaPortrait]
 [LoadWizvil] = [LoadFace][WizvilPortrait]
 
 [LoadFalcone] = [LoadFace][FalconePortrait]
-[LoadNoble] = [LoadFace][NoblePortrait]
+[LoadDunstanCiv] = [LoadFace][DunstanCivPortrait]
+[LoadWystanSoldier] = [LoadFace][WystanSoldierPortrait]
 
 [LoadInnes] = [LoadFace][0xf][0x1]
 [LoadCormag] = [LoadFace][0x13][0x1]

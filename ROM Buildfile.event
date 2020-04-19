@@ -7,10 +7,13 @@
     PROTECT EndOfFreeSpace // Prevent overflow of data.
 	#include "Tables/TextRepoint.event"
 	ALIGN 4
-    MESSAGE Text table ends at currentOffset
+    MESSAGE Text ends at currentOffset
+	#include "Tables/PortraitsRepoint.event"
+	ALIGN 4
+    MESSAGE Portraits end at currentOffset
 
 	ALIGN 16
-	//Text    
+	//Text
 	TextTable:
 	#incbin "Tables/Vanilla Text Table.dmp"
 	#include "Text/Install Text Data.event"
@@ -25,6 +28,7 @@
 	ALIGN 4
 	#include "Mugs/Mug Installer.event"
     ALIGN 4
+	#incbin "Tables/Vanilla Portrait Table.dmp"
 	
 	//Maps
 	#define TMX2EA

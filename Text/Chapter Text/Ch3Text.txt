@@ -1,9 +1,324 @@
-## ChXOpeningText3
+## Ch3OpeningText1
+
+[MidLeft][LoadWren]
+[FarLeft][LoadSarai]
+[MidRight][LoadWigbrand]
+
+[MidLeft]#Wren
+This isn't a good sight, I can see[N]
+damage on the citadel, looks like the[A][N]
+enemy already got here before we did.[N]
+Your hunch was right Wigbrand...[A]
+
+[MidRight]#Wigbrand
+There still appears to be guards about,[N]
+they're doing some repairs but they[A][N]
+still look poised for battle. Perhaps[N]
+they expect enemy reinforcements?[A]
+
+[FarLeft]#Sarai
+Don't worry, I'll get to the bottom of[N]
+this. Captain! What events transpired[A][N]
+here? Is my father safe?[A]
+
+[MidRight][ClearFace]
+[MidRight][LoadWystanSoldier]
+
+[MidRight]#Wystan Guard
+Lady Sarai! We successfully fended off[N]
+an enemy attack with the aid of Sir[A][N]
+Kestral. However, he sustained heavy[N]
+injuries against a Manakete general.[A][N]
+He and Princess Adela are currently[N]
+being held safe within the castle.[A]
+
+[FarLeft]#Sarai
+What of my father? I presume he aided[N]
+in the defence of the citadel too, no?[A]
+
+[MidRight]#Wystan Guard
+Well...[A]
+
+[FarLeft]#Sarai
+Well... What? Don't leave me hanging![A]
+
+[MidRight]#Wystan Guard
+Duke Wystan as you know, is still[N]
+recovering from the injury he sustained[A][N]
+during the annual beef festival when he[N]
+was trampled by a cow. The medication[A][N]
+he is taking had some side effects that[N]
+left him unable to battle.[A]
+
+[FarLeft]#Sarai
+I feel like you're not telling me the[N]
+full picture, but whatever... Anyway,[A][N]
+it's good to hear Sir Kestral is safe[N]
+and sound for the most part, right[A][N]
+Wren?[A]
+
+[MidLeft]#Wren
+Mhmm, my father can recover from any[N]
+injury he faces, this wouldn't be the[A][N]
+first time he's fought a Manakete.[N]
+We may need to prepare for battle if[A][N]
+it's true that enemy reinforcements may[N]
+try to take advantage of the citadel's[A][N]
+weakened state.[A]
+[X]
+
+## Ch3OpeningText2
+
+[Left][LoadWren]
+[FarLeft][LoadSarai]
+[Right][LoadDunstanCiv]
+
+[Left]#Wren
+Duke Wystan! Mind if I ask what you're[N]
+doing in the middle of the castle just[A][N]
+after an invasion? I'm concerned for[N]
+your safety.[A]
+
+[Right]#Dunstan
+Greetings Wren and Sarai! Well...[N]
+Umm... this certainly isn't the state I[A][N]
+wanted you both to see me in...[A]
+
+[FarLeft]#Sarai
+You've became fat haven't you, father?[N]
+No wonder you sent me away with aunty[A][N]
+for the holidays! You didn't want me to[N]
+scold you for sneaking away to the[A][N]
+pantry like you were going to just now.[A]
+
+[Right]#Dunstan
+You have to understand my position,[N]
+Sarai! Since the injury I've been[A][N]
+unable to excercise as much and food[N]
+has been my way of coping with pain...[A]
+
+[FarLeft][ClearFace]
+
+[Left]#Wren
+I've always known you to be a highly[N]
+discplined warrior, Duke Wystan... Were[A][N]
+you truly unable to protect the citadel?[A]
+
+[Right]#Dunstan
+Sadly, yes. Your father did much of the[N]
+heavy lifting. He and princess Adela[A][N]
+are recovering in the room guarded by[N]
+those two Viripurian knights. I expect[A][N]
+enemy reinforcements to arrive so be[N]
+prepared to defend that point![A]
+
+[FarLeft][LoadWigbrand]
+
+[FarLeft]#Wigbrand
+We should get you to safety in the[N]
+meantime, Duke Wystan. Let's move out.[A]
+
+[Right]#Dunstan
+Oh... I'm afraid I can't do that...[A]
+
+[FarLeft]#Wigbrand
+You can't protect the citadel in your[N]
+condition, so there's no use staying[A][N]
+here.[A]
+
+[Right]#Dunstan
+No, I mean I quite literally cannot[N]
+move! My bowels are not agreeing with[A][N]
+suddenly... Any movement will send them[N]
+into a mad fury... I must wait this[A][N]
+predicament out. Not to worry, I know[N]
+Rudyard should prove to be a competent[A][N]
+ally while you defend me and the[N]
+defence point.[A]
+
+[Right][ClearFace]
+[Right][LoadRudyard]
+
+[Right]#Rudyard
+There's nothing to worry about, milady.[N]
+I'm a pretty hard hitter with my lance.[A][N]
+Point me wherever, I'll sort it quick.[A]
+
+[Left]#Wren
+You sound confident, I think we can[N]
+handle this then![A]
+
+[Right]#Rudyard
+Haha, if only I was confident in stuff[N]
+other than twirling my lance around.[A]
+
+[Left]#Wren
+Oh...[A]
+
+[Right]#Rudyard
+You know what, forget I said that.[N]
+Let's get this battle started![A]
+[X]
+
+## Ch3ClosingText1
+
+[Right][LoadWren]
+[FarRight][LoadSarai]
+[Left][LoadDunstanCiv]
+
+[Right]#Wren
+Looks like we've successfully defended[N]
+the citadel. We shouldn't have to fight[A][N]
+anymore reinforcements.[A]
+
+[Left]#Dunstan
+Outstanding work, Wren! My bowels are,[N]
+however, still working against me. So I[A][N]
+shall just... lay down here... Ah...[A]
+
+[FarRight]#Sarai
+Let's meet-up with  Sir Kestral and[N]
+Adela, Wren! They should still be in[A][N]
+that room over there.[A]
+[X]
+
+## Ch3ClosingText2
+
+[Left][LoadWren]
+[Right][LoadKestral]
+
+[Left]#Wren
+Father! I heard you were injured by a[N]
+Manakete, are you recovering well?[A]
+
+[Right]#Kestral
+The lizard merely scratched me. Agh...![N]
+Well, maybe a little more than that...[A][N]
+But I'm fine, it's nothing to worry[N]
+about. How fare you, my daughter? I can[A][N]
+see your blade is worn... I thought I[N]
+told you to keep her out of this,[A][N]
+Wigbrand.[A]
+
+[FarLeft][LoadWigbrand]
+
+[FarLeft]#Wigbrand
+I did my best to keep Lady Wren safe,[N]
+Sir Kestral, but the invasion has been[A][N]
+intense and any help I could muster on[N]
+the battlefield was necessary to see us[A][N]
+through, even with my skills.
+
+[Right]#Kestral
+Hmph, fair enough.[A]
+
+[FarLeft][ClearFace]
+
+[Left]#Wren
+You're not displeased by me taking up[N]
+arms for real now, are you father?[A]
+
+[Right]#Kestral
+No... Of course not, Wren. You're free[N]
+to live your own life. I care not for[A][N]
+what noblemen may utter about you.
+
+[Left]#Wren
+Thank you, father![A]
+
+[Right]#Kestral
+Well... I should head to the citadel's[N]
+infirmary now. Once I'm healed up,[A][N]
+we'll meet again in the capital.[N]
+Goodbye, Wren. I'll give you some time[A][N]
+with princess Adela now.[A]
+
+[Left]#Wren
+I love you too father, goodbye.[A]
+
+[Right][ClearFace]
+[Right][LoadAdela]
+[FarLeft][LoadSarai]
+
+[Right]#Adela
+Wren! Sarai! Oh I am glad to see you[N]
+two![A]
+
+[Left]#Wren
+Us too, Adela. We've been keeping up to[N]
+date with the changing situation with[A][N]
+the civil war.[A]
+
+[FarLeft]#Sarai
+Are you feeling fine right now, Adela?[N]
+I heard about the death of your parents[A][N]
+and what happened to prince Vladmir...[A]
+
+[Right]#Adela
+I'm... coping. It has not been easy but[N]
+now that I am in the safety of loyal[A][N]
+friends, my emotional recovery can only[N]
+get easier from here on out.[A]
+
+[Left]#Wren
+We'll make sure to protect you with all[N]
+our strength Adela. Has there been any[A][N]
+word on Vladmir's status?[A]
+
+[Right]#Adela
+Unfortunately no. Last I saw of my[N]
+brother was when he was defending the[A][N]
+palace from one of the commander's of[N]
+the rebels. He was locked into a battle[A][N]
+with a dark rider... Both of them[N]
+disappeared behind a cloud of smoke[A][N]
+while the palace went up in flames...[N]
+The dark rider still lives, but no word[A][N]
+on my brother. Our spies were unable to[N]
+confirm that the rebels had him killed.[A]
+
+[Left]#Wren
+Whoever this dark rider is... I'll make[N]
+sure to avenge Vladmir by my own hand.[A]
+
+[FarLeft]#Sarai
+Revenge is a dangerous and slippery[N]
+road to walk down, Wren.[A]
+
+[Right]#Adela
+I agree with Sarai, it's how we got[N]
+into this situation in the first place.[A][N]
+It's a never ending cycle...[A]
+
+[Left]#Wren
+I know... Sorry. It's just, Vladmir was[N]
+my fiance...[A]
+
+[Right]#Adela
+I understand Wren. I'm sure we'll gain[N]
+clarity in due time. For now, let's[A][N]
+just focus on getting to safety in the[N]
+capital.[A]
+
+[Left]#Wren
+Yes, you're right. I can't shake off[N]
+the feeling however that we may still[A][N]
+need to be prepared for enemies on the[N]
+way however.[A]
+
+[Right]#Adela
+If such a situation arises Wren, I can[N]
+aid you with my light magic and[A][N]
+healing.[A]
+
+[Left]#Wren
+Thank you, Adela. Let's move out for[N]
+the capital then.[A]
 [X]
 
 ## Ch3WarningText
 
-[MidLeft][LoadNoble]
+[MidLeft][LoadDunstanCiv]
 Ah Wren! You may be unfamiliar with[N]
 the layout of this fortress.[A][N]
 Entrances to outside lead out from[N]
@@ -12,4 +327,69 @@ western openings. The staircases by[N]
 the south also leads to outside.[A][N]
 Beware of all kinds of reinforcements[N]
 emerging from these points![A]
+[X]
+
+## Ch3RecruitConvo
+
+[Right][LoadWren]
+[Left][LoadCato]
+
+[Right]#Wren
+Hyah![A]
+
+[Left]#Cato
+Gwah![A]
+
+[Right]#Wren
+Huh, you seem sort of... out of it, for[N]
+a pirate. Now I feel kind of bad for[A][N]
+striking you.[A]
+
+[Left]#Cato
+Hard to feel gung ho about joining[N]
+these Wyvember puppets.[A]
+
+[Right]#Wren
+You're not with the pirates?[A]
+
+[Left]#Cato
+Not by choice, no. This is what happens[N]
+when you go against the imperialists.[A][N]
+They turn you into fodder.[A]
+
+[Right]#Wren
+Ah, I see. You're from the Umbralburg[N]
+colony, aren't you?[A]
+
+[Left]#Cato
+Aye, that's right, why is that of[N]
+interest to you?[A]
+
+[Right]#Wren
+With the way this war is progressing,[N]
+we may be enroute for liberating the[A][N]
+colony. What say you, interested?[A]
+
+[Left]#Cato
+Hmph, that's what the lizardskins said.[N]
+But... I suppose it's kind enough that[A][N]
+you took out the time to sway me. The[N]
+dragons skipped that step.[A]
+
+[Right]#Wren
+So... it's a yes?[A]
+
+[Left]#Cato
+I'll tag along, for now. I can't[N]
+promise I'll stick around, but should[A][N]
+you disrespect the people of our tribe,[N]
+well, your plans of liberation will be[A][N]
+met with difficulty.[A]
+
+[Right]#Wren
+You have my word that it won't happen,[N]
+elder.[A]
+
+[Left]#Cato
+What a polite lass.[A]
 [X]
