@@ -85,8 +85,8 @@ Nomad,Map_NomadMoving|IsPointer,0x81f06d8
 AxeCav,Map_AxeCavMMoving|IsPointer,0x81f1080
 AxeCavF,Map_AxeCavFMoving|IsPointer,0x81f1a54
 LanceCavF,Map_LncCavFMoving|IsPointer,0x81f249c
-SwordCavF,Map_SwdCavMMoving|IsPointer,0x81f2ec4
-SwordCavF,Map_SwdCavFMoving|IsPointer,0x81f3794
+SwordCavF,Map_SwdCavFMoving|IsPointer,0x81f2ec4
+SwordCavF,Map_SwdCavMMoving|IsPointer,0x81f3794
 Elder Bael,0x81f38ec,0x81f3fa0
 Cyclops,0x81f40f8,0x81f49b8
 Mauthe Doog,0x81f4b18,0x81f5468
