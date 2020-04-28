@@ -11,9 +11,9 @@ Map_SwdCavMStand:
 Map_SwdCavMMoving:
 #incext Png2Dmp "SwdCavMMoving.png" --lz77
 Map_SwdCavFStand:
-#incext Png2Dmp "SwdCavFStanding.png" --lz77
+#incext Png2Dmp "SwordCavFStanding.png" --lz77
 Map_SwdCavFMoving:
-#incext Png2Dmp "SwdCavFMoving.png" --lz77
+#incext Png2Dmp "SwordCavFMoving.png" --lz77
 Map_LncCavMStand:
 #incext Png2Dmp "LncCavMStanding.png" --lz77
 Map_LncCavMMoving:

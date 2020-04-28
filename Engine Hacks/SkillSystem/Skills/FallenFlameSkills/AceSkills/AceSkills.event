@@ -1,0 +1,47 @@
+
+#include "SwordAceUsability.lyn.event"
+#include "LanceAceUsability.lyn.event"
+#include "AxeAceUsability.lyn.event"
+#include "BowAceUsability.lyn.event"
+
+
+#include "SwordAcePlusCritBoost.lyn.event"
+#include "LanceAcePlusCritBoost.lyn.event"
+#include "AxeAcePlusCritBoost.lyn.event"
+#include "BowAcePlusHitBoost.lyn.event"
+
+
+SwordAceIDLink:
+BYTE SwordAceID
+SwordAcePlusIDLink:
+BYTE SwordAcePlusID
+LanceAceIDLink:
+BYTE LanceAceID
+LanceAcePlusIDLink:
+BYTE LanceAcePlusID
+AxeAceIDLink:
+BYTE AxeAceID
+AxeAcePlusIDLink:
+BYTE AxeAcePlusID
+BowAceIDLink:
+BYTE BowAceID
+BowAcePlusIDLink:
+BYTE BowAcePlusID
+HybridAceIDLink:
+BYTE HybridAceID
+
+SwordAceItemList:
+BYTE IronSword
+BYTE 0
+
+LanceAceItemList:
+BYTE IronLance
+BYTE 0
+
+AxeAceItemList:
+BYTE IronAxe
+BYTE 0
+
+BowAceItemList:
+BYTE IronBow
+BYTE 0
