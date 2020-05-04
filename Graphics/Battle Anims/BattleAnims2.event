@@ -1,43 +1,4 @@
 
-{
-#include "CavMAxe Installer.event"
-
-#include "CavMHandAxe Installer.event"
-
-#include "CavMSword Installer.event"
-
-#include "CavMLance Installer.event"
-
-#include "CavMUnarmed Installer.event"
-}
-{
-#include "ClericStaff Installer.event"
-
-#include "ClericUnarmed Installer.event"
-}
-{
-#include "KnightLance Installer.event"
-
-#include "KnightSword Installer.event"
-
-#include "KnightUnarmed Installer.event"
-}
-{
-#include "NomadBow Installer.event"
-
-#include "NomadUnarmed Installer.event"
-}
-{
-#include "PaladinMAxe Installer.event"
-
-#include "PaladinMHandAxe Installer.event"
-
-#include "PaladinMSword Installer.event"
-
-#include "PaladinMLance Installer.event"
-
-#include "PaladinMUnarmed Installer.event"
-}
 /*
 {
 #include "WyvernRiderAxe Installer.event"

@@ -29,101 +29,7 @@
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 
 //////////////
-/*
-{
-#include "Battle Anims/WyvernRiderAxe Installer.event"
-}
-{
-#include "Battle Anims/WyvernRiderHandAxe Installer.event"
-}
-{
-#include "Battle Anims/BarbarianAxe Installer.event"
-}
-{
-#include "Battle Anims/BarbarianHandAxe Installer.event"
-}
-{
-#include "Battle Anims/BarbarianUnarmed Installer.event"
-}
-{
-#include "Battle Anims/CavFAxe Installer.event"
-}
-{
-#include "Battle Anims/CavFHandAxe Installer.event"
-}
-{
-#include "Battle Anims/CavFUnarmed Installer.event"
-}
-{
-#include "Battle Anims/CavMAxe Installer.event"
-}
-{
-#include "Battle Anims/CavMHandAxe Installer.event"
-}
-{
-#include "Battle Anims/CavMUnarmed Installer.event"
-}
-{
-#include "Battle Anims/CavMSword Installer.event"
-}
-{
-#include "Battle Anims/CavMLance Installer.event"
-}
-{
-#include "Battle Anims/CavFSword Installer.event"
-}
-{
-#include "Battle Anims/CavFLance Installer.event"
-}
-{
-#include "Battle Anims/ArcherMBow Installer.event"
-}
-{
-#include "Battle Anims/ArcherMUnarmed Installer.event"
-}
-{
-#include "Battle Anims/ClericUnarmed Installer.event"
-}
-{
-#include "Battle Anims/ClericStaff Installer.event"
-}
-{
-#include "Battle Anims/KnightUnarmed Installer.event"
-}
-{
-#include "Battle Anims/KnightLance Installer.event"
-}
-{
-#include "Battle Anims/KnightSword Installer.event"
-}
-{
-#include "Battle Anims/NomadBow Installer.event"
-}
-{
-#include "Battle Anims/NomadUnarmed Installer.event"
-}
-{
-#include "Battle Anims/PaladinMAxe Installer.event"
-}
-{
-#include "Battle Anims/PaladinMHandAxe Installer.event"
-}
-{
-#include "Battle Anims/PaladinMSword Installer.event"
-}
-{
-#include "Battle Anims/PaladinMLance Installer.event"
-}
-{
-#include "Battle Anims/PaladinMUnarmed Installer.event"
-}
-{
-#include "Battle Anims/WyvernLordAxe Installer.event"
-}
-{
-#include "Battle Anims/WyvernLordHandaxe Installer.event"
-}
-*/
+
 //////////////
 
 GeneralAnim:
@@ -260,4 +166,30 @@ LanceAnim(0x5D)
 AxeAnim(0x5C)
 HandAxeAnim(0x5B)
 UnarmedAnim(0x5E)
+WORD 0x0
+
+ClericAnim:
+StaffAnim(0x80)
+UnarmedAnim(0xC8)
+WORD 0x0
+
+KnightAnim:
+LanceAnim(0x41)
+SwordAnim(0x40)
+UnarmedAnim(0x42)
+WORD 0x0
+
+PegasusKnightAnim:
+LanceAnim(0x66)
+UnarmedAnim(0x77)
+WORD 0x0
+
+MonkAnim:
+LightAnim(0x7D)
+UnarmedAnim(0x7D)
+WORD 0x0
+
+SoldierAnim:
+LanceAnim(0x98)
+UnarmedAnim(0x99)
 WORD 0x0

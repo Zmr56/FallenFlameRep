@@ -4,14 +4,6 @@
 
 #include "ArcherMUnarmed Installer.event"
 }
-/*
-{
-#include "BarbarianAxe Installer.event"
-
-#include "BarbarianHandAxe Installer.event"
-
-#include "BarbarianUnarmed Installer.event"
-}
 {
 #include "CavFAxe Installer.event"
 
@@ -34,5 +26,39 @@
 
 #include "CavMUnarmed Installer.event"
 }
-*/
+{
+#include "ClericStaff Installer.event"
+
+#include "ClericUnarmed Installer.event"
+}
+{
+#include "KnightLance Installer.event"
+
+#include "KnightSword Installer.event"
+
+#include "KnightUnarmed Installer.event"
+}
+{
+#include "NomadBow Installer.event"
+
+#include "NomadUnarmed Installer.event"
+}
+{
+#include "WyvernRiderAxe Installer.event"
+
+#include "WyvernRiderHandAxe Installer.event"
+}
+{
+#include "SoldierLance Installer.event"
+
+#include "SoldierUnarmed Installer.event"
+}
+{
+#include "PegasusLance Installer.event"
+
+#include "PegasusUnarmed Installer.event"
+}
+{
+#include "MonkMagic Installer.event"
+}
 //End of free space block
