@@ -1,3 +1,4 @@
+/*
 #ifndef ClassAnimTable
   #ifdef _FE8_
     #define ClassAnimTable (0xc00008-0x20)
@@ -6,14 +7,14 @@
     #define ClassAnimTable (0xe00008-0x20)
   #endif
 #endif
-
+*/
 //////////////Installed animations go here:
 
 
 
 //////////////
 
-#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+//#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
 
 #define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
 #define LanceAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
@@ -24,9 +25,105 @@
 #define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
 #define LightAnim(Animation) "BYTE Light 0x01 ; SHORT Animation"
 #define DarkAnim(Animation) "BYTE Dark 0x01 ; SHORT Animation"
-#define UnarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
+#define UnarmedAnim(Animation) "BYTE 0x9 0x01 ; SHORT Animation"
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 
+//////////////
+/*
+{
+#include "Battle Anims/WyvernRiderAxe Installer.event"
+}
+{
+#include "Battle Anims/WyvernRiderHandAxe Installer.event"
+}
+{
+#include "Battle Anims/BarbarianAxe Installer.event"
+}
+{
+#include "Battle Anims/BarbarianHandAxe Installer.event"
+}
+{
+#include "Battle Anims/BarbarianUnarmed Installer.event"
+}
+{
+#include "Battle Anims/CavFAxe Installer.event"
+}
+{
+#include "Battle Anims/CavFHandAxe Installer.event"
+}
+{
+#include "Battle Anims/CavFUnarmed Installer.event"
+}
+{
+#include "Battle Anims/CavMAxe Installer.event"
+}
+{
+#include "Battle Anims/CavMHandAxe Installer.event"
+}
+{
+#include "Battle Anims/CavMUnarmed Installer.event"
+}
+{
+#include "Battle Anims/CavMSword Installer.event"
+}
+{
+#include "Battle Anims/CavMLance Installer.event"
+}
+{
+#include "Battle Anims/CavFSword Installer.event"
+}
+{
+#include "Battle Anims/CavFLance Installer.event"
+}
+{
+#include "Battle Anims/ArcherMBow Installer.event"
+}
+{
+#include "Battle Anims/ArcherMUnarmed Installer.event"
+}
+{
+#include "Battle Anims/ClericUnarmed Installer.event"
+}
+{
+#include "Battle Anims/ClericStaff Installer.event"
+}
+{
+#include "Battle Anims/KnightUnarmed Installer.event"
+}
+{
+#include "Battle Anims/KnightLance Installer.event"
+}
+{
+#include "Battle Anims/KnightSword Installer.event"
+}
+{
+#include "Battle Anims/NomadBow Installer.event"
+}
+{
+#include "Battle Anims/NomadUnarmed Installer.event"
+}
+{
+#include "Battle Anims/PaladinMAxe Installer.event"
+}
+{
+#include "Battle Anims/PaladinMHandAxe Installer.event"
+}
+{
+#include "Battle Anims/PaladinMSword Installer.event"
+}
+{
+#include "Battle Anims/PaladinMLance Installer.event"
+}
+{
+#include "Battle Anims/PaladinMUnarmed Installer.event"
+}
+{
+#include "Battle Anims/WyvernLordAxe Installer.event"
+}
+{
+#include "Battle Anims/WyvernLordHandaxe Installer.event"
+}
+*/
 //////////////
 
 GeneralAnim:
@@ -43,6 +140,11 @@ LanceAnim(0x4A)
 AxeAnim(0x4B)
 HandAxeAnim(0x4C)
 UnarmedAnim(0x4D)
+WORD 0x0
+
+ArcherMAnim:
+BowAnim(0x26)
+UnarmedAnim(0x27)
 WORD 0x0
 
 HeroAnim:
@@ -87,13 +189,15 @@ BowAnim(0x1E)
 UnarmedAnim(0x1F)
 WORD 0x0
 
-BrigandAnim:
+CavFAnim:
+SwordAnim(0x37)
+LanceAnim(0x38)
 AxeAnim(0x20)
 HandAxeAnim(0x21)
-UnarmedAnim(0x22)
+UnarmedAnim(0x39)
 WORD 0x0
 
-PirateAnim:
+BarbarianAnim:
 AxeAnim(0x9A)
 HandAxeAnim(0x9B)
 UnarmedAnim(0x9C)
@@ -111,50 +215,49 @@ HandAxeAnim(0xAF)
 UnarmedAnim(0xB0)
 WORD 0x0
 
-TarvosAnim:
+CavMAnim:
+SwordAnim(0x34)
+LanceAnim(0x35)
 AxeAnim(0xB3)
 HandAxeAnim(0xB4)
-UnarmedAnim(0xB5)
+UnarmedAnim(0x36)
 WORD 0x0
 
-MaelduinAnim:
+PaladinMAnim:
+SwordAnim(0x3A)
+LanceAnim(0x3B)
 AxeAnim(0xB6)
 HandAxeAnim(0xB7)
-BowAnim(0xB8)
-UnarmedAnim(0xB9)
+UnarmedAnim(0x3C)
 WORD 0x0
 
 NomadAnim:
-BowAnim(0xA1)
-UnarmedAnim(0x61)
+BowAnim(0xA5)
+UnarmedAnim(0xA6)
 WORD 0x0
 
 WyvernRiderAnim:
-LanceAnim(0x58)
-AxeAnim(0x6)
-HandAxeAnim(0x9)
+AxeAnim(0x58)
+HandAxeAnim(0x5A)
 UnarmedAnim(0x59)
 WORD 0x0
 
 WyvernRiderFAnim:
-LanceAnim(0x5A)
-AxeAnim(0x6)
-HandAxeAnim(0x9)
-UnarmedAnim(0x5B)
+AxeAnim(0x58)
+HandAxeAnim(0x5A)
+UnarmedAnim(0x59)
 WORD 0x0
 
 WyvernLordAnim:
-SwordAnim(0x5C)
 LanceAnim(0x5D)
-AxeAnim(0xBC)
-HandAxeAnim(0xAD)
+AxeAnim(0x5C)
+HandAxeAnim(0x5B)
 UnarmedAnim(0x5E)
 WORD 0x0
 
 WyvernLordFAnim:
-SwordAnim(0x5F)
-LanceAnim(0x60)
-AxeAnim(0xBC)
-HandAxeAnim(0xAD)
-UnarmedAnim(0x61)
+LanceAnim(0x5D)
+AxeAnim(0x5C)
+HandAxeAnim(0x5B)
+UnarmedAnim(0x5E)
 WORD 0x0

@@ -232,13 +232,13 @@ BYTE 00 00
 ALIGN 4
 
 TroubadourSkillList:
-BYTE 1 PlaceholderSkillID
+BYTE 1 SwapID
 BYTE 00 00
 ALIGN 4
 
 ValkyrieSkillList:
-BYTE 255 PlaceholderSkillID //learned if spawning
-BYTE 1 PlaceholderSkillID
+BYTE 255 SwapID //learned if spawning
+BYTE 1 AegisID
 BYTE 00 00
 ALIGN 4
 

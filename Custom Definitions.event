@@ -1,7 +1,22 @@
-
+/*
 #define FreeSpace 0xb2a610
 #define EndOfFreeSpace 0xC00000
 #define FreeSpaceBLRange 0x1c1ec0
+*/
+
+#define FreeSpace
+    #define Free_Space
+    #define FreeSpaceA $B2A610
+    #define FreeSpaceB $E47200
+    #define FreeSpaceC $EFB2E0
+	//#define FreeSpaceD $??????
+    
+    #define EndOfROM $FE4000
+    #define EndofROM EndOfROM
+    #define EndOfFreeSpaceA 0xC00000
+    #define EndOfFreeSpaceB 0xEE0000
+    #define EndOfFreeSpaceC 0xFE0000
+    #define FreeSpaceBLRange 0x1c1ec0
 
 #define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
 #define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
@@ -28,6 +43,8 @@
 
 #include "Engine Hacks/SkillSystem/skill_definitions.event"
 #include "Event Assembler/Extensions/AI Assembly.txt"
+
+#define AnimTableEntry(index) "ORG ClassAnimTable - 0x20 + (index * 0x20)"
 
 //#define __DEBUG__ // Uncomment to get the Debug startup menu :p
 

@@ -3,8 +3,8 @@
     #include "EAstdlib.event"
     #include "Custom Definitions.event"
 
-    ORG FreeSpace
-    PROTECT EndOfFreeSpace // Prevent overflow of data.
+    ORG FreeSpaceA
+    PROTECT EndOfFreeSpaceA // Prevent overflow of data.
 	#include "Tables/TextRepoint.event"
 	ALIGN 4
     MESSAGE Text ends at currentOffset
@@ -12,6 +12,36 @@
 	ALIGN 4
     MESSAGE Portraits end at currentOffset
 
+	ORG FreeSpaceB
+		ALIGN 16
+		ORG CURRENTOFFSET + 0x08
+		ClassAnimTable:
+		ORG CURRENTOFFSET + 0x20 * 0x200 // Allocate 0x200 entries for the ClassAnimTable.
+			PUSH
+			ORG ClassAnimTable
+			#incbin "Tables/ClassAnimTable.dmp" // Vanilla ClassAnimTable.
+			POP
+		#include "Graphics/Battle Anims/BattleAnims1.event"
+		MESSAGE First animation block ends at CURRENTOFFSET
+		//MESSAGE There is ( $1000000 - CURRENTOFFSET ) of space available
+		ASSERT $1000000 - CURRENTOFFSET
+		/*
+	ORG FreeSpaceC
+		#include "Graphics/Battle Anims/BattleAnims2.event"
+		MESSAGE Second animation block ends at CURRENTOFFSET
+		//MESSAGE There is ( $EE0000 - CURRENTOFFSET ) of space available
+		ASSERT $EE0000 - CURRENTOFFSET
+		
+	ORG FreeSpaceD
+		#include "Graphics/Battle Anims/BattleAnims3.event"
+		MESSAGE Third animation block ends at CURRENTOFFSET
+		//MESSAGE There is ( $FE0000 - CURRENTOFFSET ) of space available
+		ASSERT $FE0000 - CURRENTOFFSET
+		*/
+	ORG EndofROM
+		#include "Graphics/Battle Anims/BattleAnims4.event"
+		MESSAGE Fourth animation block ends at CURRENTOFFSET
+	
 	ALIGN 16
 	//Text
 	TextTable:
