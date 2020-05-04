@@ -18,6 +18,27 @@
 		ClassAnimTable:
 		ORG CURRENTOFFSET + 0x20 * 0x200 // Allocate 0x200 entries for the ClassAnimTable.
 			PUSH
+			ORG 0x59BD8
+			POIN ClassAnimTable
+
+			ORG 0x5A600
+			POIN ClassAnimTable
+
+			ORG 0x5A694
+			POIN ClassAnimTable
+
+			ORG 0x5A82C
+			POIN ClassAnimTable
+
+			ORG 0x6F6A8
+			POIN ClassAnimTable
+
+			ORG 0x70940
+			POIN ClassAnimTable
+
+			ORG 0x70A60
+			POIN ClassAnimTable			
+			
 			ORG ClassAnimTable
 			#incbin "Tables/ClassAnimTable.dmp" // Vanilla ClassAnimTable.
 			POP
