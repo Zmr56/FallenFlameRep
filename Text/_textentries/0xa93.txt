@@ -1,2 +1,2 @@
-Double Lion: All weapons[N]
-are treated as brave.[X]
+Dragon Fang: 1.5x damage.[N]
+(Skill% activation)[X]

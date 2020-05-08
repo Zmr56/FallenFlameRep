@@ -1,2 +1,2 @@
-Astra: 5 attacks at half damage.[N]
-(Skill % activation)[X]
+Cunning: Can steal items, pick[N]
+locks, and see in darkness.[X]

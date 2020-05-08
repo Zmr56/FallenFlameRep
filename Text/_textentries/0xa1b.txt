@@ -1,2 +1,2 @@
-Breath of Life: After attacking,[N]
-allies in 2 tiles heal of 20% max HP.[X]
+Quick Burn: +15 Hit and Avoid.[N]
+This bonus decreases each turn.[X]

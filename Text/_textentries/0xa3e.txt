@@ -1,3 +1,2 @@
-Armor March: At start of turn, if unit[N]
-is adjacent to an armor ally, unit and[N]
-adjacent armor allies gain +2 Mov.[X]
+Capture: Capture an enemy after[N]
+defeating it with reduced stats.[X]

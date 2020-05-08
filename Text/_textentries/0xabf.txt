@@ -1,2 +1,2 @@
-Tempest Blood: +2 attack speed[N]
-when HP is not at max.[X]
+Moonlight: Cannot double but[N]
+opponent cannot counterattack.[X]

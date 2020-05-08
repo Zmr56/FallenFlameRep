@@ -1,3 +1,2 @@
-Ready Stance: +4 speed[N]
-and defense when foe[N]
-initiates battle.[X]
+Solidarity: Critical and Critical[N]
+Avoid +10 to adjacent allies.[X]

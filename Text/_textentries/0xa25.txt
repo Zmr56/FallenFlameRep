@@ -1,2 +1,2 @@
-Death Blow: +6 Attack[N]
-when initiating battle.[X]
+Supply: This unit has[N]
+access to the convoy.[X]

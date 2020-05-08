@@ -1,2 +1,2 @@
-Indoor Fighter: +10 Hit and[N]
-Avo when fighting indoors.[X]
+Defiant Res: When HP is 25%[N]
+or lower, gain +4 Resistance.[X]

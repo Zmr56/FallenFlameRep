@@ -1,2 +1,2 @@
-Lily's Poise: Adjacent allies gain[N]
-+1/-3 damage dealt/received.[X]
+Savage Blow: After attacking, enemies[N]
+within 2 tiles take 20% damage.[X]

@@ -1,3 +1,2 @@
-Corrosion: Decrease durability[N]
-of enemy's weapon by User's level[N]
-(Skill/2% activation)[X]
+Lull Spectrum: Negates the[N]
+effects of rallies on opponent.[X]

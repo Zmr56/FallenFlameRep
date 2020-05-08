@@ -1,2 +1,3 @@
-Liquid Ooze: Attackers trying to gain HP[N]
-from attacking this unit lose it instead.[X]
+Foresight: Avoid the damage[N]
+from enemy Critical Hits and[N]
+Skill Activations.[X]

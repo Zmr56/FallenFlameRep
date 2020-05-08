@@ -1,79 +1,67 @@
 
-[Left][LoadWren]
-[Right][LoadSarai]
-[FarRight][LoadAdela]
-[FarLeft][LoadWigbrand]
+[MidLeft][LoadWren]
+[FarLeft][LoadSarai]
+[MidRight][LoadWigbrand]
 
-[Right]#Sarai
-Hey, Wren. Why can't we be travelling[N]
-with the rest of the Blumari army?[A][N]
-I just want to be sailing on a boat.[N]
-All this riding is leaving me tired...[A]
+[MidLeft]#Wren
+This isn't a good sight, I can see[N]
+damage on the citadel, looks like the[A][N]
+enemy already got here before we did.[N]
+Your hunch was right Wigbrand...[A]
 
-[Left]#Wren
-Sir Kestral still wants the escort[N]
-mission to the capital to be on the[A][N]
-down low. So a small force like ours is[N]
-preferred to accompny Adela.[A]
+[MidRight]#Wigbrand
+There still appears to be guards about,[N]
+they're doing some repairs but they[A][N]
+still look poised for battle. Perhaps[N]
+they expect enemy reinforcements?[A]
 
-[FarLeft]#Wigbrand
-Sir Kestral does not want to risk a[N]
-repeat of the last incident on seas.[A][N]
-If we travel in a small group like ours[N]
-we can reduce the risk of attracting[A][N]
-enemy attention.[A]
+[FarLeft]#Sarai
+Don't worry, I'll get to the bottom of[N]
+this. Captain! What events transpired[A][N]
+here? Is my father safe?[A]
 
-[Left]#Wren
-Speaking of enemies, has your scout[N]
-returned yet, Adela?[A]
+[MidRight][ClearFace]
+[MidRight][LoadWystanSoldier]
 
-[FarRight]#Adela
-Not yet, although I think I can see[N]
-Nuri over the horizon there.[A]
+[MidRight]#Wystan Guard
+Lady Sarai! We successfully fended off[N]
+an enemy attack with the aid of Sir[A][N]
+Kestral. However, he sustained heavy[N]
+injuries against a Manakete general.[A][N]
+He and Princess Adela are currently[N]
+being held safe within the castle.[A]
 
-[Right][ClearFace]
-[Right][LoadNuri]
+[FarLeft]#Sarai
+What of my father? I presume he aided[N]
+in the defence of the citadel too, no?[A]
 
-[Right]#Nuri
-Ready to report, princess Adela![A]
+[MidRight]#Wystan Guard
+Well...[A]
 
-[FarRight]#Adela
-How does the situation look up ahead,[N]
-Nuri? You seem a bit tense.[A]
+[FarLeft]#Sarai
+Well... What? Don't leave me hanging![A]
 
-[Right]#Nuri
-A band of enemies was spotted up ahead.[N]
-I believe this is the last remnant of[A][N]
-enemies that was left behind after the[N]
-failed citadel attack. I suppose they[A][N]
-wanted to leave some troops behind to[N]
-attack us when we were more vulnerable.[A]
+[MidRight]#Wystan Guard
+Duke Wystan as you know, is still[N]
+recovering from the injury he sustained[A][N]
+during the annual beef festival when he[N]
+was trampled by a cow. The medication[A][N]
+he is taking had some side effects that[N]
+left him unable to battle.[A]
 
-[Left]#Wren
-It's nothing to worry about, Adela. I'm[N]
-pretty confident by this point that we[A][N]
-can push through this final batch of[N]
-enemies unscathed. Once we're done with[A][N]
-this lot, the invasion ought be over[N]
-practically speaking.[A]
+[FarLeft]#Sarai
+I feel like you're not telling me the[N]
+full picture, but whatever... Anyway,[A][N]
+it's good to hear Sir Kestral is safe[N]
+and sound for the most part, right[A][N]
+Wren?[A]
 
-[FarRight]#Adela
-I believe in you Wren. What's the[N]
-objective then?[A]
-
-[Left]#Wren
-If we take out their commanders I think[N]
-that will be enough for them to realise[A][N]
-the invasion is lost. They'll disperse[N]
-and we can press on ahead.[A]
-
-[Right]#Nuri
-You may want to be careful of the caves[N]
-up ahead, Lady Wren. I could see[A][N]
-Wyvern Riders lurking within. They may[N]
-appear as reinforcements.[A]
-
-[Left]#Wren
-I'll keep that in mind, Nuri. Let's[N]
-head out then.[A]
+[MidLeft]#Wren
+Mhmm, my father can recover from any[N]
+injury he faces, this wouldn't be the[A][N]
+first time he's fought a Manakete.[N]
+We may need to prepare for battle if[A][N]
+it's true that enemy reinforcements may[N]
+try to take advantage of the citadel's[A][N]
+weakened state.[A]
 [X]

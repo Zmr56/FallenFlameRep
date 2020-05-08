@@ -1,17 +1,20 @@
 
-[Right][LoadRudyard]
-[Left][LoadNuri]
+[Right][LoadWren]
+[FarRight][LoadSarai]
+[Left][LoadDunstanCiv]
 
-[Left]#Nuri
-Erasyl...? Is that you?[A]
+[Right]#Wren
+Looks like we've successfully defended[N]
+the citadel. We shouldn't have to fight[A][N]
+anymore reinforcements.[A]
 
-[Right]#Rudyard
-Hmm, that name sounds familiar. Your[N]
-boyfriend? Sounds like the name of a[A][N]
-good looking guy, for sure! But I've[N]
-gotta dash, see ya![A]
+[Left]#Dunstan
+Outstanding work, Wren! My bowels are,[N]
+however, still working against me. So I[A][N]
+shall just... lay down here... Ah...[A]
 
-[Left]#Nuri
-Hey! Wait up! Grr... I'm sure that's[N]
-him! Irresponsible lout...[A]
+[FarRight]#Sarai
+Let's meet-up with  Sir Kestral and[N]
+Adela, Wren! They should still be in[A][N]
+that room over there.[A]
 [X]

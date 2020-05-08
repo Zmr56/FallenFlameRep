@@ -1,2 +1,2 @@
-Dire Slash: Enemies are left[N]
-with at least 1 HP.[X]
+Acrobat: All traversable[N]
+terrain costs 1 movement.[X]

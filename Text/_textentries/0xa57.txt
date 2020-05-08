@@ -1,2 +1,2 @@
-Charge: Gain +1 damage for[N]
-every two squares moved.[X]
+Holy Aura: Gain +1 damage, +5% hit,[N]
++5% avoid, +5% crit when using light.[X]

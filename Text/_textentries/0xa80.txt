@@ -1,2 +1,2 @@
-Void Curse: This unit gives[N]
-no experience when defeated.[X]
+Defiant Def: When HP is 25%[N]
+or lower, gain +4 Defense.[X]

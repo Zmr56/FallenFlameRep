@@ -1,68 +1,47 @@
 
-[Left][LoadSarai]
-[Right][LoadShamira]
+[MidRight][LoadWren]
+[MidLeft][LoadWigbrand]
 
-[Right]#Shamira
-Lady Sarai! Where are your other[N]
-retainers, Luz, Gad and Rudyard?[A]
+[MidRight]#Wren
+The commander has fallen and whatever's[N]
+left has scattered. Do we pursue?[A]
 
-[Left]#Sarai
-Dana offered to escort me to Duke[N]
-Falcone's. Luz and Gad were helping[A][N]
-with fortifying the citadel back in[N]
-Aquanpool. Rudyard is on guard there.[A]
+[MidLeft]#Wigbrand
+They've all gone their own ways, a[N]
+lonesome crook is of no concern for us.[A][N]
+Although I couldn't help but notice the[N]
+unusual Gofaullian accent on the leader.[A][N]
+Would you have any idea where they hail[N]
+from Huginn?[A]
 
-[Right]#Shamira
-That's unusual, why would we be[N]
-fortifying Wystan citadel?[A]
+[Right][LoadHuginn]
 
-[Left]#Sarai
-Beats me. Nor me or my retainers know[N]
-of the reason. My father has been tight[A][N]
-lipped over what's going on. I can only[N]
-presume we're preparing for an attack.[A]
+[Right]#Huginn
+Sounded like one from the east coast.[N]
+I'd reckon he's from the confederate,[A][N]
+not a Blumari bandit like the others.[A]
 
-[Right]#Shamira
-Strange, I can't see how a ragtag force[N]
-of pirates and mercenaries would get[A][N]
-far inland with enough troops to lay[N]
-siege to one of our citadels.[A]
+[MidLeft]#Wigbrand
+It may very well be the case then that[N]
+they have swarmed the rest of the[A][N]
+mainland, colluding with bandits from[N]
+Blumari to wreck havoc, prepare[A][N]
+yourselves for more combat everyone.[A]
 
-[Left]#Sarai
-Maybe there's a stronger enemy aiding[N]
-them. Maybe the Wyvemberian Empire?[A]
+[MidRight]#Wren
+We'll march home as swiftly as we can[N]
+then. If the pirates and bandits are[A][N]
+working together already then perhaps[N]
+my father's prediction about the[A][N]
+invasion was a good guess.[A]
 
-[Right]#Shamira
-That's possible. Maybe we'll run into[N]
-them soon.[A]
+[MidLeft]#Wigbrand
+Best be ready to fight all manner of[N]
+enemies then, knights and knaves alike.[A][N]
 
-[Left]#Sarai
-Oh I hope not! Caeda is terrified of[N]
-wyvern riders.[A]
-
-[Right]#Shamira
-...Caeda...?[A]
-
-[Left]#Sarai
-My pegasus![A]
-
-[Right]#Shamira
-Oh right... People name their mounts[N]
-with human names... I'm no good at[A][N]
-riding so this is unfamiliar to me.[A]
-
-[Left]#Sarai
-It's a cute name, isn't it?[A]
-
-[Right]#Shamira
-Well I wouldn't know what consitutes[N]
-a cute pegasus name... You might be[A][N]
-better off asking Lady Wren.[A]
-
-[Left]#Sarai
-Fair enough! Thanks for lending an ear[N]
-Shammi![A]
-
-[Right]#Shamira
-...Shammi...?[A]
+[MidRight]#Wren
+Indeed, it's quite the unusual colation[N]
+isn't it? Let's march on then and see[A][N]
+for ourselves what their combined[N]
+strength can do compared to our own.[A]
 [X]

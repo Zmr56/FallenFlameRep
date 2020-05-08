@@ -1,2 +1,2 @@
-Defiant Crit: When HP is 25%[N]
-or lower, gain +30 Crit.[X]
+Daunt: -5 Hit and Crit to all[N]
+enemy units in a 3-tile radius.[X]

@@ -1935,3 +1935,27 @@ TxtData0xad8:
 #incext ParseFile "_textentries\0xad8.txt"
 setText(0xad8,TxtData0xad8)
 
+TxtData0xad9:
+#incext ParseFile "_textentries\0xad9.txt"
+setText(0xad9,TxtData0xad9)
+
+TxtData0xada:
+#incext ParseFile "_textentries\0xada.txt"
+setText(0xada,TxtData0xada)
+
+TxtData0xadb:
+#incext ParseFile "_textentries\0xadb.txt"
+setText(0xadb,TxtData0xadb)
+
+TxtData0xadc:
+#incext ParseFile "_textentries\0xadc.txt"
+setText(0xadc,TxtData0xadc)
+
+TxtData0xadd:
+#incext ParseFile "_textentries\0xadd.txt"
+setText(0xadd,TxtData0xadd)
+
+TxtData0xade:
+#incext ParseFile "_textentries\0xade.txt"
+setText(0xade,TxtData0xade)
+

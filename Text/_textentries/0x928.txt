@@ -1,1 +1,2 @@
-Bad[X]
+Biorhythm. Affects[N]
+Hit and Avoid.[X]

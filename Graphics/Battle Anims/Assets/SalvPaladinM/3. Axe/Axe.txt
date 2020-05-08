@@ -1,7 +1,7 @@
 #######################################################
-#01 lorm_sp1 Lord Lance
+#07 Paladin Axe
 #
-#When importing to FEditorAdv delete # and after each line.
+#When importing to FEEditorAdv delete # and after each line.
 #######################################################
 /// - Mode 1               #Melee Animation
 C03                               #Start attack animation; should be followed by 0x07
@@ -25,7 +25,7 @@ C1D                               #Play light horse stepping SFE; pitch increase
 C22                               #Play short sword swinging SFE
 2 p- Axe_013.png
 1 p- Axe_014.png
-C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit; Magic only.
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
 2 p- Axe_015.png
 C15                               #Slight vibration of screen
 C21                               #Play hit SFE (sounds like Knight Lord with sword's hit)
@@ -174,7 +174,7 @@ C42                               #Play long axe swinging SFE
 1 p- Axe_012.png
 1 p- Axe_013.png
 1 p- Axe_014.png
-C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit; Magic only.
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
 C21                               #Play hit SFE (sounds like Knight Lord with sword's hit)
 C0C                               #Critical hit
 3 p- Axe_015.png
@@ -248,7 +248,7 @@ C0D                               #End of dodge animation. preceeded by 0x06
 1 p- Axe_000.png
 C01                               #NOP
 ~~~
-/// - Mode 10               #Standing motions
+/// - Mode 10               #standing motions?
 1 p- Axe_000.png
 C01                               #NOP
 ~~~
@@ -275,7 +275,7 @@ C1D                               #Play light horse stepping SFE; pitch increase
 C22                               #Play short sword swinging SFE
 2 p- Axe_013.png
 2 p- Axe_014.png
-C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit; Magic only.
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
 1 p- Axe_073.png
 2 p- Axe_016.png
 4 p- Axe_016.png

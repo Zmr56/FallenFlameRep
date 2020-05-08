@@ -1,3 +1,2 @@
-Blue Flame: Attack +2 to this[N]
-unit. When adjacent to an ally[N]
-with this skill, gain Attack +2.[X]
+Deadeye: Doubles hit rate.[N]
+Skill% chance to inflict sleep.[X]

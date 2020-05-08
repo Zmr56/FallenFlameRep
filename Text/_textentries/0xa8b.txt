@@ -1,2 +1,2 @@
-Enrage: Inflict berserk status.[N]
-(Skill% activation)[X]
+Alert Stance+: +30 Avo[N]
+when defending.[X]

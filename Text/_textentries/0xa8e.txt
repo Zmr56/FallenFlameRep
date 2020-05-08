@@ -1,2 +1,1 @@
-Fortune: This unit[N]
-cannot be crit.[X]
+Tempest: Double biorhythm effects.[X]

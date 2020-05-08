@@ -1,2 +1,2 @@
-Defiant Str: When HP is 25%[N]
-or lower, gain +4 Strength.[X]
+Blood Tide: Atk and Hit +5[N]
+to adjacent allies.[X]

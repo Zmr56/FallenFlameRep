@@ -1,10 +1,3 @@
-/*
-{
-#include "ArcherMBow Installer.event"
-
-#include "ArcherMUnarmed.event"
-}
-*/
 
 {
 #include "BarbarianAxe Installer.event"
@@ -15,39 +8,14 @@
 {
 #include "BarbarianUnarmed Installer.event"
 }
-/*
 {
-#include "CavFAxe Installer.event"
+#include "PaladinMAxe Installer.event"
 
-#include "CavFHandAxe Installer.event"
+#include "PaladinMHandAxe Installer.event"
 
-#include "CavFSword Installer.event"
+#include "PaladinMSword Installer.event"
 
-#include "CavFLance Installer.event"
+#include "PaladinMLance Installer.event"
 
-#include "CavFUnarmed Installer.event"
+#include "PaladinMUnarmed Installer.event"
 }
-{
-#include "CavMAxe Installer.event"
-
-#include "CavMHandAxe Installer.event"
-
-#include "CavMSword Installer.event"
-
-#include "CavMLance Installer.event"
-
-#include "CavMUnarmed Installer.event"
-}
-{
-#include "CavMAxe Installer.event"
-
-#include "CavFHandAxe Installer.event"
-
-#include "CavFSword Installer.event"
-
-#include "CavFLance Installer.event"
-
-#include "CavFUnarmed Installer.event"
-}
-//End of free space block
-*/

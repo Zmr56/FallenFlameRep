@@ -1,7 +1,7 @@
 #######################################################
-#01 lorm_sp1 Lord Lance
+#07 Paladin Lance
 #
-#When importing to FEditorAdv delete # and after each line.
+#When importing to FEEditorAdv delete # and after each line.
 #######################################################
 /// - Mode 1               #Melee Animation
 C03                               #Start attack animation; should be followed by 0x07
@@ -24,7 +24,7 @@ C1D                               #Play light horse stepping SFE; pitch increase
 3 p- Lance_012.png
 C23                               #Play shorter sword swinging SFE
 2 p- Lance_013.png
-C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit; Magic only.
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
 2 p- Lance_014.png
 C15                               #Slight vibration of screen
 C21                               #Play hit SFE (sounds like Knight Lord with sword's hit)
@@ -161,7 +161,7 @@ C42                               #Play long axe swinging SFE
 1 p- Lance_059.png
 C21                               #Play hit SFE (sounds like Knight Lord with sword's hit)
 C0C                               #Critical hit
-C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit; Magic only.
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
 4 p- Lance_015.png
 C01                               #NOP
 2 p- Lance_016.png
@@ -294,7 +294,7 @@ C0D                               #End of dodge animation. preceeded by 0x06
 1 p- Lance_000.png
 C01                               #NOP
 ~~~
-/// - Mode 10               #Standing motions
+/// - Mode 10               #standing motions?
 1 p- Lance_000.png
 C01                               #NOP
 ~~~
@@ -323,7 +323,7 @@ C1D                               #Play light horse stepping SFE; pitch increase
 3 p- Lance_012.png
 C23                               #Play shorter sword swinging SFE
 2 p- Lance_013.png
-C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit; Magic only.
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
 2 p- Lance_073.png
 3 p- Lance_074.png
 C01                               #NOP

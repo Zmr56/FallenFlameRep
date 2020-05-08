@@ -1,2 +1,2 @@
-Watchful: This unit cannot be[N]
-captured or stolen from.[X]
+Heavy Strikes: Add weapon[N]
+weight to critical chance.[X]

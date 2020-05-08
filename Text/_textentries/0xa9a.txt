@@ -1,2 +1,2 @@
-Push Defense: When HP[N]
-is full, gain +5 defense.[X]
+Eclipse: Leave opponent with 1 HP.[N]
+(Skill % activation)[X]

@@ -1,2 +1,1 @@
-Destroy this village[N]
-for items and gold.[X]
+This is your win button.[X]

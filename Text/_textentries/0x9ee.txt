@@ -1,2 +1,2 @@
-Anathema: -10 Avoid/Dodge to all[N]
-enemies within 3 tiles.[X]
+Foreign Princess: Foreign army units[N]
+take -2/+2 damage dealt/taken.[X]

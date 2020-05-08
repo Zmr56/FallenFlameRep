@@ -1,2 +1,2 @@
-Push Speed: When HP[N]
-is full, gain +5 speed.[X]
+Double Lion: All weapons[N]
+are treated as brave.[X]

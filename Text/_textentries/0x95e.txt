@@ -1,2 +1,2 @@
-A ferciously loyal Knight with[N]
-great lance work. Orvar's sister.[X]
+Mounted knights with swift movement.[NL]
+Equip: Axes.[X]

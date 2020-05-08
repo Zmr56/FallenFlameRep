@@ -1,1 +1,2 @@
-Nomad[X]
+Complete this chapter[N]
+by having this unit arrive.[X]

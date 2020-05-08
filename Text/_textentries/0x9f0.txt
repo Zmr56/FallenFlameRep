@@ -1,2 +1,2 @@
-Expertise: Reduce bonus damage[N]
-from critical hits by 50%.[X]
+Relief: Recover 20% HP each turn if[N]
+there are no allies within 2 tiles.[X]

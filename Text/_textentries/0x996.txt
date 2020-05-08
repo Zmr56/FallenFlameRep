@@ -1,2 +1,2 @@
-Provoke: Enemies are more[N]
-likely to target this unit.[X]
+Adept: Gain a consecutive attack.[N]
+(Speed % activation)[X]

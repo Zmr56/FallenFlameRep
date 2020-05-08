@@ -1,2 +1,2 @@
-Catch 'Em All: Grants[N]
-the user every skill.[X]
+Trace: During Battle, copies[N]
+the first Skill of the enemy.[X]

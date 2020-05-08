@@ -1,2 +1,2 @@
-Discipline: Weapon experience[N]
-gains are doubled.[X]
+Lethality: Instantly kill opponent.[N]
+(Skill/2 % activation)[X]

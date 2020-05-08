@@ -1,2 +1,2 @@
-Imbue: Heal HP equal to magic[N]
-at the start of each turn.[X]
+Lull Luck: Negates the effects[N]
+of rallies on opponent's luck.[X]

@@ -1,3 +1,2 @@
-Infiltrator: If within 2 spaces[N]
-of two or more enemies, gain +3[N]
-damage and +15% hit.[X]
+Silent Pride: Gain 2 damage and take[N]
+-2 damage per 25% below max HP.[X]

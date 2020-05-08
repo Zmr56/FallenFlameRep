@@ -1,2 +1,3 @@
-Dazzle: Opponents cannot[N]
-counterattack this unit.[X]
+Despoil: Obtain a Red Gem after[N]
+attacking and defeating an enemy.[N]
+(Luck % activation)[X]

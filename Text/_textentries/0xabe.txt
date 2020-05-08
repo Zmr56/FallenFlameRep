@@ -1,2 +1,2 @@
-Blazing Blessing: Allied unit targeted[N]
-by this unit's Staves gain +3 Str/Mag.[X]
+Great Shield: Negate all damage.[N]
+(Defense % activation)[X]

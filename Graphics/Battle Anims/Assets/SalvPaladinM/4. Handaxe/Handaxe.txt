@@ -1,7 +1,7 @@
 #######################################################
-#01 lorm_sp1 Lord Lance
+#07 Paladin Hand Axe
 #
-#When importing to FEditorAdv delete # and after each line.
+#When importing to FEEditorAdv delete # and after each line.
 #######################################################
 /// - Mode 1               #Melee Animation
 C03                               #Start attack animation; should be followed by 0x07
@@ -53,7 +53,7 @@ C07                               #Start attack animation; should be preceeded b
 C1D                               #Play light horse stepping SFE; pitch increases
 6 p- Handaxe_003.png
 5 p- Handaxe_026.png
-C41                               #EMPTY
+C41                               #EMPTY FE7:086EB188
 4 p- Handaxe_027.png
 3 p- Handaxe_028.png
 3 p- Handaxe_029.png
@@ -166,7 +166,7 @@ C07                               #Start attack animation; should be preceeded b
 C1D                               #Play light horse stepping SFE; pitch increases
 6 p- Handaxe_003.png
 5 p- Handaxe_026.png
-C41                               #EMPTY
+C41                               #EMPTY FE7:086EB188
 4 p- Handaxe_027.png
 3 p- Handaxe_028.png
 3 p- Handaxe_029.png
@@ -259,7 +259,7 @@ C0D                               #End of dodge animation. preceeded by 0x06
 1 p- Handaxe_000.png
 C01                               #NOP
 ~~~
-/// - Mode 10               #Standing motions
+/// - Mode 10               #standing motions?
 1 p- Handaxe_000.png
 C01                               #NOP
 ~~~
