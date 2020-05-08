@@ -1,3 +1,2 @@
-Bracing Stance: +4 defense[N]
-and resistance when[N]
-foe initiates battle.[X]
+Death Blow: +6 Attack[N]
+when initiating battle.[X]

@@ -1,1 +1,2 @@
-Insight: Hit +20.[X]
+Drive Defense: Allies within[N]
+2 spaces receive +4 defense.[X]

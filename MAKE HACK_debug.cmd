@@ -14,9 +14,9 @@ cd "%~dp0Maps"
 
 echo: | (tmx2ea -s)
 
-cd "%~dp0Battle Palettes"
+cd "%~dp0Battle_Palettes"
 
-echo: | (pal2ea "%~dp0Battle Palettes/Battle Palettes.txt")
+echo: | (pal2ea "%~dp0Battle_Palettes/Battle Palettes.txt")
 
 cd "%~dp0Event Assembler"
 

@@ -1,2 +1,2 @@
-Thotslayer: +15 crit against units[N]
-with Nice Thighs or Personality.[X]
+Lull Res: Negates the effects of[N]
+rallies on opponent's resistance.[X]

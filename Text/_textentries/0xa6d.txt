@@ -1,1 +1,2 @@
-Vigilance: Avoid +20.[X]
+Drive Resistance: Allies within[N]
+2 spaces receive +4 resistance.[X]

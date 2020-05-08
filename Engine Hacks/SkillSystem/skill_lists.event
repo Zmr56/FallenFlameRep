@@ -108,7 +108,7 @@ ALIGN 4
 
 WyvernLordSkillList:
 BYTE 255 LungeID //learned if spawning
-BYTE 1 PlaceholderSkillID
+BYTE 1 ArmoredBlowID
 BYTE 00 00
 ALIGN 4
 
@@ -216,12 +216,12 @@ BYTE 00 00
 ALIGN 4
 
 PegKnightSkillList:
-BYTE 1 PlaceholderSkillID
+BYTE 1 WardingBlowID
 BYTE 00 00
 ALIGN 4
 
 FalcoknightSkillList:
-BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 255 WardingBlowID //learned if spawning
 BYTE 1 PlaceholderSkillID
 BYTE 00 00
 ALIGN 4

@@ -41,9 +41,27 @@ Zeke[X]
 ## PrologueStatus
 Kill Datta.[X]
 
+## Ch1Status
+Seize citadel gate.[X]
+
+## Ch2Status
+Kill Sawine.[X]
+
 ## DefendFatNobleStatus
-Defend the noble and passage[N]
-for 9 turns or kill the boss.[X]
+Defend the noble and[N]
+passage or kill boss.[X]
+
+## Ch4Status
+Kill both bosses[X]
+
+## SeizeWindow
+Seize.[X]
+
+## KillBossWindow
+Kill Boss.[X]
+
+## MultiKillBossWindow
+Kill All Bosses.[X]
 
 ## DefendFatNobleWindow
 Defend[X]

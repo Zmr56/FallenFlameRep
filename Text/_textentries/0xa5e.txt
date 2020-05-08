@@ -1,2 +1,3 @@
-Boon: Cure bad status effects[N]
-at the beginning of each turn.[X]
+Infiltrator: If within 2 spaces[N]
+of two or more enemies, gain +3[N]
+damage and +15% hit.[X]

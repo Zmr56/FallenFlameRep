@@ -1,3 +1,2 @@
-Down with Arch: If the hit lands,[N]
-instantly kill the enemy unit.[N]
-(Only if name starts with "Arch")[X]
+Chivalry: When foe is at full HP,[N]
+attack and def/res +2.[X]

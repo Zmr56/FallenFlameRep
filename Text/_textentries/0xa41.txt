@@ -1,2 +1,2 @@
-Full Metal Body: This unit is[N]
-immune to all the Seal skills.[X]
+Fortress Resistance:[N]
++5 Res, -3 Str/Mag[X]

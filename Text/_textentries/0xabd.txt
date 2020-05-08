@@ -1,2 +1,2 @@
-Snow Blessing: Allied unit targeted[N]
-by this unit's Staves gain +3 Res.[X]
+Charge+: If unit has used up[N]
+all movement, gain brave effect.[X]

@@ -1,2 +1,2 @@
-Solidarity: Critical and Critical[N]
-Avoid +10 to adjacent allies.[X]
+Charisma: Grants +10 Hit/Avoid[N]
+to all allies within three tiles.[X]

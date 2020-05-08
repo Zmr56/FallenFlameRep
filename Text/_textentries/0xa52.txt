@@ -1,2 +1,3 @@
-Silent Pride: Gain 2 damage and take[N]
--2 damage per 25% below max HP.[X]
+Barricade+: In combat, damage[N]
+recieved equals half of the[N]
+damage when struck last.[X]

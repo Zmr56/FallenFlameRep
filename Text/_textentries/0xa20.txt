@@ -1,2 +1,2 @@
-Quantum Visage: Face changes[N]
-every time it's looked at.[X]
+Swap: Allows unit to swap positions[N]
+with an adjacent ally.[X]

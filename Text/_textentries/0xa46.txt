@@ -1,3 +1,2 @@
-Devil's Pact: Immune to Devil Reversal.[N]
-Curses the enemy with Devil Reversal.[N]
-(31-Luck % chance of Devil Reversal).[X]
+Forager: Recover 20% HP each turn[N]
+if on a Plain, Forest or Mountain.[X]

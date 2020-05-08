@@ -1,2 +1,2 @@
-Hex: -15 avoid to all[N]
-adjacent enemies.[X]
+Lumina: Allows the user to use[N]
+Light Magic. (Uses highest Magic Rank)[X]

@@ -1,2 +1,2 @@
-Frenzy: For every 4 damage[N]
-taken, +1 to damage dealt.[X]
+Pass: Can move through[N]
+enemy units.[X]

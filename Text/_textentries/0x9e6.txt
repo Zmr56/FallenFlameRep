@@ -1,2 +1,3 @@
-Trample: +5 damage to[N]
-unmounted units.[X]
+Ignis: Add Def/2 and Res/2[N]
+to damage dealt.[N]
+(Skill % activation)[X]

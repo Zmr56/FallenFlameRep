@@ -1,2 +1,2 @@
-Placeholder Skill: Does as much as[N]
-you'd expect, nothing. For now...[X]
+Slayer: Deal effective damage[N]
+to monster units.[X]

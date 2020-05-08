@@ -1,2 +1,2 @@
-Alert Stance+: +30 Avo[N]
-when defending.[X]
+Tower Shield+: Take no damage[N]
+against attacks recieved at range.[X]

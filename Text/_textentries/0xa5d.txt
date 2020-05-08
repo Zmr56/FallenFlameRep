@@ -1,2 +1,2 @@
-Hero: +30% skill activation[N]
-rate when HP is below 50%.[X]
+Charge: Gain +1 damage for[N]
+every two squares moved.[X]

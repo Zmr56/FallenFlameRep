@@ -1,2 +1,2 @@
-Hawkeye: User will[N]
-always hit the enemy.[X]
+Identity Problems: This unit can't[N]
+decide on a name or face.[X]

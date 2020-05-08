@@ -1,7 +1,2 @@
-
-[MidLeft][LoadDatta]
-Looks like there's a bunch of sword[N]
-sword amongst that crowd of knights...[A][N]
-No worry, back-up should be coming soon[N]
-our sellsword will cut them deep![A][N]
-[X]
+Snow Blessing: Allied unit targeted[N]
+by this unit's Staves gain +3 Res.[X]

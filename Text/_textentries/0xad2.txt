@@ -1,132 +1,90 @@
 
-[Left][LoadWren]
-[Right][LoadKestral]
-
-[Left]#Wren
-Father! I heard you were injured by a[N]
-Manakete, are you recovering well?[A]
-
-[Right]#Kestral
-The lizard merely scratched me. Agh...![N]
-Well, maybe a little more than that...[A][N]
-But I'm fine, it's nothing to worry[N]
-about. How fare you, my daughter? I can[A][N]
-see your blade is worn... I thought I[N]
-told you to keep her out of this,[A][N]
-Wigbrand.[A]
-
-[FarLeft][LoadWigbrand]
-
-[FarLeft]#Wigbrand
-I did my best to keep Lady Wren safe,[N]
-Sir Kestral, but the invasion has been[A][N]
-intense and any help I could muster on[N]
-the battlefield was necessary to see us[A][N]
-through, even with my skills.
-
-[Right]#Kestral
-Hmph, fair enough.[A]
-
-[FarLeft][ClearFace]
-
-[Left]#Wren
-You're not displeased by me taking up[N]
-arms for real now, are you father?[A]
-
-[Right]#Kestral
-No... Of course not, Wren. You're free[N]
-to live your own life. I care not for[A][N]
-what noblemen may utter about you.
-
-[Left]#Wren
-Thank you, father![A]
-
-[Right]#Kestral
-Well... I should head to the citadel's[N]
-infirmary now. Once I'm healed up,[A][N]
-we'll meet again in the capital.[N]
-Goodbye, Wren. I'll give you some time[A][N]
-with princess Adela now.[A]
-
-[Left]#Wren
-I love you too father, goodbye.[A]
-
-[Right][ClearFace]
-[Right][LoadAdela]
+[MidRight][LoadWren]
+[MidLeft][LoadWigbrand]
 [FarLeft][LoadSarai]
 
-[Right]#Adela
-Wren! Sarai! Oh I am glad to see you[N]
-two![A]
+[MidRight]#Wren
+Port looks safe now, no pirates in[N]
+sight. I think we can press onto the[A][N]
+Aquanpool Citadel safely now?[A]
 
-[Left]#Wren
-Us too, Adela. We've been keeping up to[N]
-date with the changing situation with[A][N]
-the civil war.[A]
-
-[FarLeft]#Sarai
-Are you feeling fine right now, Adela?[N]
-I heard about the death of your parents[A][N]
-and what happened to prince Vladmir...[A]
-
-[Right]#Adela
-I'm... coping. It has not been easy but[N]
-now that I am in the safety of loyal[A][N]
-friends, my emotional recovery can only[N]
-get easier from here on out.[A]
-
-[Left]#Wren
-We'll make sure to protect you with all[N]
-our strength Adela. Has there been any[A][N]
-word on Vladmir's status?[A]
-
-[Right]#Adela
-Unfortunately no. Last I saw of my[N]
-brother was when he was defending the[A][N]
-palace from one of the commander's of[N]
-the rebels. He was locked into a battle[A][N]
-with a dark rider... Both of them[N]
-disappeared behind a cloud of smoke[A][N]
-while the palace went up in flames...[N]
-The dark rider still lives, but no word[A][N]
-on my brother. Our spies were unable to[N]
-confirm that the rebels had him killed.[A]
-
-[Left]#Wren
-Whoever this dark rider is... I'll make[N]
-sure to avenge Vladmir by my own hand.[A]
+[MidLeft]#Wigbrand
+Should do, unless the enemy learnt of[N]
+our next steps during their ambush on[A][N]
+Sir Kestral at sea. An attack en route[N]
+to the citadel or at the citadel itself[A][N]
+are entirely possible in that instance.[A]
 
 [FarLeft]#Sarai
-Revenge is a dangerous and slippery[N]
-road to walk down, Wren.[A]
+Wiggy, you should try being an optimist[N]
+more often. It's nothing to worry about[A][N]
+Wren! Worst case scenario? My father,[N]
+the renowed Shield of Blumari, Duke[A][N]
+Wystan will simply eliminate them once[N]
+they get there. He's strong you know![A][N]
+Plus, it's his citadel, he knows it[N]
+better than the enemy does.[A]
 
-[Right]#Adela
-I agree with Sarai, it's how we got[N]
-into this situation in the first place.[A][N]
-It's a never ending cycle...[A]
+[MidRight]#Wren
+Well, I suppose at a glance that sort[N]
+of attack on a Blumari citadel seems[A][N]
+unlikely to work, even if auxillary[N]
+pirate cannon fodder is spreading our[A][N]
+resources thin across the island.[N]
+I'm struggling to see their rationale[A][N]
+behind this reckless attack however.[A]
 
-[Left]#Wren
-I know... Sorry. It's just, Vladmir was[N]
-my fiance...[A]
+[MidLeft]#Wigbrand
+As you know Western Viripuria is split[N]
+in two by a bloody civil war. On one[A][N]
+hand you have the Imperialists, on the[N]
+other, the Wyvember backed forces,[A][N]
+the Golden Revolutionaries. Right now[N]
+Princess Adela and Emperor Ivan are the[A][N]
+only members of the imperial dynasty[N]
+that we know to be alive. Prince[A][N]
+Vladmir's whereabouts are unknown.[A]
 
-[Right]#Adela
-I understand Wren. I'm sure we'll gain[N]
-clarity in due time. For now, let's[A][N]
-just focus on getting to safety in the[N]
-capital.[A]
+[MidRight]#Wren
+I'm aware... It's been 6 months since[N]
+he last replied to my letters...[A]
 
-[Left]#Wren
-Yes, you're right. I can't shake off[N]
-the feeling however that we may still[A][N]
-need to be prepared for enemies on the[N]
-way however.[A]
+[FarLeft]#Sarai
+It's alright Wren... I'm sure he's out[N]
+there somewhere...[A]
 
-[Right]#Adela
-If such a situation arises Wren, I can[N]
-aid you with my light magic and[A][N]
-healing.[A]
+[MidLeft]#Wigbrand
+Ahem. Anyhow, if Wyvember were to kill[N]
+Adela now, this would be a huge blow to[A][N]
+the morale of the Imperialists while[N]
+they're already in dire straits. Then[A][N]
+they can focus their efforts on purging[N]
+that dynasty and destroying the very[A][N]
+thing the Imperialists fight for. Then[N]
+it will only be a matter of time for[A][N]
+the victory of the rebels to be sealed.[A]
 
-[Left]#Wren
-Thank you, Adela. Let's move out for[N]
-the capital then.[A]
+[MidRight]#Wren
+Even so, why do they need to already[N]
+undertake a risky operation during this[A][N]
+stage in the war?[A]
+
+[MidLeft]#Wigbrand
+Time is against the Manaketes. If they[N]
+don't act fast, they'll continue to[A][N]
+succumb to their degenerating mental[N]
+state unless they expand into foreign[A][N]
+lands where magic is more plentiful to[N]
+sustain their dragon forms. The sooner[A][N]
+they act, the better. Once they've[N]
+strengthened their coalition of[A][N]
+pirates, revolutionaries and dragons,[N]
+they can take the Eastern Viripurian[A][N]
+Empire where magic is in abundance.[A]
+
+[MidRight]#Wren
+Then I guess they're unlikely to hold[N]
+back on this chance. We ought be[A][N]
+prepared for such an outcome... Let's[N]
+press on then.[A]
 [X]

@@ -1,2 +1,2 @@
-Corona: Negate enemy resistance.[N]
-(Skill% activation)[X]
+Void Curse: This unit gives[N]
+no experience when defeated.[X]

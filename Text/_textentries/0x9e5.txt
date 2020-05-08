@@ -1,2 +1,2 @@
-Opportunist: +4 damage[N]
-if the foe cannot counter.[X]
+Live to Serve: When healing[N]
+an ally, also heals self.[X]

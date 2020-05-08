@@ -1,2 +1,2 @@
-Great Shield: Negate all damage.[N]
-(Defense % activation)[X]
+Gridmaster: Movement skills[N]
+do not end your action.[X]

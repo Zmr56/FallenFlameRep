@@ -1,2 +1,2 @@
-Mounted knights with swift movement.[NL]
-Equip: Axes.[X]
+Horseback archers who move through.[N]
+rough terrain with ease.[X]

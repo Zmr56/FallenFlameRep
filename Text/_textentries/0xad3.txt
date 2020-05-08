@@ -1,11 +1,14 @@
 
-[MidLeft][LoadDunstanCiv]
-Ah Wren! You may be unfamiliar with[N]
-the layout of this fortress.[A][N]
-Entrances to outside lead out from[N]
-the carpets on the eastern and south[A][N]
-western openings. The staircases by[N]
-the south also leads to outside.[A][N]
-Beware of all kinds of reinforcements[N]
-emerging from these points![A]
+[MidLeft][LoadWren]
+[MidRight][LoadWigbrand]
+
+[MidLeft]
+Ack! What was that noise?[N][A]
+
+[MidRight]
+Wyverns. The roar sounds like it came[N]
+from the north-east. It appears the[A][N]
+pirates are working with Wyvember.[N]
+They don't sound too far away, prepare[A][N]
+for an attack by them soon, Wren.[A]
 [X]

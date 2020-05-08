@@ -1,3 +1,2 @@
-Aether: First strike absorbs HP,[N]
-second strike negates defenses.[N]
-(Skill/2 % activation)[X]
+Canto: Can move again[N]
+after certain actions.[X]

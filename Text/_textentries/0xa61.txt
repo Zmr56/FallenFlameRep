@@ -1,2 +1,2 @@
-Drive Strength: Allies within[N]
-2 spaces receive +4 strength.[X]
+Knight Aspirant: When above 75%[N]
+health, +2 damage, +15% avoid.[X]

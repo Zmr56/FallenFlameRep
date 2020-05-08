@@ -1,2 +1,2 @@
-Push an adjacent unit one[N]
-tile away.[X]
+Leave opponent with[N]
+at least 1 HP.[X]

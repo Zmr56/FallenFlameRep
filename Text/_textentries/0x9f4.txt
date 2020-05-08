@@ -1,2 +1,2 @@
-Natural Cover: -3 damage taken[N]
-when on terrain with effects.[X]
+Anathema: -10 Avoid/Dodge to all[N]
+enemies within 3 tiles.[X]

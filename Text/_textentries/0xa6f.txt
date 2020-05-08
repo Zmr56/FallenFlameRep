@@ -1,2 +1,2 @@
-Blood Tide: Atk and Hit +5[N]
-to adjacent allies.[X]
+Aptitude: +20% to[N]
+all growth rates.[X]

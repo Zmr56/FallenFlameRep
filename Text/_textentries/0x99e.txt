@@ -1,2 +1,2 @@
-Sol: Restore damage dealt as HP.[N]
-(Skill % activation)[X]
+Frenzy: For every 4 damage[N]
+taken, +1 to damage dealt.[X]

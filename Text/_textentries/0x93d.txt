@@ -1,2 +1,2 @@
-Swap positions with adjacent[N]
-ally.[X]
+Push an adjacent unit two[N]
+tiles away.[X]

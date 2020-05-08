@@ -1,2 +1,3 @@
-Perfectionist: +15 Hit/Avoid when[N]
-user's HP is at maximum.[X]
+Poison Strike: Deals damage equal to[N]
+20% of the enemy's max HP after[N]
+battle this unit initiates.[X]

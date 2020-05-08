@@ -1,2 +1,2 @@
-Resolve: When HP < 50%,[N]
-gain 1.5x Str, Skl, & Spd.[X]
+Drive Luck: Allies within[N]
+2 spaces receive +4 luck.[X]

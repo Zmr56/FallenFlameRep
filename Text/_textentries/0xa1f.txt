@@ -1,2 +1,2 @@
-Supply: This unit has[N]
-access to the convoy.[X]
+Reposition: Allows unit to pull an[N]
+adjacent ally to its opposite side.[X]

@@ -1,2 +1,2 @@
-Drive Magic: Allies within[N]
-2 spaces receive +4 magic.[X]
+Watchful: This unit cannot be[N]
+captured or stolen from.[X]

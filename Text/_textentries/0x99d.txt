@@ -1,2 +1,2 @@
-Luna: Negates enemy defenses.[N]
-(Skill % activation)[X]
+Dire Slash: Enemies are left[N]
+with at least 1 HP.[X]

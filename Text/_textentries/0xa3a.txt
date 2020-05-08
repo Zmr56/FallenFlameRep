@@ -1,2 +1,2 @@
-Fortress Defense:[N]
-+5 Def, -3 Str/Mag[X]
+Warding Stance: +6 resistance[N]
+when foe initiates battle.[X]

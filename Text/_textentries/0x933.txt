@@ -1,1 +1,2 @@
-Use the power of dragons.[X]
+Switch places with opponent[N]
+after combat.[X]

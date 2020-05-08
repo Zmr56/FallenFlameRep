@@ -1,2 +1,2 @@
-Armsthrift: Luck % chance to not[N]
-consume weapon durability.[X]
+Pursuit: When under attack,[N]
+attack speed +2. [X]

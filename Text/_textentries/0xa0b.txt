@@ -1,2 +1,2 @@
-Shove: Allows unit to push[N]
-other units one tile away.[X]
+Killing Machine: Total critical[N]
+rate is doubled.[X]

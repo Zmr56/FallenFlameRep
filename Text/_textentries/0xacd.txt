@@ -2,13 +2,14 @@
 [MidLeft][LoadWren]
 [MidRight][LoadWigbrand]
 
-[MidLeft]
-Ack! What was that noise?[N][A]
+[MidLeft]#Wren
+That's that, the gate is seized so we[N]
+can safely press on inside. Looks like[A][N]
+the rest of the bandits fled. I hope[N]
+granfather is safe...[A]
 
-[MidRight]
-Wyverns. The roar sounds like it came[N]
-from the north-east. It appears the[A][N]
-pirates are working with Wyvember.[N]
-They don't sound too far away, prepare[A][N]
-for an attack by them soon, Wren.[A]
+[MidRight]#Wigbrand
+His castle guards are formidable, I[N]
+would not be surprised if we'll enter[A][N]
+only to find the enemy routed.[A]
 [X]

@@ -88,7 +88,7 @@
 	MESSAGE Map data ends at CURRENTOFFSET
 	
 	//Palettes
-    //#include "Battle Palettes/Palette Setup.event"
+    #include "Battle_Palettes/Palette Setup.event"
 	
 	ALIGN 16
 	//Engine Hacks

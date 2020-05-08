@@ -1,2 +1,1 @@
-Prescience: When initiating[N]
-battle, Hit and Avo +15.[X]
+Insight: Hit +20.[X]

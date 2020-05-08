@@ -1,1 +1,2 @@
-Bio[X]
+Character with whom this unit[N]
+may talk on the battlefield.[X]

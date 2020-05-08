@@ -1,2 +1,2 @@
-Impale: Deal 4x damage.[N]
-(Skill % activation)[X]
+Spur Speed: Adjacent allies[N]
+gain +4 Attack Speed.[X]

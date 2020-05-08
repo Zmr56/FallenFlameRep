@@ -1,2 +1,3 @@
-Fortress Resistance:[N]
-+5 Res, -3 Str/Mag[X]
+Spectrum Stance: +2 attack,[N]
+speed, defense, and resistance[N]
+when foe initiates battle.[X]

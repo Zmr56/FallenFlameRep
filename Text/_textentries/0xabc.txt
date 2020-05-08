@@ -1,2 +1,2 @@
-Wind Blessing: Allied unit targeted[N]
-by this unit's Staves gain +3 Spd.[X]
+Triangle Adept+: Doubles[N]
+weapon triangle effects.[X]

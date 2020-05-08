@@ -1,2 +1,2 @@
-Complete this chapter[N]
-by having this unit arrive.[X]
+The staircase is blocked[N]
+from the other side.[X]

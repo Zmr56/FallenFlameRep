@@ -1,2 +1,2 @@
-Elbow Room: +3 damage dealt[N]
-when on open terrain.[X]
+Bond: All allies within 3 tiles[N]
+recover 10% HP each turn.[X]
