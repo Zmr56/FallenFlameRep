@@ -1,1 +1,2 @@
-Bio[X]
+This unit's personal[N]
+stats and skills.[X]

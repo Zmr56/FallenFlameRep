@@ -1,3 +1,2 @@
-Keep Up: If unit is within 3[N]
-spaces of an ally with Canto[N]
-or Canto+, unit gains +2 Mov.[X]
+Thotslayer: +15 crit against units[N]
+with Nice Thighs or Personality.[X]

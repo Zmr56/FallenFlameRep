@@ -1,2 +1,2 @@
-Shade: Enemies are less[N]
-likely to target this unit.[X]
+Lull Res: Negates the effects of[N]
+rallies on opponent's resistance.[X]

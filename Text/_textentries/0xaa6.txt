@@ -1,2 +1,3 @@
-Lull Mag: Negates the effects of[N]
-rallies on opponent's magic.[X]
+Cultured: If attacking next to a unit[N]
+with Nice Thighs, move again.[N]
+-50 hit against units with Nice Thighs.[X]

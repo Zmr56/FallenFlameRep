@@ -1,2 +1,2 @@
-Death Blow: +6 Attack[N]
-when initiating battle.[X]
+Identity Problems: This unit can't[N]
+decide on a name or face.[X]

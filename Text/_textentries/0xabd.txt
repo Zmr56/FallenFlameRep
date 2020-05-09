@@ -1,2 +1,3 @@
-Charge+: If unit has used up[N]
-all movement, gain brave effect.[X]
+Armorboost: +4 attack and defense[N]
+against armored enemies if within[N]
+3 spaces of an armored ally.[X]

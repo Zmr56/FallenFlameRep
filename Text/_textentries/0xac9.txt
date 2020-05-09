@@ -1,7 +1,59 @@
 
-[MidLeft][LoadDatta]
-Looks like there's a bunch of sword[N]
-sword amongst that crowd of knights...[A][N]
-No worry, back-up should be coming soon[N]
-our sellsword will cut them deep![A][N]
+[MidRight][LoadWren]
+[MidLeft][LoadWigbrand]
+
+[MidRight]#Wren
+Phew... you took the air out of me[N]
+there... Well... good enough for the[A][N]
+frontlines now?[A]
+
+[MidLeft]#Wigbrand
+A distinct improvement from our last[N]
+session. But being ready for the[A][N]
+frontlines comes down to more than just[N]
+being able to fight toe to toe with[A][N]
+trained knights, when the enemy is out[N]
+for blood and death is abound on the[A][N]
+battlefield, it's a completely different[N]
+story. Understood?[A]
+
+[MidRight]#Wren
+Mhmm, but I've bore witness to such[N]
+things whenever you and father have[A][N]
+taken me to battles. I might not have[N]
+taken a life myself yet but I understand[A][N]
+what's at stake.[A]
+
+[MidLeft]#Wigbrand
+I suppose so, your father and I have[N]
+never been ones to hide the truth of[A][N]
+war from you. Maybe you're ready after[N]
+all. I'm confident in your knowledge of[A][N]
+tactical theory but the only way to[N]
+test your leadership abilities is to[A][N]
+eventually put you through the wringer[N]
+of an actual battle one day.[A]
+
+[MidRight]#Wren
+That could be soon even. I've heard [N]
+from uncle that Hawkport has been[A][N]
+barraged by a constant slew of[N]
+Gofuallian pirates on the east.[A][N]
+Supposedly they've formed a[N]
+confederation to help organise an[A][N]
+invasion force heading here for[N]
+mainland Blumari.[A]
+
+[MidLeft]#Wigbrand
+I wouldn't put too much stock in it, it[N]
+would take a mighty fierce leader to[A][N]
+unite such a rabble. Perhaps your uncle[N]
+is overestimating the threat, he's been[A][N]
+thrown into the role of governor for[N]
+the Hawkport colony suddenly by your[A][N]
+grandfather, Duke Falcone in your[N]
+father's abscence, he lacks experience.[A][N]
+Granted, no one else would be a fit to[N]
+take over from your father, wherever[A][N]
+he is...[A]
 [X]

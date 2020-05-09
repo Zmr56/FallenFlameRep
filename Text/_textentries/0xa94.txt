@@ -1,2 +1,2 @@
-Fortune: This unit[N]
-cannot be crit.[X]
+Deadeye: Doubles hit rate.[N]
+Skill% chance to inflict sleep.[X]

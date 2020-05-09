@@ -1,2 +1,2 @@
-Fortress Defense:[N]
-+5 Def, -3 Str/Mag[X]
+Capture: Capture an enemy after[N]
+defeating it with reduced stats.[X]

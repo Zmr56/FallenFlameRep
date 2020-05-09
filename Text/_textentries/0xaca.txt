@@ -1,47 +1,41 @@
 
-[MidRight][LoadWren]
-[MidLeft][LoadWigbrand]
+[Right][LoadWren]
+[MidRight][LoadWigbrand]
+[MidLeft][LoadShamira]
+[Left][LoadOrvar]
 
-[MidRight]#Wren
-The commander has fallen and whatever's[N]
-left has scattered. Do we pursue?[A]
+[MidLeft]#Shamira
+Lady Wren! While scouting the area with[N]
+Huginn we saw the approach of bandits[A][N]
+heading this way! If Orvar hadn't been[N]
+out in the woods gathering mushrooms[A][N]
+perhaps we'd be able to retrieve my[N]
+father's gift to Duke Falcone before[A][N]
+they arrived.[A]
 
-[MidLeft]#Wigbrand
-They've all gone their own ways, a[N]
-lonesome crook is of no concern for us.[A][N]
-Although I couldn't help but notice the[N]
-unusual Gofaullian accent on the leader.[A][N]
-Would you have any idea where they hail[N]
-from Huginn?[A]
+[Left]#Orvar
+I wasn't looking for mushrooms! I was[N]
+actually the only one who thought to[A][N]
+scout in the woods you know, bandits[N]
+could be anywhere! Although these[A][N]
+mushrooms I'm holding right now were[N]
+just a lucky chance encounter.[A]
+[MidLeft][Clear]
+[MidLeft][LoadHuginn]
 
-[Right][LoadHuginn]
+[MidLeft]#Huginn
+Save it for later Orvar,[N]
+we've got bandits to bash.[A]
+[Left][ClearFace]
 
-[Right]#Huginn
-Sounded like one from the east coast.[N]
-I'd reckon he's from the confederate,[A][N]
-not a Blumari bandit like the others.[A]
+[MidRight][LoadWigbrand]
 
-[MidLeft]#Wigbrand
-It may very well be the case then that[N]
-they have swarmed the rest of the[A][N]
-mainland, colluding with bandits from[N]
-Blumari to wreck havoc, prepare[A][N]
-yourselves for more combat everyone.[A]
+[MidRight]#Wigbrand
+Aptly put as ever Huginn, seems like[N]
+you'll be getting that valuable[A][N]
+learning experience much earlier than[N]
+anticipated, Lady Wren.[A]
 
-[MidRight]#Wren
-We'll march home as swiftly as we can[N]
-then. If the pirates and bandits are[A][N]
-working together already then perhaps[N]
-my father's prediction about the[A][N]
-invasion was a good guess.[A]
-
-[MidLeft]#Wigbrand
-Best be ready to fight all manner of[N]
-enemies then, knights and knaves alike.[A][N]
-
-[MidRight]#Wren
-Indeed, it's quite the unusual colation[N]
-isn't it? Let's march on then and see[A][N]
-for ourselves what their combined[N]
-strength can do compared to our own.[A]
+[Right]#Wren
+Aye, let's get to it then![A]
 [X]

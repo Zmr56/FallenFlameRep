@@ -1,2 +1,1 @@
-Enrage: Inflict berserk status.[N]
-(Skill% activation)[X]
+Serenity: Halve biorhythm effects.[X]

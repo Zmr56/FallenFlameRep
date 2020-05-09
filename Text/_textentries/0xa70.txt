@@ -1,3 +1,2 @@
-Quick Riposte: If defending and[N]
-HP is 50% or higher, unit doubles[N]
-and attacker does not double.[X]
+Blossom: 2x growth rates,[N]
+but 1/2 exp gain.[X]

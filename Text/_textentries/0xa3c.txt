@@ -1,1 +1,2 @@
-Steal: Unit can steal items.[X]
+Warding Stance: +6 resistance[N]
+when foe initiates battle.[X]

@@ -1,2 +1,2 @@
-Drive Strength: Allies within[N]
-2 spaces receive +4 strength.[X]
+Re-Move: Luck% chance to get[N]
+another action at end of turn.[X]

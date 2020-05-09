@@ -1,2 +1,2 @@
-Supply: This unit has[N]
-access to the convoy.[X]
+Dazzle: Opponents cannot[N]
+counterattack this unit.[X]

@@ -1,2 +1,2 @@
-Move to opposite side of[N]
-an adjacent ally.[X]
+Push an adjacent unit two[N]
+tiles away.[X]

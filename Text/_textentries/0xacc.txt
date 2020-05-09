@@ -1,86 +1,47 @@
 
-[Left][LoadSarai]
-[MidLeft][LoadDana]
+[MidRight][LoadWren]
+[MidLeft][LoadWigbrand]
 
-[MidLeft]#Dana
-Drat... I can't believe I'm fleeing the[N]
-castle like a coward! But, if it is the[A][N]
-Duke's desire... Come! Hurry up Sarai![N]
-We'll have to request back-up.[A]
+[MidRight]#Wren
+The commander has fallen and whatever's[N]
+left has scattered. Do we pursue?[A]
 
-[Left]#Sarai
-Could you... slow down... a bit...?[N]
-I'm getting real exhausted out here![A][N]
-Riding a pegasus is new to me! I'm not[N]
-a trained soldier like you...[A]
+[MidLeft]#Wigbrand
+They've all gone their own ways, a[N]
+lonesome crook is of no concern for us.[A][N]
+Although I couldn't help but notice the[N]
+unusual Gofaullian accent on the leader.[A][N]
+Would you have any idea where they hail[N]
+from Huginn?[A]
 
-[MidLeft]#Dana
-Sorry, can't slow down at all, not[N]
-while we've got bloodthirsty bandits[A][N]
-on our back hounding us down.[A]
+[Right][LoadHuginn]
 
-[Left]#Sarai
-Oh Dana! I think I see one up ahead![N]
-His grim face and spiked armour makes[A][N]
-me shiver...[A]
+[Right]#Huginn
+Sounded like one from the east coast.[N]
+I'd reckon he's from the confederate,[A][N]
+not a Blumari bandit like the others.[A]
 
-[MidLeft]#Dana
-That's Wigbrand, Sarai... Looks like[N]
-back-up came sooner than I thought![A][N]
-Wren's here too! Hey Wren![A]
+[MidLeft]#Wigbrand
+It may very well be the case then that[N]
+they have swarmed the rest of the[A][N]
+mainland, colluding with bandits from[N]
+Blumari to wreck havoc, prepare[A][N]
+yourselves for more combat everyone.[A]
 
-[Right][LoadWren]
-[MidRight][LoadWigbrand]
+[MidRight]#Wren
+We'll march home as swiftly as we can[N]
+then. If the pirates and bandits are[A][N]
+working together already then perhaps[N]
+my father's prediction about the[A][N]
+invasion was a good guess.[A]
 
-[Right]#Wren
-Sarai! Dana! I'm glad to see you two![N]
-What I'm not so glad to see are all the[A][N]
-bandits here, it seems my worst fears[N]
-were correct, they've taken the castle[A][N]
-haven't they?[A]
+[MidLeft]#Wigbrand
+Best be ready to fight all manner of[N]
+enemies then, knights and knaves alike.[A][N]
 
-[MidLeft]#Dana
-They're still in the process of seizing[N]
-it from within. Meanwhile some of their[A][N]
-troops stand guard outside. I think the[N]
-Duke isn't in danger if we act swiftly.[A][N]
-We should seize the front to ease the[N]
-burden of the castle guards inside.[A]
-
-[Left]#Sarai
-These ruffians have no manners, Wren![N]
-We must show them who is really in[A][N]
-control here![A]
-
-[Right]#Wren
-Oh, you're joining into the fray too?[N]
-I didn't know you were eager for combat[A][N]
-Sarai, I'm kind of nervous about you[N]
-joining but I have faith in you![A]
-
-[Left]#Sarai
-Ahaha... uhmm, did I actually say we?[N]
-That may've been a slip of the tongue![A]
-
-[MidRight]#Wigbrand
-You seem ready enough to join in, with[N]
-those lances of yours, let's get to it.[A]
-
-[Left]#Sarai
-I mean these are just for my own[N]
-protection Wiggy, ahaha...[A]
-
-[MidRight]#Wigbrand
-And you're under attack. So use them.[N]
-We can't be next to you all the time,[A][N]
-the enemy will spread us thin.[A]
-
-[Left]#Sarai
-Ughh... fine... How on earth do you put[N]
-up with him Wren?[A]
-
-[Right]#Wren
-Wigbrand means well, it's no issue.[N]
-Let's move out then, I believe in you[A][N]
-two![A]
+[MidRight]#Wren
+Indeed, it's quite the unusual colation[N]
+isn't it? Let's march on then and see[A][N]
+for ourselves what their combined[N]
+strength can do compared to our own.[A]
 [X]

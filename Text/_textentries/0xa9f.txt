@@ -1,2 +1,2 @@
-Push Speed: When HP[N]
-is full, gain +5 speed.[X]
+Push Magic: When HP[N]
+is full, gain +5 magic.[X]

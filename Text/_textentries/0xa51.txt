@@ -1,2 +1,3 @@
-Barricade: Damage taken is[N]
-halved after first being struck.[X]
+Grisly Wound: Deals damage equal[N]
+to 20% of the enemy's max[N]
+HP after every battle.[X]

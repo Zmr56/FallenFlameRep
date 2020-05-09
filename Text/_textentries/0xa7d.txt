@@ -1,2 +1,2 @@
-Defiant Skl: When HP is 25%[N]
-[N]or lower, gain +4 Skill.[X]
+Defiant Str: When HP is 25%[N]
+or lower, gain +4 Strength.[X]

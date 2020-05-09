@@ -1,2 +1,2 @@
-Fortress Resistance:[N]
-+5 Res, -3 Str/Mag[X]
+Black Magic: Skill% chance to[N]
+inflict a random status.[X]

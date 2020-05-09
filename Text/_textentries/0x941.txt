@@ -1,2 +1,2 @@
-Move adjacent ally to this[N]
-unit's opposite side.[X]
+Move to opposite side of[N]
+an adjacent ally.[X]

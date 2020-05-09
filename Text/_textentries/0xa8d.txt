@@ -1,2 +1,2 @@
-Flare: Halve enemy resistance.[N]
-(Skill% activation)[X]
+Alert Stance+: +30 Avo[N]
+when defending.[X]

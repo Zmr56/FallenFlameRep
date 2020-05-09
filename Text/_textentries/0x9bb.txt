@@ -1,2 +1,2 @@
-Miracle: Survive a lethal[N]
-attack if HP > 50%.[X]
+Counter: Reflect physical damage[N]
+when attacked at 1-2 range.[X]

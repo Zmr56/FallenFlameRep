@@ -1,2 +1,2 @@
-Prescience: When initiating[N]
-battle, Hit and Avo +15.[X]
+White Pool: Atk and AS +5[N]
+to adjacent allies.[X]

@@ -1,1 +1,3 @@
-Insight: Hit +20.[X]
+Quick Riposte: If defending and[N]
+HP is 50% or higher, unit doubles[N]
+and attacker does not double.[X]

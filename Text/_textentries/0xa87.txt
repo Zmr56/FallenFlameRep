@@ -1,2 +1,2 @@
-Indoor Fighter: +10 Hit and[N]
-Avo when fighting indoors.[X]
+Tower Shield+: Take no damage[N]
+against attacks recieved at range.[X]

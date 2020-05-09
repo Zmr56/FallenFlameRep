@@ -1,1 +1,2 @@
-Tempest: Double biorhythm effects.[X]
+Corona: Negate enemy resistance.[N]
+(Skill% activation)[X]

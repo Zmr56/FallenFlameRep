@@ -1,2 +1,1 @@
-Biorhythm. Affects[N]
-Hit and Avoid.[X]
+donorbox.org/donate-to-circles[X]

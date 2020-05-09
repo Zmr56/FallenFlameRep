@@ -1,2 +1,2 @@
-Drive Magic: Allies within[N]
-2 spaces receive +4 magic.[X]
+Powerstaff: Get another action[N]
+after using a staff.[X]

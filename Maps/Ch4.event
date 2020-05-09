@@ -8,25 +8,25 @@ Map:
 #incbin "Ch4_data.dmp"
 
 MapChanges:
-TileMap(0,4,8,3,3,VD1)
-TileMap(1,5,10,1,1,VS1)
-TileMap(2,14,5,3,3,VD2)
-TileMap(3,16,8,1,1,VD3)
+TileMap(2,14,5,3,3,VD1)
+TileMap(3,15,7,1,1,VS1)
+TileMap(0,4,8,3,3,VD2)
+TileMap(1,5,10,1,1,VS2)
 TileMapEnd
 
 VD1:
-SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0xea4 0xf1c 0xf20 0xf24 
-ALIGN 4
-
-VS1:
-SHORT 0x80 
-ALIGN 4
-
-VD2:
 SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0xea4 0xf1c 0xda8 0xf24 
 ALIGN 4
 
-VD3:
+VS1:
 SHORT 0xe28 
+ALIGN 4
+
+VD2:
+SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0xea4 0xf1c 0xf20 0xf24 
+ALIGN 4
+
+VS2:
+SHORT 0x80 
 ALIGN 4
 

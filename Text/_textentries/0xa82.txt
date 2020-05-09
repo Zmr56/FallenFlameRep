@@ -1,1 +1,2 @@
-Bargain: Halves prices in shops.[X]
+Defiant Def: When HP is 25%[N]
+or lower, gain +4 Defense.[X]

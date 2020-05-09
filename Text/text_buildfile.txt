@@ -35,6 +35,12 @@ Sirius[X]
 ## nameZeke
 Zeke[X]
 
+## OuchID
+[OpenMidLeft][LoadFace][WrenPortrait]Ouch! Dead unit.[A][X]
+
+## RetreatID
+[OpenMidLeft][LoadFace][WrenPortrait]Oof, unit retreated.[A][X]
+
 ## VillageText
 [MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
 

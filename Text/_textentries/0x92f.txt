@@ -1,1 +1,1 @@
-Worst[X]
+Poor[X]

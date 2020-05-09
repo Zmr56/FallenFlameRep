@@ -1,2 +1,2 @@
-Push Resistance: When HP is[N]
-full, gain +5 resistance.[X]
+Push Speed: When HP[N]
+is full, gain +5 speed.[X]

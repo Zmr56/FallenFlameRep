@@ -1,1 +1,2 @@
-donorbox.org/donate-to-circles[X]
+Press Select to toggle[N]
+between stats and growths.[X]

@@ -1,2 +1,2 @@
-Seal Magic: Debuff opponent's Mag[N]
+Seal Defense: Debuff opponent's Def[N]
 by 6 after combat. (Recover 1/turn)[X]

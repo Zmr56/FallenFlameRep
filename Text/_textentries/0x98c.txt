@@ -1,2 +1,2 @@
-Gofaullian shaman, takes[N]
-delight in looting artifacts.[X]
+Gofaullian mercenary, in[N]
+possession of a rare blade.[X]

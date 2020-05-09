@@ -1,2 +1,2 @@
-Have this unit[N]
-leave this chapter.[X]
+Destroy this village[N]
+for items and gold.[X]

@@ -1,1 +1,2 @@
-Serenity: Halve biorhythm effects.[X]
+Flare: Halve enemy resistance.[N]
+(Skill% activation)[X]

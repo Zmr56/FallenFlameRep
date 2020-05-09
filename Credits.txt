@@ -1,0 +1,100 @@
+				-CREDITS-
+
+Buildfile Helpers -	* Sme
+			* Pikmin
+
+Buildfile Tools -	* CrazyColourz
+and Skills System	* Circles
+			* Teraspark
+			* StanH
+			* Sme
+			* Leonarth
+			* Snakey
+			* SD9K
+			* Boviex
+			* BGreenham
+			* Runa
+			* LNB2017
+			* Pikmin
+			* Shidesu
+			* Darrman
+			* Peer
+			* Camdar
+			* Venno
+			* Gryz
+			* Zahlman
+
+Mug Artists -		* Blade
+			* CardCaph
+			* Glaceo
+			* Monkeybard
+			* Scrazia
+			* Vlak
+			* Melia
+			* Lenh
+			* FEier
+			* Tsushi
+			* Bloopy
+			* NickT
+			* Yangkai
+			* Blueey
+			* Blaze
+			* Frigid
+			* Peer
+
+Other Spritework -	* Zane
+			* CardCaph
+
+Other Tools -		* Nintenlord
+			* BwdYeti
+			* 7743
+			* Zane
+
+Animators -		* DerTheVaporeon
+			* LeoLink
+			* Team SALVAGED
+			* Flasuban
+			* OreoStyx
+			* Teraspark
+			* Pikmin
+			* Maiser6
+			* Alusq
+			* Wan
+			* Alfred Kamon
+			* Mikey Seregon
+
+Map Spriters -		* Team SALVAGED
+			* Flasuban
+			* Nuramon
+			* Glaceo
+			* DerTheVaporeon
+			* Unknown Wyvern Axe Map Sprite Animator
+
+Playtesters -		* Arch
+			* BChezza
+			* CardCaph
+			* Gamma
+			* Kirb
+			* Krash
+			* Mystic
+			* Pandan
+			* Pikmin
+			* Radd
+			* Scrazia
+			* SD9K
+			* Serif
+
+Special Thanks -	* Sme
+			* Pikmin
+			* Mystic
+			* Zim
+			* Tequila
+			* Zane
+			* Snek
+			* Pandan
+			* Gamma
+			* Kirb
+			* Camdar
+			* MC
+			* Delhonne
+			* My mum

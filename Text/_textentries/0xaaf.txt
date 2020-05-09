@@ -1,2 +1,2 @@
-Imbue: Heal HP equal to magic[N]
-at the start of each turn.[X]
+Shade: Enemies are less[N]
+likely to target this unit.[X]
