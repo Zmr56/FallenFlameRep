@@ -38,6 +38,7 @@ WeaponLockLoop: //r0 = character pointer, r1 = item halfword, r2 = rank; functio
 	POIN AdvWeaponLocks 
 #endif // ADV_WEAPON_LOCKS
 POIN Amische
+POIN SwordAceUsability LanceAceUsability AxeAceUsability BowAceUsability
 POIN DoesUnitHaveWRank //contains Lumina/Shadowgift
 WORD 0
 

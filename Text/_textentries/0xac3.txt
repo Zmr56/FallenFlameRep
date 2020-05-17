@@ -1,2 +1,0 @@
-Earth Blessing: Allied unit targeted[N]
-by this unit's Staves gain +3 Def.[X]

@@ -122,8 +122,8 @@ WORD SolidEarthID
 WORD SwiftWindsID
 WORD StillWaterID
 WORD KindledFireID
-//WORD VelhariBalmID
-//WORD PerfectionID
+WORD PlaceholderSkillID
+WORD PlaceholderSkillID
 POIN DebuffTableThing
 
 DebuffTableThing:
