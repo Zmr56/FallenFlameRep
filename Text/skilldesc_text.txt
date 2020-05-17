@@ -1250,3 +1250,106 @@ by this unit's Staves gain +3 Str/Mag.[X]
 ## SD_TempestBlood
 Tempest Blood: +2 attack speed[N]
 when HP is not at max.[X]
+
+
+## SD_BowAce
+Bow-Ace: Allows usage of the[N]
+longbow family of weapons.[X]
+
+## SD_BowAcePlus
+Bow-Ace+: Allows longbow[N]
+bows use and grants hit +15.[X]
+
+## SD_LanceAce
+Lance-Ace: Grants ability[N]
+to use exclusive lances.[X]
+
+## SD_LanceAcePlus
+Lance-Ace+: Grants ability to use[N]
+exclusive lances and gives crit +15.[X]
+
+
+## SD_SwordAce
+Sword-Ace: Grants access[N]
+to exclusive swords.[X]
+
+## SD_SwordAcePlus
+Sword-Ace+: Grants crit +15 and[N]
+access to exclusive swords.[X]
+
+## SD_AxeAce
+Axe-Ace: Grants access[N]
+to exclusive axes.[X]
+
+## SD_AxeAcePlus
+Axe-Ace+: Grants +15 crit and[N]
+access to exclusive axes.[X]
+
+## SD_HybridAce
+Hybrid-Ace: Grants access to[N]
+exclusive axes and longbows.[X]
+
+## SD_TerrainAce
+Terrain-Ace: Reverses foe's avo buff[N]
+on rough terrain and gives crit boost[X]
+
+## SD_TerrainAcePlus
+Terrain-Ace+: [X]
+
+## SD_Antimage
+Antimage: Gain another follow up[N]
+against enemies using magic.[X]
+
+## SD_Longshot
+Longshot: Menu Command[N]
++1 Range, -75 hit[X]
+
+## SD_Mageguard
+Mageguard: +8 resistance against magic enemies[N]
+if within 3 spaces of an ally magic user.[X]
+
+## SD_Sacrifice
+Sacrifice: Heal an ally for up[N]
+to 10 HP from your own HP.[X]
+
+## SD_NaturalShot
+Natural Shot: [X]
+
+## SD_MageBuster
+Mage Buster: [X]
+
+## SD_Glow
+Glow: Ingores enemy resistance.[X]
+
+## SD_Vampyr
+Vampyr: Restores HP equal[N]
+to damage dealt.[X]
+
+## SD_Crusher
+Crusher: Adjacent lance wielding[N]
+enemies suffer -3 def.[X]
+
+## SD_Spatha
+Spatha: Adjacent axe wielding[N]
+enemies suffer -2 atk.[X]
+
+## SD_Unorthodox
+Unorthodox: Reverses Weapon Triangle[N]
+during combat against magic enemies[N]
+that would normally have WTA.[X]
+
+## SD_Horsebane
+Horsebane: If within 3 spaces of an ally[N]
+horse rider, deal x2 effective damage vs[N]
+horse type enemies in combat.[X]
+
+## SD_Magebane
+Magebane: If within 3 spaces of an ally[N]
+magic user, deal x2 effective damage vs[N]
+magic enemies in combat.[X]
+
+## SD_BlizzardBlood
+Blizzard Blood: When below full[N]
+health, +2 AS and Res.[X]
+
+

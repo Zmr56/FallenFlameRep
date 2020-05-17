@@ -893,4 +893,81 @@ ORG SkillIcon(StillWaterID)
 ORG SkillIcon(TempestBloodID)
 #incbin "SkillIcons/TempestBlood.dmp"
 
+ORG SkillIcon(BowAceID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(BowAcePlusID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(LanceAceID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(LanceAcePlusID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(SwordAceID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(SwordAcePlusID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(AxeAceID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(AxeAcePlusID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(HybridAceID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(AntimageID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(TerrainAceID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(TerrainAcePlusID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(LongshotID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(MageguardID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(SacrificeID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(MageBusterID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(GlowID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(VampyrID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(CrusherID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(UnorthodoxID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(SpathaID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(StillWaterID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(HorsebaneID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(MagebaneID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+ORG SkillIcon(BlizzardBloodID)
+#incbin "SkillIcons/EmptyFrame.dmp"
+
+
+
 ORG SkillIcons+0x8000

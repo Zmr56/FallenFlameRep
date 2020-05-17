@@ -10,16 +10,20 @@ pMaxHPModifiers: // Maximum HP
 	#endif
 WORD 0
 
+ALIGN 4
 prAddUnitMaxHP:
 	rAdd(rSByteAt(UNIT_MAXHP))
 
+ALIGN 4
 prAddEquipHP:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemHPBonus)))
 
+ALIGN 4
 prHexingRodEffect:
 	#incbin "_asm/HexingRod.bin"
 	WORD DebuffTable
 
+ALIGN 4
 prItemPassiveHp:
 	rPassiveStatBoosts(STAT_HP)
 
