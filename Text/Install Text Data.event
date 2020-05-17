@@ -10,1971 +10,1971 @@
 {
 
 __TEXTPROCESS002:
-#incext ParseFile ".TextEntries\text_buildfiletextWeaponRankIncreasedTo.fetxt"
+#incbin ".TextEntries\text_buildfiletextWeaponRankIncreasedTo.fetxt.dmp"
 setText($2, __TEXTPROCESS002)
 
 __TEXTPROCESS094:
-#incext ParseFile ".TextEntries\text_buildfile094.fetxt"
+#incbin ".TextEntries\text_buildfile094.fetxt.dmp"
 setText($94, __TEXTPROCESS094)
 
 __TEXTPROCESS0B2:
-#incext ParseFile ".TextEntries\text_buildfile0B2.fetxt"
+#incbin ".TextEntries\text_buildfile0B2.fetxt.dmp"
 setText($B2, __TEXTPROCESS0B2)
 
 __TEXTPROCESS03A:
-#incext ParseFile ".TextEntries\text_buildfileLearnedSkillText.fetxt"
+#incbin ".TextEntries\text_buildfileLearnedSkillText.fetxt.dmp"
 setText($3A, __TEXTPROCESS03A)
 
 __TEXTPROCESS160:
-#incext ParseFile ".TextEntries\text_buildfilePrologueChName.fetxt"
+#incbin ".TextEntries\text_buildfilePrologueChName.fetxt.dmp"
 setText($160, __TEXTPROCESS160)
 
 __TEXTPROCESS161:
-#incext ParseFile ".TextEntries\text_buildfileCh1ChName.fetxt"
+#incbin ".TextEntries\text_buildfileCh1ChName.fetxt.dmp"
 setText($161, __TEXTPROCESS161)
 
 __TEXTPROCESS162:
-#incext ParseFile ".TextEntries\text_buildfileCh2ChName.fetxt"
+#incbin ".TextEntries\text_buildfileCh2ChName.fetxt.dmp"
 setText($162, __TEXTPROCESS162)
 
 __TEXTPROCESS163:
-#incext ParseFile ".TextEntries\text_buildfileCh3ChName.fetxt"
+#incbin ".TextEntries\text_buildfileCh3ChName.fetxt.dmp"
 setText($163, __TEXTPROCESS163)
 
 __TEXTPROCESS164:
-#incext ParseFile ".TextEntries\text_buildfileCh4ChName.fetxt"
+#incbin ".TextEntries\text_buildfileCh4ChName.fetxt.dmp"
 setText($164, __TEXTPROCESS164)
 
 __TEXTPROCESS165:
-#incext ParseFile ".TextEntries\text_buildfileCh5ChName.fetxt"
+#incbin ".TextEntries\text_buildfileCh5ChName.fetxt.dmp"
 setText($165, __TEXTPROCESS165)
 
 __TEXTPROCESS166:
-#incext ParseFile ".TextEntries\text_buildfileCh5xChName.fetxt"
+#incbin ".TextEntries\text_buildfileCh5xChName.fetxt.dmp"
 setText($166, __TEXTPROCESS166)
 
 __TEXTPROCESS167:
-#incext ParseFile ".TextEntries\text_buildfileCh6ChName.fetxt"
+#incbin ".TextEntries\text_buildfileCh6ChName.fetxt.dmp"
 setText($167, __TEXTPROCESS167)
 
 __TEXTPROCESS1A1:
-#incext ParseFile ".TextEntries\text_buildfileKill2Bosses.fetxt"
+#incbin ".TextEntries\text_buildfileKill2Bosses.fetxt.dmp"
 setText($1A1, __TEXTPROCESS1A1)
 
 __TEXTPROCESS903:
-#incext ParseFile ".TextEntries\text_buildfilePlaceholderText.fetxt"
+#incbin ".TextEntries\text_buildfilePlaceholderText.fetxt.dmp"
 setText($903, __TEXTPROCESS903)
 
 __TEXTPROCESS904:
-#incext ParseFile ".TextEntries\text_buildfileDV1Desc.fetxt"
+#incbin ".TextEntries\text_buildfileDV1Desc.fetxt.dmp"
 setText($904, __TEXTPROCESS904)
 
 __TEXTPROCESS905:
-#incext ParseFile ".TextEntries\text_buildfilenameCamus.fetxt"
+#incbin ".TextEntries\text_buildfilenameCamus.fetxt.dmp"
 setText($905, __TEXTPROCESS905)
 
 __TEXTPROCESS906:
-#incext ParseFile ".TextEntries\text_buildfilenameSirius.fetxt"
+#incbin ".TextEntries\text_buildfilenameSirius.fetxt.dmp"
 setText($906, __TEXTPROCESS906)
 
 __TEXTPROCESS907:
-#incext ParseFile ".TextEntries\text_buildfilenameZeke.fetxt"
+#incbin ".TextEntries\text_buildfilenameZeke.fetxt.dmp"
 setText($907, __TEXTPROCESS907)
 
 __TEXTPROCESS908:
-#incext ParseFile ".TextEntries\text_buildfileOuchID.fetxt"
+#incbin ".TextEntries\text_buildfileOuchID.fetxt.dmp"
 setText($908, __TEXTPROCESS908)
 
 __TEXTPROCESS909:
-#incext ParseFile ".TextEntries\text_buildfileRetreatID.fetxt"
+#incbin ".TextEntries\text_buildfileRetreatID.fetxt.dmp"
 setText($909, __TEXTPROCESS909)
 
 __TEXTPROCESS90A:
-#incext ParseFile ".TextEntries\text_buildfileVillageText.fetxt"
+#incbin ".TextEntries\text_buildfileVillageText.fetxt.dmp"
 setText($90A, __TEXTPROCESS90A)
 
 __TEXTPROCESS90B:
-#incext ParseFile ".TextEntries\text_buildfilePrologueStatus.fetxt"
+#incbin ".TextEntries\text_buildfilePrologueStatus.fetxt.dmp"
 setText($90B, __TEXTPROCESS90B)
 
 __TEXTPROCESS90C:
-#incext ParseFile ".TextEntries\text_buildfileCh1Status.fetxt"
+#incbin ".TextEntries\text_buildfileCh1Status.fetxt.dmp"
 setText($90C, __TEXTPROCESS90C)
 
 __TEXTPROCESS90D:
-#incext ParseFile ".TextEntries\text_buildfileCh2Status.fetxt"
+#incbin ".TextEntries\text_buildfileCh2Status.fetxt.dmp"
 setText($90D, __TEXTPROCESS90D)
 
 __TEXTPROCESS90E:
-#incext ParseFile ".TextEntries\text_buildfileDefendFatNobleStatus.fetxt"
+#incbin ".TextEntries\text_buildfileDefendFatNobleStatus.fetxt.dmp"
 setText($90E, __TEXTPROCESS90E)
 
 __TEXTPROCESS90F:
-#incext ParseFile ".TextEntries\text_buildfileCh4Status.fetxt"
+#incbin ".TextEntries\text_buildfileCh4Status.fetxt.dmp"
 setText($90F, __TEXTPROCESS90F)
 
 __TEXTPROCESS910:
-#incext ParseFile ".TextEntries\text_buildfileSeizeWindow.fetxt"
+#incbin ".TextEntries\text_buildfileSeizeWindow.fetxt.dmp"
 setText($910, __TEXTPROCESS910)
 
 __TEXTPROCESS911:
-#incext ParseFile ".TextEntries\text_buildfileKillBossWindow.fetxt"
+#incbin ".TextEntries\text_buildfileKillBossWindow.fetxt.dmp"
 setText($911, __TEXTPROCESS911)
 
 __TEXTPROCESS912:
-#incext ParseFile ".TextEntries\text_buildfileMultiKillBossWindow.fetxt"
+#incbin ".TextEntries\text_buildfileMultiKillBossWindow.fetxt.dmp"
 setText($912, __TEXTPROCESS912)
 
 __TEXTPROCESS913:
-#incext ParseFile ".TextEntries\text_buildfileDefendFatNobleWindow.fetxt"
+#incbin ".TextEntries\text_buildfileDefendFatNobleWindow.fetxt.dmp"
 setText($913, __TEXTPROCESS913)
 
 __TEXTPROCESS914:
-#incext ParseFile ".TextEntries\text_buildfilenameVampus.fetxt"
+#incbin ".TextEntries\text_buildfilenameVampus.fetxt.dmp"
 setText($914, __TEXTPROCESS914)
 
 __TEXTPROCESS915:
-#incext ParseFile ".TextEntries\text_buildfilenameVenenum.fetxt"
+#incbin ".TextEntries\text_buildfilenameVenenum.fetxt.dmp"
 setText($915, __TEXTPROCESS915)
 
 __TEXTPROCESS916:
-#incext ParseFile ".TextEntries\text_buildfilenameElfrost.fetxt"
+#incbin ".TextEntries\text_buildfilenameElfrost.fetxt.dmp"
 setText($916, __TEXTPROCESS916)
 
 __TEXTPROCESS917:
-#incext ParseFile ".TextEntries\text_buildfiledescElfrost.fetxt"
+#incbin ".TextEntries\text_buildfiledescElfrost.fetxt.dmp"
 setText($917, __TEXTPROCESS917)
 
 __TEXTPROCESS918:
-#incext ParseFile ".TextEntries\text_buildfilenameHurlbat.fetxt"
+#incbin ".TextEntries\text_buildfilenameHurlbat.fetxt.dmp"
 setText($918, __TEXTPROCESS918)
 
 __TEXTPROCESS919:
-#incext ParseFile ".TextEntries\text_buildfilenameHarpoon.fetxt"
+#incbin ".TextEntries\text_buildfilenameHarpoon.fetxt.dmp"
 setText($919, __TEXTPROCESS919)
 
 __TEXTPROCESS91A:
-#incext ParseFile ".TextEntries\text_buildfilenameLancea.fetxt"
+#incbin ".TextEntries\text_buildfilenameLancea.fetxt.dmp"
 setText($91A, __TEXTPROCESS91A)
 
 __TEXTPROCESS91B:
-#incext ParseFile ".TextEntries\text_buildfilenameFalarica.fetxt"
+#incbin ".TextEntries\text_buildfilenameFalarica.fetxt.dmp"
 setText($91B, __TEXTPROCESS91B)
 
 __TEXTPROCESS91C:
-#incext ParseFile ".TextEntries\text_buildfilenameFrancisca.fetxt"
+#incbin ".TextEntries\text_buildfilenameFrancisca.fetxt.dmp"
 setText($91C, __TEXTPROCESS91C)
 
 __TEXTPROCESS91D:
-#incext ParseFile ".TextEntries\text_buildfilenameNzappa.fetxt"
+#incbin ".TextEntries\text_buildfilenameNzappa.fetxt.dmp"
 setText($91D, __TEXTPROCESS91D)
 
 __TEXTPROCESS91E:
-#incext ParseFile ".TextEntries\text_buildfilenameCalibane.fetxt"
+#incbin ".TextEntries\text_buildfilenameCalibane.fetxt.dmp"
 setText($91E, __TEXTPROCESS91E)
 
 __TEXTPROCESS91F:
-#incext ParseFile ".TextEntries\text_buildfiledescCalibane.fetxt"
+#incbin ".TextEntries\text_buildfiledescCalibane.fetxt.dmp"
 setText($91F, __TEXTPROCESS91F)
 
 __TEXTPROCESS920:
-#incext ParseFile ".TextEntries\text_buildfiledescRapier.fetxt"
+#incbin ".TextEntries\text_buildfiledescRapier.fetxt.dmp"
 setText($920, __TEXTPROCESS920)
 
 __TEXTPROCESS921:
-#incext ParseFile ".TextEntries\text_buildfileSS_TalkText.fetxt"
+#incbin ".TextEntries\text_buildfileSS_TalkText.fetxt.dmp"
 setText($921, __TEXTPROCESS921)
 
 __TEXTPROCESS922:
-#incext ParseFile ".TextEntries\text_buildfileSS_SkillsText.fetxt"
+#incbin ".TextEntries\text_buildfileSS_SkillsText.fetxt.dmp"
 setText($922, __TEXTPROCESS922)
 
 __TEXTPROCESS923:
-#incext ParseFile ".TextEntries\text_buildfileSS_TalkRText.fetxt"
+#incbin ".TextEntries\text_buildfileSS_TalkRText.fetxt.dmp"
 setText($923, __TEXTPROCESS923)
 
 __TEXTPROCESS924:
-#incext ParseFile ".TextEntries\text_buildfileSS_SkillsRText.fetxt"
+#incbin ".TextEntries\text_buildfileSS_SkillsRText.fetxt.dmp"
 setText($924, __TEXTPROCESS924)
 
 __TEXTPROCESS925:
-#incext ParseFile ".TextEntries\text_buildfileSS_SkillsDefaultRText.fetxt"
+#incbin ".TextEntries\text_buildfileSS_SkillsDefaultRText.fetxt.dmp"
 setText($925, __TEXTPROCESS925)
 
 __TEXTPROCESS926:
-#incext ParseFile ".TextEntries\text_buildfilePersonalDataDesc1.fetxt"
+#incbin ".TextEntries\text_buildfilePersonalDataDesc1.fetxt.dmp"
 setText($926, __TEXTPROCESS926)
 
 __TEXTPROCESS927:
-#incext ParseFile ".TextEntries\text_buildfilePersonalDataDesc2.fetxt"
+#incbin ".TextEntries\text_buildfilePersonalDataDesc2.fetxt.dmp"
 setText($927, __TEXTPROCESS927)
 
 __TEXTPROCESS928:
-#incext ParseFile ".TextEntries\text_buildfileDonateURL.fetxt"
+#incbin ".TextEntries\text_buildfileDonateURL.fetxt.dmp"
 setText($928, __TEXTPROCESS928)
 
 __TEXTPROCESS929:
-#incext ParseFile ".TextEntries\text_buildfileSS_BiorhythmText.fetxt"
+#incbin ".TextEntries\text_buildfileSS_BiorhythmText.fetxt.dmp"
 setText($929, __TEXTPROCESS929)
 
 __TEXTPROCESS92A:
-#incext ParseFile ".TextEntries\text_buildfileSS_BiorhythmRText.fetxt"
+#incbin ".TextEntries\text_buildfileSS_BiorhythmRText.fetxt.dmp"
 setText($92A, __TEXTPROCESS92A)
 
 __TEXTPROCESS92B:
-#incext ParseFile ".TextEntries\text_buildfileSS_BiorhythmNeutral.fetxt"
+#incbin ".TextEntries\text_buildfileSS_BiorhythmNeutral.fetxt.dmp"
 setText($92B, __TEXTPROCESS92B)
 
 __TEXTPROCESS92C:
-#incext ParseFile ".TextEntries\text_buildfileSS_BiorhythmGood.fetxt"
+#incbin ".TextEntries\text_buildfileSS_BiorhythmGood.fetxt.dmp"
 setText($92C, __TEXTPROCESS92C)
 
 __TEXTPROCESS92D:
-#incext ParseFile ".TextEntries\text_buildfileSS_BiorhythmGreat.fetxt"
+#incbin ".TextEntries\text_buildfileSS_BiorhythmGreat.fetxt.dmp"
 setText($92D, __TEXTPROCESS92D)
 
 __TEXTPROCESS92E:
-#incext ParseFile ".TextEntries\text_buildfileSS_BiorhythmBest.fetxt"
+#incbin ".TextEntries\text_buildfileSS_BiorhythmBest.fetxt.dmp"
 setText($92E, __TEXTPROCESS92E)
 
 __TEXTPROCESS92F:
-#incext ParseFile ".TextEntries\text_buildfileSS_BiorhythmPoor.fetxt"
+#incbin ".TextEntries\text_buildfileSS_BiorhythmPoor.fetxt.dmp"
 setText($92F, __TEXTPROCESS92F)
 
 __TEXTPROCESS930:
-#incext ParseFile ".TextEntries\text_buildfileSS_BiorhythmBad.fetxt"
+#incbin ".TextEntries\text_buildfileSS_BiorhythmBad.fetxt.dmp"
 setText($930, __TEXTPROCESS930)
 
 __TEXTPROCESS931:
-#incext ParseFile ".TextEntries\text_buildfileSS_BiorhythmWorst.fetxt"
+#incbin ".TextEntries\text_buildfileSS_BiorhythmWorst.fetxt.dmp"
 setText($931, __TEXTPROCESS931)
 
 __TEXTPROCESS932:
-#incext ParseFile ".TextEntries\text_buildfileUM_Rally.fetxt"
+#incbin ".TextEntries\text_buildfileUM_Rally.fetxt.dmp"
 setText($932, __TEXTPROCESS932)
 
 __TEXTPROCESS933:
-#incext ParseFile ".TextEntries\text_buildfileUM_RallyDesc.fetxt"
+#incbin ".TextEntries\text_buildfileUM_RallyDesc.fetxt.dmp"
 setText($933, __TEXTPROCESS933)
 
 __TEXTPROCESS934:
-#incext ParseFile ".TextEntries\text_buildfileUM_Lunge.fetxt"
+#incbin ".TextEntries\text_buildfileUM_Lunge.fetxt.dmp"
 setText($934, __TEXTPROCESS934)
 
 __TEXTPROCESS935:
-#incext ParseFile ".TextEntries\text_buildfileUM_LungeDesc.fetxt"
+#incbin ".TextEntries\text_buildfileUM_LungeDesc.fetxt.dmp"
 setText($935, __TEXTPROCESS935)
 
 __TEXTPROCESS936:
-#incext ParseFile ".TextEntries\text_buildfileUM_Mercy.fetxt"
+#incbin ".TextEntries\text_buildfileUM_Mercy.fetxt.dmp"
 setText($936, __TEXTPROCESS936)
 
 __TEXTPROCESS937:
-#incext ParseFile ".TextEntries\text_buildfileUM_MercyDesc.fetxt"
+#incbin ".TextEntries\text_buildfileUM_MercyDesc.fetxt.dmp"
 setText($937, __TEXTPROCESS937)
 
 __TEXTPROCESS938:
-#incext ParseFile ".TextEntries\text_buildfileUM_Gamble.fetxt"
+#incbin ".TextEntries\text_buildfileUM_Gamble.fetxt.dmp"
 setText($938, __TEXTPROCESS938)
 
 __TEXTPROCESS939:
-#incext ParseFile ".TextEntries\text_buildfileUM_GambleDesc.fetxt"
+#incbin ".TextEntries\text_buildfileUM_GambleDesc.fetxt.dmp"
 setText($939, __TEXTPROCESS939)
 
 __TEXTPROCESS93A:
-#incext ParseFile ".TextEntries\text_buildfileUMText_DV.fetxt"
+#incbin ".TextEntries\text_buildfileUMText_DV.fetxt.dmp"
 setText($93A, __TEXTPROCESS93A)
 
 __TEXTPROCESS93B:
-#incext ParseFile ".TextEntries\text_buildfileUMText_DVDesc.fetxt"
+#incbin ".TextEntries\text_buildfileUMText_DVDesc.fetxt.dmp"
 setText($93B, __TEXTPROCESS93B)
 
 __TEXTPROCESS93C:
-#incext ParseFile ".TextEntries\text_buildfileUM_Shove.fetxt"
+#incbin ".TextEntries\text_buildfileUM_Shove.fetxt.dmp"
 setText($93C, __TEXTPROCESS93C)
 
 __TEXTPROCESS93D:
-#incext ParseFile ".TextEntries\text_buildfileUM_ShoveDesc.fetxt"
+#incbin ".TextEntries\text_buildfileUM_ShoveDesc.fetxt.dmp"
 setText($93D, __TEXTPROCESS93D)
 
 __TEXTPROCESS93E:
-#incext ParseFile ".TextEntries\text_buildfileUM_Smite.fetxt"
+#incbin ".TextEntries\text_buildfileUM_Smite.fetxt.dmp"
 setText($93E, __TEXTPROCESS93E)
 
 __TEXTPROCESS93F:
-#incext ParseFile ".TextEntries\text_buildfileUM_SmiteDesc.fetxt"
+#incbin ".TextEntries\text_buildfileUM_SmiteDesc.fetxt.dmp"
 setText($93F, __TEXTPROCESS93F)
 
 __TEXTPROCESS940:
-#incext ParseFile ".TextEntries\text_buildfileUM_Pivot.fetxt"
+#incbin ".TextEntries\text_buildfileUM_Pivot.fetxt.dmp"
 setText($940, __TEXTPROCESS940)
 
 __TEXTPROCESS941:
-#incext ParseFile ".TextEntries\text_buildfileUM_PivotDesc.fetxt"
+#incbin ".TextEntries\text_buildfileUM_PivotDesc.fetxt.dmp"
 setText($941, __TEXTPROCESS941)
 
 __TEXTPROCESS942:
-#incext ParseFile ".TextEntries\text_buildfileUM_Reposition.fetxt"
+#incbin ".TextEntries\text_buildfileUM_Reposition.fetxt.dmp"
 setText($942, __TEXTPROCESS942)
 
 __TEXTPROCESS943:
-#incext ParseFile ".TextEntries\text_buildfileUM_RepositionDesc.fetxt"
+#incbin ".TextEntries\text_buildfileUM_RepositionDesc.fetxt.dmp"
 setText($943, __TEXTPROCESS943)
 
 __TEXTPROCESS944:
-#incext ParseFile ".TextEntries\text_buildfileUM_Swap.fetxt"
+#incbin ".TextEntries\text_buildfileUM_Swap.fetxt.dmp"
 setText($944, __TEXTPROCESS944)
 
 __TEXTPROCESS945:
-#incext ParseFile ".TextEntries\text_buildfileUM_SwapDesc.fetxt"
+#incbin ".TextEntries\text_buildfileUM_SwapDesc.fetxt.dmp"
 setText($945, __TEXTPROCESS945)
 
 __TEXTPROCESS946:
-#incext ParseFile ".TextEntries\text_buildfileUM_Capture.fetxt"
+#incbin ".TextEntries\text_buildfileUM_Capture.fetxt.dmp"
 setText($946, __TEXTPROCESS946)
 
 __TEXTPROCESS947:
-#incext ParseFile ".TextEntries\text_buildfileUM_CaptureDesc.fetxt"
+#incbin ".TextEntries\text_buildfileUM_CaptureDesc.fetxt.dmp"
 setText($947, __TEXTPROCESS947)
 
 __TEXTPROCESS948:
-#incext ParseFile ".TextEntries\text_buildfileUMText_Win.fetxt"
+#incbin ".TextEntries\text_buildfileUMText_Win.fetxt.dmp"
 setText($948, __TEXTPROCESS948)
 
 __TEXTPROCESS949:
-#incext ParseFile ".TextEntries\text_buildfileUMDesc_Win.fetxt"
+#incbin ".TextEntries\text_buildfileUMDesc_Win.fetxt.dmp"
 setText($949, __TEXTPROCESS949)
 
 __TEXTPROCESS94A:
-#incext ParseFile ".TextEntries\text_buildfileUM_Debug.fetxt"
+#incbin ".TextEntries\text_buildfileUM_Debug.fetxt.dmp"
 setText($94A, __TEXTPROCESS94A)
 
 __TEXTPROCESS94B:
-#incext ParseFile ".TextEntries\text_buildfileStairsNameText.fetxt"
+#incbin ".TextEntries\text_buildfileStairsNameText.fetxt.dmp"
 setText($94B, __TEXTPROCESS94B)
 
 __TEXTPROCESS94C:
-#incext ParseFile ".TextEntries\text_buildfileStairsDescText.fetxt"
+#incbin ".TextEntries\text_buildfileStairsDescText.fetxt.dmp"
 setText($94C, __TEXTPROCESS94C)
 
 __TEXTPROCESS94D:
-#incext ParseFile ".TextEntries\text_buildfileStairsBlockedText.fetxt"
+#incbin ".TextEntries\text_buildfileStairsBlockedText.fetxt.dmp"
 setText($94D, __TEXTPROCESS94D)
 
 __TEXTPROCESS94E:
-#incext ParseFile ".TextEntries\text_buildfileRaidNameText.fetxt"
+#incbin ".TextEntries\text_buildfileRaidNameText.fetxt.dmp"
 setText($94E, __TEXTPROCESS94E)
 
 __TEXTPROCESS94F:
-#incext ParseFile ".TextEntries\text_buildfileRaidDescText.fetxt"
+#incbin ".TextEntries\text_buildfileRaidDescText.fetxt.dmp"
 setText($94F, __TEXTPROCESS94F)
 
 __TEXTPROCESS950:
-#incext ParseFile ".TextEntries\text_buildfileEscapeName.fetxt"
+#incbin ".TextEntries\text_buildfileEscapeName.fetxt.dmp"
 setText($950, __TEXTPROCESS950)
 
 __TEXTPROCESS951:
-#incext ParseFile ".TextEntries\text_buildfileEscapeDesc.fetxt"
+#incbin ".TextEntries\text_buildfileEscapeDesc.fetxt.dmp"
 setText($951, __TEXTPROCESS951)
 
 __TEXTPROCESS952:
-#incext ParseFile ".TextEntries\text_buildfileArriveName.fetxt"
+#incbin ".TextEntries\text_buildfileArriveName.fetxt.dmp"
 setText($952, __TEXTPROCESS952)
 
 __TEXTPROCESS953:
-#incext ParseFile ".TextEntries\text_buildfileArriveDesc.fetxt"
+#incbin ".TextEntries\text_buildfileArriveDesc.fetxt.dmp"
 setText($953, __TEXTPROCESS953)
 
 __TEXTPROCESS954:
-#incext ParseFile ".TextEntries\text_buildfileMov_Text_ID.fetxt"
+#incbin ".TextEntries\text_buildfileMov_Text_ID.fetxt.dmp"
 setText($954, __TEXTPROCESS954)
 
 __TEXTPROCESS955:
-#incext ParseFile ".TextEntries\text_buildfileUM_EditSkills.fetxt"
+#incbin ".TextEntries\text_buildfileUM_EditSkills.fetxt.dmp"
 setText($955, __TEXTPROCESS955)
 
 __TEXTPROCESS956:
-#incext ParseFile ".TextEntries\text_buildfiledescKnight.fetxt"
+#incbin ".TextEntries\text_buildfiledescKnight.fetxt.dmp"
 setText($956, __TEXTPROCESS956)
 
 __TEXTPROCESS957:
-#incext ParseFile ".TextEntries\text_buildfiledescWyvernRider.fetxt"
+#incbin ".TextEntries\text_buildfiledescWyvernRider.fetxt.dmp"
 setText($957, __TEXTPROCESS957)
 
 __TEXTPROCESS958:
-#incext ParseFile ".TextEntries\text_buildfilenameBarbarian.fetxt"
+#incbin ".TextEntries\text_buildfilenameBarbarian.fetxt.dmp"
 setText($958, __TEXTPROCESS958)
 
 __TEXTPROCESS959:
-#incext ParseFile ".TextEntries\text_buildfiledescBarbarian.fetxt"
+#incbin ".TextEntries\text_buildfiledescBarbarian.fetxt.dmp"
 setText($959, __TEXTPROCESS959)
 
 __TEXTPROCESS95A:
-#incext ParseFile ".TextEntries\text_buildfilenameNomad.fetxt"
+#incbin ".TextEntries\text_buildfilenameNomad.fetxt.dmp"
 setText($95A, __TEXTPROCESS95A)
 
 __TEXTPROCESS95B:
-#incext ParseFile ".TextEntries\text_buildfiledescNomad.fetxt"
+#incbin ".TextEntries\text_buildfiledescNomad.fetxt.dmp"
 setText($95B, __TEXTPROCESS95B)
 
 __TEXTPROCESS95C:
-#incext ParseFile ".TextEntries\text_buildfilenameSwordCav.fetxt"
+#incbin ".TextEntries\text_buildfilenameSwordCav.fetxt.dmp"
 setText($95C, __TEXTPROCESS95C)
 
 __TEXTPROCESS95D:
-#incext ParseFile ".TextEntries\text_buildfiledescSwordCav.fetxt"
+#incbin ".TextEntries\text_buildfiledescSwordCav.fetxt.dmp"
 setText($95D, __TEXTPROCESS95D)
 
 __TEXTPROCESS95E:
-#incext ParseFile ".TextEntries\text_buildfilenameLanceCav.fetxt"
+#incbin ".TextEntries\text_buildfilenameLanceCav.fetxt.dmp"
 setText($95E, __TEXTPROCESS95E)
 
 __TEXTPROCESS95F:
-#incext ParseFile ".TextEntries\text_buildfiledescLanceCav.fetxt"
+#incbin ".TextEntries\text_buildfiledescLanceCav.fetxt.dmp"
 setText($95F, __TEXTPROCESS95F)
 
 __TEXTPROCESS960:
-#incext ParseFile ".TextEntries\text_buildfilenameAxeCav.fetxt"
+#incbin ".TextEntries\text_buildfilenameAxeCav.fetxt.dmp"
 setText($960, __TEXTPROCESS960)
 
 __TEXTPROCESS961:
-#incext ParseFile ".TextEntries\text_buildfiledescAxeCav.fetxt"
+#incbin ".TextEntries\text_buildfiledescAxeCav.fetxt.dmp"
 setText($961, __TEXTPROCESS961)
 
 __TEXTPROCESS962:
-#incext ParseFile ".TextEntries\text_buildfilenameWren.fetxt"
+#incbin ".TextEntries\text_buildfilenameWren.fetxt.dmp"
 setText($962, __TEXTPROCESS962)
 
 __TEXTPROCESS963:
-#incext ParseFile ".TextEntries\text_buildfiledescWren.fetxt"
+#incbin ".TextEntries\text_buildfiledescWren.fetxt.dmp"
 setText($963, __TEXTPROCESS963)
 
 __TEXTPROCESS964:
-#incext ParseFile ".TextEntries\text_buildfilenameWigbrand.fetxt"
+#incbin ".TextEntries\text_buildfilenameWigbrand.fetxt.dmp"
 setText($964, __TEXTPROCESS964)
 
 __TEXTPROCESS965:
-#incext ParseFile ".TextEntries\text_buildfiledescWigbrand.fetxt"
+#incbin ".TextEntries\text_buildfiledescWigbrand.fetxt.dmp"
 setText($965, __TEXTPROCESS965)
 
 __TEXTPROCESS966:
-#incext ParseFile ".TextEntries\text_buildfilenameShamira.fetxt"
+#incbin ".TextEntries\text_buildfilenameShamira.fetxt.dmp"
 setText($966, __TEXTPROCESS966)
 
 __TEXTPROCESS967:
-#incext ParseFile ".TextEntries\text_buildfiledescShamira.fetxt"
+#incbin ".TextEntries\text_buildfiledescShamira.fetxt.dmp"
 setText($967, __TEXTPROCESS967)
 
 __TEXTPROCESS968:
-#incext ParseFile ".TextEntries\text_buildfilenameHuginn.fetxt"
+#incbin ".TextEntries\text_buildfilenameHuginn.fetxt.dmp"
 setText($968, __TEXTPROCESS968)
 
 __TEXTPROCESS969:
-#incext ParseFile ".TextEntries\text_buildfiledescHuginn.fetxt"
+#incbin ".TextEntries\text_buildfiledescHuginn.fetxt.dmp"
 setText($969, __TEXTPROCESS969)
 
 __TEXTPROCESS96A:
-#incext ParseFile ".TextEntries\text_buildfilenameOrvar.fetxt"
+#incbin ".TextEntries\text_buildfilenameOrvar.fetxt.dmp"
 setText($96A, __TEXTPROCESS96A)
 
 __TEXTPROCESS96B:
-#incext ParseFile ".TextEntries\text_buildfiledescOrvar.fetxt"
+#incbin ".TextEntries\text_buildfiledescOrvar.fetxt.dmp"
 setText($96B, __TEXTPROCESS96B)
 
 __TEXTPROCESS96C:
-#incext ParseFile ".TextEntries\text_buildfilenameLuz.fetxt"
+#incbin ".TextEntries\text_buildfilenameLuz.fetxt.dmp"
 setText($96C, __TEXTPROCESS96C)
 
 __TEXTPROCESS96D:
-#incext ParseFile ".TextEntries\text_buildfiledescLuz.fetxt"
+#incbin ".TextEntries\text_buildfiledescLuz.fetxt.dmp"
 setText($96D, __TEXTPROCESS96D)
 
 __TEXTPROCESS96E:
-#incext ParseFile ".TextEntries\text_buildfilenameGad.fetxt"
+#incbin ".TextEntries\text_buildfilenameGad.fetxt.dmp"
 setText($96E, __TEXTPROCESS96E)
 
 __TEXTPROCESS96F:
-#incext ParseFile ".TextEntries\text_buildfiledescGad.fetxt"
+#incbin ".TextEntries\text_buildfiledescGad.fetxt.dmp"
 setText($96F, __TEXTPROCESS96F)
 
 __TEXTPROCESS970:
-#incext ParseFile ".TextEntries\text_buildfilenameDana.fetxt"
+#incbin ".TextEntries\text_buildfilenameDana.fetxt.dmp"
 setText($970, __TEXTPROCESS970)
 
 __TEXTPROCESS971:
-#incext ParseFile ".TextEntries\text_buildfiledescDana.fetxt"
+#incbin ".TextEntries\text_buildfiledescDana.fetxt.dmp"
 setText($971, __TEXTPROCESS971)
 
 __TEXTPROCESS972:
-#incext ParseFile ".TextEntries\text_buildfilenameCato.fetxt"
+#incbin ".TextEntries\text_buildfilenameCato.fetxt.dmp"
 setText($972, __TEXTPROCESS972)
 
 __TEXTPROCESS973:
-#incext ParseFile ".TextEntries\text_buildfiledescCato.fetxt"
+#incbin ".TextEntries\text_buildfiledescCato.fetxt.dmp"
 setText($973, __TEXTPROCESS973)
 
 __TEXTPROCESS974:
-#incext ParseFile ".TextEntries\text_buildfilenameSarai.fetxt"
+#incbin ".TextEntries\text_buildfilenameSarai.fetxt.dmp"
 setText($974, __TEXTPROCESS974)
 
 __TEXTPROCESS975:
-#incext ParseFile ".TextEntries\text_buildfiledescSarai.fetxt"
+#incbin ".TextEntries\text_buildfiledescSarai.fetxt.dmp"
 setText($975, __TEXTPROCESS975)
 
 __TEXTPROCESS976:
-#incext ParseFile ".TextEntries\text_buildfilenameRudyard.fetxt"
+#incbin ".TextEntries\text_buildfilenameRudyard.fetxt.dmp"
 setText($976, __TEXTPROCESS976)
 
 __TEXTPROCESS977:
-#incext ParseFile ".TextEntries\text_buildfiledescRudyard.fetxt"
+#incbin ".TextEntries\text_buildfiledescRudyard.fetxt.dmp"
 setText($977, __TEXTPROCESS977)
 
 __TEXTPROCESS978:
-#incext ParseFile ".TextEntries\text_buildfilenameAdela.fetxt"
+#incbin ".TextEntries\text_buildfilenameAdela.fetxt.dmp"
 setText($978, __TEXTPROCESS978)
 
 __TEXTPROCESS979:
-#incext ParseFile ".TextEntries\text_buildfiledescAdela.fetxt"
+#incbin ".TextEntries\text_buildfiledescAdela.fetxt.dmp"
 setText($979, __TEXTPROCESS979)
 
 __TEXTPROCESS97A:
-#incext ParseFile ".TextEntries\text_buildfilenameNuri.fetxt"
+#incbin ".TextEntries\text_buildfilenameNuri.fetxt.dmp"
 setText($97A, __TEXTPROCESS97A)
 
 __TEXTPROCESS97B:
-#incext ParseFile ".TextEntries\text_buildfiledescNuri.fetxt"
+#incbin ".TextEntries\text_buildfiledescNuri.fetxt.dmp"
 setText($97B, __TEXTPROCESS97B)
 
 __TEXTPROCESS97C:
-#incext ParseFile ".TextEntries\text_buildfilenameApollo.fetxt"
+#incbin ".TextEntries\text_buildfilenameApollo.fetxt.dmp"
 setText($97C, __TEXTPROCESS97C)
 
 __TEXTPROCESS97D:
-#incext ParseFile ".TextEntries\text_buildfiledescApollo.fetxt"
+#incbin ".TextEntries\text_buildfiledescApollo.fetxt.dmp"
 setText($97D, __TEXTPROCESS97D)
 
 __TEXTPROCESS97E:
-#incext ParseFile ".TextEntries\text_buildfilenameIara.fetxt"
+#incbin ".TextEntries\text_buildfilenameIara.fetxt.dmp"
 setText($97E, __TEXTPROCESS97E)
 
 __TEXTPROCESS97F:
-#incext ParseFile ".TextEntries\text_buildfiledescIara.fetxt"
+#incbin ".TextEntries\text_buildfiledescIara.fetxt.dmp"
 setText($97F, __TEXTPROCESS97F)
 
 __TEXTPROCESS980:
-#incext ParseFile ".TextEntries\text_buildfilenameEvander.fetxt"
+#incbin ".TextEntries\text_buildfilenameEvander.fetxt.dmp"
 setText($980, __TEXTPROCESS980)
 
 __TEXTPROCESS981:
-#incext ParseFile ".TextEntries\text_buildfiledescEvander.fetxt"
+#incbin ".TextEntries\text_buildfiledescEvander.fetxt.dmp"
 setText($981, __TEXTPROCESS981)
 
 __TEXTPROCESS982:
-#incext ParseFile ".TextEntries\text_buildfilenameVicks.fetxt"
+#incbin ".TextEntries\text_buildfilenameVicks.fetxt.dmp"
 setText($982, __TEXTPROCESS982)
 
 __TEXTPROCESS983:
-#incext ParseFile ".TextEntries\text_buildfiledescVicks.fetxt"
+#incbin ".TextEntries\text_buildfiledescVicks.fetxt.dmp"
 setText($983, __TEXTPROCESS983)
 
 __TEXTPROCESS984:
-#incext ParseFile ".TextEntries\text_buildfilenameSawine.fetxt"
+#incbin ".TextEntries\text_buildfilenameSawine.fetxt.dmp"
 setText($984, __TEXTPROCESS984)
 
 __TEXTPROCESS985:
-#incext ParseFile ".TextEntries\text_buildfiledescSawine.fetxt"
+#incbin ".TextEntries\text_buildfiledescSawine.fetxt.dmp"
 setText($985, __TEXTPROCESS985)
 
 __TEXTPROCESS986:
-#incext ParseFile ".TextEntries\text_buildfilenameDatta.fetxt"
+#incbin ".TextEntries\text_buildfilenameDatta.fetxt.dmp"
 setText($986, __TEXTPROCESS986)
 
 __TEXTPROCESS987:
-#incext ParseFile ".TextEntries\text_buildfiledescDatta.fetxt"
+#incbin ".TextEntries\text_buildfiledescDatta.fetxt.dmp"
 setText($987, __TEXTPROCESS987)
 
 __TEXTPROCESS988:
-#incext ParseFile ".TextEntries\text_buildfilenameAttab.fetxt"
+#incbin ".TextEntries\text_buildfilenameAttab.fetxt.dmp"
 setText($988, __TEXTPROCESS988)
 
 __TEXTPROCESS989:
-#incext ParseFile ".TextEntries\text_buildfiledescAttab.fetxt"
+#incbin ".TextEntries\text_buildfiledescAttab.fetxt.dmp"
 setText($989, __TEXTPROCESS989)
 
 __TEXTPROCESS98A:
-#incext ParseFile ".TextEntries\text_buildfilenameRhud.fetxt"
+#incbin ".TextEntries\text_buildfilenameRhud.fetxt.dmp"
 setText($98A, __TEXTPROCESS98A)
 
 __TEXTPROCESS98B:
-#incext ParseFile ".TextEntries\text_buildfiledescRhud.fetxt"
+#incbin ".TextEntries\text_buildfiledescRhud.fetxt.dmp"
 setText($98B, __TEXTPROCESS98B)
 
 __TEXTPROCESS98C:
-#incext ParseFile ".TextEntries\text_buildfilenameSonta.fetxt"
+#incbin ".TextEntries\text_buildfilenameSonta.fetxt.dmp"
 setText($98C, __TEXTPROCESS98C)
 
 __TEXTPROCESS98D:
-#incext ParseFile ".TextEntries\text_buildfiledescSonta.fetxt"
+#incbin ".TextEntries\text_buildfiledescSonta.fetxt.dmp"
 setText($98D, __TEXTPROCESS98D)
 
 __TEXTPROCESS98E:
-#incext ParseFile ".TextEntries\text_buildfilenameValanos.fetxt"
+#incbin ".TextEntries\text_buildfilenameValanos.fetxt.dmp"
 setText($98E, __TEXTPROCESS98E)
 
 __TEXTPROCESS98F:
-#incext ParseFile ".TextEntries\text_buildfiledescValanos.fetxt"
+#incbin ".TextEntries\text_buildfiledescValanos.fetxt.dmp"
 setText($98F, __TEXTPROCESS98F)
 
 __TEXTPROCESS990:
-#incext ParseFile ".TextEntries\text_buildfilenameBigfard.fetxt"
+#incbin ".TextEntries\text_buildfilenameBigfard.fetxt.dmp"
 setText($990, __TEXTPROCESS990)
 
 __TEXTPROCESS991:
-#incext ParseFile ".TextEntries\text_buildfiledescBigfard.fetxt"
+#incbin ".TextEntries\text_buildfiledescBigfard.fetxt.dmp"
 setText($991, __TEXTPROCESS991)
 
 __TEXTPROCESS992:
-#incext ParseFile ".TextEntries\text_buildfilenameKuhnt.fetxt"
+#incbin ".TextEntries\text_buildfilenameKuhnt.fetxt.dmp"
 setText($992, __TEXTPROCESS992)
 
 __TEXTPROCESS993:
-#incext ParseFile ".TextEntries\text_buildfiledescKuhnt.fetxt"
+#incbin ".TextEntries\text_buildfiledescKuhnt.fetxt.dmp"
 setText($993, __TEXTPROCESS993)
 
 __TEXTPROCESS994:
-#incext ParseFile ".TextEntries\text_buildfilenameWazzak.fetxt"
+#incbin ".TextEntries\text_buildfilenameWazzak.fetxt.dmp"
 setText($994, __TEXTPROCESS994)
 
 __TEXTPROCESS995:
-#incext ParseFile ".TextEntries\text_buildfiledescWazzak.fetxt"
+#incbin ".TextEntries\text_buildfiledescWazzak.fetxt.dmp"
 setText($995, __TEXTPROCESS995)
 
 __TEXTPROCESS996:
-#incext ParseFile ".TextEntries\text_buildfilenameNaiburn.fetxt"
+#incbin ".TextEntries\text_buildfilenameNaiburn.fetxt.dmp"
 setText($996, __TEXTPROCESS996)
 
 __TEXTPROCESS997:
-#incext ParseFile ".TextEntries\text_buildfiledescNaiburn.fetxt"
+#incbin ".TextEntries\text_buildfiledescNaiburn.fetxt.dmp"
 setText($997, __TEXTPROCESS997)
 
 __TEXTPROCESS998:
-#incext ParseFile ".TextEntries\text_buildfileSD_Savior.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Savior.fetxt.dmp"
 setText($998, __TEXTPROCESS998)
 
 __TEXTPROCESS999:
-#incext ParseFile ".TextEntries\text_buildfileSD_Adept.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Adept.fetxt.dmp"
 setText($999, __TEXTPROCESS999)
 
 __TEXTPROCESS99A:
-#incext ParseFile ".TextEntries\text_buildfileSD_Acrobat.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Acrobat.fetxt.dmp"
 setText($99A, __TEXTPROCESS99A)
 
 __TEXTPROCESS99B:
-#incext ParseFile ".TextEntries\text_buildfileSD_Pass.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Pass.fetxt.dmp"
 setText($99B, __TEXTPROCESS99B)
 
 __TEXTPROCESS99C:
-#incext ParseFile ".TextEntries\text_buildfileSD_CantoPlus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_CantoPlus.fetxt.dmp"
 setText($99C, __TEXTPROCESS99C)
 
 __TEXTPROCESS99D:
-#incext ParseFile ".TextEntries\text_buildfileSD_WaryFighter.fetxt"
+#incbin ".TextEntries\text_buildfileSD_WaryFighter.fetxt.dmp"
 setText($99D, __TEXTPROCESS99D)
 
 __TEXTPROCESS99E:
-#incext ParseFile ".TextEntries\text_buildfileSD_SureShot.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SureShot.fetxt.dmp"
 setText($99E, __TEXTPROCESS99E)
 
 __TEXTPROCESS99F:
-#incext ParseFile ".TextEntries\text_buildfileSD_Provoke.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Provoke.fetxt.dmp"
 setText($99F, __TEXTPROCESS99F)
 
 __TEXTPROCESS9A0:
-#incext ParseFile ".TextEntries\text_buildfileSD_Mercy.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Mercy.fetxt.dmp"
 setText($9A0, __TEXTPROCESS9A0)
 
 __TEXTPROCESS9A1:
-#incext ParseFile ".TextEntries\text_buildfileSD_Frenzy.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Frenzy.fetxt.dmp"
 setText($9A1, __TEXTPROCESS9A1)
 
 __TEXTPROCESS9A2:
-#incext ParseFile ".TextEntries\text_buildfileSD_Canto.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Canto.fetxt.dmp"
 setText($9A2, __TEXTPROCESS9A2)
 
 __TEXTPROCESS9A3:
-#incext ParseFile ".TextEntries\text_buildfileSD_Cunning.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Cunning.fetxt.dmp"
 setText($9A3, __TEXTPROCESS9A3)
 
 __TEXTPROCESS9A4:
-#incext ParseFile ".TextEntries\text_buildfileSD_Lethality.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Lethality.fetxt.dmp"
 setText($9A4, __TEXTPROCESS9A4)
 
 __TEXTPROCESS9A5:
-#incext ParseFile ".TextEntries\text_buildfileSD_Bane.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Bane.fetxt.dmp"
 setText($9A5, __TEXTPROCESS9A5)
 
 __TEXTPROCESS9A6:
-#incext ParseFile ".TextEntries\text_buildfileSD_Luna.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Luna.fetxt.dmp"
 setText($9A6, __TEXTPROCESS9A6)
 
 __TEXTPROCESS9A7:
-#incext ParseFile ".TextEntries\text_buildfileSD_Sol.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Sol.fetxt.dmp"
 setText($9A7, __TEXTPROCESS9A7)
 
 __TEXTPROCESS9A8:
-#incext ParseFile ".TextEntries\text_buildfileSD_Aether.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Aether.fetxt.dmp"
 setText($9A8, __TEXTPROCESS9A8)
 
 __TEXTPROCESS9A9:
-#incext ParseFile ".TextEntries\text_buildfileSD_Astra.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Astra.fetxt.dmp"
 setText($9A9, __TEXTPROCESS9A9)
 
 __TEXTPROCESS9AA:
-#incext ParseFile ".TextEntries\text_buildfileSD_Discipline.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Discipline.fetxt.dmp"
 setText($9AA, __TEXTPROCESS9AA)
 
 __TEXTPROCESS9AB:
-#incext ParseFile ".TextEntries\text_buildfileSD_DisciplinePlus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DisciplinePlus.fetxt.dmp"
 setText($9AB, __TEXTPROCESS9AB)
 
 __TEXTPROCESS9AC:
-#incext ParseFile ".TextEntries\text_buildfileSD_Swordbreaker.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Swordbreaker.fetxt.dmp"
 setText($9AC, __TEXTPROCESS9AC)
 
 __TEXTPROCESS9AD:
-#incext ParseFile ".TextEntries\text_buildfileSD_Lancebreaker.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Lancebreaker.fetxt.dmp"
 setText($9AD, __TEXTPROCESS9AD)
 
 __TEXTPROCESS9AE:
-#incext ParseFile ".TextEntries\text_buildfileSD_Axebreaker.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Axebreaker.fetxt.dmp"
 setText($9AE, __TEXTPROCESS9AE)
 
 __TEXTPROCESS9AF:
-#incext ParseFile ".TextEntries\text_buildfileSD_Bowbreaker.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Bowbreaker.fetxt.dmp"
 setText($9AF, __TEXTPROCESS9AF)
 
 __TEXTPROCESS9B0:
-#incext ParseFile ".TextEntries\text_buildfileSD_Tomebreaker.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Tomebreaker.fetxt.dmp"
 setText($9B0, __TEXTPROCESS9B0)
 
 __TEXTPROCESS9B1:
-#incext ParseFile ".TextEntries\text_buildfileSD_Aegis.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Aegis.fetxt.dmp"
 setText($9B1, __TEXTPROCESS9B1)
 
 __TEXTPROCESS9B2:
-#incext ParseFile ".TextEntries\text_buildfileSD_Pavise.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Pavise.fetxt.dmp"
 setText($9B2, __TEXTPROCESS9B2)
 
 __TEXTPROCESS9B3:
-#incext ParseFile ".TextEntries\text_buildfileSD_DuelistsBlow.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DuelistsBlow.fetxt.dmp"
 setText($9B3, __TEXTPROCESS9B3)
 
 __TEXTPROCESS9B4:
-#incext ParseFile ".TextEntries\text_buildfileSD_DeathBlow.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DeathBlow.fetxt.dmp"
 setText($9B4, __TEXTPROCESS9B4)
 
 __TEXTPROCESS9B5:
-#incext ParseFile ".TextEntries\text_buildfileSD_DartingBlow.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DartingBlow.fetxt.dmp"
 setText($9B5, __TEXTPROCESS9B5)
 
 __TEXTPROCESS9B6:
-#incext ParseFile ".TextEntries\text_buildfileSD_WardingBlow.fetxt"
+#incbin ".TextEntries\text_buildfileSD_WardingBlow.fetxt.dmp"
 setText($9B6, __TEXTPROCESS9B6)
 
 __TEXTPROCESS9B7:
-#incext ParseFile ".TextEntries\text_buildfileSD_CertainBlow.fetxt"
+#incbin ".TextEntries\text_buildfileSD_CertainBlow.fetxt.dmp"
 setText($9B7, __TEXTPROCESS9B7)
 
 __TEXTPROCESS9B8:
-#incext ParseFile ".TextEntries\text_buildfileSD_ArmoredBlow.fetxt"
+#incbin ".TextEntries\text_buildfileSD_ArmoredBlow.fetxt.dmp"
 setText($9B8, __TEXTPROCESS9B8)
 
 __TEXTPROCESS9B9:
-#incext ParseFile ".TextEntries\text_buildfileSD_Vantage.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Vantage.fetxt.dmp"
 setText($9B9, __TEXTPROCESS9B9)
 
 __TEXTPROCESS9BA:
-#incext ParseFile ".TextEntries\text_buildfileSD_Desperation.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Desperation.fetxt.dmp"
 setText($9BA, __TEXTPROCESS9BA)
 
 __TEXTPROCESS9BB:
-#incext ParseFile ".TextEntries\text_buildfileSD_Wrath.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Wrath.fetxt.dmp"
 setText($9BB, __TEXTPROCESS9BB)
 
 __TEXTPROCESS9BC:
-#incext ParseFile ".TextEntries\text_buildfileSD_Counter.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Counter.fetxt.dmp"
 setText($9BC, __TEXTPROCESS9BC)
 
 __TEXTPROCESS9BD:
-#incext ParseFile ".TextEntries\text_buildfileSD_CounterMagic.fetxt"
+#incbin ".TextEntries\text_buildfileSD_CounterMagic.fetxt.dmp"
 setText($9BD, __TEXTPROCESS9BD)
 
 __TEXTPROCESS9BE:
-#incext ParseFile ".TextEntries\text_buildfileSD_Miracle.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Miracle.fetxt.dmp"
 setText($9BE, __TEXTPROCESS9BE)
 
 __TEXTPROCESS9BF:
-#incext ParseFile ".TextEntries\text_buildfileSD_Swordfaire.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Swordfaire.fetxt.dmp"
 setText($9BF, __TEXTPROCESS9BF)
 
 __TEXTPROCESS9C0:
-#incext ParseFile ".TextEntries\text_buildfileSD_Lancefaire.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Lancefaire.fetxt.dmp"
 setText($9C0, __TEXTPROCESS9C0)
 
 __TEXTPROCESS9C1:
-#incext ParseFile ".TextEntries\text_buildfileSD_Axefaire.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Axefaire.fetxt.dmp"
 setText($9C1, __TEXTPROCESS9C1)
 
 __TEXTPROCESS9C2:
-#incext ParseFile ".TextEntries\text_buildfileSD_Bowfaire.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Bowfaire.fetxt.dmp"
 setText($9C2, __TEXTPROCESS9C2)
 
 __TEXTPROCESS9C3:
-#incext ParseFile ".TextEntries\text_buildfileSD_Tomefaire.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Tomefaire.fetxt.dmp"
 setText($9C3, __TEXTPROCESS9C3)
 
 __TEXTPROCESS9C4:
-#incext ParseFile ".TextEntries\text_buildfileSD_CritUp.fetxt"
+#incbin ".TextEntries\text_buildfileSD_CritUp.fetxt.dmp"
 setText($9C4, __TEXTPROCESS9C4)
 
 __TEXTPROCESS9C5:
-#incext ParseFile ".TextEntries\text_buildfileSD_Slayer.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Slayer.fetxt.dmp"
 setText($9C5, __TEXTPROCESS9C5)
 
 __TEXTPROCESS9C6:
-#incext ParseFile ".TextEntries\text_buildfileSD_Summon.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Summon.fetxt.dmp"
 setText($9C6, __TEXTPROCESS9C6)
 
 __TEXTPROCESS9C7:
-#incext ParseFile ".TextEntries\text_buildfileSD_Dance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Dance.fetxt.dmp"
 setText($9C7, __TEXTPROCESS9C7)
 
 __TEXTPROCESS9C8:
-#incext ParseFile ".TextEntries\text_buildfileSD_Lifetaker.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Lifetaker.fetxt.dmp"
 setText($9C8, __TEXTPROCESS9C8)
 
 __TEXTPROCESS9C9:
-#incext ParseFile ".TextEntries\text_buildfileSD_Galeforce.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Galeforce.fetxt.dmp"
 setText($9C9, __TEXTPROCESS9C9)
 
 __TEXTPROCESS9CA:
-#incext ParseFile ".TextEntries\text_buildfileSD_Renewal.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Renewal.fetxt.dmp"
 setText($9CA, __TEXTPROCESS9CA)
 
 __TEXTPROCESS9CB:
-#incext ParseFile ".TextEntries\text_buildfileSD_NiceThighs.fetxt"
+#incbin ".TextEntries\text_buildfileSD_NiceThighs.fetxt.dmp"
 setText($9CB, __TEXTPROCESS9CB)
 
 __TEXTPROCESS9CC:
-#incext ParseFile ".TextEntries\text_buildfileSD_Demoiselle.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Demoiselle.fetxt.dmp"
 setText($9CC, __TEXTPROCESS9CC)
 
 __TEXTPROCESS9CD:
-#incext ParseFile ".TextEntries\text_buildfileSD_Gentilhomme.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Gentilhomme.fetxt.dmp"
 setText($9CD, __TEXTPROCESS9CD)
 
 __TEXTPROCESS9CE:
-#incext ParseFile ".TextEntries\text_buildfileSD_MaleficAura.fetxt"
+#incbin ".TextEntries\text_buildfileSD_MaleficAura.fetxt.dmp"
 setText($9CE, __TEXTPROCESS9CE)
 
 __TEXTPROCESS9CF:
-#incext ParseFile ".TextEntries\text_buildfileSD_Inspiration.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Inspiration.fetxt.dmp"
 setText($9CF, __TEXTPROCESS9CF)
 
 __TEXTPROCESS9D0:
-#incext ParseFile ".TextEntries\text_buildfileSD_Charm.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Charm.fetxt.dmp"
 setText($9D0, __TEXTPROCESS9D0)
 
 __TEXTPROCESS9D1:
-#incext ParseFile ".TextEntries\text_buildfileSD_VoiceOfPeace.fetxt"
+#incbin ".TextEntries\text_buildfileSD_VoiceOfPeace.fetxt.dmp"
 setText($9D1, __TEXTPROCESS9D1)
 
 __TEXTPROCESS9D2:
-#incext ParseFile ".TextEntries\text_buildfileSD_Amaterasu.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Amaterasu.fetxt.dmp"
 setText($9D2, __TEXTPROCESS9D2)
 
 __TEXTPROCESS9D3:
-#incext ParseFile ".TextEntries\text_buildfileSD_SpurStr.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SpurStr.fetxt.dmp"
 setText($9D3, __TEXTPROCESS9D3)
 
 __TEXTPROCESS9D4:
-#incext ParseFile ".TextEntries\text_buildfileSD_SpurMag.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SpurMag.fetxt.dmp"
 setText($9D4, __TEXTPROCESS9D4)
 
 __TEXTPROCESS9D5:
-#incext ParseFile ".TextEntries\text_buildfileSD_SpurSpd.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SpurSpd.fetxt.dmp"
 setText($9D5, __TEXTPROCESS9D5)
 
 __TEXTPROCESS9D6:
-#incext ParseFile ".TextEntries\text_buildfileSD_SpurDef.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SpurDef.fetxt.dmp"
 setText($9D6, __TEXTPROCESS9D6)
 
 __TEXTPROCESS9D7:
-#incext ParseFile ".TextEntries\text_buildfileSD_SpurRes.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SpurRes.fetxt.dmp"
 setText($9D7, __TEXTPROCESS9D7)
 
 __TEXTPROCESS9D8:
-#incext ParseFile ".TextEntries\text_buildfileSD_Nihil.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Nihil.fetxt.dmp"
 setText($9D8, __TEXTPROCESS9D8)
 
 __TEXTPROCESS9D9:
-#incext ParseFile ".TextEntries\text_buildfileSD_Nullify.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Nullify.fetxt.dmp"
 setText($9D9, __TEXTPROCESS9D9)
 
 __TEXTPROCESS9DA:
-#incext ParseFile ".TextEntries\text_buildfileSD_Paragon.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Paragon.fetxt.dmp"
 setText($9DA, __TEXTPROCESS9DA)
 
 __TEXTPROCESS9DB:
-#incext ParseFile ".TextEntries\text_buildfileSD_Impale.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Impale.fetxt.dmp"
 setText($9DB, __TEXTPROCESS9DB)
 
 __TEXTPROCESS9DC:
-#incext ParseFile ".TextEntries\text_buildfileSD_Colossus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Colossus.fetxt.dmp"
 setText($9DC, __TEXTPROCESS9DC)
 
 __TEXTPROCESS9DD:
-#incext ParseFile ".TextEntries\text_buildfileSD_RallyStr.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RallyStr.fetxt.dmp"
 setText($9DD, __TEXTPROCESS9DD)
 
 __TEXTPROCESS9DE:
-#incext ParseFile ".TextEntries\text_buildfileSD_RallyMag.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RallyMag.fetxt.dmp"
 setText($9DE, __TEXTPROCESS9DE)
 
 __TEXTPROCESS9DF:
-#incext ParseFile ".TextEntries\text_buildfileSD_RallySkl.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RallySkl.fetxt.dmp"
 setText($9DF, __TEXTPROCESS9DF)
 
 __TEXTPROCESS9E0:
-#incext ParseFile ".TextEntries\text_buildfileSD_RallySpd.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RallySpd.fetxt.dmp"
 setText($9E0, __TEXTPROCESS9E0)
 
 __TEXTPROCESS9E1:
-#incext ParseFile ".TextEntries\text_buildfileSD_RallyLuk.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RallyLuk.fetxt.dmp"
 setText($9E1, __TEXTPROCESS9E1)
 
 __TEXTPROCESS9E2:
-#incext ParseFile ".TextEntries\text_buildfileSD_RallyDef.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RallyDef.fetxt.dmp"
 setText($9E2, __TEXTPROCESS9E2)
 
 __TEXTPROCESS9E3:
-#incext ParseFile ".TextEntries\text_buildfileSD_RallyRes.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RallyRes.fetxt.dmp"
 setText($9E3, __TEXTPROCESS9E3)
 
 __TEXTPROCESS9E4:
-#incext ParseFile ".TextEntries\text_buildfileSD_RallyMov.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RallyMov.fetxt.dmp"
 setText($9E4, __TEXTPROCESS9E4)
 
 __TEXTPROCESS9E5:
-#incext ParseFile ".TextEntries\text_buildfileSD_RallySpectrum.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RallySpectrum.fetxt.dmp"
 setText($9E5, __TEXTPROCESS9E5)
 
 __TEXTPROCESS9E6:
-#incext ParseFile ".TextEntries\text_buildfileSD_BowRangeUp.fetxt"
+#incbin ".TextEntries\text_buildfileSD_BowRangeUp.fetxt.dmp"
 setText($9E6, __TEXTPROCESS9E6)
 
 __TEXTPROCESS9E7:
-#incext ParseFile ".TextEntries\text_buildfileSD_StaffSavant.fetxt"
+#incbin ".TextEntries\text_buildfileSD_StaffSavant.fetxt.dmp"
 setText($9E7, __TEXTPROCESS9E7)
 
 __TEXTPROCESS9E8:
-#incext ParseFile ".TextEntries\text_buildfileSD_LiveToServe.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LiveToServe.fetxt.dmp"
 setText($9E8, __TEXTPROCESS9E8)
 
 __TEXTPROCESS9E9:
-#incext ParseFile ".TextEntries\text_buildfileSD_Ignis.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Ignis.fetxt.dmp"
 setText($9E9, __TEXTPROCESS9E9)
 
 __TEXTPROCESS9EA:
-#incext ParseFile ".TextEntries\text_buildfileSD_LifeAndDeath.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LifeAndDeath.fetxt.dmp"
 setText($9EA, __TEXTPROCESS9EA)
 
 __TEXTPROCESS9EB:
-#incext ParseFile ".TextEntries\text_buildfileSD_LockTouch.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LockTouch.fetxt.dmp"
 setText($9EB, __TEXTPROCESS9EB)
 
 __TEXTPROCESS9EC:
-#incext ParseFile ".TextEntries\text_buildfileSD_Lunge.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Lunge.fetxt.dmp"
 setText($9EC, __TEXTPROCESS9EC)
 
 __TEXTPROCESS9ED:
-#incext ParseFile ".TextEntries\text_buildfileSD_Intimidate.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Intimidate.fetxt.dmp"
 setText($9ED, __TEXTPROCESS9ED)
 
 __TEXTPROCESS9EE:
-#incext ParseFile ".TextEntries\text_buildfileSD_Opportunist.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Opportunist.fetxt.dmp"
 setText($9EE, __TEXTPROCESS9EE)
 
 __TEXTPROCESS9EF:
-#incext ParseFile ".TextEntries\text_buildfileSD_Trample.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Trample.fetxt.dmp"
 setText($9EF, __TEXTPROCESS9EF)
 
 __TEXTPROCESS9F0:
-#incext ParseFile ".TextEntries\text_buildfileSD_Camaraderie.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Camaraderie.fetxt.dmp"
 setText($9F0, __TEXTPROCESS9F0)
 
 __TEXTPROCESS9F1:
-#incext ParseFile ".TextEntries\text_buildfileSD_ForeignPrincess.fetxt"
+#incbin ".TextEntries\text_buildfileSD_ForeignPrincess.fetxt.dmp"
 setText($9F1, __TEXTPROCESS9F1)
 
 __TEXTPROCESS9F2:
-#incext ParseFile ".TextEntries\text_buildfileSD_SavageBlow.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SavageBlow.fetxt.dmp"
 setText($9F2, __TEXTPROCESS9F2)
 
 __TEXTPROCESS9F3:
-#incext ParseFile ".TextEntries\text_buildfileSD_Relief.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Relief.fetxt.dmp"
 setText($9F3, __TEXTPROCESS9F3)
 
 __TEXTPROCESS9F4:
-#incext ParseFile ".TextEntries\text_buildfileSD_Tantivy.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Tantivy.fetxt.dmp"
 setText($9F4, __TEXTPROCESS9F4)
 
 __TEXTPROCESS9F5:
-#incext ParseFile ".TextEntries\text_buildfileSD_Focus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Focus.fetxt.dmp"
 setText($9F5, __TEXTPROCESS9F5)
 
 __TEXTPROCESS9F6:
-#incext ParseFile ".TextEntries\text_buildfileSD_Bond.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Bond.fetxt.dmp"
 setText($9F6, __TEXTPROCESS9F6)
 
 __TEXTPROCESS9F7:
-#incext ParseFile ".TextEntries\text_buildfileSD_Anathema.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Anathema.fetxt.dmp"
 setText($9F7, __TEXTPROCESS9F7)
 
 __TEXTPROCESS9F8:
-#incext ParseFile ".TextEntries\text_buildfileSD_LilysPoise.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LilysPoise.fetxt.dmp"
 setText($9F8, __TEXTPROCESS9F8)
 
 __TEXTPROCESS9F9:
-#incext ParseFile ".TextEntries\text_buildfileSD_Expertise.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Expertise.fetxt.dmp"
 setText($9F9, __TEXTPROCESS9F9)
 
 __TEXTPROCESS9FA:
-#incext ParseFile ".TextEntries\text_buildfileSD_Celerity.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Celerity.fetxt.dmp"
 setText($9FA, __TEXTPROCESS9FA)
 
 __TEXTPROCESS9FB:
-#incext ParseFile ".TextEntries\text_buildfileSD_FieryBlood.fetxt"
+#incbin ".TextEntries\text_buildfileSD_FieryBlood.fetxt.dmp"
 setText($9FB, __TEXTPROCESS9FB)
 
 __TEXTPROCESS9FC:
-#incext ParseFile ".TextEntries\text_buildfileSD_ElbowRoom.fetxt"
+#incbin ".TextEntries\text_buildfileSD_ElbowRoom.fetxt.dmp"
 setText($9FC, __TEXTPROCESS9FC)
 
 __TEXTPROCESS9FD:
-#incext ParseFile ".TextEntries\text_buildfileSD_NaturalCover.fetxt"
+#incbin ".TextEntries\text_buildfileSD_NaturalCover.fetxt.dmp"
 setText($9FD, __TEXTPROCESS9FD)
 
 __TEXTPROCESS9FE:
-#incext ParseFile ".TextEntries\text_buildfileSD_SealStr.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SealStr.fetxt.dmp"
 setText($9FE, __TEXTPROCESS9FE)
 
 __TEXTPROCESS9FF:
-#incext ParseFile ".TextEntries\text_buildfileSD_SealSkl.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SealSkl.fetxt.dmp"
 setText($9FF, __TEXTPROCESS9FF)
 
 __TEXTPROCESSA00:
-#incext ParseFile ".TextEntries\text_buildfileSD_SealSpd.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SealSpd.fetxt.dmp"
 setText($A00, __TEXTPROCESSA00)
 
 __TEXTPROCESSA01:
-#incext ParseFile ".TextEntries\text_buildfileSD_SealLuk.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SealLuk.fetxt.dmp"
 setText($A01, __TEXTPROCESSA01)
 
 __TEXTPROCESSA02:
-#incext ParseFile ".TextEntries\text_buildfileSD_SealDef.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SealDef.fetxt.dmp"
 setText($A02, __TEXTPROCESSA02)
 
 __TEXTPROCESSA03:
-#incext ParseFile ".TextEntries\text_buildfileSD_SealRes.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SealRes.fetxt.dmp"
 setText($A03, __TEXTPROCESSA03)
 
 __TEXTPROCESSA04:
-#incext ParseFile ".TextEntries\text_buildfileSD_SealMag.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SealMag.fetxt.dmp"
 setText($A04, __TEXTPROCESSA04)
 
 __TEXTPROCESSA05:
-#incext ParseFile ".TextEntries\text_buildfileSD_Gamble.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Gamble.fetxt.dmp"
 setText($A05, __TEXTPROCESSA05)
 
 __TEXTPROCESSA06:
-#incext ParseFile ".TextEntries\text_buildfileSD_DragonsBlood.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DragonsBlood.fetxt.dmp"
 setText($A06, __TEXTPROCESSA06)
 
 __TEXTPROCESSA07:
-#incext ParseFile ".TextEntries\text_buildfileSD_Personality.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Personality.fetxt.dmp"
 setText($A07, __TEXTPROCESSA07)
 
 __TEXTPROCESSA08:
-#incext ParseFile ".TextEntries\text_buildfileSD_QuickDraw.fetxt"
+#incbin ".TextEntries\text_buildfileSD_QuickDraw.fetxt.dmp"
 setText($A08, __TEXTPROCESSA08)
 
 __TEXTPROCESSA09:
-#incext ParseFile ".TextEntries\text_buildfileSD_WindDisciple.fetxt"
+#incbin ".TextEntries\text_buildfileSD_WindDisciple.fetxt.dmp"
 setText($A09, __TEXTPROCESSA09)
 
 __TEXTPROCESSA0A:
-#incext ParseFile ".TextEntries\text_buildfileSD_StrongRiposte.fetxt"
+#incbin ".TextEntries\text_buildfileSD_StrongRiposte.fetxt.dmp"
 setText($A0A, __TEXTPROCESSA0A)
 
 __TEXTPROCESSA0B:
-#incext ParseFile ".TextEntries\text_buildfileSD_Patience.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Patience.fetxt.dmp"
 setText($A0B, __TEXTPROCESSA0B)
 
 __TEXTPROCESSA0C:
-#incext ParseFile ".TextEntries\text_buildfileSD_Pursuit.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Pursuit.fetxt.dmp"
 setText($A0C, __TEXTPROCESSA0C)
 
 __TEXTPROCESSA0D:
-#incext ParseFile ".TextEntries\text_buildfileSD_LightWeight.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LightWeight.fetxt.dmp"
 setText($A0D, __TEXTPROCESSA0D)
 
 __TEXTPROCESSA0E:
-#incext ParseFile ".TextEntries\text_buildfileSD_KillingMachine.fetxt"
+#incbin ".TextEntries\text_buildfileSD_KillingMachine.fetxt.dmp"
 setText($A0E, __TEXTPROCESSA0E)
 
 __TEXTPROCESSA0F:
-#incext ParseFile ".TextEntries\text_buildfileSD_CriticalForce.fetxt"
+#incbin ".TextEntries\text_buildfileSD_CriticalForce.fetxt.dmp"
 setText($A0F, __TEXTPROCESSA0F)
 
 __TEXTPROCESSA10:
-#incext ParseFile ".TextEntries\text_buildfileSD_Chivalry.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Chivalry.fetxt.dmp"
 setText($A10, __TEXTPROCESSA10)
 
 __TEXTPROCESSA11:
-#incext ParseFile ".TextEntries\text_buildfileSD_Pragmatic.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Pragmatic.fetxt.dmp"
 setText($A11, __TEXTPROCESSA11)
 
 __TEXTPROCESSA12:
-#incext ParseFile ".TextEntries\text_buildfileSD_Armsthrift.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Armsthrift.fetxt.dmp"
 setText($A12, __TEXTPROCESSA12)
 
 __TEXTPROCESSA13:
-#incext ParseFile ".TextEntries\text_buildfileSD_Moonbow.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Moonbow.fetxt.dmp"
 setText($A13, __TEXTPROCESSA13)
 
 __TEXTPROCESSA14:
-#incext ParseFile ".TextEntries\text_buildfileSD_Shove.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Shove.fetxt.dmp"
 setText($A14, __TEXTPROCESSA14)
 
 __TEXTPROCESSA15:
-#incext ParseFile ".TextEntries\text_buildfileSD_Smite.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Smite.fetxt.dmp"
 setText($A15, __TEXTPROCESSA15)
 
 __TEXTPROCESSA16:
-#incext ParseFile ".TextEntries\text_buildfileSD_DownWithArch.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DownWithArch.fetxt.dmp"
 setText($A16, __TEXTPROCESSA16)
 
 __TEXTPROCESSA17:
-#incext ParseFile ".TextEntries\text_buildfileSD_UpWithArch.fetxt"
+#incbin ".TextEntries\text_buildfileSD_UpWithArch.fetxt.dmp"
 setText($A17, __TEXTPROCESSA17)
 
 __TEXTPROCESSA18:
-#incext ParseFile ".TextEntries\text_buildfileSD_RightfulArch.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RightfulArch.fetxt.dmp"
 setText($A18, __TEXTPROCESSA18)
 
 __TEXTPROCESSA19:
-#incext ParseFile ".TextEntries\text_buildfileSD_RightfulKing.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RightfulKing.fetxt.dmp"
 setText($A19, __TEXTPROCESSA19)
 
 __TEXTPROCESSA1A:
-#incext ParseFile ".TextEntries\text_buildfileSD_RightfulGod.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RightfulGod.fetxt.dmp"
 setText($A1A, __TEXTPROCESSA1A)
 
 __TEXTPROCESSA1B:
-#incext ParseFile ".TextEntries\text_buildfileSD_LuckySeven.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LuckySeven.fetxt.dmp"
 setText($A1B, __TEXTPROCESSA1B)
 
 __TEXTPROCESSA1C:
-#incext ParseFile ".TextEntries\text_buildfileSD_OddRhythm.fetxt"
+#incbin ".TextEntries\text_buildfileSD_OddRhythm.fetxt.dmp"
 setText($A1C, __TEXTPROCESSA1C)
 
 __TEXTPROCESSA1D:
-#incext ParseFile ".TextEntries\text_buildfileSD_EvenRhythm.fetxt"
+#incbin ".TextEntries\text_buildfileSD_EvenRhythm.fetxt.dmp"
 setText($A1D, __TEXTPROCESSA1D)
 
 __TEXTPROCESSA1E:
-#incext ParseFile ".TextEntries\text_buildfileSD_QuickBurn.fetxt"
+#incbin ".TextEntries\text_buildfileSD_QuickBurn.fetxt.dmp"
 setText($A1E, __TEXTPROCESSA1E)
 
 __TEXTPROCESSA1F:
-#incext ParseFile ".TextEntries\text_buildfileSD_SlowBurn.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SlowBurn.fetxt.dmp"
 setText($A1F, __TEXTPROCESSA1F)
 
 __TEXTPROCESSA20:
-#incext ParseFile ".TextEntries\text_buildfileSD_Despoil.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Despoil.fetxt.dmp"
 setText($A20, __TEXTPROCESSA20)
 
 __TEXTPROCESSA21:
-#incext ParseFile ".TextEntries\text_buildfileSD_Pivot.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Pivot.fetxt.dmp"
 setText($A21, __TEXTPROCESSA21)
 
 __TEXTPROCESSA22:
-#incext ParseFile ".TextEntries\text_buildfileSD_Reposition.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Reposition.fetxt.dmp"
 setText($A22, __TEXTPROCESSA22)
 
 __TEXTPROCESSA23:
-#incext ParseFile ".TextEntries\text_buildfileSD_Swap.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Swap.fetxt.dmp"
 setText($A23, __TEXTPROCESSA23)
 
 __TEXTPROCESSA24:
-#incext ParseFile ".TextEntries\text_buildfileSD_BreathOfLife.fetxt"
+#incbin ".TextEntries\text_buildfileSD_BreathOfLife.fetxt.dmp"
 setText($A24, __TEXTPROCESSA24)
 
 __TEXTPROCESSA25:
-#incext ParseFile ".TextEntries\text_buildfileSD_Fury.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Fury.fetxt.dmp"
 setText($A25, __TEXTPROCESSA25)
 
 __TEXTPROCESSA26:
-#incext ParseFile ".TextEntries\text_buildfileSD_Dazzle.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Dazzle.fetxt.dmp"
 setText($A26, __TEXTPROCESSA26)
 
 __TEXTPROCESSA27:
-#incext ParseFile ".TextEntries\text_buildfileSD_TriAdept.fetxt"
+#incbin ".TextEntries\text_buildfileSD_TriAdept.fetxt.dmp"
 setText($A27, __TEXTPROCESSA27)
 
 __TEXTPROCESSA28:
-#incext ParseFile ".TextEntries\text_buildfileSD_Supply.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Supply.fetxt.dmp"
 setText($A28, __TEXTPROCESSA28)
 
 __TEXTPROCESSA29:
-#incext ParseFile ".TextEntries\text_buildfileSD_RandomMug.fetxt"
+#incbin ".TextEntries\text_buildfileSD_RandomMug.fetxt.dmp"
 setText($A29, __TEXTPROCESSA29)
 
 __TEXTPROCESSA2A:
-#incext ParseFile ".TextEntries\text_buildfileSD_Trace.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Trace.fetxt.dmp"
 setText($A2A, __TEXTPROCESSA2A)
 
 __TEXTPROCESSA2B:
-#incext ParseFile ".TextEntries\text_buildfileSD_Roll12.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Roll12.fetxt.dmp"
 setText($A2B, __TEXTPROCESSA2B)
 
 __TEXTPROCESSA2C:
-#incext ParseFile ".TextEntries\text_buildfileSD_IdentityProblems.fetxt"
+#incbin ".TextEntries\text_buildfileSD_IdentityProblems.fetxt.dmp"
 setText($A2C, __TEXTPROCESSA2C)
 
 __TEXTPROCESSA2D:
-#incext ParseFile ".TextEntries\text_buildfileSD_Charisma.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Charisma.fetxt.dmp"
 setText($A2D, __TEXTPROCESSA2D)
 
 __TEXTPROCESSA2E:
-#incext ParseFile ".TextEntries\text_buildfileSD_HeroesDeathBlow.fetxt"
+#incbin ".TextEntries\text_buildfileSD_HeroesDeathBlow.fetxt.dmp"
 setText($A2E, __TEXTPROCESSA2E)
 
 __TEXTPROCESSA2F:
-#incext ParseFile ".TextEntries\text_buildfileSD_HeroesLifeAndDeath.fetxt"
+#incbin ".TextEntries\text_buildfileSD_HeroesLifeAndDeath.fetxt.dmp"
 setText($A2F, __TEXTPROCESSA2F)
 
 __TEXTPROCESSA30:
-#incext ParseFile ".TextEntries\text_buildfileSD_CatchEmAll.fetxt"
+#incbin ".TextEntries\text_buildfileSD_CatchEmAll.fetxt.dmp"
 setText($A30, __TEXTPROCESSA30)
 
 __TEXTPROCESSA31:
-#incext ParseFile ".TextEntries\text_buildfileSD_Vantage_Plus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Vantage_Plus.fetxt.dmp"
 setText($A31, __TEXTPROCESSA31)
 
 __TEXTPROCESSA32:
-#incext ParseFile ".TextEntries\text_buildfileSD_Hawkeye.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Hawkeye.fetxt.dmp"
 setText($A32, __TEXTPROCESSA32)
 
 __TEXTPROCESSA33:
-#incext ParseFile ".TextEntries\text_buildfileSD_Solidarity.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Solidarity.fetxt.dmp"
 setText($A33, __TEXTPROCESSA33)
 
 __TEXTPROCESSA34:
-#incext ParseFile ".TextEntries\text_buildfileSD_Bracing_Stance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Bracing_Stance.fetxt.dmp"
 setText($A34, __TEXTPROCESSA34)
 
 __TEXTPROCESSA35:
-#incext ParseFile ".TextEntries\text_buildfileSD_Darting_Stance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Darting_Stance.fetxt.dmp"
 setText($A35, __TEXTPROCESSA35)
 
 __TEXTPROCESSA36:
-#incext ParseFile ".TextEntries\text_buildfileSD_Fierce_Stance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Fierce_Stance.fetxt.dmp"
 setText($A36, __TEXTPROCESSA36)
 
 __TEXTPROCESSA37:
-#incext ParseFile ".TextEntries\text_buildfileSD_Kestrel_Stance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Kestrel_Stance.fetxt.dmp"
 setText($A37, __TEXTPROCESSA37)
 
 __TEXTPROCESSA38:
-#incext ParseFile ".TextEntries\text_buildfileSD_Mirror_Stance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Mirror_Stance.fetxt.dmp"
 setText($A38, __TEXTPROCESSA38)
 
 __TEXTPROCESSA39:
-#incext ParseFile ".TextEntries\text_buildfileSD_Ready_Stance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Ready_Stance.fetxt.dmp"
 setText($A39, __TEXTPROCESSA39)
 
 __TEXTPROCESSA3A:
-#incext ParseFile ".TextEntries\text_buildfileSD_Steady_Stance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Steady_Stance.fetxt.dmp"
 setText($A3A, __TEXTPROCESSA3A)
 
 __TEXTPROCESSA3B:
-#incext ParseFile ".TextEntries\text_buildfileSD_Sturdy_Stance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Sturdy_Stance.fetxt.dmp"
 setText($A3B, __TEXTPROCESSA3B)
 
 __TEXTPROCESSA3C:
-#incext ParseFile ".TextEntries\text_buildfileSD_Swift_Stance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Swift_Stance.fetxt.dmp"
 setText($A3C, __TEXTPROCESSA3C)
 
 __TEXTPROCESSA3D:
-#incext ParseFile ".TextEntries\text_buildfileSD_Warding_Stance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Warding_Stance.fetxt.dmp"
 setText($A3D, __TEXTPROCESSA3D)
 
 __TEXTPROCESSA3E:
-#incext ParseFile ".TextEntries\text_buildfileSD_Spectrum_Stance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Spectrum_Stance.fetxt.dmp"
 setText($A3E, __TEXTPROCESSA3E)
 
 __TEXTPROCESSA3F:
-#incext ParseFile ".TextEntries\text_buildfileSD_Steal.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Steal.fetxt.dmp"
 setText($A3F, __TEXTPROCESSA3F)
 
 __TEXTPROCESSA40:
-#incext ParseFile ".TextEntries\text_buildfileSD_StealPlus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_StealPlus.fetxt.dmp"
 setText($A40, __TEXTPROCESSA40)
 
 __TEXTPROCESSA41:
-#incext ParseFile ".TextEntries\text_buildfileSD_Capture.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Capture.fetxt.dmp"
 setText($A41, __TEXTPROCESSA41)
 
 __TEXTPROCESSA42:
-#incext ParseFile ".TextEntries\text_buildfileSD_BlackMagic.fetxt"
+#incbin ".TextEntries\text_buildfileSD_BlackMagic.fetxt.dmp"
 setText($A42, __TEXTPROCESSA42)
 
 __TEXTPROCESSA43:
-#incext ParseFile ".TextEntries\text_buildfileSD_FortressDefense.fetxt"
+#incbin ".TextEntries\text_buildfileSD_FortressDefense.fetxt.dmp"
 setText($A43, __TEXTPROCESSA43)
 
 __TEXTPROCESSA44:
-#incext ParseFile ".TextEntries\text_buildfileSD_FortressResistance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_FortressResistance.fetxt.dmp"
 setText($A44, __TEXTPROCESSA44)
 
 __TEXTPROCESSA45:
-#incext ParseFile ".TextEntries\text_buildfileSD_Foresight.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Foresight.fetxt.dmp"
 setText($A45, __TEXTPROCESSA45)
 
 __TEXTPROCESSA46:
-#incext ParseFile ".TextEntries\text_buildfileSD_Axefaith.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Axefaith.fetxt.dmp"
 setText($A46, __TEXTPROCESSA46)
 
 __TEXTPROCESSA47:
-#incext ParseFile ".TextEntries\text_buildfileSD_ArmorMarch.fetxt"
+#incbin ".TextEntries\text_buildfileSD_ArmorMarch.fetxt.dmp"
 setText($A47, __TEXTPROCESSA47)
 
 __TEXTPROCESSA48:
-#incext ParseFile ".TextEntries\text_buildfileSD_VigorDance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_VigorDance.fetxt.dmp"
 setText($A48, __TEXTPROCESSA48)
 
 __TEXTPROCESSA49:
-#incext ParseFile ".TextEntries\text_buildfileSD_Forager.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Forager.fetxt.dmp"
 setText($A49, __TEXTPROCESSA49)
 
 __TEXTPROCESSA4A:
-#incext ParseFile ".TextEntries\text_buildfileSD_FullMetalBody.fetxt"
+#incbin ".TextEntries\text_buildfileSD_FullMetalBody.fetxt.dmp"
 setText($A4A, __TEXTPROCESSA4A)
 
 __TEXTPROCESSA4B:
-#incext ParseFile ".TextEntries\text_buildfileSD_LiquidOoze.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LiquidOoze.fetxt.dmp"
 setText($A4B, __TEXTPROCESSA4B)
 
 __TEXTPROCESSA4C:
-#incext ParseFile ".TextEntries\text_buildfileSD_Shadowgift.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Shadowgift.fetxt.dmp"
 setText($A4C, __TEXTPROCESSA4C)
 
 __TEXTPROCESSA4D:
-#incext ParseFile ".TextEntries\text_buildfileSD_Lumina.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Lumina.fetxt.dmp"
 setText($A4D, __TEXTPROCESSA4D)
 
 __TEXTPROCESSA4E:
-#incext ParseFile ".TextEntries\text_buildfileSD_DevilsLuck.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DevilsLuck.fetxt.dmp"
 setText($A4E, __TEXTPROCESSA4E)
 
 __TEXTPROCESSA4F:
-#incext ParseFile ".TextEntries\text_buildfileSD_DevilsPact.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DevilsPact.fetxt.dmp"
 setText($A4F, __TEXTPROCESSA4F)
 
 __TEXTPROCESSA50:
-#incext ParseFile ".TextEntries\text_buildfileSD_DevilsWhim.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DevilsWhim.fetxt.dmp"
 setText($A50, __TEXTPROCESSA50)
 
 __TEXTPROCESSA51:
-#incext ParseFile ".TextEntries\text_buildfileSD_Poison_Strike.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Poison_Strike.fetxt.dmp"
 setText($A51, __TEXTPROCESSA51)
 
 __TEXTPROCESSA52:
-#incext ParseFile ".TextEntries\text_buildfileSD_Grisly_Wound.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Grisly_Wound.fetxt.dmp"
 setText($A52, __TEXTPROCESSA52)
 
 __TEXTPROCESSA53:
-#incext ParseFile ".TextEntries\text_buildfileSD_Hex.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Hex.fetxt.dmp"
 setText($A53, __TEXTPROCESSA53)
 
 __TEXTPROCESSA54:
-#incext ParseFile ".TextEntries\text_buildfileSD_Barricade.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Barricade.fetxt.dmp"
 setText($A54, __TEXTPROCESSA54)
 
 __TEXTPROCESSA55:
-#incext ParseFile ".TextEntries\text_buildfileSD_BarricadePlus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_BarricadePlus.fetxt.dmp"
 setText($A55, __TEXTPROCESSA55)
 
 __TEXTPROCESSA56:
-#incext ParseFile ".TextEntries\text_buildfileSD_PointBlank.fetxt"
+#incbin ".TextEntries\text_buildfileSD_PointBlank.fetxt.dmp"
 setText($A56, __TEXTPROCESSA56)
 
 __TEXTPROCESSA57:
-#incext ParseFile ".TextEntries\text_buildfileSD_Perfectionist.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Perfectionist.fetxt.dmp"
 setText($A57, __TEXTPROCESSA57)
 
 __TEXTPROCESSA58:
-#incext ParseFile ".TextEntries\text_buildfileSD_Puissance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Puissance.fetxt.dmp"
 setText($A58, __TEXTPROCESSA58)
 
 __TEXTPROCESSA59:
-#incext ParseFile ".TextEntries\text_buildfileSD_BattleVeteran.fetxt"
+#incbin ".TextEntries\text_buildfileSD_BattleVeteran.fetxt.dmp"
 setText($A59, __TEXTPROCESSA59)
 
 __TEXTPROCESSA5A:
-#incext ParseFile ".TextEntries\text_buildfileSD_HolyAura.fetxt"
+#incbin ".TextEntries\text_buildfileSD_HolyAura.fetxt.dmp"
 setText($A5A, __TEXTPROCESSA5A)
 
 __TEXTPROCESSA5B:
-#incext ParseFile ".TextEntries\text_buildfileSD_SilentPride.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SilentPride.fetxt.dmp"
 setText($A5B, __TEXTPROCESSA5B)
 
 __TEXTPROCESSA5C:
-#incext ParseFile ".TextEntries\text_buildfileSD_Loyalty.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Loyalty.fetxt.dmp"
 setText($A5C, __TEXTPROCESSA5C)
 
 __TEXTPROCESSA5D:
-#incext ParseFile ".TextEntries\text_buildfileSD_Thunderstorm.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Thunderstorm.fetxt.dmp"
 setText($A5D, __TEXTPROCESSA5D)
 
 __TEXTPROCESSA5E:
-#incext ParseFile ".TextEntries\text_buildfileSD_Outrider.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Outrider.fetxt.dmp"
 setText($A5E, __TEXTPROCESSA5E)
 
 __TEXTPROCESSA5F:
-#incext ParseFile ".TextEntries\text_buildfileSD_HeavyStrikes.fetxt"
+#incbin ".TextEntries\text_buildfileSD_HeavyStrikes.fetxt.dmp"
 setText($A5F, __TEXTPROCESSA5F)
 
 __TEXTPROCESSA60:
-#incext ParseFile ".TextEntries\text_buildfileSD_Charge.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Charge.fetxt.dmp"
 setText($A60, __TEXTPROCESSA60)
 
 __TEXTPROCESSA61:
-#incext ParseFile ".TextEntries\text_buildfileSD_Infiltrator.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Infiltrator.fetxt.dmp"
 setText($A61, __TEXTPROCESSA61)
 
 __TEXTPROCESSA62:
-#incext ParseFile ".TextEntries\text_buildfileSD_Vanity.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Vanity.fetxt.dmp"
 setText($A62, __TEXTPROCESSA62)
 
 __TEXTPROCESSA63:
-#incext ParseFile ".TextEntries\text_buildfileSD_MageSlayer.fetxt"
+#incbin ".TextEntries\text_buildfileSD_MageSlayer.fetxt.dmp"
 setText($A63, __TEXTPROCESSA63)
 
 __TEXTPROCESSA64:
-#incext ParseFile ".TextEntries\text_buildfileSD_KnightAspirant.fetxt"
+#incbin ".TextEntries\text_buildfileSD_KnightAspirant.fetxt.dmp"
 setText($A64, __TEXTPROCESSA64)
 
 __TEXTPROCESSA65:
-#incext ParseFile ".TextEntries\text_buildfileSD_Watchful.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Watchful.fetxt.dmp"
 setText($A65, __TEXTPROCESSA65)
 
 __TEXTPROCESSA66:
-#incext ParseFile ".TextEntries\text_buildfileSD_Hero.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Hero.fetxt.dmp"
 setText($A66, __TEXTPROCESSA66)
 
 __TEXTPROCESSA67:
-#incext ParseFile ".TextEntries\text_buildfileSD_Boon.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Boon.fetxt.dmp"
 setText($A67, __TEXTPROCESSA67)
 
 __TEXTPROCESSA68:
-#incext ParseFile ".TextEntries\text_buildfileSD_ReMove.fetxt"
+#incbin ".TextEntries\text_buildfileSD_ReMove.fetxt.dmp"
 setText($A68, __TEXTPROCESSA68)
 
 __TEXTPROCESSA69:
-#incext ParseFile ".TextEntries\text_buildfileSD_Powerstaff.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Powerstaff.fetxt.dmp"
 setText($A69, __TEXTPROCESSA69)
 
 __TEXTPROCESSA6A:
-#incext ParseFile ".TextEntries\text_buildfileSD_DriveStr.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DriveStr.fetxt.dmp"
 setText($A6A, __TEXTPROCESSA6A)
 
 __TEXTPROCESSA6B:
-#incext ParseFile ".TextEntries\text_buildfileSD_DriveMag.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DriveMag.fetxt.dmp"
 setText($A6B, __TEXTPROCESSA6B)
 
 __TEXTPROCESSA6C:
-#incext ParseFile ".TextEntries\text_buildfileSD_DriveSkl.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DriveSkl.fetxt.dmp"
 setText($A6C, __TEXTPROCESSA6C)
 
 __TEXTPROCESSA6D:
-#incext ParseFile ".TextEntries\text_buildfileSD_DriveSpd.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DriveSpd.fetxt.dmp"
 setText($A6D, __TEXTPROCESSA6D)
 
 __TEXTPROCESSA6E:
-#incext ParseFile ".TextEntries\text_buildfileSD_DriveLck.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DriveLck.fetxt.dmp"
 setText($A6E, __TEXTPROCESSA6E)
 
 __TEXTPROCESSA6F:
-#incext ParseFile ".TextEntries\text_buildfileSD_DriveDef.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DriveDef.fetxt.dmp"
 setText($A6F, __TEXTPROCESSA6F)
 
 __TEXTPROCESSA70:
-#incext ParseFile ".TextEntries\text_buildfileSD_DriveRes.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DriveRes.fetxt.dmp"
 setText($A70, __TEXTPROCESSA70)
 
 __TEXTPROCESSA71:
-#incext ParseFile ".TextEntries\text_buildfileSD_Blossom.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Blossom.fetxt.dmp"
 setText($A71, __TEXTPROCESSA71)
 
 __TEXTPROCESSA72:
-#incext ParseFile ".TextEntries\text_buildfileSD_Aptitude.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Aptitude.fetxt.dmp"
 setText($A72, __TEXTPROCESSA72)
 
 __TEXTPROCESSA73:
-#incext ParseFile ".TextEntries\text_buildfileSD_QuickRiposte.fetxt"
+#incbin ".TextEntries\text_buildfileSD_QuickRiposte.fetxt.dmp"
 setText($A73, __TEXTPROCESSA73)
 
 __TEXTPROCESSA74:
-#incext ParseFile ".TextEntries\text_buildfileSD_Resolve.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Resolve.fetxt.dmp"
 setText($A74, __TEXTPROCESSA74)
 
 __TEXTPROCESSA75:
-#incext ParseFile ".TextEntries\text_buildfileSD_Insight.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Insight.fetxt.dmp"
 setText($A75, __TEXTPROCESSA75)
 
 __TEXTPROCESSA76:
-#incext ParseFile ".TextEntries\text_buildfileSD_Vigilance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Vigilance.fetxt.dmp"
 setText($A76, __TEXTPROCESSA76)
 
 __TEXTPROCESSA77:
-#incext ParseFile ".TextEntries\text_buildfileSD_Daunt.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Daunt.fetxt.dmp"
 setText($A77, __TEXTPROCESSA77)
 
 __TEXTPROCESSA78:
-#incext ParseFile ".TextEntries\text_buildfileSD_BloodTide.fetxt"
+#incbin ".TextEntries\text_buildfileSD_BloodTide.fetxt.dmp"
 setText($A78, __TEXTPROCESSA78)
 
 __TEXTPROCESSA79:
-#incext ParseFile ".TextEntries\text_buildfileSD_WhitePool.fetxt"
+#incbin ".TextEntries\text_buildfileSD_WhitePool.fetxt.dmp"
 setText($A79, __TEXTPROCESSA79)
 
 __TEXTPROCESSA7A:
-#incext ParseFile ".TextEntries\text_buildfileSD_NightTide.fetxt"
+#incbin ".TextEntries\text_buildfileSD_NightTide.fetxt.dmp"
 setText($A7A, __TEXTPROCESSA7A)
 
 __TEXTPROCESSA7B:
-#incext ParseFile ".TextEntries\text_buildfileSD_Prescience.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Prescience.fetxt.dmp"
 setText($A7B, __TEXTPROCESSA7B)
 
 __TEXTPROCESSA7C:
-#incext ParseFile ".TextEntries\text_buildfileSD_DefiantAvo.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DefiantAvo.fetxt.dmp"
 setText($A7C, __TEXTPROCESSA7C)
 
 __TEXTPROCESSA7D:
-#incext ParseFile ".TextEntries\text_buildfileSD_DefiantCrit.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DefiantCrit.fetxt.dmp"
 setText($A7D, __TEXTPROCESSA7D)
 
 __TEXTPROCESSA7E:
-#incext ParseFile ".TextEntries\text_buildfileSD_DefiantStr.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DefiantStr.fetxt.dmp"
 setText($A7E, __TEXTPROCESSA7E)
 
 __TEXTPROCESSA7F:
-#incext ParseFile ".TextEntries\text_buildfileSD_DefiantMag.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DefiantMag.fetxt.dmp"
 setText($A7F, __TEXTPROCESSA7F)
 
 __TEXTPROCESSA80:
-#incext ParseFile ".TextEntries\text_buildfileSD_DefiantSkl.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DefiantSkl.fetxt.dmp"
 setText($A80, __TEXTPROCESSA80)
 
 __TEXTPROCESSA81:
-#incext ParseFile ".TextEntries\text_buildfileSD_DefiantSpd.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DefiantSpd.fetxt.dmp"
 setText($A81, __TEXTPROCESSA81)
 
 __TEXTPROCESSA82:
-#incext ParseFile ".TextEntries\text_buildfileSD_DefiantLck.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DefiantLck.fetxt.dmp"
 setText($A82, __TEXTPROCESSA82)
 
 __TEXTPROCESSA83:
-#incext ParseFile ".TextEntries\text_buildfileSD_DefiantDef.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DefiantDef.fetxt.dmp"
 setText($A83, __TEXTPROCESSA83)
 
 __TEXTPROCESSA84:
-#incext ParseFile ".TextEntries\text_buildfileSD_DefiantRes.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DefiantRes.fetxt.dmp"
 setText($A84, __TEXTPROCESSA84)
 
 __TEXTPROCESSA85:
-#incext ParseFile ".TextEntries\text_buildfileSD_Bargain.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Bargain.fetxt.dmp"
 setText($A85, __TEXTPROCESSA85)
 
 __TEXTPROCESSA86:
-#incext ParseFile ".TextEntries\text_buildfileSD_ShortShield.fetxt"
+#incbin ".TextEntries\text_buildfileSD_ShortShield.fetxt.dmp"
 setText($A86, __TEXTPROCESSA86)
 
 __TEXTPROCESSA87:
-#incext ParseFile ".TextEntries\text_buildfileSD_TowerShield.fetxt"
+#incbin ".TextEntries\text_buildfileSD_TowerShield.fetxt.dmp"
 setText($A87, __TEXTPROCESSA87)
 
 __TEXTPROCESSA88:
-#incext ParseFile ".TextEntries\text_buildfileSD_TowerShieldPlus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_TowerShieldPlus.fetxt.dmp"
 setText($A88, __TEXTPROCESSA88)
 
 __TEXTPROCESSA89:
-#incext ParseFile ".TextEntries\text_buildfileSD_VoidCurse.fetxt"
+#incbin ".TextEntries\text_buildfileSD_VoidCurse.fetxt.dmp"
 setText($A89, __TEXTPROCESSA89)
 
 __TEXTPROCESSA8A:
-#incext ParseFile ".TextEntries\text_buildfileSD_IndoorFighter.fetxt"
+#incbin ".TextEntries\text_buildfileSD_IndoorFighter.fetxt.dmp"
 setText($A8A, __TEXTPROCESSA8A)
 
 __TEXTPROCESSA8B:
-#incext ParseFile ".TextEntries\text_buildfileSD_OutdoorFighter.fetxt"
+#incbin ".TextEntries\text_buildfileSD_OutdoorFighter.fetxt.dmp"
 setText($A8B, __TEXTPROCESSA8B)
 
 __TEXTPROCESSA8C:
-#incext ParseFile ".TextEntries\text_buildfileSD_TomeRangeUp.fetxt"
+#incbin ".TextEntries\text_buildfileSD_TomeRangeUp.fetxt.dmp"
 setText($A8C, __TEXTPROCESSA8C)
 
 __TEXTPROCESSA8D:
-#incext ParseFile ".TextEntries\text_buildfileSD_AlertStance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_AlertStance.fetxt.dmp"
 setText($A8D, __TEXTPROCESSA8D)
 
 __TEXTPROCESSA8E:
-#incext ParseFile ".TextEntries\text_buildfileSD_AlertStancePlus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_AlertStancePlus.fetxt.dmp"
 setText($A8E, __TEXTPROCESSA8E)
 
 __TEXTPROCESSA8F:
-#incext ParseFile ".TextEntries\text_buildfileSD_Corona.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Corona.fetxt.dmp"
 setText($A8F, __TEXTPROCESSA8F)
 
 __TEXTPROCESSA90:
-#incext ParseFile ".TextEntries\text_buildfileSD_Flare.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Flare.fetxt.dmp"
 setText($A90, __TEXTPROCESSA90)
 
 __TEXTPROCESSA91:
-#incext ParseFile ".TextEntries\text_buildfileSD_Tempest.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Tempest.fetxt.dmp"
 setText($A91, __TEXTPROCESSA91)
 
 __TEXTPROCESSA92:
-#incext ParseFile ".TextEntries\text_buildfileSD_Serenity.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Serenity.fetxt.dmp"
 setText($A92, __TEXTPROCESSA92)
 
 __TEXTPROCESSA93:
-#incext ParseFile ".TextEntries\text_buildfileSD_Petrify.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Petrify.fetxt.dmp"
 setText($A93, __TEXTPROCESSA93)
 
 __TEXTPROCESSA94:
-#incext ParseFile ".TextEntries\text_buildfileSD_Enrage.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Enrage.fetxt.dmp"
 setText($A94, __TEXTPROCESSA94)
 
 __TEXTPROCESSA95:
-#incext ParseFile ".TextEntries\text_buildfileSD_Deadeye.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Deadeye.fetxt.dmp"
 setText($A95, __TEXTPROCESSA95)
 
 __TEXTPROCESSA96:
-#incext ParseFile ".TextEntries\text_buildfileSD_DragonFang.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DragonFang.fetxt.dmp"
 setText($A96, __TEXTPROCESSA96)
 
 __TEXTPROCESSA97:
-#incext ParseFile ".TextEntries\text_buildfileSD_Fortune.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Fortune.fetxt.dmp"
 setText($A97, __TEXTPROCESSA97)
 
 __TEXTPROCESSA98:
-#incext ParseFile ".TextEntries\text_buildfileSD_Assassinate.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Assassinate.fetxt.dmp"
 setText($A98, __TEXTPROCESSA98)
 
 __TEXTPROCESSA99:
-#incext ParseFile ".TextEntries\text_buildfileSD_ArcaneBlade.fetxt"
+#incbin ".TextEntries\text_buildfileSD_ArcaneBlade.fetxt.dmp"
 setText($A99, __TEXTPROCESSA99)
 
 __TEXTPROCESSA9A:
-#incext ParseFile ".TextEntries\text_buildfileSD_Poise.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Poise.fetxt.dmp"
 setText($A9A, __TEXTPROCESSA9A)
 
 __TEXTPROCESSA9B:
-#incext ParseFile ".TextEntries\text_buildfileSD_BlueFlame.fetxt"
+#incbin ".TextEntries\text_buildfileSD_BlueFlame.fetxt.dmp"
 setText($A9B, __TEXTPROCESSA9B)
 
 __TEXTPROCESSA9C:
-#incext ParseFile ".TextEntries\text_buildfileSD_DoubleLion.fetxt"
+#incbin ".TextEntries\text_buildfileSD_DoubleLion.fetxt.dmp"
 setText($A9C, __TEXTPROCESSA9C)
 
 __TEXTPROCESSA9D:
-#incext ParseFile ".TextEntries\text_buildfileSD_Eclipse.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Eclipse.fetxt.dmp"
 setText($A9D, __TEXTPROCESSA9D)
 
 __TEXTPROCESSA9E:
-#incext ParseFile ".TextEntries\text_buildfileSD_TriangleAttack.fetxt"
+#incbin ".TextEntries\text_buildfileSD_TriangleAttack.fetxt.dmp"
 setText($A9E, __TEXTPROCESSA9E)
 
 __TEXTPROCESSA9F:
-#incext ParseFile ".TextEntries\text_buildfileSD_PushStr.fetxt"
+#incbin ".TextEntries\text_buildfileSD_PushStr.fetxt.dmp"
 setText($A9F, __TEXTPROCESSA9F)
 
 __TEXTPROCESSAA0:
-#incext ParseFile ".TextEntries\text_buildfileSD_PushMag.fetxt"
+#incbin ".TextEntries\text_buildfileSD_PushMag.fetxt.dmp"
 setText($AA0, __TEXTPROCESSAA0)
 
 __TEXTPROCESSAA1:
-#incext ParseFile ".TextEntries\text_buildfileSD_PushSkl.fetxt"
+#incbin ".TextEntries\text_buildfileSD_PushSkl.fetxt.dmp"
 setText($AA1, __TEXTPROCESSAA1)
 
 __TEXTPROCESSAA2:
-#incext ParseFile ".TextEntries\text_buildfileSD_PushSpd.fetxt"
+#incbin ".TextEntries\text_buildfileSD_PushSpd.fetxt.dmp"
 setText($AA2, __TEXTPROCESSAA2)
 
 __TEXTPROCESSAA3:
-#incext ParseFile ".TextEntries\text_buildfileSD_PushDef.fetxt"
+#incbin ".TextEntries\text_buildfileSD_PushDef.fetxt.dmp"
 setText($AA3, __TEXTPROCESSAA3)
 
 __TEXTPROCESSAA4:
-#incext ParseFile ".TextEntries\text_buildfileSD_PushRes.fetxt"
+#incbin ".TextEntries\text_buildfileSD_PushRes.fetxt.dmp"
 setText($AA4, __TEXTPROCESSAA4)
 
 __TEXTPROCESSAA5:
-#incext ParseFile ".TextEntries\text_buildfileSD_Skybreaker.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Skybreaker.fetxt.dmp"
 setText($AA5, __TEXTPROCESSAA5)
 
 __TEXTPROCESSAA6:
-#incext ParseFile ".TextEntries\text_buildfileSD_Resourceful.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Resourceful.fetxt.dmp"
 setText($AA6, __TEXTPROCESSAA6)
 
 __TEXTPROCESSAA7:
-#incext ParseFile ".TextEntries\text_buildfileSD_Cultured.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Cultured.fetxt.dmp"
 setText($AA7, __TEXTPROCESSAA7)
 
 __TEXTPROCESSAA8:
-#incext ParseFile ".TextEntries\text_buildfileSD_LullStr.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LullStr.fetxt.dmp"
 setText($AA8, __TEXTPROCESSAA8)
 
 __TEXTPROCESSAA9:
-#incext ParseFile ".TextEntries\text_buildfileSD_LullMag.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LullMag.fetxt.dmp"
 setText($AA9, __TEXTPROCESSAA9)
 
 __TEXTPROCESSAAA:
-#incext ParseFile ".TextEntries\text_buildfileSD_LullSkl.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LullSkl.fetxt.dmp"
 setText($AAA, __TEXTPROCESSAAA)
 
 __TEXTPROCESSAAB:
-#incext ParseFile ".TextEntries\text_buildfileSD_LullSpd.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LullSpd.fetxt.dmp"
 setText($AAB, __TEXTPROCESSAAB)
 
 __TEXTPROCESSAAC:
-#incext ParseFile ".TextEntries\text_buildfileSD_LullLck.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LullLck.fetxt.dmp"
 setText($AAC, __TEXTPROCESSAAC)
 
 __TEXTPROCESSAAD:
-#incext ParseFile ".TextEntries\text_buildfileSD_LullDef.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LullDef.fetxt.dmp"
 setText($AAD, __TEXTPROCESSAAD)
 
 __TEXTPROCESSAAE:
-#incext ParseFile ".TextEntries\text_buildfileSD_LullRes.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LullRes.fetxt.dmp"
 setText($AAE, __TEXTPROCESSAAE)
 
 __TEXTPROCESSAAF:
-#incext ParseFile ".TextEntries\text_buildfileSD_LullSpectrum.fetxt"
+#incbin ".TextEntries\text_buildfileSD_LullSpectrum.fetxt.dmp"
 setText($AAF, __TEXTPROCESSAAF)
 
 __TEXTPROCESSAB0:
-#incext ParseFile ".TextEntries\text_buildfileSD_Shade.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Shade.fetxt.dmp"
 setText($AB0, __TEXTPROCESSAB0)
 
 __TEXTPROCESSAB1:
-#incext ParseFile ".TextEntries\text_buildfileSD_ShadePlus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_ShadePlus.fetxt.dmp"
 setText($AB1, __TEXTPROCESSAB1)
 
 __TEXTPROCESSAB2:
-#incext ParseFile ".TextEntries\text_buildfileSD_Imbue.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Imbue.fetxt.dmp"
 setText($AB2, __TEXTPROCESSAB2)
 
 __TEXTPROCESSAB3:
-#incext ParseFile ".TextEntries\text_buildfileSD_Thighdeology.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Thighdeology.fetxt.dmp"
 setText($AB3, __TEXTPROCESSAB3)
 
 __TEXTPROCESSAB4:
-#incext ParseFile ".TextEntries\text_buildfileSD_Thotslayer.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Thotslayer.fetxt.dmp"
 setText($AB4, __TEXTPROCESSAB4)
 
 __TEXTPROCESSAB5:
-#incext ParseFile ".TextEntries\text_buildfileSD_Corrosion.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Corrosion.fetxt.dmp"
 setText($AB5, __TEXTPROCESSAB5)
 
 __TEXTPROCESSAB6:
-#incext ParseFile ".TextEntries\text_buildfileSD_KeepUp.fetxt"
+#incbin ".TextEntries\text_buildfileSD_KeepUp.fetxt.dmp"
 setText($AB6, __TEXTPROCESSAB6)
 
 __TEXTPROCESSAB7:
-#incext ParseFile ".TextEntries\text_buildfileSD_IndoorMarch.fetxt"
+#incbin ".TextEntries\text_buildfileSD_IndoorMarch.fetxt.dmp"
 setText($AB7, __TEXTPROCESSAB7)
 
 __TEXTPROCESSAB8:
-#incext ParseFile ".TextEntries\text_buildfileSD_NatureRush.fetxt"
+#incbin ".TextEntries\text_buildfileSD_NatureRush.fetxt.dmp"
 setText($AB8, __TEXTPROCESSAB8)
 
 __TEXTPROCESSAB9:
-#incext ParseFile ".TextEntries\text_buildfileSD_Amische.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Amische.fetxt.dmp"
 setText($AB9, __TEXTPROCESSAB9)
 
 __TEXTPROCESSABA:
-#incext ParseFile ".TextEntries\text_buildfileSD_Glacies.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Glacies.fetxt.dmp"
 setText($ABA, __TEXTPROCESSABA)
 
 __TEXTPROCESSABB:
-#incext ParseFile ".TextEntries\text_buildfileSD_Gridmaster.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Gridmaster.fetxt.dmp"
 setText($ABB, __TEXTPROCESSABB)
 
 __TEXTPROCESSABC:
-#incext ParseFile ".TextEntries\text_buildfileSD_Skyguard.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Skyguard.fetxt.dmp"
 setText($ABC, __TEXTPROCESSABC)
 
 __TEXTPROCESSABD:
-#incext ParseFile ".TextEntries\text_buildfileSD_Horseguard.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Horseguard.fetxt.dmp"
 setText($ABD, __TEXTPROCESSABD)
 
 __TEXTPROCESSABE:
-#incext ParseFile ".TextEntries\text_buildfileSD_Armorboost.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Armorboost.fetxt.dmp"
 setText($ABE, __TEXTPROCESSABE)
 
 __TEXTPROCESSABF:
-#incext ParseFile ".TextEntries\text_buildfileSD_TriAdeptPlus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_TriAdeptPlus.fetxt.dmp"
 setText($ABF, __TEXTPROCESSABF)
 
 __TEXTPROCESSAC0:
-#incext ParseFile ".TextEntries\text_buildfileSD_ChargePlus.fetxt"
+#incbin ".TextEntries\text_buildfileSD_ChargePlus.fetxt.dmp"
 setText($AC0, __TEXTPROCESSAC0)
 
 __TEXTPROCESSAC1:
-#incext ParseFile ".TextEntries\text_buildfileSD_GreatShield.fetxt"
+#incbin ".TextEntries\text_buildfileSD_GreatShield.fetxt.dmp"
 setText($AC1, __TEXTPROCESSAC1)
 
 __TEXTPROCESSAC2:
-#incext ParseFile ".TextEntries\text_buildfileSD_Moonlight.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Moonlight.fetxt.dmp"
 setText($AC2, __TEXTPROCESSAC2)
 
 __TEXTPROCESSAC3:
-#incext ParseFile ".TextEntries\text_buildfileSD_Vengeance.fetxt"
+#incbin ".TextEntries\text_buildfileSD_Vengeance.fetxt.dmp"
 setText($AC3, __TEXTPROCESSAC3)
 
 __TEXTPROCESSAC4:
-#incext ParseFile ".TextEntries\text_buildfileSD_SolidEarth.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SolidEarth.fetxt.dmp"
 setText($AC4, __TEXTPROCESSAC4)
 
 __TEXTPROCESSAC5:
-#incext ParseFile ".TextEntries\text_buildfileSD_SwiftWinds.fetxt"
+#incbin ".TextEntries\text_buildfileSD_SwiftWinds.fetxt.dmp"
 setText($AC5, __TEXTPROCESSAC5)
 
 __TEXTPROCESSAC6:
-#incext ParseFile ".TextEntries\text_buildfileSD_StillWater.fetxt"
+#incbin ".TextEntries\text_buildfileSD_StillWater.fetxt.dmp"
 setText($AC6, __TEXTPROCESSAC6)
 
 __TEXTPROCESSAC7:
-#incext ParseFile ".TextEntries\text_buildfileSD_KindledFire.fetxt"
+#incbin ".TextEntries\text_buildfileSD_KindledFire.fetxt.dmp"
 setText($AC7, __TEXTPROCESSAC7)
 
 __TEXTPROCESSAC8:
-#incext ParseFile ".TextEntries\text_buildfileSD_TempestBlood.fetxt"
+#incbin ".TextEntries\text_buildfileSD_TempestBlood.fetxt.dmp"
 setText($AC8, __TEXTPROCESSAC8)
 
 __TEXTPROCESSAC9:
-#incext ParseFile ".TextEntries\text_buildfilePrologueOpeningText1.fetxt"
+#incbin ".TextEntries\text_buildfilePrologueOpeningText1.fetxt.dmp"
 setText($AC9, __TEXTPROCESSAC9)
 
 __TEXTPROCESSACA:
-#incext ParseFile ".TextEntries\text_buildfilePrologueOpeningText2.fetxt"
+#incbin ".TextEntries\text_buildfilePrologueOpeningText2.fetxt.dmp"
 setText($ACA, __TEXTPROCESSACA)
 
 __TEXTPROCESSACB:
-#incext ParseFile ".TextEntries\text_buildfilePrologueOpeningText3.fetxt"
+#incbin ".TextEntries\text_buildfilePrologueOpeningText3.fetxt.dmp"
 setText($ACB, __TEXTPROCESSACB)
 
 __TEXTPROCESSACC:
-#incext ParseFile ".TextEntries\text_buildfilePrologueReinforcementText.fetxt"
+#incbin ".TextEntries\text_buildfilePrologueReinforcementText.fetxt.dmp"
 setText($ACC, __TEXTPROCESSACC)
 
 __TEXTPROCESSACD:
-#incext ParseFile ".TextEntries\text_buildfilePrologueClosingText.fetxt"
+#incbin ".TextEntries\text_buildfilePrologueClosingText.fetxt.dmp"
 setText($ACD, __TEXTPROCESSACD)
 
 __TEXTPROCESSACE:
-#incext ParseFile ".TextEntries\text_buildfilePrologueHuginnWrenTalk.fetxt"
+#incbin ".TextEntries\text_buildfilePrologueHuginnWrenTalk.fetxt.dmp"
 setText($ACE, __TEXTPROCESSACE)
 
 __TEXTPROCESSACF:
-#incext ParseFile ".TextEntries\text_buildfileCh1OpeningText1.fetxt"
+#incbin ".TextEntries\text_buildfileCh1OpeningText1.fetxt.dmp"
 setText($ACF, __TEXTPROCESSACF)
 
 __TEXTPROCESSAD0:
-#incext ParseFile ".TextEntries\text_buildfileCh1ClosingText1.fetxt"
+#incbin ".TextEntries\text_buildfileCh1ClosingText1.fetxt.dmp"
 setText($AD0, __TEXTPROCESSAD0)
 
 __TEXTPROCESSAD1:
-#incext ParseFile ".TextEntries\text_buildfileCh1ClosingText2.fetxt"
+#incbin ".TextEntries\text_buildfileCh1ClosingText2.fetxt.dmp"
 setText($AD1, __TEXTPROCESSAD1)
 
 __TEXTPROCESSAD2:
-#incext ParseFile ".TextEntries\text_buildfileCh1Wave1Text.fetxt"
+#incbin ".TextEntries\text_buildfileCh1Wave1Text.fetxt.dmp"
 setText($AD2, __TEXTPROCESSAD2)
 
 __TEXTPROCESSAD3:
-#incext ParseFile ".TextEntries\text_buildfileCh1SaraiShamiraTalk.fetxt"
+#incbin ".TextEntries\text_buildfileCh1SaraiShamiraTalk.fetxt.dmp"
 setText($AD3, __TEXTPROCESSAD3)
 
 __TEXTPROCESSAD4:
-#incext ParseFile ".TextEntries\text_buildfileCh2OpeningText1.fetxt"
+#incbin ".TextEntries\text_buildfileCh2OpeningText1.fetxt.dmp"
 setText($AD4, __TEXTPROCESSAD4)
 
 __TEXTPROCESSAD5:
-#incext ParseFile ".TextEntries\text_buildfileCh2ClosingText1.fetxt"
+#incbin ".TextEntries\text_buildfileCh2ClosingText1.fetxt.dmp"
 setText($AD5, __TEXTPROCESSAD5)
 
 __TEXTPROCESSAD6:
-#incext ParseFile ".TextEntries\text_buildfileCh2Wave3Text.fetxt"
+#incbin ".TextEntries\text_buildfileCh2Wave3Text.fetxt.dmp"
 setText($AD6, __TEXTPROCESSAD6)
 
 __TEXTPROCESSAD7:
-#incext ParseFile ".TextEntries\text_buildfileCh2LuzWigbrandTalk.fetxt"
+#incbin ".TextEntries\text_buildfileCh2LuzWigbrandTalk.fetxt.dmp"
 setText($AD7, __TEXTPROCESSAD7)
 
 __TEXTPROCESSAD8:
-#incext ParseFile ".TextEntries\text_buildfileCh3OpeningText1.fetxt"
+#incbin ".TextEntries\text_buildfileCh3OpeningText1.fetxt.dmp"
 setText($AD8, __TEXTPROCESSAD8)
 
 __TEXTPROCESSAD9:
-#incext ParseFile ".TextEntries\text_buildfileCh3OpeningText2.fetxt"
+#incbin ".TextEntries\text_buildfileCh3OpeningText2.fetxt.dmp"
 setText($AD9, __TEXTPROCESSAD9)
 
 __TEXTPROCESSADA:
-#incext ParseFile ".TextEntries\text_buildfileCh3ClosingText1.fetxt"
+#incbin ".TextEntries\text_buildfileCh3ClosingText1.fetxt.dmp"
 setText($ADA, __TEXTPROCESSADA)
 
 __TEXTPROCESSADB:
-#incext ParseFile ".TextEntries\text_buildfileCh3ClosingText2.fetxt"
+#incbin ".TextEntries\text_buildfileCh3ClosingText2.fetxt.dmp"
 setText($ADB, __TEXTPROCESSADB)
 
 __TEXTPROCESSADC:
-#incext ParseFile ".TextEntries\text_buildfileCh3WarningText.fetxt"
+#incbin ".TextEntries\text_buildfileCh3WarningText.fetxt.dmp"
 setText($ADC, __TEXTPROCESSADC)
 
 __TEXTPROCESSADD:
-#incext ParseFile ".TextEntries\text_buildfileCh3RecruitConvo.fetxt"
+#incbin ".TextEntries\text_buildfileCh3RecruitConvo.fetxt.dmp"
 setText($ADD, __TEXTPROCESSADD)
 
 __TEXTPROCESSADE:
-#incext ParseFile ".TextEntries\text_buildfileCh4OpeningText1.fetxt"
+#incbin ".TextEntries\text_buildfileCh4OpeningText1.fetxt.dmp"
 setText($ADE, __TEXTPROCESSADE)
 
 __TEXTPROCESSADF:
-#incext ParseFile ".TextEntries\text_buildfileCh4ClosingText1.fetxt"
+#incbin ".TextEntries\text_buildfileCh4ClosingText1.fetxt.dmp"
 setText($ADF, __TEXTPROCESSADF)
 
 __TEXTPROCESSAE0:
-#incext ParseFile ".TextEntries\text_buildfileCh4RudyardNuriTalk.fetxt"
+#incbin ".TextEntries\text_buildfileCh4RudyardNuriTalk.fetxt.dmp"
 setText($AE0, __TEXTPROCESSAE0)
 
 __TEXTPROCESSAE1:
-#incext ParseFile ".TextEntries\text_buildfileCh4RudyardAdelaTalk.fetxt"
+#incbin ".TextEntries\text_buildfileCh4RudyardAdelaTalk.fetxt.dmp"
 setText($AE1, __TEXTPROCESSAE1)
 
 }
