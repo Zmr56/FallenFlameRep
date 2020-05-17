@@ -141,7 +141,7 @@ UnitMenuTable:
   UM_Arena
   
   #ifdef __DEBUG__
-	MenuCommand(UM_Debug, UM_Debug, OrangeText, $04F449, SkillDebugCommand_OnSelect)
+	MenuCommand(UM_EditSkills, UM_Debug, OrangeText, $04F449, SkillDebugCommand_OnSelect)
   #endif
   
   // Shove & cie

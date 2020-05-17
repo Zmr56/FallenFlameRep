@@ -116,5 +116,5 @@ by having this unit arrive.[X]
 ## Mov_Text_ID
 Mov[X]
 
-## UM_Debug
+## UM_EditSkills
  Edit Skills[X]

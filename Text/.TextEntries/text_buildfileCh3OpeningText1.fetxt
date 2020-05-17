@@ -1,0 +1,134 @@
+
+
+[MidLeft][LoadWren]
+
+[FarLeft][LoadSarai]
+
+[MidRight][LoadWigbrand]
+
+
+
+[MidLeft]#Wren
+
+This isn't a good sight, I can see[N]
+
+damage on the citadel, looks like the[A][N]
+
+enemy already got here before we did.[N]
+
+Your hunch was right Wigbrand...[A]
+
+
+
+[MidRight]#Wigbrand
+
+There still appears to be guards about,[N]
+
+they're doing some repairs but they[A][N]
+
+still look poised for battle. Perhaps[N]
+
+they expect enemy reinforcements?[A]
+
+
+
+[FarLeft]#Sarai
+
+Don't worry, I'll get to the bottom of[N]
+
+this. Captain! What events transpired[A][N]
+
+here? Is my father safe?[A]
+
+
+
+[MidRight][ClearFace]
+
+[MidRight][LoadWystanSoldier]
+
+
+
+[MidRight]#Wystan Guard
+
+Lady Sarai! We successfully fended off[N]
+
+an enemy attack with the aid of Sir[A][N]
+
+Kestral. However, he sustained heavy[N]
+
+injuries against a Manakete general.[A][N]
+
+He and Princess Adela are currently[N]
+
+being held safe within the castle.[A]
+
+
+
+[FarLeft]#Sarai
+
+What of my father? I presume he aided[N]
+
+in the defence of the citadel too, no?[A]
+
+
+
+[MidRight]#Wystan Guard
+
+Well...[A]
+
+
+
+[FarLeft]#Sarai
+
+Well... What? Don't leave me hanging![A]
+
+
+
+[MidRight]#Wystan Guard
+
+Duke Wystan as you know, is still[N]
+
+recovering from the injury he sustained[A][N]
+
+during the annual beef festival when he[N]
+
+was trampled by a cow. The medication[A][N]
+
+he is taking had some side effects that[N]
+
+left him unable to battle.[A]
+
+
+
+[FarLeft]#Sarai
+
+I feel like you're not telling me the[N]
+
+full picture, but whatever... Anyway,[A][N]
+
+it's good to hear Sir Kestral is safe[N]
+
+and sound for the most part, right[A][N]
+
+Wren?[A]
+
+
+
+[MidLeft]#Wren
+
+Mhmm, my father can recover from any[N]
+
+injury he faces, this wouldn't be the[A][N]
+
+first time he's fought a Manakete.[N]
+
+We may need to prepare for battle if[A][N]
+
+it's true that enemy reinforcements may[N]
+
+try to take advantage of the citadel's[A][N]
+
+weakened state.[A]
+
+[X]
+

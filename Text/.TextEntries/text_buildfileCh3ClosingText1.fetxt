@@ -1,0 +1,40 @@
+
+
+[Right][LoadWren]
+
+[FarRight][LoadSarai]
+
+[Left][LoadDunstanCiv]
+
+
+
+[Right]#Wren
+
+Looks like we've successfully defended[N]
+
+the citadel. We shouldn't have to fight[A][N]
+
+anymore reinforcements.[A]
+
+
+
+[Left]#Dunstan
+
+Outstanding work, Wren! My bowels are,[N]
+
+however, still working against me. So I[A][N]
+
+shall just... lay down here... Ah...[A]
+
+
+
+[FarRight]#Sarai
+
+Let's meet-up with  Sir Kestral and[N]
+
+Adela, Wren! They should still be in[A][N]
+
+that room over there.[A]
+
+[X]
+

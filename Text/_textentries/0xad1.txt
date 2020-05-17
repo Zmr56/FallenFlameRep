@@ -1,8 +1,0 @@
-
-[MidLeft][LoadWizvil]
-It's no good striking deep into enemy[N]
-territory and coming home empty handed[A][N]
-if we just idle around. Men, start[N]
-moving out from the cave! We have a[A][N]
-village to raid.[A]
-[X]
