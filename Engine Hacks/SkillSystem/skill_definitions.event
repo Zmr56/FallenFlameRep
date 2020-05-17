@@ -96,7 +96,7 @@
 #define SpathaID 73
 
 //Unorthodox: Reverses Weapon Triangle during combat against magic enemies that would normally have WTA.
-//By 
+//By Sme
 #define UnorthodoxID 74
 
 //Wind Blessing: Allies healed by this unit gain +2 speed for 1 turn.
