@@ -31,17 +31,13 @@ HybridAceIDLink:
 BYTE HybridAceID
 
 SwordAceItemList:
-BYTE IronSword
 BYTE 0
 
 LanceAceItemList:
-BYTE IronLance
 BYTE 0
 
 AxeAceItemList:
-BYTE IronAxe
 BYTE 0
 
 BowAceItemList:
-BYTE IronBow
 BYTE 0
