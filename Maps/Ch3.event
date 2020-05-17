@@ -8,7 +8,7 @@ Map:
 #incbin "Ch3_data.dmp"
 
 MapChanges:
-TileMap(0,14,2,1,1,Chest1)
+TileMap(0,13,2,1,1,Chest1)
 TileMap(1,14,3,1,1,Chest2)
 TileMap(2,11,7,2,3,WallDestroyed)
 TileMapEnd

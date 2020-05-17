@@ -1,3 +1,3 @@
-Corrosion: Decrease durability[N]
-of enemy's weapon by User's level[N]
-(Skill/2% activation)[X]
+Thighdeology: If a unit within[N]
+3 tiles has Nice Thighs, gain[N]
++2 Attack and +20 Hit.[X]

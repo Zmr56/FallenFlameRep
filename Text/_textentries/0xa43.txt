@@ -1,2 +1,2 @@
-Axefaith: Axes can't lose durability, and[N]
-grants +Luck*1.5 Hit when wielding axes.[X]
+Fortress Resistance:[N]
++5 Res, -3 Str/Mag[X]

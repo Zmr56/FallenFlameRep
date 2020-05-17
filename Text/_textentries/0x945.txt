@@ -1,2 +1,2 @@
-Strike a fatal blow with reduced[N]
-stats to capture an enemy.[X]
+Swap positions with adjacent[N]
+ally.[X]

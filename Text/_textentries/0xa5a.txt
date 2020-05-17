@@ -1,2 +1,2 @@
-Thunderstorm: If weapon weight > enemy[N]
-W. Weight, +2 dmg, +15% hit, +5% crit.[X]
+Silent Pride: Gain 2 damage and take[N]
+-2 damage per 25% below max HP.[X]

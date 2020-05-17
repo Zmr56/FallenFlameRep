@@ -1,2 +1,2 @@
-Great Shield: Negate all damage.[N]
-(Defense % activation)[X]
+Triangle Adept+: Doubles[N]
+weapon triangle effects.[X]

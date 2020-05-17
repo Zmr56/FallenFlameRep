@@ -1,2 +1,2 @@
-Shade+: Enemies won't[N]
-target this unit.[X]
+Lull Spectrum: Negates the[N]
+effects of rallies on opponent.[X]

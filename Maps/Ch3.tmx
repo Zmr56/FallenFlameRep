@@ -22,7 +22,7 @@
    <property name="Height" value="1"/>
    <property name="ID" value="0"/>
    <property name="Width" value="1"/>
-   <property name="X" value="14"/>
+   <property name="X" value="13"/>
    <property name="Y" value="2"/>
   </properties>
   <data encoding="base64" compression="zlib">

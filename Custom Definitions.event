@@ -46,6 +46,8 @@
 
 #define AnimTableEntry(index) "ORG ClassAnimTable - 0x20 + (index * 0x20)"
 
+#define BattleSpriteTable ClassAnimTable
+
 //#define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
 // Class definitions

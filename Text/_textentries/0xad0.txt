@@ -1,68 +1,113 @@
 
-[Left][LoadSarai]
-[Right][LoadShamira]
+[MidRight][LoadWren]
+[Right][LoadWigbrand]
 
-[Right]#Shamira
-Lady Sarai! Where are your other[N]
-retainers, Luz, Gad and Rudyard?[A]
+[MidRight]#Wren
+No bandits inside, looks like you were[N]
+right, Wigbrand. Although... there's[A][N]
+plenty of blood everywhere... That's[N]
+going to stain the tiles for a while.[A]
 
-[Left]#Sarai
-Dana offered to escort me to Duke[N]
-Falcone's. Luz and Gad were helping[A][N]
-with fortifying the citadel back in[N]
-Aquanpool. Rudyard is on guard there.[A]
+[Right]#Wigbrand
+I believe Duke Woadlan is approaching[N]
+us, Wren. He looks untouched.[A]
 
-[Right]#Shamira
-That's unusual, why would we be[N]
-fortifying Wystan citadel?[A]
+[MidLeft][LoadFalcone]
 
-[Left]#Sarai
-Beats me. Nor me or my retainers know[N]
-of the reason. My father has been tight[A][N]
-lipped over what's going on. I can only[N]
-presume we're preparing for an attack.[A]
+[MidRight]#Wren
+Grandpapa![A]
 
-[Right]#Shamira
-Strange, I can't see how a ragtag force[N]
-of pirates and mercenaries would get[A][N]
-far inland with enough troops to lay[N]
-siege to one of our citadels.[A]
+[MidLeft]#Falcone
+Wren! Oh I am relieved to see you! I[N]
+can't believe you're on the battlefield[A][N]
+already... You've started sooner than I[N]
+did... How are you finding it all?[A]
 
-[Left]#Sarai
-Maybe there's a stronger enemy aiding[N]
-them. Maybe the Wyvemberian Empire?[A]
+[MidRight]#Wren
+It's fine and so am I, grandpapa. Well,[N]
+it's not fine but you know what I mean,[A][N]
+right?[A]
 
-[Right]#Shamira
-That's possible. Maybe we'll run into[N]
-them soon.[A]
+[MidLeft]#Falcone
+No, don't worry, I fully understand.[N]
+As long as you, your father and your[A][N]
+uncle are fine, I'm fine![A]
 
-[Left]#Sarai
-Oh I hope not! Caeda is terrified of[N]
-wyvern riders.[A]
+[Right]#Wigbrand
+Speaking of Sir Kestral, have you heard[N]
+any word from him, Duke Woadlan?[A]
 
-[Right]#Shamira
-...Caeda...?[A]
+[MidLeft]#Falcone
+Only today did I learn of his status.[N]
+A messenger came to me so I could[A][N]
+relay a message unto you. Kestral has[N]
+departed from the Eastern Viripurian[A][N]
+Empire with the princess of its Western[N]
+half in his care. Princess Adela is[A][N]
+expected to be kept safe within our[N]
+capital. However, you're expected to[A][N]
+rendezvous with your father at[N]
+Aquanpool Port.[A]
 
-[Left]#Sarai
-My pegasus![A]
+[MidRight]#Wren
+Why there? Wouldn't it have been easier[N]
+for him to head straight for the[A][N]
+capital?[A]
 
-[Right]#Shamira
-Oh right... People name their mounts[N]
-with human names... I'm no good at[A][N]
-riding so this is unfamiliar to me.[A]
+[MidLeft]#Falcone
+He tried. But they were ambushed at sea[N]
+by a particuarly powerful foe so they[A][N]
+had to change course.[A]
 
-[Left]#Sarai
-It's a cute name, isn't it?[A]
+[MidRight]#Wren
+Hmmm, very well. I hope father is safe.[N]
+We'll travel by boat to the port from[A][N]
+here. Thank you, grandpapa, for the[N]
+update. I've been worried sick having[A][N]
+no word from father... It'd be nice to[N]
+stick around but with these pirates[A][N]
+invading I have no time to spare.[N]
+Goodbye, grandpapa! I love you![A]
 
-[Right]#Shamira
-Well I wouldn't know what consitutes[N]
-a cute pegasus name... You might be[A][N]
-better off asking Lady Wren.[A]
+[MidLeft]#Falcone
+I love you too Wren![N][A]
 
-[Left]#Sarai
-Fair enough! Thanks for lending an ear[N]
-Shammi![A]
+[MidRight][ClearFace]
 
-[Right]#Shamira
-...Shammi...?[A]
+[MidLeft]#Falcone
+Tell me, Wigbrand, how does she truly[N]
+fare? I cannoy imagine that girl has[A][N]
+the fortitude to take a life, I barely[N]
+could myself.[A]
+
+[Right]#Wigbrand
+She is stronger than you think. Things[N]
+normally deemed the domain of men like[A][N]
+us such as politics and war are no[N]
+stranger to her. They are her lifelong[A][N]
+passions.[A]
+
+[MidLeft]#Falcone
+Hmph, it is not a state of affairs many[N]
+here or in the capital are happy with.[A][N]
+But with the situation so dire around[N]
+the world, I cannot afford to choose[A][N]
+the gender of our commanders freely.[N]
+We must take talent regardless of[A][N]
+who possesses it. Man or not.[A]
+
+[Right]#Wigbrand
+I can vouch for her talent. I have no[N]
+doubt that she will prove her worth in[A][N]
+battle. Once the inevitable campaign in[N]
+Gofaul starts, she will be the best[A][N]
+candidate to lead a coalition there.[N]
+Gofaul is her second home so to say, I[A][N]
+think she's better equipped than others[N]
+to gather the allies we need there.[A]
+
+[MidLeft]#Falcone
+I suppose there might be a silver[N]
+lining in Kestral marrying that wild[A][N]
+woman from Gofaul after all...[A]
 [X]

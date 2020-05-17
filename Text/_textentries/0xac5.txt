@@ -1,2 +1,2 @@
-Tempest Blood: +2 attack speed[N]
-when HP is not at max.[X]
+Snow Blessing: Allied unit targeted[N]
+by this unit's Staves gain +3 Res.[X]

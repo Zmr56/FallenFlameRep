@@ -1,2 +1,2 @@
-Lull Luck: Negates the effects[N]
-of rallies on opponent's luck.[X]
+Lull Skl: Negates the effects of[N]
+rallies on opponent's skill.[X]

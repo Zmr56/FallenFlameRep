@@ -1,2 +1,2 @@
-Push Skill: When HP[N]
-is full, gain +5 skill.[X]
+Push Strength: When HP[N]
+is full, gain +5 strength.[X]

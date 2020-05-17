@@ -1,2 +1,3 @@
-Hex: -15 avoid to all[N]
-adjacent enemies.[X]
+Poison Strike: Deals damage equal to[N]
+20% of the enemy's max HP after[N]
+battle this unit initiates.[X]

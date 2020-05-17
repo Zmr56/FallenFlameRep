@@ -1959,3 +1959,11 @@ TxtData0xade:
 #incext ParseFile "_textentries\0xade.txt"
 setText(0xade,TxtData0xade)
 
+TxtData0xadf:
+#incext ParseFile "_textentries\0xadf.txt"
+setText(0xadf,TxtData0xadf)
+
+TxtData0xae0:
+#incext ParseFile "_textentries\0xae0.txt"
+setText(0xae0,TxtData0xae0)
+

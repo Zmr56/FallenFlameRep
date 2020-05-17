@@ -67,7 +67,7 @@ NoFade
 ENDA
 
 LocationBasedEvents:
-Chest(Hurlbat,14,2)
+Chest(Hurlbat,13,2)
 Chest(Barrier,14,3)
 AREA 0x8 SetGameOver [12,0] [13,0]
 END_MAIN

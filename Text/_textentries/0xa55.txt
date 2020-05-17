@@ -1,2 +1,2 @@
-Puissance: +3 Damage when the user's[N]
-Strength is higher than the enemy's.[X]
+Point Blank: Minimum range of[N]
+equipped bows is set to 1.[X]

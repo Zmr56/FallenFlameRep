@@ -1,2 +1,2 @@
-Moonlight: Cannot double but[N]
-opponent cannot counterattack.[X]
+Charge+: If unit has used up[N]
+all movement, gain brave effect.[X]

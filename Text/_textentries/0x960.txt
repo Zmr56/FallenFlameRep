@@ -1,2 +1,2 @@
-Noblewoman with much skill.[N]
-Fights for justice and truth.[X]
+Mounted knights with swift movement.[NL]
+Equip: Axes.[X]

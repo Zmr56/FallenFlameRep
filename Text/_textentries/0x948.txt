@@ -1,1 +1,1 @@
- Debug[X]
+ Win[X]

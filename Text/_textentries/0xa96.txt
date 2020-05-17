@@ -1,3 +1,2 @@
-Arcane Blade: When initiating battle[N]
-at 1 range: Add 3+(Mag/2) to Hit[N]
-and Crit[X]
+Fortune: This unit[N]
+cannot be crit.[X]

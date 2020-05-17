@@ -1,1 +1,1 @@
-Kill Boss.[X]
+Kill both bosses[X]

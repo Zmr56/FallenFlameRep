@@ -1,2 +1,2 @@
-White Pool: Atk and AS +5[N]
-to adjacent allies.[X]
+Daunt: -5 Hit and Crit to all[N]
+enemy units in a 3-tile radius.[X]

@@ -1,2 +1,2 @@
-Outdoor Fighter: +10 Hit and[N]
-Avo when fighting outdoors.[X]
+Void Curse: This unit gives[N]
+no experience when defeated.[X]

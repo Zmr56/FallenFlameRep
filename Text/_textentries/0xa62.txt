@@ -1,2 +1,2 @@
-Watchful: This unit cannot be[N]
-captured or stolen from.[X]
+Mage Slayer: Gain +2 damage and +10%[N]
+crit when facing magical enemies.[X]

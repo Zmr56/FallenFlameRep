@@ -1,2 +1,2 @@
-Amische: This unit's religion prevents[N]
-them from using non-Iron weaponry.[X]
+Indoor March: If unit is on[N]
+indoor terrain, unit gains +2 Mov.[X]

@@ -1,2 +1,1 @@
-Blood Tide: Atk and Hit +5[N]
-to adjacent allies.[X]
+Vigilance: Avoid +20.[X]

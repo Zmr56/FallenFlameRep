@@ -1,2 +1,2 @@
-Hawkeye: User will[N]
-always hit the enemy.[X]
+Catch 'Em All: Grants[N]
+the user every skill.[X]

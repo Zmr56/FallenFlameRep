@@ -1,2 +1,3 @@
-Wind Blessing: Allied unit targeted[N]
-by this unit's Staves gain +3 Spd.[X]
+Vengeance: Add half of damage[N]
+taken to damage dealt.[N]
+(Skill % activation)[X]

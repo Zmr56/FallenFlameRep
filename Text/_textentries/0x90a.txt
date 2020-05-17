@@ -1,1 +1,1 @@
-Seize citadel gate.[X]
+[MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]

@@ -1,1 +1,1 @@
-[MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
+[OpenMidLeft][LoadFace][WrenPortrait]Ouch! Dead unit.[A][X]

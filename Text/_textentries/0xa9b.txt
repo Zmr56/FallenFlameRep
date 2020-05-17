@@ -1,3 +1,2 @@
-Triangle Attack: Allows this unit[N]
-to perform a triangle attack with[N]
-2 other units who have this skill.[X]
+Double Lion: All weapons[N]
+are treated as brave.[X]

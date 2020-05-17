@@ -1,2 +1,2 @@
-Deadeye: Doubles hit rate.[N]
-Skill% chance to inflict sleep.[X]
+Petrify: Inflict stone status.[N]
+(Skill% activation)[X]

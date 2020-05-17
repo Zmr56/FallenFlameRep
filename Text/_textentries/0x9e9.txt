@@ -1,3 +1,2 @@
-Lunge: Swap places with the[N]
-opponent after combat.[N]
-(No effect if Move is --)[X]
+Life and Death: +10 to[N]
+damage dealt and taken.[X]

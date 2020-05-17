@@ -1,2 +1,2 @@
-Complete this chapter[N]
-by having this unit arrive.[X]
+Have this unit[N]
+leave this chapter.[X]

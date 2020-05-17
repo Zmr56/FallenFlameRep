@@ -1,2 +1,3 @@
-Nature Rush: If unit is on[N]
-rough terrain, unit gains +2 Mov.[X]
+Keep Up: If unit is within 3[N]
+spaces of an ally with Canto[N]
+or Canto+, unit gains +2 Mov.[X]
