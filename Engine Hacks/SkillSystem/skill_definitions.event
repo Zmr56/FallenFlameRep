@@ -3,6 +3,51 @@
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
 
+
+
+//Fallen Flame Skills
+//Bow-Ace - Allows usage of the longbow family of weapons.
+//By Sme
+#define BowAceID 255
+
+//Bow-Ace+ - Allows longbow bows use and grants hit +15.
+//By Sme
+#define BowAcePlusID 255
+
+//Lance-Ace - Grants ability to use exclusive lances.
+//By Sme
+#define LanceAceID 255
+
+//Lance-Ace+ - Grants ability to use exclusive lances and gives crit +15.
+//By Sme
+#define LanceAcePlusID 255
+
+//Sword-Ace - Grants access to exclusive swords.
+//By Sme
+#define SwordAceID 255
+
+//Sword-Ace+ - Grants crit +15 and access to exclusive swords.
+//By Sme
+#define SwordAcePlusID 255
+
+//Axe-Ace - Grants access to exclusive axes.
+//By Sme
+#define AxeAceID 255
+
+//Axe-Ace+ - Grants +15 crit and access to exclusive axes.
+//By Sme
+#define AxeAcePlusID 255
+
+//Hybrid-Ace - Grants access to exclusive axes and longbows.
+//By Sme
+#define HybridAceID 255
+
+
+
+
+
+
+
 //AI Skills
 
 //Provoke: Enemies are more likely to target this unit.
