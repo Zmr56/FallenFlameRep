@@ -1,4 +1,4 @@
-//Here you can choose which skills to install. You can only install up to 254, ranging from IDs 1 - 254. Make sure you don't use the same ID 255 //more than once.
+//Here you can choose which skills to install. You can only install up to 254, ranging from IDs 1 - 254. Make sure you don't use the same ID more than once.
 //To disable a skill, define it as 255.
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
@@ -101,22 +101,15 @@
 
 //Wind Blessing: Allies healed by this unit gain +2 speed for 1 turn.
 //By Datagne
-#define WindBlessingID 75
+#define SwiftWindsID 75
 
 //Earth Blessing: Allies healed by this unit gain +2 defence for 1 turn.
 //By Datagne
-#define EarthBlessingID 76
+#define SolidEarthID 76
 
 //Snow Blessing: Allies healed by this unit gain +3 res for 1 turn.
-//By 
-#define SnowBlessingID 77
-
-//Balm Skills: Stat buffs on healing.
-//By Dat
-#define SolidEarthID 255 //250
-#define SwiftWindsID 255 //251
-#define StillWaterID 255 //252
-#define KindledFireID 255 //253
+//By Datagne
+#define StillWaterID 77
 
 //Horsebane: If within 3 spaces of an ally horse rider, deal x2 effective damage vs horse type enemies in combat.
 //By 
@@ -261,7 +254,7 @@
 //Full Metal Body: This unit is immune to all the Seal skills.
 //By Leonarth
 #define FullMetalBodyID 255 //177
-#define FullmetalBodyID 255 FullMetalBodyID //Alias
+#define FullmetalBodyID FullMetalBodyID //Alias
 
 
 //Effectiveness Skills
@@ -437,7 +430,7 @@
 //Axefaith: Axes can't lose durability, and grants +Luck*1.5 Hit when wielding axes.
 //By 2WB & Colorz
 #define AxeFaithID 255 //173
-#define AxefaithID 255 AxeFaithID //Alias
+#define AxefaithID AxeFaithID //Alias
 
 //Battle Veteran: Gain +1 damage and +5% Hit per 10 levels unit has.
 //By Datagne
@@ -1105,6 +1098,10 @@
 //By Sme
 #define TempestID 255 //255 //Requires Biorhythm
 #define SerenityID 255 //255 //Requires Biorhythm
+
+//Balm Skills: Stat buffs on healing.
+//By Dat
+#define KindledFireID 85 //253
 
 //Display-Only Skills
 

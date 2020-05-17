@@ -1,31 +1,93 @@
-//Binding Aura
+/*
+Supply
+Canto
+Canto+
+Pivot
+Locktouch
+Refresh
+Bond
+Swap
+Desperation
+Fiery Blood
+Pass
+Steal+
+Lunge
+Live to Serve
+Malefic Aura
+Solidarity
+Charm
+Darting Blow
+Natural Cover
+Wrath
+Dazzle
+Staff Range +1
+Breath of Life
+Savage Blow
+Renewal
+Poison Strike
+Forager
+Astra
+Bargain
+Charisma
+Seal Defence
+Tome Range +
+Nullify
+Fortune
+Smite
+Shadowgift
+Lumina
+Miracle
+Crit+15
+Discipline
+Paragon
+Tempest Blood
 
 
+Pavise: When first struck by a physical attack, damage is halved unless at WTD. 
+Aegis: When first struck by a magical attack, damage is halved unless at WTD. 
+Adept: When unit has +7 AS over enemy, strike twice. 
+Sol: Restores HP equal to half of damage dealt.
+Luna: Ignores half of enemy defence.
+Vengeance: Add half of damage accrued to damage dealt. (Trigger = Atk x 1.5)
 
-//Longshot: +1 Range, -75 hit 
-//Sacrifice - the fe10 thing that micaiah has 
 
-//Mageguard: +8 resistance against magic enemies if within 3 spaces of an ally magic user.
-//Crusher - Adjacent lance wielding enemies suffer -3 def.
-//Spatha - Adjacent axe wielding enemies suffer -2 atk.
+Antimage: Gain another follow up against enemies using magic.
+Terrain-Ace: Reverses foe's avo buff on rough terrain and gives crit boost
+Terrain-Ace+: 
+Longshot: Menu Command, +1 Range, -75 hit
+Mageguard: +8 resistance against magic enemies if within 3 spaces of an ally magic user.
+Sacrifice: Heal an ally for up to 10 HP from your own HP.
+Natural Shot: 
+Mage Buster: 
+Glow: Ignores enemy resistance.
+Vampyr: Restores HP equal to damage dealt.
+Crusher:  Adjacent lance wielding enemies suffer -3 def.
+Spatha: Adjacent axe wielding enemies suffer -2 atk.
+Unorthodox: Reverses Weapon Triangle during combat against magic enemies that would normally have WTA.
+Wind Blessing: Allies healed by this unit gain +2 speed for 1 turn.
+Earth Blessing: Allies healed by this unit gain +2 defence for 1 turn.
+Snow Blessing: Allies healed by this unit gain +3 res for 1 turn.
+Horsebane: If within 3 spaces of an ally horse rider, deal x2 effective damage vs horse type enemies in combat.
+Magebane: If within 3 spaces of an ally magic user, deal x2 effective damage vs magic enemies in combat.
+Blizzard Blood: When below full health, +2 AS and Res. 
 
-//Horsebane - If within 3 spaces of an ally horse rider, deal x2 effective damage vs horse type enemies in combat.
-//Magebane - If within 3 spaces of an ally magic user, deal x2 effective damage vs magic enemies in combat.
+???
 
-//Unorthodox - Reverses Weapon Triangle during combat against magic enemies that would normally have WTA.
+???
+???
 
-//Wind Blessing - Allies healed by this unit gain +2 speed for 1 turn.
-//Earth Blessing - Allies healed by this unit gain +2 defence for 1 turn.
+???
+?
 
-//Bow-Ace - Allows usage of the longbow family of weapons.
-//Bow-Ace+ - Allows longbow bows use and grants hit +15.
-//Lance-Ace - Grants ability to use exclusive lances.
-//Lance-Ace+ - Grants ability to use exclusive lances and gives crit +15.
-//Sword-Ace - Grants access to exclusive swords.
-//Sword-Ace+ - Grants crit +15 and access to exclusive swords.
-//Axe-Ace - Grants access to exclusive axes.
-//Axe-Ace+ - Grants +15 crit and access to exclusive axes.
-//Hybrid-Ace - Grants access to exclusive axes and longbows.
 
+Sword-Ace
+Sword-Ace+
+Lance-Ace
+Lance-Ace+
+Axe-Ace
+Axe-Ace+
+
+*/
 
 #include "AceSkills/AceSkills.event"
+

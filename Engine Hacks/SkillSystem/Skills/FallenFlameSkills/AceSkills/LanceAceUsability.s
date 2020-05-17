@@ -48,6 +48,7 @@ mov r0,r4
 cmp r0,#0
 beq RetFalse
 
+RetTrue:
 HasSkill:
 mov r0,#1
 b GoBack
