@@ -3,7 +3,7 @@
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
 
-
+#define PlaceholderSkillID 255 //50
 
 //Fallen Flame Skills
 
@@ -110,6 +110,13 @@
 //Snow Blessing: Allies healed by this unit gain +3 res for 1 turn.
 //By 
 #define SnowBlessingID 77
+
+//Balm Skills: Stat buffs on healing.
+//By Dat
+#define SolidEarthID 255 //250
+#define SwiftWindsID 255 //251
+#define StillWaterID 255 //252
+#define KindledFireID 255 //253
 
 //Horsebane: If within 3 spaces of an ally horse rider, deal x2 effective damage vs horse type enemies in combat.
 //By 
@@ -537,7 +544,7 @@
 
 //Heavy Strikes: Add weapon weight to critical chance.
 //By Datagne
-#define HeavyStrikesID 255 //198
+#define HeavyStrikesID 83 //198
 
 //Holy Aura: Gain +1 damage, +5% hit, +5% avoid, +5% crit when using light.
 //By Datagne
@@ -777,7 +784,7 @@
 
 //Lethality: Instantly kill opponent. (Skill/2 % activation)
 //Author Unknown (Initial Commit)
-#define LethalityID 255 //13
+#define LethalityID 82 //13
 
 //Luna: Negates enemy defenses. (Skill % activation)
 //Author Unknown (Initial Commit)
@@ -945,7 +952,7 @@
 
 //Summon: Can conjure a phantom soldier to fight alongside you.
 //By Sme
-#define SummonID 255 //45
+#define SummonID 81 //45
 
 //Supply: This unit has access to the convoy.
 //By Sme
@@ -1000,7 +1007,7 @@
 
 //Vantage+: User always attacks first, even if attacked. Negates crits.
 //By SD9k
-#define VantagePlusID 255 //96
+#define VantagePlusID 84 //96
 
 //Nihil: Cancels the opponent's skills in combat.
 //Author Unknown (Initial Commit)
@@ -1099,17 +1106,9 @@
 #define TempestID 255 //255 //Requires Biorhythm
 #define SerenityID 255 //255 //Requires Biorhythm
 
-//Balm Skills: Stat buffs on healing.
-//By Dat
-#define SolidEarthID 255 //250
-#define SwiftWindsID 255 //251
-#define StillWaterID 255 //252
-#define KindledFireID 255 //253
-
 //Display-Only Skills
 
 #define CunningID 255 //12
-#define PlaceholderSkillID 255 //50
 #define PersonalityID 255 //109
 
 //Broken Skills
