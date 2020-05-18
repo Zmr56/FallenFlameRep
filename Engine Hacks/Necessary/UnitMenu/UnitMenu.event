@@ -91,6 +91,7 @@ UnitMenuTable:
   MenuCommand(UM_Gamble, UM_GambleDesc, NormalText, GambleUsability, GambleEffect, $22c31, $22c99)
   //capture
   MenuCommand(UM_Capture, UM_CaptureDesc, NormalText, Capture_Usability, Capture_Effect_Func, $22c31, $22c99)
+  MenuCommand(UM_Longshot, UM_LongshotDesc, NormalText, LongshotUsability, LongshotEffect, LongshotDrawRange, $22c99)
   UM_Staff
   UM_Ride
   UM_Exit

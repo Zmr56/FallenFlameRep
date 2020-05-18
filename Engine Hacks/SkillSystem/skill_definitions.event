@@ -3,7 +3,8 @@
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
 
-#define PlaceholderSkillID 255 //50
+#define PlaceholderSkillID NiceThighsID //50
+#define NiceThighsID 86
 
 //Fallen Flame Skills
 

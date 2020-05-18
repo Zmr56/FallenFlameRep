@@ -118,3 +118,10 @@ Mov[X]
 
 ## UM_EditSkills
  Edit Skills[X]
+
+## UM_Longshot
+ Longshot[X]
+ 
+## UM_LongshotDesc
++1 range, -75 hit[X]
+
