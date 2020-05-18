@@ -94,7 +94,9 @@ bne LongshotHitBonus_GoBack
 mov r0,r4
 add r0,#0x60
 ldrh r1,[r0]
-sub r1,#75
+ldr r2,=LongshotHitDebuff
+ldrb r2,[r2]
+sub r1,r2
 strh r1,[r0]
 
 LongshotHitBonus_GoBack:

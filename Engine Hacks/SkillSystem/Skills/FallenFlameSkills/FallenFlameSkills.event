@@ -99,3 +99,5 @@ UnorthodoxIDLink:
 BYTE UnorthodoxID
 
 
+LongshotHitDebuff:
+BYTE 75
