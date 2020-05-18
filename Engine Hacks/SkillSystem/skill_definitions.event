@@ -61,7 +61,7 @@
 #define TerrainAcePlusID 64
 
 //Longshot: Menu Command, +1 Range, -75 hit
-//By 
+//By Sme
 #define LongshotID 65
 
 //Mageguard: +8 resistance against magic enemies if within 3 spaces of an ally magic user.
