@@ -3,7 +3,8 @@
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
 
-#define PlaceholderSkillID 255 //50
+#define PlaceholderSkillID NiceThighsID //50
+#define NiceThighsID 86
 
 //Fallen Flame Skills
 
@@ -60,7 +61,7 @@
 #define TerrainAcePlusID 64
 
 //Longshot: Menu Command, +1 Range, -75 hit
-//By 
+//By Sme
 #define LongshotID 65
 
 //Mageguard: +8 resistance against magic enemies if within 3 spaces of an ally magic user.
@@ -96,7 +97,7 @@
 #define SpathaID 73
 
 //Unorthodox: Reverses Weapon Triangle during combat against magic enemies that would normally have WTA.
-//By 
+//By Sme
 #define UnorthodoxID 74
 
 //Wind Blessing: Allies healed by this unit gain +2 speed for 1 turn.

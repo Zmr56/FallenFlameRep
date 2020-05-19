@@ -1,0 +1,7 @@
+
+DebuffTableLink:
+WORD DebuffTable
+LongshotIDLink:
+BYTE LongshotID
+
+#include "Longshot.lyn.event"

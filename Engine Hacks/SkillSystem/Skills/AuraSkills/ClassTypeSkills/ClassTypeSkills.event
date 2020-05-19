@@ -21,12 +21,3 @@ POIN SkillTester
 POIN AuraSkillCheck
 WORD SkyguardID
 WORD FlierType
-/*
-ALIGN 4
-Mageguard:
-#incbin "Mageguard.dmp"
-POIN SkillTester
-POIN AuraSkillCheck
-WORD MageguardID
-WORD MagicType
-*/

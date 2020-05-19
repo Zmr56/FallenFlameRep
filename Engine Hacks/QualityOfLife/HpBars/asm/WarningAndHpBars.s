@@ -243,6 +243,8 @@ ldrh	r0,[r4,r5]
 ldr		r1,=Get_Item_Crit
 mov		r14,r1
 .short	0xF800
+cmp 	r0,#255
+beq		NextItem
 cmp		r0,#crit_warning_cutoff
 bgt		IsCritty
 NextItem:

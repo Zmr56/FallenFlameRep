@@ -90,4 +90,14 @@ Axe-Ace+
 */
 
 #include "AceSkills/AceSkills.event"
+#include "Unorthodox/Unorthodox.lyn.event"
+#include "Longshot/Longshot.event"
 
+
+
+UnorthodoxIDLink:
+BYTE UnorthodoxID
+
+
+LongshotHitDebuff:
+BYTE 75
