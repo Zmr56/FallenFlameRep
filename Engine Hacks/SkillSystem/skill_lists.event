@@ -248,7 +248,7 @@ BYTE 00 00
 ALIGN 4
 
 SoldierSkillList:
-BYTE 1 PlaceholderSkillID
+BYTE 1 VanityID
 BYTE 00 00
 ALIGN 4
 

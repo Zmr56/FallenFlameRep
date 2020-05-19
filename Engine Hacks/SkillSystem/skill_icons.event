@@ -150,7 +150,7 @@ ORG SkillIcon(RenewalID)
 #incbin "SkillIcons/Renewal.dmp"
 
 ORG SkillIcon(PlaceholderSkillID)
-#incbin "SkillIcons/NiceThighs.dmp"
+#incbin "SkillIcons/EmptyFrame.dmp"
 
 ORG SkillIcon(DemoiselleID)
 #incbin "SkillIcons/Demoiselle.dmp"
