@@ -37,8 +37,10 @@ beq CheckDefender	@in such case, check fails
 mov r0,r5			@r0 = defender's struct
 add r0,#0x53		@+0x53 = Weapon triangle hit effect (signed byte)
 ldrb r0,[r0]		@r0 = Weapon triangle hit effect
-cmp r0,#0			@if not 0 or negative, we have WTA
-ble CheckDefender	@if 0 or negative, check fails
+cmp r0,#0
+beq CheckDefender
+cmp r0,#0x7F		@if not 0 or negative, we have WTA
+bgt CheckDefender	@if 0 or negative, check fails
 
 
 @Reaver effect
@@ -94,8 +96,10 @@ beq GoBack			@in such case, check fails
 mov r0,r4			@r0 = attacker's struct
 add r0,#0x53		@+0x53 = Weapon triangle hit effect (signed byte)
 ldrb r0,[r0]		@r0 = Weapon triangle hit effect
-cmp r0,#0			@if not 0 or negative, we have WTA
-ble GoBack			@if 0 or negative, check fails
+cmp r0,#0
+beq GoBack
+cmp r0,#0x7F		@if not 0 or negative, we have WTA
+bgt GoBack			@if 0 or negative, check fails
 
 
 @Reaver effect
