@@ -148,8 +148,8 @@
 #define descVicks $985
 #define nameSawine $986
 #define descSawine $987
-#define nameDatta $988
-#define descDatta $989
+#define nameConall $988
+#define descConall $989
 #define nameAttab $98A
 #define descAttab $98B
 #define nameRhud $98C

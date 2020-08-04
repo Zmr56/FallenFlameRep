@@ -26,7 +26,7 @@ POIN BeginningScene EndingScene
 TurnBasedEvents:
 TURN 0x0 Wave1Text[2,0] 0x0
 TURN 0x0 WaveFirst[2,0] 0x0
-TURN 0x0 WaveSecond[5,0] 0x0
+TURN 0x0 WaveSecond[4,0] 0x0
 TURN 0x0 WaveThird[7,0] 0x0
 END_MAIN
 
@@ -58,13 +58,13 @@ NoFade
 ENDA
 
 LocationBasedEvents:
-Village(0x7,VillageSteelSword,8,2)
+Village(0x7,VillageHandAxe,8,2)
 Vendor(ShopItems1, 6, 6)
 Seize(1,9)
 END_MAIN
 
-VillageSteelSword:
-VillageEventItem(PlaceholderText, Village, SteelSword)
+VillageHandAxe:
+VillageEventItem(PlaceholderText, Village, HandAxe)
 
 ShopItems1:
 SHLI Vulnerary PureWater ChestKey
@@ -109,12 +109,12 @@ Bad:
 UNIT Wizvil Shaman 0x00 Level(5, Enemy, 0) [1,9] 0x00 0x00 0x0 0x00 [Flux] NeverMoveAI 
 UNIT 0x80 Archer Wizvil Level(4, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
 UNIT 0x80 Archer Wizvil Level(4, Enemy, 1) [3,6] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x80 Mercenary Wizvil Level(4, Enemy, 1) [3,10] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Soldier Wizvil Level(4, Enemy, 1) [3,10] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
 UNIT 0x80 Shaman Wizvil Level(2, Enemy, 1) [8,4] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
 UNIT 0x80 Shaman Wizvil Level(2, Enemy, 1) [3,2] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Myrmidon Wizvil Level(2, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Wizvil Level(2, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
 UNIT 0x80 Shaman Wizvil Level(3, Enemy, 1) [11,3] 0x00 0x00 0x0 0x00 [Flux] NeverMoveAI 
-UNIT 0x80 Fighter Wizvil Level(3, Enemy, 1) [11,4] 0x00 0x00 0x0 0x00 [Hurlbat] NeverMoveAI 
+UNIT 0x80 Knight Wizvil Level(3, Enemy, 1) [11,4] 0x00 0x00 0x0 0x00 [Lancea] NeverMoveAI 
 UNIT 0x80 Mercenary Wizvil Level(2, Enemy, 1) [14,5] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
 UNIT 0x80 Fighter Wizvil Level(2, Enemy, 1) [12,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI  
 UNIT
@@ -124,14 +124,15 @@ UNIT 0x80 Barbarian Wizvil Level(3, Enemy, 1) [2,0] 0x00 0x00 0x0 0x00 [SteelAxe
 UNIT
 
 Wave2:
-UNIT 0x80 Myrmidon Wizvil Level(3, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 Myrmidon Wizvil Level(3, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 SwordCav Wizvil Level(3, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 SwordCav Wizvil Level(3, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 LanceCav Wizvil Level(5, Enemy, 1) [14,5] 0x00 0x00 0x0 0x00 [SteelLance, Horseslayer] PursueWithoutHeedAI
 UNIT
 
 Wave3:
-UNIT 0x80 WyvernRider Sawine Level(4, Enemy, 1) [10,11] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x80 WyvernRider Sawine Level(4, Enemy, 1) [10,11] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x80 WyvernRider Sawine Level(4, Enemy, 1) [11,10] 0x00 0x00 0x0 0x00 [SteelAxe, Hurlbat] PursueWithoutHeedAI
+UNIT 0x80 Soldier Wizvil Level(4, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00 [SteelLance, HeavySpear] PursueWithoutHeedAI
+UNIT 0x80 Archer Wizvil Level(4, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [SteelBow, Longbow] PursueWithoutHeedAI
+UNIT 0x80 SwordCav Wizvil Level(4, Enemy, 1) [14,5] 0x00 0x00 0x0 0x00 [SteelSword, Zanbato] PursueWithoutHeedAI
 UNIT
 
 BeginningScene:

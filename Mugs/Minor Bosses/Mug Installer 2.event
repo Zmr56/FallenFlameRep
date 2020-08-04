@@ -11,9 +11,9 @@ Sawine_Mug:
 #incext PortraitFormatter "Sawine.png"
 setMugEntry(0x45, Sawine_Mug, 2, 5, 2, 3)
 
-Datta_Mug:
-#incext PortraitFormatter "Datta.png"
-setMugEntry(0x4A, Datta_Mug, 3, 5, 3, 3)
+Conall_Mug:
+#incext PortraitFormatter "Conall.png"
+setMugEntry(0x4A, Conall_Mug, 2, 4, 2, 2)
 
 Sonta_Mug:
 #incext PortraitFormatter "Sonta.png"

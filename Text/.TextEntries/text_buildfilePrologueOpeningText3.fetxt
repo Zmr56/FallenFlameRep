@@ -2,67 +2,81 @@
 
 [Right][LoadWren]
 
-[MidRight][LoadWigbrand]
+[FarRight][LoadWigbrand]
 
-[MidLeft][LoadShamira]
+[Left][LoadShamira]
 
-[Left][LoadOrvar]
-
-
-
-[MidLeft]#Shamira
-
-Lady Wren! While scouting the area with[N]
-
-Huginn we saw the approach of bandits[A][N]
-
-heading this way! If Orvar hadn't been[N]
-
-out in the woods gathering mushrooms[A][N]
-
-perhaps we'd be able to retrieve my[N]
-
-father's gift to Duke Falcone before[A][N]
-
-they arrived.[A]
+[FarLeft][LoadOrvar]
 
 
 
-[Left]#Orvar
+[Left]#Shamira
 
-I wasn't looking for mushrooms! I was[N]
+Bandits up ahead lady Wren! Apologies[N]
 
-actually the only one who thought to[A][N]
+for the delayed notice. I was compelled[A][N]
 
-scout in the woods you know, bandits[N]
+to haul Orvar over here as to prevent[N]
 
-could be anywhere! Although these[A][N]
-
-mushrooms I'm holding right now were[N]
-
-just a lucky chance encounter.[A]
-
-[MidLeft][Clear]
-
-[MidLeft][LoadHuginn]
+him from being hacked to death.[A]
 
 
 
-[MidLeft]#Huginn
+[FarRight]#Wigbrand
+
+Perfect timing...?[A]
+
+
+
+[FarLeft]#Orvar
+
+There was no need to drag me here by my[N]
+
+ear like that sis, tch... I would've[A][N]
+
+made it out of the woods myself.[A]
+
+
+
+[Right]#Wren
+
+Why were you in the woods in the first[N]
+
+place? And why are you clutching a bag[A][N]
+
+of mushrooms...?[A]
+
+
+
+[FarLeft]#Orvar
+
+Well... Uhh... You see while scouting I[N]
+
+uhh...[A]
+
+
+
+[Left][Clear]
+
+[Left][LoadHuginn]
+
+
+
+[Left]#Huginn
 
 Save it for later Orvar,[N]
 
 we've got bandits to bash.[A]
 
-[Left][ClearFace]
+[FarLeft][ClearFace]
 
 
 
-[MidRight][LoadWigbrand]
+[FarRight][LoadWigbrand]
 
 
 
-[MidRight]#Wigbrand
+[FarRight]#Wigbrand
 
 Aptly put as ever Huginn, seems like[N]
 

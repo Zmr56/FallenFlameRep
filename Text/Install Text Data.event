@@ -594,11 +594,11 @@ __TEXTPROCESS987:
 setText($987, __TEXTPROCESS987)
 
 __TEXTPROCESS988:
-#incbin ".TextEntries\text_buildfilenameDatta.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilenameConall.fetxt.dmp"
 setText($988, __TEXTPROCESS988)
 
 __TEXTPROCESS989:
-#incbin ".TextEntries\text_buildfiledescDatta.fetxt.dmp"
+#incbin ".TextEntries\text_buildfiledescConall.fetxt.dmp"
 setText($989, __TEXTPROCESS989)
 
 __TEXTPROCESS98A:

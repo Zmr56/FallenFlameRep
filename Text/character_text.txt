@@ -2,42 +2,42 @@
 Wren[X]
 
 ## descWren
-Noblewoman with much skill.[N]
-Fights for justice and truth.[X]
+Daughter to Sir Kestral of Woadlan.[N]
+Inherits her mother's warrior spirit.[X]
 
 ## nameWigbrand
 Wigbrand[X]
 
 ## descWigbrand
-Wren's loyal guardian. An[N]
-excellent swordsman and rider.[X]
+Wren's loyal but secretive guardian.[N]
+He hints at an unfulfilled ambition.[X]
 
 ## nameShamira
 Shamira[X]
 
 ## descShamira
-A ferciously loyal Knight with[N]
-great lance work. Orvar's sister.[X]
+A ferciously loyal Knight and former[N]
+city guard. Orvar's younger sister.[X]
 
 ## nameHuginn
 Huginn[X]
 
 ## descHuginn
-Gofaullian mercenary hired by Wren.[N]
+Gofaullic mercenary hired by Wren.[N]
 Talks little but cares for comrades.[X]
 
 ## nameOrvar
 Orvar[X]
 
 ## descOrvar
-A free spirited and carefree archer.[N]
-Shamira's younger brother.[X]
+A free spirited and carefree Archer.[N]
+Shamira's older but immature brother.[X]
 
 ## nameLuz
 Luz[X]
 
 ## descLuz
-A clerc with a fiery spirit. Guided[N]
+A cleric with a fiery spirit. Guided[N]
 by her strong sense of justice.[X]
 
 ## nameGad
@@ -58,15 +58,15 @@ sees Shamira as an idol.[X]
 Cato[X]
 
 ## descCato
-Gofaullian shaman. Has since lost[N]
-his status of village chieftain.[X]
+Gofaullic Shaman. Formerly a village[N]
+chief. Distrustful of imperialists.[X]
 
 ## nameSarai
 Sarai[X]
 
 ## descSarai
-One of Wren's best friends. Enjoys[N]
-riding her pegasus that was a gift.[X]
+Daughter to Duke Wystan. Being spoilt[N]
+has produced a haughty and rude girl.[X]
 
 ## nameRudyard
 Rudyard[X]
@@ -79,14 +79,14 @@ takes him. Hides a big secret.[X]
 Adela[X]
 
 ## descAdela
-A reserved and introverted noble[N]
+A reserved and introverted princess[N]
 woman. Misses her brother dearly.[X]
 
 ## nameNuri
 Nuri[X]
 
 ## descNuri
-Adela's loyal retainer. Deeply[N]
+Adela's newest retainer. Deeply[N]
 devoted to her land and family.[X]
 
 ## nameApollo
@@ -124,12 +124,12 @@ Sawine[X]
 A low ranking pirate captain who's[N]
 well versed in the ways of the axe.[X]
 
-## nameDatta
-Datta[X]
+## nameConall
+Conall[X]
 
-## descDatta
-Petty pirate, hired by the[N]
-Wyvemberian Empire.[X]
+## descConall
+A former militia man aiding the[N]
+pirate invasion into Blumari.[X]
 
 ## nameAttab
 Attab[X]
