@@ -180,6 +180,13 @@ Wazzak[X]
 A cruel pirate with a gluttonous[N]
 appetite for gold.[X]
 
+## nameAgni
+Agni[X]
+
+## descAgni
+A hotheaded Fire Manakete commander.[N]
+Cousin to the emperor of Wyvember.[X]
+
 ## nameNaiburn
 Naiburn[X]
 

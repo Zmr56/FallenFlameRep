@@ -40,3 +40,10 @@ Axe Cav[X]
 ## descAxeCav
 Mounted knights with swift movement.[NL]
 Equip: Axes.[X]
+
+## nameFireDragon
+Fire Dragon[X]
+
+## descFireDragon
+Manaketes who are one with fire.[NL]
+Equip: Dragonstones.[X]

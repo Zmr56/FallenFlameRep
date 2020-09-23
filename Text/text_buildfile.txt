@@ -105,11 +105,17 @@ Nzappa[X]
 ## nameCalibane
 Calibane[X]
 
+## nameRaze
+Raze[X]
+
 ## descCalibane
 Effective against magic users.[X]
 
 ## descRapier
 Eff. vs horse, armour. Reverses WT.[X]
+
+## descRaze
+A close quarters breath of fire.[X]
 
 #include "statscreen_text.txt"
 

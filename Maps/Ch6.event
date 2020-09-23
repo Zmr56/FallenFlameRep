@@ -8,26 +8,21 @@ Map:
 #incbin "Ch6_data.dmp"
 
 MapChanges:
-TileMap(0,13,0,1,1,Chest1)
-TileMap(1,13,1,1,1,Chest2)
-TileMap(2,2,13,3,2,NVD)
-TileMap(3,3,14,1,1,NVS)
-TileMap(4,5,13,3,2,EVD)
-TileMap(5,6,14,1,1,EVS)
-TileMap(6,3,17,3,2,SVD)
-TileMap(7,4,18,1,1,SVS)
+TileMap(0,2,5,1,1,Door)
+TileMap(1,6,11,3,2,NVD)
+TileMap(2,7,12,1,1,NVS)
+TileMap(3,7,15,3,2,EVD)
+TileMap(4,8,16,1,1,EVS)
+TileMap(5,13,15,3,2,WVD)
+TileMap(6,14,16,1,1,WVS)
 TileMapEnd
 
-Chest1:
-SHORT 0x100 
-ALIGN 4
-
-Chest2:
-SHORT 0x100 
+Door:
+SHORT 0x8bc 0xb90 0xb94 0xb84 0xc10 0xc14 0xc04 
 ALIGN 4
 
 NVD:
-SHORT 0xb90 0xb94 0xb98 0xc10 0xc14 0xc18 
+SHORT 0xb90 0xb94 0xb84 0xc10 0xc14 0xc04 
 ALIGN 4
 
 NVS:
@@ -42,11 +37,11 @@ EVS:
 SHORT 0x80 
 ALIGN 4
 
-SVD:
+WVD:
 SHORT 0xb90 0xb94 0xb98 0xc10 0xc14 0xc18 
 ALIGN 4
 
-SVS:
+WVS:
 SHORT 0x80 
 ALIGN 4
 

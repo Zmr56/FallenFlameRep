@@ -22,15 +22,31 @@ RemoveOP:
 
 #include "Master Animation Installer.event"
 
-/*
+
 PUSH
-ORG $59EE2
-POIN NewMapSpritePal
+ORG $59EE20
+#incext Png2Dmp "player.png" --palette-only
 POP
 
-NewMapSpritePal:
-#incext Png2Dmp "MapSpritePaletteDump.png" --palette-only
-*/
+PUSH
+ORG $59EE40
+#incext Png2Dmp "enemy.png" --palette-only
+POP
+
+PUSH
+ORG $59EE60
+#incext Png2Dmp "npc.png" --palette-only
+POP
+
+PUSH
+ORG $59EE80
+#incext Png2Dmp "wait.png" --palette-only
+POP
+
+PUSH
+ORG $59EEA0
+#incext Png2Dmp "fourth.png" --palette-only
+POP
 
 //Stat screen
 PUSH

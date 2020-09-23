@@ -10,3 +10,7 @@ setMugEntry(0x52, Falcone_Mug, 3, 6, 3, 4)
 WystanSoldier_Mug:
 #incext PortraitFormatter "WystanSoldier.png"
 setMugEntry(0xAD, WystanSoldier_Mug, 2, 5, 3, 3)
+
+Agni_Mug:
+#incext PortraitFormatter "Agni.png"
+setMugEntry(0x32, Agni_Mug, 2, 4, 2, 2)

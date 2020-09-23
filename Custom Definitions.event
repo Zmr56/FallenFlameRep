@@ -70,6 +70,7 @@
 #define Apollo 0xE
 #define Iara 0xF
 #define Evander 0x10
+#define Nemain 0x11
 
 #define Conall Lyon_Ch17
 #define Wizvil Morva_Ch20
@@ -90,6 +91,7 @@
 #define AxeCavF 0x55
 #define LanceCavF 0x56
 #define SwordCavF 0x57
+#define FireDragon 0x65
 
 // Item definitions
 #define Vampus 0xBC
@@ -102,6 +104,7 @@
 #define Francisca 0xC3
 #define Nzappa 0xC4
 #define Calibane 0xC5
+#define Raze 0xB1
 
 #define VampusIconID 0xCA
 #define VenenumIconID 0xCB

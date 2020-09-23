@@ -38,3 +38,7 @@ Map_LncKnightStand:
 #incext Png2Dmp "LncKnightStanding.png" --lz77
 Map_LncKnightMoving:
 #incext Png2Dmp "LncKnightMoving.png" --lz77
+Map_FireDragonStand:
+#incext Png2Dmp "FireDragonStanding.png" --lz77
+Map_FireDragonMoving:
+#incext Png2Dmp "FireDragonMoving.png" --lz77
