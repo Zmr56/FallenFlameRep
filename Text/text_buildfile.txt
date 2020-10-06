@@ -21,6 +21,12 @@ Kill 2 bosses.[X]
 #first text ID in the free block
 [OpenMidLeft][LoadFace][WrenPortrait]This is placeholder text![A][X]
 
+## PrepScreenSupportDescText
+Placeholder[X]
+
+## PrepScreenSupportErrorText
+Placeholder[X]
+
 ## DV1Desc
 Freeze all enemies[N]
 for one turn[X]
@@ -43,6 +49,9 @@ Zeke[X]
 
 ## VillageText
 [MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
+
+## BaseConvoSelectConvoText
+Select a conversation.[X]
 
 ## PrologueStatus
 Kill Datta.[X]

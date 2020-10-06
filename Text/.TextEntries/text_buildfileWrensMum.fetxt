@@ -1,0 +1,164 @@
+
+
+[Right][LoadCato]
+
+
+
+[Right]#Cato
+
+Such savages...[A]
+
+
+
+[Left][LoadWren]
+
+
+
+[Left]#Wren
+
+What's that there, elder Cato?[A]
+
+
+
+[Right]#Cato
+
+It appears to be a painting of someone.[N]
+
+Albeit, enemies have tarnished it.[A][N]
+
+The remains of it feel familiar to me.[A]
+
+
+
+[Left]#Wren
+
+That would be a painting of my mother,[N]
+
+Priestess Godiva Osprey.[A]
+
+
+
+[Right]#Cato
+
+Hmmm, the name rings no bells.[N]
+
+Still, it bears some similarities to a[A][N]
+
+chieftain's daughter near my home.[A]
+
+
+
+[Left]#Wren
+
+Would that be Heidrun Siguld?[A]
+
+
+
+[Right]#Cato
+
+Funnily enough yes... How did you know?[A]
+
+
+
+[Left]#Wren
+
+Because they're one and the same![N]
+
+My mum had to change her name.[A][N]
+
+She had to convert from paganism when[N]
+
+marrying my dad. Naturally the name[A][N]
+
+changed from a pagan one too.[N]
+
+
+
+[Right]#Cato
+
+That's... Peculiar. Your mother was...[N]
+
+Well, she didn't seem like she'd settle[A][N]
+
+down here. Based on what I knew of her.[A]
+
+
+
+[Left]#Wren
+
+How so, Cato?[A]
+
+
+
+[Right]#Cato
+
+She was a wildchild back in the day.[N]
+
+Terrifying warrior too. She valued[A][N]
+
+her independence greatly and turned[N]
+
+down many a suitor seeking her love.[A]
+
+
+
+[Left]#Wren
+
+Huh, that's usually what people say[N]
+
+about my dad. Weird. Oh well, I guess[A][N]
+
+they must've had a lot in common.[N]
+
+People don't usually talk about my mum.[A]
+
+
+
+[Right]#Cato
+
+Perhaps that'd explain why you were[N]
+
+happy to stop around for a chat in the[A][N]
+
+middle of a battle when we met.[N]
+
+Only your mother would've done[A][N]
+
+something like that. She always took[N]
+
+out time to know others.[A][N]
+
+Yes, she was a very sociable figure.[A]
+
+
+
+[Left]#Wren
+
+I guess a part of me is like that too.[N]
+
+Although, wildchild? Ehh...[A][N]
+
+I don't see that in myself...[A]
+
+
+
+[Right]#Cato
+
+I suppose. You're your own person,[N]
+
+after all. Although if you don't return[A][N]
+
+to the field, maybe Wigbrand might find[N]
+
+wildchild to be an apt description.[A]
+
+
+
+[Left]#Wren
+
+Oh dear! We've really ran over time.[N]
+
+Well, take care elder Cato![A]
+
+[X]
+

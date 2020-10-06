@@ -1,0 +1,112 @@
+
+
+[Left][LoadShamira]
+
+
+
+[Left]#Shamira
+
+*Sigh*...[A]
+
+
+
+[Right][LoadOrvar]
+
+
+
+[Right]#Orvar
+
+Still on the ship, sis?[A]
+
+
+
+[Left]#Shamira
+
+Don't worry, I'm coming down.[A]
+
+
+
+[Right]#Orvar
+
+This usually isn't like you.[N]
+
+Did I do something to upset you again?[A]
+
+
+
+[Left]#Shamira
+
+It's not that... It's just you know,[N]
+
+when we were back in the Blooport.[A]
+
+
+
+[Right]#Orvar
+
+Did it bring back memories?[A]
+
+
+
+[Left]#Shamira
+
+Yeah... I guess.[N]
+
+It just makes me realise how much[A][N]
+
+different things are over there.[N]
+
+They have it pretty well, don't they?[A]
+
+
+
+[Right]#Orvar
+
+..and Woadlan and Wystan get nothing.[N]
+
+I don't see why they fortified the[A][N]
+
+capital so heavily and left us to[N]
+
+stretch ourselves so thin.[A]
+
+
+
+[Left]#Shamira
+
+That's just how it's always been.[N]
+
+They'll work us like donkeys because[A][N]
+
+they can. They see us as donkeys too.[A]
+
+
+
+[Right]#Orvar
+
+Lemme guess, your old friends at the[N]
+
+Blooport Guard didn't give a damn when[A][N]
+
+you showed up again last week?[A]
+
+
+
+[Left]#Shamira
+
+Something like that. I'm just glad to[N]
+
+be with you and Wren, brother.[A]
+
+
+
+[Right]#Orvar
+
+Me too, sis. As long as we got each[N]
+
+other, we don't need to cosy up to the[A][N]
+
+Blooport bigwigs.[A]
+
+[X]
+

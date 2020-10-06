@@ -1,0 +1,39 @@
+
+#ifndef BASE_CONVO_TABLE
+	#define BASE_CONVO_TABLE
+
+	#define BaseConvoSize 32 // This NEEDS to be divisible by 4.
+	// I'd really prefer to be able to access sizeof(BaseConvoEntry), but idk if that's possible yet.
+
+	ALIGN 4
+	BaseConvoTable: // Allocate 0xFF * 8 entries. 0xFF chapters, 8 entries per chapter.
+	FILL 0xFF*8*BaseConvoSize
+
+	{
+	#include "ConvoTableDefs.event"
+	PUSH
+
+	Chapter(0x06)
+		Entry
+			name(HMSJeorge)
+			bg(0x08)
+			text(ShamiraReflect)
+			music(0x28)
+			eventID(0x07)
+		Entry
+			name(BlessiaShrine)
+			bg(0x13)
+			text(LuzPreach)
+			music(0x2B)
+			eventID(0x08)
+		Entry
+			name(CathedralRuins)
+			bg(0x29)
+			text(WrensMum)
+			music(0x27)
+			eventID(0x09)
+
+	POP
+	}
+#endif // BASE_CONVO_TABLE
+

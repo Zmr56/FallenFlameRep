@@ -1,0 +1,134 @@
+
+
+[Right][LoadLuz]
+
+
+
+[Right]#Luz
+
+...and give us your blessing,[N]
+
+oh great Goddess. Verily.[A]
+
+
+
+[Left][LoadRudyard]
+
+
+
+[Left]#Rudyard
+
+Hey, Luz. You ready to head out?[A]
+
+
+
+[Right]#Luz
+
+Oh, Rudyard. Are you here to pray too?[A]
+
+
+
+[Left]#Rudyard
+
+Nah, just checking on you.[N]
+
+Sarai sent me over here.[A]
+
+
+
+[Right]#Luz
+
+Ah, very well. I won't be too long.[N]
+
+You should pray too, you know.[A][N]
+
+It's a rare occassion to be able to[N]
+
+make the pilgrimage to Blessia.[A]
+
+
+
+[Left]#Rudyard
+
+Yeah, yeah... I know. I'm just not[N]
+
+ready yet, you know?[A]
+
+
+
+[Right]#Luz
+
+How so? Even a short prayer will do.[N]
+
+Praying here for a moment will reward[A][N]
+
+you with a year's worth of blessings.[N]
+
+We surely need all the Goddess' love[A][N]
+
+for the road ahead.[A]
+
+
+
+[Left]#Rudyard
+
+The Goddess is probably merciful enough[N]
+
+to let me off this one time.[A][N]
+
+She might protect me anyway. I think.[N]
+
+Is that how it works...?[A]
+
+
+
+[Right]#Luz
+
+If you struggle to find the heart to[N]
+
+pray for yourself... I won't force you.[A][N]
+
+But please, at the very least pray for[N]
+
+lady Sarai. I know your faith is shaky[A][N]
+
+right now Rudyard, but you do believe.[A]
+
+
+
+[Left]#Rudyard
+
+...I guess. Sure, I'll do it then.[N]
+
+Maybe next year I'll be back and put in[A][N]
+
+a prayer for myself.[A]
+
+
+
+[Right]#Luz
+
+Thank you, Rudyard.[N]
+
+It really means a lot to me.[A]
+
+
+
+[Left]#Rudyard
+
+No problem! Now...[N]
+
+Oh Goddess, uhh... I umm...[A][N]
+
+Luz, I might've forgotten the words...[A]
+
+
+
+[Right]#Luz
+
+Don't worry, I'll guide you through it.[N]
+
+Now, Oh Goddess...[A]
+
+[X]
+

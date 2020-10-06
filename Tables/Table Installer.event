@@ -46,6 +46,8 @@
 
 #include "FE8 Nightmare modules\Misc\Modular EXP Class Table.event"
 
+#include "FE8 Nightmare modules\Misc\Prep Screen Table.event"
+
 #include "FE8 Nightmare modules\Misc\AdvWeaponLocks\WeaponLockArray.event"
 
 #include "FE8 Nightmare modules\Misc\Biorhythm\Biorhythm Editor.event"
