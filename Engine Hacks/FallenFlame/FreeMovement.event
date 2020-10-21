@@ -1,0 +1,84 @@
+
+#ifndef FREE_MOVEMENT_INSTALLED
+#define FREE_MOVEMENT_INSTALLED
+
+	#include "EngineHacks_old\Engine Hacks\PopupRework\Extensions/ProcDefinitions.txt"
+	#ifndef PROC_YIELD
+		#define PROC_YIELD PROC_YEILD
+	#endif // PROC_YIELD
+	
+	
+	//so we want to tack our stuff onto an existing proc run through here
+	//it's what's run when you're moving the cursor on the map so it helps
+	//set a flag at 203F2B0 to determine if it's in free movement mode or not
+	//this is part of an unused area within debuff table data that gets saved through suspend with that
+	
+	//change of plans, let's hook into NewPlayerPhaseProc to conditionally do ours instead
+	
+	PUSH
+	
+	ORG $59A38C
+	POIN NewPlayerPhaseEvaluationFunc
+	ORG $59A3B4
+	POIN NewPlayerPhaseEvaluationFunc
+	
+	ORG $59A2E4
+	POIN NewMakePhaseControllerFunc
+	
+	POP
+	
+	#define EnableFreeMovement "ASMC EnableFreeMovementASMC"
+	#define DisableFreeMovement "ASMC DisableFreeMovementASMC"
+	
+	#include "FreeMovement.lyn.event"
+	
+	ALIGN 4
+	FreeMovementControlProc:
+	PROC_SET_NAME(FreeMovementProcName)
+	PROC_SET_MARK(2)
+	PROC_YIELD
+	
+	PROC_LABEL(0)
+	PROC_CALL_ROUTINE($801C895) // ClearActionAndSave
+	PROC_CALL_ROUTINE($801A1F5) // RefreshFogAndUnitMaps
+	PROC_CALL_ROUTINE($8019C3D) // UpdateGameTilesGraphics
+	PROC_CALL_ROUTINE($80271A1) // SMS_UpdateFromGameData
+	PROC_CALL_ROUTINE($80160D1) // UpdatePlayMapMusic
+	
+	PROC_LABEL(9)
+	//PROC_CALL_ROUTINE($808D13D) // start player phase interface proc
+	PROC_CALL_ROUTINE($8027A41) // reset map sprite hover timer
+	
+	PROC_LOOP_ROUTINE(FreeMovement_MainLoop)
+	
+	PROC_LABEL(16)
+	PROC_SLEEP(5)
+	PROC_GOTO(9)
+	
+	PROC_LABEL(8)
+	PROC_SLEEP(2)
+	PROC_GOTO(9)
+	
+	PROC_END //unsure if this will ever get run actually but w/e better safe than sorry and also lets us end free movement just by killing the proc loop
+	
+	ALIGN 4
+	FreeMovementProcName:
+	String(E_FREEMOVE)
+	BYTE 0
+	
+	ALIGN 4
+	FreeMovementLMenu:
+	MenuBoxFull($01, $02, $07, 0, 0, FreeMovementMenuTable, $0, $0, $0, FreeMovementMenuOnBPress, $4F521, $4F459)
+	
+	ALIGN 4
+	FreeMovementMenuTable:
+	MM_Status
+	MM_Guide
+	MM_Dunno1
+	MM_Dunno2
+	MM_Suspend
+	MM_Separator
+
+
+#endif // FREE_MOVEMENT_INSTALLED
+

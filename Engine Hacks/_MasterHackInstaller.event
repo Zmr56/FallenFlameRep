@@ -196,6 +196,9 @@ POP
   ALIGN 4
   #include "Necessary/StatGetters/_InstallStatGetters.event"
   
+  ALIGN 4
+  #include "FallenFlame/MakeShopASMC.lyn.event"
+  
   //Growth Getters
   #ifndef USE_STRMAG_SPLIT
     #include "Necessary/GrowthGetters/GrowthGetters.event"
@@ -212,6 +215,9 @@ POP
   
   #include "Necessary/CalcLoops/CalcLoops.event"
 
+   ALIGN 4
+  #include "FallenFlame/FreeMovement.event"
+  
   #ifdef STAIRS_ASM
     #ifndef USE_SAVE_EXPANSION
 	  #define USE_SAVE_EXPANSION // Force use of EMS with Stairs (for saving the stair debuff byte in suspend).

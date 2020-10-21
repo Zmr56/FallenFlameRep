@@ -1,0 +1,80 @@
+EventPointerTable(0x21, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Seize(14,1)
+Chest(RedGem,18,0)
+Chest(RedGem,19,0)
+END_MAIN
+
+MiscBasedEvents:
+//CauseGameOverIfLordDies
+//DefeatAll(EndingScene)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+Tutorial:
+END_MAIN
+
+ALIGN 4
+Units1:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [14,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [9,18] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+/*
+Bad:
+UNIT Bazba Fighter 0x00 Level(1, Enemy, 0) [0,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x80 Fighter Bazba Level(1, Enemy, 0) [1,1] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+*/
+ALIGN 4
+BeginningScene:
+LOAD1 0 Units1
+ENUN
+
+CAM1 Eirika
+FADU 10
+
+EnableFreeMovement
+
+NoFade
+ENDA
+
+EndingScene:
+//MNCH 6
+NoFade
+ENDA
