@@ -4,11 +4,11 @@
 ALIGN 4
 ForceDeployList:
 ForceDeployEntry(Wren,0xFF)
-ForceDeployEntry(Adela,0x04)
-ForceDeployEntry(Nuri,0x04)
-ForceDeployEntry(Iara,0x06)
-ForceDeployEntry(Apollo,0x06)
-ForceDeployEntry(Evander,0x07)
+ForceDeployEntry(Adela,0x06)
+ForceDeployEntry(Nuri,0x06)
+ForceDeployEntry(Iara,0x07)
+ForceDeployEntry(Apollo,0x07)
+ForceDeployEntry(Evander,0x08)
 EndForceDeploy
 
 PUSH

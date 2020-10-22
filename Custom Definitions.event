@@ -41,7 +41,10 @@
 #define LunarBrace MoonBracelet
 #define SolarBrace SunBracelet
 
+#define PROC_YIELD "PROC_SLEEP(0)"
+
 #include "Engine Hacks/SkillSystem/skill_definitions.event"
+#include "Engine Hacks/BaseConversations/ProcDefinitions.event"
 #include "Event Assembler/Extensions/AI Assembly.txt"
 
 #define AnimTableEntry(index) "ORG ClassAnimTable - 0x20 + (index * 0x20)"
