@@ -74,6 +74,8 @@
 #define Iara 0xF
 #define Evander 0x10
 #define Nemain 0x11
+#define Mordred 0x30
+#define Kestral 0x31
 
 #define Conall Lyon_Ch17
 #define Wizvil Morva_Ch20

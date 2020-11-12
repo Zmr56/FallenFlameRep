@@ -1,5 +1,5 @@
 
-#ifdef ESCAPE_ARRIVE
+//#ifdef ESCAPE_ARRIVE
 
 	#define LordMustEscapeLastFlag 0x128
 	
@@ -43,14 +43,14 @@
 	#incbin "FinalEscapeHook.dmp"
 
 	
-	/* // Integrated into post-action calc loop.
+	// Integrated into post-action calc loop.
 	PUSH
 	ORG 0x1879C//fixing the branch here
 	SHORT 0xD004
 	ORG 0x187A8
 	jumpToHack(FinalEscapeThing)
 	POP
-	*/
+	
 	
 	#define Arrive(seizeX,seizeY) "LOCA 3 [seizeX,seizeY] 0x19"
 	#define Arrive(eventID,offset,seizeX,seizeY) "LOCA eventID offset [seizeX,seizeY] 0x12"
@@ -60,4 +60,4 @@
 	//This will set the given flag if the unit did not escape
 	#define EscapeCapturedCheck(charID,flagID) "SVAL 0xD 0; SVAL 1 charID; SENQUEUE 1; SVAL 1 flagID; SENQUEUE 1; CALL ThraciaEscapeProcessor"
 
-#endif // ESCAPE_ARRIVE
+//#endif // ESCAPE_ARRIVE

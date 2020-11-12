@@ -1,0 +1,1010 @@
+EventPointerTable(HubEventsID, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEvent(0,VanessaTalk,Moulder,Vanessa)
+CharacterEvent(0,GilliamTalk,Moulder,Gilliam)
+CharacterEvent(0,BazbaTalk,Moulder,Bazba)
+END_MAIN
+
+#define Chest(id,item,x,y) "CHES id item [x,y] 0x14"
+#define Door(id,x,y) "DOOR id [x,y] 0x12"
+
+ALIGN 4
+LocationBasedEvents:
+House(0,RedHouse1,12,1)
+House(0,TanHouse2,19,1)
+House(0,RedHouse3,36,7)
+House(0,RedHouse4,38,7)
+House(0,TanHouse5,1,7)
+House(0,RedHouse6,7,7)
+House(0,TanHouse7,12,7)
+House(0,RedHouse8,8,12)
+House(0,RedHouse9,36,13)
+House(0,Arena10,1,27)
+House(0,Vendor11,14,22)
+House(0,Tavern12,19,20)
+House(0,Tavern13,25,20)
+House(0,Vendor14,19,10)
+House(0,Vendor15,19,13)
+House(0,Armory16,24,10)
+House(0,Armory17,24,13)
+House(0,Tavern18,31,10)
+Door(18,21,8)
+Door(19,22,8)
+Chest(20,Elixir,22,14)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+AREA 0 TestAreaEvent [24,6] [24,6]
+END_MAIN
+
+TestAreaEvent:
+Text(TestFreeMoveText)
+NoFade
+ENDA
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT
+
+EnemyUnits:
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+RedHouse1:
+CALL SkirmishInGallia_Start
+NoFade
+ENDA
+
+TanHouse2:
+CALL ManaketeMayhem_Start
+NoFade
+ENDA
+
+RedHouse3:
+CALL FatedRevelations_Start
+NoFade
+ENDA
+
+RedHouse4:
+CALL BloodFeud_Start
+NoFade
+ENDA
+
+TanHouse5:
+CALL StatusSanctuary_Start
+NoFade
+ENDA
+
+RedHouse6:
+CALL FromTheDarkness_Start
+NoFade
+ENDA
+
+TanHouse7:
+CALL DemonBlood_Start
+NoFade
+ENDA
+
+RedHouse8:
+CALL AceAttorney_Start
+NoFade
+ENDA
+
+RedHouse9:
+CALL Minesweeper_Start
+NoFade
+ENDA
+
+Arena10:
+Text(EmptyHouseText)
+NoFade
+ENDA
+
+Vendor11: //Merchant Madness
+CALL MerchantMadness_Start
+NoFade
+ENDA
+
+Tavern12:
+CALL GameplayModifiers_Start
+NoFade
+ENDA
+
+Tavern13:
+CALL Credits_Start
+NoFade
+ENDA
+
+VendorShopList:
+BYTE IronSword 10 IronSword 40 IronSword 95 IronLance 10 IronLance 40 IronLance 95 0 0
+
+ALIGN 4
+Vendor14:
+SVAL s1 Moulder //temp, this should be doable with active unit but that requires rewriting the asmc slightly
+//SVAL s2 VendorShopList|IsPointer
+//SVAL s3 1 //vendor shop type
+//ASMC MakeShopASMC
+ASMC ChangeControlledUnitASMC
+NoFade
+ENDA
+
+Vendor15:
+Text(EmptyHouseText)
+NoFade
+ENDA
+
+Armory16:
+Text(EmptyHouseText)
+NoFade
+ENDA
+
+Armory17:
+Text(EmptyHouseText)
+NoFade
+ENDA
+
+Tavern18:
+Text(EmptyHouseText)
+NoFade
+ENDA
+
+VanessaTalk:
+Text(TestVanessaTalk)
+NoFade
+ENDA
+
+BazbaTalk:
+Text(TestBazbaTalk)
+NoFade
+ENDA
+
+GilliamTalk:
+Text(TestGilliamTalk)
+NoFade
+ENDA
+
+FreeMoveUnits:
+UNIT Eirika EirikaLord 0 Level(1,Ally,0) [21,7] 0 0 0 1 [BlueGem] NoAI
+UNIT Vanessa PegasusKnight 0 Level(1,Ally,0) [32,30] 0 0 0 1 NoItems NoAI
+UNIT Moulder Priest 0 Level(1,Ally,0) [32,3] 0 0 0 1 NoItems NoAI
+UNIT Bazba Fighter 0 Level(1,Enemy,0) [34,3] 0 0 0 1 NoItems NoAI
+UNIT Gilliam Knight 0 Level(1,NPC,0) [5,16] 0 0 0 1 NoItems NoAI
+UNIT
+
+BeginningScene:
+
+//this is going to be a chapter select hub
+//referencing stan stuff we can do it with route split boxes
+//but should have variable text?
+//it may be easier to do this EN-style
+//where you talk to a unit to select a chapter
+//or they could just always be played in a specific order idk
+//would rather not do that tho
+//aaaaactually, we can just do the thing
+//nvm then 1 menu works
+//actually probably more than 1 more like 3 or 4
+//that can be cycled through
+
+
+//ok so recursive event calls are a bad idea because there's only room for like 8 events in the queue for that
+//time to restructure everything ig
+
+
+//made free movement which obsoleted the menus lol
+
+LOAD1 0 FreeMoveUnits
+ENUN
+
+
+CAM1 Eirika
+
+FADU 10
+
+CHECK_EVENTID OpeningViewedFlag
+BNE 0 s0 sC
+ScrollBoxText(HubFreeMoveTutorial)
+ENUT OpeningViewedFlag
+LABEL 0
+
+// MOVE 7 Eirika [21,4] (up 3)
+//first byte is direction?
+//0 Left - 1 Right - 2 Up - 3 Down
+// 02 03 03 04
+
+//MOVE 1 Eirika [21,4] (up 3)
+// 03 03 03 04
+
+//MOVE 20 Eirika [21,4] (up 3)
+// 03 03 03 04
+
+//MOVE 1 Eirika [20,7] (left 1)
+// 00 04 00 00
+
+//MOVE 1 Eirika [19,7] (left 2)
+// 00 00 04 00
+
+EnableFreeMovement
+
+NoFade
+ENDA
+
+
+EVBIT_MODIFY 4
+
+ScrollBoxText(AADemoHubGotoText)
+//ASMC DisableFreeMovementASMC
+MNC2 AceAttorneyChID
+
+NoFade
+ENDA
+
+
+CHECK_EVENTID OpeningViewedFlag
+BNE 0 s0 sC
+CALL FirstTimeOpeningEvent
+LABEL 0
+
+//have we unlocked any new modifiers?
+CALL HandleNewModifiersEvent
+
+//pre-menu text
+ScrollBoxText(HubPreMenuText)
+
+//call menu
+CALL CallFirstMenu
+
+
+
+NoFade
+ENDA
+
+
+
+
+
+
+
+
+
+ALIGN 4
+EndingScene:
+MNC2 HubChID
+NoFade
+ENDA
+
+
+
+
+
+
+
+
+
+ALIGN 4
+FirstTimeOpeningEvent:
+//this only plays the first time you start up a new file
+//because it sets a flag to say 'dont play me again'
+ENUT OpeningViewedFlag
+
+
+NoFade
+ENDA
+
+#define FirstMenuStartLabel 666
+#define SecondMenuStartLabel 420
+#define ThirdMenuStartLabel 69
+#define BonusMenuStartLabel 7889
+
+ALIGN 4
+CallFirstMenu:
+LABEL FirstMenuStartLabel
+CLEAN
+
+SVAL s1 HubMenuPage1|IsPointer
+ASMC CallEventMenuASMC|1 //returns number based on entry # in list that was selected, 0-indexed
+BNE 0 s0 sC
+
+GOTO ThirdMenuStartLabel
+
+LABEL 0
+SVAL s1 1
+BNE 1 s1 sC
+
+//confirm for Skirmish in Gallia
+CALL SkirmishInGallia_Start
+GOTO FirstMenuStartLabel
+
+LABEL 1
+SVAL s1 2
+BNE 2 s1 sC
+
+//confirm for Manakete Mayhem
+CALL ManaketeMayhem_Start
+GOTO FirstMenuStartLabel
+
+LABEL 2
+SVAL s1 3
+BNE 3 s1 sC
+
+//confirm for Fated Revelations
+CALL FatedRevelations_Start
+GOTO FirstMenuStartLabel
+
+LABEL 3
+SVAL s1 4
+BNE 4 s1 sC
+
+//confirm for Status Sanctuary
+CALL StatusSanctuary_Start
+GOTO FirstMenuStartLabel
+
+LABEL 4
+SVAL s1 5
+BNE 5 s1 sC
+
+//load next page (always 2)
+GOTO SecondMenuStartLabel
+
+LABEL 5
+
+//If we end up here, something has gone horribly wrong
+ScrollBoxText(HubMenu1ErrorText)
+
+GOTO FirstMenuStartLabel //recursion bad
+
+
+LABEL SecondMenuStartLabel
+CLEAN
+
+SVAL s1 HubMenuPage2|IsPointer
+ASMC CallEventMenuASMC|1 //returns number based on entry # in list that was selected, 0-indexed
+BNE 10 s0 sC
+
+//load last menu, always 1
+GOTO FirstMenuStartLabel
+
+LABEL 10
+SVAL s1 1
+BNE 11 s1 sC
+
+//confirm for blood feud
+CALL BloodFeud_Start
+GOTO SecondMenuStartLabel
+
+LABEL 11
+SVAL s1 2
+BNE 12 s1 sC
+
+//confirm for from the darkness
+CALL FromTheDarkness_Start
+GOTO SecondMenuStartLabel
+
+LABEL 12
+SVAL s1 3
+BNE 13 s1 sC
+
+//confirm for merchant madness
+CALL MerchantMadness_Start
+GOTO SecondMenuStartLabel
+
+LABEL 13
+SVAL s1 4
+BNE 14 s1 sC
+
+//confirm for mini thracia
+CALL MiniThracia_Start
+GOTO SecondMenuStartLabel
+
+LABEL 14
+SVAL s1 5
+BNE 15 s1 sC
+
+//load next page
+GOTO ThirdMenuStartLabel
+
+LABEL 15
+
+//If we end up here, something has gone horribly wrong
+ScrollBoxText(HubMenu2ErrorText)
+
+GOTO SecondMenuStartLabel //recursion bad
+
+
+
+LABEL ThirdMenuStartLabel
+CLEAN
+
+SVAL s1 HubMenuPage3|IsPointer
+ASMC CallEventMenuASMC|1 //returns number based on entry # in list that was selected, 0-indexed
+BNE 20 s0 sC
+
+//load last menu, always 2
+GOTO SecondMenuStartLabel
+
+LABEL 20
+SVAL s1 1
+BNE 21 s1 sC
+
+//confirm for demon's blood
+CALL DemonBlood_Start
+GOTO ThirdMenuStartLabel
+
+LABEL 21
+SVAL s1 2
+BNE 22 s1 sC
+
+//confirm for gameplay modifiers
+GOTO BonusMenuStartLabel
+
+LABEL 22
+SVAL s1 3
+BNE 23 s1 sC
+
+//confirm for gameplay modifiers
+CALL GameplayModifiers_Start
+GOTO ThirdMenuStartLabel
+
+LABEL 23
+SVAL s1 4
+BNE 24 s1 sC
+
+//confirm for credits
+CALL Credits_Start
+GOTO ThirdMenuStartLabel
+
+LABEL 24
+SVAL s1 5
+BNE 25 s1 sC
+
+//load next page (always 1)
+GOTO FirstMenuStartLabel
+
+LABEL 25
+
+//If we end up here, something has gone horribly wrong
+ScrollBoxText(HubMenu3ErrorText)
+
+GOTO ThirdMenuStartLabel //recursion bad
+
+
+
+LABEL BonusMenuStartLabel
+CLEAN
+
+SVAL s1 BonusMenu|IsPointer
+ASMC CallEventMenuASMC|1 //returns number based on entry # in list that was selected, 0-indexed
+
+BNE 26 s0 sC
+CALL AceAttorney_Start
+GOTO BonusMenuStartLabel
+
+LABEL 26
+SVAL s1 1
+BNE 27 s1 sC
+CALL Minesweeper_Start
+GOTO BonusMenuStartLabel
+
+LABEL 27
+SVAL s1 2
+BNE 28 s1 sC
+GOTO ThirdMenuStartLabel
+
+LABEL 28
+
+Text(BonusMenuErrorText)
+GOTO BonusMenuStartLabel
+
+NoFade
+ENDA
+
+
+
+
+
+
+
+
+//confirmation events for each menu option
+
+ALIGN 4
+SkirmishInGallia_Start:
+ScrollBoxText(HubMenuSkirmishInGalliaConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+MNC2 SkirmishInGalliaChID
+NoFade
+ENDB
+
+LABEL 0
+NoFade
+ENDA
+
+ALIGN 4
+ManaketeMayhem_Start:
+//if Skirmish in Gallia is not beaten, this chapter cannot be played yet and should give an error when this occurs and kick you back to the menu
+CHECK_EVENTID SkirmishInGalliaBeatenFlag
+BNE 1 s0 sC
+
+ScrollBoxText(HubMenuManaketeMayhemLocked)
+GOTO 0
+
+LABEL 1
+ScrollBoxText(HubMenuManaketeMayhemConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+MNC2 ManaketeMayhemChID
+NoFade
+ENDB
+
+LABEL 0
+NoFade
+ENDA
+
+ALIGN 4
+FatedRevelations_Start:
+ScrollBoxText(HubMenuFatedRevelationsConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+MNC2 FatedRevelationsChID
+NoFade
+ENDB
+
+LABEL 0
+NoFade
+ENDA
+
+ALIGN 4
+StatusSanctuary_Start:
+ScrollBoxText(HubMenuStatusSanctuaryConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+MNC2 StatusSanctuaryChID
+NoFade
+ENDB
+
+LABEL 0
+NoFade
+ENDA
+
+ALIGN 4
+BloodFeud_Start:
+//if Fated Revelations is not beaten, then this is locked
+CHECK_EVENTID FatedRevelationsBeatenFlag
+BNE 1 s0 sC
+
+ScrollBoxText(HubMenuBloodFeudLocked)
+GOTO 0
+
+LABEL 1
+ScrollBoxText(HubMenuBloodFeudConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+MNC2 BloodFeudChID
+NoFade
+ENDB
+
+LABEL 0
+NoFade
+ENDA
+
+ALIGN 4
+FromTheDarkness_Start:
+ScrollBoxText(HubMenuFromTheDarknessConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+MNC2 FromTheDarknessChID
+NoFade
+ENDB
+
+LABEL 0
+NoFade
+ENDA
+
+ALIGN 4
+MerchantMadness_Start:
+ScrollBoxText(HubMenuMerchantMadnessConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+MNC2 MerchantMadnessChID
+NoFade
+ENDB
+
+LABEL 0
+NoFade
+ENDA
+
+ALIGN 4
+MiniThracia_Start:
+//locked behind status sanctuary
+CHECK_EVENTID StatusSanctuaryBeatenFlag
+BNE 1 s0 sC
+
+ScrollBoxText(HubMenuMiniThraciaLocked)
+GOTO 0
+
+LABEL 1
+ScrollBoxText(HubMenuMiniThraciaConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+MNC2 MiniThracia1ChID
+NoFade
+ENDB
+
+LABEL 0
+NoFade
+ENDA
+
+ALIGN 4
+DemonBlood_Start:
+//this is blocked behind a ton of things lol
+CALL IsDemonBloodUnlockedEvent //returns sC bool
+BNE 1 s0 sC
+
+ScrollBoxText(HubMenuDemonBloodLocked)
+GOTO 0
+
+LABEL 1
+ScrollBoxText(HubMenuDemonBloodConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+MNC2 DemonBloodChID
+NoFade
+ENDB
+
+LABEL 0
+NoFade
+ENDA
+
+ALIGN 4
+AceAttorney_Start:
+ScrollBoxText(HubMenuAceAttorneyConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+MNC2 AceAttorneyChID
+NoFade
+ENDB
+
+LABEL 0
+NoFade
+ENDA
+
+ALIGN 4
+Minesweeper_Start:
+ScrollBoxText(HubMenuMinesweeperConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+MNC2 MinesweeperChID
+NoFade
+ENDB
+
+LABEL 0
+NoFade
+ENDA
+
+
+
+
+
+ALIGN 4
+GameplayModifiers_Start:
+ScrollBoxText(HubMenuGameplayModifiersConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+CALL GameplayModifiersSelectionEvent
+
+LABEL 0
+NoFade
+ENDA
+
+ALIGN 4
+Credits_Start:
+ScrollBoxText(HubMenuCreditsConfirm)
+SVAL s1 1 //identifier for Yes
+BNE 0 s1 sC
+
+CALL CreditsDisplayEvent
+
+LABEL 0
+NoFade
+ENDA
+
+
+
+
+
+
+ALIGN 4
+GameplayModifiersSelectionEvent:
+//no idea how i'll do this yet but
+//it'll get things like 1RN mode, Fates RN mode (if I still have that lying around ig), fixed growths, casual mode (for what little use it is here, only one option is more than 1 chapter long)
+//oh this can also have change difficulty stuff and force it normal by default
+//they should unlock each at different #s of chapters beaten:
+//Easy mode unlocks at 1 chapter
+//Hard mode unlocks at 2 chapters
+//Fixed Growths mode unlocks at 3 chapters
+//Casual mode unlocks at 4 chapters
+//1RN mode unlocks at 6 chapters
+//Fates RN mode unlocks at 8 chapters
+//when you're done, return to menu 3
+ScrollBoxText(HubMenuDebugModifierText)
+
+NoFade
+ENDA
+
+
+
+
+
+ALIGN 4
+OptionsSelectionEvent:
+//this is just a wrapper that should call the Options menu
+//a way to set them outside of any individual chapter
+//when you're done, return to menu 3
+ScrollBoxText(HubMenuDebugOptionsText)
+
+NoFade
+ENDA
+
+
+ALIGN 4
+CreditsDisplayEvent:
+//display the endgame credits, best turn counts for each chapter, etc
+//no character endings
+//look at how this sequence is called in the Epilogue
+ScrollBoxText(HubMenuDebugCreditsText)
+
+NoFade
+ENDA
+
+
+
+ALIGN 4
+IsDemonBloodUnlockedEvent:
+//check all of the required flags; if any are false, return false
+CHECK_EVENTID ManaketeMayhemBeatenFlag
+BNE 0 s0 sC
+
+SVAL sC 0
+GOTO 776
+
+LABEL 0
+CHECK_EVENTID StatusSanctuaryBeatenFlag
+BNE 1 s0 sC
+
+SVAL sC 0
+GOTO 776
+
+LABEL 1
+CHECK_EVENTID BloodFeudBeatenFlag
+BNE 2 s0 sC
+
+SVAL sC 0
+GOTO 776
+
+LABEL 2
+CHECK_EVENTID FromTheDarknessBeatenFlag
+BNE 3 s0 sC
+
+SVAL sC 0
+GOTO 776
+
+LABEL 3
+CHECK_EVENTID MerchantMadnessBeatenFlag
+BNE 4 s0 sC
+
+SVAL sC 0
+GOTO 776
+
+LABEL 4
+
+
+SVAL sC 1
+LABEL 776
+NoFade
+ENDA
+
+
+
+ALIGN 4
+HandleNewModifiersEvent:
+//using a counter, find the # of beaten scenarios
+//if there is a corresponding modifier that is not yet unlocked, unlock it and do a fanfare & popup thing (level up jingle & scroll box)
+
+COUNTER_SET 0 0
+
+CHECK_EVENTID SkirmishInGalliaBeatenFlag
+BNE 0 s0 sC
+
+COUNTER_INC 0
+
+LABEL 0 
+CHECK_EVENTID ManaketeMayhemBeatenFlag
+BNE 1 s0 sC
+
+COUNTER_INC 0
+
+LABEL 1
+CHECK_EVENTID FatedRevelationsBeatenFlag
+BNE 2 s0 sC
+
+COUNTER_INC 0
+
+LABEL 2
+CHECK_EVENTID BloodFeudBeatenFlag
+BNE 3 s0 sC
+
+COUNTER_INC 0
+
+LABEL 3
+CHECK_EVENTID StatusSanctuaryBeatenFlag
+BNE 4 s0 sC
+
+COUNTER_INC 0
+
+LABEL 4
+CHECK_EVENTID FromTheDarknessBeatenFlag
+BNE 5 s0 sC
+
+COUNTER_INC 0
+
+LABEL 5
+CHECK_EVENTID MerchantMadnessBeatenFlag
+BNE 6 s0 sC
+
+COUNTER_INC 0
+
+LABEL 6
+CHECK_EVENTID DemonBloodBeatenFlag
+BNE 7 s0 sC
+
+COUNTER_INC 0
+
+LABEL 7
+CHECK_EVENTID MiniThraciaBeatenFlag
+BNE 8 s0 sC
+
+COUNTER_INC 0
+
+LABEL 8
+
+//counter 0 now contains # of beaten scenarios
+//you can't beat more than 1 scenario at a time before this runs again so there's no use in not just doing exact values as long as the modifier flag isn't also set
+
+COUNTER_CHECK 0
+
+SVAL s1 1
+BNE 9 s1 sC
+
+CHECK_EVENTID EasyModeModifierFlag
+BNE 9 s0 sC
+
+SOUN 0x5B //level up jingle
+ScrollBoxText(HubMenuModifierUnlockEasyMode)
+ENUT EasyModeModifierFlag
+
+LABEL 9
+
+COUNTER_CHECK 0
+
+SVAL s1 2
+BNE 10 s1 sC
+
+CHECK_EVENTID HardModeModifierFlag
+BNE 10 s0 sC
+
+SOUN 0x5B //level up jingle
+ScrollBoxText(HubMenuModifierUnlockHardMode)
+ENUT HardModeModifierFlag
+
+LABEL 10
+
+COUNTER_CHECK 0
+
+SVAL s1 3
+BNE 11 s1 sC
+
+CHECK_EVENTID FixedGrowthsModifierFlag
+BNE 11 s0 sC
+
+SOUN 0x5B //level up jingle
+ScrollBoxText(HubMenuModifierUnlockFixedGrowths)
+ENUT FixedGrowthsModifierFlag
+
+LABEL 11
+
+COUNTER_CHECK 0
+
+SVAL s1 4
+BNE 12 s1 sC
+
+CHECK_EVENTID CasualModeModifierFlag
+BNE 12 s0 sC
+
+SOUN 0x5B //level up jingle
+ScrollBoxText(HubMenuModifierUnlockCasualMode)
+ENUT CasualModeModifierFlag
+
+LABEL 12
+
+COUNTER_CHECK 0
+
+SVAL s1 6
+BNE 13 s1 sC
+
+CHECK_EVENTID OneRNModifierFlag
+BNE 13 s0 sC
+
+SOUN 0x5B //level up jingle
+ScrollBoxText(HubMenuModifierUnlock1RN)
+ENUT OneRNModifierFlag
+
+LABEL 13
+
+COUNTER_CHECK 0
+
+SVAL s1 8
+BNE 14 s1 sC
+
+CHECK_EVENTID FatesRNModifierFlag
+BNE 14 s0 sC
+
+SOUN 0x5B //level up jingle
+ScrollBoxText(HubMenuModifierUnlockFatesRN)
+ENUT FatesRNModifierFlag
+
+LABEL 14
+
+//empty out the counter now that we're done with it, just in case
+COUNTER_SET 0 0
+
+NoFade
+ENDA
+

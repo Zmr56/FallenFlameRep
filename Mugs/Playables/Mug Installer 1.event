@@ -70,3 +70,8 @@ setMugEntry(0x53, Dunstan_Mug, 3, 5, 3, 3)
 Kestral_Mug:
 #incext PortraitFormatter "Kestral.png"
 setMugEntry(0x51, Kestral_Mug, 3, 5, 3, 3)
+
+Mordred_Mug:
+#incext PortraitFormatter "Mordred.png"
+setMugEntry(0xAE, Mordred_Mug, 3, 5, 3, 3)
+

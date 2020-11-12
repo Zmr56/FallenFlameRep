@@ -1,0 +1,123 @@
+
+## OrvarCh5Base
+
+#Wren
+Hey Orvar, know where Shamira is?
+I thought she'd be at the training
+grounds.
+
+#Orvar
+Nah, she won't be here at the castle.
+She doesn't want anything to do with
+this place anymore.
+
+#Wren
+I guess. But does this place really put
+Shamira off that much?
+
+#Orvar
+Yeah. Blooport folks tend to be like
+that do that to us northerners.
+Sis doesn't wanna deal with their
+attitude. I don't blame her.
+
+#Wren
+Doesn't she have any friends here from
+her days training as a guard?
+
+#Orvar
+Nope.
+
+#Wren
+Fair enough then...
+That's a shame to hear.
+
+#Orvar
+Hey, she's got you, me and Dana.
+Shammi's long past needing the company
+of these high society military types.
+
+#Wren
+I guess. Thanks for the help anyway,
+Orvar.
+
+#Orvar
+No problem, Wren.
+
+#Wren
+Actually, wait, why are you here then?
+
+#Orvar
+I've just been aimlessly walking around
+because I haven't got a clue what to do
+right now.
+
+#Wren
+I mean you could be practising your
+archery at the archery range.
+
+#Orvar
+Tsk... Why you gotta remind me of
+these chores...
+[X]
+
+## NuriCh5Base
+
+#Nuri
+Pardon me, Lady Wren, you haven't
+happened to have seen that blaste-
+I mean, sir Rudyard have you?
+
+#Wren
+Funnily enough, no. Can't say I have.
+Even Lady Sarai was looking for him.
+
+#Nuri
+Typical...
+
+#Wren
+Umm, do you have history with sir
+Rudyard? You seem to be familiar with
+him.
+
+#Nuri
+Perhaps I do. I can't be sure for
+certain though until I have a proper
+talk with him. Not easy if we're never
+in the same room.
+
+#Wren
+R-right... Well, I uh, hope you all the
+best in finding him one day. I'm sure
+you two will be fighting alongside each
+other in the campaign ahead frequently
+at least. Riders are a formidable force
+when working together.
+
+#Nuri
+When they choose to... I doubt he'd
+know the meaning of 'work' unless it
+was written on a halberd coming for his
+head.
+
+#Wren
+Oh uhh, I'm sure he's nothing like
+that, ahaha... Duke Wystan and Lady
+Sarai have only praises to sing of his
+performance in battle.
+
+#Nuri
+A part of me finds that hard to
+believe... But I can't doubt their
+judgement. I dare not speak ill of
+Viripuria's esteemed allies.
+
+#Wren
+Trust me Nuri, sir Rudyard will prove
+himself as a dependable comrade.
+I will make sure of it.
+
+#Nuri
+I really hope so, Lady Wren.
+I really, really do.
+[X]

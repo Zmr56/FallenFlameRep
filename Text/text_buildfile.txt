@@ -47,6 +47,9 @@ Zeke[X]
 ## RetreatID
 [OpenMidLeft][LoadFace][WrenPortrait]Oof, unit retreated.[A][X]
 
+## LordMustEscapeLastText
+[OpenMidLeft][LoadFace][WrenPortrait]I gotta go last, everyone before me![A][X]
+
 ## VillageText
 [MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
 

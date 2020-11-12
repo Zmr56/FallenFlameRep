@@ -46,6 +46,8 @@
 
 #include "FE8 Nightmare modules\Misc\Biorhythm\Biorhythm Editor.event"
 
+#include "FE8 Nightmare modules\Misc\EscapeQuotes\Escape Quote Editor.event"
+
 #include "FE8 Nightmare modules\Misc\Magic\Mag Char Editor.event"
 
 #include "FE8 Nightmare modules\Misc\Magic\Mag Class Editor.event"

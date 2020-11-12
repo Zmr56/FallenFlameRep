@@ -14,11 +14,50 @@ Ch3: Fortified Wills[X]
 ## Ch4ChName
 Ch4: Lonely Princess[X]
 
-## Ch5ChName
-Ch5[X]
+## FillerChName
+ChX: Filler[X]
 
-## Ch5xChName
-lolnope[X]
+## Ch5BaseChName
+Ch5: Respite[X]
+
+## Ch5ChName
+Ch5: Sacred Grounds[X]
 
 ## Ch6ChName
-Ch6[X]
+Ch6: Pirates and Peers[X]
+
+## Ch7ChName
+Ch7: Prison Break[X]
+
+## Ch8ChName
+Ch8: Biding Strength[X]
+
+## Ch9ChName
+Ch9: Seize the Night[X]
+
+## Ch10ChName
+Ch10: Tough Love[X]
+
+## Ch11ChName
+Ch11: The Drake's Belly[X]
+
+## Ch12ChName
+Ch12: Ashen Kingdom[X]
+
+## Ch13ChName
+Ch13: Ties Soured[X]
+
+## Ch14ChName
+Ch14: Pirate's Whispers[X]
+
+## Ch15ChName
+Ch15: An Odd Ensemble[X]
+
+## Ch16ChName
+Ch16: Punished[X]
+
+## Ch17ChName
+Ch17: Drowning in Blood[X]
+
+## Ch18ChName
+Ch18: Rebellion Roars[X]
