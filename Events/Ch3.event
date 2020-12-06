@@ -139,39 +139,39 @@ UNIT Attab Fighter 0x00 Level(5, Enemy, 0) [0,8] 0x00 0x00 0x0 0x00 [SteelAxe, H
 UNIT
 
 Wave1:
-UNIT 0x80 Shaman Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Attab Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x80 Mercenary Attab Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Attab Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 LanceCav Attab Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Attab Level(2, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Attab Level(2, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Attab Level(2, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Attab Level(2, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 LanceCav Attab Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT 0x80 LanceCav Attab Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
 UNIT
 
 Wave2:
-UNIT 0x80 Mercenary Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Attab Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Attab Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Barbarian Attab Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Attab Level(2, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Attab Level(2, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Attab Level(2, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Barbarian Attab Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT 0x80 Soldier Attab Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT 0x80 Soldier Attab Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
 UNIT
 
 Wave3:
-UNIT 0x80 Barbarian Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 Archer Attab Level(4, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
-UNIT 0x80 Thief Attab Level(4, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronSword] LootingThiefAI 
-UNIT 0x80 Soldier Attab Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
-UNIT 0x80 Mercenary Attab Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Attab Level(4, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Barbarian Attab Level(2, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Archer Attab Level(3, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x80 Thief Attab Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronSword] LootingThiefAI 
+UNIT 0x80 Soldier Attab Level(3, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Attab Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Attab Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT
 
 Wave4:
-UNIT 0x80 Archer Attab Level(4, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Attab Level(5, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 Soldier Attab Level(4, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Soldier Attab Level(5, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x80 Fighter Attab Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [Hurlbat] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Attab Level(4, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
+UNIT 0x80 Archer Attab Level(3, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Attab Level(4, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 Soldier Attab Level(3, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Attab Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x80 Fighter Attab Level(3, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [Hurlbat] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Attab Level(3, Enemy, 1) [13,16] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
 UNIT
 
 Wave5:

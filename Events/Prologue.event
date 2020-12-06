@@ -63,7 +63,7 @@ END_MAIN
 
 Units1:
 UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [IronSword, Rapier, Vulnerary] NoAI 
-UNIT Wigbrand Paladin Wren Level(5, Ally, 0) [3,8] 0x00 0x00 0x0 0x00 [IronSword, BraveSword, IronLance] NoAI 
+UNIT Wigbrand Paladin Wren Level(5, Ally, 0) [3,8] 0x00 0x00 0x0 0x00 [IronSword, SilverSword, IronLance] NoAI 
 UNIT
 
 Units2:

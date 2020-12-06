@@ -74,6 +74,8 @@
 #define Iara 0xF
 #define Evander 0x10
 #define Nemain 0x11
+#define Muninn 0x12
+#define Jord 0x13
 #define Mordred 0x30
 #define Kestral 0x31
 
@@ -87,7 +89,7 @@
 #define Rhud Selena_Ch10B_and_13B
 #define Sonta Valter_Prologue
 
-//Class definitions
+// Class definitions
 #define SwordCav 0x5
 #define LanceCav 0x6
 #define Barbarian 0x42
@@ -111,6 +113,7 @@
 #define Calibane 0xC5
 #define Raze 0xB1
 
+// Item Icon definitions
 #define VampusIconID 0xCA
 #define VenenumIconID 0xCB
 #define ElfrostIconID 0xCC
@@ -121,6 +124,9 @@
 #define LanceaIconID 0xD1
 #define FalaricaIconID 0xD2
 #define CalibaneIconID 0xD3
+
+//Label Music Definitions
+#define RekkaNoKenStrike 0x19
 
 //AI definitions
 //#define SeekWallsAI 0xE

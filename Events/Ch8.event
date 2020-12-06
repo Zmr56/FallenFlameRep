@@ -1,4 +1,4 @@
-EventPointerTable(0x2a, PointerList)
+EventPointerTable(0x2d, PointerList)
 
 PointerList:
 POIN TurnBasedEvents
@@ -19,14 +19,62 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Chest(BodyRing,13,0)
-Chest(Hatchet,13,1)
+Village(0x7,RedGem,8,4)
+Village(0x8,RedGem,6,10)
+Village(0x9,RedGem,8,10)
+Village(0xA,RedGem,7,15)
+Vendor(ShopList, 13, 17)
+Armory(ArmoryList, 0, 16)
 END_MAIN
+
+ShopList:
+SHLI Vulnerary PureWater Flux Fire Lightning
+ALIGN 4
+
+ArmoryList:
+SHLI SteelBlade SteelLance SteelAxe SteelBow
+ALIGN 4
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatAll(EndingScene)
+AREA 0xB GreensEscape [1, 0] [1, 0]
+AREA 0xC GreensEscape [13, 0] [13, 0]
 END_MAIN
+
+//Label Escape Points
+NPCEscapePointPointerTable(0x2d,Ch8Escapes1)
+
+NPCEscapePointPointerTable(0x2e,Ch8Escapes2)
+
+Ch8Escapes1:
+EscapePoint(1, 0, MoveUp)
+EscapePointEnd
+
+Ch8Escapes2:
+EscapePoint(13, 0, MoveUp)
+EscapePointEnd
+
+/*
+GreensCheck:
+CHECK_OTHERS
+BNE 1 0 0xc
+NoFade
+GOTO 2
+LABEL 1
+CALL EndingScene
+LABEL 2
+ENDA
+*/
+
+GreensEscape:
+CHECK_OTHERS
+SVAL 0x1 1
+BNE 0x0 0x1 0xC
+  // We're here if this green escaping is the last one on the map.
+  CALL EndingScene
+LABEL 0x0
+NoFade
+ENDA
 
 Dunno1:
 END_MAIN
@@ -46,75 +94,55 @@ END_MAIN
 Tutorial:
 END_MAIN
 
-Units:
-UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [1,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [2,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [1,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [0,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [0,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [1,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [2,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [2,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [1,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [1,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [3,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [2,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT
-
-MagesMercs:
-UNIT Tethys Mercenary Eirika Level(8, Ally, 0) [2,11] 0x00 0x00 0x0 0x00 [SteelBlade] NoAI 
-UNIT Marisa Mage Eirika Level(8, Ally, 0) [1,11] 0x00 0x00 0x0 0x00 [Thunder, Bolting] NoAI 
+Units1:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [2,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [4,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [3,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [12,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [11,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [6,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [14,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [1,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [2,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [13,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [10,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [12,18] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 Merchants:
-UNIT Deathgoyle_boss Tent Eirika Level(1, NPC, 0) [0,9] 0x00 0x00 0x0 0x00 [0x00] MoveWithLeaderAI 
-UNIT Deathgoyle_boss Tent Eirika Level(1, NPC, 0) [0,6] 0x00 0x00 0x0 0x00 [0x00] MoveWithLeaderAI 
+UNIT Deathgoyle_boss Civilian Eirika Level(1, NPC, 0) [1,20] 0x00 0x00 0x0 0x00 [0x00] [0x0,0x0C, 0x0, 0x0] 
+UNIT Deathgoyle_boss Civilian Eirika Level(1, NPC, 0) [13,20] 0x00 0x00 0x0 0x00 [0x00] [0x0,0x0C, 0x0, 0x0] 
 UNIT
 
 Bad:
-UNIT Binks WyvernLord Macdaire Level(2, Enemy, 0) [19,8] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI 
-UNIT Pablo FalcoKnight Macdaire Level(2, Enemy, 0) [19,9] 0x00 0x00 0x0 0x00 [SilverLance] AttackInRangeAI 
-UNIT Macdaire Berserker 0x00 Level(2, Enemy, 0) [21,8] 0x00 0x00 0x0 0x00 [KillerAxe, HandAxe] AttackInRangeAI 
-UNIT 0x80 Shaman Macdaire Level(12, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
-UNIT 0x80 Shaman Macdaire Level(12, Enemy, 1) [7,15] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
-UNIT 0x80 Soldier Macdaire Level(12, Enemy, 1) [7,16] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
-UNIT 0x80 Soldier Macdaire Level(12, Enemy, 1) [6,3] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
-UNIT 0x80 PegasusKnight Macdaire Level(12, Enemy, 1) [16,5] 0x00 0x00 0x0 0x00 [KillerLance, Horseslayer] PursueWithoutHeedAI 
-UNIT 0x80 PegasusKnight Macdaire Level(12, Enemy, 1) [16,15] 0x00 0x00 0x0 0x00 [KillerLance, Horseslayer] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Macdaire Level(12, Enemy, 1) [16,14] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 WyvernRider Macdaire Level(12, Enemy, 1) [16,6] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Mage Macdaire Level(12, Enemy, 1) [8,8] 0x00 0x00 0x0 0x00 [Bolting] AttackInRangeAI 
-UNIT 0x80 Mage Macdaire Level(11, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Macdaire Level(11, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Archer Macdaire Level(11, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x80 Archer Macdaire Level(11, Enemy, 1) [14,15] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x80 Archer Macdaire Level(11, Enemy, 1) [21,11] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x80 Mercenary Macdaire Level(11, Enemy, 1) [12,4] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Mercenary Macdaire Level(11, Enemy, 1) [11,10] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Mercenary Macdaire Level(11, Enemy, 1) [12,13] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Mercenary Macdaire Level(11, Enemy, 1) [19,13] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Shaman Macdaire Level(10, Enemy, 1) [1,15] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Soldier Macdaire Level(10, Enemy, 1) [2,16] 0x00 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
-UNIT 0x80 Soldier Macdaire Level(10, Enemy, 1) [4,2] 0x00 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
-UNIT 0x80 PegasusKnight Macdaire Level(10, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 PegasusKnight Macdaire Level(10, Enemy, 1) [10,0] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 PegasusKnight Macdaire Level(10, Enemy, 1) [7,0] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Macdaire Level(10, Enemy, 1) [10,6] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Macdaire Level(10, Enemy, 1) [0,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Macdaire Level(10, Enemy, 1) [10,14] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Macdaire Level(10, Enemy, 1) [17,11] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Macdaire Level(10, Enemy, 1) [20,4] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Barbarian Macdaire Level(10, Enemy, 1) [19,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 Barbarian Macdaire Level(10, Enemy, 1) [10,15] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x80 Barbarian Macdaire Level(10, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT Aias WyvernRider 0x00 Level(9, Enemy, 0) [7,0] 0x00 0x00 0x0 0x00 [KillerAxe, Swordreaver] AttackInRangeAI 
+UNIT Macdaire Druid Aias Level(8, Enemy, 0) [0,0] 0x00 0x00 0x0 0x00 [Thunder, Luna] AttackInRangeAI 
+UNIT Pablo Warrior Aias Level(8, Enemy, 0) [12,0] 0x00 0x00 0x0 0x00 [KillerAxe, HandAxe, IronBow] AttackInRangeAI 
+UNIT 0x80 Shaman Aias Level(7, Enemy, 1) [10,3] 0x00 0x00 0x0 0x00 [Vampus] NeverMoveAI 
+UNIT 0x80 Shaman Aias Level(7, Enemy, 1) [4,2] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Shaman Aias Level(7, Enemy, 1) [3,9] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Shaman Aias Level(7, Enemy, 1) [10,9] 0x00 0x00 0x0 0x00 [Vampus] NeverMoveAI 
+UNIT 0x80 Soldier Aias Level(7, Enemy, 1) [4,9] 0x00 0x00 0x0 0x00 [Lancea] NeverMoveAI 
+UNIT 0x80 Soldier Aias Level(7, Enemy, 1) [11,9] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
+UNIT 0x80 Soldier Aias Level(7, Enemy, 1) [11,3] 0x00 0x00 0x0 0x00 [Lancea] NeverMoveAI 
+UNIT 0x80 Soldier Aias Level(7, Enemy, 1) [3,2] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
+UNIT 0x80 Mage Aias Level(7, Enemy, 1) [7,11] 0x00 0x00 0x0 0x00 [Bolting] NeverMoveAI 
+UNIT 0x80 Archer Aias Level(6, Enemy, 1) [5,7] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Archer Aias Level(6, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Mercenary Aias Level(6, Enemy, 1) [5,5] 0x00 0x00 0x0 0x00 [KillingEdge] AttackInRangeAI 
+UNIT 0x80 Soldier Aias Level(6, Enemy, 1) [12,5] 0x00 0x00 0x0 0x00 [KillerLance] AttackInRangeAI 
+UNIT 0x80 Fighter Aias Level(6, Enemy, 1) [5,12] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x80 Soldier Aias Level(6, Enemy, 1) [3,13] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x80 Soldier Aias Level(6, Enemy, 1) [9,12] 0x00 0x00 0x0 0x00 [SteelLance, Lancea] AttackInRangeAI 
+UNIT 0x80 Cavalier Aias Level(6, Enemy, 1) [12,12] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Cavalier Aias Level(6, Enemy, 1) [8,5] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Fighter Aias Level(6, Enemy, 1) [7,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Aias Level(6, Enemy, 1) [10,14] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Aias Level(6, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI  
 UNIT
-
 
 BeginningScene:
 LOAD2 0x1 Units1
-ENUN
-LOAD1 0x1 MagesMercs
 ENUN
 LOAD1 0x1 Merchants
 ENUN

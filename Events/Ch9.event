@@ -1,0 +1,115 @@
+EventPointerTable(0x33, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Chest(RedGem,0,0)
+Chest(RedGem,0,1)
+Chest(RedGem,8,13)
+Chest(RedGem,11,13)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+Seize(15,1)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Traps1:
+END_MAIN
+
+Traps2:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [10,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [11,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [10,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [9,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [13,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [12,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [11,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [9,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [8,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [12,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [14,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [7,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+Bad:
+UNIT Carlyle Druid 0x00 Level(1, Enemy, 0) [15,1] 0x00 0x00 0x0 0x00 [Nosferatu, Bolting] NeverMoveAI 
+UNIT 0x80 Warrior Carlyle Level(1, Enemy, 1) [15,5] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
+UNIT 0x80 Warrior Carlyle Level(1, Enemy, 1) [6,7] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
+UNIT 0x80 Shaman Carlyle Level(8, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Shaman Carlyle Level(8, Enemy, 1) [1,8] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Mage Carlyle Level(7, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Carlyle Level(7, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Carlyle Level(7, Enemy, 1) [10,4] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Shaman Carlyle Level(8, Enemy, 1) [12,6] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Shaman Carlyle Level(8, Enemy, 1) [12,7] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Archer Carlyle Level(8, Enemy, 1) [18,7] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Archer Carlyle Level(8, Enemy, 1) [18,6] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [0,15] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [1,14] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [6,10] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [11,12] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mercenary Carlyle Level(7, Enemy, 1) [10,0] 0x00 0x00 0x0 0x00 [SteelBlade] AttackInRangeAI 
+UNIT 0x80 Mercenary Carlyle Level(7, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [SteelBlade] AttackInRangeAI 
+UNIT 0x80 Shaman Carlyle Level(6, Enemy, 1) [18,15] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Shaman Carlyle Level(6, Enemy, 1) [17,16] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Mercenary Carlyle Level(6, Enemy, 1) [6,12] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Mercenary Carlyle Level(6, Enemy, 1) [16,12] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Fighter Carlyle Level(6, Enemy, 1) [9,2] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Carlyle Level(6, Enemy, 1) [9,6] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Carlyle Level(6, Enemy, 1) [2,5] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Carlyle Level(6, Enemy, 1) [2,12] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Carlyle Level(6, Enemy, 1) [1,12] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Carlyle Level(6, Enemy, 1) [9,5] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Carlyle Level(6, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Carlyle Level(6, Enemy, 1) [1,5] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [9,8] 0x00 0x00 0x0 0x00 [Bolting] NeverMoveAI 
+UNIT 0x80 Cleric Carlyle Level(6, Enemy, 1) [13,8] 0x00 0x00 0x0 0x00 [Silence] AttackInRangeAI 
+UNIT 0x80 Cleric Carlyle Level(6, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [Physic] HealUnits 
+UNIT
+
+BeginningScene:
+LOAD2 0x1 Units1
+ENUN
+LOAD1 0x01 Bad
+ENUN
+NoFade
+GotoPrepScreen
+ENDA
+
+EndingScene:
+MNCH 9
+NoFade
+ENDA

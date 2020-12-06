@@ -22,6 +22,7 @@ RemoveOP:
 
 #include "Master Animation Installer.event"
 
+//#include "BattleScreen/Installer.event"
 
 PUSH
 ORG $59EE20

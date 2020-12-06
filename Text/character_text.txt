@@ -110,6 +110,27 @@ Evander[X]
 Adela's loyal retainer. Holds a[N]
 secret affection for his liege.[X]
 
+## nameNemain
+Nemain[X]
+
+## descNemain
+The famed 'Scarlet Edge'.[N]
+Her wanderlust knows no bounds.[X]
+
+## nameMuninn
+Muninn[X]
+
+## descMuninn
+Huginn's cousin, a former blacksmith.[N]
+Adventure seeking, he joins the army.[X]
+
+## nameJord
+Jord[X]
+
+## descJord
+A country girl who moved to the city,[N]
+then whisked away from it by the war.[X]
+
 ## nameVicks
 Vicks[X]
 

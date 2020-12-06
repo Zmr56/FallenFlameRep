@@ -91,41 +91,41 @@ UNIT OldCivilian Civilian Ewan Level(3, NPC, 0) [4,6] 0x00 0x00 0x0 0x00 [0x00] 
 UNIT
 
 Bad:
-UNIT Binks General 0x00 Level(1, Enemy, 0) [16,0] 0x00 0x00 0x0 0x00 [Spear, SilverLance, Halberd, Elixir] GuardTileAI 
-UNIT 0x80 Knight Binks Level(11, Enemy, 1) [2,6] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Knight Binks Level(11, Enemy, 1) [1,6] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Knight Binks Level(11, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Knight Binks Level(11, Enemy, 1) [12,17] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI 
-UNIT 0x80 Knight Binks Level(9, Enemy, 1) [1,10] 0x00 0x00 0x0 0x00 [Javelin, SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Binks Level(9, Enemy, 1) [2,10] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Binks Level(9, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Binks Level(10, Enemy, 1) [7,2] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Mage Binks Level(10, Enemy, 1) [8,3] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Binks Level(10, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Shaman Binks Level(10, Enemy, 1) [16,14] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Knight Binks Level(10, Enemy, 1) [15,11] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
-UNIT 0x80 Mercenary Binks Level(10, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [SteelSword, KillingEdge] AttackInRangeAI 
-UNIT 0x80 Archer Binks Level(10, Enemy, 1) [18,9] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x80 Mercenary Binks Level(10, Enemy, 1) [7,16] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Fighter Binks Level(10, Enemy, 1) [10,17] 0x00 0x00 0x0 0x00 [SteelAxe, KillerAxe] AttackInRangeAI 
-UNIT 0x80 Fighter Binks Level(10, Enemy, 1) [5,4] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
-UNIT 0x80 Mercenary Binks Level(10, Enemy, 1) [4,3] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Knight Binks Level(10, Enemy, 1) [10,3] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
-UNIT 0x80 Fighter Binks Level(10, Enemy, 1) [9,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Binks Level(10, Enemy, 1) [8,0] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Binks Level(10, Enemy, 1) [11,11] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Binks Level(10, Enemy, 1) [10,11] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Archer Binks Level(9, Enemy, 1) [8,11] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
-UNIT 0x80 Archer Binks Level(9, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
-UNIT 0x80 Archer Binks Level(9, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
-UNIT 0x80 Archer Binks Level(9, Enemy, 1) [8,10] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
-UNIT 0x80 Shaman Binks Level(11, Enemy, 1) [15,0] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Shaman Binks Level(11, Enemy, 1) [17,0] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Binks Level(11, Enemy, 1) [15,1] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Binks Level(11, Enemy, 1) [17,1] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
-UNIT 0x80 Knight Binks Level(11, Enemy, 1) [15,2] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
-UNIT 0x80 Knight Binks Level(11, Enemy, 1) [17,2] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
-UNIT 0x80 Knight Binks Level(11, Enemy, 1) [16,3] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT Binks General 0x00 Level(1, Enemy, 0) [16,0] 0x00 0x00 0x0 0x00 [Spear, SilverLance, Halberd, Elixir] NeverMoveAI 
+UNIT 0x80 Knight Binks Level(7, Enemy, 1) [2,6] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
+UNIT 0x80 Knight Binks Level(7, Enemy, 1) [1,6] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
+UNIT 0x80 Knight Binks Level(7, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
+UNIT 0x80 Knight Binks Level(7, Enemy, 1) [12,17] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
+UNIT 0x80 Knight Binks Level(5, Enemy, 1) [1,10] 0x00 0x00 0x0 0x00 [Javelin, SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Binks Level(5, Enemy, 1) [2,10] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Binks Level(5, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Binks Level(6, Enemy, 1) [10,8] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Mage Binks Level(6, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI 
+UNIT 0x80 Mage Binks Level(6, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Shaman Binks Level(6, Enemy, 1) [16,14] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Knight Binks Level(6, Enemy, 1) [15,11] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x80 Mercenary Binks Level(6, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [SteelSword, KillingEdge] AttackInRangeAI 
+UNIT 0x80 Archer Binks Level(6, Enemy, 1) [18,9] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Mercenary Binks Level(6, Enemy, 1) [7,16] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Fighter Binks Level(6, Enemy, 1) [10,17] 0x00 0x00 0x0 0x00 [SteelAxe, KillerAxe] AttackInRangeAI 
+UNIT 0x80 Fighter Binks Level(6, Enemy, 1) [5,4] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x80 Mercenary Binks Level(6, Enemy, 1) [4,3] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Knight Binks Level(6, Enemy, 1) [10,3] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x80 Fighter Binks Level(6, Enemy, 1) [9,0] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Binks Level(6, Enemy, 1) [8,0] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Binks Level(6, Enemy, 1) [11,11] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Binks Level(6, Enemy, 1) [10,11] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Archer Binks Level(5, Enemy, 1) [8,11] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
+UNIT 0x80 Archer Binks Level(5, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
+UNIT 0x80 Archer Binks Level(5, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
+UNIT 0x80 Archer Binks Level(5, Enemy, 1) [8,10] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
+UNIT 0x80 Shaman Binks Level(7, Enemy, 1) [15,0] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Binks Level(7, Enemy, 1) [17,0] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Binks Level(7, Enemy, 1) [15,1] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Binks Level(7, Enemy, 1) [17,1] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 Knight Binks Level(7, Enemy, 1) [15,2] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT 0x80 Knight Binks Level(7, Enemy, 1) [17,2] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT 0x80 Knight Binks Level(7, Enemy, 1) [16,3] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
 UNIT
 
 BeginningScene:
@@ -145,6 +145,7 @@ ENDA
 
 EndingScene:
 CALL GreensCheck
-MNTS 0x1
+//MNTS 0x1
+MNCH 8
 NoFade
 ENDA

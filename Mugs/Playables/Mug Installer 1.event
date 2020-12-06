@@ -63,6 +63,14 @@ Evander_Mug:
 #incext PortraitFormatter "Evander.png"
 setMugEntry(0x16, Evander_Mug, 3, 5, 2, 3)
 
+Nemain_Mug:
+#incext PortraitFormatter "Nemain.png"
+setMugEntry(0x18, Nemain_Mug, 4, 6, 4, 4)
+
+Muninn_Mug:
+#incext PortraitFormatter "Muninn.png"
+setMugEntry(0x19, Muninn_Mug, 2, 6, 2, 3)
+
 Dunstan_Mug:
 #incext PortraitFormatter "Dunstan.png"
 setMugEntry(0x53, Dunstan_Mug, 3, 5, 3, 3)

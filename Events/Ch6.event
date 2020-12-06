@@ -33,6 +33,8 @@ Seize(2,1)
 Village(0x8,Village1,7,12)
 Village(0x9,Village2,8,16)
 Village(0xA,Village3,14,16)
+Vendor(ShopList, 8, 8)
+Armory(ArmoryList, 14, 12)
 END_MAIN
 
 Village1:
@@ -43,6 +45,14 @@ VillageEventItem(PlaceholderText, Village, IronSword)
 
 Village3:
 VillageEventItem(PlaceholderText, Village, IronSword)
+
+ShopList:
+SHLI Vulnerary PureWater Flux Fire Lightning
+ALIGN 4
+
+ArmoryList:
+SHLI SteelBlade SteelLance SteelAxe SteelBow
+ALIGN 4
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
@@ -82,7 +92,7 @@ UNIT Wigbrand EphraimMasterLord Wren Level(1, Ally, 0) [14,0] 0x00 0x00 0x0 0x00
 UNIT
 
 SoldierBoy:
-UNIT Evander Soldier Wren Level(5, Ally, 0) [13,1] 0x00 0x00 0x0 0x00 [KillerLance, Javelin, IronLance] NoAI 
+UNIT Evander Soldier Wren Level(5, Ally, 0) [13,1] 0x00 0x00 0x0 0x00 [KillerLance, Lancea, IronLance] NoAI 
 UNIT
 
 Bad:
@@ -90,32 +100,32 @@ UNIT Bazba Mage 0x00 Level(10, Enemy, 0) [2,1] 0x00 0x00 0x0 0x00 [Elfire, Bolti
 UNIT Murray Pirate 0x00 Level(10, Enemy, 0) [16,13] 0x00 0x00 0x0 0x00 [KillerAxe, Halberd] AttackInRangeAI 
 UNIT Tirado Fighter Murray Level(10, Enemy, 0) [10,17] 0x00 0x00 0x0 0x00 [SilverAxe, Hammer] AttackInRangeAI 
 UNIT Nemain Myrmidon_F Murray Level(7, Enemy, 0) [11,7] 0x00 0x00 0x0 0x00 [KillingEdge, SteelSword, IronSword] AttackInRangeAI 
-UNIT 0x80 Mage Bazba Level(8, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Bazba Level(8, Enemy, 1) [17,13] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Bazba Level(8, Enemy, 1) [10,18] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [17,13] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [10,18] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
 UNIT 0x80 Knight Bazba Level(9, Enemy, 1) [3,14] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 
-UNIT 0x80 Knight Bazba Level(9, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 
-UNIT 0x80 Knight Bazba Level(9, Enemy, 1) [12,12] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 
+UNIT 0x80 Knight Bazba Level(5, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 
+UNIT 0x80 Knight Bazba Level(5, Enemy, 1) [12,12] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 
 UNIT 0x80 WyvernRider Bazba Level(8, Enemy, 1) [16,17] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
 UNIT 0x80 WyvernRider Bazba Level(8, Enemy, 1) [5,17] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x80 Cavalier Bazba Level(8, Enemy, 1) [11,15] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Cavalier Bazba Level(8, Enemy, 1) [7,9] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Cavalier Bazba Level(8, Enemy, 1) [4,9] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Cavalier Bazba Level(8, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Soldier Bazba Level(9, Enemy, 1) [1,11] 0x00 0x00 0x0 0x00 [Javelin, KillerLance] AttackInRangeAI 
-UNIT 0x80 Shaman Murray Level(9, Enemy, 1) [3,15] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
-UNIT 0x80 Shaman Murray Level(9, Enemy, 1) [11,12] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
-UNIT 0x80 Shaman Murray Level(9, Enemy, 1) [10,5] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Shaman Murray Level(9, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Mercenary Murray Level(9, Enemy, 1) [0,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Murray Level(9, Enemy, 1) [8,13] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Mercenary Murray Level(9, Enemy, 1) [13,17] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT 0x80 Pirate Murray Level(9, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Pirate Murray Level(9, Enemy, 1) [10,10] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Soldier Bazba Level(9, Enemy, 1) [7,18] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 Priest Bazba Level(9, Enemy, 1) [0,13] 0x00 0x00 0x0 0x00 [Physic, Silence] HealUnits 
-UNIT 0x80 Archer Bazba Level(9, Enemy, 1) [3,2] 0x00 0x00 0x0 0x00 [IronBow] NeverMoveAI 
-UNIT 0x80 Fighter Murray Level(9, Enemy, 1) [1,2] 0x00 0x00 0x0 0x00 [SteelAxe, Halberd] NeverMoveAI 
+UNIT 0x80 Cavalier Bazba Level(4, Enemy, 1) [11,15] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Cavalier Bazba Level(4, Enemy, 1) [7,9] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Cavalier Bazba Level(4, Enemy, 1) [4,9] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Cavalier Bazba Level(4, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Soldier Bazba Level(5, Enemy, 1) [1,11] 0x00 0x00 0x0 0x00 [Lancea, KillerLance] AttackInRangeAI 
+UNIT 0x80 Shaman Murray Level(6, Enemy, 1) [3,15] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Shaman Murray Level(6, Enemy, 1) [11,12] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Shaman Murray Level(5, Enemy, 1) [10,5] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Shaman Murray Level(5, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Mercenary Murray Level(5, Enemy, 1) [0,16] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Murray Level(5, Enemy, 1) [8,13] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Murray Level(5, Enemy, 1) [13,17] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Pirate Murray Level(5, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Pirate Murray Level(5, Enemy, 1) [10,10] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Bazba Level(5, Enemy, 1) [7,18] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Priest Bazba Level(6, Enemy, 1) [0,13] 0x00 0x00 0x0 0x00 [Physic, Silence] HealUnits 
+UNIT 0x80 Archer Bazba Level(6, Enemy, 1) [3,2] 0x00 0x00 0x0 0x00 [IronBow] NeverMoveAI 
+UNIT 0x80 Fighter Murray Level(6, Enemy, 1) [1,2] 0x00 0x00 0x0 0x00 [SteelAxe, Halberd] NeverMoveAI 
 UNIT
 
 BeginningScene:

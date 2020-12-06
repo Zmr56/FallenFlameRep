@@ -5,10 +5,16 @@ FieldsPalette:
 
 EventPointerTable(0x2, FieldsPalette)
 
-/*
+
 ALIGN 4
 TownPalette:
 #incbin "Tileset/TownPalette.pal.bin"
 
 EventPointerTable(0x0f, TownPalette)
-*/
+
+ALIGN 4
+FortPalette:
+#incbin "Tileset/FortPalette.pal.bin"
+
+EventPointerTable(0x68, FortPalette)
+

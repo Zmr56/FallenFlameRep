@@ -74,6 +74,10 @@
     #include "Tables/Table Installer.event"
     MESSAGE Used table space ends at currentOffset
 	
+	//Music
+	#include "Music/Music Installer.event"
+	MESSAGE Music data ends at CURRENTOFFSET
+	
 	//Graphics
     #include "Graphics/Master Graphics Installer.event"
 	ALIGN 4
