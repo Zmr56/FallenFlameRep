@@ -12,13 +12,13 @@ PUSH
 POP
 
 NewDifficultyButtons:
-#incext Png2Dmp "difficulty.png" --lz77
+#incext Png2Dmp "MiscGraphics/difficulty.png" --lz77
 
 NewTitleScroll:
-#incext Png2Dmp "TitleScroll.png" --lz77
+#incext Png2Dmp "MiscGraphics/TitleScroll.png" --lz77
 
 RemoveOP:
-#incext Png2Dmp "OPLOGOREMOVE.png" --lz77
+#incext Png2Dmp "MiscGraphics/OPLOGOREMOVE.png" --lz77
 
 #include "Master Animation Installer.event"
 
@@ -26,27 +26,27 @@ RemoveOP:
 
 PUSH
 ORG $59EE20
-#incext Png2Dmp "player.png" --palette-only
+#incext Png2Dmp "MiscGraphics/player.png" --palette-only
 POP
 
 PUSH
 ORG $59EE40
-#incext Png2Dmp "enemy.png" --palette-only
+#incext Png2Dmp "MiscGraphics/enemy.png" --palette-only
 POP
 
 PUSH
 ORG $59EE60
-#incext Png2Dmp "npc.png" --palette-only
+#incext Png2Dmp "MiscGraphics/npc.png" --palette-only
 POP
 
 PUSH
 ORG $59EE80
-#incext Png2Dmp "wait.png" --palette-only
+#incext Png2Dmp "MiscGraphics/wait.png" --palette-only
 POP
 
 PUSH
 ORG $59EEA0
-#incext Png2Dmp "fourth.png" --palette-only
+#incext Png2Dmp "MiscGraphics/fourth.png" --palette-only
 POP
 
 //Stat screen
@@ -60,14 +60,14 @@ POIN NewStatScreenPal
 POP
 
 NewStatScreen:
-#incext Png2Dmp "StatScreen.png" --lz77
+#incext Png2Dmp "MiscGraphics/StatScreen.png" --lz77
 NewStatScreenPal:
-#incext Png2Dmp "StatScreen.png" --palette-only
+#incext Png2Dmp "MiscGraphics/StatScreen.png" --palette-only
 
 #include "FE8-Title Screen Background/titlebackgroundinstaller.event"
 
 RemoveGlowy:
-#incext Png2Dmp "RemoveGlowy.png" --lz77
+#incext Png2Dmp "MiscGraphics/RemoveGlowy.png" --lz77
 
 /*
 PUSH
@@ -82,54 +82,75 @@ PrepBG:
 #include "Menus/Menu Graphics Installer.event"
 
 //Weapon Icons
+
+PUSH
+ORG 0x5926F4+(0x80*0x00)
+#incext Png2Dmp "ItemIcons/IronSword.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0x02)
+#incext Png2Dmp "ItemIcons/SteelSword.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0x03)
+#incext Png2Dmp "ItemIcons/SilverSword.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0x08)
+#incext Png2Dmp "ItemIcons/Reversa.png"
+POP
+
 PUSH
 ORG 0x5926F4+(0x80*0xCA)
-#incext Png2Dmp "Vampus.png"
+#incext Png2Dmp "ItemIcons/Vampus.png"
 POP
 
 PUSH
 ORG 0x5926F4+(0x80*0xCB)
-#incext Png2Dmp "Venenum.png"
+#incext Png2Dmp "ItemIcons/Venenum.png"
 POP
 
 PUSH
 ORG 0x5926F4+(0x80*0xCC)
-#incext Png2Dmp "Elfrost.png"
+#incext Png2Dmp "ItemIcons/Elfrost.png"
 POP
 
 PUSH
 ORG 0x5926F4+(0x80*0xCD)
-#incext Png2Dmp "Hurlbat.png"
+#incext Png2Dmp "ItemIcons/Hurlbat.png"
 POP
 
 PUSH
 ORG 0x5926F4+(0x80*0xCE)
-#incext Png2Dmp "Francisca.png"
+#incext Png2Dmp "ItemIcons/Francisca.png"
 POP
 
 PUSH
 ORG 0x5926F4+(0x80*0xCF)
-#incext Png2Dmp "Nzappa.png"
+#incext Png2Dmp "ItemIcons/Nzappa.png"
 POP
 
 PUSH
 ORG 0x5926F4+(0x80*0xD0)
-#incext Png2Dmp "Harpoon.png"
+#incext Png2Dmp "ItemIcons/Harpoon.png"
 POP
 
 PUSH
 ORG 0x5926F4+(0x80*0xD1)
-#incext Png2Dmp "Lancea.png"
+#incext Png2Dmp "ItemIcons/Lancea.png"
 POP
 
 PUSH
 ORG 0x5926F4+(0x80*0xD2)
-#incext Png2Dmp "Falarica.png"
+#incext Png2Dmp "ItemIcons/Falarica.png"
 POP
 
 PUSH
 ORG 0x5926F4+(0x80*0xD3)
-#incext Png2Dmp "Calibane.png"
+#incext Png2Dmp "ItemIcons/Calibane.png"
 POP
 
 //Map Sprites

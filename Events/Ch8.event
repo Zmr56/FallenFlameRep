@@ -42,15 +42,12 @@ AREA 0xC GreensEscape [13, 0] [13, 0]
 END_MAIN
 
 //Label Escape Points
-NPCEscapePointPointerTable(0x2d,Ch8Escapes1)
+NPCEscapePointPointerTable(0xA,Ch8Escapes)
 
-NPCEscapePointPointerTable(0x2e,Ch8Escapes2)
+NPCEscapePointPointerTable(0xA,Ch8Escapes)
 
-Ch8Escapes1:
+Ch8Escapes:
 EscapePoint(1, 0, MoveUp)
-EscapePointEnd
-
-Ch8Escapes2:
 EscapePoint(13, 0, MoveUp)
 EscapePointEnd
 
@@ -110,8 +107,8 @@ UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [12,18] 0x00 0x00 0x0 0x00 [0
 UNIT
 
 Merchants:
-UNIT Deathgoyle_boss Civilian Eirika Level(1, NPC, 0) [1,20] 0x00 0x00 0x0 0x00 [0x00] [0x0,0x0C, 0x0, 0x0] 
-UNIT Deathgoyle_boss Civilian Eirika Level(1, NPC, 0) [13,20] 0x00 0x00 0x0 0x00 [0x00] [0x0,0x0C, 0x0, 0x0] 
+UNIT Deathgoyle_boss Civilian Eirika Level(1, NPC, 0) [1,20] 0x00 0x00 0x0 0x00 [0x00] [0x06,0x0C, 0x0, 0x0] 
+UNIT Deathgoyle_boss Civilian Eirika Level(1, NPC, 0) [13,20] 0x00 0x00 0x0 0x00 [0x00] [0x06,0x0C, 0x0, 0x0] 
 UNIT
 
 Bad:

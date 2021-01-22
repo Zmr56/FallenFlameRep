@@ -84,6 +84,9 @@ Kill All Bosses.[X]
 ## DefendFatNobleWindow
 Defend[X]
 
+## nameReversa
+Reversa[X]
+
 ## nameVampus
 Vampus[X]
 
@@ -123,7 +126,7 @@ Raze[X]
 ## descCalibane
 Effective against magic users.[X]
 
-## descRapier
+## descReversa
 Eff. vs horse, armour. Reverses WT.[X]
 
 ## descRaze

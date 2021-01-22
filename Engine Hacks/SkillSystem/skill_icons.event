@@ -951,7 +951,7 @@ ORG SkillIcon(CrusherID)
 #incbin "SkillIcons/EmptyFrame.dmp"
 
 ORG SkillIcon(UnorthodoxID)
-#incbin "SkillIcons/EmptyFrame.dmp"
+#incbin "SkillIcons/Unorthodox.dmp"
 
 ORG SkillIcon(SpathaID)
 #incbin "SkillIcons/EmptyFrame.dmp"

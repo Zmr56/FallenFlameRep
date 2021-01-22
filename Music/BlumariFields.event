@@ -1,0 +1,752 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	songBlumariFields_grp  voicegroup000
+	#define	songBlumariFields_pri  0
+	#define	songBlumariFields_rev  0
+	#define	songBlumariFields_mvl  85
+	#define	songBlumariFields_key  0
+	#define	songBlumariFields_tbs  1
+	#define	songBlumariFields_exg  0
+	#define	songBlumariFields_cmp  1
+
+	// .rodata
+	//	songBlumariFields
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+songBlumariFields_1:
+	BYTE	KEYSH   songBlumariFields_key+0
+songBlumariFields_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   109*songBlumariFields_tbs/2
+	BYTE		VOICE   1
+	BYTE		PAN     c_v+9
+	BYTE		VOL     98*songBlumariFields_mvl/mxv
+	BYTE		N18     Fn2   v064
+	BYTE		N18     An2 
+	BYTE	W18
+	BYTE		N06     Fn2 
+	BYTE		N06     An2 
+	BYTE	W24
+	BYTE		        Fn2 
+	BYTE		N06     An2 
+	BYTE	W06
+	BYTE		N18     Fn2 
+	BYTE		N18     An2 
+	BYTE	W18
+	BYTE		N06     Fn2 
+	BYTE		N06     An2 
+	BYTE	W24
+	BYTE		        Fn2 
+	BYTE		N06     An2 
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE		N18     Fn2 
+	BYTE		N18     An2 
+	BYTE	W18
+	BYTE		N06     Fn2 
+	BYTE		N06     An2 
+	BYTE	W24
+	BYTE		        Fn2 
+	BYTE		N06     An2 
+	BYTE	W06
+	BYTE		N18     Fn2 
+	BYTE		N18     An2 
+	BYTE	W18
+	BYTE		N06     Fn2 
+	BYTE		N06     An2 
+	BYTE	W24
+	BYTE		        Fn2 
+	BYTE		N06     An2 
+	BYTE	W06
+// 002   ----------------------------------------
+songBlumariFields_1_002:
+	BYTE		N18     En2   v064
+	BYTE		N18     An2 
+	BYTE	W18
+	BYTE		N06     En2 
+	BYTE		N06     An2 
+	BYTE	W24
+	BYTE		        En2 
+	BYTE		N06     An2 
+	BYTE	W06
+	BYTE		N18     En2 
+	BYTE		N18     An2 
+	BYTE	W18
+	BYTE		N06     En2 
+	BYTE		N06     An2 
+	BYTE	W24
+	BYTE		        En2 
+	BYTE		N06     An2 
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+songBlumariFields_1_003:
+	BYTE		N18     En2   v064
+	BYTE		N18     An2 
+	BYTE	W18
+	BYTE		N06     En2 
+	BYTE		N06     An2 
+	BYTE	W24
+	BYTE		        En2 
+	BYTE		N06     An2 
+	BYTE	W06
+	BYTE		N18     En2 
+	BYTE		N18     An2 
+	BYTE	W18
+	BYTE		N06     En2 
+	BYTE		N06     An2 
+	BYTE	W06
+	BYTE		N18     En2 
+	BYTE		N18     An2 
+	BYTE	W18
+	BYTE		N06     En2 
+	BYTE		N06     An2 
+	BYTE	W06
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE		N18     As2 
+	BYTE		N18     Dn3 
+	BYTE	W18
+	BYTE		N06     As2 
+	BYTE		N06     Dn3 
+	BYTE	W24
+	BYTE		        As2 
+	BYTE		N06     Dn3 
+	BYTE	W06
+	BYTE		N18     As2 
+	BYTE		N18     Dn3 
+	BYTE	W18
+	BYTE		N06     As2 
+	BYTE		N06     Dn3 
+	BYTE	W24
+	BYTE		        As2 
+	BYTE		N06     Dn3 
+	BYTE	W06
+// 005   ----------------------------------------
+	BYTE		N18     Gn2 
+	BYTE		N18     Dn3 
+	BYTE	W18
+	BYTE		N06     Gn2 
+	BYTE		N06     Dn3 
+	BYTE	W24
+	BYTE		        Gn2 
+	BYTE		N06     Dn3 
+	BYTE	W06
+	BYTE		N18     Gn2 
+	BYTE		N18     Dn3 
+	BYTE	W18
+	BYTE		N06     Gn2 
+	BYTE		N06     Dn3 
+	BYTE	W06
+	BYTE		N18     Gn2 
+	BYTE		N18     Dn3 
+	BYTE	W18
+	BYTE		N06     Gn2 
+	BYTE		N06     Dn3 
+	BYTE	W06
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_1_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_1_003
+// 008   ----------------------------------------
+	BYTE		N18     Bn2   v064
+	BYTE		N18     En3 
+	BYTE	W18
+	BYTE		N06     Bn2 
+	BYTE		N06     En3 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		N18     Bn2 
+	BYTE		N18     En3 
+	BYTE	W18
+	BYTE		N06     Bn2 
+	BYTE		N06     En3 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE		N06     En3 
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE		N18     As2 
+	BYTE		N18     Dn3 
+	BYTE	W18
+	BYTE		N06     As2 
+	BYTE		N06     Dn3 
+	BYTE	W24
+	BYTE		        As2 
+	BYTE		N06     Dn3 
+	BYTE	W06
+	BYTE		N18     As2 
+	BYTE		N18     Dn3 
+	BYTE	W18
+	BYTE		N06     As2 
+	BYTE		N06     Dn3 
+	BYTE	W06
+	BYTE		N18     As2 
+	BYTE		N18     Dn3 
+	BYTE	W18
+	BYTE		N06     As2 
+	BYTE		N06     Dn3 
+	BYTE	W06
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_1_002
+// 011   ----------------------------------------
+	BYTE		N18     Bn2   v064
+	BYTE		N18     En3 
+	BYTE	W18
+	BYTE		N06     Bn2 
+	BYTE		N06     En3 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		N18     Gs2 
+	BYTE		N18     En3 
+	BYTE	W18
+	BYTE		N06     Gs2 
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		N18     Gs2 
+	BYTE		N18     En3 
+	BYTE	W18
+	BYTE		N06     Gs2 
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE	GoTo
+	 POIN2	songBlumariFields_1_B1
+songBlumariFields_1_B2:
+// 012   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+songBlumariFields_2:
+	BYTE	KEYSH   songBlumariFields_key+0
+songBlumariFields_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		PAN     c_v+4
+	BYTE		VOL     56*songBlumariFields_mvl/mxv
+	BYTE		N96     An2   v104
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE		        Dn3 
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE		TIE     En3 
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 008   ----------------------------------------
+	BYTE		N96     Bn3 
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE		N72     An3 
+	BYTE	W72
+	BYTE		N24     En3 
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE		N96     An3 
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE		N48   
+	BYTE	W48
+	BYTE		        Gs3 
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	songBlumariFields_2_B1
+songBlumariFields_2_B2:
+// 012   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+songBlumariFields_3:
+	BYTE	KEYSH   songBlumariFields_key+0
+songBlumariFields_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   75
+	BYTE		PAN     c_v-11
+	BYTE		VOL     84*songBlumariFields_mvl/mxv
+	BYTE		N12     An4   v104
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N36     An4 
+	BYTE	W48
+// 001   ----------------------------------------
+	BYTE	W84
+	BYTE		N12   
+	BYTE	W12
+// 002   ----------------------------------------
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N36     En4 
+	BYTE	W48
+// 003   ----------------------------------------
+	BYTE	W84
+	BYTE		N12   
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE		N72     Fn4 
+	BYTE	W72
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE		N72     Dn4 
+	BYTE	W72
+	BYTE		N12     Cn4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+// 006   ----------------------------------------
+	BYTE		TIE     En4 
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 008   ----------------------------------------
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE		N24     Cn5 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Dn5 
+	BYTE	W12
+	BYTE		N24     En5 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Dn5 
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE		N24     En5 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Dn5 
+	BYTE	W12
+	BYTE		        En5 
+	BYTE	W12
+	BYTE		        Dn5 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		        Dn5 
+	BYTE	W12
+// 011   ----------------------------------------
+	BYTE		N24     An4 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N48     En5 
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	songBlumariFields_3_B1
+songBlumariFields_3_B2:
+// 012   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+songBlumariFields_4:
+	BYTE	KEYSH   songBlumariFields_key+0
+songBlumariFields_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   68
+	BYTE		PAN     c_v+19
+	BYTE		VOL     66*songBlumariFields_mvl/mxv
+	BYTE	W84
+	BYTE		N12     Gn4   v104
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N36     An4 
+	BYTE	W48
+// 002   ----------------------------------------
+	BYTE	W84
+	BYTE		N12     Dn4 
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N36     En4 
+	BYTE	W48
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		N48     En4 
+	BYTE	W48
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W84
+	BYTE		N12     Dn4 
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE		TIE     En4 
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+	BYTE	GoTo
+	 POIN2	songBlumariFields_4_B1
+songBlumariFields_4_B2:
+// 012   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+songBlumariFields_5:
+	BYTE	KEYSH   songBlumariFields_key+0
+songBlumariFields_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     55*songBlumariFields_mvl/mxv
+	BYTE		PAN     c_v+22
+	BYTE		N24     Ds2   v104
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+// 001   ----------------------------------------
+songBlumariFields_5_001:
+	BYTE		N24     Ds2   v104
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+songBlumariFields_5_002:
+	BYTE		PAN     c_v+22
+	BYTE		N24     Ds2   v104
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_5_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_5_002
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_5_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_5_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_5_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_5_002
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_5_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_5_002
+// 011   ----------------------------------------
+	BYTE		N24     Ds2   v104
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W18
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	songBlumariFields_5_B1
+songBlumariFields_5_B2:
+// 012   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+songBlumariFields_6:
+	BYTE	KEYSH   songBlumariFields_key+0
+songBlumariFields_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   14
+	BYTE		PAN     c_v-16
+	BYTE		VOL     82*songBlumariFields_mvl/mxv
+	BYTE		N72     An3   v104
+	BYTE	W72
+	BYTE		N24     En3 
+	BYTE	W24
+// 001   ----------------------------------------
+songBlumariFields_6_001:
+	BYTE		N72     An3   v104
+	BYTE	W72
+	BYTE		N24     En3 
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_6_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_6_001
+// 004   ----------------------------------------
+songBlumariFields_6_004:
+	BYTE		N72     Dn4   v104
+	BYTE	W72
+	BYTE		N24     An3 
+	BYTE	W24
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_6_004
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_6_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_6_001
+// 008   ----------------------------------------
+	BYTE		VOL     92*songBlumariFields_mvl/mxv
+	BYTE		N72     En4   v104
+	BYTE	W72
+	BYTE		N24     Bn3 
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE		VOL     92*songBlumariFields_mvl/mxv
+	BYTE		N72     Dn4 
+	BYTE	W72
+	BYTE		N24     An3 
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE		VOL     92*songBlumariFields_mvl/mxv
+	BYTE		N72   
+	BYTE	W72
+	BYTE		N24     En3 
+	BYTE	W24
+// 011   ----------------------------------------
+	BYTE		VOL     92*songBlumariFields_mvl/mxv
+	BYTE		N72     En4 
+	BYTE	W72
+	BYTE		N24     Bn3   v127
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	songBlumariFields_6_B1
+songBlumariFields_6_B2:
+// 012   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+songBlumariFields_7:
+	BYTE	KEYSH   songBlumariFields_key+0
+songBlumariFields_7_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   36
+	BYTE		VOL     73*songBlumariFields_mvl/mxv
+	BYTE		PAN     c_v+9
+	BYTE		N24     An1   v104
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W24
+	BYTE		        En2 
+	BYTE	W24
+	BYTE		N18     Cn2 
+	BYTE	W18
+	BYTE		N06     En2 
+	BYTE	W06
+// 001   ----------------------------------------
+songBlumariFields_7_001:
+	BYTE		PAN     c_v+9
+	BYTE		N24     An1   v104
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W24
+	BYTE		        En2 
+	BYTE	W24
+	BYTE		N18     Cn2 
+	BYTE	W18
+	BYTE		N06     En2 
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_7_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_7_001
+// 004   ----------------------------------------
+songBlumariFields_7_004:
+	BYTE		PAN     c_v+9
+	BYTE		N24     Dn2   v104
+	BYTE	W24
+	BYTE		        Fn2 
+	BYTE	W24
+	BYTE		        An2 
+	BYTE	W24
+	BYTE		N18     Fn2 
+	BYTE	W18
+	BYTE		N06     An2 
+	BYTE	W06
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_7_004
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_7_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_7_001
+// 008   ----------------------------------------
+	BYTE		PAN     c_v+9
+	BYTE		N24     En2   v104
+	BYTE	W24
+	BYTE		        Gn2 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE	W24
+	BYTE		N18     Gn2 
+	BYTE	W18
+	BYTE		N06     Bn2 
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_7_004
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	songBlumariFields_7_001
+// 011   ----------------------------------------
+	BYTE		PAN     c_v+9
+	BYTE		N24     En2   v104
+	BYTE	W24
+	BYTE		        Gn2 
+	BYTE	W24
+	BYTE		        An2 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	songBlumariFields_7_B1
+songBlumariFields_7_B2:
+// 012   ----------------------------------------
+	BYTE		PAN     c_v+9
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+songBlumariFields:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	songBlumariFields_pri	// Priority
+	BYTE	songBlumariFields_rev	// Reverb.
+
+	POIN2	songBlumariFields_grp
+
+	POIN2	songBlumariFields_1
+	POIN2	songBlumariFields_2
+	POIN2	songBlumariFields_3
+	POIN2	songBlumariFields_4
+	POIN2	songBlumariFields_5
+	POIN2	songBlumariFields_6
+	POIN2	songBlumariFields_7
+
+	

@@ -5,6 +5,11 @@ Wren[X]
 Daughter to Sir Kestral of Woadlan.[N]
 Inherits her mother's warrior spirit.[X]
 
+## deathWren
+[OpenMidLeft][LoadFace][WrenPortrait]
+N-no... not... h-here...[N]
+It's... too s-soon...[A][X]
+
 ## nameWigbrand
 Wigbrand[X]
 

@@ -27,5 +27,14 @@
 //#include "My_song.event"
 
 //Fire Emblem: Rekka no Ken, 'Strike!'
-SongTable(RekkaNoKenStrike,songRekkaNoKenStrike,MapMusicGroup)
-#include "RekkaNoKenStrike.event"
+//SongTable(RekkaNoKenStrike,songRekkaNoKenStrike,MapMusicGroup)
+//#include "RekkaNoKenStrike.event"
+
+SongTable(BlumariFields,songBlumariFields,MapMusicGroup)
+#include "BlumariFields.event"
+
+SongTable(FreshStrike,songFreshStrike,MapMusicGroup)
+#include "FreshStrike.event"
+
+SongTable(WystanWhistles,songWystanWhistles,MapMusicGroup)
+#include "WystanWhistles.event"

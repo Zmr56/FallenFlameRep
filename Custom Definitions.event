@@ -126,7 +126,9 @@
 #define CalibaneIconID 0xD3
 
 //Label Music Definitions
-#define RekkaNoKenStrike 0x19
+#define FreshStrike 0x19
+#define BlumariFields 0x9
+#define WystanWhistles 0xA
 
 //AI definitions
 //#define SeekWallsAI 0xE
