@@ -1,123 +1,243 @@
 
 ## OrvarCh5Base
 
-#Wren
-Hey Orvar, know where Shamira is?
-I thought she'd be at the training
-grounds.
+[Right][LoadWren]
+[Left][LoadOrvar]
 
-#Orvar
-Nah, she won't be here at the castle.
-She doesn't want anything to do with
-this place anymore.
+[Right]#Wren
+Hey Orvar, know where Shamira is?[N]
+I thought she'd be at the training[A][N]
+grounds.[A]
 
-#Wren
-I guess. But does this place really put
-Shamira off that much?
+[Left]#Orvar
+Nah, she won't be here at the castle.[N]
+She doesn't really have good memories[A][N]
+of the place.[A]
 
-#Orvar
-Yeah. Blooport folks tend to be like
-that do that to us northerners.
-Sis doesn't wanna deal with their
-attitude. I don't blame her.
+[Right]#Wren
+Does she not even have old friends from[N]
+her days at the academy?[A]
 
-#Wren
-Doesn't she have any friends here from
-her days training as a guard?
+[Left]#Orvar
+Well yeah but like, they're all[N]
+probably patrolling town right now or[A][N]
+deployed in Viripuria on the border.[N]
+And even then, I could probably count[A][N]
+my sis' mates on one hand. Still would[N]
+have more than me though, heh.[A]
 
-#Orvar
-Nope.
+[Right]#Wren
+Fair enough, although I'm sure she[N]
+would've been fine with me around...[A][N]
+By the way, what are you doing with[N]
+that mop?[A]
 
-#Wren
-Fair enough then...
-That's a shame to hear.
+[Left]#Orvar
+Full water jugs are surprisingly heavy.[N]
+I was caught off guard and the rest...[A][N]
+Well, you get the picture.[A]
 
-#Orvar
-Hey, she's got you, me and Dana.
-Shammi's long past needing the company
-of these high society military types.
+[Right]#Wren
+This happened last year when we were[N]
+here too, didn't it?[A]
 
-#Wren
-I guess. Thanks for the help anyway,
-Orvar.
+[Left]#Orvar
+Yep.[N][A]
 
-#Orvar
-No problem, Wren.
+[Right]#Wren
+And did my grandpa get[N]
+his cape wet again?[A]
 
-#Wren
-Actually, wait, why are you here then?
+[Left]#Orvar
+Uh-uh. You'd think after all this[N]
+fighting my dexterity would be better.[A]
 
-#Orvar
-I've just been aimlessly walking around
-because I haven't got a clue what to do
-right now.
-
-#Wren
-I mean you could be practising your
-archery at the archery range.
-
-#Orvar
-Tsk... Why you gotta remind me of
-these chores...
+[Right]#Wren
+You really would.[N][A]
 [X]
 
 ## NuriCh5Base
 
-#Nuri
-Pardon me, Lady Wren, you haven't
-happened to have seen that blaste-
-I mean, sir Rudyard have you?
+[Right][LoadWren]
+[Left][LoadNuri]
 
-#Wren
-Funnily enough, no. Can't say I have.
-Even Lady Sarai was looking for him.
+[Left]#Nuri
+Lady Wren! May I ask if you've seen[N]
+Rudyard around anywhere?[A]
 
-#Nuri
-Typical...
+[Right]#Wren
+No, can't say I have, why do you ask?[N][A]
 
-#Wren
-Umm, do you have history with sir
-Rudyard? You seem to be familiar with
-him.
+[Left]#Nuri
+I need to give him a piece of my mind[N]
+but it seems he scampered off...[A]
 
-#Nuri
-Perhaps I do. I can't be sure for
-certain though until I have a proper
-talk with him. Not easy if we're never
-in the same room.
+[Right]#Wren
+What did he do to sour your spirits?[N]
+I'll deal with it if you want me to.[A]
 
-#Wren
-R-right... Well, I uh, hope you all the
-best in finding him one day. I'm sure
-you two will be fighting alongside each
-other in the campaign ahead frequently
-at least. Riders are a formidable force
-when working together.
+[Left]#Nuri
+It's... complicated.[N]
+And very personal.[A][N]
+It's something I need to sort myself.[A]
 
-#Nuri
-When they choose to... I doubt he'd
-know the meaning of 'work' unless it
-was written on a halberd coming for his
-head.
+[Right]#Wren
+Sorting it out doesn't happen to[N]
+involve your axe by any chance?[A]
 
-#Wren
-Oh uhh, I'm sure he's nothing like
-that, ahaha... Duke Wystan and Lady
-Sarai have only praises to sing of his
-performance in battle.
+[Left]#Nuri
+Uhhh...[N][A]
 
-#Nuri
-A part of me finds that hard to
-believe... But I can't doubt their
-judgement. I dare not speak ill of
-Viripuria's esteemed allies.
+[Right]#Wren
+I'll have a look for him, don't worry.[N]
+Just, when you're in better spirits.[A]
 
-#Wren
-Trust me Nuri, sir Rudyard will prove
-himself as a dependable comrade.
-I will make sure of it.
+[Left]#Nuri
+That...  Seems sensible I guess.[N][A]
 
-#Nuri
-I really hope so, Lady Wren.
-I really, really do.
+[Right]#Wren
+Sensible is good.[N][A]
+[X]
+
+## MordredCh5Base
+
+[Right][LoadWren]
+[Left][LoadMordred]
+
+[Left]#Mordred
+Hmph, what do you want, woman?[N][A]
+
+[Right]#Wren
+Well I was going to ask you about the[N]
+mission in Viripuria but if you're[A][N]
+going to act like that, I won't waste[N]
+my time.[A]
+
+[Left]#Mordred
+Oho? What's this? You're concerned[N]
+about me for once?[A]
+
+[Right]#Wren
+Don't get the wrong idea, I couldn't[N]
+care less about what happens to you.[A][N]
+I'm just concerned about Adela,[N]
+that's all.[A]
+
+[Left]#Mordred
+Well the princess' head is still stuck[N]
+to her shoulders.[A][N]
+What more could you ask for?[A]
+
+[Right]#Wren
+You very well know that isn't the full[N]
+picture.[A]
+
+[Left]#Mordred
+Believe it or not but I pushed myself[N]
+beyond my limits to rescue as much of[A][N]
+the royal family as I could along with[N]
+the rest of our team. If Prince Vladmir[A][N]
+didn't appear to have a death wish then[N]
+maybe your fiance would still be here[A][N]
+with us. Alas, I suppose he may have[N]
+had his demons bottled up inside that[A][N]
+he wanted burnt down alongside himself[N]
+and the palace as the rebels razed it.[A]
+
+[Right]#Wren
+I know very well my fiance didn't hold[N]
+any secrets from me and you have no[A][N]
+right to speculate on such. I'm sure[N]
+you had the ability to save him.[A]
+
+[Left]#Mordred
+For once you don't doubt my strength?[N]
+This relationship seems to be making[A][N]
+good progress! Alas, you still doubt my[N]
+intentions. But what reason could I[A][N]
+have for letting Prince Vladmir die?[A]
+
+[Right]#Wren
+I'm not accusing you of anything,[N]
+it's just... Well the two of you never[A][N]
+really got along. So I wouldn't be[N]
+surprised if you'd left him for[A][N]
+whatever reason. Maybe you didn't mean[N]
+to but...[A]
+
+[Left]#Mordred
+I never wanted there to be friction[N]
+between me and the prince. There were[A][N]
+some jokes that he just, misunderstood.[N]
+I don't see any reason he should've[A][N]
+taken our banter to heart unless...[A]
+
+[Right]#Wren
+I know what you're insinuating but if[N]
+Vladmir truly felt like that he[A][N]
+would've told me.[A]
+
+[Left]#Mordred
+Maybe he did tell you and you just[N]
+don't want to admit it to the world?[A]
+
+[Right]#Wren
+It'd be wrong for me to feed your[N]
+ravenous appetite for gossip so you can[A][N]
+consider this conversation over.[A]
+
+[Left]#Mordred
+Whatever, mongrel.[N][A]
+[X]
+
+## KestralCh5Base
+
+[Right][LoadKestral]
+[Left][LoadWigbrand]
+
+[Left]#Wigbrand
+I hope the events of this invasion[N]
+haven't changed your mind on supporting[A][N]
+my forces in Blackpeak.[A]
+
+[Right]#Kestral
+Can't say I'm satisfied you dragged[N]
+Wren into all of this but...[A][N]
+what must be done must still be done,[N]
+the facts behind that haven't changed.[A][N]
+You're still our best bet against them.[A]
+
+[Left][ClearFace]
+[FarRight][LoadWigbrand]
+
+[Left][LoadWren]
+
+[Left]#Wren
+Afternoon father! Wigbrand![N]
+Oh uh, I hope I wasn't intruding on[A][N]
+anything, was I?[A]
+
+[Right]#Kestral
+No, nothing at all darling. Did you[N]
+want something important?[A]
+
+[Left]#Wren
+No I just wan-[N][A]
+
+[Right]#Kestral
+I'm afraid it'll have to wait for later[N]
+then. Whatever it is we can discuss it[A][N]
+some other time I'm sure. Goodbye Wren,[N]
+have a nice day.[A]
+
+[FarRight]#Wigbrand
+Sir Kestral and I have matters that[N]
+need attending to. Goodbye.[A]
+
+[Right][ClearFace]
+[FarRight][ClearFace]
+
+[Left]#Wren
+I need to find out what's going on[N]
+between the two, before it's too late.[A]
 [X]

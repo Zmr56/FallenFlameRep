@@ -1,0 +1,178 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadMordred]
+
+
+
+[Left]#Mordred
+
+Hmph, what do you want, woman?[N][A]
+
+
+
+[Right]#Wren
+
+Well I was going to ask you about the[N]
+
+mission in Viripuria but if you're[A][N]
+
+going to act like that, I won't waste[N]
+
+my time.[A]
+
+
+
+[Left]#Mordred
+
+Oho? What's this? You're concerned[N]
+
+about me for once?[A]
+
+
+
+[Right]#Wren
+
+Don't get the wrong idea, I couldn't[N]
+
+care less about what happens to you.[A][N]
+
+I'm just concerned about Adela,[N]
+
+that's all.[A]
+
+
+
+[Left]#Mordred
+
+Well the princess' head is still stuck[N]
+
+to her shoulders.[A][N]
+
+What more could you ask for?[A]
+
+
+
+[Right]#Wren
+
+You very well know that isn't the full[N]
+
+picture.[A]
+
+
+
+[Left]#Mordred
+
+Believe it or not but I pushed myself[N]
+
+beyond my limits to rescue as much of[A][N]
+
+the royal family as I could along with[N]
+
+the rest of our team. If Prince Vladmir[A][N]
+
+didn't appear to have a death wish then[N]
+
+maybe your fiance would still be here[A][N]
+
+with us. Alas, I suppose he may have[N]
+
+had his demons bottled up inside that[A][N]
+
+he wanted burnt down alongside himself[N]
+
+and the palace as the rebels razed it.[A]
+
+
+
+[Right]#Wren
+
+I know very well my fiance didn't hold[N]
+
+any secrets from me and you have no[A][N]
+
+right to speculate on such. I'm sure[N]
+
+you had the ability to save him.[A]
+
+
+
+[Left]#Mordred
+
+For once you don't doubt my strength?[N]
+
+This relationship seems to be making[A][N]
+
+good progress! Alas, you still doubt my[N]
+
+intentions. But what reason could I[A][N]
+
+have for letting Prince Vladmir die?[A]
+
+
+
+[Right]#Wren
+
+I'm not accusing you of anything,[N]
+
+it's just... Well the two of you never[A][N]
+
+really got along. So I wouldn't be[N]
+
+surprised if you'd left him for[A][N]
+
+whatever reason. Maybe you didn't mean[N]
+
+to but...[A]
+
+
+
+[Left]#Mordred
+
+I never wanted there to be friction[N]
+
+between me and the prince. There were[A][N]
+
+some jokes that he just, misunderstood.[N]
+
+I don't see any reason he should've[A][N]
+
+taken our banter to heart unless...[A]
+
+
+
+[Right]#Wren
+
+I know what you're insinuating but if[N]
+
+Vladmir truly felt like that he[A][N]
+
+would've told me.[A]
+
+
+
+[Left]#Mordred
+
+Maybe he did tell you and you just[N]
+
+don't want to admit it to the world?[A]
+
+
+
+[Right]#Wren
+
+It'd be wrong for me to feed your[N]
+
+ravenous appetite for gossip so you can[A][N]
+
+consider this conversation over.[A]
+
+
+
+[Left]#Mordred
+
+Whatever, mongrel.[N][A]
+
+[X]
+

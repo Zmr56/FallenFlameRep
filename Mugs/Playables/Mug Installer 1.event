@@ -71,6 +71,10 @@ Muninn_Mug:
 #incext PortraitFormatter "Muninn.png"
 setMugEntry(0x19, Muninn_Mug, 2, 6, 2, 3)
 
+Vanja_Mug:
+#incext PortraitFormatter "Vanja.png"
+setMugEntry(0x1B, Vanja_Mug, 3, 6, 3, 4)
+
 Dunstan_Mug:
 #incext PortraitFormatter "Dunstan.png"
 setMugEntry(0x53, Dunstan_Mug, 3, 5, 3, 3)

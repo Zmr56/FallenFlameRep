@@ -136,6 +136,13 @@ Jord[X]
 A country girl who moved to the city,[N]
 then whisked away from it by the war.[X]
 
+## nameVanja
+Vanja[X]
+
+## descVanja
+A Confederacy spy. Her stand-offish[N]
+exterior disguises a generous heart.[X]
+
 ## nameVicks
 Vicks[X]
 

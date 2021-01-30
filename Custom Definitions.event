@@ -76,6 +76,7 @@
 #define Nemain 0x11
 #define Muninn 0x12
 #define Jord 0x13
+#define Vanja 0x14
 #define Mordred 0x30
 #define Kestral 0x31
 
@@ -88,6 +89,10 @@
 #define Sawine Orson_Ch5x
 #define Rhud Selena_Ch10B_and_13B
 #define Sonta Valter_Prologue
+
+#define Merchant Deathgoyle_boss
+#define Odwynn 0xF1
+#define Bleda 0xF2
 
 // Class definitions
 #define SwordCav 0x5

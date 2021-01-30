@@ -1,0 +1,110 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadOrvar]
+
+
+
+[Right]#Wren
+
+Hey Orvar, know where Shamira is?[N]
+
+I thought she'd be at the training[A][N]
+
+grounds.[A]
+
+
+
+[Left]#Orvar
+
+Nah, she won't be here at the castle.[N]
+
+She doesn't really have good memories[A][N]
+
+of the place.[A]
+
+
+
+[Right]#Wren
+
+Does she not even have old friends from[N]
+
+her days at the academy?[A]
+
+
+
+[Left]#Orvar
+
+Well yeah but like, they're all[N]
+
+probably patrolling town right now or[A][N]
+
+deployed in Viripuria on the border.[N]
+
+And even then, I could probably count[A][N]
+
+my sis' mates on one hand. Still would[N]
+
+have more than me though, heh.[A]
+
+
+
+[Right]#Wren
+
+Fair enough, although I'm sure she[N]
+
+would've been fine with me around...[A][N]
+
+By the way, what are you doing with[N]
+
+that mop?[A]
+
+
+
+[Left]#Orvar
+
+Full water jugs are surprisingly heavy.[N]
+
+I was caught off guard and the rest...[A][N]
+
+Well, you get the picture.[A]
+
+
+
+[Right]#Wren
+
+This happened last year when we were[N]
+
+here too, didn't it?[A]
+
+
+
+[Left]#Orvar
+
+Yep.[N][A]
+
+
+
+[Right]#Wren
+
+And did my grandpa get[N]
+
+his cape wet again?[A]
+
+
+
+[Left]#Orvar
+
+Uh-uh. You'd think after all this[N]
+
+fighting my dexterity would be better.[A]
+
+
+
+[Right]#Wren
+
+You really would.[N][A]
+
+[X]
+

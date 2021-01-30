@@ -65,6 +65,8 @@
 [AdelaPortrait] = [0x10][0x1]
 [KestralPortrait] = [0x51][0x1]
 [NuriPortrait] = [0x11][0x1]
+[MordredPortrait] = [0xAE][0x1]
+[VanjaPortrait] = [0x1B][0x1]
 
 [BanditPortrait] = [0x6d][0x1]
 [DattaPortrait] = [0x4a][0x1]
@@ -89,6 +91,8 @@
 [LoadAdela] = [LoadFace][AdelaPortrait]
 [LoadKestral] = [LoadFace][KestralPortrait]
 [LoadNuri] = [LoadFace][NuriPortrait]
+[LoadMordred] = [LoadFace][MordredPortrait]
+[LoadVanja] = [LoadFace][VanjaPortrait]
 
 [LoadBandit] = [LoadFace][BanditPortrait]
 [LoadDatta] = [LoadFace][DattaPortrait]

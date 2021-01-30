@@ -1,0 +1,82 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadNuri]
+
+
+
+[Left]#Nuri
+
+Lady Wren! May I ask if you've seen[N]
+
+Rudyard around anywhere?[A]
+
+
+
+[Right]#Wren
+
+No, can't say I have, why do you ask?[N][A]
+
+
+
+[Left]#Nuri
+
+I need to give him a piece of my mind[N]
+
+but it seems he scampered off...[A]
+
+
+
+[Right]#Wren
+
+What did he do to sour your spirits?[N]
+
+I'll deal with it if you want me to.[A]
+
+
+
+[Left]#Nuri
+
+It's... complicated.[N]
+
+And very personal.[A][N]
+
+It's something I need to sort myself.[A]
+
+
+
+[Right]#Wren
+
+Sorting it out doesn't happen to[N]
+
+involve your axe by any chance?[A]
+
+
+
+[Left]#Nuri
+
+Uhhh...[N][A]
+
+
+
+[Right]#Wren
+
+I'll have a look for him, don't worry.[N]
+
+Just, when you're in better spirits.[A]
+
+
+
+[Left]#Nuri
+
+That...  Seems sensible I guess.[N][A]
+
+
+
+[Right]#Wren
+
+Sensible is good.[N][A]
+
+[X]
+

@@ -1,0 +1,99 @@
+
+
+[Right][LoadKestral]
+
+[Left][LoadWigbrand]
+
+
+
+[Left]#Wigbrand
+
+I hope the events of this invasion[N]
+
+haven't changed your mind on supporting[A][N]
+
+my forces in Blackpeak.[A]
+
+
+
+[Right]#Kestral
+
+Can't say I'm satisfied you dragged[N]
+
+Wren into all of this but...[A][N]
+
+what must be done must still be done,[N]
+
+the facts behind that haven't changed.[A][N]
+
+You're still our best bet against them.[A]
+
+
+
+[Left][ClearFace]
+
+[FarRight][LoadWigbrand]
+
+
+
+[Left][LoadWren]
+
+
+
+[Left]#Wren
+
+Afternoon father! Wigbrand![N]
+
+Oh uh, I hope I wasn't intruding on[A][N]
+
+anything, was I?[A]
+
+
+
+[Right]#Kestral
+
+No, nothing at all darling. Did you[N]
+
+want something important?[A]
+
+
+
+[Left]#Wren
+
+No I just wan-[N][A]
+
+
+
+[Right]#Kestral
+
+I'm afraid it'll have to wait for later[N]
+
+then. Whatever it is we can discuss it[A][N]
+
+some other time I'm sure. Goodbye Wren,[N]
+
+have a nice day.[A]
+
+
+
+[FarRight]#Wigbrand
+
+Sir Kestral and I have matters that[N]
+
+need attending to. Goodbye.[A]
+
+
+
+[Right][ClearFace]
+
+[FarRight][ClearFace]
+
+
+
+[Left]#Wren
+
+I need to find out what's going on[N]
+
+between the two, before it's too late.[A]
+
+[X]

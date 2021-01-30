@@ -1,0 +1,113 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadVanja]
+
+
+
+[Right]#Wren
+
+Aha! Stop right there thief, this loot[N]
+
+is ours! Actually wait... Aren't you[A][N]
+
+part of the enemy forces? How come[N]
+
+you're stealing from their own prison?[A]
+
+
+
+[Left]#Vanja
+
+I-I'm not! I swear! I'm just going to[N]
+
+uhh, check on the chests. That's all.[A]
+
+
+
+[Right]#Wren
+
+I don't think checking on chests is[N]
+
+something to get red faced about.[A][N]
+
+I promise I won't tell your superiors[N]
+
+about what you're doing so you can be[A][N]
+
+honest with me.[A]
+
+
+
+[Left]#Vanja
+
+Ugh, fine. You got me. So what if I'm[N]
+
+stealing from this dingy dungeon?[A][N]
+
+Just let me be on my way, yeah?[A]
+
+
+
+[Right]#Wren
+
+Wouldn't it be easier to steal with[N]
+
+someone else by your side?[A]
+
+
+
+[Left]#Vanja
+
+Someone else being who exactly?[N][A]
+
+
+
+[Right]#Wren
+
+Well I say this loot was our army's,[N]
+
+and not just mine for a reason.[A]
+
+
+
+[Left]#Vanja
+
+Fine... I'll tag along. But only[N]
+
+because I've got a debt to pay off to[A][N]
+
+someone you guys are involved with.[A]
+
+
+
+[Right]#Wren
+
+It'll be great to have you onboard with[N]
+
+us then! Welcome to the team, uhh...[A]
+
+
+
+[Left]#Vanja
+
+It's Vanja.[N][A]
+
+
+
+[Right]#Wren
+
+Welcome to the team then Vanja! I'm-[N][A]
+
+
+
+[Left][ClearFace]
+
+
+
+[Right]#Wren
+
+No one important I guess...[N][A]
+
+[X]
