@@ -225,7 +225,7 @@ ENDA
 
 EndingScene:
 MUSC 0x43
-SetBackground(0x35)
+SetBackground(0x1D)
 Text(Ch4ClosingText1)
 TEXTEND
 CALL $9EE2C4 //BGEnd

@@ -1,0 +1,152 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadCato]
+
+[FarLeft][LoadHuginn]
+
+
+
+[Right]#Wren
+
+I see you're taking in the view of[N]
+
+Seyfaut then, Elder Cato? Huginn?[A]
+
+
+
+[Left]#Cato
+
+My! Young lady you almost made me fall[N]
+
+over the edge here with that surprise![A]
+
+
+
+[Right]#Wren
+
+Eek! My sincerest apologies, Elder![N]
+
+Next time I'll announce my entrance.[A]
+
+
+
+[Left]#Cato
+
+No, no... It's fine, it's just that my[N]
+
+hearing is getting rustier with age.[A][N]
+
+Seyfaut appears to be a splendid city,[N]
+
+from what I can gather from this view.[A]
+
+
+
+[Right]#Wren
+
+I'm glad you feel as such. The city's[N]
+
+Gofaullic Quarter is also a popular[A][N]
+
+retreat if you're fancying any food[N]
+
+from home. Me and my mother would visit[A][N]
+
+often for the best Umbrake venison.[A]
+
+
+
+[Left]#Cato
+
+Is it common for the Blumari nobility[N]
+
+to dine in Gofaullic districts?[A]
+
+
+
+[Right]#Wren
+
+Not really, no. My mother is from[N]
+
+Umbrake however, so I grew up on a lot[A][N]
+
+of its cuisine.[A]
+
+
+
+[Left]#Cato
+
+Oh? This is news to me.[N]
+
+Isn't Umbrake a Wyvember colony though?[A]
+
+
+
+[Right]#Wren
+
+Mhmm... But my mother and father met[N]
+
+before it was fully taken over.[A][N]
+
+Since then clan Harfang and Blumari[N]
+
+have been covertly working together to[A][N]
+
+undermine their colonial rule.[A]
+
+
+
+[FarLeft]#Huginn
+
+...![N][A]
+
+
+
+[Left]#Cato
+
+I suppose that name explains why our[N]
+
+ragtag band of forces have managed to[A][N]
+
+get this far then. Are you fully aware[N]
+
+of your clan's reputation, milady?[A]
+
+
+
+[Right]#Wren
+
+N-no... Not fully. Which clan are you[N]
+
+from, Elder Cato?[A]
+
+
+
+[Left]#Cato
+
+Clan Myotis, of which I used to be[N]
+
+chieftain of. Wyvember has reduced our[A][N]
+
+numbers however, so few know of us.[A]
+
+
+
+[Right]#Wren
+
+I'm sure we can reverse that decline.[N]
+
+Blumari won't let Wyvember maintain[A][N]
+
+their grip over Umbrake for long.[A]
+
+
+
+[Left]#Cato
+
+I have faith in you to see it through.[N][A]
+
+[X]
+

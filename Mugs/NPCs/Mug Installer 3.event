@@ -7,10 +7,52 @@ Falcone_Mug:
 #incext PortraitFormatter "Falcone.png"
 setMugEntry(0x52, Falcone_Mug, 3, 6, 3, 4)
 
+Agni_Mug:
+#incext PortraitFormatter "Agni.png"
+setMugEntry(0x32, Agni_Mug, 2, 4, 2, 2)
+
+Gwyn_Mug:
+#incext PortraitFormatter "Gwyn.png"
+setMugEntry(0xB5, Gwyn_Mug, 3, 5, 3, 3)
+
+Cledwyn_Mug:
+#incext PortraitFormatter "Cledwyn.png"
+setMugEntry(0xB3, Cledwyn_Mug, 3, 5, 3, 3)
+
+Shahrokh_Mug:
+#incext PortraitFormatter "Shahrokh.png"
+setMugEntry(0xB1, Shahrokh_Mug, 3, 5, 3, 3)
+
+//Generics mugs
+
 WystanSoldier_Mug:
 #incext PortraitFormatter "WystanSoldier.png"
 setMugEntry(0xAD, WystanSoldier_Mug, 2, 5, 3, 3)
 
-Agni_Mug:
-#incext PortraitFormatter "Agni.png"
-setMugEntry(0x32, Agni_Mug, 2, 4, 2, 2)
+BlumariFSoldier1_Mug:
+#incext PortraitFormatter "BlumariFSoldier1.png"
+setMugEntry(0xAF, BlumariFSoldier1_Mug, 2, 6, 3, 4)
+
+BlumariFSoldier2_Mug:
+#incext PortraitFormatter "BlumariFSoldier2.png"
+setMugEntry(0x69, BlumariFSoldier2_Mug, 2, 5, 3, 3)
+
+BlumariGeneral_Mug:
+#incext PortraitFormatter "BlumariGeneral.png"
+setMugEntry(0xB0, BlumariGeneral_Mug, 3, 5, 3, 3)
+
+BlumariSoldier_Mug:
+#incext PortraitFormatter "BlumariSoldier.png"
+setMugEntry(0x6A, BlumariSoldier_Mug, 2, 5, 3, 3)
+
+BlumariKnight_Mug:
+#incext PortraitFormatter "BlumariKnight.png"
+setMugEntry(0xB2, BlumariKnight_Mug, 3, 5, 3, 3)
+
+GenericMercenary_Mug:
+#incext PortraitFormatter "GenericMercenary.png"
+setMugEntry(0xB4, GenericMercenary_Mug, 3, 5, 3, 3)
+
+Elder_Mug:
+#incext PortraitFormatter "Elder1.png"
+setMugEntry(0xB6, Elder_Mug, 2, 6, 2, 4)

@@ -1,0 +1,129 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadNemain]
+
+
+
+[Right]#Wren
+
+Ha... Ha... Ahh...[N][A]
+
+
+
+[Left]#Nemain
+
+Yep, you definitely went all out.[N]
+
+I must say, I'm impressed.[A][N]
+
+I can definitely work with this.[N]
+
+Did you enjoy our session then?[A]
+
+
+
+[Right]#Wren
+
+L-let me catch my breath...[N][A]
+
+
+
+[Left]#Nemain
+
+I mean even a nod will do.[N][A]
+
+
+
+[Right][MoveRight]
+
+
+
+[Left]#Nemain
+
+Heh, being a teacher is kind of fun.[N]
+
+Better than hanging out with the goons[A][N]
+
+I was with before. I've been missing[N]
+
+having some time with the girls since.[A]
+
+
+
+[Right]#Wren
+
+I definitely feel stronger...[N]
+
+Thank you, teacher.[A]
+
+
+
+[Left]#Nemain
+
+Just Nemain will do. You saved my life[N]
+
+back in the city so I owe you big time.[A][N]
+
+Consider this as paying my debt to you.[A]
+
+
+
+[Right]#Wren
+
+Sure, Nemain. I appreciate it.[N][A]
+
+
+
+[Left]#Nemain
+
+Although...[N][A]
+
+
+
+[Right]#Wren
+
+Hm?[N][A]
+
+
+
+[Left]#Nemain
+
+You see, I'm a bit of a greedy gal.[N]
+
+Mind me requesting one other thing?[A]
+
+
+
+[Right]#Wren
+
+Well it'd depend on what it is...[N][A]
+
+
+
+[Left]#Nemain
+
+Promise me you can get me a sparring[N]
+
+session with ol' Wigbrand, yeah?[A][N]
+
+I've wanted to fight against that famed[N]
+
+sword arm for years now...[A]
+
+
+
+[Right]#Wren
+
+Hmm...[N]
+
+I'll see what I can do.[A]
+
+
+
+[Left]#Nemain
+
+I look forward to it, Lady Wren.[N][A]
+
+[X]

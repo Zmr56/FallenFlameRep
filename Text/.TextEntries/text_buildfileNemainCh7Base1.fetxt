@@ -1,0 +1,68 @@
+
+
+[Left][LoadNemain]
+
+
+
+[Left]#Nemain
+
+Hyah! Hah! Hyaaah![N]
+
+...[A][N]
+
+Well, I'm spent...[N]
+
+You know now that I'm resting this[A][N]
+
+would be a good time to speak up.[A]
+
+
+
+[Right][LoadWren]
+
+
+
+[Right]#Wren
+
+Oh! My apologies... I didn't realise[N]
+
+you noticed me watching. I'm awfully[A][N]
+
+sorry to have intruded on your session.[A]
+
+
+
+[Left]#Nemain
+
+Don't be. You wanna learn how to master[N]
+
+the sword, right?[A]
+
+
+
+[Right]#Wren
+
+Indeed... If I'm to wield Falchion then[N]
+
+I must follow in my mother's footsteps[A][N]
+
+and aspire to be a master in the blade.[A]
+
+
+
+[Left]#Nemain
+
+And another master in the blade you've[N]
+
+found to follow in me. Let's spar then![A]
+
+
+
+[Right]#Wren
+
+Thank you, teacher![N]
+
+I'll give you everything I've got![A]
+
+[X]
+

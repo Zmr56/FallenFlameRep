@@ -8,9 +8,9 @@ ForceDeployEntry(Adela,0x06)
 ForceDeployEntry(Nuri,0x06)
 ForceDeployEntry(Iara,0x07)
 ForceDeployEntry(Apollo,0x07)
-ForceDeployEntry(Evander,0x08)
-ForceDeployEntry(Muninn,0x09)
-ForceDeployEntry(Jord,0x09)
+ForceDeployEntry(Evander,0x09)
+ForceDeployEntry(Muninn,0x0B)
+ForceDeployEntry(Jord,0x0B)
 EndForceDeploy
 
 PUSH

@@ -225,19 +225,20 @@ ENUF 0x9 //allow event to repeat
 LABEL 2
 NoFade
 ENDA
-
+/*
 GreensAlive:
 CHECK_OTHERS // slot c = number of NPCS
 SVAL 0x1 0x6 // slot 1 = original number of NPCS
+SVAL 0x3 0x5B
 BNE 1 0xC 0x1 // branch label 1 if there are less NPCs
 Text(PlaceholderText)
-GiveItem(AngelicRobe,Wren)
+GIVE_ITEM Wren(AngelicRobe,Wren)
 GOTO 2
 LABEL 1
 LABEL 2
 NoFade
 ENDA
-
+*/
 BeginningScene:
 MUSC 0x4
 SetBackground(0x25)

@@ -109,6 +109,6 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-MNCH 8
+MNCH 0x08
 NoFade
 ENDA

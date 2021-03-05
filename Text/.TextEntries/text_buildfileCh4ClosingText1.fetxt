@@ -1,24 +1,72 @@
 
 
-[Left][LoadWren]
+[Right][LoadWren]
+
+[FarRight][LoadWigbrand]
+
+[FarLeft][LoadSarai]
+
+[Left][LoadAdela]
 
 
 
-[Left]#Wren
+[Right]#Wren
 
-Woah! You just reached the end of[N]
+Now that both commanders are defeated,[N]
 
-Fire Emblem: Fallen Flame's first[A][N]
+it'd seem the enemy remnants have fled.[A]
 
-public release! There's no more content[N]
 
-beyond here yet, sadly. In the meantime[A][N]
 
-you can leave feedback on the Fire[N]
+[FarRight]#Wigbrand
 
-Emblem Universe thread! We hope you had[A][N]
+It's safe to say the enemy is no longer[N]
 
-fun playing![A]
+on Blumari shores so we can advance to[A][N]
+
+Seyfaut safely.[A]
+
+
+
+[FarLeft]#Sarai
+
+Hoorah! Our home is free once more![N]
+
+Woo! I'm all tuckered out though.[A]
+
+
+
+[Left]#Adela
+
+I'm looking forward to heading there so[N]
+
+I can reunite with my cousin.[A]
+
+
+
+[Right]#Wren
+
+I've been meaning to ask the king about[N]
+
+a number of things...[A]
+
+
+
+[FarRight]#Wigbrand
+
+Best think about those things later.[N]
+
+We must make haste for the capital.[A][N]
+
+There's important manners of business[N]
+
+that will need to be arranged.[A]
+
+
+
+[Right]#Wren
+
+Right, we'll advance promptly then.[N][A]
 
 [X]
 

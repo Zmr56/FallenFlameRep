@@ -94,6 +94,22 @@
 #define Odwynn 0xF1
 #define Bleda 0xF2
 
+#define Shahrokh Lyon_Ch17
+#define Roamer1 Lyon_Ch17
+#define Roamer2 Morva_Ch20
+#define Roamer3 Orson_Ch5x
+#define Roamer4 Zonta
+#define Roamer5 Valter_Prologue
+#define Roamer6 Selena_Ch10B_and_13B
+#define Roamer7 Bazba
+#define Roamer8 Murray
+#define Roamer9 Tirado
+#define Roamer10 Binks
+#define Roamer11 Aias
+#define Roamer12 Macdaire
+#define Roamer13 Pablo
+#define Roamer14 Carlyle
+
 // Class definitions
 #define SwordCav 0x5
 #define LanceCav 0x6

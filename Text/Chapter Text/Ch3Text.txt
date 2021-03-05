@@ -358,7 +358,7 @@ when you go against the imperialists.[A][N]
 They turn you into fodder.[A]
 
 [Right]#Wren
-Ah, I see. You're from the Umbralburg[N]
+Ah, I see. You're from the Umbrake[N]
 colony, aren't you?[A]
 
 [Left]#Cato
@@ -388,7 +388,7 @@ met with difficulty.[A]
 
 [Right]#Wren
 You have my word that it won't happen,[N]
-elder.[A]
+Elder.[A]
 
 [Left]#Cato
 What a polite lass.[A]

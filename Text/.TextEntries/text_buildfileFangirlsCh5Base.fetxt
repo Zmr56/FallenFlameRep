@@ -1,0 +1,168 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadBlumariFSoldier1]
+
+[FarLeft][LoadBlumariFSoldier2]
+
+
+
+[Left]#Soldier1
+
+Oh! Lady Wren! Pleased to meet you![N][A]
+
+
+
+[Right]#Wren
+
+Pleased to meet you too![N]
+
+How can I help you?[A]
+
+
+
+[FarLeft]#Soldier2
+
+It's umm... Oh I just can't get the[N]
+
+words out! I'm getting all nervous...[A]
+
+
+
+[Right]#Wren
+
+Uhh...[N][A]
+
+
+
+[Left]#Soldier1
+
+So so sorry about my friend here![N]
+
+We were just wondering, could you sign[A][N]
+
+our paintings of you?[A]
+
+
+
+[FarLeft]#Soldier2
+
+I p-put a lot of hard work into it...[N]
+
+It was hard because I didn't have many[A][N]
+
+references to go off by, but I tried my[N]
+
+best to make it as beautiful like you![A]
+
+
+
+[Right]#Wren
+
+Oh t-that's really sweet! Sure I'll[N]
+
+sign it for you two![A][N]
+
+(Oh my... it doesn't look a single bit[N]
+
+like me... But she really tried...)[A][N]
+
+There you go, signed.[A]
+
+
+
+[Left]#Soldier1
+
+Oh my gosh! Aaaaa! We love you so much![N][A]
+
+
+
+[FarLeft]#Soldier2
+
+W-We really appreciate everything you[N]
+
+do for girls like us! The only other[A][N]
+
+sister who's given us hope was Lady[N]
+
+Shamira...[A]
+
+
+
+[Left]#Soldier1
+
+Sometimes it feels like we just get[N]
+
+pushed out of the army by the lads...[A][N]
+
+They try making us feel weak and small![N]
+
+But Lady Wren... You've shown all the[A][N]
+
+girls in this country that we're every[N]
+
+bit as strong as 'em, or even stronger![A]
+
+
+
+[FarLeft]#Soldier2
+
+Mhmm! You really are the best, saving[N]
+
+Blumari from invasion! If we could we'd[A][N]
+
+march right over into Wyvember and show[N]
+
+them what us ladies are made out of![A]
+
+
+
+[Right]#Wren
+
+T-thanks girls... I d-don't know wha-[N][A]
+
+
+
+[Left]#Soldier1
+
+It's okay Lady Wren! You don't need to[N]
+
+say anything! Just know that we're your[A][N]
+
+superfans from now on![A]
+
+
+
+[FarLeft]#Soldier2
+
+We shouldn't keep you waiting any[N]
+
+longer, we've been wasting your time[A][N]
+
+far too much... Goodbye Lady Wren![A]
+
+
+
+[Left]#Soldier1
+
+Bye! We love you forever and ever![N][A]
+
+
+
+[Left][ClearFace]
+
+[FarLeft][ClearFace]
+
+
+
+[Right]#Wren
+
+I-I don't understand...[N]
+
+This doesn't feel right...[A][N]
+
+They don't understand it isn't true...[A]
+
+[X]
+

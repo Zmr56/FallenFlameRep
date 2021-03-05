@@ -1,0 +1,116 @@
+
+
+[Left][LoadBlumariGeneral]
+
+[Right][LoadWren]
+
+
+
+[Right]#Wren
+
+Umm, excuse me, I'm in need of help.[N][A]
+
+
+
+[Left]#General
+
+How can I assist you milady?[N][A]
+
+
+
+[Right]#Wren
+
+I was told to retrieve a Wyrmslayer but[N]
+
+I was not informed of its whereabouts.[A]
+
+
+
+[Left]#General
+
+You need not concern yourself with[N]
+
+that, milady. I'm sure your intentions[A][N]
+
+are well, but this is a matter for your[N]
+
+husband or lord to deal with. Equipment[A][N]
+
+maintenance is solely a knight's duty.[A]
+
+
+
+[Right]#Wren
+
+...I am the knight in question.[N][A]
+
+
+
+[Left]#General
+
+You are most amusing milady! However,[N]
+
+Wyrmslayers are only to be handled by[A][N]
+
+the finest warriors in the realm.[A]
+
+
+
+[Right]#Wren
+
+Such as the commander of the expedition[N]
+
+into Gofaul?[A]
+
+
+
+[Left]#General
+
+Indeed.[N][A]
+
+
+
+[Right]#Wren
+
+Well then, she stands before you.[N]
+
+Even if you struggle to believe it.[A][N]
+
+Now, the Wyrmslayer?[N]
+
+You shouldn't keep a knight waiting.[A]
+
+
+
+[Left]#General
+
+Pardon my ignorance, milady.[N]
+
+Inside the chests is the Wyrmslayer.[A]
+
+
+
+[Right]#Wren
+
+I hope the other maidens who give their[N]
+
+life for this country aren't subjected[A][N]
+
+to the same kind of rudeness.[A]
+
+
+
+[Left]#General
+
+I am most sincerely apologetic milady.[N]
+
+Verily, I will not err again.[A]
+
+
+
+[Right]#Wren
+
+I hope so.[N][A]
+
+[X]
+

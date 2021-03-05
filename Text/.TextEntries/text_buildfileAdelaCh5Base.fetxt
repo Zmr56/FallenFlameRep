@@ -1,0 +1,204 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadAdela]
+
+[FarLeft][LoadShahrokh]
+
+
+
+[Right]#Wren
+
+Greetings, your Majesty, Princess.[N][A]
+
+
+
+[FarLeft]#Shahrokh
+
+There is no need for the formalities at[N]
+
+present, Wren. I do not mind if you[A][N]
+
+loosen up a little.[A]
+
+
+
+[Right]#Wren
+
+..![N][A]
+
+
+
+[Left]#Adela
+
+It's fine Wren. We stand here together[N]
+
+in solidarity, having lost a loved one.[A]
+
+
+
+[Right]#Wren
+
+Yes... That was what I wanted to speak[N]
+
+to you about, actually...[A]
+
+
+
+[FarLeft]#Shahrokh
+
+What is that you enquire about?[N][A]
+
+
+
+[Right]#Wren
+
+I-I'm not sure actually...[N]
+
+I just felt compelled to visit...[A][N]
+
+I'm so sorry for wasting your time,[N]
+
+your Majesty![A]
+
+
+
+[FarLeft]#Shahrokh
+
+Fear not, this is certainly no waste of[N]
+
+my time. I understand you're grieving[A][N]
+
+from the loss of Vladmir. As are we.[A]
+
+
+
+[Left]#Adela
+
+It pains me to have lost my brother,[N]
+
+just as much as it pains you to have[A][N]
+
+your husband to be.[N]
+
+We understand your pain.[A]
+
+
+
+[Right]#Wren
+
+T-thank you... I'm hoping you're coping[N]
+
+with the loss of the other members of[A][N]
+
+your family too. I heard of Emperor[N]
+
+Cyrus' fate and Lady Gulmira's.[A][N]
+
+I am so sorry...[A]
+
+
+
+[Left]#Adela
+
+You needn't be Wren... We're pulling[N]
+
+through, there is no need for worry.[A][N]
+
+Truth be told, it has been difficult,[N]
+
+but I still have Shahrokh for family.[A]
+
+
+
+[FarLeft]#Shahrokh
+
+I must apologise for placing the[N]
+
+burden of continuing our bloodline unto[A][N]
+
+your shoulders, Adela. This should not[N]
+
+be your burden alone to bear.[A]
+
+
+
+[Right]#Wren
+
+Surely your children would still have a[N]
+
+claim to the Western Viripurian throne?[A][N]
+
+Why would it be solely Adela's duty?[A]
+
+
+
+[FarLeft]#Shahrokh
+
+I have no children, Wren.[N][A]
+
+
+
+[Right]#Wren
+
+I'm aware but surely in the futur-[N][A]
+
+
+
+[FarLeft]#Shahrokh
+
+...And nor do I plan to.[N]
+
+Call it selfish but it is simply not[A][N]
+
+something I can bring myself to do.[N]
+
+I have tried, time and time again to[A][N]
+
+find a suitable spouse but...[A]
+
+
+
+[Right]#Wren
+
+My apologies for pushing the matter[N]
+
+onto you then. I did not mean to imply[A][N]
+
+your reasons were selfish in any way.[A]
+
+
+
+[FarLeft]#Shahrokh
+
+I understand. You have still been more[N]
+
+considerate about it than most.[A][N]
+
+The Parliament bigwigs seem to have no[N]
+
+sensibilities regarding the matter...[A]
+
+
+
+[Left]#Adela
+
+I am certain I will find my light and[N]
+
+the love of my life to pull me through[A][N]
+
+these dark times, Wren. Who knows, they[N]
+
+may even be someone I'll meet during[A][N]
+
+this campaign?[A]
+
+
+
+[Right]#Wren
+
+Maybe, it's a nice thought, for sure.[N][A]
+
+[X]
+

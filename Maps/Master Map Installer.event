@@ -28,13 +28,25 @@
 #include "Ch5.event"
 }
 {
+#include "Ch6Base.event"
+}
+{
 #include "Ch6.event"
+}
+{
+#include "Ch7Base.event"
 }
 {
 #include "Ch7.event"
 }
 {
+#include "Ch8Base.event"
+}
+{
 #include "Ch8.event"
+}
+{
+#include "Ch9Base.event"
 }
 {
 #include "Ch9.event"

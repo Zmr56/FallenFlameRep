@@ -68,7 +68,7 @@ Map Spriters -		* Team SALVAGED
 			* Nuramon
 			* Glaceo
 			* DerTheVaporeon
-			* Unknown Wyvern Axe Map Sprite Animator
+			* Unknown Wyvern Axe Map Spriter Animator
 
 Playtesters -		* Arch
 			* BChezza

@@ -1,0 +1,103 @@
+EventPointerTable(0x27, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(0x8, WrenRudyardTalk, Wren, Rudyard)
+CharacterEventBothWays(0x9, WrenShamiraTalk, Wren, Shamira)
+CharacterEventBothWays(0xA, WrenIaraTalk, Wren, Iara)
+END_MAIN
+
+WrenRudyardTalk:
+SetBackground(0x08)
+Text(RudyardCh6Base)
+REMA
+NoFade
+CALL $9EE2C4 //BGEnd
+ENDA
+
+WrenShamiraTalk:
+SetBackground(0x08)
+Text(ShamiraCh6Base)
+REMA
+NoFade
+CALL $9EE2C4 //BGEnd
+ENDA
+
+WrenIaraTalk:
+SetBackground(0x08)
+Text(IaraCh6Base)
+REMA
+NoFade
+CALL $9EE2C4 //BGEnd
+ENDA
+
+//#define Chest(id,item,x,y) "CHES id item [x,y] 0x14"
+
+LocationBasedEvents:
+Chest(0x7,RedGem,5,3)
+END_MAIN
+
+MiscBasedEvents:
+//CauseGameOverIfLordDies
+AREA 0xB EndingScene [4, 9] [5, 9]
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+Tutorial:
+END_MAIN
+
+ALIGN 4
+Units1:
+UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [4,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Rudyard LanceCav Wren Level(1, Ally, 0) [7,8] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Shamira Knight_F Wren Level(1, Ally, 0) [3,3] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Iara Mage_F Wren Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+
+ALIGN 4
+BeginningScene:
+LOAD1 0 Units1
+ENUN
+
+CAM1 Wren
+FADU 10
+
+EnableFreeMovement
+NoFade
+ENDA
+
+EndingScene:
+MNCH 0x09
+NoFade
+ENDA

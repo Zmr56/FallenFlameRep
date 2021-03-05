@@ -1,0 +1,120 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadShamira]
+
+
+
+[Right]#Wren
+
+Hey Shamira.[N][A]
+
+
+
+[Left]#Shamira
+
+Hey.[N][A]
+
+
+
+[Right]#Wren
+
+...[N]
+
+You ok?[A]
+
+
+
+[Left]#Shamira
+
+I am. Why do you ask?[N][A]
+
+
+
+[Right]#Wren
+
+Well you're staring into the distance[N]
+
+despondently and I also didn't see you[A][N]
+
+when we were at Seyfaut Keep.[A]
+
+
+
+[Left]#Shamira
+
+I'm just thinking back on the place.[N]
+
+Now that we're gone. Did you realise[A][N]
+
+why I didn't show up back then?[A]
+
+
+
+[Right]#Wren
+
+Sorta. I don't blame you.[N]
+
+I know you're gonna say sorry for not[A][N]
+
+being there with me after the meeting[N]
+
+but don't worry about it.[A]
+
+
+
+[Left]#Shamira
+
+...[N]
+
+Can I say it anyway?[A]
+
+
+
+[Right]#Wren
+
+Sure. On one condition though.[N][A]
+
+
+
+[Left]#Shamira
+
+Oh? What might that be?[N][A]
+
+
+
+[Right]#Wren
+
+Promise me you won't subject yourself[N]
+
+to this weather any longer and that[A][N]
+
+you'll head to bed to enjoy a good[N]
+
+night's rest?[A]
+
+
+
+[Left]#Shamira
+
+I'll try and pass this mission with[N]
+
+flying colours then, commander.[A]
+
+
+
+[Right]#Wren
+
+Heh, that's the Shamira we love.[N]
+
+Goodnight.[A]
+
+
+
+[Left]#Shamira
+
+Night.[N][A]
+
+[X]
+

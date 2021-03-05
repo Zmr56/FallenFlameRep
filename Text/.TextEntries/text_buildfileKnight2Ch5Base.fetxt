@@ -1,0 +1,124 @@
+
+
+[Left][LoadBlumariKnight]
+
+
+
+[Left]#Knight
+
+Orinde or Kestral... Orinde or Kestral?[N][A]
+
+
+
+[Right][LoadWren]
+
+
+
+[Right]#Wren
+
+You seem to be in deep thought about my[N]
+
+father and Duke Orinde.[A]
+
+
+
+[Left]#Knight
+
+Oh! Greeting Lady Wren! Ignore my[N]
+
+trivial musings.[A]
+
+
+
+[Right]#Wren
+
+Are you comparing the two in some way?[N][A]
+
+
+
+[Left]#Knight
+
+You could say so. Since they're both at[N]
+
+the castle I've been wondering which of[A][N]
+
+the two would win in a fight, what's[N]
+
+your guess?[A]
+
+
+
+[Right]#Wren
+
+Hehe, well I'm sure you already know my[N]
+
+answer.[A]
+
+
+
+[Left]#Knight
+
+Right... Sir Kestral. Duke Orinde is[N]
+
+from a new generation however, he's got[A][N]
+
+that youthful energy that gives him the[N]
+
+edge in my opinion.[A]
+
+
+
+[Right]#Wren
+
+And my father doesn't? He's only thirty[N]
+
+nine, I'd say he's in his peak, even.[A]
+
+
+
+[Left]#Knight
+
+That's a surprise, I thought he was[N]
+
+much older, being a father and all.[A]
+
+
+
+[Right]#Wren
+
+My parents met when they were both[N]
+
+pretty young.[A]
+
+
+
+[Left]#Knight
+
+I met my missus when I was twenty four,[N]
+
+like most Blumari men. We're expecting[A][N]
+
+the baby next year. I'm pretty thankful[N]
+
+I'll be in Blumari for the birth since[A][N]
+
+many of the men soon to be deployed to[N]
+
+Viripuria won't get that luxury.[A]
+
+
+
+[Right]#Wren
+
+That's lovely to hear! I hope you're[N]
+
+blessed with a wonderful child![A]
+
+
+
+[Left]#Knight
+
+Aww thanks milady![N][A]
+
+[X]
+

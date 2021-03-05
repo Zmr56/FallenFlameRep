@@ -30,7 +30,15 @@ ALIGN 4
 }
 ALIGN 4
 {
+  #include "Ch6Base.event"
+}
+ALIGN 4
+{
   #include "Ch6.event"
+}
+ALIGN 4
+{
+  #include "Ch7Base.event"
 }
 ALIGN 4
 {
@@ -38,7 +46,15 @@ ALIGN 4
 }
 ALIGN 4
 {
+  #include "Ch8Base.event"
+}
+ALIGN 4
+{
   #include "Ch8.event"
+}
+ALIGN 4
+{
+  #include "Ch9Base.event"
 }
 ALIGN 4
 {

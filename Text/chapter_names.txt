@@ -23,14 +23,26 @@ Ch5: Respite[X]
 ## Ch5ChName
 Ch5: Sacred Grounds[X]
 
+## Ch6BaseChName
+Ch6: Rain and Reflections[X]
+
 ## Ch6ChName
 Ch6: Pirates and Peers[X]
+
+## Ch7BaseChName
+Ch7: Autumn Rustle[X]
 
 ## Ch7ChName
 Ch7: Prison Break[X]
 
+## Ch8BaseChName
+Ch8: Rebuild and Repair[X]
+
 ## Ch8ChName
 Ch8: Biding Strength[X]
+
+## Ch9BaseChName
+Ch9: Dunno[X]
 
 ## Ch9ChName
 Ch9: Seize the Night[X]

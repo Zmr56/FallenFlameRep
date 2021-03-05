@@ -1,0 +1,165 @@
+
+## RudyardCh6Base
+
+[Right][LoadWren]
+[Left][LoadRudyard]
+
+[Right]#Wren
+I don't think I need to even ask as to[N]
+why you're up here on a cold and stormy[A][N]
+night, Rudyard.[A]
+
+[Left]#Rudyard
+Let me guess, Nuri's already ranted[N]
+about me to you?[A]
+
+[Right]#Wren
+Don't worry, I'm not gonna drag her up[N]
+here. Still, you should head down soon.[A]
+
+[Left]#Rudyard
+I can wait it out until she's asleep.[N]
+What about you? You ought be in a warm[A][N]
+and cosy bed right now. With weather[N]
+like this you'll catch a cold.[A]
+
+[Right]#Wren
+It's easier to sleep knowing my troops[N]
+aren't out catching a cold themselves.[A][N]
+Besides, Nuri is probably too tired to[N]
+chase you up right now anyway.[A]
+
+[Left]#Rudyard
+Alright... If it makes things easier[N]
+for you then. Night, Wren.[A]
+
+[Right]#Wren
+Ahem.[N][A]
+
+[Left]#Rudyard
+What?[N]
+Oh![A][N]
+Night, Lady Wren. Sorry, usually I'm[N]
+the one being cal-[A][N]
+Ah, nevermind. Night.[A]
+
+[Right]#Wren
+Night.[N][A]
+[X]
+
+## ShamiraCh6Base
+
+[Right][LoadWren]
+[Left][LoadShamira]
+
+[Right]#Wren
+Hey Shamira.[N][A]
+
+[Left]#Shamira
+Hey.[N][A]
+
+[Right]#Wren
+...[N]
+You ok?[A]
+
+[Left]#Shamira
+I am. Why do you ask?[N][A]
+
+[Right]#Wren
+Well you're staring into the distance[N]
+despondently and I also didn't see you[A][N]
+when we were at Seyfaut Keep.[A]
+
+[Left]#Shamira
+I'm just thinking back on the place.[N]
+Now that we're gone. Did you realise[A][N]
+why I didn't show up back then?[A]
+
+[Right]#Wren
+Sorta. I don't blame you.[N]
+I know you're gonna say sorry for not[A][N]
+being there with me after the meeting[N]
+but don't worry about it.[A]
+
+[Left]#Shamira
+...[N]
+Can I say it anyway?[A]
+
+[Right]#Wren
+Sure. On one condition though.[N][A]
+
+[Left]#Shamira
+Oh? What might that be?[N][A]
+
+[Right]#Wren
+Promise me you won't subject yourself[N]
+to this weather any longer and that[A][N]
+you'll head to bed to enjoy a good[N]
+night's rest?[A]
+
+[Left]#Shamira
+I'll try and pass this mission with[N]
+flying colours then, commander.[A]
+
+[Right]#Wren
+Heh, that's the Shamira we love.[N]
+Goodnight.[A]
+
+[Left]#Shamira
+Night.[N][A]
+[X]
+
+## IaraCh6Base
+
+[Left][LoadIara]
+
+[Left]#Iara
+Tornado! Hurricane! Whirlwind![N][A]
+
+[Right][LoadWren]
+
+[Right]#Wren
+Umm, Iara? What are you doing?[N][A]
+
+[Left]#Iara
+Practising my wind magic.[N]
+What better time to work on it than a[A][N]
+stormy night like this?[A]
+
+[Right]#Wren
+But I'm sure those aren't actual spells[N]
+that anyone could use...[A]
+
+[Left]#Iara
+Oh I know! But do you really think it[N]
+can sound cool shouting "Wind!"?[A][N]
+I've tried and trust me, it can't.[A]
+
+[Right]#Wren
+So then... How does this help you with[N]
+practising your wind magic, exactly?[A]
+
+[Left]#Iara
+Gets me pumped up. I've gotta be pumped[N]
+up for when we go into Gofaul.[A][N]
+Don't you agree?[A]
+
+[Right]#Wren
+I mean, I guess?[N]
+Just don't catch a cold while you're at[A][N]
+it, yeah?[A]
+
+[Left]#Iara
+You underestimate my power, Lady Wren.[N]
+I am in control of this storm! No harm[A][N]
+can befall me! Mwahahaha![A]
+
+[Right]#Wren
+(She isn't shivering at all...)[N]
+I'll uh, take your word for it then.[A][N]
+Night, Iara.[A]
+
+[Left]#Iara
+Goodnight, Lady Wren![N]
+Nice talking to you![A]
+[X]

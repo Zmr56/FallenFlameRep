@@ -1,0 +1,112 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadSarai]
+
+[FarLeft][LoadGad]
+
+
+
+[Right]#Wren
+
+I see you two are helping yourself to[N]
+
+the leftovers from the dinner.[A][N]
+
+Enjoying the fresh lobster?[A]
+
+
+
+[Left]#Sarai
+
+A queen can't work on an empty stomach![N]
+
+Me and Caeda have been through a lot[A][N]
+
+during the invasion so it's only fair[N]
+
+that we get to treat ourselves.[A]
+
+
+
+[FarLeft]#Gad
+
+Tch, c'mon, Lady Sarai. I've also been[N]
+
+through my own fair share of troubles.[A][N]
+
+Never hurts to drop a mention for me,[N]
+
+your right-hand man.[A]
+
+
+
+[Left]#Sarai
+
+You've been putting your feet up plenty[N]
+
+of times during this ordeal![A][N]
+
+I saw you scrounging around for fallen[N]
+
+lottery tickets on the floor while we[A][N]
+
+were fighting in Aquanpool![A]
+
+
+
+[FarLeft]#Gad
+
+You assume the worst from me, as ever.[N]
+
+What a shame it would've been had the[A][N]
+
+pirates took them for themselves! They[N]
+
+wouldn't return them to the townsfolk,[A][N]
+
+like I would of course.[A]
+
+
+
+[Left]#Sarai
+
+I take it you can see right through his[N]
+
+facade, right Wren?[A]
+
+
+
+[Right]#Wren
+
+Hehehe, I'm sure Gad did entertain the[N]
+
+thought of being the hero and returning[A][N]
+
+the tickets at some stage.[A]
+
+
+
+[FarLeft]#Gad
+
+See, Lady Sarai? Someone has at least[N]
+
+a smidge of faith in me.[A]
+
+
+
+[Left]#Sarai
+
+*Sight* You're not making it easier to[N]
+
+shake him off, Wren...[A]
+
+
+
+[Right]#Wren
+
+I don't think that's such a bad thing.[N][A]
+
+[X]
+

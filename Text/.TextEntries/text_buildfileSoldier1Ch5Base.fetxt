@@ -1,0 +1,106 @@
+
+
+[Left][LoadBlumariSoldier]
+
+
+
+[Left]#Soldier
+
+Fwa! Ha! Hya! Ha...[N]
+
+Gah, I'm tuckered out...[A]
+
+
+
+[Right][LoadWren]
+
+
+
+[Right]#Wren
+
+You're still training?[N]
+
+Everyone's out relaxing in the grounds.[A]
+
+
+
+[Left]#Soldier
+
+Alas, the commander makes some of us[N]
+
+play catch-up if he sees us slacking.[A][N]
+
+Seyfaut's city guards are the best in[N]
+
+Blumari for a reason, our discipline.[A]
+
+
+
+[Right]#Wren
+
+There also seems to be quite a few of[N]
+
+the guards still out training too.[A]
+
+
+
+[Left]#Soldier
+
+You probably saw that we were swarming[N]
+
+the castle grounds earlier during the[A][N]
+
+meeting. The city guard is the largest[N]
+
+armed force per head in Blumari![A][N]
+
+The heart of government can't be[N]
+
+defended on the cheap you know.[A]
+
+
+
+[Right]#Wren
+
+Usually in Woadlan we just had to rely[N]
+
+on a small handful of elite knights or[A][N]
+
+hastily arranged militas.[A]
+
+
+
+[Left]#Soldier
+
+Yeah, things are kind of dated back[N]
+
+there. In Seyfaut a large portion of[A][N]
+
+city guard is made up of common folk or[N]
+
+former milita men from elsewhere out[A][N]
+
+for higher pay, so we have the numbers.[A]
+
+
+
+[Right]#Wren
+
+Maybe Woadlan could learn from Seyfaut.[N][A]
+
+
+
+[Left]#Soldier
+
+Heh, they'll need more in their coffers[N]
+
+to raise a force like ours.[A]
+
+
+
+[Right]#Wren
+
+I'm optimistic we'll figure it out.[N][A]
+
+[X]
+

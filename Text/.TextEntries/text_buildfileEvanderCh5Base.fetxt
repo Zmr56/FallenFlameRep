@@ -1,0 +1,126 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadEvander]
+
+
+
+[Right]#Wren
+
+Admiring the view I see?[N]
+
+I take it you're Viripurian,[A][N]
+
+first time being in Seyfaut?[A]
+
+
+
+[Left]#Evander
+
+I take it this armour doesn't make that[N]
+
+fact subtle then?[A]
+
+
+
+[Right]#Wren
+
+Is it fair to say you're one of the[N]
+
+princess' royal guard then?[A]
+
+
+
+[Left]#Evander
+
+Heh, I think the trimwork and gems[N]
+
+should answer your question, milady.[A]
+
+
+
+[Right]#Wren
+
+I'm surprised I didn't see you after[N]
+
+our battle in Aquanpool then.[A]
+
+
+
+[Left]#Evander
+
+Sadly, I don't think you'll be seeing[N]
+
+me out on the field for a while now.[A][N]
+
+See this? That's a Manakete burn.[N]
+
+Runs the whole length of my arm,[A][N]
+
+hurts like hell too.[A]
+
+
+
+[Right]#Wren
+
+Oh my...[N]
+
+It will take a while to recover from.[A]
+
+
+
+[Left]#Evander
+
+Mhm, so in the meantime I guess I'm[N]
+
+stuck doing the only thing I can do,[A][N]
+
+enjoying the sights and sounds of this[N]
+
+little adventure. Not being able to[A][N]
+
+protect the ones you care most about[N]
+
+hurts more than a flesh wound though.[A]
+
+
+
+[Right]#Wren
+
+I get where you're coming from.[N]
+
+I've been in a similar situation myself[A][N]
+
+with a loved one. Don't stress too much[N]
+
+about it though, Adela's got the rest[A][N]
+
+us to fall back on too. We'll make sure[N]
+
+she doesn't get a scratch laid on her.[A]
+
+
+
+[Left]#Evander
+
+...I know. You guys are good like that.[N][A]
+
+
+
+[Right]#Wren
+
+Thanks. In the meantime,[N]
+
+relax and heal up. You deserve a break.[A]
+
+
+
+[Left]#Evander
+
+Yeah...[N]
+
+Maybe I do.[A]
+
+[X]
+

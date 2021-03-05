@@ -1,0 +1,12 @@
+
+## CatoCh9Base
+
+[Right][LoadWren]
+[Left][LoadCato]
+
+[Left]#Cato
+Hello.[N][A]
+
+[Right]#Wren
+Hey.[N][A]
+[X]

@@ -1,0 +1,103 @@
+
+## NemainCh7Base1
+
+[Left][LoadNemain]
+
+[Left]#Nemain
+Hyah! Hah! Hyaaah![N]
+...[A][N]
+Well, I'm spent...[N]
+You know now that I'm resting this[A][N]
+would be a good time to speak up.[A]
+
+[Right][LoadWren]
+
+[Right]#Wren
+Oh! My apologies... I didn't realise[N]
+you noticed me watching. I'm awfully[A][N]
+sorry to have intruded on your session.[A]
+
+[Left]#Nemain
+Don't be. You wanna learn how to master[N]
+the sword, right?[A]
+
+[Right]#Wren
+Indeed... If I'm to wield Falchion then[N]
+I must follow in my mother's footsteps[A][N]
+and aspire to be a master in the blade.[A]
+
+[Left]#Nemain
+And another master in the blade you've[N]
+found to follow in me. Let's spar then![A]
+
+[Right]#Wren
+Thank you, teacher![N]
+I'll give you everything I've got![A]
+[X]
+
+## NemainCh7Base2
+
+[Right][LoadWren]
+[Left][LoadNemain]
+
+[Right]#Wren
+Ha... Ha... Ahh...[N][A]
+
+[Left]#Nemain
+Yep, you definitely went all out.[N]
+I must say, I'm impressed.[A][N]
+I can definitely work with this.[N]
+Did you enjoy our session then?[A]
+
+[Right]#Wren
+L-let me catch my breath...[N][A]
+
+[Left]#Nemain
+I mean even a nod will do.[N][A]
+
+[Right][MoveRight]
+
+[Left]#Nemain
+Heh, being a teacher is kind of fun.[N]
+Better than hanging out with the goons[A][N]
+I was with before. I've been missing[N]
+having some time with the girls since.[A]
+
+[Right]#Wren
+I definitely feel stronger...[N]
+Thank you, teacher.[A]
+
+[Left]#Nemain
+Just Nemain will do. You saved my life[N]
+back in the city so I owe you big time.[A][N]
+Consider this as paying my debt to you.[A]
+
+[Right]#Wren
+Sure, Nemain. I appreciate it.[N][A]
+
+[Left]#Nemain
+Although...[N][A]
+
+[Right]#Wren
+Hm?[N][A]
+
+[Left]#Nemain
+You see, I'm a bit of a greedy gal.[N]
+Mind me requesting one other thing?[A]
+
+[Right]#Wren
+Well it'd depend on what it is...[N][A]
+
+[Left]#Nemain
+Promise me you can get me a sparring[N]
+session with ol' Wigbrand, yeah?[A][N]
+I've wanted to fight against that famed[N]
+sword arm for years now...[A]
+
+[Right]#Wren
+Hmm...[N]
+I'll see what I can do.[A]
+
+[Left]#Nemain
+I look forward to it, Lady Wren.[N][A]
+[X]

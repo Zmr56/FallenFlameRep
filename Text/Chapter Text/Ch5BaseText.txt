@@ -198,7 +198,7 @@ Whatever, mongrel.[N][A]
 [Left]#Wigbrand
 I hope the events of this invasion[N]
 haven't changed your mind on supporting[A][N]
-my forces in Blackpeak.[A]
+my forces in Umbrake.[A]
 
 [Right]#Kestral
 Can't say I'm satisfied you dragged[N]
@@ -241,3 +241,1110 @@ need attending to. Goodbye.[A]
 I need to find out what's going on[N]
 between the two, before it's too late.[A]
 [X]
+
+## FangirlsCh5Base
+
+[Right][LoadWren]
+[Left][LoadBlumariFSoldier1]
+[FarLeft][LoadBlumariFSoldier2]
+
+[Left]#Soldier1
+Oh! Lady Wren! Pleased to meet you![N][A]
+
+[Right]#Wren
+Pleased to meet you too![N]
+How can I help you?[A]
+
+[FarLeft]#Soldier2
+It's umm... Oh I just can't get the[N]
+words out! I'm getting all nervous...[A]
+
+[Right]#Wren
+Uhh...[N][A]
+
+[Left]#Soldier1
+So so sorry about my friend here![N]
+We were just wondering, could you sign[A][N]
+our paintings of you?[A]
+
+[FarLeft]#Soldier2
+I p-put a lot of hard work into it...[N]
+It was hard because I didn't have many[A][N]
+references to go off by, but I tried my[N]
+best to make it as beautiful like you![A]
+
+[Right]#Wren
+Oh t-that's really sweet! Sure I'll[N]
+sign it for you two![A][N]
+(Oh my... it doesn't look a single bit[N]
+like me... But she really tried...)[A][N]
+There you go, signed.[A]
+
+[Left]#Soldier1
+Oh my gosh! Aaaaa! We love you so much![N][A]
+
+[FarLeft]#Soldier2
+W-We really appreciate everything you[N]
+do for girls like us! The only other[A][N]
+sister who's given us hope was Lady[N]
+Shamira...[A]
+
+[Left]#Soldier1
+Sometimes it feels like we just get[N]
+pushed out of the army by the lads...[A][N]
+They try making us feel weak and small![N]
+But Lady Wren... You've shown all the[A][N]
+girls in this country that we're every[N]
+bit as strong as 'em, or even stronger![A]
+
+[FarLeft]#Soldier2
+Mhmm! You really are the best, saving[N]
+Blumari from invasion! If we could we'd[A][N]
+march right over into Wyvember and show[N]
+them what us ladies are made out of![A]
+
+[Right]#Wren
+T-thanks girls... I d-don't know wha-[N][A]
+
+[Left]#Soldier1
+It's okay Lady Wren! You don't need to[N]
+say anything! Just know that we're your[A][N]
+superfans from now on![A]
+
+[FarLeft]#Soldier2
+We shouldn't keep you waiting any[N]
+longer, we've been wasting your time[A][N]
+far too much... Goodbye Lady Wren![A]
+
+[Left]#Soldier1
+Bye! We love you forever and ever![N][A]
+
+[Left][ClearFace]
+[FarLeft][ClearFace]
+
+[Right]#Wren
+I-I don't understand...[N]
+This doesn't feel right...[A][N]
+They don't understand it isn't true...[A]
+[X]
+
+## DunstanCh5Base
+
+[Right][LoadWren]
+[Left][LoadFalcone]
+[FarLeft][LoadDunstanCiv]
+
+[Right]#Wren
+Greetings grandfather and Duke Wystan.[N][A]
+
+[Left]#Falcone
+Hello Wren, I pray you're doing well?[N][A]
+
+[Right]#Wren
+Indeed I am, grandfather, what of you[N]
+and Duke Wystan?[A]
+
+[Left]#Falcone
+We're just discussing further matters[N]
+after the briefing on the campaign.[A][N]
+Are you feeling ok about all of this,[N]
+my dear?[A]
+
+[Right]#Wren
+Absolutely grandfather. It won't be[N]
+easy but, if I've gotten this far then[A][N]
+there'll be no stopping me, I'm sure.[A]
+
+[FarLeft]#Dunstan
+Worry not Falcone! Wren has saved my[N]
+life and she has my daughter by her[A][N]
+side as ever. I'm confident you'll do[N]
+well, won't you lassie?[A]
+
+[Right]#Wren
+Most certainly Duke Wystan.[N][A]
+
+[FarLeft]#Dunstan
+Besides, Duke Woadlan, the Randel[N]
+family has always proven to be the[A][N]
+Osprey family's most steadfast allies[N]
+and will continue to do so, regardless[A][N]
+of circumstances. You have my word that[N]
+Sarai will protect her best friend with[A][N]
+her life. Isn't that right, Lady Wren?[A]
+
+[Right]#Wren
+Indeed, Sarai has been immpeccable[N]
+company over the invasion's duration.[A][N]
+I'm sure she will continue to be so as[N]
+we head into Gofaul.[A]
+
+[Left]#Falcone
+You seem to be quite comfortable with[N]
+Lady Sarai going out on the campaign,[A][N]
+Duke Wystan.[A]
+
+[FarLeft]#Dunstan
+Hm? I believe she will persevere.[N]
+She is quite good on that pegasus,[A][N]
+after all. Lady Wren would benefit[N]
+from having such an asset.[A]
+
+[Right]#Wren
+Do not fret grandfather, I know you[N]
+worry for me too but I inherit my[A][N]
+mother's warrior spirit for the good of[N]
+our country. I cannot back down now.[A]
+
+[FarLeft]#Dunstan
+Indeed, your mother was very powerful![N]
+Of course, so is your father, but only[A][N]
+thanks to my strict training! Gwahaha![A]
+
+[Left]#Falcone
+Speaking of Sir Kestral, will you be[N]
+joining him in the Eastern Viripuria[A][N]
+campaign along the border, Duke Wystan?[A]
+
+[FarLeft]#Dunstan
+I hope to, but I'll need to subject[N]
+myself to training once more before I[A][N]
+can enter the fray at my peak.[N]
+I sincerely hope to fight alongside you[A][N]
+too one day, Lady Wren.[A]
+
+[Right]#Wren
+I hope for the same too, Duke Wystan.[N][A]
+
+[Left]#Falcone
+Just be mindful of what's to come,[N]
+Wren. I would hate to see you pushed[A][N]
+beyond your limit. If you feel the need[N]
+to fall back on your allies, there is[A][N]
+no shame in doing so.[A]
+
+[Right]#Wren
+Thank you for your concern,[N]
+grandfather. I'll bear that in mind.[A]
+[X]
+
+## GeneralCh5Base
+
+[Left][LoadBlumariGeneral]
+[Right][LoadWren]
+
+[Right]#Wren
+Umm, excuse me, I'm in need of help.[N][A]
+
+[Left]#General
+How can I assist you milady?[N][A]
+
+[Right]#Wren
+I was told to retrieve a Wyrmslayer but[N]
+I was not informed of its whereabouts.[A]
+
+[Left]#General
+You need not concern yourself with[N]
+that, milady. I'm sure your intentions[A][N]
+are well, but this is a matter for your[N]
+husband or lord to deal with. Equipment[A][N]
+maintenance is solely a knight's duty.[A]
+
+[Right]#Wren
+...I am the knight in question.[N][A]
+
+[Left]#General
+You are most amusing milady! However,[N]
+Wyrmslayers are only to be handled by[A][N]
+the finest warriors in the realm.[A]
+
+[Right]#Wren
+Such as the commander of the expedition[N]
+into Gofaul?[A]
+
+[Left]#General
+Indeed.[N][A]
+
+[Right]#Wren
+Well then, she stands before you.[N]
+Even if you struggle to believe it.[A][N]
+Now, the Wyrmslayer?[N]
+You shouldn't keep a knight waiting.[A]
+
+[Left]#General
+Pardon my ignorance, milady.[N]
+Inside the chests is the Wyrmslayer.[A]
+
+[Right]#Wren
+I hope the other maidens who give their[N]
+life for this country aren't subjected[A][N]
+to the same kind of rudeness.[A]
+
+[Left]#General
+I am most sincerely apologetic milady.[N]
+Verily, I will not err again.[A]
+
+[Right]#Wren
+I hope so.[N][A]
+[X]
+
+## EvanderCh5Base
+
+[Right][LoadWren]
+[Left][LoadEvander]
+
+[Right]#Wren
+Admiring the view I see?[N]
+I take it you're Viripurian,[A][N]
+first time being in Seyfaut?[A]
+
+[Left]#Evander
+I take it this armour doesn't make that[N]
+fact subtle then?[A]
+
+[Right]#Wren
+Is it fair to say you're one of the[N]
+princess' royal guard then?[A]
+
+[Left]#Evander
+Heh, I think the trimwork and gems[N]
+should answer your question, milady.[A]
+
+[Right]#Wren
+I'm surprised I didn't see you after[N]
+our battle in Aquanpool then.[A]
+
+[Left]#Evander
+Sadly, I don't think you'll be seeing[N]
+me out on the field for a while now.[A][N]
+See this? That's a Manakete burn.[N]
+Runs the whole length of my arm,[A][N]
+hurts like hell too.[A]
+
+[Right]#Wren
+Oh my...[N]
+It will take a while to recover from.[A]
+
+[Left]#Evander
+Mhm, so in the meantime I guess I'm[N]
+stuck doing the only thing I can do,[A][N]
+enjoying the sights and sounds of this[N]
+little adventure. Not being able to[A][N]
+protect the ones you care most about[N]
+hurts more than a flesh wound though.[A]
+
+[Right]#Wren
+I get where you're coming from.[N]
+I've been in a similar situation myself[A][N]
+with a loved one. Don't stress too much[N]
+about it though, Adela's got the rest[A][N]
+us to fall back on too. We'll make sure[N]
+she doesn't get a scratch laid on her.[A]
+
+[Left]#Evander
+...I know. You guys are good like that.[N][A]
+
+[Right]#Wren
+Thanks. In the meantime,[N]
+relax and heal up. You deserve a break.[A]
+
+[Left]#Evander
+Yeah...[N]
+Maybe I do.[A]
+[X]
+
+## SaraiGadCh5Base
+
+[Right][LoadWren]
+[Left][LoadSarai]
+[FarLeft][LoadGad]
+
+[Right]#Wren
+I see you two are helping yourself to[N]
+the leftovers from the dinner.[A][N]
+Enjoying the fresh lobster?[A]
+
+[Left]#Sarai
+A queen can't work on an empty stomach![N]
+Me and Caeda have been through a lot[A][N]
+during the invasion so it's only fair[N]
+that we get to treat ourselves.[A]
+
+[FarLeft]#Gad
+Tch, c'mon, Lady Sarai. I've also been[N]
+through my own fair share of troubles.[A][N]
+Never hurts to drop a mention for me,[N]
+your right-hand man.[A]
+
+[Left]#Sarai
+You've been putting your feet up plenty[N]
+of times during this ordeal![A][N]
+I saw you scrounging around for fallen[N]
+lottery tickets on the floor while we[A][N]
+were fighting in Aquanpool![A]
+
+[FarLeft]#Gad
+You assume the worst from me, as ever.[N]
+What a shame it would've been had the[A][N]
+pirates took them for themselves! They[N]
+wouldn't return them to the townsfolk,[A][N]
+like I would of course.[A]
+
+[Left]#Sarai
+I take it you can see right through his[N]
+facade, right Wren?[A]
+
+[Right]#Wren
+Hehehe, I'm sure Gad did entertain the[N]
+thought of being the hero and returning[A][N]
+the tickets at some stage.[A]
+
+[FarLeft]#Gad
+See, Lady Sarai? Someone has at least[N]
+a smidge of faith in me.[A]
+
+[Left]#Sarai
+*Sight* You're not making it easier to[N]
+shake him off, Wren...[A]
+
+[Right]#Wren
+I don't think that's such a bad thing.[N][A]
+[X]
+
+## HuginnCatoCh5Base
+
+[Right][LoadWren]
+[Left][LoadCato]
+[FarLeft][LoadHuginn]
+
+[Right]#Wren
+I see you're taking in the view of[N]
+Seyfaut then, Elder Cato? Huginn?[A]
+
+[Left]#Cato
+My! Young lady you almost made me fall[N]
+over the edge here with that surprise![A]
+
+[Right]#Wren
+Eek! My sincerest apologies, Elder![N]
+Next time I'll announce my entrance.[A]
+
+[Left]#Cato
+No, no... It's fine, it's just that my[N]
+hearing is getting rustier with age.[A][N]
+Seyfaut appears to be a splendid city,[N]
+from what I can gather from this view.[A]
+
+[Right]#Wren
+I'm glad you feel as such. The city's[N]
+Gofaullic Quarter is also a popular[A][N]
+retreat if you're fancying any food[N]
+from home. Me and my mother would visit[A][N]
+often for the best Umbrake venison.[A]
+
+[Left]#Cato
+Is it common for the Blumari nobility[N]
+to dine in Gofaullic districts?[A]
+
+[Right]#Wren
+Not really, no. My mother is from[N]
+Umbrake however, so I grew up on a lot[A][N]
+of its cuisine.[A]
+
+[Left]#Cato
+Oh? This is news to me.[N]
+Isn't Umbrake a Wyvember colony though?[A]
+
+[Right]#Wren
+Mhmm... But my mother and father met[N]
+before it was fully taken over.[A][N]
+Since then clan Harfang and Blumari[N]
+have been covertly working together to[A][N]
+undermine their colonial rule.[A]
+
+[FarLeft]#Huginn
+...![N][A]
+
+[Left]#Cato
+I suppose that name explains why our[N]
+ragtag band of forces have managed to[A][N]
+get this far then. Are you fully aware[N]
+of your clan's reputation, milady?[A]
+
+[Right]#Wren
+N-no... Not fully. Which clan are you[N]
+from, Elder Cato?[A]
+
+[Left]#Cato
+Clan Myotis, of which I used to be[N]
+chieftain of. Wyvember has reduced our[A][N]
+numbers however, so few know of us.[A]
+
+[Right]#Wren
+I'm sure we can reverse that decline.[N]
+Blumari won't let Wyvember maintain[A][N]
+their grip over Umbrake for long.[A]
+
+[Left]#Cato
+I have faith in you to see it through.[N][A]
+[X]
+
+## DanaCh5Base
+
+[Right][LoadWren]
+[Left][LoadDana]
+
+[Right]#Wren
+Oh there you are Dana![N]
+I was looking for you.[A]
+
+[Left]#Dana
+Hey Wren. Surprised you'd find me here?[N][A]
+
+[Right]#Wren
+Kind of. Figured you'd be training or[N]
+in the stables.[A]
+
+[Left]#Dana
+Yeah, I know I'm usually there.[N]
+But there's a big campaign ahead of us,[A][N]
+So a girl's gotta keep the faith![N]
+I know I'm not as spiritual as most[A][N]
+other people here but reaching out to[N]
+the ancestral spirits and saints is a[A][N]
+comfort during times like these.[A]
+
+[Right]#Wren
+We sure could use with their blessing.[N]
+Going into Gofaul is a far cry from the[A][N]
+fighting in Blumari...[A]
+
+[Left]#Dana
+Yeah... It'll be a big change for me.[N]
+Before I was just a barnyard girl,[A][N]
+now I'm something of a knight, eh?[N]
+Who'd thought we'd come this far, Wren?[A]
+
+[Right]#Wren
+I feel like...[N][A]
+
+[Left]#Dana
+Hm?[N][A]
+
+[Right]#Wren
+Like this was going to happen.[N]
+That at some point all my training[A][N]
+would be put to use. That all the sword[N]
+fighting wasn't gonna stay as a hobby.[A]
+
+[Left]#Dana
+I guess. We've spared with bandits[N]
+before but your ma and Wigbrand seemed[A][N]
+to be prepping you for bigger fights.[N]
+And I guess your dad never stopped you,[A][N]
+like most other dads would.[A]
+
+[Right]#Wren
+Yeah, I was kind of an oddball with my[N]
+interests. I guess Shamira also sorta[A][N]
+did the same with you too, huh?[A]
+
+[Left]#Dana
+Shamira's good like that. She'd believe[N]
+in us when no one else would. [A]
+
+[Right]#Wren
+Yeah... Yeah she would.[N][A]
+[X]
+
+## LuzCh5Base1
+
+[Right][LoadWren]
+[Left][LoadLuz]
+
+[Right]#Wren
+Hello Luz, I see you're still at it[N]
+reciting hymns after everyone else?[A]
+
+[Left]#Luz
+Indeed. We have quite the challenge up[N]
+ahead of ourselves. It's imperative we[A][N]
+make sure our path ahead is blessed.[N]
+That is part of my role after all,[A][N]
+as a cleric in the army.[A]
+
+[Right]#Wren
+Do you mind if I join you briefly?[N][A]
+
+[Left]#Luz
+That would be splendid.[N][A]
+[X]
+
+## LuzCh5Base2
+
+[Right][LoadWren]
+[Left][LoadLuz]
+
+[Left]#Luz
+Wonderful work, Wren![N]
+You must be practising your hymns quite[A][N]
+a bit in your spare time.[A]
+
+[Right]#Wren
+That and plain old singing too, heh.[N]
+Hymns have helped me through all sorts.[A]
+
+[Left]#Luz
+And they'll help us for what's to come.[N][A]
+
+[Right]#Wren
+I've no doubt, actually...[N][A]
+
+[Left]#Luz
+Hm? What is it?[N][A]
+
+[Right]#Wren
+Could we make this a regular thing?[N][A]
+
+[Left]#Luz
+Absolutely, you and Lady Sarai can rely[N]
+on my companionship and spiritual help.[A]
+
+[Right]#Wren
+Thank you, Luz![N][A]
+[X]
+
+
+## AdelaCh5Base
+
+[Right][LoadWren]
+[Left][LoadAdela]
+[FarLeft][LoadShahrokh]
+
+[Right]#Wren
+Greetings, your Majesty, Princess.[N][A]
+
+[FarLeft]#Shahrokh
+There is no need for the formalities at[N]
+present, Wren. I do not mind if you[A][N]
+loosen up a little.[A]
+
+[Right]#Wren
+..![N][A]
+
+[Left]#Adela
+It's fine Wren. We stand here together[N]
+in solidarity, having lost a loved one.[A]
+
+[Right]#Wren
+Yes... That was what I wanted to speak[N]
+to you about, actually...[A]
+
+[FarLeft]#Shahrokh
+What is that you enquire about?[N][A]
+
+[Right]#Wren
+I-I'm not sure actually...[N]
+I just felt compelled to visit...[A][N]
+I'm so sorry for wasting your time,[N]
+your Majesty![A]
+
+[FarLeft]#Shahrokh
+Fear not, this is certainly no waste of[N]
+my time. I understand you're grieving[A][N]
+from the loss of Vladmir. As are we.[A]
+
+[Left]#Adela
+It pains me to have lost my brother,[N]
+just as much as it pains you to have[A][N]
+your husband to be.[N]
+We understand your pain.[A]
+
+[Right]#Wren
+T-thank you... I'm hoping you're coping[N]
+with the loss of the other members of[A][N]
+your family too. I heard of Emperor[N]
+Cyrus' fate and Lady Gulmira's.[A][N]
+I am so sorry...[A]
+
+[Left]#Adela
+You needn't be Wren... We're pulling[N]
+through, there is no need for worry.[A][N]
+Truth be told, it has been difficult,[N]
+but I still have Shahrokh for family.[A]
+
+[FarLeft]#Shahrokh
+I must apologise for placing the[N]
+burden of continuing our bloodline unto[A][N]
+your shoulders, Adela. This should not[N]
+be your burden alone to bear.[A]
+
+[Right]#Wren
+Surely your children would still have a[N]
+claim to the Western Viripurian throne?[A][N]
+Why would it be solely Adela's duty?[A]
+
+[FarLeft]#Shahrokh
+I have no children, Wren.[N][A]
+
+[Right]#Wren
+I'm aware but surely in the futur-[N][A]
+
+[FarLeft]#Shahrokh
+...And nor do I plan to.[N]
+Call it selfish but it is simply not[A][N]
+something I can bring myself to do.[N]
+I have tried, time and time again to[A][N]
+find a suitable spouse but...[A]
+
+[Right]#Wren
+My apologies for pushing the matter[N]
+onto you then. I did not mean to imply[A][N]
+your reasons were selfish in any way.[A]
+
+[FarLeft]#Shahrokh
+I understand. You have still been more[N]
+considerate about it than most.[A][N]
+The Parliament bigwigs seem to have no[N]
+sensibilities regarding the matter...[A]
+
+[Left]#Adela
+I am certain I will find my light and[N]
+the love of my life to pull me through[A][N]
+these dark times, Wren. Who knows, they[N]
+may even be someone I'll meet during[A][N]
+this campaign?[A]
+
+[Right]#Wren
+Maybe, it's a nice thought, for sure.[N][A]
+[X]
+
+## Soldier1Ch5Base
+
+[Left][LoadBlumariSoldier]
+
+[Left]#Soldier
+Fwa! Ha! Hya! Ha...[N]
+Gah, I'm tuckered out...[A]
+
+[Right][LoadWren]
+
+[Right]#Wren
+You're still training?[N]
+Everyone's out relaxing in the grounds.[A]
+
+[Left]#Soldier
+Alas, the commander makes some of us[N]
+play catch-up if he sees us slacking.[A][N]
+Seyfaut's city guards are the best in[N]
+Blumari for a reason, our discipline.[A]
+
+[Right]#Wren
+There also seems to be quite a few of[N]
+the guards still out training too.[A]
+
+[Left]#Soldier
+You probably saw that we were swarming[N]
+the castle grounds earlier during the[A][N]
+meeting. The city guard is the largest[N]
+armed force per head in Blumari![A][N]
+The heart of government can't be[N]
+defended on the cheap you know.[A]
+
+[Right]#Wren
+Usually in Woadlan we just had to rely[N]
+on a small handful of elite knights or[A][N]
+hastily arranged militas.[A]
+
+[Left]#Soldier
+Yeah, things are kind of dated back[N]
+there. In Seyfaut a large portion of[A][N]
+city guard is made up of common folk or[N]
+former milita men from elsewhere out[A][N]
+for higher pay, so we have the numbers.[A]
+
+[Right]#Wren
+Maybe Woadlan could learn from Seyfaut.[N][A]
+
+[Left]#Soldier
+Heh, they'll need more in their coffers[N]
+to raise a force like ours.[A]
+
+[Right]#Wren
+I'm optimistic we'll figure it out.[N][A]
+[X]
+
+## Knight1Ch5Base
+
+[Right][LoadWren]
+[Left][LoadBlumariKnight]
+
+[Right]#Wren
+Oh ack![N][A]
+
+[Left]#Knight
+Sorry about that milady![N]
+Just polishing up the ol' shield.[A]
+
+[Right]#Wren
+Yes I can see that from the sun shining[N]
+down on it. It's very polished indeed.[A]
+
+[Left]#Knight
+Armour sets in Blumari can't be made on[N]
+the cheap after all. Blumari miners and[A][N]
+blacksmiths are the most renowed in all[N]
+of Balhutia due to our abudance of[A][N]
+metals and our long history of forging.[N]
+Only Wyvember and Eastern Viripuria are[A][N]
+comparable to our work. That's why we[N]
+knights need to do maintenance often.[A]
+
+[Right]#Wren
+I guess that's why all the best armour[N]
+knights are from Blumari then?[A]
+
+[Left]#Knight
+Yes, but largely Orinde due to its[N]
+longer history of mining. Woadlan could[A][N]
+also be a great spot for mining! Yet[N]
+its duke seems to wince at the thought[A][N]
+of digging into the highlands, eh?[A]
+
+[Right]#Wren
+Well there's other things to take into[N]
+account, the mountains and its wildlife[A][N]
+are of great importance to Woadlanners.[N]
+Disturbing them would cause many great[A][N]
+concern.[A]
+
+[Left]#Knight
+Feh, that sounds like proper pagan talk[N]
+to me. Some ancient deer worship pooey.[A]
+
+[Right]#Wren
+Well not all of us want the hustle and[N]
+bustle of the mining country life.[A][N]
+Some of us appreciate the quiet things[N]
+in life, you know.[A]
+
+[Left]#Knight
+Eh, everyone wakes up to the smell of[N]
+coin and commerce eventually.[A]
+[X]
+
+## Knight2Ch5Base
+
+[Left][LoadBlumariKnight]
+
+[Left]#Knight
+Orinde or Kestral... Orinde or Kestral?[N][A]
+
+[Right][LoadWren]
+
+[Right]#Wren
+You seem to be in deep thought about my[N]
+father and Duke Orinde.[A]
+
+[Left]#Knight
+Oh! Greeting Lady Wren! Ignore my[N]
+trivial musings.[A]
+
+[Right]#Wren
+Are you comparing the two in some way?[N][A]
+
+[Left]#Knight
+You could say so. Since they're both at[N]
+the castle I've been wondering which of[A][N]
+the two would win in a fight, what's[N]
+your guess?[A]
+
+[Right]#Wren
+Hehe, well I'm sure you already know my[N]
+answer.[A]
+
+[Left]#Knight
+Right... Sir Kestral. Duke Orinde is[N]
+from a new generation however, he's got[A][N]
+that youthful energy that gives him the[N]
+edge in my opinion.[A]
+
+[Right]#Wren
+And my father doesn't? He's only thirty[N]
+nine, I'd say he's in his peak, even.[A]
+
+[Left]#Knight
+That's a surprise, I thought he was[N]
+much older, being a father and all.[A]
+
+[Right]#Wren
+My parents met when they were both[N]
+pretty young.[A]
+
+[Left]#Knight
+I met my missus when I was twenty four,[N]
+like most Blumari men. We're expecting[A][N]
+the baby next year. I'm pretty thankful[N]
+I'll be in Blumari for the birth since[A][N]
+many of the men soon to be deployed to[N]
+Viripuria won't get that luxury.[A]
+
+[Right]#Wren
+That's lovely to hear! I hope you're[N]
+blessed with a wonderful child![A]
+
+[Left]#Knight
+Aww thanks milady![N][A]
+[X]
+
+## CledwynCh5Base
+
+[Left][LoadCledwyn]
+
+[Left]#Cledwyn
+Blasted fool...[N][A]
+
+[Right][LoadWren]
+
+[Right]#Wren
+Duke Caerwyn, are you ok?[N][A]
+
+[Left]#Cledwyn
+Do I look ok to you, woman?[N][A]
+
+[Right]#Wren
+M-my apologies I didn't mea-[N][A]
+
+[Left]#Cledwyn
+Ah no, it's my fault, as usual.[N]
+Seeing you reminds me of... them.[A]
+
+[Right]#Wren
+Right... My father and grandfather...[N][A]
+
+[Left]#Cledwyn
+Falcone is well aware of my distaste[N]
+for Viripuria and we both have the same[A][N]
+record on a non-interventionist stance.[N]
+Yet the worm has cowered in at the last[A][N]
+second this time to his son. Pathetic.[A]
+
+[Right]#Wren
+But I don't understand...[N]
+We've been Viripuria's ally for many[A][N]
+years now. Why wouldn't we join them?[A]
+
+[Left]#Cledwyn
+Hmph, did they not teach you history at[N]
+school, Wren Osprey?[A]
+
+[Right]#Wren
+They did, I recall the events of the[N]
+Farrlans War clearly. They were islands[A][N]
+in our possession that Viripuria tried[N]
+to take back as retribution for the[A][N]
+schism within our churches. We won,[N]
+however, so they still belong to us.[A]
+
+[Left]#Cledwyn
+See? There's the problem![N]
+You know of the war as it reads on[A][N]
+paper but it tells you nothing of the[N]
+pain those who fought in it endured![A][N]
+My father came home with one arm and[N]
+one leg which still haunts me! There is[A][N]
+no reason for me to be charitable to[N]
+those who crippled my father.[A]
+
+[Right]#Wren
+Things have surely changed in the past[N]
+60 years, no?[A]
+
+[Left]#Cledwyn
+Well I know they have not, and I'm[N]
+sure you'll come to see what I mean,[A][N]
+Wren. Quit your naivete.[A]
+
+[Right]#Wren
+Even so, why vote against the motion to[N]
+deploy troops now? Usually you've only[A][N]
+abstained on the matter as most of[N]
+Caerwyn's representatives are more of[A][N]
+interventionists.[A]
+
+[Left]#Cledwyn
+Hahaha... Look at me, Wren.[N]
+Look at my face. I'm near the end of my[A][N]
+life. I don't give a damn if Caerwyn's[N]
+nobility replaces me with my grandson.[A][N]
+It's not like I've much else to vote on[N]
+with the time I have left, may as well[A][N]
+make those votes count, eh? Haha-ack![N]
+*cough* *cough*[A]
+
+[Right]#Wren
+Don't say that... I know you can liv-[N][A]
+
+[Left]#Cledwyn
+Forget it... I've accepted my fate.[N]
+It doesn't trouble me... Look, don't[A][N]
+waste your time with this relic...[N]
+I don't understand why you've stuck[A][N]
+around so long even after all the[N]
+disrespect I've shown to you just now.[A]
+
+[Right]#Wren
+You've always treated me and grandpapa[N]
+right. Sure you'd have bad days but...[A][N]
+I get it. Especially now more than[N]
+ever. You're not a coward to me...[A]
+
+[Left]#Cledwyn
+I really can't shake you off...[N]
+Well, I've always said that if I was[A][N]
+younger I would've wanted to have a[N]
+daughter like you. Sons are the worst,[A][N]
+If I'm honest.[A]
+
+[Right]#Wren
+Aw come on, you're a bit harsh on Gywn.[N][A]
+
+[Left]#Cledwyn
+Pah. I can't imagine you like him much[N]
+either.[A]
+
+[Right]#Wren
+I'm keeping my mouth sealed on that.[N][A]
+[X]
+
+## MercCh5Base
+
+[Left][LoadGenericMercenary]
+
+[Left]#Merc
+Oh man, oh man...[N][A]
+
+[Right][LoadWren]
+
+[Right]#Wren
+You ok there?[N][A]
+
+[Left]#Merc
+Ah damn, I'm making a fool of myself![N][A]
+
+[Right]#Wren
+No it's fine! Don't worry, let it all[N]
+out if you want to, I'll lend my ear.[A]
+
+[Left]#Merc
+Ya see, I'm a merc who's been hired by[N]
+Blumari to form part of the auxiliary[A][N]
+troops in Viripuria along with other[N]
+milita men.[A]
+
+[Right]#Wren
+Let me guess, it's the prospect of[N]
+fighting Manaketes that's making you[A][N]
+feel really nervous?[A]
+
+[Left]#Merc
+Aye... The pay is kind of exciting[N]
+though! What they're paying me for this[A][N]
+is over ten times as much as I what I[N]
+usually get paid![A]
+
+[Right]#Wren
+That's a really big leap...[N]
+I can see why you're taking on the job.[A]
+
+[Left]#Merc
+And guess why Blumari can afford to[N]
+pay us as much as they do. It's because[A][N]
+only one in twenty of us will probably[N]
+survive! That's what the history says.[A]
+
+[Right]#Wren
+Do you uhh... Think it's worth it?[N][A]
+
+[Left]#Merc
+Oh sure! I might be a nervous wreck but[N]
+when I come back home it's goodbye to[A][N]
+the commoner life for good![A]
+
+[Right]#Wren
+I guess I see where you're coming from.[N][A]
+[X]
+
+## GwynCh5Base
+
+[Right][LoadWren]
+[Left][LoadGwyn]
+
+[Right]#Wren
+What are you doing out here Gwyn?[N]
+Usually you're around Mordred.[A]
+
+[Left]#Gwyn
+That's Sir Gwyn Limestone to you.[N]
+Anyway I'm having a smoke. Mordred gets[A][N]
+annoyed whenever I smoke around him so[N]
+I'm here on my own. Don't get the wrong[A][N]
+idea, I'm not a loner like you are.[A]
+
+[Right]#Wren
+Haha, very funny.[N]
+Well I can see why he would be annoyed.[A][N]
+That's an awful smell.[A]
+
+[Left]#Gwyn
+Smoking is good for you, how it smells[N]
+doesn't bother me. Your old man smokes[A][N]
+too but he didn't wanna join me.[A]
+
+[Right]#Wren
+Anyway, I'm not a loner, just so you[N]
+know. I have plenty of friends.[A][N]
+Real friends, unlike you.[A]
+
+[Left]#Gwyn
+Sounds like horsedung to me.[N]
+I bet you can't even name them.[A]
+
+[Right]#Wren
+Actually, I can.[N]
+Sarai, Adela, Shamira, Dana and Orvar.[A]
+
+[Left]#Gwyn
+Ha! Five is nothing. I've got too many[N]
+to count myself. I've rubbed shoulders[A][N]
+with everyone in high society, being a[N]
+knight. Well, I guess you sorta have[A][N]
+too, but nothing really came out of it.[A]
+
+[Right]#Wren
+I could keep going off on you but your[N]
+grandpa already gives you enough grief[A][N]
+as is, even if he's sometimes right.[N]
+Plus you're about to be fighting[A][N]
+Manaketes soon so I'll let you off.[A]
+
+[Left]#Gwyn
+Manaketes are nothing. I don't need[N]
+some specially crafted sword for[A][N]
+stabbing them with, unlike you.[N]
+Still, I don't get why they gave it to[A][N]
+you of all people.[A]
+
+[Right]#Wren
+Probably because I'm not an airheaded[N]
+knight who rides blindly into danger.[A]
+
+[Left]#Gwyn
+Well I'm still alive after all these[N]
+battles. Something's gotta be working.[A]
+
+[Right]#Wren
+Nevermind. Logic and reason are wasted[N]
+on you. Cheerio![A]
+[X]
+

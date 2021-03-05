@@ -1,0 +1,105 @@
+
+
+[Left][LoadIara]
+
+
+
+[Left]#Iara
+
+Tornado! Hurricane! Whirlwind![N][A]
+
+
+
+[Right][LoadWren]
+
+
+
+[Right]#Wren
+
+Umm, Iara? What are you doing?[N][A]
+
+
+
+[Left]#Iara
+
+Practising my wind magic.[N]
+
+What better time to work on it than a[A][N]
+
+stormy night like this?[A]
+
+
+
+[Right]#Wren
+
+But I'm sure those aren't actual spells[N]
+
+that anyone could use...[A]
+
+
+
+[Left]#Iara
+
+Oh I know! But do you really think it[N]
+
+can sound cool shouting "Wind!"?[A][N]
+
+I've tried and trust me, it can't.[A]
+
+
+
+[Right]#Wren
+
+So then... How does this help you with[N]
+
+practising your wind magic, exactly?[A]
+
+
+
+[Left]#Iara
+
+Gets me pumped up. I've gotta be pumped[N]
+
+up for when we go into Gofaul.[A][N]
+
+Don't you agree?[A]
+
+
+
+[Right]#Wren
+
+I mean, I guess?[N]
+
+Just don't catch a cold while you're at[A][N]
+
+it, yeah?[A]
+
+
+
+[Left]#Iara
+
+You underestimate my power, Lady Wren.[N]
+
+I am in control of this storm! No harm[A][N]
+
+can befall me! Mwahahaha![A]
+
+
+
+[Right]#Wren
+
+(She isn't shivering at all...)[N]
+
+I'll uh, take your word for it then.[A][N]
+
+Night, Iara.[A]
+
+
+
+[Left]#Iara
+
+Goodnight, Lady Wren![N]
+
+Nice talking to you![A]
+
+[X]

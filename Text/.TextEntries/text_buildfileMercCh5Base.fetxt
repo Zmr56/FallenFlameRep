@@ -1,0 +1,112 @@
+
+
+[Left][LoadGenericMercenary]
+
+
+
+[Left]#Merc
+
+Oh man, oh man...[N][A]
+
+
+
+[Right][LoadWren]
+
+
+
+[Right]#Wren
+
+You ok there?[N][A]
+
+
+
+[Left]#Merc
+
+Ah damn, I'm making a fool of myself![N][A]
+
+
+
+[Right]#Wren
+
+No it's fine! Don't worry, let it all[N]
+
+out if you want to, I'll lend my ear.[A]
+
+
+
+[Left]#Merc
+
+Ya see, I'm a merc who's been hired by[N]
+
+Blumari to form part of the auxiliary[A][N]
+
+troops in Viripuria along with other[N]
+
+milita men.[A]
+
+
+
+[Right]#Wren
+
+Let me guess, it's the prospect of[N]
+
+fighting Manaketes that's making you[A][N]
+
+feel really nervous?[A]
+
+
+
+[Left]#Merc
+
+Aye... The pay is kind of exciting[N]
+
+though! What they're paying me for this[A][N]
+
+is over ten times as much as I what I[N]
+
+usually get paid![A]
+
+
+
+[Right]#Wren
+
+That's a really big leap...[N]
+
+I can see why you're taking on the job.[A]
+
+
+
+[Left]#Merc
+
+And guess why Blumari can afford to[N]
+
+pay us as much as they do. It's because[A][N]
+
+only one in twenty of us will probably[N]
+
+survive! That's what the history says.[A]
+
+
+
+[Right]#Wren
+
+Do you uhh... Think it's worth it?[N][A]
+
+
+
+[Left]#Merc
+
+Oh sure! I might be a nervous wreck but[N]
+
+when I come back home it's goodbye to[A][N]
+
+the commoner life for good![A]
+
+
+
+[Right]#Wren
+
+I guess I see where you're coming from.[N][A]
+
+[X]
+

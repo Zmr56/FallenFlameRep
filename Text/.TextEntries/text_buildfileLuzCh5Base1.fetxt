@@ -1,0 +1,42 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadLuz]
+
+
+
+[Right]#Wren
+
+Hello Luz, I see you're still at it[N]
+
+reciting hymns after everyone else?[A]
+
+
+
+[Left]#Luz
+
+Indeed. We have quite the challenge up[N]
+
+ahead of ourselves. It's imperative we[A][N]
+
+make sure our path ahead is blessed.[N]
+
+That is part of my role after all,[A][N]
+
+as a cleric in the army.[A]
+
+
+
+[Right]#Wren
+
+Do you mind if I join you briefly?[N][A]
+
+
+
+[Left]#Luz
+
+That would be splendid.[N][A]
+
+[X]
+

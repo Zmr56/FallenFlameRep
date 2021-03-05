@@ -14,52 +14,250 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TURN 0x0 BossFlag[1,0] 0x0
 END_MAIN
 
+BossFlag:
+UNIT_COLORS 0 3 0
+ENUN
+ENUT 0x84
+ENDA
+
 CharacterBasedEvents:
-CharacterEventBothWays(0x8, WrenOrvarTalk, Wren, Orvar)
-CharacterEventBothWays(0x9, WrenNuriTalk, Wren, Nuri)
-CharacterEventBothWays(0xA, WrenMordredTalk, Wren, Mordred)
-CharacterEventBothWays(0xB, WrenKestralTalk, Wren, Kestral)
-CharacterEventBothWays(0xC, WrenKestralTalk, Wren, Wigbrand)
+CharacterEventBothWays(0x9, WrenOrvarTalk, Wren, Orvar)
+CharacterEventBothWays(0xA, WrenNuriTalk, Wren, Nuri)
+CharacterEventBothWays(0xB, WrenMordredTalk, Wren, Mordred)
+CharacterEventBothWays(0xC, WrenKestralTalk, Wren, Kestral)
+CharacterEventBothWays(0xD, WrenKestralTalk, Wren, Wigbrand)
+CharacterEventBothWays(0xE, FangirlsTalk, Wren, Roamer7)
+CharacterEventBothWays(0xF, DunstanTalk, Wren, 0x46)
+CharacterEventBothWays(0x10, GeneralTalk, Wren, Roamer5)
+CharacterEventBothWays(0x11, EvanderTalk, Wren, Evander)
+CharacterEventBothWays(0x12, SaraiGadTalk, Wren, Sarai)
+CharacterEventBothWays(0x13, SaraiGadTalk, Wren, Gad)
+CharacterEventBothWays(0x14, CatoHuginnTalk, Wren, Cato)
+CharacterEventBothWays(0x15, CatoHuginnTalk, Wren, Huginn)
+CharacterEventBothWays(0x16, DanaTalk, Wren, Dana)
+CharacterEventBothWays(0x17, LuzTalk, Wren, Luz)
+CharacterEventBothWays(0x18, AdelaTalk, Wren, Adela)
+CharacterEventBothWays(0x19, AdelaTalk, Wren, Shahrokh)
+CharacterEventBothWays(0x20, Soldier1Talk, Wren, Roamer4)
+CharacterEventBothWays(0x21, Knight1Talk, Wren, Roamer2)
+CharacterEventBothWays(0x22, Knight2Talk, Wren, Roamer3)
+CharacterEventBothWays(0x23, CledwynTalk, Wren, Roamer8)
+CharacterEventBothWays(0x24, MercTalk, Wren, Roamer9)
+CharacterEventBothWays(0x25, GwynTalk, Wren, Roamer6)
 END_MAIN
 
 WrenOrvarTalk:
+SetBackground(0x10)
 Text(OrvarCh5Base)
 REMA
-NoFade
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
 ENDA
 
 WrenNuriTalk:
+SetBackground(0x13)
 Text(NuriCh5Base)
 REMA
-NoFade
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
 ENDA
 
 WrenMordredTalk:
+SetBackground(0x13)
 Text(MordredCh5Base)
 REMA
-NoFade
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
 ENDA
 
 WrenKestralTalk:
+SetBackground(0x13)
 Text(KestralCh5Base)
 REMA
-NoFade
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+FangirlsTalk:
+SetBackground(0x10)
+Text(FangirlsCh5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+DunstanTalk:
+SetBackground(0x13)
+Text(DunstanCh5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+GeneralTalk:
+SetBackground(0x25)
+Text(GeneralCh5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+EvanderTalk:
+SetBackground(0x25)
+Text(EvanderCh5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+SaraiGadTalk:
+SetBackground(0x10)
+Text(SaraiGadCh5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+CatoHuginnTalk:
+SetBackground(0x25)
+Text(HuginnCatoCh5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+DanaTalk:
+SetBackground(0x2D)
+Text(DanaCh5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+LuzTalk:
+SetBackground(0x2D)
+Text(LuzCh5Base1)
+REMA
+//NoFade
+//CALL $9EE2C4 //BGEnd
+FADI 16
+STAL 24
+FADU 16
+SetBackground(0x2D)
+Text(LuzCh5Base2)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+AdelaTalk:
+SetBackground(0x0E)
+Text(AdelaCh5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+Soldier1Talk:
+SetBackground(0x25)
+Text(Soldier1Ch5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+Knight1Talk:
+SetBackground(0x25)
+Text(Knight1Ch5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+Knight2Talk:
+SetBackground(0x25)
+Text(Knight2Ch5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+CledwynTalk:
+SetBackground(0x10)
+Text(MercCh5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+MercTalk:
+SetBackground(0x13)
+Text(MercCh5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
+ENDA
+
+GwynTalk:
+SetBackground(0x13)
+Text(GwynCh5Base)
+REMA
+//NoFade
+CALL $9EE2C4 //BGEnd
+UNIT_COLORS 0 3 0
+ENUN
 ENDA
 
 #define Chest(id,item,x,y) "CHES id item [x,y] 0x14"
 
 LocationBasedEvents:
-Seize(14,1)
-Chest(0x7,RedGem,18,0)
+Chest(0x7,Wyrmslayer,18,0)
 Chest(0x8,RedGem,19,0)
 END_MAIN
 
 MiscBasedEvents:
 //CauseGameOverIfLordDies
 //DefeatAll(EndingScene)
-AREA 0x9 EndingScene [14, 22] [14, 22]
+AREA 0x26 EndingScene [14, 22] [14, 22]
 END_MAIN
 
 Dunno1:
@@ -101,17 +299,21 @@ Greens:
 UNIT Kestral EphraimMasterLord 0x00 Level(1, NPC, 0) [7,17] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT 0x46 Peer 0x00 Level(1, NPC, 0) [17,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT Mordred EphraimMasterLord 0x00 Level(1, NPC, 0) [19,11] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT 0x80 Knight 0x00 Level(1, NPC, 0) [4,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT 0x80 Knight 0x00 Level(1, NPC, 0) [8,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT 0x80 Soldier 0x00 Level(1, NPC, 0) [3,1] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT 0x80 General 0x00 Level(1, NPC, 0) [14,1] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT 0x80 Peer 0x00 Level(1, NPC, 0) [17,22] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT 0x80 Peer 0x00 Level(1, NPC, 0) [15,16] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT 0x80 MageKnight 0x00 Level(1, NPC, 0) [18,15] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Roamer2 Knight 0x00 Level(1, NPC, 0) [4,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Roamer3 Knight 0x00 Level(1, NPC, 0) [8,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Roamer4 Soldier 0x00 Level(1, NPC, 0) [3,1] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Roamer5 General 0x00 Level(1, NPC, 0) [14,1] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x46 Peer 0x00 Level(1, NPC, 0) [17,22] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Roamer6 Paladin 0x00 Level(1, NPC, 0) [15,16] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Shahrokh MageKnight 0x00 Level(1, NPC, 0) [18,15] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
-Bad:
-UNIT 0x8C Soldier 0x00 Level(1, Enemy, 0) [2,3] 0x00 0x00 0x0 0x00 [0x00] NoAI
+GreensPlus:
+UNIT Evander Soldier 0x00 Level(1, Enemy, 0) [2,3] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Roamer7 Soldier 0x00 Level(1, Enemy, 0) [11,10] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Roamer7 Soldier 0x00 Level(1, Enemy, 0) [10,10] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Roamer8 Peer 0x00 Level(1, Enemy, 0) [10,13] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Roamer9 Mercenary 0x00 Level(1, Enemy, 0) [11,19] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 ALIGN 4
@@ -120,10 +322,12 @@ LOAD1 0 Units1
 ENUN
 LOAD1 0 Greens
 ENUN
-LOAD1 0 Bad
+LOAD1 0 GreensPlus
 ENUN
-//UNIT_COLORS 0 3 0
-//ENUN
+ENUT 0x84
+ENUN
+UNIT_COLORS 0 3 0
+ENUN
 
 CAM1 Wren
 FADU 10

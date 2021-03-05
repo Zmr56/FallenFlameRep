@@ -1,0 +1,132 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadDana]
+
+
+
+[Right]#Wren
+
+Oh there you are Dana![N]
+
+I was looking for you.[A]
+
+
+
+[Left]#Dana
+
+Hey Wren. Surprised you'd find me here?[N][A]
+
+
+
+[Right]#Wren
+
+Kind of. Figured you'd be training or[N]
+
+in the stables.[A]
+
+
+
+[Left]#Dana
+
+Yeah, I know I'm usually there.[N]
+
+But there's a big campaign ahead of us,[A][N]
+
+So a girl's gotta keep the faith![N]
+
+I know I'm not as spiritual as most[A][N]
+
+other people here but reaching out to[N]
+
+the ancestral spirits and saints is a[A][N]
+
+comfort during times like these.[A]
+
+
+
+[Right]#Wren
+
+We sure could use with their blessing.[N]
+
+Going into Gofaul is a far cry from the[A][N]
+
+fighting in Blumari...[A]
+
+
+
+[Left]#Dana
+
+Yeah... It'll be a big change for me.[N]
+
+Before I was just a barnyard girl,[A][N]
+
+now I'm something of a knight, eh?[N]
+
+Who'd thought we'd come this far, Wren?[A]
+
+
+
+[Right]#Wren
+
+I feel like...[N][A]
+
+
+
+[Left]#Dana
+
+Hm?[N][A]
+
+
+
+[Right]#Wren
+
+Like this was going to happen.[N]
+
+That at some point all my training[A][N]
+
+would be put to use. That all the sword[N]
+
+fighting wasn't gonna stay as a hobby.[A]
+
+
+
+[Left]#Dana
+
+I guess. We've spared with bandits[N]
+
+before but your ma and Wigbrand seemed[A][N]
+
+to be prepping you for bigger fights.[N]
+
+And I guess your dad never stopped you,[A][N]
+
+like most other dads would.[A]
+
+
+
+[Right]#Wren
+
+Yeah, I was kind of an oddball with my[N]
+
+interests. I guess Shamira also sorta[A][N]
+
+did the same with you too, huh?[A]
+
+
+
+[Left]#Dana
+
+Shamira's good like that. She'd believe[N]
+
+in us when no one else would. [A]
+
+
+
+[Right]#Wren
+
+Yeah... Yeah she would.[N][A]
+
+[X]
+

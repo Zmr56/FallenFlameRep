@@ -1,0 +1,196 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadFalcone]
+
+[FarLeft][LoadDunstanCiv]
+
+
+
+[Right]#Wren
+
+Greetings grandfather and Duke Wystan.[N][A]
+
+
+
+[Left]#Falcone
+
+Hello Wren, I pray you're doing well?[N][A]
+
+
+
+[Right]#Wren
+
+Indeed I am, grandfather, what of you[N]
+
+and Duke Wystan?[A]
+
+
+
+[Left]#Falcone
+
+We're just discussing further matters[N]
+
+after the briefing on the campaign.[A][N]
+
+Are you feeling ok about all of this,[N]
+
+my dear?[A]
+
+
+
+[Right]#Wren
+
+Absolutely grandfather. It won't be[N]
+
+easy but, if I've gotten this far then[A][N]
+
+there'll be no stopping me, I'm sure.[A]
+
+
+
+[FarLeft]#Dunstan
+
+Worry not Falcone! Wren has saved my[N]
+
+life and she has my daughter by her[A][N]
+
+side as ever. I'm confident you'll do[N]
+
+well, won't you lassie?[A]
+
+
+
+[Right]#Wren
+
+Most certainly Duke Wystan.[N][A]
+
+
+
+[FarLeft]#Dunstan
+
+Besides, Duke Woadlan, the Randel[N]
+
+family has always proven to be the[A][N]
+
+Osprey family's most steadfast allies[N]
+
+and will continue to do so, regardless[A][N]
+
+of circumstances. You have my word that[N]
+
+Sarai will protect her best friend with[A][N]
+
+her life. Isn't that right, Lady Wren?[A]
+
+
+
+[Right]#Wren
+
+Indeed, Sarai has been immpeccable[N]
+
+company over the invasion's duration.[A][N]
+
+I'm sure she will continue to be so as[N]
+
+we head into Gofaul.[A]
+
+
+
+[Left]#Falcone
+
+You seem to be quite comfortable with[N]
+
+Lady Sarai going out on the campaign,[A][N]
+
+Duke Wystan.[A]
+
+
+
+[FarLeft]#Dunstan
+
+Hm? I believe she will persevere.[N]
+
+She is quite good on that pegasus,[A][N]
+
+after all. Lady Wren would benefit[N]
+
+from having such an asset.[A]
+
+
+
+[Right]#Wren
+
+Do not fret grandfather, I know you[N]
+
+worry for me too but I inherit my[A][N]
+
+mother's warrior spirit for the good of[N]
+
+our country. I cannot back down now.[A]
+
+
+
+[FarLeft]#Dunstan
+
+Indeed, your mother was very powerful![N]
+
+Of course, so is your father, but only[A][N]
+
+thanks to my strict training! Gwahaha![A]
+
+
+
+[Left]#Falcone
+
+Speaking of Sir Kestral, will you be[N]
+
+joining him in the Eastern Viripuria[A][N]
+
+campaign along the border, Duke Wystan?[A]
+
+
+
+[FarLeft]#Dunstan
+
+I hope to, but I'll need to subject[N]
+
+myself to training once more before I[A][N]
+
+can enter the fray at my peak.[N]
+
+I sincerely hope to fight alongside you[A][N]
+
+too one day, Lady Wren.[A]
+
+
+
+[Right]#Wren
+
+I hope for the same too, Duke Wystan.[N][A]
+
+
+
+[Left]#Falcone
+
+Just be mindful of what's to come,[N]
+
+Wren. I would hate to see you pushed[A][N]
+
+beyond your limit. If you feel the need[N]
+
+to fall back on your allies, there is[A][N]
+
+no shame in doing so.[A]
+
+
+
+[Right]#Wren
+
+Thank you for your concern,[N]
+
+grandfather. I'll bear that in mind.[A]
+
+[X]
+
