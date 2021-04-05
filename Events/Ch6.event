@@ -30,6 +30,7 @@ ENDA
 
 LocationBasedEvents:
 Seize(2,1)
+Door(2,5)
 Village(0x8,Village1,7,12)
 Village(0x9,Village2,8,16)
 Village(0xA,Village3,14,16)

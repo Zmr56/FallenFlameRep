@@ -193,3 +193,8 @@ SoldierAnim:
 LanceAnim(0x98)
 UnarmedAnim(0x99)
 WORD 0x0
+
+SupplierAnim:
+StaffAnim(0xBA)
+UnarmedAnim(0xBA)
+WORD 0x0

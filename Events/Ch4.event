@@ -230,6 +230,8 @@ Text(Ch4ClosingText1)
 TEXTEND
 CALL $9EE2C4 //BGEnd
 ENUN
+SVAL s3 ProtoFalchion
+GIVEITEM Wren
 //TODO
 MNCH 6
 //MNTS 0x1

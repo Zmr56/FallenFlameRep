@@ -38,6 +38,12 @@ NoFade
 ENDA
 
 LocationBasedEvents:
+Door(2,1)
+Door(5,1)
+Door(11,2)
+Door(4,5)
+Door(16,5)
+Door(18,15)
 Escape(16,0)
 Chest(RedGem,11,0)
 Chest(RedGem,12,0)

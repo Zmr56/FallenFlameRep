@@ -19,6 +19,9 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Door(0,2)
+Door(15,4)
+Door(15,14)
 Chest(RedGem,0,0)
 Chest(RedGem,0,1)
 Chest(RedGem,8,13)
@@ -64,7 +67,7 @@ UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [7,17] 0x00 0x00 0x0 0x00 [0x
 UNIT
 
 Bad:
-UNIT Carlyle Druid 0x00 Level(1, Enemy, 0) [15,1] 0x00 0x00 0x0 0x00 [Nosferatu, Bolting] NeverMoveAI 
+UNIT Carlyle Druid 0x00 Level(3, Enemy, 0) [15,1] 0x00 0x00 0x0 0x00 [Nosferatu, Bolting] NeverMoveAI 
 UNIT 0x80 Warrior Carlyle Level(1, Enemy, 1) [15,5] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
 UNIT 0x80 Warrior Carlyle Level(1, Enemy, 1) [6,7] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
 UNIT 0x80 Shaman Carlyle Level(8, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 

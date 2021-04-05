@@ -47,3 +47,10 @@ Fire Dragon[X]
 ## descFireDragon
 Manaketes who are one with fire.[NL]
 Equip: Dragonstones.[X]
+
+## nameSupplier
+Supplier[X]
+
+## descSupplier
+Loaded merchants transporting[NL]
+goods. Defenceless.[X]

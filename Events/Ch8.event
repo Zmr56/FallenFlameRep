@@ -19,13 +19,21 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Village(0x7,RedGem,8,4)
-Village(0x8,RedGem,6,10)
-Village(0x9,RedGem,8,10)
-Village(0xA,RedGem,7,15)
+Village(0x7,VillageRedGem1,8,4)
+Village(0x8,VillageRedGem2,8,10)
+Village(0x9,VillageRedGem3,7,15)
 Vendor(ShopList, 13, 17)
 Armory(ArmoryList, 0, 16)
 END_MAIN
+
+VillageRedGem1:
+VillageEventItem(PlaceholderText, Village, RedGem)
+
+VillageRedGem2:
+VillageEventItem(PlaceholderText, Village, RedGem)
+
+VillageRedGem3:
+VillageEventItem(PlaceholderText, Village, RedGem)
 
 ShopList:
 SHLI Vulnerary PureWater Flux Fire Lightning
@@ -107,14 +115,14 @@ UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [12,18] 0x00 0x00 0x0 0x00 [0
 UNIT
 
 Merchants:
-UNIT Merchant Civilian Eirika Level(1, NPC, 0) [1,20] 0x00 0x00 0x0 0x00 [0x00] [0x06,0x0C, 0x0, 0x0] 
-UNIT Merchant Civilian Eirika Level(1, NPC, 0) [13,20] 0x00 0x00 0x0 0x00 [0x00] [0x06,0x0C, 0x0, 0x0] 
+UNIT Merchant Supplier Eirika Level(1, NPC, 0) [1,20] 0x00 0x00 0x0 0x00 [0x00] [0x06,0x0C, 0x0, 0x0] 
+UNIT Merchant Supplier Eirika Level(1, NPC, 0) [13,20] 0x00 0x00 0x0 0x00 [0x00] [0x06,0x0C, 0x0, 0x0] 
 UNIT
 
 Bad:
 UNIT Aias WyvernRider 0x00 Level(9, Enemy, 0) [7,0] 0x00 0x00 0x0 0x00 [KillerAxe, Swordreaver] AttackInRangeAI 
-UNIT Macdaire Druid Aias Level(8, Enemy, 0) [0,0] 0x00 0x00 0x0 0x00 [Thunder, Luna] AttackInRangeAI 
-UNIT Pablo Warrior Aias Level(8, Enemy, 0) [12,0] 0x00 0x00 0x0 0x00 [KillerAxe, HandAxe, IronBow] AttackInRangeAI 
+UNIT Macdaire Druid Aias Level(2, Enemy, 0) [0,0] 0x00 0x00 0x0 0x00 [Thunder, Luna] AttackInRangeAI 
+UNIT Pablo Warrior Aias Level(2, Enemy, 0) [12,0] 0x00 0x00 0x0 0x00 [KillerAxe, HandAxe, IronBow] AttackInRangeAI 
 UNIT 0x80 Shaman Aias Level(7, Enemy, 1) [10,3] 0x00 0x00 0x0 0x00 [Vampus] NeverMoveAI 
 UNIT 0x80 Shaman Aias Level(7, Enemy, 1) [4,2] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
 UNIT 0x80 Shaman Aias Level(7, Enemy, 1) [3,9] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 

@@ -42,3 +42,7 @@ Map_FireDragonStand:
 #incext Png2Dmp "FireDragonStanding.png" --lz77
 Map_FireDragonMoving:
 #incext Png2Dmp "FireDragonMoving.png" --lz77
+Map_SupplierStand:
+#incext Png2Dmp "SupplierStanding.png" --lz77
+Map_SupplierMoving:
+#incext Png2Dmp "SupplierMoving.png" --lz77

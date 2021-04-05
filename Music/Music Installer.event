@@ -38,3 +38,9 @@ SongTable(FreshStrike,songFreshStrike,MapMusicGroup)
 
 SongTable(WystanWhistles,songWystanWhistles,MapMusicGroup)
 #include "WystanWhistles.event"
+
+SongTable(VikingsOfGofaul,songVikingsOfGofaul,MapMusicGroup)
+#include "VikingsOfGofaul.event"
+
+SongTable(MyotisMalice,songMyotisMalice,MapMusicGroup)
+#include "MyotisMalice.event"

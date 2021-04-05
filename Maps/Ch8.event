@@ -10,12 +10,10 @@ Map:
 MapChanges:
 TileMap(0,7,2,3,3,NVD)
 TileMap(1,8,4,1,1,NVS)
-TileMap(2,5,8,3,3,WVD)
-TileMap(3,6,10,1,1,WVS)
-TileMap(4,7,8,3,3,EVD)
-TileMap(5,8,10,1,1,EVS)
-TileMap(6,6,13,3,3,SVD)
-TileMap(7,7,15,1,1,SVS)
+TileMap(2,7,8,3,3,MVD)
+TileMap(3,8,10,1,1,MVS)
+TileMap(4,6,13,3,3,SVD)
+TileMap(5,7,15,1,1,SVS)
 TileMapEnd
 
 NVD:
@@ -26,19 +24,11 @@ NVS:
 SHORT 0x80 
 ALIGN 4
 
-WVD:
-SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0x0 0xf1c 0xf20 0x0 
+MVD:
+SHORT 0xe1c 0xe20 0xe24 0xe9c 0xea0 0xea4 0xf1c 0xf20 0xf24 
 ALIGN 4
 
-WVS:
-SHORT 0x80 
-ALIGN 4
-
-EVD:
-SHORT 0x0 0xe20 0xe24 0xe9c 0xea0 0xea4 0x0 0xf20 0xf24 
-ALIGN 4
-
-EVS:
+MVS:
 SHORT 0x80 
 ALIGN 4
 

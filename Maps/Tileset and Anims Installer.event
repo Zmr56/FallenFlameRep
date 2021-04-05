@@ -18,3 +18,39 @@ FortPalette:
 
 EventPointerTable(0x68, FortPalette)
 
+ALIGN 4
+ChurchPalette:
+#incbin "Tileset/ChurchPalette.pal.bin"
+
+EventPointerTable(0xa3, ChurchPalette)
+
+ALIGN 4
+GofaulTownPalette:
+#incbin "Tileset/GofaulTownPalette.pal.bin"
+
+EventPointerTable(0x72, GofaulTownPalette)
+
+ALIGN 4
+GofaulTownPalette:
+#incbin "Tileset/GofaulTownPalette.pal.bin"
+
+EventPointerTable(0x72, GofaulTownPalette)
+
+ALIGN 4
+PrisonPalette:
+#incbin "Tileset/PrisonPalette.pal.bin"
+
+EventPointerTable(0x3d, PrisonPalette)
+
+ALIGN 4
+GofaulFieldsPalette:
+#incbin "Tileset/GofaulFieldsPalette.pal.bin"
+
+EventPointerTable(0x38, GofaulFieldsPalette)
+
+//TileConfig
+ALIGN 4
+ValniDoor:
+#incext compress "Tileset/FE8_138.mapchip_config" //This is the configuration of the tiles and their patterns.
+
+EventPointerTable(0x8a, ValniDoor)

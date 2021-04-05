@@ -123,8 +123,14 @@ Calibane[X]
 ## nameRaze
 Raze[X]
 
+## nameProtoFalchion
+Proto Falchion[X]
+
+## descProtoFalchion
+Eff. vs dragons.[X]
+
 ## descCalibane
-Effective against magic users.[X]
+Scrapped.[X]
 
 ## descReversa
 Eff. vs horse, armour. Reverses WT.[X]

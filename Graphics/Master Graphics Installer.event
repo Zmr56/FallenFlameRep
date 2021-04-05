@@ -153,5 +153,25 @@ ORG 0x5926F4+(0x80*0xD3)
 #incext Png2Dmp "ItemIcons/Calibane.png"
 POP
 
+PUSH
+ORG 0x5926F4+(0x80*0xD4)
+#incext Png2Dmp "ItemIcons/Raze.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xD5)
+#incext Png2Dmp "ItemIcons/Scorch.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xD6)
+#incext Png2Dmp "ItemIcons/Balrog.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xB0)
+#incext Png2Dmp "ItemIcons/ProtoFalchion.png"
+POP
+
 //Map Sprites
 #include "Map Sprites/Map Sprites Installer.event"

@@ -61,4 +61,7 @@
 {
 #include "MonkMagic Installer.event"
 }
+{
+#include "Supplier Installer.event"
+}
 //End of free space block
