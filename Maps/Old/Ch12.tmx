@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="19" height="23" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="01004c03" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../FE8/01004c03.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Main" width="19" height="23">
+  <properties>
+   <property name="Anims1" value="0"/>
+   <property name="ChapterID" value="0"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0"/>
+   <property name="MapID" value="0"/>
+   <property name="ObjectType" value="0"/>
+   <property name="PaletteID" value="0"/>
+   <property name="TileConfig" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxNVMtOVEEQ7e4rIiiSkPjamuCACWiifzAYkBgzDgt1qxJmwIXBhbpEmCFB0ehGXfKQwAKIfIKJikFGh/gFKqIGRBZq3HlO6tzcuzipru6u6nqc6kJwbsI5dxRywTuXh8wF01ehX4B8HjnXE5I727q3rLux/RVgH1AMZjcbzO6tN7uL8HMJuAxs6U4Z+OjNT4PsN735XIHcAcpY18GmHljC+QpwC+vbwJ3IzoeBESCCfhLn7+SPfvZTVy5vnOXzGLIX8h/2nkA+BZ4Bq9r/rbx5vjcyH4yNvueU/1/dOQCcxl4GWIP9APQs/WhvKX4T6wrWi5CT3ur3C2jG2SPsfwOmoPdCXlMcaXkV+KJzvv3TWTwnguXPep9jf1SPYehDwAzwmbEC68FqxPNprEuQ/d7079B/AC04bwWOAzPYv+/NdleU+JoAXrtE/4r1e2f3O4Ec0EXA5izQDXSwNvC17hKbrOyoN+DsA9a1kC8gG2EzD1kEbgIF6EWgH2hLvVEF8t56xl40qeYtkKe87bHfy6rrYjC7Zm92o0Af/QMbwfjEmlSD9WUtxa8S9loVX05cZWzt7DF7GMx/TpzLqzfkXZzTFOSnYPd3gEPiLLn6IFgM8TxwpsiVAcimYBxgDTec5Ul+sq7szxbkmDhYr/hi3tJHl2ZzW7NQiuxuVfwk5sQB1qnsk16m/TCWSmqeWHfmMI31Xc0FubxHe7GPG0DGWV5pP/F/wjk4E5ntunh7MLK6T4vf5MOC6jjorGacx4r+innc2Y2zAtbt3vhVFlfjXnaoj5z1e8qxX3HR15Zy6xS/yHvWdzLFdcZVVZ14VgebI9h7CL3bJfnFf+qgS3gS/1fMtwbnx4BG6K8U17jmMc51k7Hqv2wTT1n3PyHp35jej89fhsR3ep5HfZJXjfhPu0bVNKu+Z1Un/h8l9YHxpue5TT3le/xzqqpZLdADnFc+I/LBf4z/2+HI+JKe5z5vfR4HRmWfUc1mgevObPlf9er/GpK+keIgY/wPO/3T8Q==
+  </data>
+ </layer>
+ <layer name="Change" width="19" height="23" visible="0">
+  <properties>
+   <property name="Height" value="0"/>
+   <property name="ID" value="0"/>
+   <property name="Width" value="0"/>
+   <property name="X" value="0"/>
+   <property name="Y" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqGBwAABtQAAQ==
+  </data>
+ </layer>
+</map>

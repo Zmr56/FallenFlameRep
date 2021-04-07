@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="23" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="1800481a" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="FE8/1800481a.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Main" width="20" height="23">
+  <properties>
+   <property name="Anims1" value="0"/>
+   <property name="ChapterID" value="0x06"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0x20"/>
+   <property name="MapID" value="0x1f"/>
+   <property name="ObjectType" value="0x18"/>
+   <property name="PaletteID" value="0x48"/>
+   <property name="TileConfig" value="0x1a"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJyFlDtoVEEUhmfmJiRGEbJqYxlNo6RRFCyzeSgai12CvRs0siJYCKkTIgbUQgsDdorKBdcEBRHtEp/gCloseVgpEQUFCxERG//D+YeZnbCk+Djz/O9/5sydWWfMEqiBCdAgG/WXGPdmxhwAPUaZ5fgva8yTaJ3vN1r0PfcwfhB6h4jX+x1p+X7sJe379hEwD80auA+6kjw2Ox2vkXhe5tL1b7Emg6820J4Ffa8h/cOgBwy75nlp1xFfgtfgFcd2QWc36AVnkv3SHwdTmDvtwryf+2HDGe3AmhyxijgCjoMZ7h/j/hnuF71hF+b9XJ16onUU/AHnwHunMU/254l+HvnL6e+GUy2p0Qh1z4O+LOQ3luS31YWaxVHqIf7+gj67vr6t8pO8hhAHebYDbNej83tj1PNFMCkaLfK7xLxGMXYiwef7E1qrTs/vLuItcFu+wf1r4DP7nUZ9lLD2Gvqj4DooZ8FfwYZ7H9NmmvkETkZ6D7HmAniU6InWHrR3Ztr+CL5i3yS4YjWK1gtQtZqX6JUTYr0utDe55pqJzrLTWKT+tNH6xv+d1LHE/8nfvwbrM4D2IBgCc1b/xwfRnZijv+lM6z7Fe1ViFL3LVush67Zj/HGmcRFj/RhbcNr2Ub7r67Tm62g1yrtVZj2+IHZjbBsoZFqDq3Z9XeS7i8nYMuu36sK7Je+p6El+78ApzPci3sTcCvjntCbibwHxOeskZyr18/ckfk8L9CdUsKafHitRjOu2xQVN+cf22/CmSr7zPHPxuUJfcn8qzKlCf1W+Qd7rB9CJdkfkUebGeebd9FekTuxTzk/enzuI36nXjrjPqqcJevP19fV4Sn/PnLYlfqM/0Tsmbxr1zlq9+0XeaYl15lkg/wFO3fjQ
+  </data>
+ </layer>
+ <layer name="Chest1" width="20" height="23" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="0"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="18"/>
+   <property name="Y" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYKAOYKKSOaNgFIyCUTAKRsFgBAAVAAAD
+  </data>
+ </layer>
+ <layer name="Chest2" width="20" height="23" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="1"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="19"/>
+   <property name="Y" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYKAeYKKiWaNgFIyCUTAKRsFgAgAU+AAD
+  </data>
+ </layer>
+</map>

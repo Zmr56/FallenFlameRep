@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="0e007210" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../FE8/0e007210.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Main" width="15" height="20">
+  <properties>
+   <property name="Anims1" value="0"/>
+   <property name="ChapterID" value="0"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0"/>
+   <property name="MapID" value="0"/>
+   <property name="ObjectType" value="0"/>
+   <property name="PaletteID" value="0"/>
+   <property name="TileConfig" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJy1kU0OwUAUx6edjUgk7iE+rmHBHbBuixuIsHYGLCV6BtRGBL2DdXsE/0mn8YynmorFL/PezPvP+6rZQhxAAI6gDCLQAg3QJFRlcpcSWEK0QQn2TCR+RN4joo3td61JRRbTrsFNPv3oS82phquBas/AI36X5OjB7oMBuOi4MYndGrOjOSbQ3MEU+EYcB1fnIqd2ibiVfNdz2tjwd9DtGa3ak2e/cs1Rc6D3ZDLSfwz16areSF5ld9Qe9V1dJrvwmb820Ic451aCsk+4c7TW0X7I9PVpVmrWLsnP8WlWKteG5C/CL1o/Q8v1S+O5GWX1+686KQ/bm7NQ
+  </data>
+ </layer>
+ <layer name="Change" width="15" height="20" visible="0">
+  <properties>
+   <property name="Height" value="0"/>
+   <property name="ID" value="0"/>
+   <property name="Width" value="0"/>
+   <property name="X" value="0"/>
+   <property name="Y" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhAQAEsAAB
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="19" height="19" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="1800571a" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../FE8/1800571a.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Main" width="19" height="19">
+  <properties>
+   <property name="Anims1" value="0"/>
+   <property name="ChapterID" value="0"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0"/>
+   <property name="MapID" value="0"/>
+   <property name="ObjectType" value="0"/>
+   <property name="PaletteID" value="0"/>
+   <property name="TileConfig" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxtks1LlVEQh89HYN2F1L13VTtJLkXtinKpGbbIMug/yCiEvqC/IPoQ2pSLgpYlVGRBbiJ3ohVmVDcNglZG0IdGQu7a9Awzh3OSd/EwM+fM/GbOvO9icG7cO7eAbUS1y8SLQf0yTvelldpUL/YD9j20oW555dmCnUu8JepdvcK2reYc/h/TSKzCWhFvjhpvgkfM8MSrtug8Nl9qko6cz3vtkTTm/f/zvCFuRn1j3WjE/K5y3k7rO+Fz/5Qn/Wshz1MyUexJ/N9Bc5vr9px23LC5ktYa/j7up7GnsS+wL80f537F5z1W7VvuU02TeD/nPTBaaIk/XPRdtX3PET8seL1Oay85Xc65jTGfiz8LP/B/wl24B7/IH5N5sa2gd1Var/C/YT8H9bc71ZLeI+QchkGYjBrPWZ/b5G6LWUveeIjaGdgquyTnrcv5Zzi7Se5xYyzkPqJ1HbtHtILa89TWTE/mq/n8xrNoPSXnojEZ8p1ofYRe6IK+oBr9sASzMOLzv7EcdEdVsWh9J/8E/S5FtemNu0xr2OV/o9f6pbjP5pD4ls2xhP0KX+BGMZPcvXP530j9qmKZ6y9scPq9umUG0xG9tn3P9G+kflXxM9vXc7jGXq7AgO3+oM31yf6Nsl+Ku62nxDu87qvf6g44faP4J2WPkk/OHemN7YQLnO2Eo8UeZKdXvfoyyxAcgQ6n+087uwy7yWvBlM1/irOW5Q+YtuQOwgO4D8fgHyj9w0s=
+  </data>
+ </layer>
+ <layer name="Change" width="19" height="19" visible="0">
+  <properties>
+   <property name="Height" value="0"/>
+   <property name="ID" value="0"/>
+   <property name="Width" value="0"/>
+   <property name="X" value="0"/>
+   <property name="Y" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFgBAAWkAAE=
+  </data>
+ </layer>
+</map>

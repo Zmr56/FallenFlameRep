@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="0e007210" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="FE8/0e007210.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Main" width="15" height="10">
+  <properties>
+   <property name="Anims1" value="5"/>
+   <property name="ChapterID" value="0x08"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0x26"/>
+   <property name="MapID" value="0x25"/>
+   <property name="ObjectType" value="0x0e"/>
+   <property name="PaletteID" value="0x72"/>
+   <property name="TileConfig" value="0x10"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJyV0MsJwkAQgOHZtOGzg3hXYkgbiuQgWITGeFBL8Jg0Yidpxde/ZMS97Xj4WFgYZvg7J9Kph4g88cJbfv8xAwwxwhgTTI2zcyxwQZqILHlz4+wKa2xQcG/LWxpn9zi4fqbGEac/9t5xVTfj3rBTray9vp12yLDV2y29/L2zpO/rW53RaO/Y3b5TFbTKtFUV6fUBTyRiJw==
+  </data>
+ </layer>
+ <layer name="Change" width="15" height="10" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="0"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="5"/>
+   <property name="Y" value="3"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgewHGgHTAKUAAAZ+gAQg==
+  </data>
+ </layer>
+</map>
