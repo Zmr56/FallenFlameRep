@@ -102,12 +102,12 @@ BYTE 00 00
 ALIGN 4
 
 WyvernRiderSkillList:
-BYTE 1 LungeID
+BYTE 1 PlaceholderSkillID
 BYTE 00 00
 ALIGN 4
 
 WyvernLordSkillList:
-BYTE 255 LungeID //learned if spawning
+BYTE 255 PlaceholderSkillID //learned if spawning
 BYTE 1 ArmoredBlowID
 BYTE 00 00
 ALIGN 4
@@ -248,7 +248,7 @@ BYTE 00 00
 ALIGN 4
 
 SoldierSkillList:
-BYTE 1 VanityID
+BYTE 1 ShoveID
 BYTE 00 00
 ALIGN 4
 
