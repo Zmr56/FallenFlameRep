@@ -239,7 +239,7 @@ recover 20% HP each turn.[X]
 
 ## SD_SpurStr
 Spur Strength: Adjacent allies[N]
-deal +4 physical damage.[X]
+deal +2 physical damage.[X]
 
 ## SD_SpurMag
 Spur Magic: Adjacent allies[N]
@@ -251,7 +251,7 @@ gain +4 Attack Speed.[X]
 
 ## SD_SpurDef
 Spur Defense: Adjacent allies[N]
-take -4 physical damage.[X]
+take -2 physical damage.[X]
 
 ## SD_SpurRes
 Spur Resistance: Adjacent allies[N]

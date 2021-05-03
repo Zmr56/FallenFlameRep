@@ -85,12 +85,12 @@ BYTE 00 00
 ALIGN 4
 
 ArcherSkillList:
-BYTE 1 PlaceholderSkillID
+BYTE 1 SpurStrID
 BYTE 00 00
 ALIGN 4
 
 SniperSkillList:
-BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 255 SpurStrID //learned if spawning
 BYTE 1 DartingBlowID
 BYTE 00 00
 ALIGN 4
@@ -102,12 +102,12 @@ BYTE 00 00
 ALIGN 4
 
 WyvernRiderSkillList:
-BYTE 1 PlaceholderSkillID
+BYTE 1 SpurDefID
 BYTE 00 00
 ALIGN 4
 
 WyvernLordSkillList:
-BYTE 255 PlaceholderSkillID //learned if spawning
+BYTE 255 SpurDefID //learned if spawning
 BYTE 1 ArmoredBlowID
 BYTE 00 00
 ALIGN 4

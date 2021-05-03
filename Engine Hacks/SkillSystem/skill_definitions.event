@@ -214,12 +214,12 @@
 //By SD9k
 #define SolidarityID 17 //154
 
-//Spur Skills: Adjacent allies gain +4 to their respective stat.
+//Spur Skills: Adjacent allies gain +2 to their respective stat.
 //Author Unknown (Initial Commit)
-#define SpurStrID 255 //58
+#define SpurStrID 36 //58
 #define SpurMagID 255 //59
 #define SpurSpdID 255 //60
-#define SpurDefID 255 //61
+#define SpurDefID 37 //61
 #define SpurResID 255 //62
 
 //Tantivy: +10 Hit/AvoID 255 //if there are no allies within 3 tiles.
@@ -778,7 +778,7 @@
 
 //Lethality: Instantly kill opponent. (Skill/2 % activation)
 //Author Unknown (Initial Commit)
-#define LethalityID 82 //13
+#define LethalityID 255 //13
 
 //Luna: Negates enemy defenses. (Skill % activation)
 //Author Unknown (Initial Commit)
@@ -954,11 +954,11 @@
 
 //Shove: Allows unit to push other units one tile away.
 //By StanH
-#define ShoveID 255 //122
+#define ShoveID 82 //122
 
 //Smite: Allows unit to push other units two tiles away.
 //By StanH
-#define SmiteID 36 //123
+#define SmiteID 255 //123
 
 //Pivot: Allows unit to move to the opposite side of an adjacent ally.
 //By StanH
@@ -1065,7 +1065,7 @@
 
 //Shadowgift: Allows the user to use Dark Magic. (Uses highest Magic Rank)
 //By Leonarth
-#define ShadowgiftID 37 //255
+#define ShadowgiftID 255 //255
 
 //Lumina: Allows the user to use Light Magic. (Uses highest Magic Rank)
 //By Leonarth
