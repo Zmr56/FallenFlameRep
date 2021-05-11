@@ -133,7 +133,7 @@
 
 //Shade: Enemies are less likely to target this unit.
 //By Sme
-#define ShadeID 255 //255
+#define ShadeID 84 //255
 
 //Shade+: Enemies will not target this unit.
 //By Sme
@@ -1001,7 +1001,7 @@
 
 //Vantage+: User always attacks first, even if attacked. Negates crits.
 //By SD9k
-#define VantagePlusID 84 //96
+#define VantagePlusID 255 //96
 
 //Nihil: Cancels the opponent's skills in combat.
 //Author Unknown (Initial Commit)
