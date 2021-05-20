@@ -26,11 +26,11 @@ Chest(RedGem,0,0)
 Chest(RedGem,0,1)
 Chest(RedGem,8,13)
 Chest(RedGem,11,13)
+Seize(15,1)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-Seize(15,1)
 END_MAIN
 
 Dunno1:
