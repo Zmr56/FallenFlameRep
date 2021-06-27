@@ -54,3 +54,16 @@ ValniDoor:
 #incext compress "Tileset/FE8_138.mapchip_config" //This is the configuration of the tiles and their patterns.
 
 EventPointerTable(0x8a, ValniDoor)
+
+ALIGN 4
+CastleRooms:
+#incext compress "Tileset/FE8_26.mapchip_config" //This is the configuration of the tiles and their patterns.
+
+EventPointerTable(0x1a, CastleRooms)
+
+//ObjectMap
+ALIGN 4
+CastleRoomsObjects:
+#incext Png2Dmp "Tileset/CastlePlusObject.png" --lz77
+
+EventPointerTable(0x18, CastleRoomsObjects)

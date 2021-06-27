@@ -169,6 +169,81 @@ ORG 0x5926F4+(0x80*0xD6)
 POP
 
 PUSH
+ORG 0x5926F4+(0x80*0xD7)
+#incext Png2Dmp "ItemIcons/Razor.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xE4)
+#incext Png2Dmp "ItemIcons/Tornado.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xE5)
+#incext Png2Dmp "ItemIcons/Pazuzu.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xD8)
+#incext Png2Dmp "ItemIcons/Quake.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xD9)
+#incext Png2Dmp "ItemIcons/Rockslide.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xDA)
+#incext Png2Dmp "ItemIcons/Mediuth.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xDB)
+#incext Png2Dmp "ItemIcons/Flare.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xDC)
+#incext Png2Dmp "ItemIcons/Enflash.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xDD)
+#incext Png2Dmp "ItemIcons/Lucifer.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xDE)
+#incext Png2Dmp "ItemIcons/Aqua.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xDF)
+#incext Png2Dmp "ItemIcons/Icicle.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xE0)
+#incext Png2Dmp "ItemIcons/Typhon.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xE1)
+#incext Png2Dmp "ItemIcons/Hydra.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xE2)
+#incext Png2Dmp "ItemIcons/Dracul.png"
+POP
+
+PUSH
+ORG 0x5926F4+(0x80*0xE3)
+#incext Png2Dmp "ItemIcons/Noctifer.png"
+POP
+
+PUSH
 ORG 0x5926F4+(0x80*0xB0)
 #incext Png2Dmp "ItemIcons/ProtoFalchion.png"
 POP

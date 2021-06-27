@@ -1,0 +1,109 @@
+EventPointerTable(0x56, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 BossFlag[1,0] 0x0
+END_MAIN
+
+BossFlag:
+ENUT 0x84
+ENDA
+
+CharacterBasedEvents:
+CharacterEventBothWays(0xE, WrenCatoTalk, Wren, Cato)
+END_MAIN
+
+WrenCatoTalk:
+SetBackground(0x03)
+Text(CatoCh9Base)
+REMA
+NoFade
+CALL $9EE2C4 //BGEnd
+ENDA
+
+/*
+CharacterTalk:
+SetBackground(0x00)
+Text(CharacterCh8Base)
+REMA
+NoFade
+CALL $9EE2C4 //BGEnd
+ENDA
+*/
+
+LocationBasedEvents:
+Chest(0x7,RedGem,2,2)
+END_MAIN
+
+MiscBasedEvents:
+//CauseGameOverIfLordDies
+DefeatAll(EndingScene)
+AREA 0x7 EndingScene [14, 9] [14, 9]
+//AREA 0x8 Pub1 [0, 0] [0, 0]
+//AREA 0x9 House1 [3, 0] [3, 0]
+//AREA 0xA House2 [5, 0] [5, 0]
+//AREA 0xB Pub2 [8, 0] [8, 0]
+//AREA 0xC House3 [1, 4] [1, 4]
+//AREA 0xD House4 [3, 4] [3, 4]
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+Tutorial:
+END_MAIN
+
+ALIGN 4
+Units1:
+UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [13,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Cato Shaman 0x00 Level(1, Ally, 0) [11,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+
+Anchor:
+UNIT 0x80 Mage 0x00 Level(1, Enemy, 0) [15,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+
+ALIGN 4
+BeginningScene:
+LOAD1 0 Units1
+ENUN
+LOAD1 0x01 Anchor
+ENUN
+
+CAM1 Wren
+FADU 10
+
+EnableFreeMovement
+NoFade
+ENDA
+
+EndingScene:
+MNC2 0x13
+NoFade
+ENDA

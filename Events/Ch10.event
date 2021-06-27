@@ -1,0 +1,114 @@
+EventPointerTable(0x4f, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatAll(EndingScene)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Traps1:
+END_MAIN
+
+Traps2:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [7,5] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [7,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [6,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [8,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [7,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [6,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [8,4] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [6,5] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [7,4] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth EphraimMasterLord Eirika Level(1, Ally, 0) [7,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+Bad:
+UNIT Caellach Hero 0x00 Level(2, Enemy, 0) [7,19] 0x00 0x00 0x0 0x00 [SilverBlade, Runesword, BlueGem] AttackInRangeAI 
+UNIT 0x80 Sage_F Caellach Level(1, Enemy, 1) [8,18] 0x00 0x00 0x0 0x00 [Physic, Thunder] HealUnits
+UNIT
+
+BadL1:
+UNIT 0x80 Druid Caellach Level(1, Enemy, 1) [2,15] 0x00 0x00 0x0 0x00 [Vampus] NeverMoveAI
+UNIT 0x80 Berserker Caellach Level(1, Enemy, 1) [1,15] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI  
+UNIT 0x80 LanceCav Caellach Level(10, Enemy, 1) [3,19] 0x00 0x00 0x0 0x00 [SilverLance, Horseslayer] AttackInRangeAI 
+UNIT
+
+BadL2:
+UNIT 0x80 Mage Caellach Level(10, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mercenary Caellach Level(10, Enemy, 1) [1,12] 0x00 0x00 0x0 0x00 [LightBrand, SteelBlade] AttackInRangeAI
+UNIT 0x80 Ranger Caellach Level(1, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [SteelSword, Lancereaver, KillerBow] AttackInRangeAI 
+UNIT 0x80 LanceCav Caellach Level(10, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelLance, Javelin, Horseslayer] AttackInRangeAI 
+UNIT 0x80 Fighter Caellach Level(10, Enemy, 1) [1,4] 0x00 0x00 0x0 0x00 [KillerAxe] AttackInRangeAI 
+UNIT
+
+BadR1:
+UNIT 0x80 Druid Caellach Level(1, Enemy, 1) [12,15] 0x00 0x00 0x0 0x00 [Vampus] NeverMoveAI 
+UNIT 0x80 Berserker Caellach Level(1, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
+UNIT 0x80 AxeCav Caellach Level(10, Enemy, 1) [10,19] 0x00 0x00 0x0 0x00 [SilverAxe, Halberd] AttackInRangeAI 
+UNIT
+
+BadR2:
+UNIT 0x80 Fighter Caellach Level(10, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [HandAxe, KillerAxe] AttackInRangeAI 
+UNIT 0x80 Myrmidon Caellach Level(10, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [LightBrand, KillingEdge] AttackInRangeAI 
+UNIT 0x80 Fighter Caellach Level(10, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [Halberd, HandAxe] AttackInRangeAI 
+UNIT 0x80 Mage Caellach Level(10, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [Elfire] AttackInRangeAI 
+UNIT 0x80 Mercenary Caellach Level(10, Enemy, 1) [13,8] 0x00 0x00 0x0 0x00 [KillingEdge] AttackInRangeAI 
+UNIT
+
+BeginningScene:
+LOAD2 0x1 Units1
+ENUN
+LOAD1 0x01 Bad
+ENUN
+LOAD1 0x01 BadL1
+ENUN
+LOAD1 0x01 BadL2
+ENUN
+LOAD1 0x01 BadR1
+ENUN
+LOAD1 0x01 BadR2
+ENUN
+NoFade
+GotoPrepScreen
+ENDA
+
+EndingScene:
+MNC2 0x12
+NoFade
+ENDA

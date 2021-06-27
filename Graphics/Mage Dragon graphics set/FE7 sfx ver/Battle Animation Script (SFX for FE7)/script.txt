@@ -1,0 +1,166 @@
+#######################################################
+#Hi, this is the Mage Dragon  script.
+#######################################################
+/// - Mode 1               #Melee Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- 00.png
+2 p- 01.png
+5 p- 02.png
+5 p- 03.png
+5 p- 04.png
+30 p- 05.png
+3 p- 06.png
+3 p- 07.png
+C05                               #Call spell associated with equipped weapon
+1 p- 08.png
+C01                               #NOP
+4 p- 09.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+4 p- 10.png
+1 p- 00.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 3               #Melee Critical Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- 00.png
+S00DE                              #manakete critical roar
+3 p- crit1.png
+3 p- crit2.png
+3 p- crit3.png
+3 p- crit4.png
+3 p- crit5.png
+3 p- crit4.png
+3 p- crit5.png
+3 p- crit4.png
+3 p- crit5.png
+3 p- crit4.png
+3 p- crit5.png
+3 p- crit4.png
+3 p- crit5.png
+8 p- crit6.png
+5 p- 02.png
+7 p- 03.png
+7 p- 04.png
+30 p- 05.png
+3 p- 06.png
+3 p- 07.png
+C05                               #Call spell associated with equipped weapon
+1 p- 08.png
+C01                               #NOP
+3 p- 09.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+3 p- 10.png
+1 p- 00.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 5               #Ranged Animation 
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- 00.png
+2 p- 01.png
+5 p- 02.png
+5 p- 03.png
+5 p- 04.png
+30 p- 05.png
+3 p- 06.png
+3 p- 07.png
+C05                               #Call spell associated with equipped weapon
+1 p- 08.png
+C01                               #NOP
+4 p- 09.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+4 p- 10.png
+1 p- 00.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 6               #Ranged Critical Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- 00.png
+S00DE                               #manakete critical roar
+3 p- crit1.png
+3 p- crit2.png
+3 p- crit3.png
+3 p- crit4.png
+3 p- crit5.png
+3 p- crit4.png
+3 p- crit5.png
+3 p- crit4.png
+3 p- crit5.png
+3 p- crit4.png
+3 p- crit5.png
+3 p- crit4.png
+3 p- crit5.png
+8 p- crit6.png
+5 p- 02.png
+7 p- 03.png
+7 p- 04.png
+30 p- 05.png
+3 p- 06.png
+3 p- 07.png
+C05                               #Call spell associated with equipped weapon
+1 p- 08.png
+C01                               #NOP
+3 p- 09.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+3 p- 10.png
+1 p- 00.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 7               #Dodge Melee Attack
+C02                               #Start of dodge
+1 p- 00.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+4 p- dodge1.png
+30 p- dodge2.png
+C01                               #NOP
+3 p- dodge1.png
+1 p- 00.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 8               #Dodge Ranged Attack
+C02                               #Start of dodge
+1 p- 00.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+4 p- dodge1.png
+30 p- dodge2.png
+C01                               #NOP
+3 p- dodge1.png
+1 p- 00.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 9               #Equiped with Melee Weapon
+1 p- 00.png
+C01                               #NOP
+~~~
+/// - Mode 10               #Standing motions
+1 p- 00.png
+C01                               #NOP
+~~~
+/// - Mode 11               #Equiped with Ranged weapon
+1 p- 00.png
+C01                               #NOP
+~~~
+/// - Mode 12               #Attack Missed Animation
+C03                               #Start attack animation; need 07 right after this.
+C07                               #Start attack animation; need 03 right before this.
+1 p- 00.png
+2 p- 01.png
+5 p- 02.png
+5 p- 03.png
+5 p- 04.png
+30 p- 05.png
+3 p- 06.png
+3 p- 07.png
+C05                               #Call spell associated with equipped weapon
+1 p- 08.png
+C01                               #NOP
+4 p- 09.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+4 p- 10.png
+1 p- 00.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - End of animation

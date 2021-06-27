@@ -92,10 +92,6 @@ UNIT Wigbrand EphraimMasterLord Wren Level(1, Ally, 0) [15,1] 0x00 0x00 0x0 0x00
 UNIT Wigbrand EphraimMasterLord Wren Level(1, Ally, 0) [14,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
-SoldierBoy:
-UNIT Evander Soldier Wren Level(5, Ally, 0) [13,1] 0x00 0x00 0x0 0x00 [KillerLance, Lancea, IronLance] NoAI 
-UNIT
-
 Bad:
 UNIT Bazba Mage 0x00 Level(10, Enemy, 0) [2,1] 0x00 0x00 0x0 0x00 [Elfire, Bolting] NeverMoveAI 
 UNIT Murray Pirate 0x00 Level(10, Enemy, 0) [16,13] 0x00 0x00 0x0 0x00 [KillerAxe, Halberd] AttackInRangeAI 
@@ -131,8 +127,6 @@ UNIT
 
 BeginningScene:
 LOAD2 0x1 Units1
-ENUN
-LOAD1 0x1 SoldierBoy
 ENUN
 LOAD1 0x01 Bad
 ENUN

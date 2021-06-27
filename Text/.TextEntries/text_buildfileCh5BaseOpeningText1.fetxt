@@ -1,0 +1,40 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadAdela]
+
+[FarRight][LoadWigbrand]
+
+[FarLeft][LoadSarai]
+
+
+
+[FarRight]#Wigbrand
+
+Here we are then, the capital.[N]
+
+Seems we've all made it one piece.[A]
+
+
+
+[Right]#Wren
+
+I'm looking forward to finally being[N]
+
+able to rest up my feet after all this.[A]
+
+
+
+[FarFarLeft]#Empty
+
+Hold! Lady Wren Osprey?[N][A]
+
+
+
+[Right]#Wren
+
+Huh? Who called me just now?[N][A]
+
+[X]
+

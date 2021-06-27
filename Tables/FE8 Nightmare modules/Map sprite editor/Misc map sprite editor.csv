@@ -92,13 +92,13 @@ Cyclops,0x81f40f8,0x81f49b8
 Mauthe Doog,0x81f4b18,0x81f5468
 Gwyllgi,0x81f55c0,0x81f607c
 Tarvos,0x81f61d4,0x81f6ad0
-Maelduin,0x81f6c28,0x81f7570
+EarthDragon,Map_EarthDragonMoving,0x81f7570
 Supplier,Map_SupplierMoving|IsPointer,0x81f7e28
-Arch Mogall,0x81f7f80,0x81f876c
-Gorgon,0x81f88c4,0x81f90a0
+MageDragon,Map_MageDragonMoving,0x81f876c
+WindDragon,0x81e21e0,0x81f90a0
 Gorgon Egg,0x81f91f8,0x81f95f4
-Gargoyle,0x81f974c,0x81fa2b4
-Deathgoyle,0x81fa40c,0x81faf40
+IceDragon,Map_IceDragonMoving,0x81fa2b4
+DivineDragon,Map_DivineDragonMoving,0x81faf40
 FireDragon,Map_FireDragonMoving,0x81fbe5c
 Demon King,0x81fbfbc,0x81fd028
 Archer on Ballista,0x81fd180,0x81fd808

@@ -46,7 +46,42 @@ Fire Dragon[X]
 
 ## descFireDragon
 Manaketes who are one with fire.[NL]
-Equip: Dragonstones.[X]
+Equip: Fire Dragonstones.[X]
+
+## nameDivineDragon
+Divine Dragon[X]
+
+## descDivineDragon
+Manaketes imbued with holy power.[NL]
+Equip: Light Dragonstones.[X]
+
+## nameIceDragon
+Ice Dragon[X]
+
+## descIceDragon
+Manaketes with aqua based powers.[NL]
+Equip: Ice Dragonstones.[X]
+
+## nameWindDragon
+Wind Dragon[X]
+
+## descWindDragon
+Manaketes who dominate the skies.[NL]
+Equip: Wind Dragonstones.[X]
+
+## nameEarthDragon
+Earth Dragon[X]
+
+## descEarthDragon
+Manaketes who shake the earth.[NL]
+Equip: Earth Dragonstones.[X]
+
+## nameMageDragon
+Mage Dragon[X]
+
+## descMageDragon
+Manaketes that use Elder magic.[NL]
+Equip: Dark Dragonstones.[X]
 
 ## nameSupplier
 Supplier[X]

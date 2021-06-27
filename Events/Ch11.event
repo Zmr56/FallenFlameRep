@@ -1,0 +1,116 @@
+EventPointerTable(0x5a, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatAll(EndingScene)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Traps1:
+END_MAIN
+
+Traps2:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [9,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Wren Level(1, Ally, 0) [8,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Wren Level(1, Ally, 0) [10,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Wren Level(1, Ally, 0) [9,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Wren Level(1, Ally, 0) [8,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Wren Level(1, Ally, 0) [10,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Wren Level(1, Ally, 0) [9,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Wren Level(1, Ally, 0) [9,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Wren Level(1, Ally, 0) [8,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Wren Level(1, Ally, 0) [10,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Wren Level(1, Ally, 0) [9,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+WyvernCatria:
+UNIT Arminius WyvernRider Wren Level(6, Ally, 0) [8,11] 0x00 0x00 0x0 0x00 [IronAxe, DragonAxe, SteelAxe] NoAI 
+UNIT
+
+Bad:
+UNIT Bhumi EarthDragon 0x00 Level(8, Enemy, 0) [16,4] 0x00 0x00 0x0 0x00 [Quake] ChaseOnceApproachedAI 
+UNIT Agni FireDragon Bhumi Level(8, Enemy, 0) [2,18] 0x00 0x00 0x0 0x00 [Balrog, Raze] ChaseOnceApproachedAI 
+UNIT 0x80 EarthDragon Bhumi Level(5, Enemy, 1) [4,5] 0x00 0x00 0x0 0x00 [Quake] NeverMoveAI 
+UNIT 0x80 EarthDragon Bhumi Level(5, Enemy, 1) [3,6] 0x00 0x00 0x0 0x00 [Quake] NeverMoveAI 
+UNIT 0x80 EarthDragon Bhumi Level(5, Enemy, 1) [14,16] 0x00 0x00 0x0 0x00 [Quake] NeverMoveAI 
+UNIT 0x80 EarthDragon Bhumi Level(5, Enemy, 1) [15,17] 0x00 0x00 0x0 0x00 [Quake] NeverMoveAI 
+UNIT 0x80 EarthDragon Bhumi Level(5, Enemy, 1) [13,4] 0x00 0x00 0x0 0x00 [Quake] NeverMoveAI 
+UNIT 0x80 EarthDragon Bhumi Level(5, Enemy, 1) [13,5] 0x00 0x00 0x0 0x00 [Quake] NeverMoveAI 
+UNIT 0x80 EarthDragon Bhumi Level(5, Enemy, 1) [5,17] 0x00 0x00 0x0 0x00 [Quake] ChaseOnceApproachedAI 
+UNIT 0x80 EarthDragon Bhumi Level(5, Enemy, 1) [5,19] 0x00 0x00 0x0 0x00 [Quake] ChaseOnceApproachedAI 
+UNIT 0x80 DivineDragon Bhumi Level(5, Enemy, 1) [5,18] 0x00 0x00 0x0 0x00 [Flare] ChaseOnceApproachedAI 
+UNIT 0x80 DivineDragon Bhumi Level(5, Enemy, 1) [9,1] 0x00 0x00 0x0 0x00 [Flare] ChaseOnceApproachedAI 
+UNIT 0x80 MageDragon Bhumi Level(5, Enemy, 1) [15,19] 0x00 0x00 0x0 0x00 [Hydra] AttackInRangeAI 
+UNIT 0x80 MageDragon Bhumi Level(5, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [Hydra] AttackInRangeAI 
+UNIT 0x80 FireDragon Bhumi Level(5, Enemy, 1) [4,11] 0x00 0x00 0x0 0x00 [Raze] AttackInRangeAI 
+UNIT 0x80 FireDragon Bhumi Level(5, Enemy, 1) [15,11] 0x00 0x00 0x0 0x00 [Raze] AttackInRangeAI 
+UNIT 0x80 FireDragon Bhumi Level(5, Enemy, 1) [10,17] 0x00 0x00 0x0 0x00 [Scorch] AttackInRangeAI 
+UNIT 0x80 FireDragon Bhumi Level(5, Enemy, 1) [8,4] 0x00 0x00 0x0 0x00 [Scorch] AttackInRangeAI 
+UNIT 0x80 WindDragon Bhumi Level(5, Enemy, 1) [2,0] 0x00 0x00 0x0 0x00 [Razor] PursueWithoutHeedAI 
+UNIT 0x80 WindDragon Bhumi Level(5, Enemy, 1) [1,1] 0x00 0x00 0x0 0x00 [Razor] PursueWithoutHeedAI 
+UNIT 0x80 WindDragon Bhumi Level(5, Enemy, 1) [18,20] 0x00 0x00 0x0 0x00 [Razor] PursueWithoutHeedAI 
+UNIT 0x80 WindDragon Bhumi Level(5, Enemy, 1) [17,21] 0x00 0x00 0x0 0x00 [Razor] PursueWithoutHeedAI 
+UNIT 0x80 WindDragon Bhumi Level(5, Enemy, 1) [0,21] 0x00 0x00 0x0 0x00 [Razor] PursueWithoutHeedAI 
+UNIT 0x80 WindDragon Bhumi Level(5, Enemy, 1) [1,22] 0x00 0x00 0x0 0x00 [Razor] PursueWithoutHeedAI 
+UNIT 0x80 WindDragon Bhumi Level(5, Enemy, 1) [17,1] 0x00 0x00 0x0 0x00 [Razor] PursueWithoutHeedAI 
+UNIT 0x80 WindDragon Bhumi Level(5, Enemy, 1) [18,2] 0x00 0x00 0x0 0x00 [Razor] PursueWithoutHeedAI 
+UNIT 0x80 AxeCav Bhumi Level(11, Enemy, 1) [8,18] 0x00 0x00 0x0 0x00 [SteelAxe] ChaseOnceApproachedAI 
+UNIT 0x80 AxeCav Bhumi Level(11, Enemy, 1) [10,4] 0x00 0x00 0x0 0x00 [SteelAxe] ChaseOnceApproachedAI 
+UNIT 0x80 LanceCav Bhumi Level(11, Enemy, 1) [11,5] 0x00 0x00 0x0 0x00 [SteelLance] ChaseOnceApproachedAI 
+UNIT 0x80 LanceCav Bhumi Level(11, Enemy, 1) [9,19] 0x00 0x00 0x0 0x00 [SteelLance] ChaseOnceApproachedAI 
+UNIT 0x80 Mercenary Bhumi Level(11, Enemy, 1) [17,6] 0x00 0x00 0x0 0x00 [SilverSword, BraveSword] MoveWithLeaderAI 
+UNIT 0x80 Soldier Agni Level(11, Enemy, 1) [0,19] 0x00 0x00 0x0 0x00 [SilverLance, BraveLance] MoveWithLeaderAI 
+UNIT 0x80 Soldier Bhumi Level(11, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Bhumi Level(11, Enemy, 1) [14,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT
+
+BeginningScene:
+LOAD2 0x1 Units1
+ENUN
+LOAD1 0x01 WyvernCatria
+ENUN
+LOAD1 0x01 Bad
+ENUN
+NoFade
+GotoPrepScreen
+ENDA
+
+EndingScene:
+MNC2 0x14
+NoFade
+ENDA

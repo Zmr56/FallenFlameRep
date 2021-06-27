@@ -19,9 +19,13 @@ Cledwyn_Mug:
 #incext PortraitFormatter "Cledwyn.png"
 setMugEntry(0xB3, Cledwyn_Mug, 3, 5, 3, 3)
 
-Shahrokh_Mug:
-#incext PortraitFormatter "Shahrokh.png"
-setMugEntry(0xB1, Shahrokh_Mug, 3, 5, 3, 3)
+Swithin_Mug:
+#incext PortraitFormatter "Swithin.png"
+setMugEntry(0xB1, Swithin_Mug, 3, 5, 3, 3)
+
+Rentoul_Mug:
+#incext PortraitFormatter "Rentoul.png"
+setMugEntry(0xB7, Rentoul_Mug, 2, 5, 2, 3)
 
 //Generics mugs
 

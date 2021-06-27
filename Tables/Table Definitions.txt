@@ -111,6 +111,10 @@
   #define UnlockLock4 0x80
 #endif
 
+//Custom definitions go here:
+#include "_IER_CSV_Definitions.event"
+#endif
+
 //weapon types
 /*
 #define Swords 0x0

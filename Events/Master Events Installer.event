@@ -60,3 +60,19 @@ ALIGN 4
 {
   #include "Ch9.event"
 }
+ALIGN 4
+{
+  #include "Ch10Base.event"
+}
+ALIGN 4
+{
+  #include "Ch10.event"
+}
+ALIGN 4
+{
+  #include "Ch11Base.event"
+}
+ALIGN 4
+{
+  #include "Ch11.event"
+}

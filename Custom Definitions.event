@@ -77,6 +77,7 @@
 #define Muninn 0x12
 #define Jord 0x13
 #define Vanja 0x14
+#define Arminius 0x1C
 #define Mordred 0x30
 #define Kestral 0x31
 
@@ -89,12 +90,14 @@
 #define Sawine Orson_Ch5x
 #define Rhud Selena_Ch10B_and_13B
 #define Sonta Valter_Prologue
+#define Agni Bone
+#define Bhumi Pablo_2
 
+#define DunstanCiv 0x46
 #define Merchant Deathgoyle_boss
 #define Odwynn 0xF1
 #define Bleda 0xF2
 
-#define Shahrokh Lyon_Ch17
 #define Roamer1 Lyon_Ch17
 #define Roamer2 Morva_Ch20
 #define Roamer3 Orson_Ch5x
@@ -120,6 +123,11 @@
 #define LanceCavF 0x56
 #define SwordCavF 0x57
 #define FireDragon 0x65
+#define DivineDragon 0x64
+#define IceDragon 0x63
+#define WindDragon 0x61
+#define EarthDragon 0x5E
+#define MageDragon 0x60
 #define Supplier 0x5F
 
 // Item definitions
@@ -136,6 +144,21 @@
 #define Raze 0xB1
 #define Scorch 0xB0
 #define Balrog 0xB2
+#define Razor 0xAD
+#define Tornado 0xAE
+#define Pazuzu 0xAF
+#define Quake 0xC6
+#define Rockslide 0xC7
+#define Mediuth 0xC8
+#define Flare 0xC9
+#define Enflash 0xCA
+#define Lucifer 0xCB
+#define Aqua 0xCC
+#define Icicle 0xCD
+#define Typhon 0xCE
+#define Hydra 0xCF
+#define Dracul 0xD0
+#define Noctifer 0xD1
 #define ProtoFalchion 0x85
 
 // Item Icon definitions

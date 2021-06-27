@@ -215,6 +215,8 @@ POP
   
   #include "Necessary/CalcLoops/CalcLoops.event"
 
+  //#include "Necessary/Item Effect Revamp v1.8/IERevamp_Installer.event"
+
    ALIGN 4
   #include "FallenFlame/FreeMovement.event"
   

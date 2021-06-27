@@ -1,0 +1,60 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadRentoul]
+
+[FarRight][LoadWigbrand]
+
+
+
+[Left]#Rentoul
+
+Lady Wren Osprey and Wigbrand?[N]
+
+The committee requires your audience.[A]
+
+
+
+[Right]#Wren
+
+Who are you? Who are all these men?[N][A]
+
+
+
+[FarRight]#Wigbrand
+
+His name is Rentaghoul.[N][A]
+
+
+
+[Left]#Rentoul
+
+It's Rentoul.[N][A]
+
+
+
+[FarRight]#Wigbrand
+
+Keep calling him Rentaghoul,[N]
+
+he can't actually do anything about it.[A]
+
+
+
+[Left]#Rentoul
+
+It's a shame to see you haven't changed[N]
+
+over the past twenty years, Wigbrand.[A][N]
+
+There is no need to be alarmed milady.[N]
+
+As the head of the Shadow Service I[A][N]
+
+shall escort you to the war committee.[N]
+
+The rest of you... Please clear off.[A]
+
+[X]
+

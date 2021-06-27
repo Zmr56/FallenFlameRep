@@ -18,15 +18,15 @@ TURN 0x0 BossFlag[1,0] 0x0
 END_MAIN
 
 BossFlag:
-UNIT_COLORS 0 3 0
-ENUN
 ENUT 0x84
 ENDA
 
 CharacterBasedEvents:
-CharacterEventBothWays(0x9, WrenOrvarTalk, Wren, Orvar)
-CharacterEventBothWays(0xA, WrenNuriTalk, Wren, Nuri)
-CharacterEventBothWays(0xB, WrenMordredTalk, Wren, Mordred)
+CharacterEventBothWays(0x9, WrenKestralTalk, Wren, Kestral)
+CharacterEventBothWays(0xA, WrenKestralTalk, Wren, Wigbrand)
+CharacterEventBothWays(0xB, WrenNuriTalk, Wren, Nuri)
+CharacterEventBothWays(0xC, WrenMordredTalk, Wren, Mordred)
+/*
 CharacterEventBothWays(0xC, WrenKestralTalk, Wren, Kestral)
 CharacterEventBothWays(0xD, WrenKestralTalk, Wren, Wigbrand)
 CharacterEventBothWays(0xE, FangirlsTalk, Wren, Roamer7)
@@ -47,217 +47,43 @@ CharacterEventBothWays(0x22, Knight2Talk, Wren, Roamer3)
 CharacterEventBothWays(0x23, CledwynTalk, Wren, Roamer8)
 CharacterEventBothWays(0x24, MercTalk, Wren, Roamer9)
 CharacterEventBothWays(0x25, GwynTalk, Wren, Roamer6)
+*/
 END_MAIN
-
-WrenOrvarTalk:
-SetBackground(0x10)
-Text(OrvarCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-WrenNuriTalk:
-SetBackground(0x13)
-Text(NuriCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-WrenMordredTalk:
-SetBackground(0x13)
-Text(MordredCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
 
 WrenKestralTalk:
 SetBackground(0x13)
 Text(KestralCh5Base)
 REMA
-//NoFade
+NoFade
 CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
 ENDA
 
-FangirlsTalk:
-SetBackground(0x10)
-Text(FangirlsCh5Base)
+WrenNuriTalk:
+SetBackground(0x0A)
+Text(NuriCh5Base)
 REMA
-//NoFade
+NoFade
 CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
 ENDA
 
-DunstanTalk:
-SetBackground(0x13)
-Text(DunstanCh5Base)
+WrenMordredTalk:
+SetBackground(0x0A)
+Text(MordredCh5Base)
 REMA
-//NoFade
+NoFade
 CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-GeneralTalk:
-SetBackground(0x25)
-Text(GeneralCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-EvanderTalk:
-SetBackground(0x25)
-Text(EvanderCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-SaraiGadTalk:
-SetBackground(0x10)
-Text(SaraiGadCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-CatoHuginnTalk:
-SetBackground(0x25)
-Text(HuginnCatoCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-DanaTalk:
-SetBackground(0x2D)
-Text(DanaCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-LuzTalk:
-SetBackground(0x2D)
-Text(LuzCh5Base1)
-REMA
-//NoFade
-//CALL $9EE2C4 //BGEnd
-FADI 16
-STAL 24
-FADU 16
-SetBackground(0x2D)
-Text(LuzCh5Base2)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-AdelaTalk:
-SetBackground(0x0E)
-Text(AdelaCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-Soldier1Talk:
-SetBackground(0x25)
-Text(Soldier1Ch5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-Knight1Talk:
-SetBackground(0x25)
-Text(Knight1Ch5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-Knight2Talk:
-SetBackground(0x25)
-Text(Knight2Ch5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-CledwynTalk:
-SetBackground(0x10)
-Text(MercCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-MercTalk:
-SetBackground(0x13)
-Text(MercCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
-ENDA
-
-GwynTalk:
-SetBackground(0x13)
-Text(GwynCh5Base)
-REMA
-//NoFade
-CALL $9EE2C4 //BGEnd
-UNIT_COLORS 0 3 0
-ENUN
 ENDA
 
 #define Chest(id,item,x,y) "CHES id item [x,y] 0x14"
 
 LocationBasedEvents:
-Chest(0x7,Wyrmslayer,18,0)
-Chest(0x8,RedGem,19,0)
+Chest(0x7,Wyrmslayer,13,15)
 END_MAIN
 
 MiscBasedEvents:
 //CauseGameOverIfLordDies
-//DefeatAll(EndingScene)
-AREA 0x26 EndingScene [14, 22] [14, 22]
+DefeatAll(EndingScene)
+AREA 0x26 EndingScene [0, 16] [0, 16]
 END_MAIN
 
 Dunno1:
@@ -282,51 +108,66 @@ END_MAIN
 
 ALIGN 4
 Units1:
-UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [14,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Wigbrand Paladin Wren Level(1, Ally, 0) [7,18] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Orvar Archer Wren Level(1, Ally, 0) [8,12] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Huginn Fighter Wren Level(1, Ally, 0) [7,21] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Luz Cleric Wren Level(1, Ally, 0) [18,5] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Gad Thief Wren Level(1, Ally, 0) [7,10] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Dana SwordCavF Wren Level(1, Ally, 0) [19,7] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Cato Shaman Wren Level(1, Ally, 0) [7,22] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Sarai PegasusKnight Wren Level(1, Ally, 0) [8,10] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Nuri AxeCavF Wren Level(1, Ally, 0) [13,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Adela Troubadour Wren Level(1, Ally, 0) [19,15] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [3,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Wigbrand Paladin Wren Level(1, Ally, 0) [14,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Sarai PegasusKnight Wren Level(1, Ally, 0) [8,15] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Nuri AxeCavF Wren Level(1, Ally, 0) [0,13] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Adela Troubadour Wren Level(1, Ally, 0) [8,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 Greens:
-UNIT Kestral EphraimMasterLord 0x00 Level(1, NPC, 0) [7,17] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT 0x46 Peer 0x00 Level(1, NPC, 0) [17,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Mordred EphraimMasterLord 0x00 Level(1, NPC, 0) [19,11] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Roamer2 Knight 0x00 Level(1, NPC, 0) [4,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Roamer3 Knight 0x00 Level(1, NPC, 0) [8,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Roamer4 Soldier 0x00 Level(1, NPC, 0) [3,1] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Roamer5 General 0x00 Level(1, NPC, 0) [14,1] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT 0x46 Peer 0x00 Level(1, NPC, 0) [17,22] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Roamer6 Paladin 0x00 Level(1, NPC, 0) [15,16] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Shahrokh MageKnight 0x00 Level(1, NPC, 0) [18,15] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Kestral EphraimMasterLord 0x00 Level(1, NPC, 0) [13,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT DunstanCiv Peer 0x00 Level(1, NPC, 0) [9,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Mordred EphraimMasterLord 0x00 Level(1, NPC, 0) [14,16] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Roamer1 General 0x00 Level(1, NPC, 0) [10,15] 0x00 0x00 0x0 0x00 [0x00] NoAI //Keyvn Randel
+UNIT Roamer2 Paladin 0x00 Level(1, NPC, 0) [14,10] 0x00 0x00 0x0 0x00 [0x00] NoAI //Gwyn Limestone
+UNIT Roamer3 General 0x00 Level(1, NPC, 0) [9,3] 0x00 0x00 0x0 0x00 [0x00] NoAI //Generic General
+UNIT Roamer4 Soldier 0x00 Level(1, NPC, 0) [11,3] 0x00 0x00 0x0 0x00 [0x00] NoAI //Generic Soldier
+UNIT Roamer5 Warrior 0x00 Level(1, NPC, 0) [5,3] 0x00 0x00 0x0 0x00 [0x00] NoAI //Hendry
+UNIT Roamer6 Cleric 0x00 Level(1, NPC, 0) [6,0] 0x00 0x00 0x0 0x00 [0x00] NoAI //Generic Cleric
 UNIT
 
-GreensPlus:
-UNIT Evander Soldier 0x00 Level(1, Enemy, 0) [2,3] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Roamer7 Soldier 0x00 Level(1, Enemy, 0) [11,10] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Roamer7 Soldier 0x00 Level(1, Enemy, 0) [10,10] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Roamer8 Peer 0x00 Level(1, Enemy, 0) [10,13] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Roamer9 Mercenary 0x00 Level(1, Enemy, 0) [11,19] 0x00 0x00 0x0 0x00 [0x00] NoAI
+SoldierBoy:
+UNIT Evander Soldier 0x00 Level(5, Ally, 0) [9,9] 0x00 0x00 0x0 0x00 [KillerLance, Lancea, IronLance] NoAI
+UNIT
+
+Anchor:
+UNIT 0x80 Mage 0x00 Level(1, Enemy, 0) [15,17] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 ALIGN 4
 BeginningScene:
+MUSC 0x25
+SetBackground(0x24)
+Text(Ch5BaseOpeningText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
+MUSC 0x25
+SetBackground(0x24)
+Text(Ch5BaseOpeningText2)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
+MUSC 0x25
+SetBackground(0x2F)
+Text(Ch5BaseOpeningText3)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
+MUSC 0x25
+SetBackground(0x2F)
+Text(Ch5BaseOpeningText4)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
 LOAD1 0 Units1
+ENUN
+LOAD1 0x1 SoldierBoy
 ENUN
 LOAD1 0 Greens
 ENUN
-LOAD1 0 GreensPlus
-ENUN
-ENUT 0x84
-ENUN
-UNIT_COLORS 0 3 0
+LOAD1 0x01 Anchor
 ENUN
 
 CAM1 Wren

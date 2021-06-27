@@ -1,0 +1,148 @@
+
+
+[Right][LoadWren]
+
+[FarRight][LoadWigbrand]
+
+[FarLeft][LoadRentoul]
+
+
+
+[FarLeft]#Rentoul
+
+Everyone is here now, King Swithin.[N][A]
+
+
+
+[Left][LoadSwithin]
+
+
+
+[Left]#Swithin
+
+Thank you, Sir Rentoul.[N][A]
+
+
+
+[FarLeft][ClearFace]
+
+
+
+[Right]#Wren
+
+Your majesty.[N][A]
+
+
+
+[Left]#Swithin
+
+Greetings, lady Wren.[N][A]
+
+
+
+[Right]#Wren
+
+Erm, may I ask why I've been brought to[N]
+
+the committe? Not that I mind it's just[A][N]
+
+that it seems unusual I'd be needed.[A]
+
+
+
+[Left]#Swithin
+
+I believe first of all, congratulations[N]
+
+are due for your work in defending the[A][N]
+
+nation recently during the invasion.[N]
+
+The reason for your summoning, however,[A][N]
+
+is that you possess a particular power[N]
+
+that requires your deployment for the[A][N]
+
+campaign in Gofaul and perhaps beyond.[A]
+
+
+
+[Right]#Wren
+
+I'm sorry but... I don't understand?[N][A]
+
+
+
+[FarLeft][LoadRentoul]
+
+
+
+[FarLeft]#Rentoul
+
+Hush child! Do not spe-[N][A]
+
+
+
+[Left]#Swithin
+
+It's fine, Sir Rentag, uh, Rentoul.[N]
+
+Lady Wren and I are usually informal.[A]
+
+
+
+[FarLeft][ClearFace]
+
+
+
+[Left]#Swithin
+
+Lady Wren, has anyone told you before[N]
+
+about your bloodline?[A]
+
+
+
+[Right]#Wren
+
+My bloodline is merely composed of the[N]
+
+Osprey lineage and the Buboini tribe.[A][N]
+
+I do not know of any other noteworthy[N]
+
+traits that run through my veins.[A]
+
+
+
+[Left]#Swithin
+
+Well according to your father and your[N]
+
+guard, Wigbrand, it'd seem your blood[A][N]
+
+is extraordinary. Holy Blood so to say[A]
+
+
+
+[FarRight]#Wigbrand
+
+It is true.[N][A]
+
+
+
+[Right]#Wren
+
+H-Holy Blood...? I...[N][A]
+
+
+
+[Left]#Swithin
+
+I understand that this is a shock, so[N]
+
+hold this blade, you may understand.[A]
+
+[X]
+

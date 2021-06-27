@@ -43,6 +43,22 @@ Map_FireDragonStand:
 #incext Png2Dmp "FireDragonStanding.png" --lz77
 Map_FireDragonMoving:
 #incext Png2Dmp "FireDragonMoving.png" --lz77
+Map_DivineDragonStand:
+#incext Png2Dmp "DivineDragonStanding.png" --lz77
+Map_DivineDragonMoving:
+#incext Png2Dmp "DivineDragonMoving.png" --lz77
+Map_IceDragonStand:
+#incext Png2Dmp "IceDragonStanding.png" --lz77
+Map_IceDragonMoving:
+#incext Png2Dmp "IceDragonMoving.png" --lz77
+Map_EarthDragonStand:
+#incext Png2Dmp "EarthDragonStanding.png" --lz77
+Map_EarthDragonMoving:
+#incext Png2Dmp "EarthDragonMoving.png" --lz77
+Map_MageDragonStand:
+#incext Png2Dmp "MageDragonStanding.png" --lz77
+Map_MageDragonMoving:
+#incext Png2Dmp "MageDragonMoving.png" --lz77
 Map_SupplierStand:
 #incext Png2Dmp "SupplierStanding.png" --lz77
 Map_SupplierMoving:

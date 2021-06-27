@@ -56,6 +56,9 @@ Zeke[X]
 ## BaseConvoSelectConvoText
 Select a conversation.[X]
 
+## RoutStatus
+Defeat all enemies.[X]
+
 ## PrologueStatus
 Kill Datta.[X]
 
@@ -72,8 +75,19 @@ passage or kill boss.[X]
 ## Ch4Status
 Kill both bosses[X]
 
+## Ch7Status
+Help your allies flee[N]
+and escape.[X]
+
+## Ch8Status
+Escort the merchants[N]
+to the marked points.[X]
+
 ## SeizeWindow
 Seize.[X]
+
+## RoutWindow
+Rout.[X]
 
 ## KillBossWindow
 Kill Boss.[X]
@@ -83,6 +97,15 @@ Kill All Bosses.[X]
 
 ## DefendFatNobleWindow
 Defend[X]
+
+## EscapeWindow
+Escape.[X]
+
+## EscortWindow
+Escort.[X]
+
+## SeizeThroneStatus
+Seize the throne.[X]
 
 ## nameReversa
 Reversa[X]
@@ -122,6 +145,57 @@ Calibane[X]
 
 ## nameRaze
 Raze[X]
+
+## nameScorch
+Scorch[X]
+
+## nameBalrog
+Balrog[X]
+
+## nameRazor
+Razor[X]
+
+## nameTornado
+Tornado[X]
+
+## namePazuzu
+Pazuzu[X]
+
+## nameQuake
+Quake[X]
+
+## nameRockslide
+Rockslide[X]
+
+## nameMediuth
+Mediuth[X]
+
+## nameFlare
+Flare[X]
+
+## nameEnflash
+Enflash[X]
+
+## nameLucifer
+Lucifer[X]
+
+## nameAqua
+Aqua[X]
+
+## nameIcicle
+Icicle[X]
+
+## nameTyphon
+Typhon[X]
+
+## nameHydra
+Hydra[X]
+
+## nameDracul
+Dracul[X]
+
+## nameNoctifer
+Noctifer[X]
 
 ## nameProtoFalchion
 Proto Falchion[X]
