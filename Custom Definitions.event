@@ -131,6 +131,7 @@
 #define Supplier 0x5F
 
 // Item definitions
+#define Reversa 0x09
 #define Vampus 0xBC
 #define Venenum 0xBD
 #define Elfrost 0xBE

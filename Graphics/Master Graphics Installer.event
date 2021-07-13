@@ -83,169 +83,175 @@ PrepBG:
 
 //Weapon Icons
 
-PUSH
-ORG 0x5926F4+(0x80*0x00)
+ALIGN 4
+NewItemIcons:
+Fill(0x100*128) // you could do this instead of the full sheet 
+
+#define ItemIconEntry(ItemIconID) "ORG NewItemIcons + (ItemIconID*128)"
+
+PUSH 
+
+// Individual Icons go here
+
+ItemIconEntry(IronSword)
 #incext Png2Dmp "ItemIcons/IronSword.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0x02)
+ItemIconEntry(SteelSword)
 #incext Png2Dmp "ItemIcons/SteelSword.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0x03)
+ItemIconEntry(SilverSword)
 #incext Png2Dmp "ItemIcons/SilverSword.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0x08)
+ItemIconEntry(SilverSword)
+#incext Png2Dmp "ItemIcons/SilverSword.png"
+
+ItemIconEntry(KillingEdge)
+#incext Png2Dmp "ItemIcons/KillingEdge.png"
+
+ItemIconEntry(IronLance)
+#incext Png2Dmp "ItemIcons/IronLance.png"
+
+ItemIconEntry(SteelLance)
+#incext Png2Dmp "ItemIcons/SteelLance.png"
+
+ItemIconEntry(SilverLance)
+#incext Png2Dmp "ItemIcons/SilverLance.png"
+
+ItemIconEntry(KillerLance)
+#incext Png2Dmp "ItemIcons/KillerLance.png"
+
+ItemIconEntry(IronAxe)
+#incext Png2Dmp "ItemIcons/IronAxe.png"
+
+ItemIconEntry(SteelAxe)
+#incext Png2Dmp "ItemIcons/SteelAxe.png"
+
+ItemIconEntry(SilverAxe)
+#incext Png2Dmp "ItemIcons/SilverAxe.png"
+
+ItemIconEntry(IronBow)
+#incext Png2Dmp "ItemIcons/IronBow.png"
+
+ItemIconEntry(SteelBow)
+#incext Png2Dmp "ItemIcons/SteelBow.png"
+
+ItemIconEntry(SilverBow)
+#incext Png2Dmp "ItemIcons/SilverBow.png"
+
+ItemIconEntry(Longbow)
+#incext Png2Dmp "ItemIcons/Longbow.png"
+
+ItemIconEntry(Heal)
+#incext Png2Dmp "ItemIcons/Heal.png"
+
+ItemIconEntry(Mend)
+#incext Png2Dmp "ItemIcons/Mend.png"
+
+ItemIconEntry(Vulnerary)
+#incext Png2Dmp "ItemIcons/Vulnerary.png"
+
+ItemIconEntry(Elixir)
+#incext Png2Dmp "ItemIcons/Elixir.png"
+
+ItemIconEntry(Reversa)
 #incext Png2Dmp "ItemIcons/Reversa.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xCA)
+ItemIconEntry(Vampus)
 #incext Png2Dmp "ItemIcons/Vampus.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xCB)
+ItemIconEntry(Venenum)
 #incext Png2Dmp "ItemIcons/Venenum.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xCC)
+ItemIconEntry(Elfrost)
 #incext Png2Dmp "ItemIcons/Elfrost.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xCD)
+ItemIconEntry(Hurlbat)
 #incext Png2Dmp "ItemIcons/Hurlbat.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xCE)
+ItemIconEntry(Francisca)
 #incext Png2Dmp "ItemIcons/Francisca.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xCF)
+ItemIconEntry(Nzappa)
 #incext Png2Dmp "ItemIcons/Nzappa.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xD0)
+ItemIconEntry(Harpoon)
 #incext Png2Dmp "ItemIcons/Harpoon.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xD1)
+ItemIconEntry(Lancea)
 #incext Png2Dmp "ItemIcons/Lancea.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xD2)
+ItemIconEntry(Falarica)
 #incext Png2Dmp "ItemIcons/Falarica.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xD3)
+ItemIconEntry(Calibane)
 #incext Png2Dmp "ItemIcons/Calibane.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xD4)
+ItemIconEntry(Raze)
 #incext Png2Dmp "ItemIcons/Raze.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xD5)
+ItemIconEntry(Scorch)
 #incext Png2Dmp "ItemIcons/Scorch.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xD6)
+ItemIconEntry(Balrog)
 #incext Png2Dmp "ItemIcons/Balrog.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xD7)
+ItemIconEntry(Razor)
 #incext Png2Dmp "ItemIcons/Razor.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xE4)
+ItemIconEntry(Tornado)
 #incext Png2Dmp "ItemIcons/Tornado.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xE5)
+ItemIconEntry(Pazuzu)
 #incext Png2Dmp "ItemIcons/Pazuzu.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xD8)
+ItemIconEntry(Quake)
 #incext Png2Dmp "ItemIcons/Quake.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xD9)
+ItemIconEntry(Rockslide)
 #incext Png2Dmp "ItemIcons/Rockslide.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xDA)
+ItemIconEntry(Mediuth)
 #incext Png2Dmp "ItemIcons/Mediuth.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xDB)
+ItemIconEntry(Flare)
 #incext Png2Dmp "ItemIcons/Flare.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xDC)
+ItemIconEntry(Enflash)
 #incext Png2Dmp "ItemIcons/Enflash.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xDD)
+ItemIconEntry(Lucifer)
 #incext Png2Dmp "ItemIcons/Lucifer.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xDE)
+ItemIconEntry(Aqua)
 #incext Png2Dmp "ItemIcons/Aqua.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xDF)
+ItemIconEntry(Icicle)
 #incext Png2Dmp "ItemIcons/Icicle.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xE0)
+ItemIconEntry(Typhon)
 #incext Png2Dmp "ItemIcons/Typhon.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xE1)
+ItemIconEntry(Hydra)
 #incext Png2Dmp "ItemIcons/Hydra.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xE2)
+ItemIconEntry(Dracul)
 #incext Png2Dmp "ItemIcons/Dracul.png"
-POP
 
-PUSH
-ORG 0x5926F4+(0x80*0xE3)
+ItemIconEntry(Noctifer)
 #incext Png2Dmp "ItemIcons/Noctifer.png"
-POP
+
+ItemIconEntry(ProtoFalchion)
+#incext Png2Dmp "ItemIcons/ProtoFalchion.png"
+
+// End of icons
+
+POP 
 
 PUSH
-ORG 0x5926F4+(0x80*0xB0)
-#incext Png2Dmp "ItemIcons/ProtoFalchion.png"
+ORG $36B4
+POIN NewItemIcons
+ORG $3788
+POIN NewItemIcons
 POP
 
 //Map Sprites

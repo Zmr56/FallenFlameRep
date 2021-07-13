@@ -1,10 +1,13 @@
 				-CREDITS-
 
-Buildfile Helpers -	* Sme
+Buildfile Helpers -	
+			* Sme
 			* Pikmin
 
-Buildfile Tools -	* CrazyColourz
-and Skills System	* Circles
+Buildfile Tools -	
+and Skills System	
+			* CrazyColourz
+			* Circles
 			* Teraspark
 			* StanH
 			* Sme
@@ -24,7 +27,8 @@ and Skills System	* Circles
 			* Gryz
 			* Zahlman
 
-Mug Artists -		* Blade
+Mug Artists -		
+			* Blade
 			* CardCaph
 			* Glaceo
 			* Monkeybard
@@ -42,16 +46,19 @@ Mug Artists -		* Blade
 			* Frigid
 			* Peer
 
-Other Spritework -	* Zane
+Other Spritework -	
+			* Zane
 			* CardCaph
 			* Bstamm
 
-Other Tools -		* Nintenlord
+Other Tools -		
+			* Nintenlord
 			* BwdYeti
 			* 7743
 			* Zane
 
-Animators -		* DerTheVaporeon
+Animators -		
+			* DerTheVaporeon
 			* LeoLink
 			* Team SALVAGED
 			* Flasuban
@@ -64,14 +71,16 @@ Animators -		* DerTheVaporeon
 			* Alfred Kamon
 			* Mikey Seregon
 
-Map Spriters -		* Team SALVAGED
+Map Spriters -		
+			* Team SALVAGED
 			* Flasuban
 			* Nuramon
 			* Glaceo
 			* DerTheVaporeon
 			* Unknown Wyvern Axe Map Spriter Animator
 
-Playtesters -		* Arch
+Playtesters -		
+			* Arch
 			* BChezza
 			* CardCaph
 			* Gamma
@@ -85,7 +94,8 @@ Playtesters -		* Arch
 			* SD9K
 			* Serif
 
-Special Thanks -	* Sme
+Special Thanks -	
+			* Sme
 			* Pikmin
 			* Mystic
 			* Zim
@@ -97,5 +107,6 @@ Special Thanks -	* Sme
 			* Kirb
 			* Camdar
 			* MC
+			* Vesly
 			* Delhonne
 			* My mum
