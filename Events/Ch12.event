@@ -1,0 +1,134 @@
+EventPointerTable(0x64, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Seize(9,3)
+Village(0x8,Village1,1,9)
+Village(0x9,Village2,17,21)
+Vendor(ShopList, 7, 15)
+Armory(ArmoryList, 8, 13)
+END_MAIN
+
+Village1:
+VillageEventItem(PlaceholderText, Village, IronSword)
+
+Village2:
+VillageEventItem(PlaceholderText, Village, IronSword)
+
+ShopList:
+SHLI Vulnerary PureWater Flux Fire Lightning
+ALIGN 4
+
+ArmoryList:
+SHLI SteelBlade SteelLance SteelAxe SteelBow
+ALIGN 4
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Traps1:
+END_MAIN
+
+Traps2:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [1,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [0,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [2,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [1,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [2,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [1,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [3,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [2,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [4,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [3,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [4,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [3,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [5,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [6,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT 0x2 EphraimMasterLord Eirika Level(1, Ally, 0) [3,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+Bad:
+UNIT Gorgon_boss WindDragon 0x00 Level(5, Enemy, 0) [9,3] 0x00 0x00 0x0 0x00 [Tornado] NeverMoveAI 
+UNIT 0x80 WindDragon Gorgon_boss Level(3, Enemy, 1) [5,1] 0x00 0x00 0x0 0x00 [Razor] PursueWithoutHeedAI 
+UNIT 0x80 WindDragon Gorgon_boss Level(3, Enemy, 1) [6,0] 0x00 0x00 0x0 0x00 [Razor] PursueWithoutHeedAI 
+UNIT 0x80 WindDragon Gorgon_boss Level(3, Enemy, 1) [18,7] 0x00 0x00 0x0 0x00 [Razor] PursueWithoutHeedAI 
+UNIT 0x80 FireDragon Gorgon_boss Level(3, Enemy, 1) [8,19] 0x00 0x00 0x0 0x00 [Scorch] NeverMoveAI 
+UNIT 0x80 FireDragon Gorgon_boss Level(3, Enemy, 1) [9,20] 0x00 0x00 0x0 0x00 [Scorch] NeverMoveAI 
+UNIT 0x80 FireDragon Gorgon_boss Level(3, Enemy, 1) [9,16] 0x00 0x00 0x0 0x00 [Scorch] NeverMoveAI 
+UNIT 0x80 FireDragon Gorgon_boss Level(3, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [Scorch] NeverMoveAI 
+UNIT 0x80 FireDragon Gorgon_boss Level(3, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00 [Scorch] NeverMoveAI 
+UNIT 0x80 FireDragon Gorgon_boss Level(3, Enemy, 1) [18,18] 0x00 0x00 0x0 0x00 [Raze] AttackInRangeAI 
+UNIT 0x80 FireDragon Gorgon_boss Level(3, Enemy, 1) [13,7] 0x00 0x00 0x0 0x00 [Raze] AttackInRangeAI 
+UNIT 0x80 FireDragon Gorgon_boss Level(3, Enemy, 1) [5,10] 0x00 0x00 0x0 0x00 [Raze] AttackInRangeAI 
+UNIT 0x80 DivineDragon Gorgon_boss Level(3, Enemy, 1) [9,0] 0x00 0x00 0x0 0x00 [Flare, Physic] HealUnits 
+UNIT 0x80 Sniper Gorgon_boss Level(1, Enemy, 1) [7,3] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x80 Archer Gorgon_boss Level(13, Enemy, 1) [14,22] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 AxeCav Gorgon_boss Level(11, Enemy, 1) [0,10] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 AxeCav Gorgon_boss Level(11, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 AxeCav Gorgon_boss Level(11, Enemy, 1) [14,20] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 AxeCav Gorgon_boss Level(11, Enemy, 1) [15,19] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 LanceCav Gorgon_boss Level(11, Enemy, 1) [16,4] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 LanceCav Gorgon_boss Level(11, Enemy, 1) [16,5] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Gorgon_boss Level(11, Enemy, 1) [10,6] 0x00 0x00 0x0 0x00 [KillerAxe] AttackInRangeAI 
+UNIT 0x80 WyvernRider Gorgon_boss Level(11, Enemy, 1) [0,4] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x80 WyvernRider Gorgon_boss Level(11, Enemy, 1) [18,1] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x80 Knight Gorgon_boss Level(13, Enemy, 1) [14,15] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
+UNIT 0x80 Knight Gorgon_boss Level(13, Enemy, 1) [14,14] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
+UNIT 0x80 Knight Gorgon_boss Level(13, Enemy, 1) [4,3] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
+UNIT 0x80 Knight Gorgon_boss Level(13, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [Javelin] NeverMoveAI 
+UNIT 0x80 Fighter Gorgon_boss Level(12, Enemy, 1) [11,17] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x80 Soldier Gorgon_boss Level(12, Enemy, 1) [12,18] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x80 Monk Gorgon_boss Level(12, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [Divine] AttackInRangeAI 
+UNIT 0x80 SwordCav Gorgon_boss Level(12, Enemy, 1) [8,8] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 SwordCav Gorgon_boss Level(12, Enemy, 1) [17,9] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Mage Gorgon_boss Level(12, Enemy, 1) [11,9] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Soldier Gorgon_boss Level(12, Enemy, 1) [8,11] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x80 Fighter Gorgon_boss Level(12, Enemy, 1) [18,12] 0x00 0x00 0x0 0x00 [SteelAxe, Halberd] AttackInRangeAI 
+UNIT
+
+BeginningScene:
+LOAD2 0x1 Units1
+ENUN
+LOAD1 0x01 Bad
+ENUN
+NoFade
+GotoPrepScreen
+ENDA
+
+EndingScene:
+MNC2 0x16
+NoFade
+ENDA

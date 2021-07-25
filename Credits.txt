@@ -50,6 +50,7 @@ Other Spritework -
 			* Zane
 			* CardCaph
 			* Bstamm
+			* Eldi
 
 Other Tools -		
 			* Nintenlord

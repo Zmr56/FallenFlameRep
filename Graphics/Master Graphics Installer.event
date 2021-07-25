@@ -93,6 +93,7 @@ PUSH
 
 // Individual Icons go here
 
+//Sword Icons
 ItemIconEntry(IronSword)
 #incext Png2Dmp "ItemIcons/IronSword.png"
 
@@ -102,12 +103,25 @@ ItemIconEntry(SteelSword)
 ItemIconEntry(SilverSword)
 #incext Png2Dmp "ItemIcons/SilverSword.png"
 
-ItemIconEntry(SilverSword)
-#incext Png2Dmp "ItemIcons/SilverSword.png"
+ItemIconEntry(IronBlade)
+#incext Png2Dmp "ItemIcons/IronBlade.png"
+
+ItemIconEntry(SteelBlade)
+#incext Png2Dmp "ItemIcons/SteelBlade.png"
+
+//ItemIconEntry(SilverBlade)
+//#incext Png2Dmp "ItemIcons/SilverBlade.png"
+
+ItemIconEntry(Wyrmslayer)
+#incext Png2Dmp "ItemIcons/Wyrmslayer.png"
 
 ItemIconEntry(KillingEdge)
 #incext Png2Dmp "ItemIcons/KillingEdge.png"
 
+ItemIconEntry(BraveSword)
+#incext Png2Dmp "ItemIcons/BraveSword.png"
+
+//Lance Icons
 ItemIconEntry(IronLance)
 #incext Png2Dmp "ItemIcons/IronLance.png"
 
@@ -117,9 +131,28 @@ ItemIconEntry(SteelLance)
 ItemIconEntry(SilverLance)
 #incext Png2Dmp "ItemIcons/SilverLance.png"
 
+ItemIconEntry(Javelin)
+#incext Png2Dmp "ItemIcons/Javelin.png"
+
+ItemIconEntry(ShortSpear)
+#incext Png2Dmp "ItemIcons/ShortSpear.png"
+
+ItemIconEntry(Spear)
+#incext Png2Dmp "ItemIcons/Spear.png"
+
+ItemIconEntry(Horseslayer)
+#incext Png2Dmp "ItemIcons/Horseslayer.png"
+
+ItemIconEntry(HeavySpear)
+#incext Png2Dmp "ItemIcons/HeavySpear.png"
+
 ItemIconEntry(KillerLance)
 #incext Png2Dmp "ItemIcons/KillerLance.png"
 
+ItemIconEntry(BraveLance)
+#incext Png2Dmp "ItemIcons/BraveLance.png"
+
+//Axe Icons
 ItemIconEntry(IronAxe)
 #incext Png2Dmp "ItemIcons/IronAxe.png"
 
@@ -129,6 +162,22 @@ ItemIconEntry(SteelAxe)
 ItemIconEntry(SilverAxe)
 #incext Png2Dmp "ItemIcons/SilverAxe.png"
 
+ItemIconEntry(Hurlbat)
+#incext Png2Dmp "ItemIcons/Hurlbat.png"
+
+ItemIconEntry(HandAxe)
+#incext Png2Dmp "ItemIcons/HandAxe.png"
+
+ItemIconEntry(KillerAxe)
+#incext Png2Dmp "ItemIcons/KillerAxe.png"
+
+ItemIconEntry(BraveAxe)
+#incext Png2Dmp "ItemIcons/BraveAxe.png"
+
+ItemIconEntry(Hammer)
+#incext Png2Dmp "ItemIcons/Hammer.png"
+
+//Bow Icons
 ItemIconEntry(IronBow)
 #incext Png2Dmp "ItemIcons/IronBow.png"
 
@@ -141,18 +190,67 @@ ItemIconEntry(SilverBow)
 ItemIconEntry(Longbow)
 #incext Png2Dmp "ItemIcons/Longbow.png"
 
+ItemIconEntry(BraveBow)
+#incext Png2Dmp "ItemIcons/BraveBow.png"
+
+//Tome Icons
+ItemIconEntry(Fire)
+#incext Png2Dmp "ItemIcons/Fire.png"
+
+ItemIconEntry(Thunder)
+#incext Png2Dmp "ItemIcons/Thunder.png"
+
+ItemIconEntry(Elfire)
+#incext Png2Dmp "ItemIcons/Elfire.png"
+
+ItemIconEntry(Bolting)
+#incext Png2Dmp "ItemIcons/Bolting.png"
+
+ItemIconEntry(Fimbulvetr)
+#incext Png2Dmp "ItemIcons/Thunder.png"
+
+ItemIconEntry(Lightning)
+#incext Png2Dmp "ItemIcons/Lightning.png"
+
+ItemIconEntry(Divine)
+#incext Png2Dmp "ItemIcons/Divine.png"
+
+ItemIconEntry(Flux)
+#incext Png2Dmp "ItemIcons/Flux.png"
+
+ItemIconEntry(Nosferatu)
+#incext Png2Dmp "ItemIcons/Nosferatu.png"
+
+//Staff Icons
 ItemIconEntry(Heal)
 #incext Png2Dmp "ItemIcons/Heal.png"
 
 ItemIconEntry(Mend)
 #incext Png2Dmp "ItemIcons/Mend.png"
 
+//Item Icons
 ItemIconEntry(Vulnerary)
 #incext Png2Dmp "ItemIcons/Vulnerary.png"
 
 ItemIconEntry(Elixir)
 #incext Png2Dmp "ItemIcons/Elixir.png"
 
+ItemIconEntry(PureWater)
+#incext Png2Dmp "ItemIcons/PureWater.png"
+
+ItemIconEntry(RedGem)
+#incext Png2Dmp "ItemIcons/RedGem.png"
+
+ItemIconEntry(BlueGem)
+#incext Png2Dmp "ItemIcons/BlueGem.png"
+
+ItemIconEntry(WhiteGem)
+#incext Png2Dmp "ItemIcons/WhiteGem.png"
+
+ItemIconEntry(Gold)
+#incext Png2Dmp "ItemIcons/Gold.png"
+
+//Other Icons
 ItemIconEntry(Reversa)
 #incext Png2Dmp "ItemIcons/Reversa.png"
 
@@ -164,9 +262,6 @@ ItemIconEntry(Venenum)
 
 ItemIconEntry(Elfrost)
 #incext Png2Dmp "ItemIcons/Elfrost.png"
-
-ItemIconEntry(Hurlbat)
-#incext Png2Dmp "ItemIcons/Hurlbat.png"
 
 ItemIconEntry(Francisca)
 #incext Png2Dmp "ItemIcons/Francisca.png"
@@ -186,6 +281,7 @@ ItemIconEntry(Falarica)
 ItemIconEntry(Calibane)
 #incext Png2Dmp "ItemIcons/Calibane.png"
 
+//Dragonstone Icons
 ItemIconEntry(Raze)
 #incext Png2Dmp "ItemIcons/Raze.png"
 

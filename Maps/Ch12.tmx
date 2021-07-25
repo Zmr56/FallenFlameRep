@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="19" height="23" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="01004c03" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="FE8/01004c03.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Main" width="19" height="23">
+  <properties>
+   <property name="Anims1" value="0"/>
+   <property name="ChapterID" value="0x15"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0x63"/>
+   <property name="MapID" value="0x62"/>
+   <property name="ObjectType" value="0x01"/>
+   <property name="PaletteID" value="0x4c"/>
+   <property name="TileConfig" value="0x03"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxNVD1PVUEQ3d0rElAkIfGrNUHA5KFR/wEYkMI8oVBbBfmyMFCopYH3SFA02qglHxIogEjhDzBRMQj6UIKxVBE1PJFCjZ3nZM7NvcXJ7MzuzM7Mntmu4Nyoc+4Q5Kx3rhUyG0xfgn4W8nHkXFtIzmzp3ILOxv4Xgd1AdzC/qWB+r7z5nUOc88AFoKgzeeC9tzgV8t/0FnMRchvIY10Gn3JgHvuLwDWsrwM3ItsfAAaBCPox7L9WPMbZQ121vHRWz33IDsh/sD2AfAg8ApZk/626ub8rshjMjbGnVf9fndkLnIStBliBfy/0BsaRbT6+E+tlrOcgx7z17xdQjb17sH8DxqF3QLYrj7S8BHzRPu/+6Syfo8HqZ79595b6MQD9JjAJfGauwHqwHnF/Ausc5BXp36H/AGqh1wFHgEnYb3vz3RElsUaBFy7Rv2L9xtn5JiALNBPwOQ20AI3sDWKtu8SnQX7UK7D3FutSyCeQlfCZgewG+oEu6N1AD5BJ3VEAWr29Gd+iSj2vhTzhzcb3XlBf54L5VXvzGwI6GR/YCManHtgKwd5lJcWvHGx1yi8rrjK3er4x3zBY/Kw416q3Ie/imsYhPwU7vw3sF2fJ1TvBcojngTNFrvRCVgXjAHu44axO8pN95fsUIYfFwXLlF/OWMZo1m1uahVxkZ9k/9oj8mxYH2sXj+C3TcZhLMTVP7DtrmMD6HexrwEfl0ZGKcRWocVZXHGc59Z9wDk4Bq1h/gG0VeAocT8UiH2bVxz5nPeM8FvVXzMB3J/a6sK4HMsBl6GvBwDiNekfO+i1v+fUorzgWa2sSv8h79ndMXOd87YuMH+3qfRl8DsJ2F3qLS+qL/9Q+l/Akr1llvSXYPwxUwvZceY1440xc6yZz1X+ZEU/Z9z8heb9h3R/vPwtJ7PQ8D/mkrhLxn36V6innMe9Nsk/8P5gT62W+6XnO6E15H3tSUM9KgTbgjOoZVAy+H/+3A5HxJT3Pnd7mawQYkn+NejbFP8qZb048GIhzczYLMQeZ4388bNU3
+  </data>
+ </layer>
+ <layer name="VD1" width="19" height="23" visible="0">
+  <properties>
+   <property name="Height" value="3"/>
+   <property name="ID" value="0"/>
+   <property name="Width" value="3"/>
+   <property name="X" value="0"/>
+   <property name="Y" value="7"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowAVdDAzMHQCcRcz5WatAJqxEohXUcGsE0AzTgLxKSqYNQpGwSgYngAApGcGDQ==
+  </data>
+ </layer>
+ <layer name="VS1" width="19" height="23" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="1"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="1"/>
+   <property name="Y" value="9"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DoAMWBdsAoGAWjYFADAI94ACI=
+  </data>
+ </layer>
+ <layer name="VD2" width="19" height="23" visible="0">
+  <properties>
+   <property name="Height" value="3"/>
+   <property name="ID" value="2"/>
+   <property name="Width" value="3"/>
+   <property name="X" value="16"/>
+   <property name="Y" value="19"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFxBBzMDQycQdzFTbtYKoBkrgXgVFcw6ATTjJBCfooJZyAAAlU4GDQ==
+  </data>
+ </layer>
+ <layer name="Copy of Copy of Copy of Change" width="19" height="23" visible="0">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="3"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="17"/>
+   <property name="Y" value="21"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAroDxRpYCYAEagAIg==
+  </data>
+ </layer>
+</map>
