@@ -128,6 +128,16 @@ ORG $015D52
 ORG $015D66
   BYTE 9
 
+//CG fix by 7743 
+  ORG $0B65FE
+  BYTE  $00 $00 $00 $4C $A7 $46 
+  POIN CGFix 
+  //j umpToHack(CGFix)
+
+  ALIGN 4
+  CGFix:
+  #incbin "CGFix.bin"
+
 // Don't draw portrait on item select menu if unit is generic (hypergammaspaces)
 ORG $22BE8
   SHORT $6808 $88C0 $2800

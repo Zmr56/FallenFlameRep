@@ -213,6 +213,13 @@ Wazzak[X]
 A cruel pirate with a gluttonous[N]
 appetite for gold.[X]
 
+## nameDeuxnids
+Deuxnids[X]
+
+## descDeuxnids
+Wyvember's puppet leader ruling[N]
+occupied Myotisi cruelly.[X]
+
 ## nameAgni
 Agni[X]
 

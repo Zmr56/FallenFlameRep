@@ -13,7 +13,70 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TURN 0x0 WaveFirst[6,0] 0x0
+TURN 0x0 WaveSecond[8,0] 0x0
 END_MAIN
+
+WaveFirst:
+ReinforcementEvent(Wave1)
+ENDA
+
+WaveSecond:
+ReinforcementEvent(Wave2)
+ENDA
+
+WaveThird:
+ReinforcementEvent(Wave3)
+ENDA
+
+WaveFourth:
+ReinforcementEvent(Wave4)
+ENDA
+
+Wave1:
+UNIT 0x80 Barbarian Deuxnids Level(8, Enemy, 1) [17,12] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x80 Fighter Deuxnids Level(8, Enemy, 1) [18,13] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x80 Barbarian Deuxnids Level(8, Enemy, 1) [18,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x80 Fighter Deuxnids Level(8, Enemy, 1) [18,17] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT
+
+Wave2:
+UNIT 0x80 Mercenary Deuxnids Level(8, Enemy, 1) [1,7] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Deuxnids Level(8, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI
+UNIT 0x80 Mage Deuxnids Level(8, Enemy, 1) [18,16] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI
+UNIT 0x80 Archer Deuxnids Level(8, Enemy, 1) [18,17] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Deuxnids Level(8, Enemy, 1) [18,17] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI
+UNIT
+
+Wave3:
+UNIT 0x80 Shaman Deuxnids Level(8, Enemy, 1) [10,2] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
+UNIT 0x80 Mage Deuxnids Level(8, Enemy, 1) [10,3] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI
+UNIT 0x80 Barbarian Deuxnids Level(8, Enemy, 1) [10,5] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Deuxnids Level(8, Enemy, 1) [10,6] 0x00 0x00 0x0 0x00 [SteelBlade] PursueWithoutHeedAI
+UNIT
+
+Wave4:
+UNIT 0x80 Shaman Deuxnids Level(9, Enemy, 1) [14,0] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
+UNIT 0x80 Mage Deuxnids Level(9, Enemy, 1) [16,0] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI
+UNIT 0x80 Soldier Deuxnids Level(9, Enemy, 1) [13,1] 0x00 0x00 0x0 0x00 [Horseslayer, SteelLance] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Deuxnids Level(9, Enemy, 1) [17,1] 0x00 0x00 0x0 0x00 [Zanbato, SteelBlade] PursueWithoutHeedAI
+UNIT 0x80 Barbarian Deuxnids Level(9, Enemy, 1) [13,7] 0x00 0x00 0x0 0x00 [SteelAxe, Halberd] PursueWithoutHeedAI
+UNIT 0x80 Mage Deuxnids Level(9, Enemy, 1) [15,7] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI
+UNIT 0x80 Barbarian Deuxnids Level(9, Enemy, 1) [17,7] 0x00 0x00 0x0 0x00 [SteelAxe, Hammer] PursueWithoutHeedAI
+UNIT 0x80 Archer Deuxnids Level(9, Enemy, 1) [10,2] 0x00 0x00 0x0 0x00 [KillerBow] PursueWithoutHeedAI
+UNIT 0x80 Archer Deuxnids Level(9, Enemy, 1) [10,3] 0x00 0x00 0x0 0x00 [KillerBow] PursueWithoutHeedAI
+UNIT 0x80 Soldier Deuxnids Level(9, Enemy, 1) [10,5] 0x00 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI
+UNIT 0x80 Barbarian Deuxnids Level(9, Enemy, 1) [10,6] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI
+UNIT 0x80 Barbarian Deuxnids Level(9, Enemy, 1) [1,7] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI
+UNIT 0x80 Fighter Deuxnids Level(9, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
+UNIT 0x80 Warrior Deuxnids Level(1, Enemy, 1) [17,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Warrior Deuxnids Level(1, Enemy, 1) [18,13] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Mercenary Deuxnids Level(9, Enemy, 1) [6,17] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
+UNIT 0x80 Berserker Deuxnids Level(1, Enemy, 1) [7,18] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Mage Deuxnids Level(9, Enemy, 1) [8,17] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI
+UNIT 0x80 Berserker Deuxnids Level(1, Enemy, 1) [18,16] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x80 Warrior Deuxnids Level(1, Enemy, 1) [18,17] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT
 
 CharacterBasedEvents:
 END_MAIN
@@ -30,6 +93,8 @@ Seize(15,1)
 END_MAIN
 
 MiscBasedEvents:
+AREA WaveThird 0x7 [13, 6] [18, 8]
+AREA WaveFourth 0x8 [13, 0] [17, 3]
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -67,43 +132,52 @@ UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [7,17] 0x00 0x00 0x0 0x00 [0x
 UNIT
 
 Bad:
-UNIT Carlyle Druid 0x00 Level(3, Enemy, 0) [15,1] 0x00 0x00 0x0 0x00 [Nosferatu, Bolting] NeverMoveAI 
-UNIT 0x80 Warrior Carlyle Level(1, Enemy, 1) [15,5] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
-UNIT 0x80 Warrior Carlyle Level(1, Enemy, 1) [6,7] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
-UNIT 0x80 Shaman Carlyle Level(8, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
-UNIT 0x80 Shaman Carlyle Level(8, Enemy, 1) [1,8] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
-UNIT 0x80 Mage Carlyle Level(7, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Carlyle Level(7, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Carlyle Level(7, Enemy, 1) [10,4] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Shaman Carlyle Level(8, Enemy, 1) [12,6] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
-UNIT 0x80 Shaman Carlyle Level(8, Enemy, 1) [12,7] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
-UNIT 0x80 Archer Carlyle Level(8, Enemy, 1) [18,7] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x80 Archer Carlyle Level(8, Enemy, 1) [18,6] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [0,15] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [1,14] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [6,10] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [11,12] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mercenary Carlyle Level(7, Enemy, 1) [10,0] 0x00 0x00 0x0 0x00 [SteelBlade] AttackInRangeAI 
-UNIT 0x80 Mercenary Carlyle Level(7, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [SteelBlade] AttackInRangeAI 
-UNIT 0x80 Shaman Carlyle Level(6, Enemy, 1) [18,15] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Shaman Carlyle Level(6, Enemy, 1) [17,16] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Mercenary Carlyle Level(6, Enemy, 1) [6,12] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Mercenary Carlyle Level(6, Enemy, 1) [16,12] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x80 Fighter Carlyle Level(6, Enemy, 1) [9,2] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Carlyle Level(6, Enemy, 1) [9,6] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Carlyle Level(6, Enemy, 1) [2,5] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Fighter Carlyle Level(6, Enemy, 1) [2,12] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
-UNIT 0x80 Soldier Carlyle Level(6, Enemy, 1) [1,12] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 Soldier Carlyle Level(6, Enemy, 1) [9,5] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 Soldier Carlyle Level(6, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 Soldier Carlyle Level(6, Enemy, 1) [1,5] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 Mage Carlyle Level(6, Enemy, 1) [9,8] 0x00 0x00 0x0 0x00 [Bolting] NeverMoveAI 
-UNIT 0x80 Cleric Carlyle Level(6, Enemy, 1) [13,8] 0x00 0x00 0x0 0x00 [Silence] AttackInRangeAI 
-UNIT 0x80 Cleric Carlyle Level(6, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [Physic] HealUnits 
+UNIT Deuxnids Druid 0x00 Level(3, Enemy, 0) [15,1] 0x00 0x00 0x0 0x00 [Nosferatu, Bolting] NeverMoveAI 
+UNIT 0x80 Warrior Deuxnids Level(1, Enemy, 1) [15,5] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
+UNIT 0x80 Warrior Deuxnids Level(1, Enemy, 1) [6,7] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
+UNIT 0x80 Shaman Deuxnids Level(8, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Shaman Deuxnids Level(8, Enemy, 1) [1,8] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Mage Deuxnids Level(7, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Deuxnids Level(7, Enemy, 1) [2,3] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Deuxnids Level(7, Enemy, 1) [10,4] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Shaman Deuxnids Level(8, Enemy, 1) [12,6] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Shaman Deuxnids Level(8, Enemy, 1) [12,7] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
+UNIT 0x80 Archer Deuxnids Level(8, Enemy, 1) [18,7] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Archer Deuxnids Level(8, Enemy, 1) [18,6] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x80 Mage Deuxnids Level(6, Enemy, 1) [0,15] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Deuxnids Level(6, Enemy, 1) [1,14] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Deuxnids Level(6, Enemy, 1) [6,10] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Deuxnids Level(6, Enemy, 1) [11,12] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Deuxnids Level(6, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mercenary Deuxnids Level(7, Enemy, 1) [10,0] 0x00 0x00 0x0 0x00 [SteelBlade] AttackInRangeAI 
+UNIT 0x80 Mercenary Deuxnids Level(7, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [SteelBlade] AttackInRangeAI 
+UNIT 0x80 Shaman Deuxnids Level(6, Enemy, 1) [18,15] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Shaman Deuxnids Level(6, Enemy, 1) [17,16] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Mercenary Deuxnids Level(6, Enemy, 1) [6,12] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Mercenary Deuxnids Level(6, Enemy, 1) [16,12] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 Fighter Deuxnids Level(6, Enemy, 1) [9,2] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Deuxnids Level(6, Enemy, 1) [9,6] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Deuxnids Level(6, Enemy, 1) [2,5] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Deuxnids Level(6, Enemy, 1) [2,12] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Deuxnids Level(6, Enemy, 1) [1,12] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Deuxnids Level(6, Enemy, 1) [9,5] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Deuxnids Level(6, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Deuxnids Level(6, Enemy, 1) [1,5] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Mage Deuxnids Level(6, Enemy, 1) [9,8] 0x00 0x00 0x0 0x00 [Bolting] NeverMoveAI 
+UNIT 0x80 Cleric Deuxnids Level(6, Enemy, 1) [13,8] 0x00 0x00 0x0 0x00 [Silence] AttackInRangeAI 
+UNIT 0x80 Cleric Deuxnids Level(6, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [Physic] HealUnits 
 UNIT
 
 BeginningScene:
+MUSC 0x06
+SetBackground(0x2A)
+CGTEXTSTART
+TEXTSHOW WrenCh9Diary
+TEXTEND
+REMA
+CALL $9EE2C4 //BGEnd
+ENUN
+LABEL 0x1
 LOAD2 0x1 Units1
 ENUN
 LOAD1 0x01 Bad
@@ -113,6 +187,12 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+MUSC 0x33
+SetBackground(0x35)
+Text(FEE3ClosingText)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
 MNC2 0x10
 NoFade
 ENDA

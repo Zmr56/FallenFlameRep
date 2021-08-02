@@ -81,6 +81,16 @@ PrepBG:
 
 #include "Menus/Menu Graphics Installer.event"
 
+/*
+PUSH
+ORG $8958A
+POIN NewDiaryBG
+POP
+
+NewDiaryBG:
+#incext Png2Dmp "DiaryBG.png" --lz77
+*/
+
 //Weapon Icons
 
 ALIGN 4
@@ -120,6 +130,9 @@ ItemIconEntry(KillingEdge)
 
 ItemIconEntry(BraveSword)
 #incext Png2Dmp "ItemIcons/BraveSword.png"
+
+ItemIconEntry(Zanbato)
+#incext Png2Dmp "ItemIcons/Zanbato.png"
 
 //Lance Icons
 ItemIconEntry(IronLance)
@@ -192,6 +205,9 @@ ItemIconEntry(Longbow)
 
 ItemIconEntry(BraveBow)
 #incext Png2Dmp "ItemIcons/BraveBow.png"
+
+ItemIconEntry(KillerBow)
+#incext Png2Dmp "ItemIcons/KillerBow.png"
 
 //Tome Icons
 ItemIconEntry(Fire)

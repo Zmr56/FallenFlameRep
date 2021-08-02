@@ -27,6 +27,10 @@ Rentoul_Mug:
 #incext PortraitFormatter "Rentoul.png"
 setMugEntry(0xB7, Rentoul_Mug, 2, 5, 2, 3)
 
+Deuxnids_Mug:
+#incext PortraitFormatter "Deuxnids.png"
+setMugEntry(0x3C, Deuxnids_Mug, 2, 6, 2, 4)
+
 //Generics mugs
 
 WystanSoldier_Mug:

@@ -48,6 +48,12 @@ GofaulFieldsPalette:
 
 EventPointerTable(0x38, GofaulFieldsPalette)
 
+ALIGN 4
+UmbrakeCastlePalette:
+#incbin "Tileset/UmbrakeCastlePalette.pal.bin"
+
+EventPointerTable(0x89, UmbrakeCastlePalette)
+
 //TileConfig
 ALIGN 4
 ValniDoor:

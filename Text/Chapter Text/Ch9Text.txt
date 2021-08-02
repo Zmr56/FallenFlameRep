@@ -1,0 +1,47 @@
+
+## WrenCh9Diary
+
+[SetName]Wren[N]
+Fall is soon coming to an end here[N]
+alongside our campaign in Myotisi.[A][N]
+My mission has grown past fending[N]
+off invaders from home in Blumari.[A][N]
+Now I find myself faced with the[N]
+task of seizing Myotisi from the[A][N]
+grip of the cruel druid Deuxnids...[A]
+[X]
+
+## Ch9WrenWigbrandTalk
+
+[Left][LoadWigbrand]
+[Right][LoadWren]
+
+[Left]#Wigbrand
+A word of advice, if you mind.[N][A]
+
+[Right]#Wren
+Hm?[N][A]
+
+[Left]#Wigbrand
+Keep your wits about you when we close[N]
+in on Deuxnids' throne room. He'll most[A][N]
+likely have ambushes lying in wait.[A]
+
+[Right]#Wren
+I see... But as long as we wrap things[N]
+up swiftly when we reach that point we[A][N]
+may be able to avoid such misfortune.[A]
+
+[Left]#Wigbrand
+Aye.[A][N]
+[X]
+
+## FEE3ClosingText
+
+[Right][LoadWren]
+
+[Right]#Wren
+That's all we have time for this FEE3![N]
+You can expect a playable patch out[A][N]
+shortly. Until then, take care![A]
+[X]
