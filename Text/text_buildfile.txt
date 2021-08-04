@@ -203,6 +203,12 @@ Proto Falchion[X]
 ## descProtoFalchion
 Eff. vs dragons.[X]
 
+## nameZapsiege
+Zapsiege[X]
+
+## descZapsiege
+Long range thunder magic.[X]
+
 ## descCalibane
 Scrapped.[X]
 

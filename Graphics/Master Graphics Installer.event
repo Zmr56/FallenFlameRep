@@ -219,6 +219,9 @@ ItemIconEntry(Thunder)
 ItemIconEntry(Elfire)
 #incext Png2Dmp "ItemIcons/Elfire.png"
 
+ItemIconEntry(Zapsiege)
+#incext Png2Dmp "ItemIcons/Zapsiege.png"
+
 ItemIconEntry(Bolting)
 #incext Png2Dmp "ItemIcons/Bolting.png"
 

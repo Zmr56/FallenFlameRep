@@ -143,6 +143,7 @@
 #define Francisca 0xC3
 #define Nzappa 0xC4
 #define Calibane 0xC5
+#define Zapsiege 0xD2
 #define Raze 0xB1
 #define Scorch 0xB0
 #define Balrog 0xB2
