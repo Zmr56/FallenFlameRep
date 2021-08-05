@@ -210,7 +210,7 @@ Zapsiege[X]
 Long range thunder magic.[X]
 
 ## descCalibane
-Scrapped.[X]
+Scrapped. Test.[X]
 
 ## descReversa
 Eff. vs horse, armour. Reverses WT.[X]
