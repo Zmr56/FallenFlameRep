@@ -1,5 +1,12 @@
 //World Map Events Installer
 // #define WorldMapIntroPointerTable(id,offset) "PUSH; ORG 0x8B3ad8+(4*id); POIN offset; POP"
+
+GlobalAfev:
+SVAL r2 0 // Player allegiance 
+CALL 0x89EE1B8 // When matching allegiance stops in range, Eg. if not player, ENDB 
+NoFade
+ENDA 
+
 ALIGN 4
 {
   #include "Prologue.event"

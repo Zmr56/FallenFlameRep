@@ -26,10 +26,14 @@ ReinforcementEvent(Wave2)
 ENDA
 
 WaveThird:
+SVAL r2 0 // Player allegiance 
+CALL 0x89EE1B8 // When matching allegiance stops in range 
 ReinforcementEvent(Wave3)
 ENDA
 
 WaveFourth:
+SVAL r2 0 // Player allegiance 
+CALL 0x89EE1B8 // When matching allegiance stops in range 
 ReinforcementEvent(Wave4)
 ENDA
 
@@ -79,7 +83,14 @@ UNIT 0x80 Warrior Deuxnids Level(1, Enemy, 1) [18,17] 0x00 0x00 0x0 0x00 [IronAx
 UNIT
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x7, WrenWigbrandTalk, Wren, Wigbrand)
 END_MAIN
+
+WrenWigbrandTalk:
+Text(Ch9WrenWigbrandTalk)
+REMA
+NoFade
+ENDA
 
 LocationBasedEvents:
 Door(0,2)
@@ -93,8 +104,9 @@ Seize(15,1)
 END_MAIN
 
 MiscBasedEvents:
-AREA 0x7 WaveThird [13, 6] [18, 8]
-AREA 0x8 WaveFourth [13, 0] [17, 3]
+AFEV 0 GlobalAfev 0
+AREA 0 WaveThird [13, 6] [18, 8]
+AREA 0 WaveFourth [13, 0] [17, 3]
 CauseGameOverIfLordDies
 END_MAIN
 
