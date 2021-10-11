@@ -4,8 +4,8 @@
 ALIGN 4
 ForceDeployList:
 ForceDeployEntry(Wren,0xFF)
-ForceDeployEntry(Adela,0x06)
-ForceDeployEntry(Nuri,0x06)
+ForceDeployEntry(Adela,0x05)
+ForceDeployEntry(Nuri,0x05)
 ForceDeployEntry(Iara,0x07)
 ForceDeployEntry(Apollo,0x07)
 ForceDeployEntry(Muninn,0x0B)
