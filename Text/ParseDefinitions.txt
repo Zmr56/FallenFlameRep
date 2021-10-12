@@ -69,11 +69,13 @@
 [VanjaPortrait] = [0x1B][0x1]
 [EvanderPortrait] = [0x16][0x1]
 [IaraPortrait] = [0x14][0x1]
+[ApolloPortrait] = [0x13][0x1]
 [NemainPortrait] = [0x18][0x1]
 
 [BanditPortrait] = [0x6d][0x1]
 [DattaPortrait] = [0x4a][0x1]
 [WizvilPortrait] = [0x41][0x1]
+[AgniPortrait] = [0x32][0x1]
 
 [FalconePortrait] = [0x52][0x1]
 [DunstanCivPortrait] = [0x31][0x1]
@@ -110,11 +112,13 @@
 [LoadVanja] = [LoadFace][VanjaPortrait]
 [LoadEvander] = [LoadFace][EvanderPortrait]
 [LoadIara] = [LoadFace][IaraPortrait]
+[LoadApollo] = [LoadFace][ApolloPortrait]
 [LoadNemain] = [LoadFace][NemainPortrait]
 
 [LoadBandit] = [LoadFace][BanditPortrait]
 [LoadDatta] = [LoadFace][DattaPortrait]
 [LoadWizvil] = [LoadFace][WizvilPortrait]
+[LoadAgni] = [LoadFace][AgniPortrait]
 
 [LoadFalcone] = [LoadFace][FalconePortrait]
 [LoadDunstanCiv] = [LoadFace][DunstanCivPortrait]

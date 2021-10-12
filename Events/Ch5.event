@@ -13,11 +13,18 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+OpeningTurnEvent(PostPrepText)
 TURN 0x65 GameOverTurn[8,0] 0x0
 END_MAIN
 
 GameOverTurn:
 NoFade
+ENDA
+
+PostPrepText:
+MUSC 0x30
+Text(Ch5OpeningText2)
+TEXTEND
 ENDA
 
 CharacterBasedEvents:
@@ -103,6 +110,12 @@ UNIT 0x80 Shaman Agni Level(4, Enemy, 1) [8,4] 0x00 0x00 0x0 0x00 [Nosferatu] Pu
 UNIT
 
 BeginningScene:
+MUSC 0x34
+SetBackground(0x08)
+Text(Ch5OpeningText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
 LOAD2 0x1 Units1
 ENUN
 LOAD1 0x1 MagicDuo

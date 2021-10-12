@@ -42,107 +42,117 @@ Greetings, lady Wren.[N][A]
 
 [Right]#Wren
 
-Erm, may I ask why I've been brought to[N]
+Greetings, your Majesty. May I...[N]
 
-the committe? Not that I mind it's just[A][N]
+ask why I've been summoned? Usually one[A][N]
 
-that it seems unusual I'd be needed.[A]
+of my status does not gain this honour.[A]
 
 
 
 [Left]#Swithin
 
-I believe first of all, congratulations[N]
+First of all, I'd like to congratulate[N]
 
-are due for your work in defending the[A][N]
+you on defending Blumari during the[A][N]
 
-nation recently during the invasion.[N]
+the invasion. The actual reason you're[N]
 
-The reason for your summoning, however,[A][N]
+here, however, is to entrust this blade[A][N]
 
-is that you possess a particular power[N]
+unto you. We call it, the Falchion.[N]
 
-that requires your deployment for the[A][N]
-
-campaign in Gofaul and perhaps beyond.[A]
+Here, grasp it.[A]
 
 
 
 [Right]#Wren
 
-I'm sorry but... I don't understand?[N][A]
+...! A warm, white flame has arisen...[N]
+
+But it doesn't hurt at all...[A]
+
+
+
+[Left]#Swithin
+
+We had suspicions that only you could[N]
+
+use this blade. These flames confirm as[A][N]
+
+much. The Falchion is still a work in[N]
+
+progress but it is usable for now.[A][N]
+
+
+
+[Right]#Wren
+
+I take it I'm not going to be lounging[N]
+
+at home with a sword like this though.[A]
 
 
 
 [FarLeft][LoadRentoul]
 
+Indeed. Your unique ability means we[N]
 
+desperately require your deployment in[A][N]
 
-[FarLeft]#Rentoul
+Gofaul to assist our troops as we enact[N]
 
-Hush child! Do not spe-[N][A]
+retribution against the invaders.[A][N]
 
-
-
-[Left]#Swithin
-
-It's fine, Sir Renta, uh, Rentoul.[N]
-
-Lady Wren and I are usually informal.[A]
-
-
-
-[FarLeft][ClearFace]
+And to give Falchion a test, of course.[A]
 
 
 
 [Left]#Swithin
 
-Lady Wren, has anyone told you before[N]
+If you're wondering why this ability is[N]
 
-about your bloodline?[A]
+unique to you, I would advise stopping[A][N]
+
+at Animahead which ought be en route to[N]
+
+Gofaul. The clergy there is much better[A][N]
+
+than me at explaining the mystical.[A]
 
 
 
 [Right]#Wren
 
-My bloodline is merely composed of the[N]
+Did you or father know anything about[N]
 
-Osprey lineage and the Buboini tribe.[A][N]
-
-I do not know of any other noteworthy[N]
-
-traits that run through my veins.[A]
-
-
-
-[Left]#Swithin
-
-Well according to your father and your[N]
-
-guard, Wigbrand, it'd seem your blood[A][N]
-
-is extraordinary. Holy Blood so to say[A]
+this beforehand, Wigbrand?[A]
 
 
 
 [FarRight]#Wigbrand
 
-It is true.[N][A]
+Hm? Not at all. This is news to us.[N][A]
 
 
 
 [Right]#Wren
 
-H-Holy Blood...? I...[N][A]
+Ok...[N][A]
 
 
 
 [Left]#Swithin
 
-I understand that this is a shock, so[N]
+I suppose that's settled then.[N]
 
-hold this blade, you may understand.[A]
+Feel free to wander about the halls for[A][N]
+
+a bit, lady Wren. If there's any more[N]
+
+to discuss, I'll be in the study room.[A][N]
+
+This committee is now dismissed.[A]
 
 [X]
 

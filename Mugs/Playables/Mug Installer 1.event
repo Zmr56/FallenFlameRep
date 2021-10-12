@@ -53,7 +53,7 @@ setMugEntry(0x10, Adela_Mug, 2, 6, 2, 4)
 
 Apollo_Mug:
 #incext PortraitFormatter "Apollo.png"
-setMugEntry(0x13, Apollo_Mug, 3, 5, 3, 5)
+setMugEntry(0x13, Apollo_Mug, 3, 5, 3, 3)
 
 Iara_Mug:
 #incext PortraitFormatter "Iara.png"

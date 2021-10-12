@@ -77,131 +77,62 @@ Your majesty.[N][A]
 Greetings, lady Wren.[N][A]
 
 [Right]#Wren
-Erm, may I ask why I've been brought to[N]
-the committe? Not that I mind it's just[A][N]
-that it seems unusual I'd be needed.[A]
+Greetings, your Majesty. May I...[N]
+ask why I've been summoned? Usually one[A][N]
+of my status does not gain this honour.[A]
 
 [Left]#Swithin
-I believe first of all, congratulations[N]
-are due for your work in defending the[A][N]
-nation recently during the invasion.[N]
-The reason for your summoning, however,[A][N]
-is that you possess a particular power[N]
-that requires your deployment for the[A][N]
-campaign in Gofaul and perhaps beyond.[A]
+First of all, I'd like to congratulate[N]
+you on defending Blumari during the[A][N]
+the invasion. The actual reason you're[N]
+here, however, is to entrust this blade[A][N]
+unto you. We call it, the Falchion.[N]
+Here, grasp it.[A]
 
 [Right]#Wren
-I'm sorry but... I don't understand?[N][A]
+...! A warm, white flame has arisen...[N]
+But it doesn't hurt at all...[A]
+
+[Left]#Swithin
+We had suspicions that only you could[N]
+use this blade. These flames confirm as[A][N]
+much. The Falchion is still a work in[N]
+progress but it is usable for now.[A][N]
+
+[Right]#Wren
+I take it I'm not going to be lounging[N]
+at home with a sword like this though.[A]
 
 [FarLeft][LoadRentoul]
-
-[FarLeft]#Rentoul
-Hush child! Do not spe-[N][A]
-
-[Left]#Swithin
-It's fine, Sir Renta, uh, Rentoul.[N]
-Lady Wren and I are usually informal.[A]
-
-[FarLeft][ClearFace]
+Indeed. Your unique ability means we[N]
+desperately require your deployment in[A][N]
+Gofaul to assist our troops as we enact[N]
+retribution against the invaders.[A][N]
+And to give Falchion a test, of course.[A]
 
 [Left]#Swithin
-Lady Wren, has anyone told you before[N]
-about your bloodline?[A]
+If you're wondering why this ability is[N]
+unique to you, I would advise stopping[A][N]
+at Animahead which ought be en route to[N]
+Gofaul. The clergy there is much better[A][N]
+than me at explaining the mystical.[A]
 
 [Right]#Wren
-My bloodline is merely composed of the[N]
-Osprey lineage and the Buboini tribe.[A][N]
-I do not know of any other noteworthy[N]
-traits that run through my veins.[A]
-
-[Left]#Swithin
-Well according to your father and your[N]
-guard, Wigbrand, it'd seem your blood[A][N]
-is extraordinary. Holy Blood so to say[A]
+Did you or father know anything about[N]
+this beforehand, Wigbrand?[A]
 
 [FarRight]#Wigbrand
-It is true.[N][A]
+Hm? Not at all. This is news to us.[N][A]
 
 [Right]#Wren
-H-Holy Blood...? I...[N][A]
+Ok...[N][A]
 
 [Left]#Swithin
-I understand that this is a shock, so[N]
-hold this blade, you may understand.[A]
-[X]
-
-## Ch5BaseOpeningText4
-
-[Right][LoadWren]
-[Left][LoadSwithin]
-
-[Right]#Wren
-...![N]
-A warm white flame is arising...[A][N]
-But... It doesn't hurt at all...[A]
-
-[Left]#Swithin
-This is proof of your Holy Blood.[N]
-Only you can wield this divine dragon-[A][N]
-slayer. We constructed this blade from[N]
-a dragon fang your father had on hand.[A]
-
-[Right]#Wren
-Is this dragon's blood that courses in[N]
-my veins? How did you know I had such[A][N]
-power and why hasn't anyone told me?[A]
-
-[Left]#Swithin
-The archbishop had a divine revelation[N]
-from the ancesteral spirits before the[A][N]
-invasion. They described a young maiden[N]
-much like you, being able to wield the[A][N]
-blade. Your father argued that it could[N]
-only be you, based on dreams you had[A][N]
-when you were very young similar to the[N]
-archbishop's divine revelation.[A]
-
-[Right]#Wren
-I certainly remember no such thing...[N][A]
-
-[FarLeft][LoadKestral]
-
-[FarLeft]#Kestral
-You were oh so very young, my love.[N]
-It is only natural you'd forget.[A]
-
-[Right]#Wren
-V-very well...[N][A]
-
-[Left]#Swithin
-We feel you'll be the perfect counter[N]
-to Wyvember's Manakete forces that are[A][N]
-enroaching dangerously close to our[N]
-colonies in Gofaul. Once them and their[A][N]
-allies are dealt with you'll then press[N]
-onto the Western Viripuria Empire to[A][N]
-aid Princess Adela in reclaiming her[N]
-kingdom. After that, you may be needed[A][N]
-to help the rest of our forces against[N]
-Wyvember on the Eastern border.[A]
-
-[Right]#Wren
-That sounds...[N][A]
-
-[Left]#Swithin
-It's a lot to take in, I know.[N]
-For now just take this as a moment to[A][N]
-to rest up alongside your troops.[N]
-I... didn't want to send you off right[A][N]
-away. Please, relax and think it over.[A]
-
-[FarLeft]#Kestral
-Don't worry, Wren. I'm here if you need[N]
-to talk. I promise.[A]
-
-[Right]#Wren
-That's appreciated, father.[N]
-It's been a pleasure, your majesty.[A]
+I suppose that's settled then.[N]
+Feel free to wander about the halls for[A][N]
+a bit, lady Wren. If there's any more[N]
+to discuss, I'll be in the study room.[A][N]
+This committee is now dismissed.[A]
 [X]
 
 ## NuriCh5Base
@@ -341,3 +272,57 @@ need attending to. Goodbye.[A]
 [Left]#Wren
 So much for that promise then...[N][A]
 [X]
+
+## SwithinCh5Base
+
+[Right][LoadWren]
+[Left][LoadSwithin]
+
+[Right]#Wren
+Your Majesty.[N][A]
+
+[Left]#Swithin
+No need for the formalities this time.[N]
+Rentoul isn't lurking in the shadows.[A]
+
+[Right]#Wren
+And that's the way I prefer it.[N]
+You must be carrying a lot of weight on[A][N]
+those shoulders of yours, with the war[N]
+raging on and the recent invasion.[A]
+
+[Left]#Swithin
+It's funny. I'm sending you off to the[N]
+battlefield but the first thing you do[A][N]
+is dote on me, the king who sits around[N]
+all day in an oversized throne.[A]
+
+[Right]#Wren
+It's not like that... It's just, you[N]
+know, we're not gonna see each other[A][N]
+for a while. I want to say goodbye to[N]
+you as my friend, not the king.[A]
+
+[Left]#Swithin
+Strange isn't it, how our birthrights[N]
+lock us into a life that strangles us.[A][N]
+Both of us binded to positions of great[N]
+power and misery in equal measure.[A][N]
+Makes you wonder if these hierarchies[N]
+are really of any benefit to anyone.[A]
+
+[Right]#Wren
+......[N][A]
+
+[Left]#Swithin
+Sorry, I'm sending you off on a[N]
+miserable note. I have my utmost faith[A][N]
+placed in you, Wren. Stay safe.[A]
+
+[Right]#Wren
+Don't worry about it. I'm not much of a[N]
+philosopher but I got the gist of it.[A][N]
+Likewise, I wish you all the best,[N]
+Swithin.[A]
+[X]
+

@@ -1,0 +1,110 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadEvander]
+
+
+
+[Left]#Evander
+
+Ah, lady Wren! We're coming close to[N]
+
+Animahead now. Is the coast clear?[A]
+
+
+
+[Right]#Wren
+
+I've sent Sarai to scout up ahead,[N]
+
+we've been lucky so far not to run[A][N]
+
+into pirates so far so I'm optimistic.[N]
+
+Speaking of Sarai, here she is![A]
+
+
+
+[FarLeft][LoadSarai]
+
+
+
+[FarLeft]#Sarai
+
+*pant* *pant* d-d-DRAGONS![N]
+
+I saw dragons! Big ones![A]
+
+
+
+[Left]#Evander
+
+Damnit! Wyvember must be supporting[N]
+
+the invading pirates with their own[A][N]
+
+forces. No doubt trying to plunder[N]
+
+all manner of loot for their coffers.[A]
+
+
+
+[Right]#Wren
+
+Alert the princess, Evander! I'll[N]
+
+make preperations to dock.[A]
+
+
+
+[Left][ClearFace]
+
+
+
+[FarLeft]#Sarai
+
+It wasn't just wyverns by the way...[N][A]
+
+
+
+[Right]#Wren
+
+You don't mean...[N][A]
+
+
+
+[FarLeft]#Sarai
+
+I saw Manaketes transformed. It's been[N]
+
+over a hundred years since they last[A][N]
+
+attacked Animahead like this.[N]
+
+I know they're weakened by the clergy's[A][N]
+
+blessings placed on the island but[N]
+
+still, be careful, Wren! This could be[A][N]
+
+our toughest fight...[A]
+
+
+
+[Right]#Wren
+
+I've got the Falchion by my side. We've[N]
+
+plenty of reason to believe we'll win.[A][N]
+
+Trust me.[A]
+
+
+
+[FarLeft]#Sarai
+
+I hope so...[N][A]
+
+[X]
+

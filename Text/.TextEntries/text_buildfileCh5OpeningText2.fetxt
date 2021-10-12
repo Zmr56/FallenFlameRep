@@ -1,0 +1,73 @@
+
+
+[Right][LoadWren]
+
+
+
+[Right]#Wren
+
+Alright, everyone ready?[N][A]
+
+
+
+[Left][LoadIara]
+
+[FarLeft][LoadApollo]
+
+
+
+[Left]#Iara
+
+Ready as ever, lady no name![N][A]
+
+
+
+[Right]#Wren
+
+Gwah! Where did you come from?[N]
+
+Whoever you are...[A]
+
+
+
+[FarLeft]#Apollo
+
+Pardon me, milady. What my colleague[N]
+
+lacks in discipline, she makes up for[A][N]
+
+in fighting spirit. My name is Apollo.[A]
+
+
+
+[Left]#Iara
+
+And my name is Iara! Nice to meetcha![N]
+
+Now let's slay these salamanders![A]
+
+
+
+[ClearFace][Left]
+
+
+
+[Right]#Wren
+
+...[N][A]
+
+
+
+[FarLeft]#Apollo
+
+You know what, I'll just save the intro[N]
+
+for when this dragon business is over.[A]
+
+
+
+[Right]#Wren
+
+That'd be more than fine...[N][A]
+
+[X]

@@ -74,10 +74,19 @@ NoFade
 CALL $9EE2C4 //BGEnd
 ENDA
 
+WrenSwithinTalk:
+SetBackground(0x0E)
+Text(SwithinCh5Base)
+REMA
+NoFade
+CALL $9EE2C4 //BGEnd
+ENDA
+
 #define Chest(id,item,x,y) "CHES id item [x,y] 0x14"
 
 LocationBasedEvents:
 Chest(0x7,Wyrmslayer,13,15)
+House(0xC,WrenSwithinTalk,9,13)
 END_MAIN
 
 MiscBasedEvents:
@@ -152,12 +161,6 @@ ENUN
 MUSC 0x25
 SetBackground(0x2F)
 Text(Ch5BaseOpeningText3)
-TEXTEND
-CALL $9EE2C4 //BGEnd
-ENUN
-MUSC 0x25
-SetBackground(0x2F)
-Text(Ch5BaseOpeningText4)
 TEXTEND
 CALL $9EE2C4 //BGEnd
 ENUN
