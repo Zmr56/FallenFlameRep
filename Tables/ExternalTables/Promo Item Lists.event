@@ -19,3 +19,46 @@ BYTE Knight Knight_F 0x00 0x00 0x00 0x00
 
 CrownSealList:
 BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter Barbarian Soldier SwordCav SwordCavF LanceCav LanceCavF AxeCav AxeCavF Nomad Troubadour Archer Archer_F Thief PegasusKnight WyvernRider Mage Mage_F Shaman Shaman_F Monk Priest Cleric Knight Knight_F 0x00 0x00 0x00 0x00
+
+HeavenSealList:
+BYTE 0x00 0x00 0x00 0x00
+
+LunarBraceList:
+BYTE 0x00 0x00 0x00 0x00
+
+SolarBraceList:
+BYTE 0x00 0x00 0x00 0x00
+
+#define PromoItem(Index,List) "ORG PromoItemTable + 0x4 + (Index * 12); POIN List"
+
+PUSH
+PromoItem(0x0,BraveSealList)
+PromoItem(0x1,RiderSealList)
+PromoItem(0x2,ScoutSealList)
+PromoItem(0x3,FlierSealList)
+PromoItem(0x4,MagiSealList)
+PromoItem(0x5,CrownSealList)
+PromoItem(0x6,HeavenSealList)
+PromoItem(0x7,ShieldSealList)
+PromoItem(0x8,LunarBraceList)
+PromoItem(0x9,SolarBraceList)
+POP
+
+/*
+PUSH
+ORG $29398
+POIN BraveSealList
+ORG $293A0
+POIN RiderSealList
+ORG $293A8
+POIN ScoutSealList
+ORG $293B0
+POIN FlierSealList
+ORG $293B8
+POIN MagiSealList
+ORG $293C0
+POIN CrownSealList
+ORG 0x29408
+POIN ShieldSealList
+POP
+*/

@@ -95,20 +95,3 @@ ALIGN 4
 #include "ExternalTables/WTEditor.event"
 
 #include "ExternalTables/Promo Item Lists.event"
-
-PUSH
-ORG $29398
-POIN BraveSealList
-ORG $293A0
-POIN RiderSealList
-ORG $293A8
-POIN ScoutSealList
-ORG $293B0
-POIN FlierSealList
-ORG $293B8
-POIN MagiSealList
-ORG $293C0
-POIN CrownSealList
-ORG 0x29408
-POIN ShieldSealList
-POP

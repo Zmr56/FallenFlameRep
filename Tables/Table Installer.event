@@ -42,8 +42,6 @@
 
 #include "FE8 Nightmare modules\ItemEffectRevamp\IERevamp Modules\FE8 ItemBox Effect.event"
 
-#include "FE8 Nightmare modules\ItemEffectRevamp\IERevamp Modules\FE8 Promotion Item Table.event"
-
 #include "FE8 Nightmare modules\ItemEffectRevamp\IERevamp Modules\FE8 Staff AI Table.event"
 
 #include "FE8 Nightmare modules\ItemEffectRevamp\IERevamp Modules\FE8_IER_StatboosterText.event"
