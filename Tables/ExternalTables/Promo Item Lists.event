@@ -1,0 +1,21 @@
+
+BraveSealList:
+BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter Barbarian Soldier 0x00 0x00 0x00 0x00
+
+RiderSealList:
+BYTE SwordCav SwordCavF LanceCav LanceCavF AxeCav AxeCavF Nomad Troubadour 0x00 0x00 0x00 0x00
+
+ScoutSealList:
+BYTE Archer Archer_F Thief 0x00 0x00 0x00 0x00
+
+FlierSealList:
+BYTE PegasusKnight WyvernRider 0x00 0x00 0x00 0x00
+
+MagiSealList:
+BYTE Mage Mage_F Shaman Shaman_F Monk Priest Cleric 0x00 0x00 0x00 0x00
+
+ShieldSealList:
+BYTE Knight Knight_F 0x00 0x00 0x00 0x00
+
+CrownSealList:
+BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter Barbarian Soldier SwordCav SwordCavF LanceCav LanceCavF AxeCav AxeCavF Nomad Troubadour Archer Archer_F Thief PegasusKnight WyvernRider Mage Mage_F Shaman Shaman_F Monk Priest Cleric Knight Knight_F 0x00 0x00 0x00 0x00

@@ -164,7 +164,7 @@ UNIT 0x80 Mage Deuxnids Level(6, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [Thunder] 
 UNIT 0x80 Mercenary Deuxnids Level(7, Enemy, 1) [10,0] 0x00 0x00 0x0 0x00 [SteelBlade] AttackInRangeAI 
 UNIT 0x80 Mercenary Deuxnids Level(7, Enemy, 1) [10,7] 0x00 0x00 0x0 0x00 [SteelBlade] AttackInRangeAI 
 UNIT 0x80 Shaman Deuxnids Level(6, Enemy, 1) [18,15] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
-UNIT 0x80 Shaman Deuxnids Level(6, Enemy, 1) [17,16] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Shaman Deuxnids Level(6, Enemy, 1) [17,16] 0x00 0x00 0x0 0x00 [Flux, HeroCrest, OrionsBolt, OceanSeal] AttackInRangeAI 
 UNIT 0x80 Mercenary Deuxnids Level(6, Enemy, 1) [6,12] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
 UNIT 0x80 Mercenary Deuxnids Level(6, Enemy, 1) [16,12] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
 UNIT 0x80 Fighter Deuxnids Level(6, Enemy, 1) [9,2] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
