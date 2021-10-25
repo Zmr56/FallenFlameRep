@@ -89,7 +89,10 @@ Now let's slay these salamanders![A]
 
 [FarLeft]#Apollo
 You know what, I'll just save the intro[N]
-for when this dragon business is over.[A]
+for when this dragon business is over.[A][N]
+For now we need to rout these heretics[N]
+fast before they desecrate this holy[A][N]
+land further, pillaging our relics.[A]
 
 [Right]#Wren
 That'd be more than fine...[N][A]

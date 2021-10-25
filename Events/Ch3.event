@@ -294,7 +294,7 @@ SetBackground(0x0E)
 Text(Ch3ClosingText2)
 TEXTEND
 CALL $9EE2C4 //BGEnd
-ENUT GreensAlive
+CALL GreensAlive //Don't use ENUT next time. Clearly I don't understand what ENUT is actually for.
 ENUN
 MNCH 0x4
 NoFade
