@@ -44,21 +44,47 @@ PromoItem(0x8,LunarBraceList)
 PromoItem(0x9,SolarBraceList)
 POP
 
-/*
 PUSH
 ORG $29398
 POIN BraveSealList
+PROTECT $29398
 ORG $293A0
 POIN RiderSealList
+PROTECT $293A0
 ORG $293A8
 POIN ScoutSealList
+PROTECT $293A8
 ORG $293B0
 POIN FlierSealList
+PROTECT $293B0
 ORG $293B8
 POIN MagiSealList
+PROTECT $293B8
 ORG $293C0
 POIN CrownSealList
-ORG 0x29408
+PROTECT $293C0
+ORG $29408
 POIN ShieldSealList
+PROTECT $29408
 POP
-*/
+
+#define PromotionBranchTable NewPromotionBranchTable
+
+PUSH
+ORG $CC7C8
+POIN (PromotionBranchTable-1)
+ORG $CC7D0
+POIN (PromotionBranchTable-2)
+ORG $CC824
+POIN (PromotionBranchTable-2)
+ORG $CC860
+POIN (PromotionBranchTable-2)
+ORG $CC8A4
+POIN (PromotionBranchTable-2)
+ORG $CC8EC
+POIN (PromotionBranchTable-2)
+ORG $CCE8C
+POIN (PromotionBranchTable-2)
+ORG $CDB74
+POIN (PromotionBranchTable-2)
+POP

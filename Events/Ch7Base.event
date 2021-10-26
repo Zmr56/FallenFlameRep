@@ -118,6 +118,7 @@ NoFade
 ENDA
 
 EndingScene:
+DisableFreeMovement
 MNCH 0x0B
 NoFade
 ENDA

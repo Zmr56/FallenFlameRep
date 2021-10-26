@@ -104,6 +104,7 @@ NoFade
 ENDA
 
 EndingScene:
+DisableFreeMovement
 MNC2 0x13
 NoFade
 ENDA
