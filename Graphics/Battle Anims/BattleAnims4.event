@@ -19,3 +19,33 @@
 
 #include "PaladinMUnarmed Installer.event"
 }
+{
+#include "HalberdierMLance Installer.event"
+
+#include "HalberdierMUnarmed Installer.event"
+}
+{
+#include "HalberdierFLance Installer.event"
+
+#include "HalberdierFUnarmed Installer.event"
+}
+{
+#include "TemplarMMagic Installer.event"
+
+#include "TemplarMStaff Installer.event"
+}
+{
+#include "TemplarFMagic Installer.event"
+
+#include "TemplarFStaff Installer.event"
+}
+{
+#include "ValiantMSword Installer.event"
+
+#include "ValiantMUnarmed Installer.event"
+}
+{
+#include "ValiantFSword Installer.event"
+
+#include "ValiantFUnarmed Installer.event"
+}

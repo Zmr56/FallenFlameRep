@@ -63,3 +63,11 @@ Map_SupplierStand:
 #incext Png2Dmp "SupplierStanding.png" --lz77
 Map_SupplierMoving:
 #incext Png2Dmp "SupplierMoving.png" --lz77
+Map_ValiantStand:
+#incext Png2Dmp "ValiantStanding.png" --lz77
+Map_ValiantMoving:
+#incext Png2Dmp "ValiantMoving.png" --lz77
+Map_HalberdierStand:
+#incext Png2Dmp "HalberdierStanding.png" --lz77
+Map_HalberdierMoving:
+#incext Png2Dmp "HalberdierMoving.png" --lz77

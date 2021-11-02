@@ -89,3 +89,24 @@ Supplier[X]
 ## descSupplier
 Loaded merchants transporting[NL]
 goods. Defenceless.[X]
+
+## nameHalberdier
+Halberdier[X]
+
+## descHalberdier
+Well rounded spearfighters who's[NL]
+mastery of the lance is unmatched.[X]
+
+## nameValiant
+Valiant[X]
+
+## descValiant
+The bravest of all swordfighters.[NL]
+Extremely skilled and swift.[X]
+
+## nameTemplar
+Templar[X]
+
+## descTemplar
+Spellcasters who lead crusades on[NL]
+horseback. Eq. Anima or Light magic.[X]

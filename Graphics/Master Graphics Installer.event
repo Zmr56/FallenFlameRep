@@ -269,6 +269,54 @@ ItemIconEntry(WhiteGem)
 ItemIconEntry(Gold)
 #incext Png2Dmp "ItemIcons/Gold.png"
 
+ItemIconEntry(EnergyRing)
+#incext Png2Dmp "ItemIcons/EnergyRing.png"
+
+ItemIconEntry(Speedwings)
+#incext Png2Dmp "ItemIcons/Speedwings.png"
+
+ItemIconEntry(AngelicRobe)
+#incext Png2Dmp "ItemIcons/AngelicRobe.png"
+
+ItemIconEntry(SecretBook)
+#incext Png2Dmp "ItemIcons/SecretBook.png"
+
+ItemIconEntry(GoddessIcon)
+#incext Png2Dmp "ItemIcons/GoddessIcon.png"
+
+ItemIconEntry(Talisman)
+#incext Png2Dmp "ItemIcons/Talisman.png"
+
+ItemIconEntry(Dragonshield)
+#incext Png2Dmp "ItemIcons/Dragonshield.png"
+
+ItemIconEntry(Boots)
+#incext Png2Dmp "ItemIcons/Boots.png"
+
+ItemIconEntry(BodyRing)
+#incext Png2Dmp "ItemIcons/BodyRing.png"
+
+ItemIconEntry(BraveSeal)
+#incext Png2Dmp "ItemIcons/BraveSeal.png"
+
+ItemIconEntry(RiderSeal)
+#incext Png2Dmp "ItemIcons/RiderSeal.png"
+
+ItemIconEntry(ScoutSeal)
+#incext Png2Dmp "ItemIcons/ScoutSeal.png"
+
+ItemIconEntry(FlierSeal)
+#incext Png2Dmp "ItemIcons/FlierSeal.png"
+
+ItemIconEntry(MagiSeal)
+#incext Png2Dmp "ItemIcons/MagiSeal.png"
+
+ItemIconEntry(ShieldSeal)
+#incext Png2Dmp "ItemIcons/ShieldSeal.png"
+
+ItemIconEntry(CrownSeal)
+#incext Png2Dmp "ItemIcons/CrownSeal.png"
+
 //Other Icons
 ItemIconEntry(Reversa)
 #incext Png2Dmp "ItemIcons/Reversa.png"
@@ -357,6 +405,61 @@ ItemIconEntry(Noctifer)
 
 ItemIconEntry(ProtoFalchion)
 #incext Png2Dmp "ItemIcons/ProtoFalchion.png"
+
+//Misc Icons
+ItemIconEntry(0x70)
+#incext Png2Dmp "ItemIcons/SwordsIcon.png"
+
+ItemIconEntry(0x71)
+#incext Png2Dmp "ItemIcons/LancesIcon.png"
+
+ItemIconEntry(0x72)
+#incext Png2Dmp "ItemIcons/AxesIcon.png"
+
+ItemIconEntry(0x73)
+#incext Png2Dmp "ItemIcons/BowsIcon.png"
+
+ItemIconEntry(0x74)
+#incext Png2Dmp "ItemIcons/StavesIcon.png"
+
+ItemIconEntry(0x75)
+#incext Png2Dmp "ItemIcons/AnimaMagicIcon.png"
+
+ItemIconEntry(0x76)
+#incext Png2Dmp "ItemIcons/LightMagicIcon.png"
+
+ItemIconEntry(0x77)
+#incext Png2Dmp "ItemIcons/DarkMagicIcon.png"
+
+ItemIconEntry(0x7A)
+#incext Png2Dmp "ItemIcons/FireIcon.png"
+
+ItemIconEntry(0x7B)
+#incext Png2Dmp "ItemIcons/ThunderIcon.png"
+
+ItemIconEntry(0x7C)
+#incext Png2Dmp "ItemIcons/WindIcon.png"
+
+ItemIconEntry(0x7D)
+#incext Png2Dmp "ItemIcons/IceIcon.png"
+
+ItemIconEntry(0x7E)
+#incext Png2Dmp "ItemIcons/DarkIcon.png"
+
+ItemIconEntry(0x7F)
+#incext Png2Dmp "ItemIcons/LightIcon.png"
+
+ItemIconEntry(0x80)
+#incext Png2Dmp "ItemIcons/AnimaIcon.png"
+
+ItemIconEntry(0x81)
+#incext Png2Dmp "ItemIcons/HorseIcon.png"
+
+ItemIconEntry(0x82)
+#incext Png2Dmp "ItemIcons/FlierIcon.png"
+
+ItemIconEntry(0x83)
+#incext Png2Dmp "ItemIcons/DragonIcon.png"
 
 // End of icons
 

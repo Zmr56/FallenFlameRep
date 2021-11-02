@@ -197,6 +197,43 @@ Dracul[X]
 ## nameNoctifer
 Noctifer[X]
 
+## nameBraveSeal
+BraveSeal[X]
+
+## descBraveSeal
+Promotes melee infantry[N]
+apart from Thief and Lord.[X]
+
+## nameRiderSeal
+RiderSeal[X]
+
+## descRiderSeal
+Promotes all horseback units.[X]
+
+## nameScoutSeal
+ScoutSeal[X]
+
+## descScoutSeal
+Promotes Thieves and Archers.[X]
+
+## nameFlierSeal
+FlierSeal[X]
+
+## nameMagiSeal
+MagiSeal[X]
+
+## descMagiSeal
+Promotes all Magic infantry.[X]
+
+## nameShieldSeal
+ShieldSeal[X]
+
+## descShieldSeal
+Promotes Armour Knights.[X]
+
+## nameCrownSeal
+CrownSeal[X]
+
 ## nameProtoFalchion
 Proto Falchion[X]
 

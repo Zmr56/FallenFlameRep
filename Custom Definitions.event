@@ -130,6 +130,12 @@
 #define EarthDragon 0x5E
 #define MageDragon 0x60
 #define Supplier 0x5F
+#define Halberdier 0x11
+#define HalberdierF 0x12
+#define Valiant 0x15
+#define ValiantF 0x16
+#define Templar 0x29
+#define TemplarF 0x2A
 
 // Item definitions
 #define Reversa 0x09
@@ -163,6 +169,13 @@
 #define Dracul 0xD0
 #define Noctifer 0xD1
 #define ProtoFalchion 0x85
+#define BraveSeal 0x64
+#define RiderSeal 0x65
+#define ScoutSeal 0x66
+#define FlierSeal 0x67
+#define MagiSeal 0x68
+#define ShieldSeal 0x97
+#define CrownSeal 0x88
 
 // Item Icon definitions
 #define VampusIconID 0xCA
