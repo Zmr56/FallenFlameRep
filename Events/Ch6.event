@@ -42,7 +42,7 @@ Village1:
 VillageEventItem(PlaceholderText, Village, IronSword)
 
 Village2:
-VillageEventItem(PlaceholderText, Village, IronSword)
+VillageEventItem(PlaceholderText, Village, BraveSeal)
 
 Village3:
 VillageEventItem(PlaceholderText, Village, IronSword)

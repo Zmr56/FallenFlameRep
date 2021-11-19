@@ -144,7 +144,7 @@ UNIT Seth EphraimMasterLord 0x00 Level(1, Ally, 0) [7,17] 0x00 0x00 0x0 0x00 [0x
 UNIT
 
 Bad:
-UNIT Deuxnids Druid 0x00 Level(3, Enemy, 0) [15,1] 0x00 0x00 0x0 0x00 [Nosferatu, Zapsiege] NeverMoveAI 
+UNIT Deuxnids Druid 0x00 Level(3, Enemy, 0) [15,1] 0x00 0x00 0x0 0x00 [Nosferatu, Zapsiege, MagiSeal] NeverMoveAI 
 UNIT 0x80 Warrior Deuxnids Level(1, Enemy, 1) [15,5] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
 UNIT 0x80 Warrior Deuxnids Level(1, Enemy, 1) [6,7] 0x00 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
 UNIT 0x80 Shaman Deuxnids Level(8, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [Nosferatu] NeverMoveAI 
