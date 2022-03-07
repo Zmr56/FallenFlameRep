@@ -87,3 +87,10 @@ Mordred_Mug:
 #incext PortraitFormatter "Mordred.png"
 setMugEntry(0xAE, Mordred_Mug, 3, 5, 3, 3)
 
+Thunraz_Mug:
+#incext PortraitFormatter "Thunraz.png"
+setMugEntry(0x1E,Thunraz_Mug, 2, 4, 2, 2)
+
+Ogmios_Mug:
+#incext PortraitFormatter "Ogmios.png"
+setMugEntry(0x1C, Ogmios_Mug, 3, 5, 3, 3)

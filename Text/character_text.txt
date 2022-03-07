@@ -143,6 +143,20 @@ Vanja[X]
 A Confederacy spy. Her stand-offish[N]
 exterior disguises a generous heart.[X]
 
+## nameThunraz
+Thunraz[X]
+
+## descThunraz
+A proud mage who specialises in[N]
+Thunder magic. His heart is loyal.[X]
+
+## nameOgmios
+Ogmios[X]
+
+## descOgmios
+A wandering sellsword who flees from[N]
+from danger and being held to account.[X]
+
 ## nameVicks
 Vicks[X]
 

@@ -71,6 +71,8 @@
 [IaraPortrait] = [0x14][0x1]
 [ApolloPortrait] = [0x13][0x1]
 [NemainPortrait] = [0x18][0x1]
+[ThunrazPortrait] = [0x1E][0x1]
+[OgmiosPortrait] = [0x1C][0x1]
 
 [BanditPortrait] = [0x6d][0x1]
 [DattaPortrait] = [0x4a][0x1]
@@ -114,6 +116,8 @@
 [LoadIara] = [LoadFace][IaraPortrait]
 [LoadApollo] = [LoadFace][ApolloPortrait]
 [LoadNemain] = [LoadFace][NemainPortrait]
+[LoadThunraz] = [LoadFace][ThunrazPortrait]
+[LoadOgmios] = [LoadFace][OgmiosPortrait]
 
 [LoadBandit] = [LoadFace][BanditPortrait]
 [LoadDatta] = [LoadFace][DattaPortrait]

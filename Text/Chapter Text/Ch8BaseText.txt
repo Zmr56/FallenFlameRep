@@ -64,3 +64,27 @@ issues will be resolved when they come.[A]
 That's understandable, it's been nice[N]
 talking to you, elder.[A]
 [X]
+
+## ThunrazCh8Base
+
+[Right][LoadWren]
+[Left][LoadThunraz]
+
+[Right]#Wren
+You there! Join me![N][A]
+
+[Left]#Thunraz
+Sure![N][A]
+[X]
+
+## OgmiosCh8Base
+
+[Right][LoadWren]
+[Left][LoadOgmios]
+
+[Right]#Wren
+You there! Join me![N][A]
+
+[Left]#Ogmios
+Sure![N][A]
+[X]
