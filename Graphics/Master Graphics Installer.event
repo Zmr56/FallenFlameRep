@@ -119,8 +119,8 @@ ItemIconEntry(IronBlade)
 ItemIconEntry(SteelBlade)
 #incext Png2Dmp "ItemIcons/SteelBlade.png"
 
-//ItemIconEntry(SilverBlade)
-//#incext Png2Dmp "ItemIcons/SilverBlade.png"
+ItemIconEntry(SilverBlade)
+#incext Png2Dmp "ItemIcons/SilverBlade.png"
 
 ItemIconEntry(Wyrmslayer)
 #incext Png2Dmp "ItemIcons/Wyrmslayer.png"
@@ -133,6 +133,15 @@ ItemIconEntry(BraveSword)
 
 ItemIconEntry(Zanbato)
 #incext Png2Dmp "ItemIcons/Zanbato.png"
+
+ItemIconEntry(LightBrand)
+#incext Png2Dmp "ItemIcons/LightBrand.png"
+
+ItemIconEntry(Runesword)
+#incext Png2Dmp "ItemIcons/Runesword.png"
+
+ItemIconEntry(Lancereaver)
+#incext Png2Dmp "ItemIcons/Lancereaver.png"
 
 //Lance Icons
 ItemIconEntry(IronLance)
@@ -190,6 +199,9 @@ ItemIconEntry(BraveAxe)
 ItemIconEntry(Hammer)
 #incext Png2Dmp "ItemIcons/Hammer.png"
 
+ItemIconEntry(Halberd)
+#incext Png2Dmp "ItemIcons/Halberd.png"
+
 //Bow Icons
 ItemIconEntry(IronBow)
 #incext Png2Dmp "ItemIcons/IronBow.png"
@@ -246,6 +258,45 @@ ItemIconEntry(Heal)
 
 ItemIconEntry(Mend)
 #incext Png2Dmp "ItemIcons/Mend.png"
+
+ItemIconEntry(Recover)
+#incext Png2Dmp "ItemIcons/Recover.png"
+
+ItemIconEntry(Physic)
+#incext Png2Dmp "ItemIcons/Physic.png"
+
+ItemIconEntry(Fortify)
+#incext Png2Dmp "ItemIcons/Fortify.png"
+
+ItemIconEntry(Restore)
+#incext Png2Dmp "ItemIcons/Restore.png"
+
+ItemIconEntry(Silence)
+#incext Png2Dmp "ItemIcons/Silence.png"
+
+ItemIconEntry(Sleep)
+#incext Png2Dmp "ItemIcons/Sleep.png"
+
+ItemIconEntry(Berserk)
+#incext Png2Dmp "ItemIcons/Berserk.png"
+
+ItemIconEntry(Warp)
+#incext Png2Dmp "ItemIcons/Warp.png"
+
+ItemIconEntry(Rescue)
+#incext Png2Dmp "ItemIcons/Rescue.png"
+
+ItemIconEntry(Torch)
+#incext Png2Dmp "ItemIcons/Torch.png"
+
+ItemIconEntry(Hammerne)
+#incext Png2Dmp "ItemIcons/Warp.png"
+
+ItemIconEntry(Unlock)
+#incext Png2Dmp "ItemIcons/Rescue.png"
+
+ItemIconEntry(Barrier)
+#incext Png2Dmp "ItemIcons/Torch.png"
 
 //Item Icons
 ItemIconEntry(Vulnerary)
