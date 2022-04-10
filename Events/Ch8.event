@@ -21,7 +21,7 @@ END_MAIN
 LocationBasedEvents:
 Village(0x7,VillageRedGem1,8,4)
 Village(0x8,VillageRedGem2,8,10)
-Village(0x9,VillageRedGem3,7,15)
+Village(0x9,VillageDivine,7,15)
 Vendor(ShopList, 13, 17)
 Armory(ArmoryList, 0, 16)
 END_MAIN
@@ -32,8 +32,8 @@ VillageEventItem(PlaceholderText, Village, RedGem)
 VillageRedGem2:
 VillageEventItem(PlaceholderText, Village, RedGem)
 
-VillageRedGem3:
-VillageEventItem(PlaceholderText, Village, RedGem)
+VillageDivine:
+VillageEventItem(PlaceholderText, Village, Divine)
 
 ShopList:
 SHLI Vulnerary PureWater Flux Fire Lightning

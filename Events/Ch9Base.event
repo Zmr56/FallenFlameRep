@@ -44,7 +44,11 @@ ENDA
 */
 
 LocationBasedEvents:
+Village(0xF,VillageLancea,3,4)
 END_MAIN
+
+VillageLancea:
+VillageEventItem(PlaceholderText, Village, Lancea)
 
 MiscBasedEvents:
 //CauseGameOverIfLordDies

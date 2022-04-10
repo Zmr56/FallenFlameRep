@@ -46,7 +46,7 @@ Door(0,15)
 Door(18,15)
 Escape(16,0)
 Chest(RedGem,18,0)
-Chest(RedGem,18,1)
+Chest(Javelin,18,1)
 END_MAIN
 
 MiscBasedEvents:

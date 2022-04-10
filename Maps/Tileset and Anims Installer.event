@@ -54,6 +54,12 @@ UmbrakeCastlePalette:
 
 EventPointerTable(0x89, UmbrakeCastlePalette)
 
+ALIGN 4
+VolcanoFieldsPalette:
+#incbin "Tileset/VolcanoFieldsPalette.pal.bin"
+
+EventPointerTable(0x4c, VolcanoFieldsPalette)
+
 //TileConfig
 ALIGN 4
 ValniDoor:
