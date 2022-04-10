@@ -33,7 +33,7 @@ END_MAIN
 LocationBasedEvents:
 Door(16,6)
 Door(6,16)
-Chest(ShieldSeal,16,4)
+Chest(RedGem,16,4)
 Chest(RedGem,7,17)
 END_MAIN
 

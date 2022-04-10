@@ -20,7 +20,7 @@ END_MAIN
 
 LocationBasedEvents:
 Village(0x7,VillageRedGem1,8,4)
-Village(0x8,VillageRedGem2,8,10)
+Village(0x8,VillageMagiSeal,8,10)
 Village(0x9,VillageDivine,7,15)
 Vendor(ShopList, 13, 17)
 Armory(ArmoryList, 0, 16)
@@ -29,8 +29,8 @@ END_MAIN
 VillageRedGem1:
 VillageEventItem(PlaceholderText, Village, RedGem)
 
-VillageRedGem2:
-VillageEventItem(PlaceholderText, Village, RedGem)
+VillageMagiSeal:
+VillageEventItem(PlaceholderText, Village, MagiSeal)
 
 VillageDivine:
 VillageEventItem(PlaceholderText, Village, Divine)

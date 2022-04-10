@@ -49,7 +49,7 @@ ENDA
 //#define Chest(id,item,x,y) "CHES id item [x,y] 0x14"
 
 LocationBasedEvents:
-Chest(0x7,OceanSeal,5,3)
+Chest(0x7,ShieldSeal,5,3)
 END_MAIN
 
 MiscBasedEvents:

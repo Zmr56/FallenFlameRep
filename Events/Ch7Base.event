@@ -53,13 +53,16 @@ ENDA
 */
 
 LocationBasedEvents:
+Village(0x8,PubScoutSeal,2,0)
 END_MAIN
+
+PubScoutSeal:
+VillageEventItem(PlaceholderText, HouseBG, ScoutSeal)
 
 MiscBasedEvents:
 //CauseGameOverIfLordDies
 DefeatAll(EndingScene)
 AREA 0x7 EndingScene [13, 9] [13, 9]
-//AREA 0x8 Pub1 [2, 0] [2, 0]
 //AREA 0x9 Pub2 [11, 0] [11, 0]
 //AREA 0xA Pub3 [14, 0] [14, 0]
 //AREA 0xB House1 [1, 3] [1, 3]

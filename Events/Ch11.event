@@ -19,6 +19,10 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Door(9,2)
+Door(15,1)
+Chest(ScoutSeal,9,0)
+Chest(RiderSeal,10,0)
 END_MAIN
 
 MiscBasedEvents:

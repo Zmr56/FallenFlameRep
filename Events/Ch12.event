@@ -27,10 +27,10 @@ Armory(ArmoryList, 8, 13)
 END_MAIN
 
 Village1:
-VillageEventItem(PlaceholderText, Village, IronSword)
+VillageEventItem(PlaceholderText, Village, BraveSeal)
 
 Village2:
-VillageEventItem(PlaceholderText, Village, IronSword)
+VillageEventItem(PlaceholderText, Village, FlierSeal)
 
 ShopList:
 SHLI Vulnerary PureWater Flux Fire Lightning
