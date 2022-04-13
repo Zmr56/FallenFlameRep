@@ -70,7 +70,7 @@ UNIT 0x80 LanceCav Caellach Level(10, Enemy, 1) [3,19] 0x00 0x00 0x0 0x00 [Silve
 UNIT
 
 BadL2:
-UNIT 0x80 Mage Caellach Level(10, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Caellach Level(10, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [Blizzard] AttackInRangeAI 
 UNIT 0x80 Mercenary Caellach Level(10, Enemy, 1) [1,12] 0x00 0x00 0x0 0x00 [LightBrand, SteelBlade] AttackInRangeAI
 UNIT 0x80 Ranger Caellach Level(1, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [SteelSword, Lancereaver, KillerBow] AttackInRangeAI 
 UNIT 0x80 LanceCav Caellach Level(10, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SteelLance, Javelin, Horseslayer] AttackInRangeAI 
@@ -87,7 +87,7 @@ BadR2:
 UNIT 0x80 Fighter Caellach Level(10, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [HandAxe, KillerAxe] AttackInRangeAI 
 UNIT 0x80 Myrmidon Caellach Level(10, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [LightBrand, KillingEdge] AttackInRangeAI 
 UNIT 0x80 Fighter Caellach Level(10, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [Halberd, HandAxe] AttackInRangeAI 
-UNIT 0x80 Mage Caellach Level(10, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [Elfire] AttackInRangeAI 
+UNIT 0x80 Mage Caellach Level(10, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
 UNIT 0x80 Mercenary Caellach Level(10, Enemy, 1) [13,8] 0x00 0x00 0x0 0x00 [KillingEdge] AttackInRangeAI 
 UNIT
 

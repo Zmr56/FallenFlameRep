@@ -141,9 +141,19 @@
 
 // Item definitions
 #define Reversa 0x09
+#define Venom 0xB3
+#define Midnight 0xAB
+#define Swarm 0xB4
+#define Miasma 0x48
+#define Mire 0xAC
+#define Medusa 0x8F
 #define Vampus 0xBC
 #define Venenum 0xBD
 #define Elfrost 0xBE
+#define Beastburn 0x3A
+#define Wind 0xD3
+#define Blizzard 0xD4
+#define Electrify 0xD5
 #define Hurlbat 0xBF
 #define Harpoon 0xC0
 #define Lancea 0xC1

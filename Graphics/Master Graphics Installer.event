@@ -225,11 +225,20 @@ ItemIconEntry(KillerBow)
 ItemIconEntry(Fire)
 #incext Png2Dmp "ItemIcons/Fire.png"
 
+ItemIconEntry(Wind)
+#incext Png2Dmp "ItemIcons/Wind.png"
+
 ItemIconEntry(Thunder)
 #incext Png2Dmp "ItemIcons/Thunder.png"
 
-ItemIconEntry(Elfire)
-#incext Png2Dmp "ItemIcons/Elfire.png"
+ItemIconEntry(Electrify)
+#incext Png2Dmp "ItemIcons/Electrify.png"
+
+ItemIconEntry(Blizzard)
+#incext Png2Dmp "ItemIcons/Blizzard.png"
+
+ItemIconEntry(Beastburn)
+#incext Png2Dmp "ItemIcons/Beastburn.png"
 
 ItemIconEntry(Zapsiege)
 #incext Png2Dmp "ItemIcons/Zapsiege.png"
@@ -248,6 +257,18 @@ ItemIconEntry(Divine)
 
 ItemIconEntry(Flux)
 #incext Png2Dmp "ItemIcons/Flux.png"
+
+ItemIconEntry(Venom)
+#incext Png2Dmp "ItemIcons/Venom.png"
+
+ItemIconEntry(Midnight)
+#incext Png2Dmp "ItemIcons/Midnight.png"
+
+ItemIconEntry(Swarm)
+#incext Png2Dmp "ItemIcons/Swarm.png"
+
+ItemIconEntry(Miasma)
+#incext Png2Dmp "ItemIcons/Miasma.png"
 
 ItemIconEntry(Nosferatu)
 #incext Png2Dmp "ItemIcons/Nosferatu.png"

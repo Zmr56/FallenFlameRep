@@ -93,13 +93,13 @@ UNIT Wigbrand EphraimMasterLord Wren Level(1, Ally, 0) [14,0] 0x00 0x00 0x0 0x00
 UNIT
 
 Bad:
-UNIT Bazba Mage 0x00 Level(10, Enemy, 0) [2,1] 0x00 0x00 0x0 0x00 [Elfire, Bolting] NeverMoveAI 
+UNIT Bazba Mage 0x00 Level(10, Enemy, 0) [2,1] 0x00 0x00 0x0 0x00 [Blizzard, Bolting, Beastburn] NeverMoveAI 
 UNIT Murray Pirate 0x00 Level(10, Enemy, 0) [16,13] 0x00 0x00 0x0 0x00 [KillerAxe, Halberd] AttackInRangeAI 
 UNIT Tirado Fighter Murray Level(10, Enemy, 0) [10,17] 0x00 0x00 0x0 0x00 [SilverAxe, Hammer] AttackInRangeAI 
 UNIT Nemain Myrmidon_F Murray Level(7, Enemy, 0) [11,7] 0x00 0x00 0x0 0x00 [KillingEdge, SteelSword, IronSword] AttackInRangeAI 
-UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [17,13] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [10,18] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [Blizzard] AttackInRangeAI 
+UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [17,13] 0x00 0x00 0x0 0x00 [Blizzard] AttackInRangeAI 
+UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [10,18] 0x00 0x00 0x0 0x00 [Blizzard] AttackInRangeAI 
 UNIT 0x80 Knight Bazba Level(9, Enemy, 1) [3,14] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 
 UNIT 0x80 Knight Bazba Level(5, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 
 UNIT 0x80 Knight Bazba Level(5, Enemy, 1) [12,12] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 

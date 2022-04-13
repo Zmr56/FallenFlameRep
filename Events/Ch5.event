@@ -63,7 +63,7 @@ END_MAIN
 Units1:
 UNIT Wren WrenLord 0x00 Level(1, Ally, 0) [8,1] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT Apollo Monk Wren Level(5, Ally, 0) [7,1] 0x00 0x00 0x0 0x00 [Lightning, Divine] NoAI 
-UNIT Iara Mage_F Wren Level(5, Ally, 0) [9,1] 0x00 0x00 0x0 0x00 [Fire, Thunder] NoAI
+UNIT Iara Mage_F Wren Level(5, Ally, 0) [9,1] 0x00 0x00 0x0 0x00 [Wind, Electrify, Fire] NoAI
 UNIT Wigbrand EphraimMasterLord Wren Level(1, Ally, 0) [7,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT Wigbrand EphraimMasterLord Wren Level(1, Ally, 0) [6,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT Wigbrand EphraimMasterLord Wren Level(1, Ally, 0) [9,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
@@ -77,7 +77,7 @@ UNIT
 
 MagicDuo:
 UNIT Apollo Monk Wren Level(5, Ally, 0) [7,1] 0x00 0x00 0x0 0x00 [Lightning, Divine] NoAI 
-UNIT Iara Mage_F Wren Level(5, Ally, 0) [9,1] 0x00 0x00 0x0 0x00 [Fire, Thunder] NoAI 
+UNIT Iara Mage_F Wren Level(5, Ally, 0) [9,1] 0x00 0x00 0x0 0x00 [Wind, Electrify, Fire] NoAI 
 UNIT
 
 Bad:

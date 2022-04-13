@@ -107,6 +107,30 @@ Escort.[X]
 ## SeizeThroneStatus
 Seize the throne.[X]
 
+## nameBeastburn
+Beastburn[X]
+
+## descBeastburn
+Fire magic, effective on horses.[X]
+
+## nameWind
+Wind[X]
+
+## descWind
+Wind magic, gives 2x WEXP.[X]
+
+## nameBlizzard
+Blizzard[X]
+
+## descBlizzard
+Wind magic.[X]
+
+## nameElectrify
+Electrify[X]
+
+## descElectrify
+Thunder magic, eff. vs Armoured Units.[X]
+
 ## nameReversa
 Reversa[X]
 
@@ -121,6 +145,27 @@ Elfrost[X]
 
 ## descElfrost
 Effective against sword infantry.[X]
+
+## nameMiasma
+Miasma[X]
+
+## descMiasma
+Higher ranged dark magic.[X]
+
+## nameVenom
+Venom[X]
+
+## descVenom
+Dark magic, inflicts Poison.[X]
+
+## nameMidnight
+Midnight[X]
+
+## descMidnight
+Heavy Dark magic.[X]
+
+## nameSwarm
+Swarm[X]
 
 ## nameHurlbat
 Hurlbat[X]
