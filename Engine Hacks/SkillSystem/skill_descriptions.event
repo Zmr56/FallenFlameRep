@@ -333,5 +333,7 @@ SkillDescription(UnorthodoxID,SD_Unorthodox)
 SkillDescription(HorsebaneID,SD_Horsebane)
 SkillDescription(MagebaneID,SD_Magebane)
 SkillDescription(BlizzardBloodID,SD_BlizzardBlood)
-
+SkillDescription(WindTomeSkillID,SD_WindTomeSkill)
+SkillDescription(FireTomeSkillID,SD_FireTomeSkill)
+SkillDescription(ThunderTomeSkillID,SD_ThunderTomeSkill)
 

@@ -1,0 +1,31 @@
+
+#include "AnimaTomeBoosts.lyn.event"
+
+ALIGN 4
+WindTomeSkillIDLink:
+BYTE WindTomeSkillID
+
+ALIGN 4
+FireTomeSkillIDLink:
+BYTE FireTomeSkillID
+
+ALIGN 4
+ThunderTomeSkillIDLink:
+BYTE ThunderTomeSkillID
+
+ALIGN 4
+WindTomeList:
+BYTE Wind Blizzard Fimbulvetr Excalibur
+BYTE 0
+
+ALIGN 4
+FireTomeList:
+BYTE Fire Beastburn
+// BYTE Magma Scorcher
+BYTE 0
+
+ALIGN 4
+ThunderTomeList:
+BYTE Thunder Electrify Zapsiege Bolting
+// BYTE Enshock
+BYTE 0

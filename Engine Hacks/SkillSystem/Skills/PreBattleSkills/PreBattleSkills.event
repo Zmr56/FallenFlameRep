@@ -345,3 +345,5 @@ ChargePlus:
 POIN SkillTester
 WORD ChargePlusID
 POIN prMovGetter
+
+#include "AnimaTomeBoosts/AnimaTomeBoosts.event"
