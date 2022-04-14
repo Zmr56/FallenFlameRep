@@ -21,7 +21,7 @@ END_MAIN
 LocationBasedEvents:
 Village(0x7,VillageRedGem1,8,4)
 Village(0x8,VillageMagiSeal,8,10)
-Village(0x9,VillageDivine,7,15)
+Village(0x9,VillageNosferatu,7,15)
 Vendor(ShopList, 13, 17)
 Armory(ArmoryList, 0, 16)
 END_MAIN
@@ -32,11 +32,11 @@ VillageEventItem(PlaceholderText, Village, RedGem)
 VillageMagiSeal:
 VillageEventItem(PlaceholderText, Village, MagiSeal)
 
-VillageDivine:
-VillageEventItem(PlaceholderText, Village, Divine)
+VillageNosferatu:
+VillageEventItem(PlaceholderText, Village, Nosferatu)
 
 ShopList:
-SHLI Vulnerary PureWater Flux Fire Lightning
+SHLI Mend Restore Vulnerary PureWater Blizzard Divine Swarm
 ALIGN 4
 
 ArmoryList:

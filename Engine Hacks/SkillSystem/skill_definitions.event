@@ -126,12 +126,15 @@
 
 //Wind Boost: +6 AS and +10 Crit when wielding a Wind tome.
 #define WindTomeSkillID 87
+#define CrystalClearID WindTomeSkillID
 
 //Fire Boost: +6 Res and +10 Avo when wielding a Fire tome.
 #define FireTomeSkillID 88
+#define WillOWispID FireTomeSkillID
 
 //Thunder Boost: +3 Def and +15 Hit when wielding a Thunder tome.
 #define ThunderTomeSkillID 89
+#define ThorsFuryID ThunderTomeSkillID
 
 
 //AI Skills

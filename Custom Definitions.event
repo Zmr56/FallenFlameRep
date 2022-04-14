@@ -141,6 +141,9 @@
 
 // Item definitions
 #define Reversa 0x09
+#define ShortAxe 0x2C
+#define Mageslayer 0x33
+#define IronGreatbow 0x84
 #define Venom 0xB3
 #define Midnight 0xAB
 #define Swarm 0xB4

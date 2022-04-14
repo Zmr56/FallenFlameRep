@@ -1353,13 +1353,13 @@ Blizzard Blood: When below full[N]
 health, +2 AS and Res.[X]
 
 ## SD_WindTomeSkill
-Wind Boost: +6 AS and +10 Crit[N]
+Crystal Clear: +6 AS and +10 Crit[N]
 when wielding a Wind tome.[X]
 
 ## SD_FireTomeSkill
-Fire Boost: +6 Res and +10 Avo[N]
+Will-O-Wisp: +6 Res and +10 Avo[N]
 when wielding a Fire tome.[X]
 
 ## SD_ThunderTomeSkill
-Thunder Boost: +3 Def and +15 Hit[N]
+Thor's Fury: +3 Def and +15 Hit[N]
 when wielding a Thunder tome.[X]

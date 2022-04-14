@@ -131,6 +131,9 @@ ItemIconEntry(KillingEdge)
 ItemIconEntry(BraveSword)
 #incext Png2Dmp "ItemIcons/BraveSword.png"
 
+ItemIconEntry(Longsword)
+#incext Png2Dmp "ItemIcons/Longsword.png"
+
 ItemIconEntry(Zanbato)
 #incext Png2Dmp "ItemIcons/Zanbato.png"
 
@@ -174,6 +177,9 @@ ItemIconEntry(KillerLance)
 ItemIconEntry(BraveLance)
 #incext Png2Dmp "ItemIcons/BraveLance.png"
 
+ItemIconEntry(Axereaver)
+#incext Png2Dmp "ItemIcons/Axereaver.png"
+
 //Axe Icons
 ItemIconEntry(IronAxe)
 #incext Png2Dmp "ItemIcons/IronAxe.png"
@@ -190,6 +196,9 @@ ItemIconEntry(Hurlbat)
 ItemIconEntry(HandAxe)
 #incext Png2Dmp "ItemIcons/HandAxe.png"
 
+ItemIconEntry(ShortAxe)
+#incext Png2Dmp "ItemIcons/ShortAxe.png"
+
 ItemIconEntry(KillerAxe)
 #incext Png2Dmp "ItemIcons/KillerAxe.png"
 
@@ -201,6 +210,9 @@ ItemIconEntry(Hammer)
 
 ItemIconEntry(Halberd)
 #incext Png2Dmp "ItemIcons/Halberd.png"
+
+ItemIconEntry(Swordreaver)
+#incext Png2Dmp "ItemIcons/Swordreaver.png"
 
 //Bow Icons
 ItemIconEntry(IronBow)
@@ -220,6 +232,12 @@ ItemIconEntry(BraveBow)
 
 ItemIconEntry(KillerBow)
 #incext Png2Dmp "ItemIcons/KillerBow.png"
+
+ItemIconEntry(Mageslayer)
+#incext Png2Dmp "ItemIcons/Mageslayer.png"
+
+ItemIconEntry(IronGreatbow)
+#incext Png2Dmp "ItemIcons/IronGreatbow.png"
 
 //Tome Icons
 ItemIconEntry(Fire)

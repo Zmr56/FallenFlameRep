@@ -25,6 +25,7 @@ mov r5,r1 @defender
 @check for skill
 mov r0,r4
 ldr r1,=WindTomeSkillIDLink
+ldrb r1,[r1]
 blh SkillTester
 cmp r0,#0
 beq GoBack_Wind
@@ -78,6 +79,7 @@ mov r5,r1 @defender
 @check for skill
 mov r0,r4
 ldr r1,=FireTomeSkillIDLink
+ldrb r1,[r1]
 blh SkillTester
 cmp r0,#0
 beq GoBack_Fire
@@ -140,6 +142,7 @@ mov r5,r1 @defender
 @check for skill
 mov r0,r4
 ldr r1,=ThunderTomeSkillIDLink
+ldrb r1,[r1]
 blh SkillTester
 cmp r0,#0
 beq GoBack_Thunder

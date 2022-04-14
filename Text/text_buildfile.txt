@@ -242,6 +242,25 @@ Dracul[X]
 ## nameNoctifer
 Noctifer[X]
 
+## nameShortAxe
+Short Axe[X]
+
+## nameIronPike
+Iron Pike[X]
+
+## nameIronMace
+Iron Mace[X]
+
+## nameIronGreatbow
+Iron Grtbow[X]
+
+## nameMageslayer
+Mageslayer[X]
+
+## descMageslayer
+Effective against both[N]
+magic users and fliers.[X]
+
 ## nameBraveSeal
 BraveSeal[X]
 

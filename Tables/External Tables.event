@@ -54,6 +54,10 @@ FlierAndMonster2: //Nidhogg
 	SetWeaponEffectiveness(FlierType, 6)
 	SetWeaponEffectiveness(MonsterType, 4)
 	WORD 0
+FlierAndMagic: //Mageslayer
+	SetWeaponEffectiveness(FlierType, 6)
+	SetWeaponEffectiveness(MagicType, 6)
+	WORD 0
 
 
 
@@ -63,9 +67,9 @@ BYTE ArmorClasses
 FlyingMagicEffectiveness:
 BYTE FlyingClasses
 //Continues into magic effectiveness
-/*MagicEffectiveness:
+MagicEffectiveness:
 BYTE MagicClasses
-BYTE 0*/
+BYTE 0
 
 MountedArmorEffectiveness:
 BYTE ArmorClasses
