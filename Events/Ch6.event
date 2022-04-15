@@ -39,20 +39,20 @@ Armory(ArmoryList, 14, 12)
 END_MAIN
 
 Village1:
-VillageEventItem(PlaceholderText, Village, IronSword)
+VillageEventItem(PlaceholderText, Village, Beastburn)
 
 Village2:
 VillageEventItem(PlaceholderText, Village, BraveSeal)
 
 Village3:
-VillageEventItem(PlaceholderText, Village, IronSword)
+VillageEventItem(PlaceholderText, Village, Armorslayer)
 
 ShopList:
-SHLI Vulnerary PureWater Flux Fire Lightning
+SHLI Vulnerary PureWater Flux Venom Fire Wind Lightning Shine
 ALIGN 4
 
 ArmoryList:
-SHLI SteelBlade SteelLance SteelAxe SteelBow
+SHLI SteelSword IronBlade SteelLance SteelAxe SteelBow IronGreatbow
 ALIGN 4
 
 MiscBasedEvents:

@@ -16,6 +16,8 @@ ALIGN 4
 
 #define MagicClasses "Mage Mage_F Sage Sage_F MageKnight MageKnight_F Bishop Bishop_F Shaman Shaman_F Druid Druid_F Summoner Summoner_F Pupil_1 Pupil_2 Pupil_3 Monk Priest Cleric Troubadour Valkyrie Necromancer Mogall ArchMogall Gorgon"
 
+#define DragonClasses "Manakete WyvernRider WyvernRider_F WyvernLord WyvernLord_F FireDragon EarthDragon MageDragon DivineDragon WindDragon IceDragon"
+
 #define MountedClasses "$4B $4C $05 $06 $07 $08 $1D $1E $29 $2A $35 $36 $5D $5E"
 //Vanilla list minus Eirika/Ephraim lord
 
@@ -58,6 +60,10 @@ FlierAndMagic: //Mageslayer
 	SetWeaponEffectiveness(FlierType, 6)
 	SetWeaponEffectiveness(MagicType, 6)
 	WORD 0
+FlierAndDragon: //Wyrmbolt
+	SetWeaponEffectiveness(FlierType, 6)
+	SetWeaponEffectiveness(DragonType, 6)
+	WORD 0
 
 
 
@@ -69,6 +75,13 @@ BYTE FlyingClasses
 //Continues into magic effectiveness
 MagicEffectiveness:
 BYTE MagicClasses
+BYTE 0
+
+FlyingDragonEffectiveness:
+BYTE FlyingClasses
+//Continues into dragon effectiveness.
+//DragonEffectiveness:
+BYTE DragonClasses
 BYTE 0
 
 MountedArmorEffectiveness:

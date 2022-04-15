@@ -98,8 +98,8 @@ Door(15,4)
 Door(15,14)
 Chest(RiderSeal,0,0)
 Chest(BraveSeal,1,0)
-Chest(RedGem,8,13)
-Chest(RedGem,11,13)
+Chest(Wyrmbolt,8,13)
+Chest(DragonSpear,11,13)
 Seize(15,1)
 END_MAIN
 

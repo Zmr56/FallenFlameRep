@@ -51,6 +51,7 @@ ItemEffectivenessPtr(WindSword, FlierEffectiveness)
 ItemEffectivenessPtr(Dragonstone, MonsterEffectiveness)
 ItemEffectivenessPtr(Aircalibur, FlierEffectiveness)
 ItemEffectivenessPtr(Mageslayer, FlierAndMagic)
+ItemEffectivenessPtr(Wyrmbolt, FlierAndDragon)
 
 //Protector item (macro still works, even if it's wrongly named)
 ItemEffectivenessPtr(DelphiShield, FlierProtection)
@@ -89,6 +90,9 @@ SetWeaponEffectiveness(MonsterType, 4)
 WORD 0
 FlierAndMagic: //Mageslayer
 SetWeaponEffectiveness(FlierType|MagicType, 6)
+WORD 0
+FlierAndDragon: //Dragon Bows
+SetWeaponEffectiveness(FlierType|DragonType, 6)
 WORD 0
 
 #define SetProtection(type_list) "SHORT 0 type_list"

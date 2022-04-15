@@ -167,6 +167,12 @@ Heavy Dark magic.[X]
 ## nameSwarm
 Swarm[X]
 
+## nameWyrmbolt
+Wyrmbolt[X]
+
+## descWyrmbolt
+Eff. vs both fliers + dragons.[X]
+
 ## nameHurlbat
 Hurlbat[X]
 

@@ -143,6 +143,9 @@
 #define Reversa 0x09
 #define ShortAxe 0x2C
 #define Mageslayer 0x33
+#define Wyrmbolt 0xD6
+#define IronPike 0x82
+#define IronMace 0x83
 #define IronGreatbow 0x84
 #define Venom 0xB3
 #define Midnight 0xAB
