@@ -162,6 +162,9 @@ ItemIconEntry(SilverLance)
 ItemIconEntry(IronPike)
 #incext Png2Dmp "ItemIcons/IronPike.png"
 
+ItemIconEntry(SlimLance)
+#incext Png2Dmp "ItemIcons/SlimLance.png"
+
 ItemIconEntry(Javelin)
 #incext Png2Dmp "ItemIcons/Javelin.png"
 
