@@ -2,9 +2,7 @@
 ## Ch5BaseOpeningText1
 
 [Right][LoadWren]
-[Left][LoadAdela]
 [FarRight][LoadWigbrand]
-[FarLeft][LoadSarai]
 
 [FarRight]#Wigbrand
 Here we are then, the capital.[N]
@@ -15,46 +13,31 @@ I'm looking forward to finally being[N]
 able to rest up my feet after all this.[A]
 
 [FarFarLeft]#Empty
-Hold! Lady Wren Osprey?[N][A]
+I'm afraid that won't be possible.[N][A]
 
 [Right]#Wren
 Huh? Who called me just now?[N][A]
+
+[FarLeft][LoadRentoul]
+
+[FarLeft]#Rentoul
+My name is Rentoul, the leader of his[N]
+majesty's shadow service. Don't be[A][N]
+alarmed, I'm simply here to escort both[N]
+of you to his majesty...[A]
+
+[Right]#Wren
+O-ok...[N][A]
+
+[FarRight]#Wigbrand
+Nice to see you again, Rentaghoul.[N]
+It's been some time hasn't it?[A]
+
+[FarLeft]#Rentoul
+Oh don't be so petty, let's get going.[N][A]
 [X]
 
 ## Ch5BaseOpeningText2
-
-[Right][LoadWren]
-[Left][LoadRentoul]
-[FarRight][LoadWigbrand]
-
-[Left]#Rentoul
-Lady Wren Osprey and Wigbrand?[N]
-The committee requires your audience.[A]
-
-[Right]#Wren
-Who are you? Who are all these men?[N][A]
-
-[FarRight]#Wigbrand
-His name is Rentaghoul.[N][A]
-
-[Left]#Rentoul
-It's Rentoul.[N][A]
-
-[FarRight]#Wigbrand
-Keep calling him Rentaghoul,[N]
-he can't actually do anything about it.[A]
-
-[Left]#Rentoul
-It's a shame to see you haven't changed[N]
-over the past twenty years, Wigbrand.[A][N]
-There is no need to be alarmed milady.[N]
-I am the head of the Shadow Service.[A][N]
-The nation's intelligence agency.[N]
-I'll be escorting you and Wigbrand to[A][N]
-his majesty right away...[A]
-[X]
-
-## Ch5BaseOpeningText3
 
 [Right][LoadWren]
 [FarRight][LoadWigbrand]
@@ -82,50 +65,60 @@ ask why I've been summoned? Usually one[A][N]
 of my status does not gain this honour.[A]
 
 [Left]#Swithin
-First of all, I'd like to congratulate[N]
-you on defending Blumari during the[A][N]
-the invasion. The actual reason you're[N]
-here, however, is to entrust this blade[A][N]
-unto you. We call it, the Falchion.[N]
-Here, grasp it.[A]
+After your efforts to defend Blumari, I[N]
+believe you most certainly do.[A][N]
+Your father will provide an overview[N]
+of his role and then yours in this.[A]
+
+[FarLeft][LoadKestral]
+
+[FarLeft]#Kestral
+Thank you, your majesty.[N]
+Now, as you all know, mankind has been[A][N]
+besieged by Wyvember on two fronts.[N]
+In Gofaul, Wyvember incites rebellion[A][N]
+in Blumari colonies and hires raiders[N]
+to harass supply lines to our allies.[A][N]
+This is where you'll be going, Wren.[A]
 
 [Right]#Wren
-...! A warm, white flame has arisen...[N]
-But it doesn't hurt at all...[A]
+O-ok... I'll accept this duty proudly.[N]
+Although, why me and not someone else?[A]
 
 [Left]#Swithin
-We had suspicions that only you could[N]
-use this blade. These flames confirm as[A][N]
-much. The Falchion is still a work in[N]
-progress but it is usable for now.[A][N]
+You've already shown you're capable.[N]
+Plus, diplomacy is essential to this[A][N]
+campaign. Your preexisting ties to the[N]
+region will be essential for building[A][N]
+a coalition against Wyvember.[A]
+
+[FarLeft]#Kestral
+That and the presence of manaketes on[N]
+the Wyvember-Viripurian border demands[A][N]
+Blumari's finest troops such as myself,[N]
+will be concentrated on this second[A][N]
+front. As you stabilise the situation[N]
+in Gofaul, we can then squeeze in on[A][N]
+Wyvember from Viripuria and take the[N]
+offensive, making Wyvember surrender.[A]
 
 [Right]#Wren
-I take it I'm not going to be lounging[N]
-at home with a sword like this though.[A]
+I suppose I won't be seeing you for a[N]
+while then, father. Going into Wyvember[A][N]
+territory sounds incredibly risky. Will[N]
+I be in risk of direct conflict against[A][N]
+manaketes too? I don't think I'm ready.[A]
 
-[FarLeft][LoadRentoul]
-Indeed. Your unique ability means we[N]
-desperately require your deployment in[A][N]
-Gofaul to assist our troops as we enact[N]
-retribution against the invaders.[A][N]
-And to give Falchion a test, of course.[A]
-
-[Left]#Swithin
-If you're wondering why this ability is[N]
-unique to you, I would advise stopping[A][N]
-at Animahead which ought be en route to[N]
-Gofaul. The clergy there is much better[A][N]
-than me at explaining the mystical.[A]
-
-[Right]#Wren
-Did you or father know anything about[N]
-this beforehand, Wigbrand?[A]
-
-[FarRight]#Wigbrand
-Hm? Not at all. This is news to us.[N][A]
-
-[Right]#Wren
-Ok...[N][A]
+[FarLeft]#Kestral
+Well...[N]
+Yes.[A][N]
+But! Fear not my child, our finest[N]
+weaponsmiths have been working on a[A][N]
+dragonslaying sword made exclusively[N]
+for you. We call it, the 'Falchion'.[A][N]
+I'll make sure to explain everything[N]
+behind the blade later on, for now,[A][N]
+just know it gets the job done.[A]
 
 [Left]#Swithin
 I suppose that's settled then.[N]

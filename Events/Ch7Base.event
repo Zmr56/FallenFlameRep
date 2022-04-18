@@ -53,10 +53,10 @@ ENDA
 */
 
 LocationBasedEvents:
-Village(0x8,PubScoutSeal,2,0)
+Village(0x8,VillageScoutSeal,10,8)
 END_MAIN
 
-PubScoutSeal:
+VillageScoutSeal:
 VillageEventItem(PlaceholderText, HouseBG, ScoutSeal)
 
 MiscBasedEvents:

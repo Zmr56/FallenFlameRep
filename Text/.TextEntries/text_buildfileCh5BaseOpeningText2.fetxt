@@ -2,61 +2,177 @@
 
 [Right][LoadWren]
 
-[Left][LoadRentoul]
-
 [FarRight][LoadWigbrand]
 
+[FarLeft][LoadRentoul]
 
 
-[Left]#Rentoul
 
-Lady Wren Osprey and Wigbrand?[N]
+[FarLeft]#Rentoul
 
-The committee requires your audience.[A]
+Everyone is here now, King Swithin.[N][A]
+
+
+
+[Left][LoadSwithin]
+
+
+
+[Left]#Swithin
+
+Thank you, Sir Rentoul.[N][A]
+
+
+
+[FarLeft][ClearFace]
 
 
 
 [Right]#Wren
 
-Who are you? Who are all these men?[N][A]
+Your majesty.[N][A]
 
 
 
-[FarRight]#Wigbrand
+[Left]#Swithin
 
-His name is Rentaghoul.[N][A]
-
-
-
-[Left]#Rentoul
-
-It's Rentoul.[N][A]
+Greetings, lady Wren.[N][A]
 
 
 
-[FarRight]#Wigbrand
+[Right]#Wren
 
-Keep calling him Rentaghoul,[N]
+Greetings, your Majesty. May I...[N]
 
-he can't actually do anything about it.[A]
+ask why I've been summoned? Usually one[A][N]
+
+of my status does not gain this honour.[A]
 
 
 
-[Left]#Rentoul
+[Left]#Swithin
 
-It's a shame to see you haven't changed[N]
+After your efforts to defend Blumari, I[N]
 
-over the past twenty years, Wigbrand.[A][N]
+believe you most certainly do.[A][N]
 
-There is no need to be alarmed milady.[N]
+Your father will provide an overview[N]
 
-I am the head of the Shadow Service.[A][N]
+of his role and then yours in this.[A]
 
-The nation's intelligence agency.[N]
 
-I'll be escorting you and Wigbrand to[A][N]
 
-his majesty right away...[A]
+[FarLeft][LoadKestral]
+
+
+
+[FarLeft]#Kestral
+
+Thank you, your majesty.[N]
+
+Now, as you all know, mankind has been[A][N]
+
+besieged by Wyvember on two fronts.[N]
+
+In Gofaul, Wyvember incites rebellion[A][N]
+
+in Blumari colonies and hires raiders[N]
+
+to harass supply lines to our allies.[A][N]
+
+This is where you'll be going, Wren.[A]
+
+
+
+[Right]#Wren
+
+O-ok... I'll accept this duty proudly.[N]
+
+Although, why me and not someone else?[A]
+
+
+
+[Left]#Swithin
+
+You've already shown you're capable.[N]
+
+Plus, diplomacy is essential to this[A][N]
+
+campaign. Your preexisting ties to the[N]
+
+region will be essential for building[A][N]
+
+a coalition against Wyvember.[A]
+
+
+
+[FarLeft]#Kestral
+
+That and the presence of manaketes on[N]
+
+the Wyvember-Viripurian border demands[A][N]
+
+Blumari's finest troops such as myself,[N]
+
+will be concentrated on this second[A][N]
+
+front. As you stabilise the situation[N]
+
+in Gofaul, we can then squeeze in on[A][N]
+
+Wyvember from Viripuria and take the[N]
+
+offensive, making Wyvember surrender.[A]
+
+
+
+[Right]#Wren
+
+I suppose I won't be seeing you for a[N]
+
+while then, father. Going into Wyvember[A][N]
+
+territory sounds incredibly risky. Will[N]
+
+I be in risk of direct conflict against[A][N]
+
+manaketes too? I don't think I'm ready.[A]
+
+
+
+[FarLeft]#Kestral
+
+Well...[N]
+
+Yes.[A][N]
+
+But! Fear not my child, our finest[N]
+
+weaponsmiths have been working on a[A][N]
+
+dragonslaying sword made exclusively[N]
+
+for you. We call it, the 'Falchion'.[A][N]
+
+I'll make sure to explain everything[N]
+
+behind the blade later on, for now,[A][N]
+
+just know it gets the job done.[A]
+
+
+
+[Left]#Swithin
+
+I suppose that's settled then.[N]
+
+Feel free to wander about the halls for[A][N]
+
+a bit, lady Wren. If there's any more[N]
+
+to discuss, I'll be in the study room.[A][N]
+
+This committee is now dismissed.[A]
 
 [X]
 

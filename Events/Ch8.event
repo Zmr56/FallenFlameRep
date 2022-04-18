@@ -40,7 +40,7 @@ SHLI Mend Restore Vulnerary PureWater Blizzard Divine Swarm
 ALIGN 4
 
 ArmoryList:
-SHLI SteelBlade SteelLance SteelAxe SteelBow
+SHLI SteelBlade Longsword SteelLance IronPike SteelAxe IronMace SteelBow IronGreatbow
 ALIGN 4
 
 MiscBasedEvents:

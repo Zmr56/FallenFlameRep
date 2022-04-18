@@ -2,11 +2,7 @@
 
 [Right][LoadWren]
 
-[Left][LoadAdela]
-
 [FarRight][LoadWigbrand]
-
-[FarLeft][LoadSarai]
 
 
 
@@ -28,13 +24,49 @@ able to rest up my feet after all this.[A]
 
 [FarFarLeft]#Empty
 
-Hold! Lady Wren Osprey?[N][A]
+I'm afraid that won't be possible.[N][A]
 
 
 
 [Right]#Wren
 
 Huh? Who called me just now?[N][A]
+
+
+
+[FarLeft][LoadRentoul]
+
+
+
+[FarLeft]#Rentoul
+
+My name is Rentoul, the leader of his[N]
+
+majesty's shadow service. Don't be[A][N]
+
+alarmed, I'm simply here to escort both[N]
+
+of you to his majesty...[A]
+
+
+
+[Right]#Wren
+
+O-ok...[N][A]
+
+
+
+[FarRight]#Wigbrand
+
+Nice to see you again, Rentaghoul.[N]
+
+It's been some time hasn't it?[A]
+
+
+
+[FarLeft]#Rentoul
+
+Oh don't be so petty, let's get going.[N][A]
 
 [X]
 

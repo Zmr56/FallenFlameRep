@@ -146,21 +146,15 @@ UNIT
 
 ALIGN 4
 BeginningScene:
-MUSC 0x25
+MUSC 0x0B
 SetBackground(0x24)
 Text(Ch5BaseOpeningText1)
 TEXTEND
 CALL $9EE2C4 //BGEnd
 ENUN
-MUSC 0x25
-SetBackground(0x24)
-Text(Ch5BaseOpeningText2)
-TEXTEND
-CALL $9EE2C4 //BGEnd
-ENUN
-MUSC 0x25
+MUSC 0x06
 SetBackground(0x2F)
-Text(Ch5BaseOpeningText3)
+Text(Ch5BaseOpeningText2)
 TEXTEND
 CALL $9EE2C4 //BGEnd
 ENUN

@@ -54,7 +54,11 @@ CALL $9EE2C4 //BGEnd
 ENDA
 
 LocationBasedEvents:
+//Village(0x8,Temple1,6,1)
 END_MAIN
+
+//Temple1:
+//VillageEventItem(PlaceholderText, HouseBG, Miasma)
 
 MiscBasedEvents:
 //CauseGameOverIfLordDies
@@ -63,9 +67,14 @@ AREA 0x7 EndingScene [0, 0] [0, 0]
 //AREA 0x8 House1 [8, 1] [8, 1]
 //AREA 0x9 House2 [7, 2] [7, 2]
 //AREA 0xA House3 [11, 6] [11, 6]
-//AREA 0xB Temple1 [6, 1] [6, 1]
+AREA 0xB Temple1 [6, 1] [6, 1]
 //AREA 0xC Church1 [10, 3] [10, 3]
 END_MAIN
+
+Temple1:
+SVAL s3 Miasma
+GIVEITEM Wren
+ENDA
 
 Dunno1:
 END_MAIN
@@ -94,7 +103,7 @@ UNIT
 
 Greens:
 UNIT Roamer1 Peer 0x00 Level(1, NPC, 0) [11,4] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Thunraz Mage 0x00 Level(6, NPC, 0) [6,7] 0x00 0x00 0x0 0x00 [Thunder] NoAI
+UNIT Thunraz Mage 0x00 Level(6, NPC, 0) [6,7] 0x00 0x00 0x0 0x00 [Thunder, Electrify, Wind] NoAI
 UNIT Ogmios Mercenary 0x00 Level(1, NPC, 0) [6,5] 0x00 0x00 0x0 0x00 [IronBlade] NoAI
 UNIT
 
