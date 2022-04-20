@@ -1,0 +1,175 @@
+
+
+[Left][LoadDunstanCiv]
+
+[Right][LoadSarai]
+
+[FarRight][LoadKevyn]
+
+
+
+[Left]#Dunstan
+
+Ah, Wren! Come over here![N][A]
+
+
+
+[FarLeft][LoadWren]
+
+
+
+[FarLeft]#Wren
+
+Oh, hello. You called for me?[N][A]
+
+
+
+[Left]#Dunstan
+
+We just wanted to say thank you.[N]
+
+Thank you for saving my hide.[A]
+
+
+
+[Right]#Sarai
+
+I think I've already said it plenty but[N]
+
+I want to say it again. Thank you for[A][N]
+
+for everything you did in Aquanpool![A]
+
+
+
+[FarRight]#Kevyn
+
+Hey Wren, I haven't seen you in a while[N]
+
+so I can finally thank you for keeping[A][N]
+
+my sister and father safe. I owe you.[N]
+
+Well, then again I'm not sure how I can[A][N]
+
+pay you back. I'm needed in Seyfaut[N]
+
+so I can guard the king constantly.[A]
+
+
+
+[FarLeft]#Wren
+
+It's fine, seriously. It's just how our[N]
+
+two families always have been, really.[A][N]
+
+For centuries, House Randel and House[N]
+
+Opsrey have been there for each other.[A]
+
+
+
+[Left]#Dunstan
+
+Well yes, I understand it's very much[N]
+
+a tradition, but it doesn't make our[A][N]
+
+relationship any less personal. One[N]
+
+day if I can, I'll fight in battle[A][N]
+
+alongside you! I'm sure this injury[N]
+
+will heal up before the war's end and[A][N]
+
+you'll see me in my peak condition![A]
+
+
+
+[Right]#Sarai
+
+Don't try to convinc this stubborn old[N]
+
+codger, Wren. I said I'd have a word[A][N]
+
+with him but he won't learn any sense.[A]
+
+
+
+[FarRight]#Kevyn
+
+In all fairness I haven't helped...[N]
+
+Dad gets a lot of silly ideas from me.[A][N]
+
+I reckon he could still go toe to toe[N]
+
+with a manakete and then three more.[A]
+
+
+
+[FarLeft]#Wrenn
+
+Hopefully it won't come to that.[N][A]
+
+
+
+[Right]#Sarai
+
+Besides, you'll only need me to deal[N]
+
+with any overgrown lizards we find.[A]
+
+
+
+[FarLeft]#Wren
+
+You're still coming along for the[N]
+
+whole length of the campaign, Sarai!?[A]
+
+
+
+[Right]#Sarai
+
+Oh absolutely! Father and my brother[N]
+
+are open minded about the whole battle[A][N]
+
+maiden business. They've seen what I'm[N]
+
+capable of and so have you! There's no[A][N]
+
+room for doubt, you need a gal like me!
+
+
+
+[Left]#Dunstan
+
+Trust in Sarai, Wren. She's stronger[N]
+
+than her adorable looks suggest![A]
+
+
+
+[FarRight]#Kevyn
+
+And she inherits dad's skill for[N]
+
+disciplining out of line troops![A]
+
+
+
+[Right]#Sarai
+
+Mhmm! You know I'm a tough cookie![N][A]
+
+
+
+[FarLeft]#Wren
+
+Heh, you most certainly are.[N][A]
+
+[X]

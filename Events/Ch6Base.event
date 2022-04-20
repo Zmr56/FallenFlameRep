@@ -54,7 +54,8 @@ END_MAIN
 
 MiscBasedEvents:
 //CauseGameOverIfLordDies
-AREA 0xB EndingScene [4, 9] [5, 9]
+DefeatAll(EndingScene)
+AREA 0xB EndingScene [4, 9] [4, 9]
 END_MAIN
 
 Dunno1:
@@ -85,9 +86,15 @@ UNIT Shamira Knight_F Wren Level(1, Ally, 0) [3,3] 0x00 0x00 0x0 0x00 [0x00] NoA
 UNIT Iara Mage_F Wren Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
+Anchor:
+UNIT 0x80 Pirate 0x00 Level(1, Enemy, 0) [15,17] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+
 ALIGN 4
 BeginningScene:
 LOAD1 0 Units1
+ENUN
+LOAD1 0 Anchor
 ENUN
 
 CAM1 Wren

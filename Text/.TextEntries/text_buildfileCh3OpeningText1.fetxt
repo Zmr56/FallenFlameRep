@@ -10,11 +10,11 @@
 
 [MidLeft]#Wren
 
-This isn't a good sight, I can see[N]
+Looks like we're too late![N]
 
-damage on the citadel, looks like the[A][N]
+The citadel walls already show[A][N]
 
-enemy already got here before we did.[N]
+signs of damage from battle.[N]
 
 Your hunch was right Wigbrand...[A]
 
@@ -22,13 +22,11 @@ Your hunch was right Wigbrand...[A]
 
 [MidRight]#Wigbrand
 
-There still appears to be guards about,[N]
+Some guards are doing repairs but the[N]
 
-they're doing some repairs but they[A][N]
+rest still look poised for battle. Are[A][N]
 
-still look poised for battle. Perhaps[N]
-
-they expect enemy reinforcements?[A]
+more enemy reinforcements expected?[A]
 
 
 
@@ -38,7 +36,7 @@ Don't worry, I'll get to the bottom of[N]
 
 this. Captain! What events transpired[A][N]
 
-here? Is my father safe?[A]
+here? How fares my father, Duke Wystan?[A]
 
 
 
@@ -52,15 +50,17 @@ here? Is my father safe?[A]
 
 Lady Sarai! We successfully fended off[N]
 
-an enemy attack with the aid of Sir[A][N]
+an enemy attack with Sir Kestral's aid.[A][N]
 
-Kestral. However, he sustained heavy[N]
+We'll need your group's help though.[N]
 
-injuries against a Manakete general.[A][N]
+Enemy reinforcements are anticipated to[A][N]
 
-He and Princess Adela are currently[N]
+arrive but Sir Kestral is too weak at[N]
 
-being held safe within the castle.[A]
+present to return to the frontline.[A][N]
+
+Instead he is guarding princess Adela.[A]
 
 
 
@@ -74,61 +74,25 @@ in the defence of the citadel too, no?[A]
 
 [MidRight]#Wystan Guard
 
-Well...[A]
+Not quite, he's still incapacitated[N]
+
+from injuries he received months back.[A]
 
 
 
 [FarLeft]#Sarai
 
-Well... What? Don't leave me hanging![A]
+That's a shame to hear, well, at least[N]
 
-
-
-[MidRight]#Wystan Guard
-
-Duke Wystan as you know, is still[N]
-
-recovering from the injury he sustained[A][N]
-
-during the annual beef festival when he[N]
-
-was trampled by a cow. The medication[A][N]
-
-he is taking had some side effects that[N]
-
-left him unable to battle.[A]
-
-
-
-[FarLeft]#Sarai
-
-I feel like you're not telling me the[N]
-
-full picture, but whatever... Anyway,[A][N]
-
-it's good to hear Sir Kestral is safe[N]
-
-and sound for the most part, right[A][N]
-
-Wren?[A]
+papa and Sir Kestral are safe for now.[A]
 
 
 
 [MidLeft]#Wren
 
-Mhmm, my father can recover from any[N]
+Let's get ready then, the enemy[N]
 
-injury he faces, this wouldn't be the[A][N]
-
-first time he's fought a Manakete.[N]
-
-We may need to prepare for battle if[A][N]
-
-it's true that enemy reinforcements may[N]
-
-try to take advantage of the citadel's[A][N]
-
-weakened state.[A]
+could be here any minute now.[A]
 
 [X]
 

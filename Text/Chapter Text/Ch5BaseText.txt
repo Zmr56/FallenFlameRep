@@ -128,6 +128,109 @@ to discuss, I'll be in the study room.[A][N]
 This committee is now dismissed.[A]
 [X]
 
+## Ch5BaseClosingText1
+
+[MidLeft][LoadWren]
+
+[MidLeft]#Wren
+What a day...[N]
+Time to rest up.[A]
+[X]
+
+## Ch5BaseClosingText2
+
+[Right][LoadWren]
+[Left][LoadSwithin]
+[FarLeft][LoadAdela]
+
+[Right]#Wren
+...And thank you for allowing me to[N]
+rest, your majesty. I will gather my[A][N]
+troops and we will set off for Gofaul[N]
+as soon as possible today. Farewell.[A]
+
+[Left]#Swithin
+You know, we won't be seeing each other[N]
+for a long time. Loosen up if you want![A]
+
+[Right]#Wren
+Sorry, I just... You know, this is a[N]
+really big step forward for me. Just[A][N]
+months ago I was a regular girl and[N]
+now I'm leading one of our campaigns![A]
+
+[Left]#Swithin
+I wish I didn't have to put you in this[N]
+position, Wren. Unfortunately, the top[A][N]
+brass in the army wouldn't budge on it.[N]
+You possess a unique power they need.[A]
+
+[Right]#Wren
+I know... This revelation of being the[N]
+wielder of blade like the Falchion has[A][N]
+been a lot to take in too.[A]
+
+[Left]#Swithin
+I'd advise you head for Animahead,[N]
+enroute to Gofaul. There the church[A][N]
+leaders will be able to explain more[N]
+about your unique circumstances.[A]
+
+[FarLeft]#Adela
+Don't worry about being alone either,[N]
+Wren. I owe you one after what we've[A][N]
+been through and I want to join you in[N]
+your journey! It's the least I can do.[A]
+
+[Right]#Wren
+S-seriously? It'll be dangerous, Adela.[N]
+We can't risk danger befalling you.[A]
+
+[Left]#Swithin
+Adela won't push herself too hard.[N]
+Our family is nearly extinct, I know,[A][N]
+but you've inspired us and Adela wants[N]
+to continue in the tradition of the[A][N]
+long standing alliance between our two[N]
+nations by supporting you in battle.[A]
+
+[FarLeft]#Adela
+Truth be told, a lot of this conflict[N]
+has been my own family's making.[A][N]
+Who can blame the masses for looking[N]
+to the Goldrev Republic as a change[A][N]
+from Viripuria when my father and my[N]
+brothers governed so poorly? I hate to[A][N]
+say it but... That is the truth.[A]
+
+[Right]#Wren
+Don't feel the need to apologise for[N]
+them, Adela. If you stay behind in[A][N]
+Blumari I won't judge you at all.[A]
+
+[FarLeft]#Adela
+It's not that. I have the power to make[N]
+a difference, to take my country back.[A][N]
+You've shown as much and I believe in[N]
+myself to do the same and that's[A][N]
+something I want us to do together![A]
+
+[Right]#Wren
+Right... I understand. Are you sure[N]
+you're okay with this, Swithin?[A]
+
+[Left]#Swithin
+Yes, I will miss Adela dearly, but[N]
+Kevyn is taking good care of me.[A]
+
+[Right]#Wren
+I guess it's goodbye then...[N]
+I'll write to you when I can though![A]
+
+[Left]#Swithin
+Likewise, goodbye, Wren.[N][A]
+[X]
+
 ## NuriCh5Base
 
 [Right][LoadWren]
@@ -223,14 +326,18 @@ always end up blowing up in my face...[A]
 [Left][LoadWigbrand]
 
 [Left]#Wigbrand
-I hope the events of this invasion[N]
-haven't changed your mind on supporting[A][N]
-my forces in Umbrake.[A]
+Understandably, the thought of Wren on[N]
+the battlefield is distressing. Truly,[A][N]
+I wish I could have done more to keep[N]
+her out, but I hope this hasn't clouded[A][N]
+your judgement of me in my ability to[N]
+coordinate the support for Blakpeak's[A][N]
+independence struggle against Wyvember?[A]
 
 [Right]#Kestral
-I would've rather you kept Wren out of[N]
-all this sooner earlier but...[A][N]
-We need your support still.[A]
+Wren would've needed to eventually,[N]
+regardless. Obviously I'm not happy[A][N]
+about it but... We have no choice.[A]
 
 [Left][ClearFace]
 [FarRight][LoadWigbrand]
@@ -238,9 +345,8 @@ We need your support still.[A]
 [Left][LoadWren]
 
 [Left]#Wren
-Afternoon father! Wigbrand![N]
-Oh uh, I hope I wasn't intruding on[A][N]
-anything, was I?[A]
+Afternoon father! Wigbrand! Oh uh,[N]
+I wasn't intruding on anything, was I?[A]
 
 [Right]#Kestral
 No, nothing at all darling. Did you[N]
@@ -250,20 +356,18 @@ want something important?[A]
 No I just wan-[N][A]
 
 [Right]#Kestral
-I'm afraid it'll have to wait for later[N]
-then. Whatever it is we can discuss it[A][N]
-some other time I'm sure. Goodbye Wren,[N]
-have a nice day.[A]
+Then it can wait. We can discuss[N]
+it another day. Goodbye, Wren.[A]
 
 [FarRight]#Wigbrand
-Sir Kestral and I have matters that[N]
-need attending to. Goodbye.[A]
+Sir Kestral and I have matters[N]
+that need attending to. Goodbye.[A]
 
 [Right][ClearFace]
 [FarRight][ClearFace]
 
 [Left]#Wren
-So much for that promise then...[N][A]
+So much for saving pleasantries...[N][A]
 [X]
 
 ## SwithinCh5Base
@@ -319,3 +423,92 @@ Likewise, I wish you all the best,[N]
 Swithin.[A]
 [X]
 
+## RandelsCh5Base
+
+[Left][LoadDunstanCiv]
+[Right][LoadSarai]
+[FarRight][LoadKevyn]
+
+[Left]#Dunstan
+Ah, Wren! Come over here![N][A]
+
+[FarLeft][LoadWren]
+
+[FarLeft]#Wren
+Oh, hello. You called for me?[N][A]
+
+[Left]#Dunstan
+We just wanted to say thank you.[N]
+Thank you for saving my hide.[A]
+
+[Right]#Sarai
+I think I've already said it plenty but[N]
+I want to say it again. Thank you for[A][N]
+for everything you did in Aquanpool![A]
+
+[FarRight]#Kevyn
+Hey Wren, I haven't seen you in a while[N]
+so I can finally thank you for keeping[A][N]
+my sister and father safe. I owe you.[N]
+Well, then again I'm not sure how I can[A][N]
+pay you back. I'm needed in Seyfaut[N]
+so I can guard the king constantly.[A]
+
+[FarLeft]#Wren
+It's fine, seriously. It's just how our[N]
+two families always have been, really.[A][N]
+For centuries, House Randel and House[N]
+Opsrey have been there for each other.[A]
+
+[Left]#Dunstan
+Well yes, I understand it's very much[N]
+a tradition, but it doesn't make our[A][N]
+relationship any less personal. One[N]
+day if I can, I'll fight in battle[A][N]
+alongside you! I'm sure this injury[N]
+will heal up before the war's end and[A][N]
+you'll see me in my peak condition![A]
+
+[Right]#Sarai
+Don't try to convinc this stubborn old[N]
+codger, Wren. I said I'd have a word[A][N]
+with him but he won't learn any sense.[A]
+
+[FarRight]#Kevyn
+In all fairness I haven't helped...[N]
+Dad gets a lot of silly ideas from me.[A][N]
+I reckon he could still go toe to toe[N]
+with a manakete and then three more.[A]
+
+[FarLeft]#Wrenn
+Hopefully it won't come to that.[N][A]
+
+[Right]#Sarai
+Besides, you'll only need me to deal[N]
+with any overgrown lizards we find.[A]
+
+[FarLeft]#Wren
+You're still coming along for the[N]
+whole length of the campaign, Sarai!?[A]
+
+[Right]#Sarai
+Oh absolutely! Father and my brother[N]
+are open minded about the whole battle[A][N]
+maiden business. They've seen what I'm[N]
+capable of and so have you! There's no[A][N]
+room for doubt, you need a gal like me![A]
+
+[Left]#Dunstan
+Trust in Sarai, Wren. She's stronger[N]
+than her adorable looks suggest![A]
+
+[FarRight]#Kevyn
+And she inherits dad's skill for[N]
+disciplining out of line troops![A]
+
+[Right]#Sarai
+Mhmm! You know I'm a tough cookie![N][A]
+
+[FarLeft]#Wren
+Heh, you most certainly are.[N][A]
+[X]

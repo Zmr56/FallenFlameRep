@@ -20,107 +20,99 @@ Gwah![A]
 
 [Right]#Wren
 
-Huh, you seem sort of... out of it, for[N]
-
-a pirate. Now I feel kind of bad for[A][N]
-
-striking you.[A]
+Too easy! Almost suspicously so...[N][A]
 
 
 
 [Left]#Cato
 
-Hard to feel gung ho about joining[N]
+I'm being sent out to die for nothing[N]
 
-these Wyvember puppets.[A]
+and I've been insulted by a young lass[A][N]
+
+before I meet my end to boot. Amazing.[A]
 
 
 
 [Right]#Wren
 
-You're not with the pirates?[A]
+Huh? You don't want to do this?[N][A]
 
 
 
 [Left]#Cato
 
-Not by choice, no. This is what happens[N]
+Not at all. Wyvember loyalists in my[N]
 
-when you go against the imperialists.[A][N]
+tribe forced me to become fodder for[A][N]
 
-They turn you into fodder.[A]
+Wyvember, lest a horrible fate befall[N]
+
+the village I was the chieftain of.[A]
 
 
 
 [Right]#Wren
 
-Ah, I see. You're from the Umbrake[N]
+Ah, I see. You wouldn't happen to be[N]
 
-colony, aren't you?[A]
+familiar with a woman called Svanhildr[A][N]
+
+by any chance, elder...?[A]
 
 
 
 [Left]#Cato
 
-Aye, that's right, why is that of[N]
+Cato, Cato of the Myotisi tribe.[N]
 
-interest to you?[A]
+And yes, I have met Svanhildr a[A][N]
+
+number of times, why do you ask?[A]
 
 
 
 [Right]#Wren
 
-With the way this war is progressing,[N]
+She is my mother, so I have heritage[N]
 
-we may be enroute for liberating the[A][N]
+from the same region of Gofaul. Except[A][N]
 
-colony. What say you, interested?[A]
+I belong to the Buboini tribe.[A]
 
 
 
 [Left]#Cato
 
-Hmph, that's what the lizardskins said.[N]
+...! Well in that case I must join your[N]
 
-But... I suppose it's kind enough that[A][N]
+side! The Buboini have been leading the[A][N]
 
-you took out the time to sway me. The[N]
+struggle against Wyvember for so long.[N]
 
-dragons skipped that step.[A]
+I know your mother is a trustworthy[A][N]
+
+woman and so I pledge  my unwavering[N]
+
+loyalty to you! I may be slightly grey[A][N]
+
+but my Dark Magic spells are fearsome.[A]
 
 
 
 [Right]#Wren
 
-So... it's a yes?[A]
+Oh um, sure! Strange to think I was[N]
+
+*this* close to skewering you and[A][N]
+
+now you've joined our rag-tag band.[A]
 
 
 
 [Left]#Cato
 
-I'll tag along, for now. I can't[N]
-
-promise I'll stick around, but should[A][N]
-
-you disrespect the people of our tribe,[N]
-
-well, your plans of liberation will be[A][N]
-
-met with difficulty.[A]
-
-
-
-[Right]#Wren
-
-You have my word that it won't happen,[N]
-
-Elder.[A]
-
-
-
-[Left]#Cato
-
-What a polite lass.[A]
+Such are the twists and turns of life.[N][A]
 
 [X]
 

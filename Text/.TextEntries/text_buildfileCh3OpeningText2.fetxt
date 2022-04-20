@@ -6,177 +6,91 @@
 
 [Right][LoadDunstanCiv]
 
-
-
-[Left]#Wren
-
-Duke Wystan! Mind if I ask what you're[N]
-
-doing in the middle of the castle just[A][N]
-
-after an invasion? I'm concerned for[N]
-
-your safety.[A]
+[FarRight][LoadRudyard]
 
 
 
-[Right]#Dunstan
+[FarLeft]#Wren
 
-Greetings Wren and Sarai! Well...[N]
+Ahem! Father! Just what do you think[N]
 
-Umm... this certainly isn't the state I[A][N]
+you're up to wandering the citadel[A][N]
 
-wanted you both to see me in...[A]
+with only one retainer by your side?[A]
 
 
 
-[FarLeft]#Sarai
+[FarRight]#Rudyard
 
-You've became fat haven't you, father?[N]
-
-No wonder you sent me away with aunty[A][N]
-
-for the holidays! You didn't want me to[N]
-
-scold you for sneaking away to the[A][N]
-
-pantry like you were going to just now.[A]
+One's plenty! Eh, Duke Wystan?[N][A]
 
 
 
 [Right]#Dunstan
 
-You have to understand my position,[N]
+Greetings Wren and Sarai! I see I've[N]
 
-Sarai! Since the injury I've been[A][N]
+caused some alarm amidst the chaos...[A][N]
 
-unable to excercise as much and food[N]
+Forgive me, my injuries have inflicted[N]
 
-has been my way of coping with pain...[A]
+a dreadful pain unto me and I was on my[A][N]
 
+way to find my remedy to null its bite.[N]
 
-
-[FarLeft][ClearFace]
+Rudyard here has kept me good company.[A]
 
 
 
 [Left]#Wren
 
-I've always known you to be a highly[N]
+It's best you stay put for now, Duke[N]
 
-discplined warrior, Duke Wystan... Were[A][N]
+Wystan. We're anticipating enemies to[A][N]
 
-you truly unable to protect the citadel?[A]
+launch a second attack right here soon.[N]
 
-
-
-[Right]#Dunstan
-
-Sadly, yes. Your father did much of the[N]
-
-heavy lifting. He and princess Adela[A][N]
-
-are recovering in the room guarded by[N]
-
-those two Viripurian knights. I expect[A][N]
-
-enemy reinforcements to arrive so be[N]
-
-prepared to defend that point![A]
-
-
-
-[FarLeft][LoadWigbrand]
-
-
-
-[FarLeft]#Wigbrand
-
-We should get you to safety in the[N]
-
-meantime, Duke Wystan. Let's move out.[A]
+Me and Sarai will guard you, we swear.[A]
 
 
 
 [Right]#Dunstan
 
-Oh... I'm afraid I can't do that...[A]
+What's this? You and Sarai are battle[N]
+
+hardened warriors now? Gwahahahahahaha![A][N]
+
+Well, I suppose it makes sense when one[N]
+
+reflects on who you have for parents.[A][N]
+
+Just make sure to give them hell you[N]
+
+wonderful pair of lovely lassies![A]
 
 
 
-[FarLeft]#Wigbrand
+[FarRight]#Rudyard
 
-You can't protect the citadel in your[N]
-
-condition, so there's no use staying[A][N]
-
-here.[A]
+...[N][A]
 
 
 
 [Right]#Dunstan
 
-No, I mean I quite literally cannot[N]
+Hmm? Oh! Of course! I'm sure you'll do[N]
 
-move! My bowels are not agreeing with[A][N]
+a splendid job of the whole stabbing[A][N]
 
-suddenly... Any movement will send them[N]
-
-into a mad fury... I must wait this[A][N]
-
-predicament out. Not to worry, I know[N]
-
-Rudyard should prove to be a competent[A][N]
-
-ally while you defend me and the[N]
-
-defence point.[A]
+and bashing business too, Rudyard.[A]
 
 
 
-[Right][ClearFace]
+[FarRight]#Rudyard
 
-[Right][LoadRudyard]
+I appreciate the unwavering faith[N]
 
-
-
-[Right]#Rudyard
-
-There's nothing to worry about, milady.[N]
-
-I'm a pretty hard hitter with my lance.[A][N]
-
-Point me wherever, I'll sort it quick.[A]
-
-
-
-[Left]#Wren
-
-You sound confident, I think we can[N]
-
-handle this then![A]
-
-
-
-[Right]#Rudyard
-
-Haha, if only I was confident in stuff[N]
-
-other than twirling my lance around.[A]
-
-
-
-[Left]#Wren
-
-Oh...[A]
-
-
-
-[Right]#Rudyard
-
-You know what, forget I said that.[N]
-
-Let's get this battle started![A]
+you place in me as ever, milord...[A]
 
 [X]
 

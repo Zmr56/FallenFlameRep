@@ -5,23 +5,22 @@
 [Left][LoadRudyard]
 
 [Right]#Wren
-I don't think I need to even ask as to[N]
-why you're up here on a cold and stormy[A][N]
-night, Rudyard.[A]
+It's a dark and stormy night yet here[N]
+you are, out on deck. Need I ask why?[A]
 
 [Left]#Rudyard
-Let me guess, Nuri's already ranted[N]
-about me to you?[A]
+I think you've already figured[N]
+out what I'm running from.[A]
 
 [Right]#Wren
-Don't worry, I'm not gonna drag her up[N]
+Don't worry, I'm not gonna drag Nuri up[N]
 here. Still, you should head down soon.[A]
 
 [Left]#Rudyard
 I can wait it out until she's asleep.[N]
 What about you? You ought be in a warm[A][N]
 and cosy bed right now. With weather[N]
-like this you'll catch a cold.[A]
+like this you'll catch a serious cold.[A]
 
 [Right]#Wren
 It's easier to sleep knowing my troops[N]

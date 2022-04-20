@@ -1,0 +1,184 @@
+
+
+[Right][LoadWren]
+
+[Left][LoadSwithin]
+
+[FarLeft][LoadAdela]
+
+
+
+[Right]#Wren
+
+...And thank you for allowing me to[N]
+
+rest, your majesty. I will gather my[A][N]
+
+troops and we will set off for Gofaul[N]
+
+as soon as possible today. Farewell.[A]
+
+
+
+[Left]#Swithin
+
+You know, we won't be seeing each other[N]
+
+for a long time. Loosen up if you want![A]
+
+
+
+[Right]#Wren
+
+Sorry, I just... You know, this is a[N]
+
+really big step forward for me. Just[A][N]
+
+months ago I was a regular girl and[N]
+
+now I'm leading one of our campaigns![A]
+
+
+
+[Left]#Swithin
+
+I wish I didn't have to put you in this[N]
+
+position, Wren. Unfortunately, the top[A][N]
+
+brass in the army wouldn't budge on it.[N]
+
+You possess a unique power they need.[A]
+
+
+
+[Right]#Wren
+
+I know... This revelation of being the[N]
+
+wielder of blade like the Falchion has[A][N]
+
+been a lot to take in too.[A]
+
+
+
+[Left]#Swithin
+
+I'd advise you head for Animahead,[N]
+
+enroute to Gofaul. There the church[A][N]
+
+leaders will be able to explain more[N]
+
+about your unique circumstances.[A]
+
+
+
+[FarLeft]#Adela
+
+Don't worry about being alone either,[N]
+
+Wren. I owe you one after what we've[A][N]
+
+been through and I want to join you in[N]
+
+your journey! It's the least I can do.[A]
+
+
+
+[Right]#Wren
+
+S-seriously? It'll be dangerous, Adela.[N]
+
+We can't risk danger befalling you.[A]
+
+
+
+[Left]#Swithin
+
+Adela won't push herself too hard.[N]
+
+Our family is nearly extinct, I know,[A][N]
+
+but you've inspired us and Adela wants[N]
+
+to continue in the tradition of the[A][N]
+
+long standing alliance between our two[N]
+
+nations by supporting you in battle.[A]
+
+
+
+[FarLeft]#Adela
+
+Truth be told, a lot of this conflict[N]
+
+has been my own family's making.[A][N]
+
+Who can blame the masses for looking[N]
+
+to the Goldrev Republic as a change[A][N]
+
+from Viripuria when my father and my[N]
+
+brothers governed so poorly? I hate to[A][N]
+
+say it but... That is the truth.[A]
+
+
+
+[Right]#Wren
+
+Don't feel the need to apologise for[N]
+
+them, Adela. If you stay behind in[A][N]
+
+Blumari I won't judge you at all.[A]
+
+
+
+[FarLeft]#Adela
+
+It's not that. I have the power to make[N]
+
+a difference, to take my country back.[A][N]
+
+You've shown as much and I believe in[N]
+
+myself to do the same and that's[A][N]
+
+something I want us to do together![A]
+
+
+
+[Right]#Wren
+
+Right... I understand. Are you sure[N]
+
+you're okay with this, Swithin?[A]
+
+
+
+[Left]#Swithin
+
+Yes, I will miss Adela dearly, but[N]
+
+Kevyn is taking good care of me.[A]
+
+
+
+[Right]#Wren
+
+I guess it's goodbye then...[N]
+
+I'll write to you when I can though![A]
+
+
+
+[Left]#Swithin
+
+Likewise, goodbye, Wren.[N][A]
+
+[X]
+

@@ -26,6 +26,9 @@ CharacterEventBothWays(0x9, WrenKestralTalk, Wren, Kestral)
 CharacterEventBothWays(0xA, WrenKestralTalk, Wren, Wigbrand)
 CharacterEventBothWays(0xB, WrenNuriTalk, Wren, Nuri)
 CharacterEventBothWays(0xC, WrenMordredTalk, Wren, Mordred)
+CharacterEventBothWays(0xD, RandelsTalk, Wren, DunstanCiv)
+CharacterEventBothWays(0xE, RandelsTalk, Wren, Sarai)
+CharacterEventBothWays(0xF, RandelsTalk, Wren, Roamer1)
 /*
 CharacterEventBothWays(0xC, WrenKestralTalk, Wren, Kestral)
 CharacterEventBothWays(0xD, WrenKestralTalk, Wren, Wigbrand)
@@ -77,6 +80,14 @@ ENDA
 WrenSwithinTalk:
 SetBackground(0x0E)
 Text(SwithinCh5Base)
+REMA
+NoFade
+CALL $9EE2C4 //BGEnd
+ENDA
+
+RandelsTalk:
+SetBackground(0x0A)
+Text(RandelsCh5Base)
 REMA
 NoFade
 CALL $9EE2C4 //BGEnd
@@ -174,7 +185,25 @@ EnableFreeMovement
 NoFade
 ENDA
 
+ALIGN 4
 EndingScene:
+MUSC 0x31
+SetBackground(0x15)
+Text(Ch5BaseClosingText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
+MUSC 0x85
+SetBackground(0x35)
+CALL $9EE2C4 //BGEnd
+ENUN
+MUSC 0x42
+SetBackground(0x07)
+Text(Ch5BaseClosingText2)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
+
 DisableFreeMovement
 MNCH 0x07
 NoFade

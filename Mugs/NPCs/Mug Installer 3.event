@@ -64,3 +64,7 @@ setMugEntry(0xB4, GenericMercenary_Mug, 3, 5, 3, 3)
 Elder_Mug:
 #incext PortraitFormatter "Elder1.png"
 setMugEntry(0xB6, Elder_Mug, 2, 6, 2, 4)
+
+Kevyn_Mug:
+#incext PortraitFormatter "Kevyn.png"
+setMugEntry(0xB8, Kevyn_Mug, 2, 4, 2, 2)

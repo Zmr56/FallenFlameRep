@@ -10,31 +10,35 @@
 
 [Right]#Wren
 
-Looks like we've successfully defended[N]
+Guess we've defended the citadel now[N]
 
-the citadel. We shouldn't have to fight[A][N]
+that Wyvember's troops are fleeing.[A][N]
 
-anymore reinforcements.[A]
+That was the toughest fight yet...[A]
 
 
 
 [Left]#Dunstan
 
-Outstanding work, Wren! My bowels are,[N]
+Outstanding work, Wren! You guarded me[N]
 
-however, still working against me. So I[A][N]
+wonderously and for that I am indebted.[A][N]
 
-shall just... lay down here... Ah...[A]
+So I won't keep you waiting any longer,[N]
+
+your father and princess Adela were[A][N]
+
+sheltering in the room to the north.[A]
 
 
 
 [FarRight]#Sarai
 
-Let's meet-up with  Sir Kestral and[N]
+You meet up with them Wren, I'll have[N]
 
-Adela, Wren! They should still be in[A][N]
+to give my father a stern word about]A][N]
 
-that room over there.[A]
+his reckless behaviour, wandering off![A]
 
 [X]
 

@@ -8,27 +8,33 @@
 
 [Left]#Wren
 
-Father! I heard you were injured by a[N]
+Father! I heard you were injured![N]
 
-Manakete, are you recovering well?[A]
+Are you okay? Do you need help?[A]
 
 
 
 [Right]#Kestral
 
-The lizard merely scratched me. Agh...![N]
+Pah! It's nothing. Just fatigue.[N]
 
-Well, maybe a little more than that...[A][N]
+Princess Adela here has tended to[A][N]
 
-But I'm fine, it's nothing to worry[N]
+my wounds in the meantime. Besides,[N]
 
-about. How fare you, my daughter? I can[A][N]
+what are you doing here in this ruckus?[A][N]
 
-see your blade is worn... I thought I[N]
+The battlefield is no place for a lady.[N]
 
-told you to keep her out of this,[A][N]
+I told you to keep her out of this,[A][N]
 
-Wigbrand.[A]
+didn't I Wigbrand? Didn't I? Tch...[A]
+
+
+
+[Left]#Wren
+
+Calm down father! It's not his fault![N][A]
 
 
 
@@ -46,13 +52,17 @@ intense and any help I could muster on[N]
 
 the battlefield was necessary to see us[A][N]
 
-through, even with my skills.
+through, even with my skills. Wren has[N]
+
+came this far, clearly she inherits her[A][N]
+
+mother's aptitutde for the battlefield.[A]
 
 
 
 [Right]#Kestral
 
-Hmph, fair enough.[A]
+Hmph, fair enough.[N][A]
 
 
 
@@ -70,37 +80,41 @@ arms for real now, are you father?[A]
 
 [Right]#Kestral
 
-No... Of course not, Wren. You're free[N]
+...[N]
 
-to live your own life. I care not for[A][N]
+I would rather it didn't have to come[A][N]
 
-what noblemen may utter about you.
+to this, but it is what it is. As I[N]
+
+accepted your mother's decision to[A][N]
+
+fight on the field, I suppose I must[N]
+
+do the same with you, my daughter.[A]
 
 
 
 [Left]#Wren
 
-Thank you, father![A]
+Thank you, father![N][A]
 
 
 
 [Right]#Kestral
 
-Well... I should head to the citadel's[N]
+I'll save the rest of the pleasantries[N]
 
-infirmary now. Once I'm healed up,[A][N]
+for when we'll reunite in the capital.[A][N]
 
-we'll meet again in the capital.[N]
+There's business there of our concern.[N]
 
-Goodbye, Wren. I'll give you some time[A][N]
-
-with princess Adela now.[A]
+Now go, princess Adela awaits you.[A]
 
 
 
 [Left]#Wren
 
-I love you too father, goodbye.[A]
+I love you father, goodbye.[N][A]
 
 
 
@@ -108,157 +122,125 @@ I love you too father, goodbye.[A]
 
 [Right][LoadAdela]
 
-[FarLeft][LoadSarai]
-
 
 
 [Right]#Adela
 
-Wren! Sarai! Oh I am glad to see you[N]
-
-two![A]
+Wren! Oh I am so relieved to see you![N][A]
 
 
 
 [Left]#Wren
 
-Us too, Adela. We've been keeping up to[N]
-
-date with the changing situation with[A][N]
-
-the civil war.[A]
-
-
-
-[FarLeft]#Sarai
-
-Are you feeling fine right now, Adela?[N]
-
-I heard about the death of your parents[A][N]
-
-and what happened to prince Vladmir...[A]
+Adela! It's so good to see you're safe.[N][A]
 
 
 
 [Right]#Adela
 
-I'm... coping. It has not been easy but[N]
+Nevermind me! You've crossed swords[N]
 
-now that I am in the safety of loyal[A][N]
+with all manner of ruffians lately![A][N]
 
-friends, my emotional recovery can only[N]
+I cannot thank you enough for coming to[N]
 
-get easier from here on out.[A]
+my aid. Oh, and I am most grateful to[A][N]
+
+your father too, of course.[A]
 
 
 
 [Left]#Wren
 
-We'll make sure to protect you with all[N]
+It's what friends do for one another.[N]
 
-our strength Adela. Has there been any[A][N]
+I have to thank you as well for tending[A][N]
 
-word on Vladmir's status?[A]
+to my father, I'd imagine he took some[N]
+
+convincing to withdraw from the fight.[A]
 
 
 
 [Right]#Adela
 
-Unfortunately no. Last I saw of my[N]
+Indeed, he is a stubborn one, but[N]
 
-brother was when he was defending the[A][N]
+he listened to reason in the end.[A][N]
 
-palace from one of the commander's of[N]
+It's the least I could do for him.[N]
 
-the rebels. He was locked into a battle[A][N]
+He evacuated me from Viripuria after[A][N]
 
-with a dark rider... Both of them[N]
-
-disappeared behind a cloud of smoke[A][N]
-
-while the palace went up in flames...[N]
-
-The dark rider still lives, but no word[A][N]
-
-on my brother. Our spies were unable to[N]
-
-confirm that the rebels had him killed.[A]
+all, before rebels seized the capital.[N]
 
 
 
 [Left]#Wren
 
-Whoever this dark rider is... I'll make[N]
+Right, I heard about what happened to[N]
 
-sure to avenge Vladmir by my own hand.[A]
+your family, Adela... Are you doing ok?[A][N]
 
-
-
-[FarLeft]#Sarai
-
-Revenge is a dangerous and slippery[N]
-
-road to walk down, Wren.[A]
+I'd imagine you're finding it hard.[A]
 
 
 
 [Right]#Adela
 
-I agree with Sarai, it's how we got[N]
+I-it's been hard, yes... Both of my[N]
 
-into this situation in the first place.[A][N]
+parents were slain by the rebels while[A][N]
 
-It's a never ending cycle...[A]
+I escaped, I-I left leave them behind.[N]
+
+I know I had to b-but... *sniff*[A]
 
 
 
 [Left]#Wren
 
-I know... Sorry. It's just, Vladmir was[N]
+It's okay, Adela. I'm here. It's not[N]
 
-my fiance...[A]
+your fault. What of your brothers?[A]
 
 
 
 [Right]#Adela
 
-I understand Wren. I'm sure we'll gain[N]
+Cyrus died trying to protect me and my[N]
 
-clarity in due time. For now, let's[A][N]
+parents... In the end only I survived[A][N]
 
-just focus on getting to safety in the[N]
+though. Babak, he... He died as he[N]
 
-capital.[A]
+tried to flee to Eastern Viripuria.[A][N]
+
+I want to say Danial remains but...[N]
+
+The brother I once knew has been[A][N]
+
+swallowed wholly by a vengeance.[A]
 
 
 
 [Left]#Wren
 
-Yes, you're right. I can't shake off[N]
+I can't imagine how difficult this has[N]
 
-the feeling however that we may still[A][N]
+been for you. Once we reach the capital[A][N]
 
-need to be prepared for enemies on the[N]
+you can reunite with King Swithin. He's[N]
 
-way however.[A]
+still family after all, you'll feel[A][N]
+
+better with him, getting the best care.[A]
 
 
 
 [Right]#Adela
 
-If such a situation arises Wren, I can[N]
-
-aid you with my light magic and[A][N]
-
-healing.[A]
-
-
-
-[Left]#Wren
-
-Thank you, Adela. Let's move out for[N]
-
-the capital then.[A]
+Yes, you're right. Thank you, Wren.[N][A]
 
 [X]
 

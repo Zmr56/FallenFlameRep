@@ -36,7 +36,7 @@ Nuri over the horizon there.[A]
 [Right][LoadNuri]
 
 [Right]#Nuri
-Ready to report, princess Adela![A]
+Ready to report, princess Adela![N][A]
 
 [FarRight]#Adela
 How does the situation look up ahead,[N]
