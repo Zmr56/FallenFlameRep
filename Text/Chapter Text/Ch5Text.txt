@@ -97,3 +97,177 @@ land further, pillaging our relics.[A]
 [Right]#Wren
 That'd be more than fine...[N][A]
 [X]
+
+## Ch5ClosingText1
+
+[Right][LoadWren]
+[Left][LoadWigbrand]
+
+[Right]#Wren
+Looks like they're all routed then.[N][A]
+
+[Left]#Wigbrand
+Wyvember shouldn't have been able to[N]
+reach as far as Animahead's shores.[A][N]
+Something is certainly amiss here.[A]
+
+[Right]#Wren
+We should press on to the colony.[N]
+I'll be able to get some answers[A][N]
+from my uncle about what's gone[N]
+wrong. He's the governor after all.[A]
+
+[Left]#Wigbrand
+Knowing him, he's probably why[N]
+we've got this mess on our hands.[A]
+
+[Right]#Wren
+Sorry... I honestly think he tries his[N]
+best but Ospretia is a difficult colony[A][N]
+to govern and he's made some enemies.[A]
+
+[Left]#Wigbrand
+I'll agree on those last two points.[N][A]
+
+[Right]#Wren
+Your mind probably won't change on that[N]
+first point so I won't argue about this[A][N]
+now. Let's get going to the Archbishop.[A]
+[X]
+
+## Ch5ClosingText2
+
+[Right][LoadWren]
+
+[Right]#Wren
+Hello? Are you there, Archbishop?[N][A]
+
+[Left][LoadArchbishop]
+
+[Left]#Archbishop
+Hello, Lady Wren. Were the[N]
+blessings we placed on the[A][N]
+island sufficient for you?[A]
+
+[Right]#Wren
+Yes, the manaketes were weakened enough[N]
+for us to take them down before they[A][N]
+plundered enough from the church.[A]
+
+[Left]#Archbishop
+Ah yes... That was our worry and one[N]
+that relates to your sword, Falchion.[A][N]
+You wanted to learn more about it, yes?[A]
+
+[Right]#Wren
+Indeed, I was advised to come here for[N]
+that reason in fact. Could you explain?[A]
+
+[Left]#Archbishop
+Falchion is a dragon slaying sword.[N]
+Forged from the fang of a legendary[A][N]
+dragon, Soma Ashoka. The last emperor[N]
+of Wyvember before Emperor Vritra.[A]
+
+[Right]#Wren
+...![N][A]
+
+[Left]#Archbishop
+I understand this is quite a shock.[N]
+Especially given only you can wield[A][N]
+this blade. Well, so can your mother.[N]
+However, she did not want to partake[A][N]
+in the war, instead she went on a[N]
+pilgrimage to Viripuria's far east.[A]
+
+[Right]#Wren
+She spoke with me and my father about[N]
+her decision a few times when we last[A][N]
+saw her. Sometimes she writes letters.[N]
+I understand and respect her decision.[A]
+
+[Left]#Archbishop
+Naturally, it means you must be the[N]
+one to wield Falchion. No one else[A][N]
+can unlock the draconic power of it.[A]
+
+[Right]#Wren
+This is what I'm confused about though.[N]
+*Why* is it only me who can wield it?[A][N]
+I've never even drank dragon's blood.[A]
+
+[Left]#Archbishop
+We've studied extensively for an answer[N]
+but all we can say is it's a miracle.[A][N]
+Given time, maybe you'll learn more.[A]
+
+[Right]#Wren
+...[N]
+That's it?[A]
+
+[Left]#Archbishop
+Excuse me?[N][A]
+
+[Right]#Wren
+I risked my life for you and everyone[N]
+else here against literal manaketes[A][N]
+only for you to tell me that actually[N]
+you don't really know!? That it's just[A][N]
+a funny little miracle? Seriously?[A]
+
+[Left]#Archbishop
+Young lady![N][A]
+
+[Right]#Wren
+Nope. Forget this. I know you know.[N][A]
+
+[Left]#Archbishop
+You would accuse me of lying?[N]
+Me, the head of Blumari's church!?[A]
+
+[Right]#Wren
+My mother has given her life to this[N]
+church, she gave up her old one for it![A][N]
+Yet you can't even give me the dignity[N]
+of the truth. I pray and I pray every[A][N]
+single day! I follow all the rules and[N]
+still it's not enough for your respect![A]
+
+[Left]#Archbishop
+You should show a little yourself![N][A]
+
+[Right]#Wren
+Whatever, clearly I'm not wanted here.[N][A]
+
+[Right][ClearFace]
+
+[Left]#Archbishop
+*sigh* Oh Lady Wren...[N]
+I wish I could tell you more.[A][N]
+If not me then certainly you,[N]
+the one who skulks in the shadows.[A]
+
+[Right][LoadWigbrand]
+
+[Right]#Wigbrand
+She'll learn when she's ready.[N][A]
+
+[Left]#Archbishop
+Does it not choke you up from within?[N]
+Denying her of the truth she is owed?[A]
+
+[Right]#Wigbrand
+It does not matter to me.[N][A]
+
+[Left]#Archbishop
+Or is it that you can't let it matter?[N][A]
+
+[Right]#Wigbrand
+...[N]
+Hmph.[A]
+
+[Right][ClearFace]
+
+[Left]#Archbishop
+I'm sorry, Wren...[N][A]
+[X]

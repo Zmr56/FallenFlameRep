@@ -5,6 +5,7 @@
 #include "Ch4Text.txt"
 #include "Ch5Text.txt"
 #include "Ch5BaseText.txt"
+#include "Ch6Text.txt"
 #include "Ch6BaseText.txt"
 #include "Ch7Text.txt"
 #include "Ch7BaseText.txt"

@@ -68,3 +68,11 @@ setMugEntry(0xB6, Elder_Mug, 2, 6, 2, 4)
 Kevyn_Mug:
 #incext PortraitFormatter "Kevyn.png"
 setMugEntry(0xB8, Kevyn_Mug, 2, 4, 2, 2)
+
+Archbishop_Mug:
+#incext PortraitFormatter "Archbishop.png"
+setMugEntry(0xB9, Archbishop_Mug, 3, 6, 3, 4)
+
+Egret_Mug:
+#incext PortraitFormatter "Egret.png"
+setMugEntry(0xBA, Egret_Mug, 3, 5, 3, 3)

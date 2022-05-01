@@ -95,6 +95,8 @@
 [Elder1Portrait] = [0xB6][0x1]
 [RentoulPortrait] = [0xB7][0x1]
 [KevynPortrait] = [0xB8][0x1]
+[ArchbishopPortrait] = [0xB9][0x1]
+[EgretPortrait] = [0xBA][0x1]
 
 [LoadWren] = [LoadFace][WrenPortrait]
 [LoadWigbrand] = [LoadFace][WigbrandPortrait]
@@ -140,6 +142,8 @@
 [LoadElder1] = [LoadFace][Elder1Portrait]
 [LoadRentoul] = [LoadFace][RentoulPortrait]
 [LoadKevyn] = [LoadFace][KevynPortrait]
+[LoadArchbishop] = [LoadFace][ArchbishopPortrait]
+[LoadEgret] = [LoadFace][EgretPortrait]
 
 [LoadInnes] = [LoadFace][0xf][0x1]
 [LoadCormag] = [LoadFace][0x13][0x1]

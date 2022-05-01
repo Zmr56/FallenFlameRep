@@ -8,135 +8,99 @@
 
 [Right]#Wren
 
-What are you doing out here Gwyn?[N]
+Hey Gwyn, I saw you at the committee[N]
 
-Usually you're around Mordred.[A]
-
-
-
-[Left]#Gwyn
-
-That's Sir Gwyn Limestone to you.[N]
-
-Anyway I'm having a smoke. Mordred gets[A][N]
-
-annoyed whenever I smoke around him so[N]
-
-I'm here on my own. Don't get the wrong[A][N]
-
-idea, I'm not a loner like you are.[A]
-
-
-
-[Right]#Wren
-
-Haha, very funny.[N]
-
-Well I can see why he would be annoyed.[A][N]
-
-That's an awful smell.[A]
+meeting but we didn't get to talk.[A]
 
 
 
 [Left]#Gwyn
 
-Smoking is good for you, how it smells[N]
+Well usually you don't want to.[N]
 
-doesn't bother me. Your old man smokes[A][N]
-
-too but he didn't wanna join me.[A]
+We're not exactly the best of buds.[A]
 
 
 
 [Right]#Wren
 
-Anyway, I'm not a loner, just so you[N]
-
-know. I have plenty of friends.[A][N]
-
-Real friends, unlike you.[A]
+Uhh? Neither do you.[N][A]
 
 
 
 [Left]#Gwyn
 
-Sounds like horsedung to me.[N]
-
-I bet you can't even name them.[A]
+I can't dispute that.[N][A]
 
 
 
 [Right]#Wren
 
-Actually, I can.[N]
+I just wanted to say bye before you[N]
 
-Sarai, Adela, Shamira, Dana and Orvar.[A]
+head off to Viripuria, along with[A][N]
+
+Hendry, Mordred and my father.[A]
 
 
 
 [Left]#Gwyn
 
-Ha! Five is nothing. I've got too many[N]
+You're saying bye to Mordred?[N]
 
-to count myself. I've rubbed shoulders[A][N]
+This is a shock to me, weren't[A][N]
 
-with everyone in high society, being a[N]
-
-knight. Well, I guess you sorta have[A][N]
-
-too, but nothing really came out of it.[A]
+you two at each other's throats?[A]
 
 
 
 [Right]#Wren
 
-I could keep going off on you but your[N]
+Never a moment where we aren't,[N]
 
-grandpa already gives you enough grief[A][N]
-
-as is, even if he's sometimes right.[N]
-
-Plus you're about to be fighting[A][N]
-
-Manaketes soon so I'll let you off.[A]
+but it's the polite thing to do.[A]
 
 
 
 [Left]#Gwyn
 
-Manaketes are nothing. I don't need[N]
-
-some specially crafted sword for[A][N]
-
-stabbing them with, unlike you.[N]
-
-Still, I don't get why they gave it to[A][N]
-
-you of all people.[A]
+Maybe you weren't as bad as I thought.[N][A]
 
 
 
 [Right]#Wren
 
-Probably because I'm not an airheaded[N]
+A lot of your thinking was just based[N]
 
-knight who rides blindly into danger.[A]
+on holding prejudiced beliefs about me.[A]
 
 
 
 [Left]#Gwyn
 
-Well I'm still alive after all these[N]
+As usual, you don't know what you're[N]
 
-battles. Something's gotta be working.[A]
+talking about, but here is neither the[A][N]
+
+time nor place for a debate about this.[A]
 
 
 
 [Right]#Wren
 
-Nevermind. Logic and reason are wasted[N]
+Why do I bother...[N][A]
 
-on you. Cheerio![A]
+
+
+[Left][ClearFace]
+
+
+
+[Right]#Wren
+
+Gosh, people from down[N]
+
+south are the worst.[A]
 
 [X]
 

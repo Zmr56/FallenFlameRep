@@ -94,7 +94,7 @@ ALIGN 4
 BeginningScene:
 LOAD1 0 Units1
 ENUN
-LOAD1 0 Anchor
+LOAD1 0x01 Anchor
 ENUN
 
 CAM1 Wren

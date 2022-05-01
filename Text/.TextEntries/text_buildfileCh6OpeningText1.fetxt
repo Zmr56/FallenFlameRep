@@ -1,0 +1,74 @@
+
+
+[Right][LoadWren]
+
+
+
+[Right]#Wren
+
+There she is... Ospretia.[N]
+
+Sarai! How's it looking?[A]
+
+
+
+[Left][LoadSarai]
+
+
+
+[Left]#Sarai
+
+Not good! There's pirates about![N]
+
+Well, not just pirates. There's[A][N]
+
+other soldiers from Wyvember too[N]
+
+and some in Ospretian uniform![A]
+
+
+
+[Right]#Wren
+
+Ospretians fighting against Blumari?[N]
+
+That's impossible! Unless... *sigh*[A]
+
+
+
+[Left]#Sarai
+
+Huh? What is it?[N][A]
+
+
+
+[Right]#Wren
+
+My uncle has a habit of upsetting[N]
+
+certain people in Ospretia. Wyvember[A][N]
+
+probably saw an opportunity to fan the[N]
+
+flames of rebellion with their anger.[A]
+
+
+
+[Left]#Sarai
+
+He's probably being held hostage then.[N]
+
+We ought get to him quickly, Wren.[A]
+
+
+
+[Right]#Wren
+
+I know. These turncoats will pay for[N]
+
+taking my family from me. Let's dock[A][N]
+
+and move out to attack, everyone![A]
+
+[X]
+

@@ -126,6 +126,12 @@ UNIT 0x80 Fighter Murray Level(6, Enemy, 1) [1,2] 0x00 0x00 0x0 0x00 [SteelAxe, 
 UNIT
 
 BeginningScene:
+MUSC 0x06
+SetBackground(0x08)
+Text(Ch6OpeningText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
 LOAD2 0x1 Units1
 ENUN
 LOAD1 0x01 Bad

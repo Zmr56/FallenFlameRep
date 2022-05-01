@@ -1,0 +1,44 @@
+
+Full Names:
+
+Wren Osprey, granddaughter of Duke Woadlan.
+Sir Kestral Osprey, son of Duke Woadlan.
+Falcone Osprey, Duke Woadlan.
+Sarai Randel, daughter of Duke Wystan.
+Sir Kevyn Randel, son of Duke Wystan.
+Sir Dunstan Randel, Duke Wystan.
+Sir Mordred Uthyr, Duke Orinde.
+Sir Cledwyn Limestone, Duke Caerwyn.
+Sir Gwyn Limestone, son of Duke Caerwyn.
+
+Place Names:
+
+Continent: Balhutia
+Countries:
+	- Blumari
+		* Regions:
+
+		- Animahead
+		- Woadlan
+		- Wystan
+		- Orinde
+		- Caerwyn
+		- Greater-Seyfaut
+
+		* Colonies:
+
+		- Ospretia
+
+		* Settlements:
+
+		- Seyfaut
+		- Aquanpool
+
+	- Wyvember
+		* Regions:
+
+		- Blakpeak
+		
+		* Colonies:
+
+		- Umbrake

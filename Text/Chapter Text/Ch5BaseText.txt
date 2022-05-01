@@ -470,7 +470,7 @@ will heal up before the war's end and[A][N]
 you'll see me in my peak condition![A]
 
 [Right]#Sarai
-Don't try to convinc this stubborn old[N]
+Don't try to convince this stubborn old[N]
 codger, Wren. I said I'd have a word[A][N]
 with him but he won't learn any sense.[A]
 
@@ -511,4 +511,59 @@ Mhmm! You know I'm a tough cookie![N][A]
 
 [FarLeft]#Wren
 Heh, you most certainly are.[N][A]
+[X]
+
+## GwynCh5Base
+
+[Right][LoadWren]
+[Left][LoadGwyn]
+
+[Right]#Wren
+Hey Gwyn, I saw you at the committee[N]
+meeting but we didn't get to talk.[A]
+
+[Left]#Gwyn
+Well usually you don't want to.[N]
+We're not exactly the best of buds.[A]
+
+[Right]#Wren
+Uhh? Neither do you.[N][A]
+
+[Left]#Gwyn
+I can't dispute that.[N][A]
+
+[Right]#Wren
+I just wanted to say bye before you[N]
+head off to Viripuria, along with[A][N]
+Hendry, Mordred and my father.[A]
+
+[Left]#Gwyn
+You're saying bye to Mordred?[N]
+This is a shock to me, weren't[A][N]
+you two at each other's throats?[A]
+
+[Right]#Wren
+Never a moment where we aren't,[N]
+but it's the polite thing to do.[A]
+
+[Left]#Gwyn
+Maybe you weren't as bad as I thought.[N][A]
+
+[Right]#Wren
+A lot of your thinking was just based[N]
+on holding prejudiced beliefs about me.[A]
+
+[Left]#Gwyn
+As usual, you don't know what you're[N]
+talking about, but here is neither the[A][N]
+time nor place for a debate about this.[A]
+
+[Right]#Wren
+Why do I bother...[N][A]
+
+[Left][ClearFace]
+
+[Right]#Wren
+Gosh, people from down[N]
+south are the worst.[A]
 [X]

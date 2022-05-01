@@ -128,6 +128,18 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+MUSC 0x34
+SetBackground(0x29)
+Text(Ch5ClosingText1)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
+MUSC 0x29
+SetBackground(0x2D)
+Text(Ch5ClosingText2)
+TEXTEND
+CALL $9EE2C4 //BGEnd
+ENUN
 MNCH 0x08
 NoFade
 ENDA

@@ -29,6 +29,7 @@ CharacterEventBothWays(0xC, WrenMordredTalk, Wren, Mordred)
 CharacterEventBothWays(0xD, RandelsTalk, Wren, DunstanCiv)
 CharacterEventBothWays(0xE, RandelsTalk, Wren, Sarai)
 CharacterEventBothWays(0xF, RandelsTalk, Wren, Roamer1)
+CharacterEventBothWays(0x10, GwynTalk, Wren, Roamer2)
 /*
 CharacterEventBothWays(0xC, WrenKestralTalk, Wren, Kestral)
 CharacterEventBothWays(0xD, WrenKestralTalk, Wren, Wigbrand)
@@ -88,6 +89,14 @@ ENDA
 RandelsTalk:
 SetBackground(0x0A)
 Text(RandelsCh5Base)
+REMA
+NoFade
+CALL $9EE2C4 //BGEnd
+ENDA
+
+GwynTalk:
+SetBackground(0x0A)
+Text(GwynCh5Base)
 REMA
 NoFade
 CALL $9EE2C4 //BGEnd
