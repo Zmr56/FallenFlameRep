@@ -29,13 +29,13 @@ GofaulTownPalette:
 #incbin "Tileset/GofaulTownPalette.pal.bin"
 
 EventPointerTable(0x72, GofaulTownPalette)
-
+/*
 ALIGN 4
 GofaulTownPalette:
 #incbin "Tileset/GofaulTownPalette.pal.bin"
 
 EventPointerTable(0x72, GofaulTownPalette)
-
+*/
 ALIGN 4
 PrisonPalette:
 #incbin "Tileset/PrisonPalette.pal.bin"

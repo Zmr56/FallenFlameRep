@@ -1,4 +1,5 @@
-
+#ifndef MAIN_MENU_DEFS
+#define MAIN_MENU_DEFS
 #define MM_Unit 	  "BYTE $DC $7E $0D $08 $9A $06 $DF $06 $00 $6E $00 $00 $49 $F4 $04 $08 $00 $00 $00 $00 $0D $26 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
 #define MM_Status	  "BYTE $D4 $7E $0D $08 $90 $06 $E0 $06 $00 $6F $00 $00 $49 $F4 $04 $08 $00 $00 $00 $00 $51 $26 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
 #define MM_Guide	  "BYTE $CC $7E $0D $08 $9C $06 $E5 $06 $04 $74 $00 $00 $61 $26 $02 $08 $79 $26 $02 $08 $E5 $26 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
@@ -11,3 +12,4 @@
 
 #define MenuBox(XCoord, YCoord, Width, Height, Style, CommandListPointer) "BYTE XCoord YCoord Width Height; WORD Style; POIN CommandListPointer"
 #define MenuBoxFull(XCoord, YCoord, Width, Height, Style, CommandListPointer, Constructor, RPressStart, Pointer3, OnBPress, OnRPress, RPressEnd) "BYTE XCoord YCoord Width Height; WORD Style; POIN CommandListPointer Constructor RPressStart Pointer3 OnBPress OnRPress RPressEnd"
+#endif // MAIN_MENU_DEFS

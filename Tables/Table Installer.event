@@ -22,13 +22,7 @@
 
 #include "FE8 Nightmare modules\Item editors\FE8 Item Editor.event"
 
-#include "FE8 Nightmare modules\Item editors\FE8 Item Target Pointer Editor.event"
-
-#include "FE8 Nightmare modules\Item editors\FE8 Item Usability Pointer Editor.event"
-
 #include "FE8 Nightmare modules\Item editors\FE8 Spell Association Editor.event"
-
-#include "FE8 Nightmare modules\Item editors\FE8 Staff AI Table.event"
 
 #include "FE8 Nightmare modules\Item editors\Stat Bonuses Editor.event"
 
