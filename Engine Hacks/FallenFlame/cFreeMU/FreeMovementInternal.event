@@ -77,7 +77,7 @@ ALIGN 4
 	_6C_GOTO(0xE)
 	
 	_6C_LABEL(5)	//Press B
-	_6C_CALL_ROUTINE(pFMU_PressB|1)
+//	_6C_CALL_ROUTINE(pFMU_PressB|1)
 	_6C_GOTO(0)
 	
 	_6C_LABEL(6)	//Press L
@@ -90,7 +90,7 @@ ALIGN 4
 	
 	_6C_LABEL(8)	//Press Select
 	_6C_SLEEP(0x3)
-	_6C_CALL_ROUTINE(pFMU_PressSelect|1)
+//	_6C_CALL_ROUTINE(pFMU_PressSelect|1) //stop switching chars w/ select button
 	_6C_GOTO(0)
 	
 	_6C_LABEL(9)	//Press Start

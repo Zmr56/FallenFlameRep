@@ -13,7 +13,7 @@ LYN := $(abspath .)/include/Tools/lyn -longcalls
 
 # setting up compilation flags
 ARCH   := -mcpu=arm7tdmi -mthumb -mthumb-interwork
-CFLAGS := $(ARCH) -Wall -Os -mtune=arm7tdmi  -mlong-calls
+CFLAGS := $(ARCH) -Wall -Os -mtune=arm7tdmi  -mlong-calls 
 
 # reference object
 LYNREF := include/_Definitions.h.o

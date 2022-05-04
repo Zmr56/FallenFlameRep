@@ -9,6 +9,8 @@
 #define EnableFreeMovement "ASMC EnableFreeMovementASMC"
 #define DisableFreeMovement "ASMC DisableFreeMovementASMC"
 
+#define ChangeControlledUnit(charID) "SVAL s1 charID; ASMC ChangeControlledUnitASMC"
+
 ALIGN 4
 FreeMoveFlag:
 	WORD 0x02028924

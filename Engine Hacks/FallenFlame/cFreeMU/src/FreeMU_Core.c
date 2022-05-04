@@ -5,7 +5,7 @@ static inline bool IsPosInvaild(s8 x, s8 y){
 }
 
 static inline bool IsCharNotOnMap(Unit* unit){
-	if(-1==unit->xPos)
+	if(0x08&&unit->state != 0)
 		return 1;
 	return 0;
 }
@@ -40,7 +40,7 @@ void pFMU_MainLoop(struct FMUProc* proc){
 }
 
 
-void pFMU_HanleContinueMove(struct FMUProc*){
+void pFMU_HanleContinueMove(struct FMUProc* proc){
 	return;
 }
 

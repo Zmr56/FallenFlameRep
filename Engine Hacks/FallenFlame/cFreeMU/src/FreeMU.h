@@ -57,7 +57,7 @@ void EnableFreeMovementASMC(void);
 void DisableFreeMovementASMC(void);
 u8 GetFreeMovementState(void);
 void End6CInternal_FreeMU(FMUProc* proc);
-void ChangeControlledUnitASMC(struct FMUProc*);
+void ChangeControlledUnitASMC(struct Proc*);
 void NewPlayerPhaseEvaluationFunc(struct Proc*);
 void NewMakePhaseControllerFunc(struct Proc*);
 void pFMU_OnInit(struct FMUProc*);

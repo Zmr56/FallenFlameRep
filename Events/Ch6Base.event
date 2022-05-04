@@ -101,6 +101,9 @@ CAM1 Wren
 FADU 10
 
 EnableFreeMovement
+
+ChangeControlledUnit(Wren)
+
 NoFade
 ENDA
 

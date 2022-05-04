@@ -43,9 +43,10 @@ void End6CInternal_FreeMU(FMUProc* proc){
  * On Game Control 
  */
  
-void ChangeControlledUnitASMC(struct FMUProc* proc){
-	proc->FMUnit=GetUnitStructFromEventParameter(gEventSlot[1]);
-	EnsureCameraOntoPosition(0,proc->FMUnit->xPos, proc->FMUnit->yPos);
+void ChangeControlledUnitASMC(struct Proc* proc){
+	FMUProc* fmu = (FMUProc*)(ProcFind(&FreeMovementControlProc[0]));
+	fmu->FMUnit=GetUnitStructFromEventParameter(gEventSlot[1]);
+	EnsureCameraOntoPosition(0,fmu->FMUnit->xPos, fmu->FMUnit->yPos);
 	return;
 }
 
@@ -92,6 +93,7 @@ void pFMU_OnInit(struct FMUProc* proc){
 
 void pFMU_InitTimer(struct FMUProc* proc){
 	proc->uTimer = 0;
+	proc->FMUnit = 0;
 	return;
 }
 
