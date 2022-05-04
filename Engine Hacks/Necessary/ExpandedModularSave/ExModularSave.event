@@ -83,6 +83,8 @@ gSaveBlockTypeSizeLookup:
 
 #include "SrcModules/Debuffs.lyn.event" // Debuffs module
 
+#include "SrcModules/SaveLoadFreeMoveFlag.lyn.event" //free move module
+
 #ifdef USE_STRMAG_SPLIT
 	#ifdef STAIRS_ASM
 		MESSAGE EMS with strmag and Stair
@@ -196,7 +198,9 @@ gSuspendSaveChunks:
 
 	// ends at $2DA8
 	// free up to $2E78 ($D0 free bytes)
-
+	
+	DeclSaveChunk($2E00, 1, ESU_SaveFreeMoveFlag, ESU_LoadFreeMoveFlag)
+	
 	DeclSaveChunk(0, 0, 0, MSu_LoadClaimFlagsFromParentSave) // Load Bonus Claim flags from parent save
 
 	DeclSaveChunkEnd
