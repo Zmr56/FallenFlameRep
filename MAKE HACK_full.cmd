@@ -12,10 +12,10 @@ echo: | (text-process-classic text_buildfile.txt --parser-exe "%~dp0Event Assemb
 
 cd "%~dp0Event Assembler"
 
-ColorzCore A FE8 "-output:%~dp0SkillsTest.gba" "-input:%~dp0ROM Buildfile.event"
+ColorzCore A FE8 "-output:%~dp0FE-Fallen-Flame.gba" "-input:%~dp0ROM Buildfile.event"
 
 cd "%~dp0ups"
 
-ups diff -b "%~dp0FE8_clean.gba" -m "%~dp0SkillsTest.gba" -o "%~dp0SkillsTest.ups"
+ups diff -b "%~dp0FE8_clean.gba" -m "%~dp0FE-Fallen-Flame.gba" -o "%~dp0FE-Fallen-Flame.ups"
 
 pause

@@ -24,6 +24,6 @@
 #endif
 
 PromoLordCheck:
-	#include "FE8 Nightmare modules\ItemEffectRevamp\IERevamp_Core\PromoCheck_FlagSkip.event"
-	BYTE 0x0 0x20 0x0 0x0	//character/class ability bits to compare against
+//	#include "FE8 Nightmare modules\ItemEffectRevamp\IERevamp_Core\PromoCheck_FlagSkip.event"
+//	BYTE 0x0 0x20 0x0 0x0	//character/class ability bits to compare against
 	//POIN PromoItem_LevelCheck
