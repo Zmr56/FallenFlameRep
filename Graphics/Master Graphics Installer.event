@@ -297,6 +297,9 @@ ItemIconEntry(Lightning)
 ItemIconEntry(Divine)
 #incext Png2Dmp "ItemIcons/Divine.png"
 
+ItemIconEntry(Shine)
+#incext Png2Dmp "ItemIcons/Shine.png"
+
 ItemIconEntry(Flux)
 #incext Png2Dmp "ItemIcons/Flux.png"
 
@@ -314,6 +317,9 @@ ItemIconEntry(Miasma)
 
 ItemIconEntry(Nosferatu)
 #incext Png2Dmp "ItemIcons/Nosferatu.png"
+
+ItemIconEntry(Luna)
+#incext Png2Dmp "ItemIcons/Luna.png"
 
 //Staff Icons
 ItemIconEntry(Heal)
