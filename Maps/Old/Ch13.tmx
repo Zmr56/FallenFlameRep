@@ -3,6 +3,9 @@
  <tileset firstgid="1" name="Canyon" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="../FE8/Canyon.png" width="512" height="512"/>
  </tileset>
+ <tileset firstgid="1025" name="Frontier Extended" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="Frontier Extended.png" width="512" height="512"/>
+ </tileset>
  <layer name="Main" width="18" height="19">
   <properties>
    <property name="Anims1" value="0"/>
@@ -15,7 +18,7 @@
    <property name="TileConfig" value="0"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztktENwjAMRC8NsAijdDM2AcQgIYU9GsIenFVXHP3qRz8q1I8nW07uzlLSAmj/nEsD7CJwZt2zHuJ8rWnG/sS+CUAIQ+19/iB38iQ33nl7jvpcZQfbp3CWnEyOXpP3mmGacWebZTnP4vPyrIrvbp1kmCaGwS/hl36im1LcvxON+VWfF8mfQ5XMtNA71xX8tY0N4wNtQnCt
+   eJxLZmFgSB6GOJGdgSGJnXJzGoFmNFHBnIVAMxZRwZxRPIpH8eDHAPq3imQ=
   </data>
  </layer>
  <layer name="Change" width="18" height="19" visible="0">

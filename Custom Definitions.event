@@ -41,6 +41,8 @@
 #define LunarBrace MoonBracelet
 #define SolarBrace SunBracelet
 
+#define FlierMovCost $80bb96
+
 #define PROC_YIELD "PROC_SLEEP(0)"
 
 #include "Engine Hacks/SkillSystem/skill_definitions.event"

@@ -112,3 +112,5 @@ ALIGN 4
 #include "ExternalTables/WTEditor.event"
 
 #include "ExternalTables/Promo Item Lists.event"
+
+#include "ExternalTables/Movement Costs.event"
