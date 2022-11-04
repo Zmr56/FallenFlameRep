@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="18" height="19" tilewidth="16" tileheight="16" nextobjectid="1">
- <tileset firstgid="1" name="Canyon" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../FE8/Canyon.png" width="512" height="512"/>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="24" height="24" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="Frontier Extended" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../Tileset/Frontier Extended.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1025" name="Frontier Extended" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="Frontier Extended.png" width="512" height="512"/>
- </tileset>
- <layer name="Main" width="18" height="19">
+ <layer name="Main" width="24" height="24">
   <properties>
    <property name="Anims1" value="0"/>
    <property name="ChapterID" value="0"/>
@@ -18,10 +15,10 @@
    <property name="TileConfig" value="0"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxLZmFgSB6GOJGdgSGJnXJzGoFmNFHBnIVAMxZRwZxRPIpH8eDHAPq3imQ=
+   eJx9VTtrVUEQ3rOrKEoUBB8ptbEy2Ih1HgTstLIT7wk3iRb+BDE3YuIDJbEXn2CTYKKFlQgWBhLvJSFiKZGgAYNBIRob9fuYGXfv5pLiY87O7n7z2Jk51eDcoHNuADiB7/feuT+QfwG3zbn9qpvRM4OJ7CqcO6wYKkQ/7KKs4u6IyreQdWAN6LE70I9i/QWYcnKW6+3QdyfcRAW6R9jrA64q5+PEl2M40wvMuXh3CfgO3xvQnQ1ytgxil0j5h3TfbBg3fSJHG870A6tY10KMed5Jfhb0bI9yfcr8Xw7C06f8o3qecb2B/hewqxD/eLei+aTvF/E94WXN2IYzbouVXNchF51wPvVilzgHnA/Rd56dT/JO3yZ9c146i805Mh5ykoPxBsjLwJUkbsvnGDDuJD/03fYZH9+tlsVgPPZGD73cMX0eL/M2pdzmO7mHkxyXiQ3jWdI3qXmp45zf3iyN97/vYXMvlBm/5cDyfQ/yfmjOaRpvWi9DIfYC5R34eNtLrozH7lutsIcOWo23iDevlQHtIfO/oXIv9laSd2GNz3jpOdZhQ/3q2oKfd6ra2/P6/uPQ/fTCbXF1qR8TWqvv8P1BZ43ZT+O1t2246P+GF+72IPW74uO7kGNEY+PeV8ijhZxfx/ol7nxUvAJeB9HTh5va2zc0H+Q5Df0s1j+AJ1jvUPt3aaeIdg9BP+3iHDVwnk5rLmxmXNPe3o39EvIC+xC6fZCXfKy/Soh5G816iegDHug5zsJTOgtvFXKevrcBR5jnQmz0+uZ+s1lE7lr2psx7t5NzjJO55Cw8EMT3NuVfLSL/QlIfy2pjWXsin4+0zfe0GBjnhvY2/T+O7znFLGMAzvjN/Rwybus3i687+bbcDuq8pP1JYC1Bq37rVFhOSt2zmWXf5ttnH+dlPUid//Zyl33L2i0TztyHZ0F6xey3mh1mk/xVfHcUkr/+IFhw8X9S17rdiTN7Clmnc7jV7DC/GsDJIP/zgWT+zrIfCqnvRdWzjziTvmkMZcZvua2or4vq13OsX2iPWH5Ybx06L9aD6LlPH5jLutaPzSVysg/btZY4u3hvTO/RN+79A3DpJfk=
   </data>
  </layer>
- <layer name="Change" width="18" height="19" visible="0">
+ <layer name="Change" width="24" height="24" visible="0">
   <properties>
    <property name="Height" value="0"/>
    <property name="ID" value="0"/>
@@ -30,7 +27,7 @@
    <property name="Y" value="0"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRQE0AAAVYAAE=
+   eJztwQEBAAAAgiD/r25IQAEAfBkJAAAB
   </data>
  </layer>
 </map>

@@ -112,8 +112,8 @@
 #endif
 
 //Custom definitions go here:
-#include "_IER_CSV_Definitions.event"
-#endif
+//#include "_IER_CSV_Definitions.event"
+//#endif
 
 //weapon types
 /*

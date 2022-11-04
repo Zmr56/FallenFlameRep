@@ -1,24 +1,24 @@
 
 BraveSealList:
-BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter Barbarian Soldier 0x00 0x00 0x00 0x00
+BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter Barbarian Soldier 0x00
 
 RiderSealList:
-BYTE SwordCav SwordCavF LanceCav LanceCavF AxeCav AxeCavF Nomad Troubadour 0x00 0x00 0x00 0x00
+BYTE SwordCav SwordCavF LanceCav LanceCavF AxeCav AxeCavF Nomad Troubadour 0x00
 
 ScoutSealList:
-BYTE Archer Archer_F Thief 0x00 0x00 0x00 0x00
+BYTE Archer Archer_F Thief 0x00
 
 FlierSealList:
-BYTE PegasusKnight WyvernRider 0x00 0x00 0x00 0x00
+BYTE PegasusKnight WyvernRider 0x00
 
 MagiSealList:
-BYTE Mage Mage_F Shaman Shaman_F Monk Priest Cleric 0x00 0x00 0x00 0x00
+BYTE Mage Mage_F Shaman Shaman_F Monk Priest Cleric 0x00
 
 ShieldSealList:
-BYTE Knight Knight_F 0x00 0x00 0x00 0x00
+BYTE Knight Knight_F 0x00
 
 CrownSealList:
-BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter Barbarian Soldier SwordCav SwordCavF LanceCav LanceCavF AxeCav AxeCavF Nomad Troubadour Archer Archer_F Thief PegasusKnight WyvernRider Mage Mage_F Shaman Shaman_F Monk Priest Cleric Knight Knight_F 0x00 0x00 0x00 0x00
+BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter Barbarian Soldier SwordCav SwordCavF LanceCav LanceCavF AxeCav AxeCavF Nomad Troubadour Archer Archer_F Thief PegasusKnight WyvernRider Mage Mage_F Shaman Shaman_F Monk Priest Cleric Knight Knight_F 0x00
 
 HeavenSealList:
 BYTE 0x00 0x00 0x00 0x00
@@ -28,7 +28,7 @@ BYTE 0x00 0x00 0x00 0x00
 
 SolarBraceList:
 BYTE 0x00 0x00 0x00 0x00
-
+/*
 #define PromoItem(Index,List) "ORG PromoItemTable + 0x4 + (Index * 12); POIN List"
 
 PUSH
@@ -43,7 +43,7 @@ PromoItem(0x7,ShieldSealList)
 PromoItem(0x8,LunarBraceList)
 PromoItem(0x9,SolarBraceList)
 POP
-
+*/
 PUSH
 ORG $29398
 POIN BraveSealList
