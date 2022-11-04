@@ -13,7 +13,116 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TURN 0x0 WaveFirst[4,0] 0x0
+TURN 0x0 WaveSecond[7,0] 0x0
+TURN 0x0 WaveThird[10,0] 0x0
+TURN 0x0 WaveFour[12,0] 0x0
+TURN 0x0 WaveFive[15,0] 0x0
+TURN 0x0 WaveSix[19,0] 0x0
 END_MAIN
+
+WaveFirst:
+ReinforcementEvent(Wave1)
+ENDA
+
+WaveSecond:
+ReinforcementEvent(Wave2)
+ENDA
+
+WaveThird:
+ReinforcementEvent(Wave3)
+ENDA
+
+WaveFour:
+ReinforcementEvent(Wave4)
+ENDA
+
+WaveFive:
+ReinforcementEvent(Wave5)
+ENDA
+
+WaveSix:
+ReinforcementEvent(Wave6)
+ENDA
+
+WaveStairs:
+ReinforcementEvent(WaveArea)
+ENDA
+
+Wave1:
+UNIT 0x80 Cavalier Bazba Level(6, Enemy, 1) [16,7] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Bazba Level(6, Enemy, 1) [16,8] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI
+UNIT 0x80 LanceCav Bazba Level(6, Enemy, 1) [17,7] 0x00 0x00 0x0 0x00 [IronPike, Lancea] PursueWithoutHeedAI 
+UNIT 0x80 LanceCav Bazba Level(6, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [IronPike, Lancea] PursueWithoutHeedAI
+UNIT
+
+Wave2:
+UNIT 0x80 Barbarian Murray Level(6, Enemy, 1) [17,17] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Barbarian Murray Level(6, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Murray Level(6, Enemy, 1) [17,18] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Murray Level(6, Enemy, 1) [0,18] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 Archer Murray Level(6, Enemy, 1) [10,18] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x80 Archer Murray Level(6, Enemy, 1) [12,18] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI
+UNIT
+
+Wave3:
+UNIT 0x80 LanceCav Bazba Level(7, Enemy, 1) [16,7] 0x00 0x00 0x0 0x00 [KillerLance, Horseslayer] PursueWithoutHeedAI 
+UNIT 0x80 LanceCav Bazba Level(7, Enemy, 1) [16,8] 0x00 0x00 0x0 0x00 [KillerLance, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 AxeCav Bazba Level(7, Enemy, 1) [17,7] 0x00 0x00 0x0 0x00 [IronMace, Hurlbat] PursueWithoutHeedAI 
+UNIT 0x80 AxeCav Bazba Level(7, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [IronMace, Hurlbat] PursueWithoutHeedAI
+UNIT 0x80 Archer Murray Level(7, Enemy, 1) [17,17] 0x00 0x00 0x0 0x00 [IronGreatbow] PursueWithoutHeedAI 
+UNIT 0x80 Archer Murray Level(7, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [IronGreatbow] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Murray Level(7, Enemy, 1) [17,18] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Murray Level(7, Enemy, 1) [0,18] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
+UNIT 0x80 Cavalier Bazba Level(7, Enemy, 1) [10,18] 0x00 0x00 0x0 0x00 [SteelSword, Longsword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Bazba Level(7, Enemy, 1) [12,18] 0x00 0x00 0x0 0x00 [SteelSword, Longsword] PursueWithoutHeedAI
+UNIT
+
+Wave4:
+UNIT 0x80 Cavalier Bazba Level(7, Enemy, 1) [16,7] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Bazba Level(7, Enemy, 1) [16,8] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI
+UNIT 0x80 LanceCav Bazba Level(7, Enemy, 1) [17,7] 0x00 0x00 0x0 0x00 [IronPike, Lancea] PursueWithoutHeedAI 
+UNIT 0x80 LanceCav Bazba Level(7, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [IronPike, Lancea] PursueWithoutHeedAI
+UNIT 0x80 Barbarian Murray Level(7, Enemy, 1) [17,17] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Barbarian Murray Level(7, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Murray Level(7, Enemy, 1) [17,18] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Murray Level(7, Enemy, 1) [0,18] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 Archer Murray Level(7, Enemy, 1) [10,18] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x80 Archer Murray Level(7, Enemy, 1) [12,18] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI
+UNIT
+
+Wave5:
+UNIT 0x80 LanceCav Bazba Level(8, Enemy, 1) [16,7] 0x00 0x00 0x0 0x00 [KillerLance, Horseslayer] PursueWithoutHeedAI 
+UNIT 0x80 LanceCav Bazba Level(8, Enemy, 1) [16,8] 0x00 0x00 0x0 0x00 [KillerLance, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 AxeCav Bazba Level(8, Enemy, 1) [17,7] 0x00 0x00 0x0 0x00 [IronMace, Hurlbat] PursueWithoutHeedAI 
+UNIT 0x80 AxeCav Bazba Level(8, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [IronMace, Hurlbat] PursueWithoutHeedAI
+UNIT 0x80 Archer Murray Level(8, Enemy, 1) [17,17] 0x00 0x00 0x0 0x00 [IronGreatbow] PursueWithoutHeedAI 
+UNIT 0x80 Archer Murray Level(8, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [IronGreatbow] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Murray Level(8, Enemy, 1) [17,18] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Murray Level(8, Enemy, 1) [0,18] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
+UNIT 0x80 Cavalier Bazba Level(8, Enemy, 1) [10,18] 0x00 0x00 0x0 0x00 [SteelSword, Longsword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Bazba Level(8, Enemy, 1) [12,18] 0x00 0x00 0x0 0x00 [SteelSword, Longsword] PursueWithoutHeedAI
+UNIT
+
+Wave6:
+UNIT 0x80 Cavalier Bazba Level(8, Enemy, 1) [16,7] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Bazba Level(8, Enemy, 1) [16,8] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI
+UNIT 0x80 LanceCav Bazba Level(8, Enemy, 1) [17,7] 0x00 0x00 0x0 0x00 [IronPike, Lancea] PursueWithoutHeedAI 
+UNIT 0x80 LanceCav Bazba Level(8, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [IronPike, Lancea] PursueWithoutHeedAI
+UNIT 0x80 Barbarian Murray Level(8, Enemy, 1) [17,17] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Barbarian Murray Level(8, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Murray Level(8, Enemy, 1) [17,18] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Mercenary Murray Level(8, Enemy, 1) [0,18] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 Archer Murray Level(8, Enemy, 1) [10,18] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x80 Archer Murray Level(8, Enemy, 1) [12,18] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI
+UNIT
+
+WaveArea:
+UNIT 0x80 Mage Bazba Level(7, Enemy, 1) [1,8] 0x00 0x00 0x0 0x00 [Blizzard, Beastburn, Electrify] PursueWithoutHeedAI 
+UNIT 0x80 Mage Bazba Level(7, Enemy, 1) [3,8] 0x00 0x00 0x0 0x00 [Blizzard, Beastburn, Electrify] PursueWithoutHeedAI
+UNIT 0x80 Cavalier Murray Level(7, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [KillingEdge, Longsword] PursueWithoutHeedAI 
+UNIT 0x80 Nomad Murray Level(7, Enemy, 1) [0,15] 0x00 0x00 0x0 0x00 [IronGreatbow, Mageslayer] PursueWithoutHeedAI
+UNIT
 
 CharacterBasedEvents:
 CharacterEventBothWays(0x7, RecruitTalk, Wren, Nemain)
@@ -57,6 +166,7 @@ ALIGN 4
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+AREA 0xB WaveStairs [0, 0] [4, 4]
 END_MAIN
 
 Dunno1:
@@ -100,7 +210,7 @@ UNIT Nemain Myrmidon_F Murray Level(7, Enemy, 0) [11,7] 0x00 0x00 0x0 0x00 [Kill
 UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [Blizzard] AttackInRangeAI 
 UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [17,13] 0x00 0x00 0x0 0x00 [Blizzard] AttackInRangeAI 
 UNIT 0x80 Mage Bazba Level(4, Enemy, 1) [10,18] 0x00 0x00 0x0 0x00 [Blizzard] AttackInRangeAI 
-UNIT 0x80 Knight Bazba Level(9, Enemy, 1) [3,14] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 
+UNIT 0x80 Knight Bazba Level(5, Enemy, 1) [3,14] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 
 UNIT 0x80 Knight Bazba Level(5, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 
 UNIT 0x80 Knight Bazba Level(5, Enemy, 1) [12,12] 0x00 0x00 0x0 0x00 [Javelin, SteelBlade] NeverMoveAI 
 UNIT 0x80 WyvernRider Bazba Level(8, Enemy, 1) [16,17] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 

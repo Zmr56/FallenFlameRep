@@ -84,25 +84,25 @@ Escort the merchants[N]
 to the marked points.[X]
 
 ## SeizeWindow
-Seize.[X]
+Seize[X]
 
 ## RoutWindow
-Rout.[X]
+Rout[X]
 
 ## KillBossWindow
-Kill Boss.[X]
+Kill Boss[X]
 
 ## MultiKillBossWindow
-Kill All Bosses.[X]
+Kill All Bosses[X]
 
 ## DefendFatNobleWindow
 Defend[X]
 
 ## EscapeWindow
-Escape.[X]
+Escape[X]
 
 ## EscortWindow
-Escort.[X]
+Escort[X]
 
 ## SeizeThroneStatus
 Seize the throne.[X]
